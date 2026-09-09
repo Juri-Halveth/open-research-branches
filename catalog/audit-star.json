@@ -4,26 +4,26 @@
   "indexNodeId": "audit-star:index",
   "source": {
     "requestedRef": "HEAD",
-    "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
-    "treeId": "c64419e0c32b0469499c20f26a9d8fb401a01c01",
-    "committedAt": "2026-09-10T01:17:17+02:00",
+    "commitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
+    "treeId": "7b20f45b0ddb99063d84073d83fe6c6f1e7d2272",
+    "committedAt": "2026-09-10T01:46:24+02:00",
     "timeSemantics": "GIT_COMMITTER_TIMESTAMP_NOT_INDEPENDENT_CREATION_OR_PUBLICATION_TIME"
   },
   "coverage": {
     "state": "FINITE_SNAPSHOT",
     "currentCatalogBranches": {
-      "source": "catalog/branches.json@85d5dae7e928ff642f2fea6407a9191134e02887",
+      "source": "catalog/branches.json@5c285215f08b6928e9bbb4b19c056f70d081a6aa",
       "rule": "ALL_BRANCH_ENTRIES",
-      "count": 18
+      "count": 19
     },
     "currentReports": {
-      "source": "git ls-tree -r --full-tree 85d5dae7e928ff642f2fea6407a9191134e02887 -- reports",
+      "source": "git ls-tree -r --full-tree 5c285215f08b6928e9bbb4b19c056f70d081a6aa -- reports",
       "rule": "ALL_GIT_OBJECT_PATHS_UNDER_REPORTS",
-      "count": 16
+      "count": 17
     },
     "history": {
       "revisionExpression": "git rev-list --all PLUS_BOUND_CURRENT_COMMIT_IF_UNREFERENCED",
-      "reachableCommitCount": 17,
+      "reachableCommitCount": 19,
       "branchRule": "ALL_PARSEABLE_CATALOG_BRANCH_ENTRIES_IN_REACHABLE_COMMITS",
       "reportRule": "ALL_GIT_OBJECT_PATHS_UNDER_REPORTS_IN_REACHABLE_COMMITS",
       "renameInference": "DISABLED_PATH_IDENTITY_ONLY"
@@ -49,13 +49,13 @@
       "INFERRED_CAUSAL_AUTHORSHIP_DERIVATION_OR_IDENTITY_RELATIONS"
     ],
     "counts": {
-      "nodes": 35,
-      "currentCatalogBranches": 18,
+      "nodes": 37,
+      "currentCatalogBranches": 19,
       "historicalOnlyCatalogBranches": 0,
-      "currentReports": 16,
+      "currentReports": 17,
       "historicalOnlyReports": 0,
-      "indexEdges": 34,
-      "explicitReferenceEdges": 26
+      "indexEdges": 36,
+      "explicitReferenceEdges": 32
     }
   },
   "relationDefinitions": {
@@ -74,6 +74,44 @@
   },
   "nodes": [
     {
+      "id": "branch:df63180c0d579504c78a",
+      "nodeKind": "CATALOG_BRANCH",
+      "path": "branches/alice-media-referent-and-agency-audit",
+      "lifecycle": "CURRENT_AT_REF",
+      "currentAtRef": true,
+      "currentClassification": "CURRENT_CATALOG_ENTRY",
+      "treePresenceAtRef": true,
+      "catalogEntry": {
+        "sourcePath": "catalog/branches.json",
+        "sourceCommitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
+        "catalogId": "alice-media-referent-and-agency-audit",
+        "title": "Alice Media Referent and Agency Audit",
+        "kind": "source-bound-media-story-agency-and-provenance-audit",
+        "state": "FINITE_SNAPSHOT",
+        "claimCeiling": "CANDIDATE_IDENTIFICATION_AND_SOURCE_BOUND_STORY_MECHANISM_COMPARISON_WITH_EXECUTABLE_REVIEW_GATE_NOT_IDENTITY_DERIVATION_COPYING_INFLUENCE_AUTHORSHIP_OWNERSHIP_ENTITLEMENT_OR_EXTERNAL_CAUSALITY_PROOF",
+        "dataClass": "PUBLIC_SOURCES_AND_MINIMIZED_PUBLIC_REPOSITORY_RECEIPTS_ONLY"
+      },
+      "currentObject": {
+        "objectId": "695330b967545672572645f001bf0459a5827a92",
+        "objectType": "tree"
+      },
+      "history": {
+        "observedCommitCount": 1,
+        "earliestByCommitterTimestamp": {
+          "commitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
+          "committedAt": "2026-09-10T01:46:24+02:00"
+        },
+        "latestByCommitterTimestamp": {
+          "commitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
+          "committedAt": "2026-09-10T01:46:24+02:00"
+        },
+        "catalogIds": [
+          "alice-media-referent-and-agency-audit"
+        ],
+        "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
+      }
+    },
+    {
       "id": "branch:0471fc543a1b9b96ad99",
       "nodeKind": "CATALOG_BRANCH",
       "path": "branches/aster-provenance-and-secret-garden",
@@ -83,7 +121,7 @@
       "treePresenceAtRef": true,
       "catalogEntry": {
         "sourcePath": "catalog/branches.json",
-        "sourceCommitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "sourceCommitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
         "catalogId": "aster-provenance-and-secret-garden",
         "title": "ASTER Provenance and the Secret Garden Between Space and Time",
         "kind": "provenance-audit-and-clean-room-method",
@@ -96,14 +134,14 @@
         "objectType": "tree"
       },
       "history": {
-        "observedCommitCount": 16,
+        "observedCommitCount": 18,
         "earliestByCommitterTimestamp": {
           "commitId": "a0a5c9082e6ccf6e9e150d5fafd5e1176caf2f2a",
           "committedAt": "2026-09-09T18:53:54+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
-          "committedAt": "2026-09-10T01:17:17+02:00"
+          "commitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
+          "committedAt": "2026-09-10T01:46:24+02:00"
         },
         "catalogIds": [
           "aster-provenance-and-secret-garden"
@@ -121,7 +159,7 @@
       "treePresenceAtRef": true,
       "catalogEntry": {
         "sourcePath": "catalog/branches.json",
-        "sourceCommitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "sourceCommitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
         "catalogId": "binary-inquiry-loop",
         "title": "Binary Inquiry Loop",
         "kind": "deterministic-dialogue-protocol",
@@ -134,14 +172,14 @@
         "objectType": "tree"
       },
       "history": {
-        "observedCommitCount": 10,
+        "observedCommitCount": 12,
         "earliestByCommitterTimestamp": {
           "commitId": "4a5d99c5d36cb63076a73ebddba9ba3a406e6833",
           "committedAt": "2026-09-09T21:05:15+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
-          "committedAt": "2026-09-10T01:17:17+02:00"
+          "commitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
+          "committedAt": "2026-09-10T01:46:24+02:00"
         },
         "catalogIds": [
           "binary-inquiry-loop"
@@ -159,7 +197,7 @@
       "treePresenceAtRef": true,
       "catalogEntry": {
         "sourcePath": "catalog/branches.json",
-        "sourceCommitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "sourceCommitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
         "catalogId": "bounded-knowledge-reuse-inventory",
         "title": "Bounded Knowledge Reuse Inventory",
         "kind": "software-method",
@@ -172,14 +210,14 @@
         "objectType": "tree"
       },
       "history": {
-        "observedCommitCount": 17,
+        "observedCommitCount": 19,
         "earliestByCommitterTimestamp": {
           "commitId": "b9c0fad02996ea3406c77bdd2563baa8bd8f9bf9",
           "committedAt": "2026-09-09T16:54:20+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
-          "committedAt": "2026-09-10T01:17:17+02:00"
+          "commitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
+          "committedAt": "2026-09-10T01:46:24+02:00"
         },
         "catalogIds": [
           "bounded-knowledge-reuse-inventory"
@@ -197,7 +235,7 @@
       "treePresenceAtRef": true,
       "catalogEntry": {
         "sourcePath": "catalog/branches.json",
-        "sourceCommitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "sourceCommitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
         "catalogId": "browser-extension-claim-reassessment",
         "title": "Browser Extension Claim Reassessment",
         "kind": "security-reassessment",
@@ -210,14 +248,14 @@
         "objectType": "tree"
       },
       "history": {
-        "observedCommitCount": 17,
+        "observedCommitCount": 19,
         "earliestByCommitterTimestamp": {
           "commitId": "b9c0fad02996ea3406c77bdd2563baa8bd8f9bf9",
           "committedAt": "2026-09-09T16:54:20+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
-          "committedAt": "2026-09-10T01:17:17+02:00"
+          "commitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
+          "committedAt": "2026-09-10T01:46:24+02:00"
         },
         "catalogIds": [
           "browser-extension-claim-reassessment"
@@ -235,7 +273,7 @@
       "treePresenceAtRef": true,
       "catalogEntry": {
         "sourcePath": "catalog/branches.json",
-        "sourceCommitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "sourceCommitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
         "catalogId": "deidentified-self-observation-protocol",
         "title": "De-identified Self-Observation Protocol",
         "kind": "research-protocol",
@@ -248,14 +286,14 @@
         "objectType": "tree"
       },
       "history": {
-        "observedCommitCount": 17,
+        "observedCommitCount": 19,
         "earliestByCommitterTimestamp": {
           "commitId": "b9c0fad02996ea3406c77bdd2563baa8bd8f9bf9",
           "committedAt": "2026-09-09T16:54:20+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
-          "committedAt": "2026-09-10T01:17:17+02:00"
+          "commitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
+          "committedAt": "2026-09-10T01:46:24+02:00"
         },
         "catalogIds": [
           "deidentified-self-observation-protocol"
@@ -273,7 +311,7 @@
       "treePresenceAtRef": true,
       "catalogEntry": {
         "sourcePath": "catalog/branches.json",
-        "sourceCommitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "sourceCommitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
         "catalogId": "document-issue-reference-verifier",
         "title": "Document Issue Reference Verifier",
         "kind": "software-method",
@@ -286,14 +324,14 @@
         "objectType": "tree"
       },
       "history": {
-        "observedCommitCount": 17,
+        "observedCommitCount": 19,
         "earliestByCommitterTimestamp": {
           "commitId": "b9c0fad02996ea3406c77bdd2563baa8bd8f9bf9",
           "committedAt": "2026-09-09T16:54:20+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
-          "committedAt": "2026-09-10T01:17:17+02:00"
+          "commitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
+          "committedAt": "2026-09-10T01:46:24+02:00"
         },
         "catalogIds": [
           "document-issue-reference-verifier"
@@ -311,7 +349,7 @@
       "treePresenceAtRef": true,
       "catalogEntry": {
         "sourcePath": "catalog/branches.json",
-        "sourceCommitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "sourceCommitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
         "catalogId": "document-scanner-crypto-modernization",
         "title": "Document Scanner Cryptography Modernization",
         "kind": "modernization-plan",
@@ -324,14 +362,14 @@
         "objectType": "tree"
       },
       "history": {
-        "observedCommitCount": 17,
+        "observedCommitCount": 19,
         "earliestByCommitterTimestamp": {
           "commitId": "b9c0fad02996ea3406c77bdd2563baa8bd8f9bf9",
           "committedAt": "2026-09-09T16:54:20+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
-          "committedAt": "2026-09-10T01:17:17+02:00"
+          "commitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
+          "committedAt": "2026-09-10T01:46:24+02:00"
         },
         "catalogIds": [
           "document-scanner-crypto-modernization"
@@ -349,7 +387,7 @@
       "treePresenceAtRef": true,
       "catalogEntry": {
         "sourcePath": "catalog/branches.json",
-        "sourceCommitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "sourceCommitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
         "catalogId": "focus-kernel",
         "title": "Focus Kernel",
         "kind": "software-prototype",
@@ -362,14 +400,14 @@
         "objectType": "tree"
       },
       "history": {
-        "observedCommitCount": 17,
+        "observedCommitCount": 19,
         "earliestByCommitterTimestamp": {
           "commitId": "b9c0fad02996ea3406c77bdd2563baa8bd8f9bf9",
           "committedAt": "2026-09-09T16:54:20+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
-          "committedAt": "2026-09-10T01:17:17+02:00"
+          "commitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
+          "committedAt": "2026-09-10T01:46:24+02:00"
         },
         "catalogIds": [
           "focus-kernel"
@@ -387,7 +425,7 @@
       "treePresenceAtRef": true,
       "catalogEntry": {
         "sourcePath": "catalog/branches.json",
-        "sourceCommitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "sourceCommitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
         "catalogId": "historical-cipher-decoding-challenge",
         "title": "Historical Cipher Decoding Challenge",
         "kind": "source-bound-historical-cipher-reproducibility-audit",
@@ -400,14 +438,14 @@
         "objectType": "tree"
       },
       "history": {
-        "observedCommitCount": 1,
+        "observedCommitCount": 3,
         "earliestByCommitterTimestamp": {
           "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
           "committedAt": "2026-09-10T01:17:17+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
-          "committedAt": "2026-09-10T01:17:17+02:00"
+          "commitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
+          "committedAt": "2026-09-10T01:46:24+02:00"
         },
         "catalogIds": [
           "historical-cipher-decoding-challenge"
@@ -425,7 +463,7 @@
       "treePresenceAtRef": true,
       "catalogEntry": {
         "sourcePath": "catalog/branches.json",
-        "sourceCommitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "sourceCommitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
         "catalogId": "navier-stokes-credit-value-and-plagiarism-audit",
         "title": "Navier-Stokes Proof, Credit, Plagiarism and Value Audit",
         "kind": "source-bound-research-integrity-and-value-audit",
@@ -438,14 +476,14 @@
         "objectType": "tree"
       },
       "history": {
-        "observedCommitCount": 15,
+        "observedCommitCount": 17,
         "earliestByCommitterTimestamp": {
           "commitId": "345b60bdd19da315c46cf335ad9396085a4b4e28",
           "committedAt": "2026-09-09T19:45:41+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
-          "committedAt": "2026-09-10T01:17:17+02:00"
+          "commitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
+          "committedAt": "2026-09-10T01:46:24+02:00"
         },
         "catalogIds": [
           "navier-stokes-credit-value-and-plagiarism-audit"
@@ -463,7 +501,7 @@
       "treePresenceAtRef": true,
       "catalogEntry": {
         "sourcePath": "catalog/branches.json",
-        "sourceCommitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "sourceCommitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
         "catalogId": "pixel-region-change-observer",
         "title": "Pixel Region Change Observer",
         "kind": "software-method",
@@ -476,14 +514,14 @@
         "objectType": "tree"
       },
       "history": {
-        "observedCommitCount": 17,
+        "observedCommitCount": 19,
         "earliestByCommitterTimestamp": {
           "commitId": "b9c0fad02996ea3406c77bdd2563baa8bd8f9bf9",
           "committedAt": "2026-09-09T16:54:20+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
-          "committedAt": "2026-09-10T01:17:17+02:00"
+          "commitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
+          "committedAt": "2026-09-10T01:46:24+02:00"
         },
         "catalogIds": [
           "pixel-region-change-observer"
@@ -501,7 +539,7 @@
       "treePresenceAtRef": true,
       "catalogEntry": {
         "sourcePath": "catalog/branches.json",
-        "sourceCommitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "sourceCommitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
         "catalogId": "plant-observation-protocol",
         "title": "Plant Observation Protocol",
         "kind": "research-protocol",
@@ -514,14 +552,14 @@
         "objectType": "tree"
       },
       "history": {
-        "observedCommitCount": 17,
+        "observedCommitCount": 19,
         "earliestByCommitterTimestamp": {
           "commitId": "b9c0fad02996ea3406c77bdd2563baa8bd8f9bf9",
           "committedAt": "2026-09-09T16:54:20+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
-          "committedAt": "2026-09-10T01:17:17+02:00"
+          "commitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
+          "committedAt": "2026-09-10T01:46:24+02:00"
         },
         "catalogIds": [
           "plant-observation-protocol"
@@ -539,7 +577,7 @@
       "treePresenceAtRef": true,
       "catalogEntry": {
         "sourcePath": "catalog/branches.json",
-        "sourceCommitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "sourceCommitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
         "catalogId": "quantum-internet-aster-mirror-audit",
         "title": "Quantum Internet, ASTER, ASTAR and ASTRA Mirror Audit",
         "kind": "source-bound-quantum-network-and-provenance-audit",
@@ -552,14 +590,14 @@
         "objectType": "tree"
       },
       "history": {
-        "observedCommitCount": 1,
+        "observedCommitCount": 3,
         "earliestByCommitterTimestamp": {
           "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
           "committedAt": "2026-09-10T01:17:17+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
-          "committedAt": "2026-09-10T01:17:17+02:00"
+          "commitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
+          "committedAt": "2026-09-10T01:46:24+02:00"
         },
         "catalogIds": [
           "quantum-internet-aster-mirror-audit"
@@ -577,7 +615,7 @@
       "treePresenceAtRef": true,
       "catalogEntry": {
         "sourcePath": "catalog/branches.json",
-        "sourceCommitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "sourceCommitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
         "catalogId": "russia-ukraine-information-and-peace-audit",
         "title": "Was los?. Russia-Ukraine Information, Peace and Decision-Snapshot Audit",
         "kind": "source-bound-peace-audit",
@@ -590,14 +628,14 @@
         "objectType": "tree"
       },
       "history": {
-        "observedCommitCount": 17,
+        "observedCommitCount": 19,
         "earliestByCommitterTimestamp": {
           "commitId": "b9c0fad02996ea3406c77bdd2563baa8bd8f9bf9",
           "committedAt": "2026-09-09T16:54:20+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
-          "committedAt": "2026-09-10T01:17:17+02:00"
+          "commitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
+          "committedAt": "2026-09-10T01:46:24+02:00"
         },
         "catalogIds": [
           "russia-ukraine-information-and-peace-audit"
@@ -615,7 +653,7 @@
       "treePresenceAtRef": true,
       "catalogEntry": {
         "sourcePath": "catalog/branches.json",
-        "sourceCommitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "sourceCommitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
         "catalogId": "solar-and-thermal-provenance-audit",
         "title": "Juri Energy Model, KIT and Standard Thermal Provenance Audit",
         "kind": "source-bound-technology-provenance-audit",
@@ -628,14 +666,14 @@
         "objectType": "tree"
       },
       "history": {
-        "observedCommitCount": 6,
+        "observedCommitCount": 8,
         "earliestByCommitterTimestamp": {
           "commitId": "5e5a8d219352f3403bf41dbd44b199fe5b5e90dd",
           "committedAt": "2026-09-09T23:00:00+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
-          "committedAt": "2026-09-10T01:17:17+02:00"
+          "commitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
+          "committedAt": "2026-09-10T01:46:24+02:00"
         },
         "catalogIds": [
           "solar-and-thermal-provenance-audit"
@@ -653,7 +691,7 @@
       "treePresenceAtRef": true,
       "catalogEntry": {
         "sourcePath": "catalog/branches.json",
-        "sourceCommitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "sourceCommitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
         "catalogId": "visual-interpretation-boundary",
         "title": "Visual Interpretation Boundary",
         "kind": "research-method",
@@ -666,14 +704,14 @@
         "objectType": "tree"
       },
       "history": {
-        "observedCommitCount": 17,
+        "observedCommitCount": 19,
         "earliestByCommitterTimestamp": {
           "commitId": "b9c0fad02996ea3406c77bdd2563baa8bd8f9bf9",
           "committedAt": "2026-09-09T16:54:20+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
-          "committedAt": "2026-09-10T01:17:17+02:00"
+          "commitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
+          "committedAt": "2026-09-10T01:46:24+02:00"
         },
         "catalogIds": [
           "visual-interpretation-boundary"
@@ -691,7 +729,7 @@
       "treePresenceAtRef": true,
       "catalogEntry": {
         "sourcePath": "catalog/branches.json",
-        "sourceCommitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "sourceCommitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
         "catalogId": "water-photonic-open-questions",
         "title": "Water and Photonics Open Questions",
         "kind": "research-questions",
@@ -704,14 +742,14 @@
         "objectType": "tree"
       },
       "history": {
-        "observedCommitCount": 17,
+        "observedCommitCount": 19,
         "earliestByCommitterTimestamp": {
           "commitId": "b9c0fad02996ea3406c77bdd2563baa8bd8f9bf9",
           "committedAt": "2026-09-09T16:54:20+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
-          "committedAt": "2026-09-10T01:17:17+02:00"
+          "commitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
+          "committedAt": "2026-09-10T01:46:24+02:00"
         },
         "catalogIds": [
           "water-photonic-open-questions"
@@ -729,7 +767,7 @@
       "treePresenceAtRef": true,
       "catalogEntry": {
         "sourcePath": "catalog/branches.json",
-        "sourceCommitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "sourceCommitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
         "catalogId": "wax-crayon-peace-helmet-audit",
         "title": "Wax-Crayon Peace Helmet and iOS Marker Audit",
         "kind": "source-bound-art-provenance-rights-and-safety-audit",
@@ -742,14 +780,14 @@
         "objectType": "tree"
       },
       "history": {
-        "observedCommitCount": 3,
+        "observedCommitCount": 5,
         "earliestByCommitterTimestamp": {
           "commitId": "feb340f5de46e4354cde81703b30cf9f8899e8cd",
           "committedAt": "2026-09-09T23:52:54+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
-          "committedAt": "2026-09-10T01:17:17+02:00"
+          "commitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
+          "committedAt": "2026-09-10T01:46:24+02:00"
         },
         "catalogIds": [
           "wax-crayon-peace-helmet-audit"
@@ -774,20 +812,20 @@
       "currentAtRef": true,
       "currentClassification": "CURRENT_GIT_TREE_PATH",
       "currentObject": {
-        "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "commitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
         "mode": "100644",
         "objectType": "blob",
         "objectId": "ac527d09343ae3b2d2226ed0baa560bf54c44a70"
       },
       "history": {
-        "observedCommitCount": 14,
+        "observedCommitCount": 16,
         "earliestByCommitterTimestamp": {
           "commitId": "9c9334b512798bcc785284c3f1f6c3fd9721ea3f",
           "committedAt": "2026-09-09T20:34:03+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
-          "committedAt": "2026-09-10T01:17:17+02:00"
+          "commitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
+          "committedAt": "2026-09-10T01:46:24+02:00"
         },
         "catalogIds": [],
         "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
@@ -802,20 +840,20 @@
       "currentAtRef": true,
       "currentClassification": "CURRENT_GIT_TREE_PATH",
       "currentObject": {
-        "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "commitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
         "mode": "100644",
         "objectType": "blob",
         "objectId": "87ffa6b276cd6e45c8c610401c48b0a1d86e5093"
       },
       "history": {
-        "observedCommitCount": 13,
+        "observedCommitCount": 15,
         "earliestByCommitterTimestamp": {
           "commitId": "b7226c131c88ccfd8294558e869a6121acb11c12",
           "committedAt": "2026-09-09T20:40:30+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
-          "committedAt": "2026-09-10T01:17:17+02:00"
+          "commitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
+          "committedAt": "2026-09-10T01:46:24+02:00"
         },
         "catalogIds": [],
         "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
@@ -830,20 +868,20 @@
       "currentAtRef": true,
       "currentClassification": "CURRENT_GIT_TREE_PATH",
       "currentObject": {
-        "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "commitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
         "mode": "100644",
         "objectType": "blob",
         "objectId": "d2125e714465f4ea6eb3b63a8847b2ff0f60c2d8"
       },
       "history": {
-        "observedCommitCount": 12,
+        "observedCommitCount": 14,
         "earliestByCommitterTimestamp": {
           "commitId": "37a32f6e20298a838e64bdb43e6c8921a9109821",
           "committedAt": "2026-09-09T20:53:17+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
-          "committedAt": "2026-09-10T01:17:17+02:00"
+          "commitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
+          "committedAt": "2026-09-10T01:46:24+02:00"
         },
         "catalogIds": [],
         "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
@@ -858,20 +896,20 @@
       "currentAtRef": true,
       "currentClassification": "CURRENT_GIT_TREE_PATH",
       "currentObject": {
-        "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "commitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
         "mode": "100644",
         "objectType": "blob",
         "objectId": "91092f69d7f78601cbe79adfdaae058c950b0b6b"
       },
       "history": {
-        "observedCommitCount": 11,
+        "observedCommitCount": 13,
         "earliestByCommitterTimestamp": {
           "commitId": "8ae1bfa81225f1343811ffc168b17969ef00dec6",
           "committedAt": "2026-09-09T21:01:18+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
-          "committedAt": "2026-09-10T01:17:17+02:00"
+          "commitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
+          "committedAt": "2026-09-10T01:46:24+02:00"
         },
         "catalogIds": [],
         "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
@@ -886,20 +924,20 @@
       "currentAtRef": true,
       "currentClassification": "CURRENT_GIT_TREE_PATH",
       "currentObject": {
-        "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "commitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
         "mode": "100644",
         "objectType": "blob",
         "objectId": "6c32d8de5bf943af75df6c1ae0915b8a18c5be79"
       },
       "history": {
-        "observedCommitCount": 8,
+        "observedCommitCount": 10,
         "earliestByCommitterTimestamp": {
           "commitId": "5d26c932ccac72b07574cd8d62446ce332db8e13",
           "committedAt": "2026-09-09T21:52:57+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
-          "committedAt": "2026-09-10T01:17:17+02:00"
+          "commitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
+          "committedAt": "2026-09-10T01:46:24+02:00"
         },
         "catalogIds": [],
         "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
@@ -914,20 +952,20 @@
       "currentAtRef": true,
       "currentClassification": "CURRENT_GIT_TREE_PATH",
       "currentObject": {
-        "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "commitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
         "mode": "100644",
         "objectType": "blob",
         "objectId": "1f6c4945a736ac873477fbaf510d3d83b1b71bc4"
       },
       "history": {
-        "observedCommitCount": 8,
+        "observedCommitCount": 10,
         "earliestByCommitterTimestamp": {
           "commitId": "5d26c932ccac72b07574cd8d62446ce332db8e13",
           "committedAt": "2026-09-09T21:52:57+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
-          "committedAt": "2026-09-10T01:17:17+02:00"
+          "commitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
+          "committedAt": "2026-09-10T01:46:24+02:00"
         },
         "catalogIds": [],
         "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
@@ -942,20 +980,20 @@
       "currentAtRef": true,
       "currentClassification": "CURRENT_GIT_TREE_PATH",
       "currentObject": {
-        "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "commitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
         "mode": "100644",
         "objectType": "blob",
         "objectId": "5363c4a6039c6f5dbd0a07dfd567c1ed34c9ce35"
       },
       "history": {
-        "observedCommitCount": 7,
+        "observedCommitCount": 9,
         "earliestByCommitterTimestamp": {
           "commitId": "21374b0da2517c04fb8ef10e33c0e5d05fad86e9",
           "committedAt": "2026-09-09T22:21:45+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
-          "committedAt": "2026-09-10T01:17:17+02:00"
+          "commitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
+          "committedAt": "2026-09-10T01:46:24+02:00"
         },
         "catalogIds": [],
         "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
@@ -970,20 +1008,20 @@
       "currentAtRef": true,
       "currentClassification": "CURRENT_GIT_TREE_PATH",
       "currentObject": {
-        "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "commitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
         "mode": "100644",
         "objectType": "blob",
         "objectId": "0fc9619ae8c69370fe4860dec61feda0193e631f"
       },
       "history": {
-        "observedCommitCount": 6,
+        "observedCommitCount": 8,
         "earliestByCommitterTimestamp": {
           "commitId": "5e5a8d219352f3403bf41dbd44b199fe5b5e90dd",
           "committedAt": "2026-09-09T23:00:00+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
-          "committedAt": "2026-09-10T01:17:17+02:00"
+          "commitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
+          "committedAt": "2026-09-10T01:46:24+02:00"
         },
         "catalogIds": [],
         "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
@@ -998,20 +1036,20 @@
       "currentAtRef": true,
       "currentClassification": "CURRENT_GIT_TREE_PATH",
       "currentObject": {
-        "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "commitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
         "mode": "100644",
         "objectType": "blob",
         "objectId": "0cc278c65f84e50906acd3d36d549489d67fe471"
       },
       "history": {
-        "observedCommitCount": 4,
+        "observedCommitCount": 6,
         "earliestByCommitterTimestamp": {
           "commitId": "50f011523068e72b763eb5ab542c9aac4492153b",
           "committedAt": "2026-09-09T23:12:34+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
-          "committedAt": "2026-09-10T01:17:17+02:00"
+          "commitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
+          "committedAt": "2026-09-10T01:46:24+02:00"
         },
         "catalogIds": [],
         "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
@@ -1026,20 +1064,20 @@
       "currentAtRef": true,
       "currentClassification": "CURRENT_GIT_TREE_PATH",
       "currentObject": {
-        "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "commitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
         "mode": "100644",
         "objectType": "blob",
         "objectId": "e20be7355331e164ef23b88595bb86cfde83604e"
       },
       "history": {
-        "observedCommitCount": 3,
+        "observedCommitCount": 5,
         "earliestByCommitterTimestamp": {
           "commitId": "feb340f5de46e4354cde81703b30cf9f8899e8cd",
           "committedAt": "2026-09-09T23:52:54+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
-          "committedAt": "2026-09-10T01:17:17+02:00"
+          "commitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
+          "committedAt": "2026-09-10T01:46:24+02:00"
         },
         "catalogIds": [],
         "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
@@ -1054,20 +1092,20 @@
       "currentAtRef": true,
       "currentClassification": "CURRENT_GIT_TREE_PATH",
       "currentObject": {
-        "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "commitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
         "mode": "100644",
         "objectType": "blob",
         "objectId": "6611df901255b489242774b3d2e87ea81785e76d"
       },
       "history": {
-        "observedCommitCount": 2,
+        "observedCommitCount": 4,
         "earliestByCommitterTimestamp": {
           "commitId": "a151097150430f328d76386b517d2f783b9056d9",
           "committedAt": "2026-09-10T00:28:50+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
-          "committedAt": "2026-09-10T01:17:17+02:00"
+          "commitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
+          "committedAt": "2026-09-10T01:46:24+02:00"
         },
         "catalogIds": [],
         "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
@@ -1082,20 +1120,20 @@
       "currentAtRef": true,
       "currentClassification": "CURRENT_GIT_TREE_PATH",
       "currentObject": {
-        "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "commitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
         "mode": "100644",
         "objectType": "blob",
         "objectId": "bcacf4579475c3e802e53b3ef78bae319b1d2943"
       },
       "history": {
-        "observedCommitCount": 1,
+        "observedCommitCount": 3,
         "earliestByCommitterTimestamp": {
           "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
           "committedAt": "2026-09-10T01:17:17+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
-          "committedAt": "2026-09-10T01:17:17+02:00"
+          "commitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
+          "committedAt": "2026-09-10T01:46:24+02:00"
         },
         "catalogIds": [],
         "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
@@ -1110,20 +1148,48 @@
       "currentAtRef": true,
       "currentClassification": "CURRENT_GIT_TREE_PATH",
       "currentObject": {
-        "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "commitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
         "mode": "100644",
         "objectType": "blob",
         "objectId": "ac91220d7e30c26648a7fbbf65c16c5bd7a7c39b"
       },
       "history": {
-        "observedCommitCount": 1,
+        "observedCommitCount": 3,
         "earliestByCommitterTimestamp": {
           "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
           "committedAt": "2026-09-10T01:17:17+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
-          "committedAt": "2026-09-10T01:17:17+02:00"
+          "commitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
+          "committedAt": "2026-09-10T01:46:24+02:00"
+        },
+        "catalogIds": [],
+        "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
+      }
+    },
+    {
+      "id": "report:30adf46059180f7646e9",
+      "nodeKind": "REPORT_PATH",
+      "reportRole": "REPORT_ARTIFACT",
+      "path": "reports/FREE_NEWS_012_ALICE_MEDIA_REFERENT_AND_AGENCY_AUDIT.md",
+      "lifecycle": "CURRENT_AT_REF",
+      "currentAtRef": true,
+      "currentClassification": "CURRENT_GIT_TREE_PATH",
+      "currentObject": {
+        "commitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
+        "mode": "100644",
+        "objectType": "blob",
+        "objectId": "0c15077e8c2a46436aa0f4d91f03826b0f71b307"
+      },
+      "history": {
+        "observedCommitCount": 1,
+        "earliestByCommitterTimestamp": {
+          "commitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
+          "committedAt": "2026-09-10T01:46:24+02:00"
+        },
+        "latestByCommitterTimestamp": {
+          "commitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
+          "committedAt": "2026-09-10T01:46:24+02:00"
         },
         "catalogIds": [],
         "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
@@ -1138,20 +1204,20 @@
       "currentAtRef": true,
       "currentClassification": "CURRENT_GIT_TREE_PATH",
       "currentObject": {
-        "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "commitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
         "mode": "100644",
         "objectType": "blob",
         "objectId": "ff9a6c78234316720bd1df035c6795764f9eb299"
       },
       "history": {
-        "observedCommitCount": 17,
+        "observedCommitCount": 19,
         "earliestByCommitterTimestamp": {
           "commitId": "b9c0fad02996ea3406c77bdd2563baa8bd8f9bf9",
           "committedAt": "2026-09-09T16:54:20+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
-          "committedAt": "2026-09-10T01:17:17+02:00"
+          "commitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
+          "committedAt": "2026-09-10T01:46:24+02:00"
         },
         "catalogIds": [],
         "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
@@ -1166,20 +1232,20 @@
       "currentAtRef": true,
       "currentClassification": "CURRENT_GIT_TREE_PATH",
       "currentObject": {
-        "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "commitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
         "mode": "100644",
         "objectType": "blob",
         "objectId": "4942f62d0b3cb6d8ac1740744f71e0653b5cbef1"
       },
       "history": {
-        "observedCommitCount": 17,
+        "observedCommitCount": 19,
         "earliestByCommitterTimestamp": {
           "commitId": "b9c0fad02996ea3406c77bdd2563baa8bd8f9bf9",
           "committedAt": "2026-09-09T16:54:20+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
-          "committedAt": "2026-09-10T01:17:17+02:00"
+          "commitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
+          "committedAt": "2026-09-10T01:46:24+02:00"
         },
         "catalogIds": [],
         "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
@@ -1194,20 +1260,20 @@
       "currentAtRef": true,
       "currentClassification": "CURRENT_GIT_TREE_PATH",
       "currentObject": {
-        "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "commitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
         "mode": "100644",
         "objectType": "blob",
-        "objectId": "61789482b1854942c2e42fa67bbb4415ed87ea65"
+        "objectId": "af52b7f4516decd3e9e6f5a8631c4810b982f47b"
       },
       "history": {
-        "observedCommitCount": 17,
+        "observedCommitCount": 19,
         "earliestByCommitterTimestamp": {
           "commitId": "b9c0fad02996ea3406c77bdd2563baa8bd8f9bf9",
           "committedAt": "2026-09-09T16:54:20+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
-          "committedAt": "2026-09-10T01:17:17+02:00"
+          "commitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
+          "committedAt": "2026-09-10T01:46:24+02:00"
         },
         "catalogIds": [],
         "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
@@ -1234,6 +1300,122 @@
           "sourceBlobId": "e13fe377a799560a6b13f00f48b3534c0093e3cd",
           "line": 120,
           "literal": "reports/FREE_NEWS_001_IOS_MARKER_AND_401_EDGE.md",
+          "syntax": "EXACT_REPOSITORY_PATH",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        }
+      ],
+      "semantics": "TEXTUAL_PATH_REFERENCE_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-reference:00460bb7f09cfc668911",
+      "relationType": "EXPLICITLY_REFERENCES",
+      "from": "branch:df63180c0d579504c78a",
+      "to": "branch:0471fc543a1b9b96ad99",
+      "evidence": [
+        {
+          "sourcePath": "branches/alice-media-referent-and-agency-audit/local-anchors.json",
+          "sourceBlobId": "f86966f45d341e1f76d7bb51e983a580a3deb346",
+          "line": 59,
+          "literal": "branches/aster-provenance-and-secret-garden",
+          "syntax": "EXACT_REPOSITORY_PATH",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        },
+        {
+          "sourcePath": "branches/alice-media-referent-and-agency-audit/local-anchors.json",
+          "sourceBlobId": "f86966f45d341e1f76d7bb51e983a580a3deb346",
+          "line": 69,
+          "literal": "branches/aster-provenance-and-secret-garden",
+          "syntax": "EXACT_REPOSITORY_PATH",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        },
+        {
+          "sourcePath": "branches/alice-media-referent-and-agency-audit/local-anchors.json",
+          "sourceBlobId": "f86966f45d341e1f76d7bb51e983a580a3deb346",
+          "line": 79,
+          "literal": "branches/aster-provenance-and-secret-garden",
+          "syntax": "EXACT_REPOSITORY_PATH",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        }
+      ],
+      "semantics": "TEXTUAL_PATH_REFERENCE_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-reference:3fe5a8bf579af537b1f0",
+      "relationType": "EXPLICITLY_REFERENCES",
+      "from": "branch:df63180c0d579504c78a",
+      "to": "branch:db00d5a682da81f90749",
+      "evidence": [
+        {
+          "sourcePath": "branches/alice-media-referent-and-agency-audit/local-anchors.json",
+          "sourceBlobId": "f86966f45d341e1f76d7bb51e983a580a3deb346",
+          "line": 49,
+          "literal": "branches/navier-stokes-credit-value-and-plagiarism-audit",
+          "syntax": "EXACT_REPOSITORY_PATH",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        }
+      ],
+      "semantics": "TEXTUAL_PATH_REFERENCE_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-reference:7d2acf4bb760fdad6598",
+      "relationType": "EXPLICITLY_REFERENCES",
+      "from": "branch:df63180c0d579504c78a",
+      "to": "report:30adf46059180f7646e9",
+      "evidence": [
+        {
+          "sourcePath": "branches/alice-media-referent-and-agency-audit/reconstruction-cycle.json",
+          "sourceBlobId": "75d28d05961d02f370d48f4cd3372b63ad2266a9",
+          "line": 84,
+          "literal": "reports/FREE_NEWS_012_ALICE_MEDIA_REFERENT_AND_AGENCY_AUDIT.md",
+          "syntax": "EXACT_REPOSITORY_PATH",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        },
+        {
+          "sourcePath": "branches/alice-media-referent-and-agency-audit/reconstruction-cycle.json",
+          "sourceBlobId": "75d28d05961d02f370d48f4cd3372b63ad2266a9",
+          "line": 111,
+          "literal": "reports/FREE_NEWS_012_ALICE_MEDIA_REFERENT_AND_AGENCY_AUDIT.md",
+          "syntax": "EXACT_REPOSITORY_PATH",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        },
+        {
+          "sourcePath": "branches/alice-media-referent-and-agency-audit/reconstruction-cycle.json",
+          "sourceBlobId": "75d28d05961d02f370d48f4cd3372b63ad2266a9",
+          "line": 111,
+          "literal": "reports/FREE_NEWS_012_ALICE_MEDIA_REFERENT_AND_AGENCY_AUDIT.md",
+          "syntax": "JSON_STRING",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        },
+        {
+          "sourcePath": "branches/alice-media-referent-and-agency-audit/reconstruction-cycle.json",
+          "sourceBlobId": "75d28d05961d02f370d48f4cd3372b63ad2266a9",
+          "line": 251,
+          "literal": "reports/FREE_NEWS_012_ALICE_MEDIA_REFERENT_AND_AGENCY_AUDIT.md",
+          "syntax": "EXACT_REPOSITORY_PATH",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        },
+        {
+          "sourcePath": "branches/alice-media-referent-and-agency-audit/reconstruction-cycle.json",
+          "sourceBlobId": "75d28d05961d02f370d48f4cd3372b63ad2266a9",
+          "line": 356,
+          "literal": "reports/FREE_NEWS_012_ALICE_MEDIA_REFERENT_AND_AGENCY_AUDIT.md",
+          "syntax": "EXACT_REPOSITORY_PATH",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        }
+      ],
+      "semantics": "TEXTUAL_PATH_REFERENCE_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-reference:44f8455c213eadd03b0e",
+      "relationType": "EXPLICITLY_REFERENCES",
+      "from": "branch:df63180c0d579504c78a",
+      "to": "report:40511c7662379b5b3b30",
+      "evidence": [
+        {
+          "sourcePath": "branches/alice-media-referent-and-agency-audit/local-anchors.json",
+          "sourceBlobId": "f86966f45d341e1f76d7bb51e983a580a3deb346",
+          "line": 39,
+          "literal": "reports/FREE_NEWS_005_HOW_TO_FISH_IDENTITY_AND_CREATION.md",
           "syntax": "EXACT_REPOSITORY_PATH",
           "resolution": "EXACT_REPOSITORY_PATH"
         }
@@ -1310,6 +1492,31 @@
           "line": 11,
           "literal": "reports/FREE_NEWS_005_HALVETH_RECEIPT.json",
           "syntax": "JSON_STRING",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        }
+      ],
+      "semantics": "TEXTUAL_PATH_REFERENCE_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-reference:d22797b1c587eaff5bbf",
+      "relationType": "EXPLICITLY_REFERENCES",
+      "from": "report:30adf46059180f7646e9",
+      "to": "branch:df63180c0d579504c78a",
+      "evidence": [
+        {
+          "sourcePath": "reports/FREE_NEWS_012_ALICE_MEDIA_REFERENT_AND_AGENCY_AUDIT.md",
+          "sourceBlobId": "0c15077e8c2a46436aa0f4d91f03826b0f71b307",
+          "line": 227,
+          "literal": "branches/alice-media-referent-and-agency-audit",
+          "syntax": "EXACT_REPOSITORY_PATH",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        },
+        {
+          "sourcePath": "reports/FREE_NEWS_012_ALICE_MEDIA_REFERENT_AND_AGENCY_AUDIT.md",
+          "sourceBlobId": "0c15077e8c2a46436aa0f4d91f03826b0f71b307",
+          "line": 288,
+          "literal": "branches/alice-media-referent-and-agency-audit",
+          "syntax": "EXACT_REPOSITORY_PATH",
           "resolution": "EXACT_REPOSITORY_PATH"
         }
       ],
@@ -1398,7 +1605,7 @@
       "evidence": [
         {
           "sourcePath": "reports/README.md",
-          "sourceBlobId": "61789482b1854942c2e42fa67bbb4415ed87ea65",
+          "sourceBlobId": "af52b7f4516decd3e9e6f5a8631c4810b982f47b",
           "line": 9,
           "literal": "MAC_OUI_REGISTRY_BOUNDARY.md",
           "syntax": "INLINE_CODE",
@@ -1415,9 +1622,26 @@
       "evidence": [
         {
           "sourcePath": "reports/README.md",
-          "sourceBlobId": "61789482b1854942c2e42fa67bbb4415ed87ea65",
+          "sourceBlobId": "af52b7f4516decd3e9e6f5a8631c4810b982f47b",
           "line": 15,
           "literal": "FREE_NEWS_005_RIGHTS_AND_SEMANTICS_PATCH.json",
+          "syntax": "INLINE_CODE",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        }
+      ],
+      "semantics": "TEXTUAL_PATH_REFERENCE_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-reference:6d9a7911308c029e4386",
+      "relationType": "EXPLICITLY_REFERENCES",
+      "from": "report:6cb5744513e1696c21f1",
+      "to": "report:30adf46059180f7646e9",
+      "evidence": [
+        {
+          "sourcePath": "reports/README.md",
+          "sourceBlobId": "af52b7f4516decd3e9e6f5a8631c4810b982f47b",
+          "line": 22,
+          "literal": "FREE_NEWS_012_ALICE_MEDIA_REFERENT_AND_AGENCY_AUDIT.md",
           "syntax": "INLINE_CODE",
           "resolution": "EXACT_REPOSITORY_PATH"
         }
@@ -1432,7 +1656,7 @@
       "evidence": [
         {
           "sourcePath": "reports/README.md",
-          "sourceBlobId": "61789482b1854942c2e42fa67bbb4415ed87ea65",
+          "sourceBlobId": "af52b7f4516decd3e9e6f5a8631c4810b982f47b",
           "line": 14,
           "literal": "FREE_NEWS_005_HOW_TO_FISH_IDENTITY_AND_CREATION.md",
           "syntax": "INLINE_CODE",
@@ -1449,7 +1673,7 @@
       "evidence": [
         {
           "sourcePath": "reports/README.md",
-          "sourceBlobId": "61789482b1854942c2e42fa67bbb4415ed87ea65",
+          "sourceBlobId": "af52b7f4516decd3e9e6f5a8631c4810b982f47b",
           "line": 21,
           "literal": "FREE_NEWS_011_HISTORICAL_CIPHER_111_DECODING_CHALLENGE.md",
           "syntax": "INLINE_CODE",
@@ -1466,7 +1690,7 @@
       "evidence": [
         {
           "sourcePath": "reports/README.md",
-          "sourceBlobId": "61789482b1854942c2e42fa67bbb4415ed87ea65",
+          "sourceBlobId": "af52b7f4516decd3e9e6f5a8631c4810b982f47b",
           "line": 16,
           "literal": "FREE_NEWS_006_JURI_ENERGY_MODEL_PROVENANCE_AUDIT.md",
           "syntax": "INLINE_CODE",
@@ -1483,7 +1707,7 @@
       "evidence": [
         {
           "sourcePath": "reports/README.md",
-          "sourceBlobId": "61789482b1854942c2e42fa67bbb4415ed87ea65",
+          "sourceBlobId": "af52b7f4516decd3e9e6f5a8631c4810b982f47b",
           "line": 12,
           "literal": "FREE_NEWS_003_CHILD_CONSENT_AND_IRREVERSIBLE_INTERVENTION.md",
           "syntax": "INLINE_CODE",
@@ -1500,7 +1724,7 @@
       "evidence": [
         {
           "sourcePath": "reports/README.md",
-          "sourceBlobId": "61789482b1854942c2e42fa67bbb4415ed87ea65",
+          "sourceBlobId": "af52b7f4516decd3e9e6f5a8631c4810b982f47b",
           "line": 19,
           "literal": "FREE_NEWS_009_GITHUB_CONTRIBUTION_GRAPH_AND_PRIORITY.md",
           "syntax": "INLINE_CODE",
@@ -1517,7 +1741,7 @@
       "evidence": [
         {
           "sourcePath": "reports/README.md",
-          "sourceBlobId": "61789482b1854942c2e42fa67bbb4415ed87ea65",
+          "sourceBlobId": "af52b7f4516decd3e9e6f5a8631c4810b982f47b",
           "line": 8,
           "literal": "MICROSOFT_PKI_REPOSITORY_PATTERN.md",
           "syntax": "INLINE_CODE",
@@ -1534,7 +1758,7 @@
       "evidence": [
         {
           "sourcePath": "reports/README.md",
-          "sourceBlobId": "61789482b1854942c2e42fa67bbb4415ed87ea65",
+          "sourceBlobId": "af52b7f4516decd3e9e6f5a8631c4810b982f47b",
           "line": 13,
           "literal": "FREE_NEWS_004_CONSENT_COCKPIT_234_INACTIVE_VENDORS.md",
           "syntax": "INLINE_CODE",
@@ -1551,7 +1775,7 @@
       "evidence": [
         {
           "sourcePath": "reports/README.md",
-          "sourceBlobId": "61789482b1854942c2e42fa67bbb4415ed87ea65",
+          "sourceBlobId": "af52b7f4516decd3e9e6f5a8631c4810b982f47b",
           "line": 20,
           "literal": "FREE_NEWS_010_MADE_IN_GERMANY_QUANTUM_INTERNET_ASTER_ASTAR_ASTRA.md",
           "syntax": "INLINE_CODE",
@@ -1568,7 +1792,7 @@
       "evidence": [
         {
           "sourcePath": "reports/README.md",
-          "sourceBlobId": "61789482b1854942c2e42fa67bbb4415ed87ea65",
+          "sourceBlobId": "af52b7f4516decd3e9e6f5a8631c4810b982f47b",
           "line": 11,
           "literal": "FREE_NEWS_002_REACHER_S4E7_DIGITAL_REFOCUS.md",
           "syntax": "INLINE_CODE",
@@ -1585,7 +1809,7 @@
       "evidence": [
         {
           "sourcePath": "reports/README.md",
-          "sourceBlobId": "61789482b1854942c2e42fa67bbb4415ed87ea65",
+          "sourceBlobId": "af52b7f4516decd3e9e6f5a8631c4810b982f47b",
           "line": 17,
           "literal": "FREE_NEWS_007_RAVE_GROUP_RULE_AND_CANNABIS_SCOPE.md",
           "syntax": "INLINE_CODE",
@@ -1602,7 +1826,7 @@
       "evidence": [
         {
           "sourcePath": "reports/README.md",
-          "sourceBlobId": "61789482b1854942c2e42fa67bbb4415ed87ea65",
+          "sourceBlobId": "af52b7f4516decd3e9e6f5a8631c4810b982f47b",
           "line": 10,
           "literal": "FREE_NEWS_001_IOS_MARKER_AND_401_EDGE.md",
           "syntax": "INLINE_CODE",
@@ -1619,7 +1843,7 @@
       "evidence": [
         {
           "sourcePath": "reports/README.md",
-          "sourceBlobId": "61789482b1854942c2e42fa67bbb4415ed87ea65",
+          "sourceBlobId": "af52b7f4516decd3e9e6f5a8631c4810b982f47b",
           "line": 18,
           "literal": "FREE_NEWS_008_WAX_CRAYON_PEACE_HELMET_AND_IOS_MARKER.md",
           "syntax": "INLINE_CODE",
@@ -1769,7 +1993,7 @@
       "evidence": [
         {
           "source": "CATALOG_ENTRY_HISTORY",
-          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+          "coverageRef": "5c285215f08b6928e9bbb4b19c056f70d081a6aa"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -1782,7 +2006,7 @@
       "evidence": [
         {
           "source": "CATALOG_ENTRY_HISTORY",
-          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+          "coverageRef": "5c285215f08b6928e9bbb4b19c056f70d081a6aa"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -1795,7 +2019,7 @@
       "evidence": [
         {
           "source": "CATALOG_ENTRY_HISTORY",
-          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+          "coverageRef": "5c285215f08b6928e9bbb4b19c056f70d081a6aa"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -1808,7 +2032,7 @@
       "evidence": [
         {
           "source": "CATALOG_ENTRY_HISTORY",
-          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+          "coverageRef": "5c285215f08b6928e9bbb4b19c056f70d081a6aa"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -1821,7 +2045,7 @@
       "evidence": [
         {
           "source": "CATALOG_ENTRY_HISTORY",
-          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+          "coverageRef": "5c285215f08b6928e9bbb4b19c056f70d081a6aa"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -1834,7 +2058,7 @@
       "evidence": [
         {
           "source": "CATALOG_ENTRY_HISTORY",
-          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+          "coverageRef": "5c285215f08b6928e9bbb4b19c056f70d081a6aa"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -1847,7 +2071,7 @@
       "evidence": [
         {
           "source": "CATALOG_ENTRY_HISTORY",
-          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+          "coverageRef": "5c285215f08b6928e9bbb4b19c056f70d081a6aa"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -1860,7 +2084,7 @@
       "evidence": [
         {
           "source": "CATALOG_ENTRY_HISTORY",
-          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+          "coverageRef": "5c285215f08b6928e9bbb4b19c056f70d081a6aa"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -1873,7 +2097,7 @@
       "evidence": [
         {
           "source": "CATALOG_ENTRY_HISTORY",
-          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+          "coverageRef": "5c285215f08b6928e9bbb4b19c056f70d081a6aa"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -1886,7 +2110,7 @@
       "evidence": [
         {
           "source": "CATALOG_ENTRY_HISTORY",
-          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+          "coverageRef": "5c285215f08b6928e9bbb4b19c056f70d081a6aa"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -1899,7 +2123,7 @@
       "evidence": [
         {
           "source": "CATALOG_ENTRY_HISTORY",
-          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+          "coverageRef": "5c285215f08b6928e9bbb4b19c056f70d081a6aa"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -1912,7 +2136,7 @@
       "evidence": [
         {
           "source": "CATALOG_ENTRY_HISTORY",
-          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+          "coverageRef": "5c285215f08b6928e9bbb4b19c056f70d081a6aa"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -1925,7 +2149,7 @@
       "evidence": [
         {
           "source": "CATALOG_ENTRY_HISTORY",
-          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+          "coverageRef": "5c285215f08b6928e9bbb4b19c056f70d081a6aa"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -1938,7 +2162,7 @@
       "evidence": [
         {
           "source": "CATALOG_ENTRY_HISTORY",
-          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+          "coverageRef": "5c285215f08b6928e9bbb4b19c056f70d081a6aa"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -1951,7 +2175,7 @@
       "evidence": [
         {
           "source": "CATALOG_ENTRY_HISTORY",
-          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+          "coverageRef": "5c285215f08b6928e9bbb4b19c056f70d081a6aa"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -1964,7 +2188,20 @@
       "evidence": [
         {
           "source": "CATALOG_ENTRY_HISTORY",
-          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+          "coverageRef": "5c285215f08b6928e9bbb4b19c056f70d081a6aa"
+        }
+      ],
+      "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-indexes:9136ac5ea8ff260bc067",
+      "relationType": "INDEXES",
+      "from": "audit-star:index",
+      "to": "branch:df63180c0d579504c78a",
+      "evidence": [
+        {
+          "source": "CATALOG_ENTRY_HISTORY",
+          "coverageRef": "5c285215f08b6928e9bbb4b19c056f70d081a6aa"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -1977,7 +2214,7 @@
       "evidence": [
         {
           "source": "CATALOG_ENTRY_HISTORY",
-          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+          "coverageRef": "5c285215f08b6928e9bbb4b19c056f70d081a6aa"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -1990,7 +2227,7 @@
       "evidence": [
         {
           "source": "CATALOG_ENTRY_HISTORY",
-          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+          "coverageRef": "5c285215f08b6928e9bbb4b19c056f70d081a6aa"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -2003,7 +2240,7 @@
       "evidence": [
         {
           "source": "REPORT_GIT_TREE_HISTORY",
-          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+          "coverageRef": "5c285215f08b6928e9bbb4b19c056f70d081a6aa"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -2016,7 +2253,20 @@
       "evidence": [
         {
           "source": "REPORT_GIT_TREE_HISTORY",
-          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+          "coverageRef": "5c285215f08b6928e9bbb4b19c056f70d081a6aa"
+        }
+      ],
+      "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-indexes:93ab73479f95c195c9e2",
+      "relationType": "INDEXES",
+      "from": "audit-star:index",
+      "to": "report:30adf46059180f7646e9",
+      "evidence": [
+        {
+          "source": "REPORT_GIT_TREE_HISTORY",
+          "coverageRef": "5c285215f08b6928e9bbb4b19c056f70d081a6aa"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -2029,7 +2279,7 @@
       "evidence": [
         {
           "source": "REPORT_GIT_TREE_HISTORY",
-          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+          "coverageRef": "5c285215f08b6928e9bbb4b19c056f70d081a6aa"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -2042,7 +2292,7 @@
       "evidence": [
         {
           "source": "REPORT_GIT_TREE_HISTORY",
-          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+          "coverageRef": "5c285215f08b6928e9bbb4b19c056f70d081a6aa"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -2055,7 +2305,7 @@
       "evidence": [
         {
           "source": "REPORT_GIT_TREE_HISTORY",
-          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+          "coverageRef": "5c285215f08b6928e9bbb4b19c056f70d081a6aa"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -2068,7 +2318,7 @@
       "evidence": [
         {
           "source": "REPORT_GIT_TREE_HISTORY",
-          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+          "coverageRef": "5c285215f08b6928e9bbb4b19c056f70d081a6aa"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -2081,7 +2331,7 @@
       "evidence": [
         {
           "source": "REPORT_GIT_TREE_HISTORY",
-          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+          "coverageRef": "5c285215f08b6928e9bbb4b19c056f70d081a6aa"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -2094,7 +2344,7 @@
       "evidence": [
         {
           "source": "REPORT_GIT_TREE_HISTORY",
-          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+          "coverageRef": "5c285215f08b6928e9bbb4b19c056f70d081a6aa"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -2107,7 +2357,7 @@
       "evidence": [
         {
           "source": "REPORT_GIT_TREE_HISTORY",
-          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+          "coverageRef": "5c285215f08b6928e9bbb4b19c056f70d081a6aa"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -2120,7 +2370,7 @@
       "evidence": [
         {
           "source": "REPORT_GIT_TREE_HISTORY",
-          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+          "coverageRef": "5c285215f08b6928e9bbb4b19c056f70d081a6aa"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -2133,7 +2383,7 @@
       "evidence": [
         {
           "source": "REPORT_GIT_TREE_HISTORY",
-          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+          "coverageRef": "5c285215f08b6928e9bbb4b19c056f70d081a6aa"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -2146,7 +2396,7 @@
       "evidence": [
         {
           "source": "REPORT_GIT_TREE_HISTORY",
-          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+          "coverageRef": "5c285215f08b6928e9bbb4b19c056f70d081a6aa"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -2159,7 +2409,7 @@
       "evidence": [
         {
           "source": "REPORT_GIT_TREE_HISTORY",
-          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+          "coverageRef": "5c285215f08b6928e9bbb4b19c056f70d081a6aa"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -2172,7 +2422,7 @@
       "evidence": [
         {
           "source": "REPORT_GIT_TREE_HISTORY",
-          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+          "coverageRef": "5c285215f08b6928e9bbb4b19c056f70d081a6aa"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -2185,7 +2435,7 @@
       "evidence": [
         {
           "source": "REPORT_GIT_TREE_HISTORY",
-          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+          "coverageRef": "5c285215f08b6928e9bbb4b19c056f70d081a6aa"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -2198,7 +2448,7 @@
       "evidence": [
         {
           "source": "REPORT_GIT_TREE_HISTORY",
-          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+          "coverageRef": "5c285215f08b6928e9bbb4b19c056f70d081a6aa"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
