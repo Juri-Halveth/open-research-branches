@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.8.0 — 2026-09-09
+
+- published `FREE NEWS 007`, a privacy-minimized audit of the phrase “no drugs” and Juris cannabis question as a request to define the rule's scope
+- separated psychoactive effect, current legal treatment, consumption route and a private group's own conduct rules instead of treating “invasive drug” as a pharmacological class
+- recorded that the supplied excerpt does not establish consumption, possession, procurement, sale, transfer, intent or a rule violation by any participant
+- excluded names, phone numbers, profile images, group identifiers and the raw private chat from the public derivative
+
 ## 0.7.1 — 2026-09-09
 
 - corrected the byte receipt for the September pause snapshot to bind the LF-normalized Git object published by GitHub
