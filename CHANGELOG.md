@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.7.1 — 2026-09-09
+
+- corrected the byte receipt for the September pause snapshot to bind the LF-normalized Git object published by GitHub
+- preserved the historical snapshot content and claim ceiling unchanged while making the release verification reproducible across Windows and Linux checkouts
+
 ## 0.7.0 — 2026-09-09
 
 - published `FREE NEWS 006`, a date- and hash-bound answer to what Juri documented: an iridium ignition, membrane, threshold, water/ice droplet, triboelectric separation, air-gap and miniature-thunderstorm-generator hypothesis plus separate optics and water-reflection work

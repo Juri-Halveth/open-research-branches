@@ -5,7 +5,7 @@ type: software
 authors:
   - name: "Juri Janovski"
   - name: "HALVETH Open Research contributors"
-version: 0.7.0
+version: 0.7.1
 date-released: 2026-09-09
 repository-code: "https://github.com/Juri-Halveth/open-research-branches"
-license-url: "https://github.com/Juri-Halveth/open-research-branches/blob/v0.7.0/LICENSES.md"
+license-url: "https://github.com/Juri-Halveth/open-research-branches/blob/v0.7.1/LICENSES.md"

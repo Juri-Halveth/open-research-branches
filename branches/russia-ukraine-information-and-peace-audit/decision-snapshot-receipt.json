@@ -12,7 +12,7 @@
     {
       "path": "september-2026-pause-snapshot.json",
       "role": "PUBLIC_SNAPSHOT_BYTES",
-      "sha256": "c4763729bce9d2d16b967d8384255633b9527ab744eb5d40a1aae5ca2b8650c9"
+      "sha256": "f3e51dcdaf232b4669943046430c8dc78af94d0ef76fc72d3a371803e2da8bc4"
     },
     {
       "path": "sources.json",
