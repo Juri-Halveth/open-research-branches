@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.3 — 2026-09-09
+
+- added `FREE NEWS 003`, a privacy-minimized German-law and ethics audit of consent to an irreversible intervention on a male child without publishing private-chat content
+- separated an unknown chat referent, sexual-offence classification, male circumcision law and the constitutional abolition of capital punishment
+- added explicit, file-scoped public attribution to `@Juri-Halveth` across the FREE NEWS series
+
 ## 0.3.2 — 2026-09-09
 
 - added `FREE NEWS 002`, a compact audit of the digital-refocus scene reported for *Reacher* season 4 episode 7

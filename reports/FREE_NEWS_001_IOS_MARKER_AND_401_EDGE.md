@@ -2,6 +2,8 @@
 
 **Stand: 9. September 2026 · Lesezeit: unter einer Minute**
 
+**Impuls und Fragestellung: [@Juri-Halveth](https://github.com/Juri-Halveth)**
+
 ## Was los?.
 
 In einer lokalen Codex-Aufgabe wurden zwei aufeinanderfolgende Anfragen an

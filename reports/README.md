@@ -9,6 +9,7 @@ any branch's claim ceiling.
 | `MAC_OUI_REGISTRY_BOUNDARY.md` | IEEE-bound interpretation of MAC/OUI registry counts without device identification |
 | `FREE_NEWS_001_IOS_MARKER_AND_401_EDGE.md` | One-minute note separating a transient Codex 401 sequence from an open, source-span-missing iOS marker |
 | `FREE_NEWS_002_REACHER_S4E7_DIGITAL_REFOCUS.md` | Source-bound check of Reacher's AI refocus scene against iOS focus metadata and forensic image limits |
+| `FREE_NEWS_003_CHILD_CONSENT_AND_IRREVERSIBLE_INTERVENTION.md` | German-law and ethics audit of consent to an irreversible intervention on a male child |
 
 Local Office and PDF artifacts from an earlier ten-branch working snapshot are
 intentionally absent. They do not describe the current release,

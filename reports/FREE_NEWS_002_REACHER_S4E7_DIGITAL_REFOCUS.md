@@ -2,6 +2,8 @@
 
 **Stand: 9. September 2026 · Spoiler für Staffel 4, Folge 7 · Lesezeit: zwei Minuten**
 
+**Impuls und Fragestellung: [@Juri-Halveth](https://github.com/Juri-Halveth)**
+
 ## Was los?.
 
 Staffel 4 ist die aktuell veröffentlichte *Reacher*-Staffel. Prime Video führt

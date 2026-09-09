@@ -14,6 +14,18 @@
         "branches/navier-stokes-credit-value-and-plagiarism-audit/README.md",
         "catalog/public-identities.json"
       ]
+    },
+    {
+      "exactText": "@Juri-Halveth",
+      "authorizationState": "EXPLICIT_USER_AUTHORIZATION_FOR_PUBLIC_FREE_NEWS_ATTRIBUTION",
+      "authorizedAt": "2026-09-09",
+      "files": [
+        "CHANGELOG.md",
+        "catalog/public-identities.json",
+        "reports/FREE_NEWS_001_IOS_MARKER_AND_401_EDGE.md",
+        "reports/FREE_NEWS_002_REACHER_S4E7_DIGITAL_REFOCUS.md",
+        "reports/FREE_NEWS_003_CHILD_CONSENT_AND_IRREVERSIBLE_INTERVENTION.md"
+      ]
     }
   ]
 }
