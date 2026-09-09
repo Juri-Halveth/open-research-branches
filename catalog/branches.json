@@ -152,6 +152,16 @@
       "claimCeiling": "DATE_BOUND_GENERIC_OVERLAP_ONLY_NO_ACCESS_DERIVATION_OR_DISTINCTIVE_TECHNICAL_MATCH_OBSERVED",
       "dataClass": "PUBLIC_SOURCES_AND_MINIMIZED_LOCAL_HASH_RECEIPTS_ONLY",
       "activeMain": false
+    },
+    {
+      "id": "wax-crayon-peace-helmet-audit",
+      "title": "Wax-Crayon Peace Helmet and iOS Marker Audit",
+      "kind": "source-bound-art-provenance-rights-and-safety-audit",
+      "state": "FINITE_SNAPSHOT",
+      "path": "branches/wax-crayon-peace-helmet-audit",
+      "claimCeiling": "SOURCE_BOUND_PEACE_ART_PROPOSAL_AND_IOS_MARKER_UPDATE_NOT_PHYSICAL_VERIFICATION_GLOBAL_NOVELTY_CAUSALITY_OR_PPE",
+      "dataClass": "PUBLIC_SOURCES_AND_MINIMIZED_LOCAL_HASH_RECEIPTS_ONLY",
+      "activeMain": false
     }
   ]
 }

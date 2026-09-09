@@ -5,6 +5,8 @@ Forschungs- und Softwareäste. Jeder Ast enthält eine eng gebundene Frage,
 synthetische oder öffentliche Beispiele, überprüfbare Tests und sichtbare
 Unbekannte.
 
+Öffentlicher Kontakt: [juri@halveth.de](mailto:juri@halveth.de)
+
 Die Sammlung ist kein Abbild privater Archive. Sie besitzt eine neue
 Git-Historie und enthält ausschließlich einzeln freigegebene Ableitungen.
 Persönliche Rohgedanken, Chats, nicht ausdrücklich freigegebene Identitäten, Wallet- und Browserdaten,
@@ -30,6 +32,7 @@ Sicherheitsmeldungen gehören nicht hierher.
 | `navier-stokes-credit-value-and-plagiarism-audit` | Beweis-, Prioritäts-, Datenzugriffs-, Credit- und Wertprüfung mit kurzer Vorlesefassung | `FINITE_SNAPSHOT` |
 | `binary-inquiry-loop` | deterministische wechselseitige Ja/Nein-Klärung mit Rückkehr zur gebundenen Frage | `PUBLIC_DERIVATIVE` |
 | `solar-and-thermal-provenance-audit` | Juris Zündungs-/Wasser-/Lichtmodell im Komponenten- und Zeitvergleich mit KIT und Standard Thermal | `FINITE_SNAPSHOT` |
+| `wax-crayon-peace-helmet-audit` | Wachsmalstift-Friedenshelm, lokaler Belegstand, historischer Vergleich, iOS-Marker-Protokoll und sicherer Pilot | `FINITE_SNAPSHOT` |
 
 Der maschinenlesbare Bestand liegt in
 [`catalog/branches.json`](catalog/branches.json). Die Aufnahme- und
@@ -46,8 +49,11 @@ als bereits geprüfte oder veröffentlichte Äste gezählt.
 Der Ordner [`reports/`](reports/) enthält zusätzliche öffentliche
 Quellenprüfungen. Lokal erzeugte Office- und PDF-Artefakte des früheren
 Zehn-Ast-Arbeitsstands bleiben wegen Versions- und teils getrennter
-Vorlagenrechte außerhalb des öffentlichen Repositorys. Der aktuelle Stand
-liegt in den Astordnern und im maschinenlesbaren Katalog.
+Vorlagenrechte außerhalb des öffentlichen Repositorys. Für den
+Wachsmalstift-Friedenshelm enthält der Ast dagegen eigene reproduzierbare
+Buildquellen; die daraus erzeugten PDF- und Präsentationsdateien werden als
+separat geprüfte Release-Assets verteilt. Der aktuelle Quellstand liegt in den
+Astordnern und im maschinenlesbaren Katalog.
 
 ## Mitmachen
 

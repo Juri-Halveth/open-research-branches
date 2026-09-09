@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "public-marker-inputs.v1",
+  "privacy": "PUBLIC_SAFE_NO_PRIVATE_PATHS_REQUEST_IDS_SESSION_IDS_OR_FULL_TRANSCRIPTS",
+  "records": [
+    {
+      "markerId": "IOS-MARKER-20260909-A",
+      "sourceId": "IOS-MARKER-SOURCE-20260909-A",
+      "sourceByteLength": 782,
+      "sourceSpan": {
+        "encoding": "UTF-16",
+        "offsetUnit": "UTF16_CODE_UNIT",
+        "start": 483,
+        "end": 537,
+        "exactText": "ich habe gerade den TECHNISCHEN ANKER VON IOS markiert",
+        "utf8ByteLength": 54,
+        "sha256": "b8c8c5b47c4df7edf161ce3fe48d690aacc6069143515e0479dbd37036035ea4"
+      },
+      "medium": "LOCAL_CODEX_TASK_USER_MESSAGE_SANITIZED_PUBLIC_RECEIPT",
+      "observedAt": "2026-09-09T18:55:59.455Z",
+      "sha256": "535ce8db231b8fb1603c39ebcafb7aa545bca23c59f97aa8b84b07c8edc2c76c",
+      "meaningStatus": "UNKNOWN",
+      "claimCeiling": "EXACT_USER_REPORTED_MARKER_ONLY_NO_IOS_UI_TARGET_EXTERNAL_EFFECT_OR_CAUSATION",
+      "callerClaims": []
+    },
+    {
+      "markerId": "HELMET-STATEMENT-PUBLIC-DERIVATIVE-20260909-A",
+      "sourceId": "HELMET-STATEMENT-PUBLIC-DERIVATIVE-20260909-A",
+      "sourceByteLength": 33,
+      "sourceSpan": {
+        "encoding": "UTF-16",
+        "offsetUnit": "UTF16_CODE_UNIT",
+        "start": 0,
+        "end": 33,
+        "exactText": "Helm mit Wachsmalstiften angemalt",
+        "utf8ByteLength": 33,
+        "sha256": "d9478970c8fe7d5cd860f0b2057c6bd8d7afdc9ae7032e155ad1968fb2c43c7d"
+      },
+      "medium": "SANITIZED_PUBLIC_DERIVATIVE_TEXT",
+      "observedAt": "2026-09-09T20:55:30.388Z",
+      "sha256": "d9478970c8fe7d5cd860f0b2057c6bd8d7afdc9ae7032e155ad1968fb2c43c7d",
+      "meaningStatus": "USER_REPORTED",
+      "claimCeiling": "USER_REPORTED_HELMET_STATEMENT_NO_MATERIAL_RECEPTION_OR_HISTORICAL_EFFECT",
+      "callerClaims": []
+    }
+  ]
+}

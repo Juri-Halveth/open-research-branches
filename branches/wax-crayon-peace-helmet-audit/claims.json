@@ -1,0 +1,67 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-09-09",
+  "claims": [
+    {
+      "claimId": "HELM-001",
+      "statement": "Juri reported painting a helmet with his daughter's wax crayons.",
+      "status": "USER_REPORTED",
+      "evidence": ["HELM-STATEMENT-20260909-A"]
+    },
+    {
+      "claimId": "HELM-002",
+      "statement": "Five local digital helmet-motif images were found and hash-bound.",
+      "status": "OBSERVED_BOUND",
+      "evidence": ["DIGITAL-HELM-MOTIF-SERIES-20260807"]
+    },
+    {
+      "claimId": "HELM-003",
+      "statement": "A physical wax-crayon helmet photograph was not found in the declared 375-file scan coverage.",
+      "status": "FINITE_SNAPSHOT",
+      "evidence": ["TARGETED-MEDIA-SCAN-20260909"]
+    },
+    {
+      "claimId": "HELM-004",
+      "statement": "The exact physical helmet, materials, creation time and complete contributor set are independently verified.",
+      "status": "NOT_PROVEN",
+      "evidence": ["HELM-STATEMENT-20260909-A", "TARGETED-MEDIA-SCAN-20260909"]
+    },
+    {
+      "claimId": "HELM-005",
+      "statement": "Painted helmets and transformed military materials have historical museum, memorial, art and peace precedents.",
+      "status": "PUBLIC_SOURCE_SUPPORTED",
+      "evidence": ["SRC-SMITHSONIAN-HELMET", "SRC-BATUZ-HELMETS-FOR-PEACE", "SRC-ODESA-CHILDHOOD-2022", "SRC-UN-BLUE-HELMET"]
+    },
+    {
+      "claimId": "HELM-006",
+      "statement": "The checked primary-source set establishes wax crayons as a historic helmet-peace technique.",
+      "status": "NOT_FOUND_WITHIN_SOURCE_SET",
+      "evidence": ["SOURCE-REGISTRY-20260909"]
+    },
+    {
+      "claimId": "HELM-007",
+      "statement": "The source span of Juris iOS marker statement is bound to bytes, time and digest.",
+      "status": "OBSERVED_BOUND",
+      "evidence": ["IOS-MARKER-SOURCE-20260909-A"]
+    },
+    {
+      "claimId": "HELM-008",
+      "statement": "The marked iOS interface element, iOS version, link to the helmet or an outside technical effect is established.",
+      "status": "UNKNOWN",
+      "evidence": ["IOS-MARKER-SOURCE-20260909-A"]
+    },
+    {
+      "claimId": "HELM-009",
+      "statement": "Similarity or timing proves that a third party copied the design or owes compensation.",
+      "status": "NOT_PROVEN",
+      "evidence": []
+    },
+    {
+      "claimId": "HELM-010",
+      "statement": "The generated public image depicts the reported physical object.",
+      "status": "RETRACTED_FOR_USE_AS_EVIDENCE",
+      "evidence": ["PUBLIC-CONCEPT-ILLUSTRATION-20260909"]
+    }
+  ],
+  "claimCeiling": "CONTEMPORARY_WAX_CRAYON_PEACE_DESIGN_AUDIT_WITH_BOUND_USER_REPORT_PUBLIC_PRECEDENTS_AND_OPEN_PHYSICAL_PROVENANCE"
+}

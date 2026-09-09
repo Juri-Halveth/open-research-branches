@@ -12,3 +12,8 @@ reports/Open_Research_Branches_Report.docx
 reports/Open_Research_Branches_Report.pdf
 reports/Open_Research_Branches_Inventory.xlsx
 reports/RESEARCH_REPORT.md
+.codex-build/
+.codex-finalizer/
+release-assets/
+.chart-data-*/
+__pycache__/

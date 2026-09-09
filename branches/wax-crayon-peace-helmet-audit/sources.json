@@ -1,0 +1,126 @@
+{
+  "schemaVersion": "1.0.0",
+  "sourceSetId": "SOURCE-REGISTRY-20260909",
+  "accessed": "2026-09-09",
+  "sources": [
+    {
+      "id": "SRC-WWI-WAR-ART",
+      "publisher": "National WWI Museum and Memorial",
+      "title": "War Art",
+      "url": "https://www.theworldwar.org/exhibitions/war-art-0",
+      "scope": "war art and decorated objects"
+    },
+    {
+      "id": "SRC-SMITHSONIAN-HELMET",
+      "publisher": "Smithsonian National Air and Space Museum",
+      "title": "Painted helmet of the 135th Aero Squadron",
+      "url": "https://airandspace.si.edu/collection-media/NASM-A19970551000-NASM2018-03274",
+      "scope": "museum-held painted helmet"
+    },
+    {
+      "id": "SRC-UNEF-I",
+      "publisher": "United Nations Peacekeeping",
+      "title": "UNEF I background",
+      "url": "https://peacekeeping.un.org/sites/default/files/past/unef1backgr2.html",
+      "scope": "institutional origin of UN peacekeeping identification"
+    },
+    {
+      "id": "SRC-UN-BLUE-HELMET",
+      "publisher": "United Nations Peacekeeping",
+      "title": "UN peacekeeper helmet returns to South Lebanon",
+      "url": "https://peacekeeping.un.org/en/news/un-peacekeeper-helmet-returns-to-south-lebanon-40-years-after-the-establishment",
+      "scope": "blue helmet as personal and institutional peacekeeping object"
+    },
+    {
+      "id": "SRC-BATUZ-HELMETS-FOR-PEACE",
+      "publisher": "Batuz Foundation",
+      "title": "Helmets for Peace",
+      "url": "https://batuz.com/batuz_template/main.php?site=latestevents",
+      "scope": "artistic transformation of helmets for peace"
+    },
+    {
+      "id": "SRC-ODESA-CHILDHOOD-2022",
+      "publisher": "Odesa Regional Administration",
+      "title": "Childhood 2022 installation",
+      "url": "https://ecology.od.gov.ua/2022/08/v-odesi-vidkryto-instalyacziyu-dytynstvo-2022/",
+      "scope": "children and artists painting inverted helmets and planting flowers"
+    },
+    {
+      "id": "SRC-ARTARMOR-CHILDREN",
+      "publisher": "National Museum of the History of Ukraine in the Second World War",
+      "title": "ArtArmor.Children",
+      "url": "https://warmuseum.kyiv.ua/en/exhibitions/archive/show/artarmor-children-ua",
+      "scope": "children, art and military material"
+    },
+    {
+      "id": "SRC-UNESCO-ART-FOR-PEACE",
+      "publisher": "UNESCO",
+      "title": "Art for Peace",
+      "url": "https://www.unesco.org/en/weeks/arts-education/art-peace",
+      "scope": "art education and peacebuilding"
+    },
+    {
+      "id": "SRC-UN-SWORDS-PLOUGHSHARES",
+      "publisher": "United Nations",
+      "title": "Let Us Beat Swords into Ploughshares",
+      "url": "https://www.un.org/ungifts/let-us-beat-swords-ploughshares",
+      "scope": "material transformation as peace symbol"
+    },
+    {
+      "id": "SRC-ICOM-ETHICS",
+      "publisher": "International Council of Museums",
+      "title": "ICOM Code of Ethics for Museums",
+      "url": "https://icmemohri.mini.icom.museum/wp-content/uploads/sites/17/2019/01/code_ethics2013_eng2.pdf",
+      "scope": "collection, provenance and conservation ethics"
+    },
+    {
+      "id": "SRC-STGB-86A",
+      "publisher": "Bundesministerium der Justiz / Bundesamt fuer Justiz",
+      "title": "Section 86a StGB",
+      "url": "https://www.gesetze-im-internet.de/stgb/__86a.html",
+      "scope": "use of symbols of unconstitutional organizations"
+    },
+    {
+      "id": "SRC-STGB-86-4",
+      "publisher": "Bundesministerium der Justiz / Bundesamt fuer Justiz",
+      "title": "Section 86(4) StGB",
+      "url": "https://www.gesetze-im-internet.de/stgb/__86.html",
+      "scope": "art, science, research and similar statutory contexts"
+    },
+    {
+      "id": "SRC-BGH-3STR48606",
+      "publisher": "Bundesgerichtshof",
+      "title": "Judgment 3 StR 486/06",
+      "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=pm&Blank=1&Datum=2007-3&Gericht=bgh&file=dokument.pdf&linked=urt&nr=39349",
+      "scope": "clearly opposed context for prohibited symbols"
+    },
+    {
+      "id": "SRC-URHG",
+      "publisher": "Bundesministerium der Justiz / Bundesamt fuer Justiz",
+      "title": "Urheberrechtsgesetz",
+      "url": "https://www.gesetze-im-internet.de/urhg/",
+      "scope": "copyright, authorship and rights of use"
+    },
+    {
+      "id": "SRC-DESIGNG",
+      "publisher": "Bundesministerium der Justiz / Bundesamt fuer Justiz",
+      "title": "Designgesetz",
+      "url": "https://www.gesetze-im-internet.de/geschmmg_2004/",
+      "scope": "registered design requirements"
+    },
+    {
+      "id": "SRC-EU-GPSR",
+      "publisher": "European Union",
+      "title": "Regulation (EU) 2023/988",
+      "url": "https://eur-lex.europa.eu/eli/reg/2023/988/oj",
+      "scope": "general product safety"
+    },
+    {
+      "id": "SRC-EU-PPE",
+      "publisher": "European Union",
+      "title": "Regulation (EU) 2016/425",
+      "url": "https://eur-lex.europa.eu/eli/reg/2016/425/oj",
+      "scope": "personal protective equipment"
+    }
+  ]
+}

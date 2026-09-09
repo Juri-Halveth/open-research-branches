@@ -1,0 +1,120 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-09-09T23:00:00+02:00",
+  "dataClass": "PUBLIC_MINIMIZED_HASH_RECEIPTS",
+  "privateSourcePathsPublished": false,
+  "records": [
+    {
+      "recordId": "HELM-STATEMENT-20260909-A",
+      "recordType": "USER_REPORTED_CREATION_EVENT",
+      "eventTimestamp": "2026-09-09T20:55:30.388Z",
+      "sourceId": "OPAQUE-LOCAL-MESSAGE-A",
+      "messageUtf8Bytes": 2126,
+      "messageSha256": "8bbc00a19f6c13c9fe275ce6b03b2504eb867a44f32ff3298ca9ce2507d13ae2",
+      "sourceSpan": {
+        "coordinateSystem": "UTF16_CODE_UNITS",
+        "start": 820,
+        "endExclusive": 907
+      },
+      "minimizedQuotation": "hab meinen Helm mit Wachsmalstiften meiner Tochter angemalt",
+      "evidenceState": "USER_REPORTED",
+      "objectIdentity": "UNKNOWN",
+      "materialVerification": "UNKNOWN",
+      "thirdPartyReception": "NOT_PROVEN"
+    },
+    {
+      "recordId": "IOS-MARKER-SOURCE-20260909-A",
+      "recordType": "USER_REPORTED_TECHNICAL_MARKER",
+      "eventTimestamp": "2026-09-09T18:55:59.455Z",
+      "sourceId": "OPAQUE-LOCAL-MESSAGE-B",
+      "messageUtf8Bytes": 782,
+      "messageSha256": "535ce8db231b8fb1603c39ebcafb7aa545bca23c59f97aa8b84b07c8edc2c76c",
+      "sourceSpan": {
+        "coordinateSystem": "UTF16_CODE_UNITS",
+        "start": 483,
+        "endExclusive": 537,
+        "utf8Bytes": 54,
+        "sha256": "b8c8c5b47c4df7edf161ce3fe48d690aacc6069143515e0479dbd37036035ea4",
+        "text": "ich habe gerade den TECHNISCHEN ANKER VON IOS markiert"
+      },
+      "rawRecordReceipt": {
+        "utf8BytesIncludingLf": 1170,
+        "sha256IncludingLf": "439cfb1da8fa7d1a8846660b6f05deae3e4e5cde5283766a2744a0a261c9258c"
+      },
+      "sourceSpanState": "SOURCE_SPAN_BOUND",
+      "targetUiElement": "UNKNOWN",
+      "iosSurfaceAndVersion": "UNKNOWN",
+      "meaningStatus": "UNKNOWN",
+      "relationToHelmet": "UNKNOWN",
+      "externalEffect": "NOT_PROVEN"
+    },
+    {
+      "recordId": "DIGITAL-HELM-MOTIF-SERIES-20260807",
+      "recordType": "LOCAL_DIGITAL_IMAGE_SERIES",
+      "observedLocalDate": "2026-08-07",
+      "evidenceState": "OBSERVED_BOUND",
+      "files": [
+        {
+          "alias": "HELM-MOTIF-A",
+          "width": 1536,
+          "height": 1024,
+          "utf8PathPublished": false,
+          "bytes": 1635942,
+          "sha256": "abe93b6aae1d69de72f50f5d0d682132eb87755cbc0f671386de3cf444189f6b"
+        },
+        {
+          "alias": "HELM-MOTIF-B",
+          "width": 1672,
+          "height": 941,
+          "sha256": "50ff7bdcf26ac9ffe14e2e4ca51b1972910fa8978525d8d8d09eac36c86a5671"
+        },
+        {
+          "alias": "HELM-MOTIF-C",
+          "width": 1672,
+          "height": 941,
+          "sha256": "586b1aa26e1a77432a4310142b39c023e4fbcfc20cace3b650a534a8a7b4fc8c"
+        },
+        {
+          "alias": "HELM-MOTIF-D",
+          "width": 1672,
+          "height": 941,
+          "sha256": "a63a163fecae97f15702e67d9818343ae3eca542f673379d3cc9e73b538cdad0"
+        },
+        {
+          "alias": "HELM-MOTIF-E",
+          "width": 1672,
+          "height": 941,
+          "sha256": "755dca8cb60cfe60dc193922e01f7834014f8818916aa0b97dec691844c38842"
+        }
+      ],
+      "embeddedMetadataObservation": "All five files contain strings naming gpt-image, trainedAlgorithmicMedia and OpenAI Media Service API.",
+      "metadataAuthenticity": "NOT_CRYPTOGRAPHICALLY_VALIDATED",
+      "bridgeToReportedPhysicalHelmet": "UNKNOWN"
+    },
+    {
+      "recordId": "TARGETED-MEDIA-SCAN-20260909",
+      "recordType": "FINITE_LOCAL_SCAN_COVERAGE",
+      "filesInspected": 375,
+      "digitalHelmetConceptsFound": 5,
+      "physicalWaxCrayonHelmetPhotoFound": false,
+      "coverageState": "FINITE_SNAPSHOT",
+      "excludedAreas": [
+        "known output duplicates",
+        "dependency trees",
+        "temporary build directories",
+        "unmounted phones, clouds and external drives"
+      ],
+      "claimCeiling": "NO_PHYSICAL_PHOTO_FOUND_WITHIN_DECLARED_COVERAGE"
+    },
+    {
+      "recordId": "PUBLIC-CONCEPT-ILLUSTRATION-20260909",
+      "recordType": "GENERATED_CONCEPT_IMAGE",
+      "publicPath": "branches/wax-crayon-peace-helmet-audit/assets/wax-crayon-peace-helmet-concept.png",
+      "sha256": "5efe62681a5a5064da629fbd2405490b7956d5123b7380d077f040f9b3188695",
+      "evidenceState": "GENERATED_CONCEPT_ONLY",
+      "captionRequired": "Konzeptillustration - kein Beweisfoto",
+      "containsPeopleWeaponsFlagsLogosOrExtremistSymbols": false
+    }
+  ],
+  "claimCeiling": "SOURCE_BOUND_USER_REPORT_AND_DIGITAL_MOTIF_RECEIPTS_NOT_PHYSICAL_OBJECT_PROVENANCE_CAUSATION_OR_EXTERNAL_ADOPTION"
+}

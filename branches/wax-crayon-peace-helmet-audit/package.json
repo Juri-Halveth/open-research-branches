@@ -1,0 +1,14 @@
+{
+  "name": "wax-crayon-peace-helmet-audit",
+  "version": "0.9.0",
+  "description": "Evidence-bound peace-art provenance and iOS marker protocol.",
+  "private": true,
+  "type": "module",
+  "license": "SEE LICENSE IN ../../LICENSES.md",
+  "scripts": {
+    "test": "node --test test/marker-protocol.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.9.0 — 2026-09-09
+
+- published the Wachsmalstift-Friedenshelm as a source-bound art, provenance, rights, safety and cooperation audit with a clearly labeled concept illustration
+- bound Juris physical painting statement as `USER_REPORTED`, five local digital helmet motifs by SHA-256 and a finite 375-file media scan that found no physical-object photo within its declared coverage
+- upgraded the earlier iOS marker from a missing span to an exact UTF-16 span, byte length, timestamp and digest while leaving the marked UI element, meaning, external effect and relation to the helmet `UNKNOWN`
+- added an executable marker protocol and tests that preserve caller claims as `QUOTED_ONLY` and cannot promote a marker into causation, ownership or outside effect
+- compared museum, UN, Odesa, ArtArmor, UNESCO and transformed-material precedents without constructing an unproved lineage or worldwide novelty claim
+- separated object ownership, creative authorship, child contribution, image rights, design options, product safety and voluntary compensation models
+- produced a twelve-page public research PDF plus operating-review and qualitative market-trends presentations from dedicated reproducible build sources
+- kept private paths, raw chats, phone numbers, family identities, session data and unverified physical imagery outside the repository and release
+
 ## 0.8.0 — 2026-09-09
 
 - published `FREE NEWS 007`, a privacy-minimized audit of the phrase “no drugs” and Juris cannabis question as a request to define the rule's scope

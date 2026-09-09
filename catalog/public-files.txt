@@ -96,6 +96,19 @@ branches/solar-and-thermal-provenance-audit/README.md
 branches/solar-and-thermal-provenance-audit/sources.json
 branches/visual-interpretation-boundary/README.md
 branches/water-photonic-open-questions/README.md
+branches/wax-crayon-peace-helmet-audit/ARTIFACTS.md
+branches/wax-crayon-peace-helmet-audit/assets/wax-crayon-peace-helmet-concept.png
+branches/wax-crayon-peace-helmet-audit/build_pdf.py
+branches/wax-crayon-peace-helmet-audit/build_presentations.mjs
+branches/wax-crayon-peace-helmet-audit/claims.json
+branches/wax-crayon-peace-helmet-audit/evidence-receipts.json
+branches/wax-crayon-peace-helmet-audit/marker-protocol.mjs
+branches/wax-crayon-peace-helmet-audit/marker-receipts.public.json
+branches/wax-crayon-peace-helmet-audit/package.json
+branches/wax-crayon-peace-helmet-audit/README.md
+branches/wax-crayon-peace-helmet-audit/sources.json
+branches/wax-crayon-peace-helmet-audit/test/marker-protocol.test.mjs
+branches/wax-crayon-peace-helmet-audit/test/public-records.test.mjs
 CATALOG.md
 catalog/branches.json
 catalog/CANDIDATE_TOPICS.md
@@ -123,6 +136,7 @@ reports/FREE_NEWS_005_HOW_TO_FISH_IDENTITY_AND_CREATION.md
 reports/FREE_NEWS_005_RIGHTS_AND_SEMANTICS_PATCH.json
 reports/FREE_NEWS_006_JURI_ENERGY_MODEL_PROVENANCE_AUDIT.md
 reports/FREE_NEWS_007_RAVE_GROUP_RULE_AND_CANNABIS_SCOPE.md
+reports/FREE_NEWS_008_WAX_CRAYON_PEACE_HELMET_AND_IOS_MARKER.md
 reports/MAC_OUI_REGISTRY_BOUNDARY.md
 reports/MICROSOFT_PKI_REPOSITORY_PATTERN.md
 reports/README.md

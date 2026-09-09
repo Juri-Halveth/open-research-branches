@@ -26,6 +26,7 @@ Collection state: `FINITE_SNAPSHOT`
 | `russia-ukraine-information-and-peace-audit` | Was tragen Lageberichte und eine begrenzte Angriffspause, und wie verhindert eine Snapshot-Firewall voreilige Befehls- oder Skandalableitungen | `FINITE_SNAPSHOT` | neue Briefing-, Befehls-, Empfangs-, Telemetrie- oder gemeinsam gebundene Protokollevidenz |
 | `navier-stokes-credit-value-and-plagiarism-audit` | Was ist am OpenAI-Navier–Stokes-Konflikt Beweis, Priorität, Datenfrage, Plagiatsbezeichnung, Preisgeld und offener Wert | `FINITE_SNAPSHOT` | unabhängige Beweisprüfung, Prompt- oder Zugriffsprovenienz, Strukturvergleich oder Clay-Entscheidung |
 | `solar-and-thermal-provenance-audit` | Was hat Juri im August zu Zündung, Wasser, Licht und Energie dokumentiert, und wie unterscheidet es sich von KIT und Standard Thermal | `FINITE_SNAPSHOT` | früheres unterscheidendes Artefakt, belastbarer Zugangsbeleg, Claim-Chart oder neue Originalmetadaten |
+| `wax-crayon-peace-helmet-audit` | Wie wird Juris berichteter Wachsmalstift-Helm als quellengebundene Friedenskunst, sicherer Prototyp und offener iOS-Marker technisch fortsetzbar | `FINITE_SNAPSHOT` | Foto- oder Objekt-Receipt, konkretes iOS-Element, Materialtest oder gebundene Partneranfrage |
 
 Bereits öffentliche Hauptprojekte werden nur verlinkt:
 

@@ -81,3 +81,20 @@ Verbindung zu einem anderen Ereignis untersucht.
 ## Claim Ceiling
 
 `SANITIZED_LOCAL_401_SEQUENCE_AND_USER_REPORTED_IOS_MARKER_NOT_ROOT_CAUSE_SECURITY_FINDING_OR_IOS_CODE_LINK`
+
+## Nachtrag im Release `v0.9.0`
+
+Der damals fehlende Ursprungssatz ist inzwischen mit Ereigniszeit,
+Nachrichten-Digest und einem exakten Quellspan gebunden. Der neue öffentliche
+Receipt liegt im Ast
+[`wax-crayon-peace-helmet-audit`](../branches/wax-crayon-peace-helmet-audit/README.md):
+
+- Quellspan: `ich habe gerade den TECHNISCHEN ANKER VON IOS markiert`
+- UTF-16: `483..537`, Ende exklusiv
+- Span SHA-256: `b8c8c5b47c4df7edf161ce3fe48d690aacc6069143515e0479dbd37036035ea4`
+- Stand: `SOURCE_SPAN_BOUND`
+
+Das konkrete iOS-Element, App, Version, Screenshot, technische Bedeutung und
+jede Verbindung zum 401-Ereignis bleiben `UNKNOWN`. Der Nachtrag ersetzt den
+damaligen Befund nicht rückwirkend; er dokumentiert die neu gebundene
+Belegstufe im späteren Release.
