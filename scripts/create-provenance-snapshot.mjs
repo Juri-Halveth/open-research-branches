@@ -11,6 +11,12 @@ const CUSTOM_LICENSE_PATHS = new Set([
   "provenance-policy.json",
   "reports/FREE_NEWS_005_HOW_TO_FISH_IDENTITY_AND_CREATION.md",
   "reports/FREE_NEWS_005_RIGHTS_AND_SEMANTICS_PATCH.json",
+  "reports/FREE_NEWS_006_JURI_ENERGY_MODEL_PROVENANCE_AUDIT.md",
+  "branches/solar-and-thermal-provenance-audit/README.md",
+  "branches/solar-and-thermal-provenance-audit/sources.json",
+  "branches/solar-and-thermal-provenance-audit/claims.json",
+  "branches/solar-and-thermal-provenance-audit/component-matrix.json",
+  "branches/solar-and-thermal-provenance-audit/local-source-receipt.json",
   "scripts/create-provenance-snapshot.mjs",
   "scripts/provenance-snapshot.test.mjs"
 ]);

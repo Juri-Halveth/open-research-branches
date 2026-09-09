@@ -1,0 +1,48 @@
+{
+  "schemaVersion": "1.0.0",
+  "motifSemantics": "A_SHARED_MOTIF_IS_NOT_A_SHARED_DEVICE_FEATURE_ACCESS_PATH_OR_DERIVATION",
+  "systems": [
+    {
+      "id": "JURI_AUGUST_2026",
+      "label": "Juri Janovski August research model",
+      "sourceIds": ["J-AUG-01","J-AUG-02","J-AUG-03","J-AUG-04","J-AUG-05","J-AUG-06","J-AUG-07"],
+      "exactFeatureIds": [
+        "IRIDIUM_IGNITION_ELECTRODE",
+        "INSULATING_MEMBRANE_WITH_SEPARATED_CONTACTS",
+        "EVENT_THRESHOLD_SPARK",
+        "WATER_ICE_DROPLET_COLLISION",
+        "TRIBOELECTRIC_CHARGE_SEPARATION",
+        "AIR_GAP_BREAKDOWN",
+        "PRESSURIZED_MINI_THUNDERSTORM_GENERATOR_PROPOSAL"
+      ],
+      "broadMotifIds": ["LIGHT","REFLECTION","WATER","DROPLETS","HEAT","COLD","ENERGY_CONVERSION","MEMBRANE","PRESSURE"]
+    },
+    {
+      "id": "KIT_TRI_GENERATION_2026",
+      "label": "KIT hybrid PDRC-solar tri-generation prototype",
+      "sourceIds": ["KIT-01","KIT-02","KIT-03","KIT-PRIOR-01","KIT-PRIOR-02","KIT-PRIOR-03"],
+      "exactFeatureIds": [
+        "TRANSPARENT_SILICA_PDMS_PDRC_EMITTER",
+        "EIGHT_TO_THIRTEEN_MICROMETER_RADIATIVE_WINDOW",
+        "FRESNEL_POINT_CONCENTRATOR",
+        "COMPACT_PHOTOVOLTAIC_THERMAL_COLLECTOR",
+        "SPATIAL_AND_THERMAL_HOT_COLD_DECOUPLING",
+        "SIMULTANEOUS_COOLING_ELECTRICITY_AND_HEATING"
+      ],
+      "broadMotifIds": ["LIGHT","REFLECTION","HEAT","COLD","ENERGY_CONVERSION"]
+    },
+    {
+      "id": "STANDARD_THERMAL_EARTH_STORAGE",
+      "label": "Standard Thermal earthen thermal storage system",
+      "sourceIds": ["ST-01","ST-02","ST-03"],
+      "exactFeatureIds": [
+        "DIRECT_DC_TO_RESISTANCE_HEATERS",
+        "EARTHEN_THERMAL_STORAGE_MEDIUM",
+        "HIGH_TEMPERATURE_BULK_STORAGE",
+        "HEAT_EXCHANGER_EXTRACTION",
+        "PROCESS_HEAT_OR_STEAM_OUTPUT"
+      ],
+      "broadMotifIds": ["HEAT","ENERGY_CONVERSION","PRESSURE"]
+    }
+  ]
+}

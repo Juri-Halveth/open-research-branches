@@ -86,6 +86,14 @@ branches/russia-ukraine-information-and-peace-audit/SOURCES.md
 branches/russia-ukraine-information-and-peace-audit/test/claims.test.mjs
 branches/russia-ukraine-information-and-peace-audit/test/decision-snapshot-firewall.test.mjs
 branches/russia-ukraine-information-and-peace-audit/was-los-loop.json
+branches/solar-and-thermal-provenance-audit/audit-lens.mjs
+branches/solar-and-thermal-provenance-audit/audit-lens.test.mjs
+branches/solar-and-thermal-provenance-audit/claims.json
+branches/solar-and-thermal-provenance-audit/component-matrix.json
+branches/solar-and-thermal-provenance-audit/local-source-receipt.json
+branches/solar-and-thermal-provenance-audit/package.json
+branches/solar-and-thermal-provenance-audit/README.md
+branches/solar-and-thermal-provenance-audit/sources.json
 branches/visual-interpretation-boundary/README.md
 branches/water-photonic-open-questions/README.md
 CATALOG.md
@@ -113,6 +121,7 @@ reports/FREE_NEWS_004_CONSENT_COCKPIT_234_INACTIVE_VENDORS.md
 reports/FREE_NEWS_005_HALVETH_RECEIPT.json
 reports/FREE_NEWS_005_HOW_TO_FISH_IDENTITY_AND_CREATION.md
 reports/FREE_NEWS_005_RIGHTS_AND_SEMANTICS_PATCH.json
+reports/FREE_NEWS_006_JURI_ENERGY_MODEL_PROVENANCE_AUDIT.md
 reports/MAC_OUI_REGISTRY_BOUNDARY.md
 reports/MICROSOFT_PKI_REPOSITORY_PATTERN.md
 reports/README.md

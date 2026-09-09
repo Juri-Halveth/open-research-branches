@@ -13,8 +13,13 @@
         "branches/aster-provenance-and-secret-garden/provenance.json",
         "branches/aster-provenance-and-secret-garden/test/aster-lens.test.mjs",
         "branches/navier-stokes-credit-value-and-plagiarism-audit/README.md",
+        "branches/solar-and-thermal-provenance-audit/README.md",
+        "branches/solar-and-thermal-provenance-audit/component-matrix.json",
+        "branches/solar-and-thermal-provenance-audit/local-source-receipt.json",
+        "CITATION.cff",
         "catalog/public-identities.json",
-        "provenance-policy.json"
+        "provenance-policy.json",
+        "reports/FREE_NEWS_006_JURI_ENERGY_MODEL_PROVENANCE_AUDIT.md"
       ]
     },
     {

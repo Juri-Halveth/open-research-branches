@@ -7,6 +7,7 @@ relicensed by this repository.
 | --- | --- |
 | `reports/FREE_NEWS_005_HOW_TO_FISH_IDENTITY_AND_CREATION.md` from the first public commit containing this notice (first tagged release: `v0.6.0`) | [Juri Public-Interest Research Permission 1.0](LICENSE-JURI-PUBLIC-INTEREST.md) |
 | `reports/FREE_NEWS_005_RIGHTS_AND_SEMANTICS_PATCH.json`, `PROVENANCE.md`, `provenance-policy.json`, `scripts/create-provenance-snapshot.mjs` and `scripts/provenance-snapshot.test.mjs` from their first public commit | [Juri Public-Interest Research Permission 1.0](LICENSE-JURI-PUBLIC-INTEREST.md) |
+| `reports/FREE_NEWS_006_JURI_ENERGY_MODEL_PROVENANCE_AUDIT.md` and the research records `README.md`, `sources.json`, `claims.json`, `component-matrix.json`, and `local-source-receipt.json` under `branches/solar-and-thermal-provenance-audit/` from their first public commit | [Juri Public-Interest Research Permission 1.0](LICENSE-JURI-PUBLIC-INTEREST.md) |
 | Source code, tests, HTML and CSS under `branches/` and `scripts/` | [MIT](LICENSE) |
 | Repository configuration in `.gitattributes`, every `.gitignore` file and `.github/**/*.yml` | [MIT](LICENSE) |
 | Newly written Markdown prose, including branch reports and documentation | [CC BY 4.0](LICENSE-CONTENT.md) |

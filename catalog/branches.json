@@ -142,6 +142,16 @@
       "claimCeiling": "DETERMINISTIC_DIALOGUE_PROTOCOL_NOT_TRUTH_CONSENT_OR_LEGAL_EFFECT",
       "dataClass": "SYNTHETIC_ONLY",
       "activeMain": false
+    },
+    {
+      "id": "solar-and-thermal-provenance-audit",
+      "title": "Juri Energy Model, KIT and Standard Thermal Provenance Audit",
+      "kind": "source-bound-technology-provenance-audit",
+      "state": "FINITE_SNAPSHOT",
+      "path": "branches/solar-and-thermal-provenance-audit",
+      "claimCeiling": "DATE_BOUND_GENERIC_OVERLAP_ONLY_NO_ACCESS_DERIVATION_OR_DISTINCTIVE_TECHNICAL_MATCH_OBSERVED",
+      "dataClass": "PUBLIC_SOURCES_AND_MINIMIZED_LOCAL_HASH_RECEIPTS_ONLY",
+      "activeMain": false
     }
   ]
 }

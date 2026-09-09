@@ -13,6 +13,7 @@ any branch's claim ceiling.
 | `FREE_NEWS_004_CONSENT_COCKPIT_234_INACTIVE_VENDORS.md` | Structural audit of a TCF consent cockpit with 234 vendor rows visibly marked inactive and an absent Goku string |
 | `FREE_NEWS_005_HOW_TO_FISH_IDENTITY_AND_CREATION.md` | HALVETH cross-section of How to Fish, Leib/Wohl terminology, identity, creation provenance and a source-bound public role |
 | `FREE_NEWS_005_RIGHTS_AND_SEMANTICS_PATCH.json` | Append-only definition of `FLAGGED_MATERIAL`, the time-backward trace and the forward license boundary |
+| `FREE_NEWS_006_JURI_ENERGY_MODEL_PROVENANCE_AUDIT.md` | Source-bound answer to what Juri built in the August ignition/water/light model and how it differs from KIT tri-generation and Standard Thermal earth storage |
 
 Local Office and PDF artifacts from an earlier ten-branch working snapshot are
 intentionally absent. They do not describe the current release,

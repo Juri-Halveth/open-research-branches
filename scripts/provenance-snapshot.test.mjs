@@ -24,6 +24,15 @@ test("file-specific rules take precedence over generic path classes", () => {
     "LicenseRef-Juri-Public-Interest-1.0"
   );
   assert.equal(classifyLicense("reports/FREE_NEWS_004_CONSENT_COCKPIT_234_INACTIVE_VENDORS.md").licenseId, "CC-BY-4.0");
+  assert.equal(
+    classifyLicense("reports/FREE_NEWS_006_JURI_ENERGY_MODEL_PROVENANCE_AUDIT.md").licenseId,
+    "LicenseRef-Juri-Public-Interest-1.0"
+  );
+  assert.equal(
+    classifyLicense("branches/solar-and-thermal-provenance-audit/claims.json").licenseId,
+    "LicenseRef-Juri-Public-Interest-1.0"
+  );
+  assert.equal(classifyLicense("branches/solar-and-thermal-provenance-audit/audit-lens.mjs").licenseId, "MIT");
   assert.equal(classifyLicense("scripts/prepublish-check.mjs").licenseId, "MIT");
   assert.equal(classifyLicense("catalog/branches.json").licenseId, "CC0-1.0");
 });

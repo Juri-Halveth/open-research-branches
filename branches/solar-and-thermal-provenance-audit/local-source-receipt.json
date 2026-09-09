@@ -1,0 +1,105 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-09-09T22:59:15+02:00",
+  "dataClass": "INTERNAL_PSEUDONYMIZED_SOURCE_PUBLIC_HASH_RECEIPT",
+  "publisher": "Juri Janovski",
+  "pathPolicy": "PUBLIC_ALIASES_ONLY_NO_LOCAL_ABSOLUTE_PATHS",
+  "hashSemantics": "SHA256_BINDS_BYTES_READ_ON_2026_09_09_NOT_ORIGINAL_CREATION_TIME_AUTHORSHIP_OR_EXTERNAL_ACCESS",
+  "receipts": [
+    {
+      "id": "J-AUG-01",
+      "publicAlias": "LOCAL_ARCHIVE/AUGUST_SESSION_OPTICS_2026-08-10.jsonl",
+      "byteLength": 172354725,
+      "sha256": "f0ec2eff09bff8115d092dca90c145605279ddd8d135e69b5b4ef20a88a1eb0f",
+      "boundEventAt": "2026-08-10T13:33:48.821Z",
+      "contentState": "USER_REPORTED_OPTICS_OBSERVATION",
+      "abstract": "A direct user message reports normal light through a narrow opening, an RGB appearance and partial occlusion; no calibrated energy experiment is recorded."
+    },
+    {
+      "id": "J-AUG-02",
+      "publicAlias": "LOCAL_VISUALIZATION/GLYPH_WATER_REFLECTION_LAB.html",
+      "byteLength": 6182,
+      "sha256": "6600e381f70ce3727c189678b47a4529c6b4de2261c97da9fc9ebd11d0ce1a03",
+      "fileSystemCreatedAt": "2026-08-10T02:07:44+02:00",
+      "fileSystemLastWriteAt": "2026-08-10T02:23:38+02:00",
+      "contentState": "EXECUTABLE_SOFTWARE_VISUALIZATION",
+      "abstract": "Canvas visualization of a mathematically bound vertical glyph reflection; water is the named reflection axis, not a materialized apparatus."
+    },
+    {
+      "id": "J-AUG-03",
+      "publicAlias": "LOCAL_ARCHIVE/2026-08-24/RELATIONAL_EVOLUTION_MASTER_REFERENCE.md",
+      "byteLength": 61321,
+      "sha256": "a272bad50c989413e4fd7e0cedd15886bb24d86dc06e247a9e55b16a4a65545e",
+      "resolvedDate": "2026-08-24",
+      "eventTime": "UNKNOWN",
+      "exportedAt": "2026-08-31T16:00:44.841Z",
+      "contentState": "GENERIC_COOLING_AND_OPTICS_THEME",
+      "abstract": "Mentions liquid-cooled servers, combined electrical/fluid systems, reflected moonlight on water and an ignition/membrane/lightning model; no single optical-thermal apparatus is specified."
+    },
+    {
+      "id": "J-AUG-04",
+      "publicAlias": "LOCAL_ARCHIVE/2026-08-25/OPEN_OPTICS_QUESTIONS.md",
+      "byteLength": 43836,
+      "sha256": "46435e690e0276040d3b6fdeace562545fd30b065364aa47f5eb614639d5e482",
+      "resolvedDate": "2026-08-25",
+      "eventTime": "UNKNOWN",
+      "exportedAt": "2026-08-31",
+      "contentState": "QUESTION_ONLY_GENERIC",
+      "abstract": "Contains questions about reflection, refraction, Huygens-Fresnel, sunlight and water droplets; it does not specify a Fresnel lens."
+    },
+    {
+      "id": "J-AUG-05",
+      "publicAlias": "LOCAL_ARCHIVE/2026-08-26/RESEARCH_THESES.md",
+      "byteLength": 23426,
+      "sha256": "1468aeeb77f8693e0351f5b1b3cdc665ec8a08d9e62a37b6e878db8389f91402",
+      "resolvedDate": "2026-08-26",
+      "eventTime": "UNKNOWN",
+      "exportedAt": "2026-08-31T16:00:50.548Z",
+      "contentState": "TECHNICAL_HYPOTHESIS",
+      "boundSpans": [
+        {"line":48,"topic":"Iridium core, insulator, separated contacts and spark"},
+        {"line":85,"topic":"Threshold ignition instead of continuous operation"},
+        {"line":89,"topic":"Membrane, pressure, threshold and spark architecture"},
+        {"lineStart":94,"lineEnd":96,"topic":"Water/ice droplets, collision, triboelectric separation, air gap, pressure, iridium tip and proposed miniature thunderstorm generator"}
+      ]
+    },
+    {
+      "id": "J-AUG-06",
+      "publicAlias": "LOCAL_ARCHIVE/2026-08-26/KOSMOS_X9_MASTER.md",
+      "byteLength": 11940,
+      "sha256": "a04ac816c7d220f5b123f7aff91061850729d8576453ff5e3fe466df6dafbfdd",
+      "fileSystemLastWriteAt": "2026-08-26T12:32:32+02:00",
+      "contentState": "SEMANTIC_RESEARCH_ARCHITECTURE",
+      "abstract": "Defines ignition as a transition operator and keeps water, membrane, droplets, mirror, photon and sun as research fields; it is not an enabling solar-device disclosure."
+    },
+    {
+      "id": "J-AUG-07",
+      "publicAlias": "LOCAL_ARCHIVE/2026-08-26/KOSMOS_X9_CONCEPT_MAP.png",
+      "byteLength": 594500,
+      "sha256": "233205dc979b24290350f05dd4d609f8029861dc75e2b1b7a466a2388b934d9e",
+      "fileSystemLastWriteAt": "2026-08-26T12:33:16+02:00",
+      "contentState": "VISUAL_CONCEPT_MAP",
+      "abstract": "Process diagram separates ignition as transition operator, bubble/membrane/water and photon/sun; it is not a prototype photograph."
+    }
+  ],
+  "scanCoverage": {
+    "totalFilesInventoried": 224,
+    "fileTypes": {"markdown":57,"png":130,"jpg":27,"mp4":3,"pdf":3,"mov":2,"heic":1,"webp":1},
+    "markdownSearched": 57,
+    "pdfTextExtracted": 3,
+    "selectedRasterImagesVisuallyReviewed": 27,
+    "movFilesFrameSampled": 2,
+    "movSampledFrameCount": 6,
+    "coverageState": "FINITE_TARGETED_SCAN_NOT_EXHAUSTIVE_VISUAL_REVIEW_OF_EVERY_FRAME_OR_PIXEL"
+  },
+  "negativeSignatureChecks": [
+    "TRANSPARENT_PDMS_COATED_SILICA_PDRC_LAYER_NOT_FOUND",
+    "EIGHT_TO_THIRTEEN_MICROMETER_ATMOSPHERIC_WINDOW_NOT_FOUND",
+    "FRESNEL_LENS_AS_CONCENTRATOR_NOT_FOUND",
+    "PVT_OR_GAAS_COLLECTOR_NOT_FOUND",
+    "PDRC_PVT_THERMAL_DECOUPLING_NOT_FOUND",
+    "SIMULTANEOUS_ELECTRICITY_HIGH_TEMPERATURE_HEAT_AND_COOLING_DEVICE_NOT_FOUND",
+    "EARTH_MOUND_RESISTANCE_HEATER_SEASONAL_STORAGE_NOT_FOUND",
+    "EXACT_TECHNICAL_SEVEN_SEVEN_CYCLE_NOT_FOUND"
+  ]
+}

@@ -76,9 +76,9 @@ das Material; er ersetzt die Zustimmung nicht.
 Nach dem Checkout eines Tags erzeugt das Programm den Umschlag:
 
 ```powershell
-node scripts/create-provenance-snapshot.mjs --ref v0.6.0 --output open-research-branches-v0.6.0-provenance.json
-node scripts/create-provenance-snapshot.mjs --verify open-research-branches-v0.6.0-provenance.json
-git bundle verify open-research-branches-v0.6.0-source.bundle
+node scripts/create-provenance-snapshot.mjs --ref v0.7.0 --output open-research-branches-v0.7.0-provenance.json
+node scripts/create-provenance-snapshot.mjs --verify open-research-branches-v0.7.0-provenance.json
+git bundle verify open-research-branches-v0.7.0-source.bundle
 ```
 
 Der im Release veröffentlichte JSON-Umschlag ist die maschinenlesbare Fassung.

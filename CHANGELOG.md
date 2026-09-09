@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.7.0 — 2026-09-09
+
+- published `FREE NEWS 006`, a date- and hash-bound answer to what Juri documented: an iridium ignition, membrane, threshold, water/ice droplet, triboelectric separation, air-gap and miniature-thunderstorm-generator hypothesis plus separate optics and water-reflection work
+- inventoried 224 local files and publicly retained only minimized aliases, byte lengths, SHA-256 receipts, time fields, source spans and finite scan coverage
+- compared the Juri model with KIT's transparent PDRC/Fresnel/PVT tri-generation prototype and Standard Thermal's resistance-heated earthen thermal store as three distinct technical architectures
+- added a deterministic component lens that preserves `Ir77`, keeps exact features separate from broad motifs and cannot promote similarity into access, derivation, copying, inventorship or payment
+- bound the publication to Juri Janovski while keeping private raw archives, absolute local paths, chats and full media outside Git
+- recorded the current ceiling as date-bound generic overlap; access, derivation, copying, patent claims and payment remain separate reopenable questions
+
 ## 0.6.0 — 2026-09-09
 
 - added `CODE ZEITWÄRTSZURÜCK`, a reproducible Git provenance envelope binding a target tag or ref, its object, commit, tree, visible history, every target-tree file, byte length, SHA-256 digest and declared path license; the release also carries a verified Git bundle and checksum list

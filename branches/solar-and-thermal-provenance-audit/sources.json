@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0.0",
+  "accessedAt": "2026-09-09",
+  "sources": [
+    {
+      "id": "NEWS-KIT-01",
+      "publisher": "MSN",
+      "type": "user-linked-news-page",
+      "title": "Deutsche Forscher entwickeln 3-in-1-Solarmodul",
+      "url": "https://www.msn.com/de-de/finanzen/allgemein/deutsche-forscher-entwickeln-3-in-1-solarmodul-es-ist-kraftwerk-heizung-und-klimaanlage-gleichzeitig/ar-AA2aDDDl",
+      "coverage": "TITLE_AND_URL_ONLY"
+    },
+    {
+      "id": "KIT-01",
+      "publisher": "Karlsruhe Institute of Technology",
+      "type": "primary-press-release",
+      "title": "Hybrid Energy System: One Roof for Electricity, Heating and Cooling",
+      "publishedAt": "2026-08-14",
+      "url": "https://www.kit.edu/kit/english/pi_2026_071_hybrid-energy-system-one-roof-for-electricity-heating-and-cooling.php",
+      "coverage": "FULL_PUBLIC_PAGE"
+    },
+    {
+      "id": "KIT-02",
+      "publisher": "KITopen",
+      "type": "primary-publication-record",
+      "title": "Co-harvesting universe coldness and solar energy for tri-generation of cooling, electricity, and heating",
+      "publishedAt": "2026-08-28",
+      "url": "https://publikationen.bibliothek.kit.edu/1000196634",
+      "doi": "10.1016/j.xcrp.2026.103492",
+      "coverage": "METADATA_AND_ABSTRACT"
+    },
+    {
+      "id": "KIT-03",
+      "publisher": "Karlsruhe Institute of Technology",
+      "type": "primary-research-profile",
+      "title": "The Sun Catcher",
+      "lastChange": "2023-05-08",
+      "url": "https://www.mtet.kit.edu/1139.php",
+      "coverage": "FULL_PUBLIC_PAGE"
+    },
+    {
+      "id": "KIT-PRIOR-01",
+      "publisher": "Joule",
+      "type": "primary-research-paper",
+      "title": "Simultaneously and Synergistically Harvest Energy from the Sun and Outer Space",
+      "publishedAt": "2018-11-08",
+      "url": "https://doi.org/10.1016/j.joule.2018.10.009",
+      "coverage": "PUBLIC_METADATA_AND_ABSTRACT"
+    },
+    {
+      "id": "KIT-PRIOR-02",
+      "publisher": "Nature Communications",
+      "type": "primary-research-paper",
+      "title": "Photonic-selective polymeric metamaterial for high-performance daytime radiative cooling",
+      "publishedAt": "2024-05-07",
+      "url": "https://doi.org/10.1038/s41467-024-48150-2",
+      "coverage": "PUBLIC_ARTICLE"
+    },
+    {
+      "id": "KIT-PRIOR-03",
+      "publisher": "Fraunhofer IOF",
+      "type": "institutional-award-record",
+      "title": "Applied Photonics Award 2024",
+      "publishedAt": "2024-09-27",
+      "url": "https://www.iof.fraunhofer.de/de/presse-medien/pressemitteilungen/2024/Applied-Photonics-Award-2024.html",
+      "coverage": "PUBLIC_TITLE_AND_PROJECT_DESCRIPTION"
+    },
+    {
+      "id": "NEWS-ST-01",
+      "publisher": "MSN",
+      "type": "user-linked-news-page",
+      "title": "Wie dieses Projekt ein großes Problem der Energiewende lösen könnte",
+      "url": "https://www.msn.com/de-de/finanzen/allgemein/wie-dieses-projekt-ein-gro%C3%9Fes-problem-der-energiewende-l%C3%B6sen-k%C3%B6nnte/ar-AA29Xv0y",
+      "coverage": "TITLE_AND_URL_ONLY"
+    },
+    {
+      "id": "ST-01",
+      "publisher": "Standard Thermal",
+      "type": "company-primary-description",
+      "title": "Standard Thermal technology",
+      "url": "https://www.standardthermal.com/technology",
+      "coverage": "PUBLIC_COMPANY_DESCRIPTION_COMPANY_PERFORMANCE_CLAIMS"
+    },
+    {
+      "id": "ST-02",
+      "publisher": "United States Patent and Trademark Office via Google Patents",
+      "type": "patent-record",
+      "title": "US12513784B1 — System and method for thermal energy storage",
+      "priorityDate": "2024-03-03",
+      "filingDate": "2025-03-03",
+      "publicationDate": "2025-12-30",
+      "url": "https://patents.google.com/patent/US12513784B1/en",
+      "coverage": "PUBLIC_PATENT_RECORD_AND_CLAIMS_NO_LEGAL_STATUS_OPINION"
+    },
+    {
+      "id": "ST-03",
+      "publisher": "Findings",
+      "type": "primary-modeling-paper",
+      "title": "Thermal Energy Storage in Dirt for Repowering Decommissioned Coal Plants",
+      "publishedAt": "2025-07",
+      "url": "https://doi.org/10.32866/001c.141340",
+      "coverage": "FULL_PUBLIC_PAPER_MODELING_STUDY_NOT_INDEPENDENT_PROTOTYPE_VALIDATION"
+    },
+    {
+      "id": "LAW-01",
+      "publisher": "World Intellectual Property Organization",
+      "type": "official-copyright-guidance",
+      "title": "What Can I Protect with a Copyright?",
+      "url": "https://www.wipo.int/en/web/copyright/protection",
+      "coverage": "GENERAL_EXPRESSION_IDEA_BOUNDARY_NOT_CASE_SPECIFIC_LEGAL_ADVICE"
+    },
+    {
+      "id": "LAW-02",
+      "publisher": "Bundesministerium der Justiz und Bundesamt für Justiz",
+      "type": "official-statute",
+      "title": "Patentgesetz § 3",
+      "url": "https://www.gesetze-im-internet.de/patg/__3.html",
+      "coverage": "NOVELTY_AND_STATE_OF_THE_ART_TEXT"
+    },
+    {
+      "id": "LAW-03",
+      "publisher": "Bundesministerium der Justiz und Bundesamt für Justiz",
+      "type": "official-statute",
+      "title": "Patentgesetz § 6",
+      "url": "https://www.gesetze-im-internet.de/patg/__6.html",
+      "coverage": "RIGHT_TO_PATENT_AND_INDEPENDENT_INVENTION_TEXT"
+    }
+  ]
+}

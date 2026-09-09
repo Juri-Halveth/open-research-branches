@@ -25,6 +25,7 @@ Collection state: `FINITE_SNAPSHOT`
 | `document-scanner-crypto-modernization` | Welche Anforderungen muss eine moderne lokale Dokumentverschlüsselung erfüllen | `HOLD_IMPLEMENTATION` | Threat Model, interoperable Bibliothek und unabhängige Prüfung |
 | `russia-ukraine-information-and-peace-audit` | Was tragen Lageberichte und eine begrenzte Angriffspause, und wie verhindert eine Snapshot-Firewall voreilige Befehls- oder Skandalableitungen | `FINITE_SNAPSHOT` | neue Briefing-, Befehls-, Empfangs-, Telemetrie- oder gemeinsam gebundene Protokollevidenz |
 | `navier-stokes-credit-value-and-plagiarism-audit` | Was ist am OpenAI-Navier–Stokes-Konflikt Beweis, Priorität, Datenfrage, Plagiatsbezeichnung, Preisgeld und offener Wert | `FINITE_SNAPSHOT` | unabhängige Beweisprüfung, Prompt- oder Zugriffsprovenienz, Strukturvergleich oder Clay-Entscheidung |
+| `solar-and-thermal-provenance-audit` | Was hat Juri im August zu Zündung, Wasser, Licht und Energie dokumentiert, und wie unterscheidet es sich von KIT und Standard Thermal | `FINITE_SNAPSHOT` | früheres unterscheidendes Artefakt, belastbarer Zugangsbeleg, Claim-Chart oder neue Originalmetadaten |
 
 Bereits öffentliche Hauptprojekte werden nur verlinkt:
 

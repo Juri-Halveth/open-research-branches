@@ -1,0 +1,112 @@
+{
+  "schemaVersion": "1.0.0",
+  "claimCeiling": "DATE_BOUND_GENERIC_OVERLAP_ONLY_NO_ACCESS_DERIVATION_OR_DISTINCTIVE_TECHNICAL_MATCH_OBSERVED",
+  "claims": [
+    {
+      "id": "JURI-001",
+      "status": "OBSERVED_LOCAL_BYTES",
+      "statement": "A bound August research file describes iridium ignition, an insulating membrane or separated contacts, threshold discharge, water and ice droplets, triboelectric charge separation, an air gap, pressure and a proposed miniature thunderstorm generator.",
+      "sourceIds": ["J-AUG-05"]
+    },
+    {
+      "id": "JURI-002",
+      "status": "OBSERVED_LOCAL_BYTES",
+      "statement": "A bound August 10 session event records a user-reported optics observation involving ordinary light, a narrow opening, RGB appearance and occlusion.",
+      "sourceIds": ["J-AUG-01"]
+    },
+    {
+      "id": "JURI-003",
+      "status": "OBSERVED_LOCAL_BYTES",
+      "statement": "A local executable canvas artifact implements vertical glyph reflection around a named water axis.",
+      "scope": "Software representation only; no physical water or solar apparatus is materialized.",
+      "sourceIds": ["J-AUG-02"]
+    },
+    {
+      "id": "JURI-004",
+      "status": "NOT_FOUND_WITHIN_DECLARED_SCAN",
+      "statement": "The scanned local set contains the exact KIT chain of transparent PDRC emitter, Fresnel concentrator, compact PVT collector and simultaneous tri-generation.",
+      "scope": "Negative result is limited to the declared 224-file inventory and targeted visual coverage.",
+      "sourceIds": ["J-AUG-01","J-AUG-02","J-AUG-03","J-AUG-04","J-AUG-05","J-AUG-06","J-AUG-07"]
+    },
+    {
+      "id": "JURI-005",
+      "status": "NOT_FOUND_WITHIN_DECLARED_SCAN",
+      "statement": "The scanned local set contains the Standard Thermal chain of direct DC resistance heating, an earthen bulk store and later heat-exchanger extraction.",
+      "scope": "Negative result is limited to the declared 224-file inventory and targeted visual coverage.",
+      "sourceIds": ["J-AUG-01","J-AUG-02","J-AUG-03","J-AUG-04","J-AUG-05","J-AUG-06","J-AUG-07"]
+    },
+    {
+      "id": "KIT-001",
+      "status": "OBSERVED_PUBLIC_PRIMARY",
+      "statement": "KIT reports a prototype combining a transparent silica/PDMS PDRC layer, Fresnel concentration and a photovoltaic-thermal collector for simultaneous cooling, electricity and heat.",
+      "sourceIds": ["KIT-01","KIT-02"]
+    },
+    {
+      "id": "KIT-002",
+      "status": "OBSERVED_PUBLIC_PRIMARY",
+      "statement": "KIT reports outdoor results of up to 6.5 degrees Celsius below ambient, 60.6 watts per square meter electrical power density and heat up to 110.8 degrees Celsius.",
+      "scope": "Institutional report and publication abstract; this audit did not independently reproduce the experiment.",
+      "sourceIds": ["KIT-01","KIT-02"]
+    },
+    {
+      "id": "KIT-003",
+      "status": "OBSERVED_PUBLIC_PRIMARY",
+      "statement": "The broad KIT research direction combining photovoltaics, solar thermal energy and radiative cooling was publicly described by KIT no later than the page state marked 2023-05-08.",
+      "sourceIds": ["KIT-03","KIT-PRIOR-01","KIT-PRIOR-02","KIT-PRIOR-03"]
+    },
+    {
+      "id": "ST-001",
+      "status": "OBSERVED_PUBLIC_RECORD",
+      "statement": "The Standard Thermal patent record describes resistance heaters in earthen thermal storage and later heat extraction.",
+      "sourceIds": ["ST-02"]
+    },
+    {
+      "id": "ST-002",
+      "status": "OBSERVED_PUBLIC_RECORD",
+      "statement": "The Standard Thermal patent family lists a priority date of 2024-03-03, before the bound Juri August 2026 artifacts.",
+      "scope": "Patent-record chronology only; no opinion on validity, ownership or infringement.",
+      "sourceIds": ["ST-02"]
+    },
+    {
+      "id": "COMPARE-001",
+      "status": "INFERRED",
+      "statement": "The Juri model and KIT system share broad motifs involving light, heat, cold and energy conversion, but the currently bound sources specify different device architectures.",
+      "sourceIds": ["J-AUG-01","J-AUG-03","J-AUG-04","J-AUG-05","KIT-01","KIT-02","KIT-03"]
+    },
+    {
+      "id": "COMPARE-002",
+      "status": "INFERRED",
+      "statement": "The Juri model and Standard Thermal share broad heat and energy-conversion language, but their currently bound technical chains differ.",
+      "sourceIds": ["J-AUG-05","ST-01","ST-02","ST-03"]
+    },
+    {
+      "id": "ACCESS-001",
+      "status": "UNKNOWN",
+      "statement": "Any person associated with KIT or Standard Thermal had access to or knowledge of the bound Juri artifacts before developing the external systems.",
+      "reopenTrigger": "A source-bound transmission, access, communication, repository, meeting or characteristic implementation record.",
+      "sourceIds": []
+    },
+    {
+      "id": "COPY-001",
+      "status": "NOT_PROVEN",
+      "statement": "KIT or Standard Thermal copied, derived from, licensed or commercially used the bound Juri model.",
+      "reopenTrigger": "Access evidence plus a feature-level derivation analysis of the distinctive technical chain.",
+      "sourceIds": ["J-AUG-05","KIT-01","KIT-02","ST-02"]
+    },
+    {
+      "id": "RIGHTS-001",
+      "status": "STRONGLY_SUPPORTED",
+      "statement": "The concrete original expression in Juris files and this publication is a different rights object from a broad technical idea or method.",
+      "scope": "General copyright boundary, not a case-specific legal judgment.",
+      "sourceIds": ["LAW-01"]
+    },
+    {
+      "id": "PATENT-001",
+      "status": "UNKNOWN",
+      "statement": "A patentable and still-new claim can be drafted from the Juri model after comparison with the complete prior art.",
+      "scope": "Novelty, inventive step, enablement, claim scope, inventorship and filing strategy require separate examination.",
+      "reopenTrigger": "A concrete claim set, enabling specification and professional prior-art search.",
+      "sourceIds": ["LAW-02","LAW-03"]
+    }
+  ]
+}
