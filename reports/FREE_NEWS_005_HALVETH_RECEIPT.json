@@ -1,0 +1,380 @@
+{
+  "schema": "halveth.status-quo-navigation-receipt.v1",
+  "logicVersion": "3.5.1",
+  "entityVersion": "1.0.0",
+  "entityState": "STATUS_QUO_FROZEN",
+  "frameId": "FREE-NEWS-005-HOW-TO-FISH",
+  "project": {
+    "domainAdapter": "GENERAL_RESEARCH",
+    "objective": "Publish a compact source-bound note on product attribution, human-description terms, identity and creation provenance.",
+    "objectOrReferent": "Steam App 4001890 How to Fish and the user's semantic provenance questions",
+    "scope": "Public sources and a public-safe report only",
+    "deliverableType": "PUBLIC_RESEARCH_NOTE",
+    "sourceRefs": [
+      "SRC:STEAM:APP4001890",
+      "SRC:DAZED:GAMES",
+      "SRC:GG:ART1",
+      "SRC:GG:ART2",
+      "SRC:BGB:12",
+      "SRC:URHG:2",
+      "SRC:URHG:10",
+      "SRC:DSGVO:4"
+    ],
+    "acceptedBaselineRef": "BASE:STEAM:2026-09-09"
+  },
+  "scanPolicy": {
+    "horizontalMode": "FULL_DECLARED_ADAPTER_APERTURE",
+    "verticalPreviewDepth": 4,
+    "diagonalMode": "COMPLETE_MATERIAL_CANDIDATE_PAIR_GRAPH",
+    "selectiveDrillDepth": 4,
+    "noSelectiveDrillBeforeDiagonal": true,
+    "freezeMode": "VERSIONED_IMMUTABLE_BASELINE"
+  },
+  "adapterRequiredAxisIds": [
+    "SOURCE",
+    "DEFINITION",
+    "MECHANISM",
+    "COUNTERHYPOTHESIS",
+    "OBSERVATION",
+    "MATERIALIZATION_BRIDGE",
+    "IMPACT",
+    "UNKNOWN_FRONTIER"
+  ],
+  "registeredAxisIds": [
+    "COUNTERHYPOTHESIS",
+    "DEFINITION",
+    "IMPACT",
+    "MATERIALIZATION_BRIDGE",
+    "MECHANISM",
+    "OBSERVATION",
+    "SOURCE",
+    "UNKNOWN_FRONTIER"
+  ],
+  "materialCandidateAxisIds": [
+    "COUNTERHYPOTHESIS",
+    "DEFINITION",
+    "IMPACT",
+    "MATERIALIZATION_BRIDGE",
+    "MECHANISM",
+    "UNKNOWN_FRONTIER"
+  ],
+  "axisResults": [
+    {
+      "axisId": "COUNTERHYPOTHESIS",
+      "state": "FLAGGED_MATERIAL",
+      "evidenceState": "STRONGLY_SUPPORTED",
+      "horizontalReceiptRefs": [
+        "H:COUNTERHYPOTHESIS"
+      ],
+      "exclusionReason": null,
+      "verticalProbe": {
+        "state": "COVERED",
+        "completedDepth": 4,
+        "maximumDepth": 4,
+        "layerReceiptRefs": [
+          "V:COUNTERHYPOTHESIS:1",
+          "V:COUNTERHYPOTHESIS:2",
+          "V:COUNTERHYPOTHESIS:3",
+          "V:COUNTERHYPOTHESIS:4"
+        ],
+        "criticalUnknownCount": 2,
+        "deepDivePurpose": "MULTI_APERTURE_FIELD_PROBE"
+      },
+      "priorityVector": {
+        "objectiveRelevance": 4,
+        "criticality": 3,
+        "evidenceStrength": 4,
+        "authorizedActionability": 4,
+        "informationGain": 4,
+        "repairValue": 4,
+        "effortCost": 1,
+        "actionRisk": 0
+      },
+      "frontierRef": "FRONTIER:COUNTERHYPOTHESIS",
+      "basePriorityScore": 22,
+      "diagonalDelta": 0,
+      "collectiveScore": 22
+    },
+    {
+      "axisId": "DEFINITION",
+      "state": "FLAGGED_MATERIAL",
+      "evidenceState": "STRONGLY_SUPPORTED",
+      "horizontalReceiptRefs": [
+        "H:DEFINITION"
+      ],
+      "exclusionReason": null,
+      "verticalProbe": {
+        "state": "COVERED",
+        "completedDepth": 4,
+        "maximumDepth": 4,
+        "layerReceiptRefs": [
+          "V:DEFINITION:1",
+          "V:DEFINITION:2",
+          "V:DEFINITION:3",
+          "V:DEFINITION:4"
+        ],
+        "criticalUnknownCount": 1,
+        "deepDivePurpose": "MULTI_APERTURE_FIELD_PROBE"
+      },
+      "priorityVector": {
+        "objectiveRelevance": 4,
+        "criticality": 4,
+        "evidenceStrength": 4,
+        "authorizedActionability": 4,
+        "informationGain": 4,
+        "repairValue": 4,
+        "effortCost": 1,
+        "actionRisk": 0
+      },
+      "frontierRef": "FRONTIER:DEFINITION",
+      "basePriorityScore": 23,
+      "diagonalDelta": 0,
+      "collectiveScore": 23
+    },
+    {
+      "axisId": "IMPACT",
+      "state": "UNKNOWN_MATERIAL",
+      "evidenceState": "UNKNOWN",
+      "horizontalReceiptRefs": [
+        "H:IMPACT"
+      ],
+      "exclusionReason": null,
+      "verticalProbe": {
+        "state": "COVERED",
+        "completedDepth": 4,
+        "maximumDepth": 4,
+        "layerReceiptRefs": [
+          "V:IMPACT:1",
+          "V:IMPACT:2",
+          "V:IMPACT:3",
+          "V:IMPACT:4"
+        ],
+        "criticalUnknownCount": 2,
+        "deepDivePurpose": "MULTI_APERTURE_FIELD_PROBE"
+      },
+      "priorityVector": {
+        "objectiveRelevance": 2,
+        "criticality": 2,
+        "evidenceStrength": 1,
+        "authorizedActionability": 1,
+        "informationGain": 2,
+        "repairValue": 2,
+        "effortCost": 3,
+        "actionRisk": 1
+      },
+      "frontierRef": "FRONTIER:IMPACT",
+      "basePriorityScore": 6,
+      "diagonalDelta": 0,
+      "collectiveScore": 6
+    },
+    {
+      "axisId": "MATERIALIZATION_BRIDGE",
+      "state": "UNKNOWN_MATERIAL",
+      "evidenceState": "UNKNOWN",
+      "horizontalReceiptRefs": [
+        "H:MATERIALIZATION_BRIDGE"
+      ],
+      "exclusionReason": null,
+      "verticalProbe": {
+        "state": "COVERED",
+        "completedDepth": 4,
+        "maximumDepth": 4,
+        "layerReceiptRefs": [
+          "V:MATERIALIZATION_BRIDGE:1",
+          "V:MATERIALIZATION_BRIDGE:2",
+          "V:MATERIALIZATION_BRIDGE:3",
+          "V:MATERIALIZATION_BRIDGE:4"
+        ],
+        "criticalUnknownCount": 2,
+        "deepDivePurpose": "MULTI_APERTURE_FIELD_PROBE"
+      },
+      "priorityVector": {
+        "objectiveRelevance": 4,
+        "criticality": 3,
+        "evidenceStrength": 1,
+        "authorizedActionability": 2,
+        "informationGain": 4,
+        "repairValue": 3,
+        "effortCost": 3,
+        "actionRisk": 1
+      },
+      "frontierRef": "FRONTIER:MATERIALIZATION_BRIDGE",
+      "basePriorityScore": 13,
+      "diagonalDelta": 0,
+      "collectiveScore": 13
+    },
+    {
+      "axisId": "MECHANISM",
+      "state": "UNKNOWN_MATERIAL",
+      "evidenceState": "UNKNOWN",
+      "horizontalReceiptRefs": [
+        "H:MECHANISM"
+      ],
+      "exclusionReason": null,
+      "verticalProbe": {
+        "state": "COVERED",
+        "completedDepth": 4,
+        "maximumDepth": 4,
+        "layerReceiptRefs": [
+          "V:MECHANISM:1",
+          "V:MECHANISM:2",
+          "V:MECHANISM:3",
+          "V:MECHANISM:4"
+        ],
+        "criticalUnknownCount": 2,
+        "deepDivePurpose": "MULTI_APERTURE_FIELD_PROBE"
+      },
+      "priorityVector": {
+        "objectiveRelevance": 3,
+        "criticality": 3,
+        "evidenceStrength": 2,
+        "authorizedActionability": 3,
+        "informationGain": 4,
+        "repairValue": 3,
+        "effortCost": 3,
+        "actionRisk": 0
+      },
+      "frontierRef": "FRONTIER:MECHANISM",
+      "basePriorityScore": 15,
+      "diagonalDelta": 0,
+      "collectiveScore": 15
+    },
+    {
+      "axisId": "OBSERVATION",
+      "state": "STABLE_WITHIN_COVERAGE",
+      "evidenceState": "OBSERVED",
+      "horizontalReceiptRefs": [
+        "H:OBSERVATION"
+      ],
+      "exclusionReason": null,
+      "verticalProbe": {
+        "state": "NOT_REQUIRED",
+        "completedDepth": 0,
+        "maximumDepth": 4,
+        "layerReceiptRefs": [],
+        "criticalUnknownCount": 0,
+        "deepDivePurpose": null
+      },
+      "priorityVector": {
+        "objectiveRelevance": 0,
+        "criticality": 0,
+        "evidenceStrength": 0,
+        "authorizedActionability": 0,
+        "informationGain": 0,
+        "repairValue": 0,
+        "effortCost": 0,
+        "actionRisk": 0
+      },
+      "frontierRef": null,
+      "basePriorityScore": 0,
+      "diagonalDelta": 0,
+      "collectiveScore": 0
+    },
+    {
+      "axisId": "SOURCE",
+      "state": "STABLE_WITHIN_COVERAGE",
+      "evidenceState": "OBSERVED",
+      "horizontalReceiptRefs": [
+        "H:SOURCE"
+      ],
+      "exclusionReason": null,
+      "verticalProbe": {
+        "state": "NOT_REQUIRED",
+        "completedDepth": 0,
+        "maximumDepth": 4,
+        "layerReceiptRefs": [],
+        "criticalUnknownCount": 0,
+        "deepDivePurpose": null
+      },
+      "priorityVector": {
+        "objectiveRelevance": 0,
+        "criticality": 0,
+        "evidenceStrength": 0,
+        "authorizedActionability": 0,
+        "informationGain": 0,
+        "repairValue": 0,
+        "effortCost": 0,
+        "actionRisk": 0
+      },
+      "frontierRef": null,
+      "basePriorityScore": 0,
+      "diagonalDelta": 0,
+      "collectiveScore": 0
+    },
+    {
+      "axisId": "UNKNOWN_FRONTIER",
+      "state": "FLAGGED_MATERIAL",
+      "evidenceState": "STRONGLY_SUPPORTED",
+      "horizontalReceiptRefs": [
+        "H:UNKNOWN_FRONTIER"
+      ],
+      "exclusionReason": null,
+      "verticalProbe": {
+        "state": "COVERED",
+        "completedDepth": 4,
+        "maximumDepth": 4,
+        "layerReceiptRefs": [
+          "V:UNKNOWN_FRONTIER:1",
+          "V:UNKNOWN_FRONTIER:2",
+          "V:UNKNOWN_FRONTIER:3",
+          "V:UNKNOWN_FRONTIER:4"
+        ],
+        "criticalUnknownCount": 2,
+        "deepDivePurpose": "MULTI_APERTURE_FIELD_PROBE"
+      },
+      "priorityVector": {
+        "objectiveRelevance": 4,
+        "criticality": 3,
+        "evidenceStrength": 3,
+        "authorizedActionability": 4,
+        "informationGain": 4,
+        "repairValue": 3,
+        "effortCost": 2,
+        "actionRisk": 0
+      },
+      "frontierRef": "FRONTIER:UNKNOWN_FRONTIER",
+      "basePriorityScore": 19,
+      "diagonalDelta": 0,
+      "collectiveScore": 19
+    }
+  ],
+  "diagonalPairCoverage": {
+    "expectedPairCount": 15,
+    "registeredPairCount": 15,
+    "evaluatedPairCount": 15,
+    "state": "COMPLETE_FOR_MATERIAL_CANDIDATE_GRAPH"
+  },
+  "coverageState": "COMPLETE_FOR_DECLARED_ADAPTER_APERTURE",
+  "prioritySemantics": "ORDINAL_SEARCH_HEURISTIC_NOT_FACT_OR_IMPACT",
+  "computedOutcome": "SELECT_FRONTIER",
+  "selectedAxisId": "DEFINITION",
+  "selectedFrontierRef": "FRONTIER:DEFINITION",
+  "nextOperator": "EXTREMUM_NAVIGATION",
+  "decision": {
+    "outcome": "SELECT_FRONTIER",
+    "selectedAxisId": "DEFINITION",
+    "nextOperator": "EXTREMUM_NAVIGATION",
+    "preservedAxisIds": [
+      "SOURCE",
+      "DEFINITION",
+      "MECHANISM",
+      "COUNTERHYPOTHESIS",
+      "OBSERVATION",
+      "MATERIALIZATION_BRIDGE",
+      "IMPACT",
+      "UNKNOWN_FRONTIER"
+    ],
+    "rationale": "Definition is the highest-scoring bounded frontier; all provenance and impact unknowns remain preserved."
+  },
+  "authority": {
+    "mode": "LOCAL_READ_ONLY_ANALYSIS",
+    "sourceSystemEffects": 0,
+    "externalNetworkEffects": 0,
+    "mutationAuthorized": false
+  },
+  "recordedAt": "2026-09-09T19:50:03.564Z",
+  "freezeState": "ENTITY_V1_0_0_IMMUTABLE_PROJECT_RECEIPTS_APPEND_SEPARATELY",
+  "claimCeiling": "BOUND_MULTI_APERTURE_NAVIGATION_DECISION_ONLY",
+  "finding": false,
+  "receiptDigest": "sha256:c2c5dc4f958e1a67a9d3b71370805f2ac9dca222d9f06ffb06b39d09cbf9463d"
+}

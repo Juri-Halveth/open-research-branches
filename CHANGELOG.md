@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.5.1 — 2026-09-09
+
+- published `FREE NEWS 005`, a compact HALVETH cross-section of *How to Fish*, Leib/Wohl terminology, identity and open creation provenance
+- separated public developer/publisher attribution from the unknown first-idea, contribution, contract, access and rights chain
+- recorded `@Juri-Halveth` as initiator of the audit prompt and publisher of this version; no advisory-board office or outside participation is asserted
+- validated the complete general-research sibling aperture and selected `DEFINITION` as an ordinal search frontier rather than a truth, legal or scandal score
+
 ## 0.5.0 — 2026-09-09
 
 - published `Stille Post zwischen Befehl und Snapshot`, a source-bound decision-chain audit proposed by `@Juri-Halveth`
