@@ -132,6 +132,16 @@
       "claimCeiling": "PUBLIC_SOURCE_PROVENANCE_AND_VALUE_AUDIT_NOT_PROOF_VALIDATION_DATA_ACCESS_FINDING_OR_PLAGIARISM_JUDGMENT",
       "dataClass": "PUBLIC_SOURCES_ONLY",
       "activeMain": false
+    },
+    {
+      "id": "binary-inquiry-loop",
+      "title": "Binary Inquiry Loop",
+      "kind": "deterministic-dialogue-protocol",
+      "state": "PUBLIC_DERIVATIVE",
+      "path": "branches/binary-inquiry-loop",
+      "claimCeiling": "DETERMINISTIC_DIALOGUE_PROTOCOL_NOT_TRUTH_CONSENT_OR_LEGAL_EFFECT",
+      "dataClass": "SYNTHETIC_ONLY",
+      "activeMain": false
     }
   ]
 }

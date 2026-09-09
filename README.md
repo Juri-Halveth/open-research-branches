@@ -28,6 +28,7 @@ Sicherheitsmeldungen gehören nicht hierher.
 | `russia-ukraine-information-and-peace-audit` | Quellen-, Informations- und Friedensaudit mit `Was los?.`-Prüfkreis | `FINITE_SNAPSHOT` |
 | `aster-provenance-and-secret-garden` | ASTER-Provenienz, öffentliche Erzählwelt und minimale Projektkeime | `PUBLIC_DERIVATIVE` |
 | `navier-stokes-credit-value-and-plagiarism-audit` | Beweis-, Prioritäts-, Datenzugriffs-, Credit- und Wertprüfung mit kurzer Vorlesefassung | `FINITE_SNAPSHOT` |
+| `binary-inquiry-loop` | deterministische wechselseitige Ja/Nein-Klärung mit Rückkehr zur gebundenen Frage | `PUBLIC_DERIVATIVE` |
 
 Der maschinenlesbare Bestand liegt in
 [`catalog/branches.json`](catalog/branches.json). Die Aufnahme- und

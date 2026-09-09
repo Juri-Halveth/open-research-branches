@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.4.0 — 2026-09-09
+
+- published `binary-inquiry-loop`, a deterministic two-party clarification protocol proposed by `@Juri-Halveth`
+- bound every response to one question ID and exposed only `JA`, `NEIN` or the unresolved `FRAGE`
+- returned conditions, contradictions and unbound playful tokens to the last clear question without inventing meaning
+- added a finite turn limit, immutable state transitions and twelve executable tests, including the rule that instructions do not transfer responsibility or authorize outside action
+
 ## 0.3.4 — 2026-09-09
 
 - added `FREE NEWS 004`, a sanitized structural audit of a 234-vendor TCF consent cockpit

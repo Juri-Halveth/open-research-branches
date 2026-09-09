@@ -1,0 +1,14 @@
+{
+  "name": "binary-inquiry-loop",
+  "version": "1.0.0",
+  "description": "Deterministic two-party yes/no clarification protocol.",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test binary-inquiry-machine.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

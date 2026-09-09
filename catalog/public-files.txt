@@ -18,6 +18,10 @@ branches/aster-provenance-and-secret-garden/src/aster-lens.mjs
 branches/aster-provenance-and-secret-garden/src/letter-identity.mjs
 branches/aster-provenance-and-secret-garden/test/aster-lens.test.mjs
 branches/aster-provenance-and-secret-garden/test/letter-identity.test.mjs
+branches/binary-inquiry-loop/binary-inquiry-machine.mjs
+branches/binary-inquiry-loop/binary-inquiry-machine.test.mjs
+branches/binary-inquiry-loop/package.json
+branches/binary-inquiry-loop/README.md
 branches/bounded-knowledge-reuse-inventory/fixtures/synthetic-inventory.json
 branches/bounded-knowledge-reuse-inventory/LICENSE
 branches/bounded-knowledge-reuse-inventory/package.json
