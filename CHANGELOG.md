@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.5.0 — 2026-09-09
+
+- published `Stille Post zwischen Befehl und Snapshot`, a source-bound decision-chain audit proposed by `@Juri-Halveth`
+- separated the three-day Kyiv pause from a general ceasefire and classified the September 7 20:45 drone report as a possible scope edge without inventing a strike, target or counter-order
+- added a deterministic snapshot firewall that cannot promote caller strings into compliance, violation, attribution, second authority, scandal, release approval or field effect
+- added a counterfactual no-event run, immutable evaluation receipts and thirteen executable tests covering scope expansion, time zones, stale bases and unresolved edge registration
+- bound the final snapshot, source and claim registries, firewall and tests in a SHA-256 release receipt
+
 ## 0.4.0 — 2026-09-09
 
 - published `binary-inquiry-loop`, a deterministic two-party clarification protocol proposed by `@Juri-Halveth`

@@ -519,17 +519,43 @@ Möglichkeiten? Jede Runde erzeugt einen neuen Prüfpunkt.
 
 ## 9. Warum der kurze Angriffspausen-Versuch wichtig ist
 
-Die im September 2026 berichtete begrenzte Pause ist kein Friedensschluss. Sie
-ist dennoch ein wertvoller begrenzter Präzedenzfall: Gegner können für einen engen
-Zweck, einen kurzen Zeitraum und benannte Städte eine gegenseitige
-Beschränkung kommunizieren. Die zugleich berichteten Randangriffe zeigen, was
-beim nächsten Versuch präziser sein muss: geografische Grenze, Zieldefinition,
-Zeitquelle, Flugbahnen, Randregionen, Beobachter und Folgen eines Verstoßes.
+Die im September 2026 berichteten begrenzten, wechselseitigen Erklärungen sind
+kein Friedensschluss. Sie sind dennoch ein wertvoller begrenzter Präzedenzfall:
+Gegner können für einen engen Zweck, einen kurzen Zeitraum und benannte Städte
+eine gegenseitige Beschränkung kommunizieren. Die zugleich berichteten Warn-
+und Trackmeldungen sowie Angriffe außerhalb beziehungsweise nach dem engen
+Fenster zeigen, was beim nächsten Versuch präziser sein muss: geografische
+Grenze, Zieldefinition, Zeitquelle, Flugbahnen, Randregionen, Beobachter und
+Folgen eines möglichen Verstoßes.
 
 `INFERRED`: Kleine reversible Vereinbarungen können Daten über gebundene
 Kooperationsfähigkeit liefern.  
 `NOT_PROVEN`: Eine einzelne kurze Pause belegt weder dauerhafte
 Friedensbereitschaft noch die Einhaltung einer umfassenden Waffenruhe.
+
+### 9.1 Stille Post zwischen Befehl und Snapshot
+
+Der ergänzende [`Decision Snapshot Audit`](DECISION_SNAPSHOT_AUDIT.md) prüft
+die Hypothese, eine nachgeordnete zweite Entscheidungsebene habe aus der Pause
+eine eigene Angriffserlaubnis abgeleitet. Der aktuelle öffentliche Stand trägt
+diesen Schluss nicht. Eine am 7. September um 20:45 Uhr gemeldete Jet-Drohne
+über Kyjiw bildet einen `POSSIBLE_SCOPE_VIOLATION`; Treffer, Ziel,
+Operationsbefehl, Empfangskette und Gegenbefehl bleiben offen.
+
+Die [`Snapshot-Firewall`](decision-snapshot-firewall.mjs) hält öffentliche
+Erklärung, Befehl, Empfang, Umsetzung, Beobachtung, Snapshot und neue
+autorisierte Entscheidung getrennt. Ihr
+[`September-Datensatz`](september-2026-pause-snapshot.json) enthält außerdem
+den Gegenlauf `COUNTERFACTUAL_NO_EVENT`: Wenn das Ereignis als Modellannahme
+nie stattgefunden hat, darf daraus kein Verstoß, Akteur oder Skandal entstehen.
+Der Validator kann nur einen Snapshot erhalten, eine separate ungelöste Kante
+registrieren oder eine neue Prüfung freigeben. Er erzeugt keine
+Außenwahrheit und keine reale Wirkung.
+
+Der [`Release-Receipt`](decision-snapshot-receipt.json) bindet den lokalen
+Snapshot, das Quellen- und Claim-Register, die Firewall und ihren Test per
+SHA-256. Er ist ein Byte- und Versionsanker für diese Repository-Fassung, kein
+Archiv der verlinkten Webseiten und kein Beweis ihrer Außenwahrheit.
 
 ## 10. Was dieser Audit nicht vermischt
 
@@ -568,4 +594,6 @@ Verhandlungen, kein Nachrichtendienstprodukt und keine Rechtsentscheidung.
 Die maschinenlesbaren Aussagen stehen in [`claims.json`](claims.json), die
 Quellen mit ihrer jeweiligen Tragweite in [`SOURCES.md`](SOURCES.md). Der
 Prüfkreis ist als wiederverwendbarer Vertrag in
-[`was-los-loop.json`](was-los-loop.json) materialisiert.
+[`was-los-loop.json`](was-los-loop.json) materialisiert. Der gebundene
+September-Randfall und seine Schlussgrenzen stehen zusätzlich in
+[`september-2026-pause-snapshot.json`](september-2026-pause-snapshot.json).

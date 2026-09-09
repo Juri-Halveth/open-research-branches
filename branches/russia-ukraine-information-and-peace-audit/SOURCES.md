@@ -224,3 +224,34 @@ available. A source supports only the scope named here.
     reporting contradiction.  
     Does not establish whether a political leader believed the earlier claim.
 
+## September 2026 decision-snapshot sources
+
+- **S54 —** [TASS: Putin orders three-day suspension of strikes on Kiev starting at midnight](https://tass.com/politics/2183123)
+    Supports: existence and published wording of the Russian announcement.
+    Limit: a public news statement is not an authenticated unit-level order,
+    distribution record or acknowledgement.
+
+- **S55 —** [TASS: Three-day moratorium on strikes on Kiev expires](https://tass.com/politics/2183855)
+    Supports: the later Russian time account, expiry claim and Putin's stated
+    rejection of the broader three-day truce.
+    Does not independently establish complete compliance.
+
+- **S56 —** [The Kyiv Independent: Russian drones fly toward Kyiv amid temporary attack pause](https://kyivindependent.com/russian-drones-fly-toward-kyiv-amid-temporary-pause-on-attacks-on-capitals/)
+    Supports: reported warnings and approach tracks on September 7 and the
+    absence of an officially reported Kyiv-city impact at publication time.
+    Limit: does not expose raw telemetry, target intent or command provenance.
+
+- **S57 —** [Kyiv Post: Russia appears to break its own three-day Kyiv truce before deadline](https://www.kyivpost.com/post/83980)
+    Supports: the reported 20:45 Kyiv-local-time Air Force warning and the
+    publication's comparison with the stated 23:59 deadline.
+    Limit: the warning does not by itself establish a strike effect, target or
+    counter-order.
+
+- **S58 —** [Kremlin: The President of the Russian Federation](https://en.kremlin.ru/structure/president)
+    Supports: the official description of the president as Supreme
+    Commander-in-Chief.
+    Does not reveal a specific operational command path.
+
+- **S59 —** [Russian Government: Andrei Belousov](https://government.ru/en/gov/persons/123/)
+    Supports: the official public identification of the defence minister.
+    Does not establish receipt or implementation of the September pause.

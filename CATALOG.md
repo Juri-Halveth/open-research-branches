@@ -23,7 +23,7 @@ Collection state: `FINITE_SNAPSHOT`
 | `deidentified-self-observation-protocol` | Wie bleibt eine private Eigenbeobachtung strukturiert, ohne medizinische Evidenz vorzutäuschen | `FINITE_SNAPSHOT` | ethisch geprüfte, zustimmungsgebundene Studie |
 | `visual-interpretation-boundary` | Wie trennt man sichtbare Merkmale von Objekt- oder Gesundheitsdeutung | `FINITE_SNAPSHOT` | öffentliche Ground-Truth-Daten mit Blindvergleich |
 | `document-scanner-crypto-modernization` | Welche Anforderungen muss eine moderne lokale Dokumentverschlüsselung erfüllen | `HOLD_IMPLEMENTATION` | Threat Model, interoperable Bibliothek und unabhängige Prüfung |
-| `russia-ukraine-information-and-peace-audit` | Was trägt die Meldung über verzerrte russische Lageberichte, und welche überprüfbaren Friedenshebel folgen daraus | `FINITE_SNAPSHOT` | neue Briefing-Evidenz oder ein beiderseits gebundenes Pilotprotokoll |
+| `russia-ukraine-information-and-peace-audit` | Was tragen Lageberichte und eine begrenzte Angriffspause, und wie verhindert eine Snapshot-Firewall voreilige Befehls- oder Skandalableitungen | `FINITE_SNAPSHOT` | neue Briefing-, Befehls-, Empfangs-, Telemetrie- oder gemeinsam gebundene Protokollevidenz |
 | `navier-stokes-credit-value-and-plagiarism-audit` | Was ist am OpenAI-Navier–Stokes-Konflikt Beweis, Priorität, Datenfrage, Plagiatsbezeichnung, Preisgeld und offener Wert | `FINITE_SNAPSHOT` | unabhängige Beweisprüfung, Prompt- oder Zugriffsprovenienz, Strukturvergleich oder Clay-Entscheidung |
 
 Bereits öffentliche Hauptprojekte werden nur verlinkt:

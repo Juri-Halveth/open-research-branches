@@ -1,0 +1,72 @@
+{
+  "schemaVersion": "1.0.0",
+  "snapshotId": "RU-UA-KYIV-PAUSE-2026-09-09-A0",
+  "snapshotAt": "2026-09-09T21:40:00+02:00",
+  "dataClass": "PUBLIC_SOURCES_ONLY",
+  "claimCeiling": "FINITE_SNAPSHOT_WITH_OPEN_COMMAND_LINK",
+  "order": {
+    "id": "PAUSE-KYIV-2026-09-05",
+    "issuerPubliclyReportedAs": "President and Supreme Commander-in-Chief of the Russian Federation",
+    "declaredAction": "NO_STRIKES_ON_KYIV_CITY",
+    "geography": [
+      "KYIV_CITY"
+    ],
+    "window": {
+      "start": "2026-09-04T23:00:00+02:00",
+      "end": "2026-09-07T23:00:00+02:00",
+      "timeBasis": "Later TASS description; the first announcement's phrase 'midnight today' was ambiguous in contemporaneous reporting"
+    },
+    "operationalOrderStatus": "UNKNOWN",
+    "publicDeclarationStatus": "OBSERVED",
+    "sourceIds": [
+      "S54",
+      "S55"
+    ]
+  },
+  "incident": {
+    "id": "KYIV-AIR-ALERT-2026-09-07T2045",
+    "observedAt": "2026-09-07T19:45:00+02:00",
+    "eventDescription": "News reports citing the Ukrainian Air Force described a jet-powered Russian drone over Kyiv and others approaching the capital.",
+    "evidenceState": "OBSERVED_REPORT",
+    "actionMatch": "POSSIBLE_MATCH",
+    "geographyMatch": "MATCH",
+    "strikeStatus": "NOT_PROVEN",
+    "impactStatusAtPublication": "NOT_OBSERVED",
+    "targetIntentStatus": "UNKNOWN",
+    "sourceIds": [
+      "S56",
+      "S57"
+    ]
+  },
+  "commandChain": {
+    "orderReceiptStatus": "UNKNOWN",
+    "attributionStatus": "UNKNOWN",
+    "exceptionStatus": "UNKNOWN",
+    "knowledgeOrIntentStatus": "UNKNOWN"
+  },
+  "secondDecision": {
+    "status": "UNKNOWN",
+    "actorId": null,
+    "decisionRecordSourceId": null,
+    "counterOrderId": null,
+    "authorityAssessment": "UNKNOWN",
+    "supersedingOrderStatus": "UNKNOWN",
+    "linkedIncidentIds": []
+  },
+  "currentAssessment": {
+    "incidentStatus": "POSSIBLE_SCOPE_VIOLATION",
+    "secondDecisionLayerStatus": "SECOND_DECISION_LAYER_NOT_PROVEN",
+    "scandalStatus": "SCANDAL_CLAIM_NOT_MATERIALIZED"
+  },
+  "edgeObservations": [
+    {
+      "id": "KYIV-AIR-ALERT-2026-09-07T2045",
+      "sourceId": "S57",
+      "eventKind": "REPORTED_AIR_THREAT_TRACK",
+      "placeRef": "KYIV_CITY",
+      "reportedAt": "2026-09-07T19:45:00+02:00",
+      "impactState": "NOT_OBSERVED_AT_PUBLICATION",
+      "complianceState": "UNRESOLVED"
+    }
+  ]
+}

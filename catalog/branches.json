@@ -105,7 +105,7 @@
     },
     {
       "id": "russia-ukraine-information-and-peace-audit",
-      "title": "Was los?. Russia-Ukraine Information and Peace Audit",
+      "title": "Was los?. Russia-Ukraine Information, Peace and Decision-Snapshot Audit",
       "kind": "source-bound-peace-audit",
       "state": "FINITE_SNAPSHOT",
       "path": "branches/russia-ukraine-information-and-peace-audit",

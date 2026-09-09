@@ -63,9 +63,9 @@
     },
     {
       "id": "PEACE-001",
-      "statement": "Ukraine and Russia publicly accepted a short and geographically bounded pause in certain long-range strikes during US envoys' travel.",
+      "statement": "Public sources document reciprocal short and geographically bounded Ukrainian and Russian commitments or announcements concerning strikes on the two capitals during US envoys' travel; no common operative text appears in the reviewed corpus.",
       "status": "STRONGLY_SUPPORTED",
-      "sourceIds": ["S04", "S07", "S08"],
+      "sourceIds": ["S04", "S07", "S08", "S54", "S55"],
       "scope": "bounded September 2026 arrangement"
     },
     {
@@ -206,6 +206,40 @@
       "sourceIds": ["S41", "S42", "S43"],
       "scope": "institutional fallback design",
       "limitations": "Host-state consent, status and immunities, jurisdiction, territorial mandate, personnel protection, funding and actual party consent remain unresolved."
+    },
+    {
+      "id": "PEACE-005",
+      "statement": "News reports citing official Ukrainian alerts described a jet-powered Russian drone over Kyiv and other drones approaching the capital at 20:45 Kyiv local time on September 7, 2026.",
+      "status": "OBSERVED",
+      "sourceIds": ["S56", "S57"],
+      "scope": "existence and content of the published alert reports"
+    },
+    {
+      "id": "PEACE-006",
+      "statement": "The reported 20:45 air-threat track constituted a strike, impact or attributable violation of the bounded Kyiv pause.",
+      "status": "UNKNOWN",
+      "sourceIds": ["S54", "S55", "S56", "S57"],
+      "scope": "incident-level compliance and attribution",
+      "reopenTrigger": "A common operative definition plus raw trajectory, target, impact, launch, attribution and command-chain evidence with a bound timezone."
+    },
+    {
+      "id": "C2-001",
+      "statement": "A subordinate or parallel second decision authority issued a counter-order against Putin's September 2026 Kyiv pause.",
+      "status": "NOT_PROVEN",
+      "sourceIds": ["S54", "S55", "S58", "S59"],
+      "scope": "specific command provenance",
+      "reopenTrigger": "An authenticated counter-order, identified actor, delegation scope, receipt chain and linked operation record."
+    },
+    {
+      "id": "DESIGN-005",
+      "statement": "A deterministic snapshot firewall can prevent a structural validator from silently promoting an unresolved report into compliance, violation, attribution, authority, scandal or field effect.",
+      "status": "OBSERVED",
+      "sourceIds": ["S41", "S54", "S56", "S57"],
+      "scope": "behavior of the local published software and its source-bound design inputs",
+      "artifactRefs": [
+        "decision-snapshot-firewall.mjs",
+        "test/decision-snapshot-firewall.test.mjs"
+      ]
     }
   ]
 }

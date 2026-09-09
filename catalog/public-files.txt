@@ -76,10 +76,15 @@ branches/pixel-region-change-observer/test/observer.test.js
 branches/plant-observation-protocol/README.md
 branches/plant-observation-protocol/templates/observations.csv
 branches/russia-ukraine-information-and-peace-audit/claims.json
+branches/russia-ukraine-information-and-peace-audit/DECISION_SNAPSHOT_AUDIT.md
+branches/russia-ukraine-information-and-peace-audit/decision-snapshot-firewall.mjs
+branches/russia-ukraine-information-and-peace-audit/decision-snapshot-receipt.json
 branches/russia-ukraine-information-and-peace-audit/README.md
+branches/russia-ukraine-information-and-peace-audit/september-2026-pause-snapshot.json
 branches/russia-ukraine-information-and-peace-audit/sources.json
 branches/russia-ukraine-information-and-peace-audit/SOURCES.md
 branches/russia-ukraine-information-and-peace-audit/test/claims.test.mjs
+branches/russia-ukraine-information-and-peace-audit/test/decision-snapshot-firewall.test.mjs
 branches/russia-ukraine-information-and-peace-audit/was-los-loop.json
 branches/visual-interpretation-boundary/README.md
 branches/water-photonic-open-questions/README.md

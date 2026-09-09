@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "decision-snapshot-release-receipt.v1",
+  "receiptId": "RU-UA-KYIV-PAUSE-2026-09-09-R0",
+  "generatedAt": "2026-09-09T19:45:01.426Z",
+  "intendedReleaseTag": "v0.5.0",
+  "dataClass": "PUBLIC_REPOSITORY_BYTES_ONLY",
+  "claimCeiling": "DIGEST_BOUND_LOCAL_ARTIFACT_RECEIPT_ONLY",
+  "snapshotCanonicalDigest": "12542fef6c3eafcf2b091ef2283c7c9740c0558820db10facd88834dfb203869",
+  "remoteContentArchived": false,
+  "remoteContentNote": "The sources.json digest binds the published registry bytes, not the mutable content of linked web pages.",
+  "bindings": [
+    {
+      "path": "september-2026-pause-snapshot.json",
+      "role": "PUBLIC_SNAPSHOT_BYTES",
+      "sha256": "c4763729bce9d2d16b967d8384255633b9527ab744eb5d40a1aae5ca2b8650c9"
+    },
+    {
+      "path": "sources.json",
+      "role": "SOURCE_REGISTRY_BYTES",
+      "sha256": "4e031b07be68d28cb99814fa1c6e818b23631d45174722fde8f82aeab2a897e6"
+    },
+    {
+      "path": "claims.json",
+      "role": "CLAIM_REGISTRY_BYTES",
+      "sha256": "8242bcddbe1d4057acdef54491537c7e3a969c9f00ad323be7287c8b2d452972"
+    },
+    {
+      "path": "decision-snapshot-firewall.mjs",
+      "role": "EVALUATOR_LOGIC_BYTES",
+      "sha256": "2e1c0a8596ce426ea21bc400717e3801a9f68960e1f3d4af23b2c7c8c842ded2"
+    },
+    {
+      "path": "test/decision-snapshot-firewall.test.mjs",
+      "role": "EVALUATOR_TEST_BYTES",
+      "sha256": "f8e93a9f9f6ea9fbe7fe723c60651f2fc8daaf10b3e857b9528eef67674321dd"
+    }
+  ]
+}

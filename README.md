@@ -25,7 +25,7 @@ Sicherheitsmeldungen gehören nicht hierher.
 | `deidentified-self-observation-protocol` | Schema ohne Personen- oder Gesundheitsdaten | `FINITE_SNAPSHOT` |
 | `visual-interpretation-boundary` | Beobachtung und Interpretation | `FINITE_SNAPSHOT` |
 | `document-scanner-crypto-modernization` | Modernisierungsplan | `HOLD_IMPLEMENTATION` |
-| `russia-ukraine-information-and-peace-audit` | Quellen-, Informations- und Friedensaudit mit `Was los?.`-Prüfkreis | `FINITE_SNAPSHOT` |
+| `russia-ukraine-information-and-peace-audit` | Quellen-, Informations- und Friedensaudit mit `Was los?.`-Prüfkreis und Decision-Snapshot-Firewall | `FINITE_SNAPSHOT` |
 | `aster-provenance-and-secret-garden` | ASTER-Provenienz, öffentliche Erzählwelt und minimale Projektkeime | `PUBLIC_DERIVATIVE` |
 | `navier-stokes-credit-value-and-plagiarism-audit` | Beweis-, Prioritäts-, Datenzugriffs-, Credit- und Wertprüfung mit kurzer Vorlesefassung | `FINITE_SNAPSHOT` |
 | `binary-inquiry-loop` | deterministische wechselseitige Ja/Nein-Klärung mit Rückkehr zur gebundenen Frage | `PUBLIC_DERIVATIVE` |

@@ -372,6 +372,48 @@
       "publisher": "OSCE Office for Democratic Institutions and Human Rights",
       "type": "official-assessment-report",
       "url": "https://www.osce.org/sites/default/files/f/documents/d/3/118476.pdf"
+    },
+    {
+      "id": "S54",
+      "title": "Putin orders three-day suspension of strikes on Kiev starting at midnight",
+      "publisher": "TASS",
+      "type": "official-state-news-report",
+      "url": "https://tass.com/politics/2183123"
+    },
+    {
+      "id": "S55",
+      "title": "Three-day moratorium on strikes on Kiev expires",
+      "publisher": "TASS",
+      "type": "official-state-news-report",
+      "url": "https://tass.com/politics/2183855"
+    },
+    {
+      "id": "S56",
+      "title": "Russian drones fly toward Kyiv amid temporary attack pause on capitals",
+      "publisher": "The Kyiv Independent",
+      "type": "news-citing-official-alerts",
+      "url": "https://kyivindependent.com/russian-drones-fly-toward-kyiv-amid-temporary-pause-on-attacks-on-capitals/"
+    },
+    {
+      "id": "S57",
+      "title": "Russia appears to break its own three-day Kyiv truce before deadline",
+      "publisher": "Kyiv Post",
+      "type": "news-citing-ukrainian-air-force",
+      "url": "https://www.kyivpost.com/post/83980"
+    },
+    {
+      "id": "S58",
+      "title": "The President of the Russian Federation",
+      "publisher": "President of Russia",
+      "type": "official-role-description",
+      "url": "https://en.kremlin.ru/structure/president"
+    },
+    {
+      "id": "S59",
+      "title": "Andrei Belousov, Defence Minister of the Russian Federation",
+      "publisher": "Government of the Russian Federation",
+      "type": "official-role-directory",
+      "url": "https://government.ru/en/gov/persons/123/"
     }
   ]
 }

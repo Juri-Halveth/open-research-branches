@@ -38,6 +38,19 @@ test("open and unproven claims expose a concrete reopen trigger", () => {
   }
 });
 
+test("observed local software behavior binds implementation and test artifacts", () => {
+  const localSoftwareClaims = claims.claims.filter((claim) =>
+    claim.status === "OBSERVED" && claim.scope.includes("local published software")
+  );
+  assert.ok(localSoftwareClaims.length > 0);
+  for (const claim of localSoftwareClaims) {
+    assert.ok(Array.isArray(claim.artifactRefs) && claim.artifactRefs.length >= 2);
+    for (const relative of claim.artifactRefs) {
+      assert.ok(fs.statSync(path.join(branchRoot, relative)).isFile(), `missing artifact ${relative}`);
+    }
+  }
+});
+
 test("source records use unique ids and public HTTPS URLs", () => {
   const ids = new Set();
   for (const source of sources.sources) {
