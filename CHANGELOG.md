@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.9.1 — 2026-09-10
+
+- added `FREE NEWS 009`, a privacy-safe guide to what GitHub contribution squares count and why blank, light and darker squares represent activity ranges rather than quality or ownership
+- separated profile activity from authorship, creation time, legal priority, copying, infringement, patentability, participation and payment
+- identified commit, tree, annotated tag, release asset and SHA-256 receipts as stronger source-bound provenance anchors
+- completed the provenance snapshot classifier for every public-interest path already declared in `LICENSES.md` and added table-driven regression coverage
+- retained private screenshots, raw profile data and unrelated personal material outside the repository
+
 ## 0.9.0 — 2026-09-09
 
 - published the Wachsmalstift-Friedenshelm as a source-bound art, provenance, rights, safety and cooperation audit with a clearly labeled concept illustration

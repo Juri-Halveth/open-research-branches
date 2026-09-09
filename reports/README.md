@@ -16,6 +16,7 @@ any branch's claim ceiling.
 | `FREE_NEWS_006_JURI_ENERGY_MODEL_PROVENANCE_AUDIT.md` | Source-bound answer to what Juri built in the August ignition/water/light model and how it differs from KIT tri-generation and Standard Thermal earth storage |
 | `FREE_NEWS_007_RAVE_GROUP_RULE_AND_CANNABIS_SCOPE.md` | Privacy-minimized audit of the ambiguous phrase “no drugs,” cannabis as a scope question and the absence of any conduct attribution |
 | `FREE_NEWS_008_WAX_CRAYON_PEACE_HELMET_AND_IOS_MARKER.md` | Evidence-bound peace-helmet audit with five digital motif receipts, finite photo-search coverage and the now source-span-bound iOS marker |
+| `FREE_NEWS_009_GITHUB_CONTRIBUTION_GRAPH_AND_PRIORITY.md` | GitHub contribution-graph guide separating counted profile activity from authorship, priority, legal rights and payment claims |
 
 Local Office and PDF artifacts from an earlier ten-branch working snapshot are
 intentionally absent. They do not describe the current release,

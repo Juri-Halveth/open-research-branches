@@ -18,21 +18,52 @@ test("file root changes when one byte digest changes", () => {
   assert.notEqual(computeFileRoot(first), computeFileRoot(second));
 });
 
-test("file-specific rules take precedence over generic path classes", () => {
-  assert.equal(
-    classifyLicense("reports/FREE_NEWS_005_HOW_TO_FISH_IDENTITY_AND_CREATION.md").licenseId,
-    "LicenseRef-Juri-Public-Interest-1.0"
-  );
-  assert.equal(classifyLicense("reports/FREE_NEWS_004_CONSENT_COCKPIT_234_INACTIVE_VENDORS.md").licenseId, "CC-BY-4.0");
-  assert.equal(
-    classifyLicense("reports/FREE_NEWS_006_JURI_ENERGY_MODEL_PROVENANCE_AUDIT.md").licenseId,
-    "LicenseRef-Juri-Public-Interest-1.0"
-  );
-  assert.equal(
-    classifyLicense("branches/solar-and-thermal-provenance-audit/claims.json").licenseId,
-    "LicenseRef-Juri-Public-Interest-1.0"
-  );
-  assert.equal(classifyLicense("branches/solar-and-thermal-provenance-audit/audit-lens.mjs").licenseId, "MIT");
-  assert.equal(classifyLicense("scripts/prepublish-check.mjs").licenseId, "MIT");
-  assert.equal(classifyLicense("catalog/branches.json").licenseId, "CC0-1.0");
+test("every file-specific public-interest path takes precedence over generic classes", () => {
+  const customPaths = [
+    "PROVENANCE.md",
+    "provenance-policy.json",
+    "reports/FREE_NEWS_005_HOW_TO_FISH_IDENTITY_AND_CREATION.md",
+    "reports/FREE_NEWS_005_RIGHTS_AND_SEMANTICS_PATCH.json",
+    "reports/FREE_NEWS_006_JURI_ENERGY_MODEL_PROVENANCE_AUDIT.md",
+    "reports/FREE_NEWS_007_RAVE_GROUP_RULE_AND_CANNABIS_SCOPE.md",
+    "reports/FREE_NEWS_008_WAX_CRAYON_PEACE_HELMET_AND_IOS_MARKER.md",
+    "reports/FREE_NEWS_009_GITHUB_CONTRIBUTION_GRAPH_AND_PRIORITY.md",
+    "branches/solar-and-thermal-provenance-audit/README.md",
+    "branches/solar-and-thermal-provenance-audit/sources.json",
+    "branches/solar-and-thermal-provenance-audit/claims.json",
+    "branches/solar-and-thermal-provenance-audit/component-matrix.json",
+    "branches/solar-and-thermal-provenance-audit/local-source-receipt.json",
+    "branches/wax-crayon-peace-helmet-audit/README.md",
+    "branches/wax-crayon-peace-helmet-audit/ARTIFACTS.md",
+    "branches/wax-crayon-peace-helmet-audit/claims.json",
+    "branches/wax-crayon-peace-helmet-audit/evidence-receipts.json",
+    "branches/wax-crayon-peace-helmet-audit/marker-receipts.public.json",
+    "branches/wax-crayon-peace-helmet-audit/sources.json",
+    "branches/wax-crayon-peace-helmet-audit/assets/wax-crayon-peace-helmet-concept.png",
+    "scripts/create-provenance-snapshot.mjs",
+    "scripts/provenance-snapshot.test.mjs"
+  ];
+
+  for (const relativePath of customPaths) {
+    const result = classifyLicense(relativePath);
+    assert.equal(result.licenseId, "LicenseRef-Juri-Public-Interest-1.0", relativePath);
+    assert.equal(result.ruleId, "FILE_SPECIFIC_PUBLIC_INTEREST", relativePath);
+    assert.equal(result.basisPath, "LICENSE-JURI-PUBLIC-INTEREST.md", relativePath);
+  }
+});
+
+test("representative generic paths retain their repository license classes", () => {
+  const expectations = new Map([
+    ["reports/FREE_NEWS_004_CONSENT_COCKPIT_234_INACTIVE_VENDORS.md", "CC-BY-4.0"],
+    ["branches/solar-and-thermal-provenance-audit/audit-lens.mjs", "MIT"],
+    ["scripts/prepublish-check.mjs", "MIT"],
+    ["catalog/branches.json", "CC0-1.0"],
+    ["LICENSE", "MIT"],
+    ["LICENSE-CONTENT.md", "CC-BY-4.0"],
+    ["LICENSE-DATA.md", "CC0-1.0"]
+  ]);
+
+  for (const [relativePath, expectedLicense] of expectations) {
+    assert.equal(classifyLicense(relativePath).licenseId, expectedLicense, relativePath);
+  }
 });
