@@ -11,6 +11,7 @@ Collection state: `FINITE_SNAPSHOT`
 | `document-issue-reference-verifier` | Wie trennt man Referenz, Dokumentausgabe und Personenidentität | nur synthetische Referenzprüfung | zusätzliche Fehlermodelle und Formatadapter |
 | `bounded-knowledge-reuse-inventory` | Wie inventarisiert man wiederverwendbares Wissen ohne Quellarchive zu kopieren | begrenzte Metadatenansicht | Lizenz- und Provenienzadapter |
 | `pixel-region-change-observer` | Wie meldet man eine Renderänderung ohne ihre Ursache zu erfinden | Offline-Pixeldifferenz | robuste Bildformate und Messunsicherheit |
+| `aster-provenance-and-secret-garden` | Wie bindet man Juris ASTER-Urheberschaft, Namensresonanz und eine offene Erzählwelt ohne das private Gesamtsystem offenzulegen | `LUCINET::ASTER`-Provenienz; keine globale Namens- oder Übertragungsbehauptung | unabhängiger Zeitanker, messbarer Resonanztest oder ein fortgesetzter Projektkeim |
 
 ## Offene Forschungsäste
 

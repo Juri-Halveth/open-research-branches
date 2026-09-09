@@ -3,10 +3,27 @@ import path from "node:path";
 
 const root = path.resolve(import.meta.dirname, "..");
 const manifestPath = path.join(root, "catalog", "public-files.txt");
+const publicIdentitiesPath = path.join(root, "catalog", "public-identities.json");
 const publicFiles = (await fs.readFile(manifestPath, "utf8"))
   .split(/\r?\n/u)
   .map((line) => line.trim())
   .filter(Boolean);
+
+const publicIdentityConfig = JSON.parse(await fs.readFile(publicIdentitiesPath, "utf8"));
+const publicIdentities = publicIdentityConfig.identities ?? [];
+for (const identity of publicIdentities) {
+  if (typeof identity.exactText !== "string" || identity.exactText.trim() !== identity.exactText || identity.exactText.length < 3) {
+    throw new TypeError("public identity exactText must be a trimmed string of at least three characters");
+  }
+  if (!identity.authorizationState || !identity.authorizedAt || !Array.isArray(identity.files) || !identity.files.length) {
+    throw new TypeError(`public identity ${identity.exactText} requires authorization, date and exact file scopes`);
+  }
+  for (const relative of identity.files) {
+    if (!publicFiles.includes(relative)) {
+      throw new TypeError(`public identity scope is not in the manifest: ${relative}`);
+    }
+  }
+}
 
 const binaryExtensions = new Set([".docx", ".pdf", ".pptx", ".xlsx"]);
 const findings = [];
@@ -31,7 +48,12 @@ for (const relative of publicFiles) {
     findings.push(`${relative}: binary document requires a dedicated public metadata and content scanner`);
     continue;
   }
-  const contents = await fs.readFile(absolute, "utf8");
+  let contents = await fs.readFile(absolute, "utf8");
+  for (const identity of publicIdentities) {
+    if (identity.files.includes(relative)) {
+      contents = contents.split(identity.exactText).join("[AUTHORIZED_PUBLIC_IDENTITY]");
+    }
+  }
   for (const pattern of textPatterns) {
     if (pattern.expression.test(contents)) findings.push(`${relative}: ${pattern.label}`);
   }
@@ -42,4 +64,3 @@ if (findings.length) {
   process.exit(1);
 }
 console.log(`prepublish scan clean for ${publicFiles.length} manifest files`);
-

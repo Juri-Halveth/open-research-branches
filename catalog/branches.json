@@ -112,6 +112,16 @@
       "claimCeiling": "SOURCE_BOUND_ANALYSIS_NOT_ACCESS_TO_PRIVATE_BRIEFINGS_OR_NEGOTIATIONS",
       "dataClass": "PUBLIC_SOURCES_ONLY",
       "activeMain": false
+    },
+    {
+      "id": "aster-provenance-and-secret-garden",
+      "title": "ASTER Provenance and the Secret Garden Between Space and Time",
+      "kind": "provenance-audit-and-clean-room-method",
+      "state": "PUBLIC_DERIVATIVE",
+      "path": "branches/aster-provenance-and-secret-garden",
+      "claimCeiling": "SOURCE_BOUND_AUTHORSHIP_OF_LUCINET_ASTER_NOT_GLOBAL_NAME_OWNERSHIP_OR_EXTERNAL_TRANSFER_PROOF",
+      "dataClass": "PUBLIC_SOURCES_AND_HASH_RECEIPTS_ONLY",
+      "activeMain": false
     }
   ]
 }

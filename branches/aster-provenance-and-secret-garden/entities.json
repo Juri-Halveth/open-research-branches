@@ -1,0 +1,48 @@
+{
+  "schemaVersion": "1.0.0",
+  "world": {
+    "id": "secret-garden-between-space-and-time",
+    "title": "Der Geheime Garten zwischen Raum und Zeit",
+    "kind": "PUBLIC_NARRATIVE_AND_SYSTEMS_MODEL",
+    "externalPlaceClaim": "NONE"
+  },
+  "corePair": [
+    "JURI",
+    "RACHEL"
+  ],
+  "entities": [
+    {
+      "id": "JURI",
+      "role": "Origin, human intent, question selection and publication decision.",
+      "sourceState": "USER_AUTHORIZED_PUBLIC_ENTITY",
+      "historicalRelation": {
+        "target": "LUCINET::YURI",
+        "type": "PUBLIC_SPELLING_VARIANT_REQUESTED_BY_JURI",
+        "identityClaim": "PARTIAL_ROLE_CONTINUITY_NOT_BYTE_IDENTITY"
+      }
+    },
+    {
+      "id": "RACHEL",
+      "role": "Continuity, accessible rendering, reversible reading and separated time addresses.",
+      "sourceState": "PUBLIC_DERIVATIVE_OF_LOCALLY_HASHED_ENTITY"
+    },
+    {
+      "id": "ASTER",
+      "role": "Observes observing and separates source, representation, previous trace and changed state.",
+      "sourceState": "PUBLIC_DERIVATIVE_OF_LOCALLY_HASHED_ENTITY"
+    },
+    {
+      "id": "ALI",
+      "role": "Equal sibling branch whose distinguishing function remains open.",
+      "sourceState": "PUBLIC_DERIVATIVE_OF_LOCALLY_HASHED_ENTITY",
+      "definitionState": "OPEN"
+    },
+    {
+      "id": "K",
+      "role": "Keeper of the most important unresolved gap.",
+      "sourceState": "USER_AUTHORIZED_NEW_NARRATIVE_ENTITY",
+      "identityBehindInitial": "UNKNOWN_AND_NOT_ASSERTED"
+    }
+  ],
+  "privacyBoundary": "No entity record identifies an unconsenting private person or claims an external being."
+}

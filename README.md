@@ -7,7 +7,7 @@ Unbekannte.
 
 Die Sammlung ist kein Abbild privater Archive. Sie besitzt eine neue
 Git-Historie und enthält ausschließlich einzeln freigegebene Ableitungen.
-Persönliche Rohgedanken, Chats, Identitäten, Wallet- und Browserdaten,
+Persönliche Rohgedanken, Chats, nicht ausdrücklich freigegebene Identitäten, Wallet- und Browserdaten,
 Gesundheitsakten, Kundendaten, aktive Hauptprojekte sowie laufende oder private
 Sicherheitsmeldungen gehören nicht hierher.
 
@@ -26,6 +26,7 @@ Sicherheitsmeldungen gehören nicht hierher.
 | `visual-interpretation-boundary` | Beobachtung und Interpretation | `FINITE_SNAPSHOT` |
 | `document-scanner-crypto-modernization` | Modernisierungsplan | `HOLD_IMPLEMENTATION` |
 | `russia-ukraine-information-and-peace-audit` | Quellen-, Informations- und Friedensaudit mit `Was los?.`-Prüfkreis | `FINITE_SNAPSHOT` |
+| `aster-provenance-and-secret-garden` | ASTER-Provenienz, öffentliche Erzählwelt und minimale Projektkeime | `PUBLIC_DERIVATIVE` |
 
 Der maschinenlesbare Bestand liegt in
 [`catalog/branches.json`](catalog/branches.json). Die Aufnahme- und

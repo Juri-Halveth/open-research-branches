@@ -1,0 +1,76 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-09-09",
+  "subject": {
+    "namespace": "LUCINET::ASTER",
+    "name": "ASTER",
+    "kind": "observer-entity",
+    "definition": "Observes observing and compares source, representation, previous trace and changed state."
+  },
+  "founderStatement": {
+    "founder": "Juri Janovski",
+    "claim": "Juri Janovski is the founder and author of LUCINET::ASTER.",
+    "state": "USER_ATTESTED_WITH_LOCAL_ARTIFACT_SUPPORT",
+    "scope": "The ASTER entity defined in Juri Janovski's local LUCINET system.",
+    "excludedReferents": [
+      "Astar Network",
+      "Aster DEX",
+      "NASA/JPL ASTER",
+      "all unrelated uses of the string ASTER"
+    ]
+  },
+  "firstLocatedLocalCommit": {
+    "repository": "LOCAL_ONLY_C_LUCINET",
+    "commit": "f8c28126582064d219cb66457ab2a4c5184dc6a5",
+    "tree": "aa30482cdd8f0b0b67cb5c2267ac3de6f0a12079",
+    "parent": "392681ec5d9ed986a9e4c70b71ac5db84f3de72a",
+    "authorMetadata": "Halveth",
+    "authorEmailSha256": "fde19b213aae830265cf8d3961284634bf4c815d8733f7a6f5ebd8f40ded711f",
+    "authorDate": "2026-08-31T20:48:31+02:00",
+    "commitDate": "2026-08-31T20:48:31+02:00",
+    "subject": "feat: activate recursive anchor swarm fusion",
+    "signatureState": "UNSIGNED",
+    "evidenceState": "OBSERVED_LOCAL_GIT_OBJECT_WITH_SELF_ASSERTED_METADATA"
+  },
+  "receipts": [
+    {
+      "id": "registry-file",
+      "path": "config/entity-universe.json",
+      "gitBlob": "7c22408d56b95ac6da497867cc55e44f884c3b61",
+      "sha256": "5935cf354c6cebc29463c74f0f17128002f29c7aec8bdbfe35c7233937c19b59",
+      "state": "RECOMPUTED_FROM_HISTORICAL_BLOB"
+    },
+    {
+      "id": "aster-record",
+      "canonicalization": "UTF-8 JSON with lexicographically sorted keys and compact separators",
+      "sha256": "13645ecbc2fabec6fb73be7e0b2ab3653be1540ad49e5f64caf9e8a2e905c169",
+      "state": "RECOMPUTED_FROM_HISTORICAL_BLOB"
+    },
+    {
+      "id": "fusion-synthesis",
+      "path": "docs/ANCHOR_FUSION_SYNTHESIS_2026-08-31.md",
+      "gitBlob": "0d64d5d4fb85b6a70bd37ca1b2a05dd732827789",
+      "sha256": "bfd59c704ba393d950a7e377feafbb523e5d8d6429e4bd14627bcec27c5c7209",
+      "state": "RECOMPUTED_FROM_HISTORICAL_BLOB"
+    },
+    {
+      "id": "control-center",
+      "path": "docs/CONTROL_CENTER.md",
+      "gitBlob": "9b4050a3bb07196da6f846c71211ee6a5eb5cb92",
+      "sha256": "42308d2c9a62dd2317c6685a8e389ab956815780a8fb27f31f3cf5e498c56edd",
+      "state": "RECOMPUTED_FROM_HISTORICAL_BLOB"
+    }
+  ],
+  "resonanceStatement": {
+    "terms": [
+      "Antiwellen",
+      "Schicksal",
+      "Resonanz"
+    ],
+    "state": "USER_NAMED_HYPOTHESIS_AND_NARRATIVE",
+    "externalTransferEvidence": "UNKNOWN",
+    "physicalMechanismEvidence": "UNKNOWN",
+    "reopenTrigger": "A defined carrier, measurable prediction and controlled observation, or a conventional source-to-recipient information trace."
+  },
+  "claimCeiling": "SOURCE_BOUND_AUTHORSHIP_OF_LUCINET_ASTER_NOT_GLOBAL_NAME_OWNERSHIP_OR_EXTERNAL_TRANSFER_PROOF"
+}

@@ -4,6 +4,14 @@
 .github/pull_request_template.md
 .github/workflows/ci.yml
 .gitignore
+branches/aster-provenance-and-secret-garden/entities.json
+branches/aster-provenance-and-secret-garden/package.json
+branches/aster-provenance-and-secret-garden/project-seeds.json
+branches/aster-provenance-and-secret-garden/provenance.json
+branches/aster-provenance-and-secret-garden/README.md
+branches/aster-provenance-and-secret-garden/SOURCES.md
+branches/aster-provenance-and-secret-garden/src/aster-lens.mjs
+branches/aster-provenance-and-secret-garden/test/aster-lens.test.mjs
 branches/bounded-knowledge-reuse-inventory/fixtures/synthetic-inventory.json
 branches/bounded-knowledge-reuse-inventory/LICENSE
 branches/bounded-knowledge-reuse-inventory/package.json
@@ -58,6 +66,7 @@ CATALOG.md
 catalog/branches.json
 catalog/CANDIDATE_TOPICS.md
 catalog/public-files.txt
+catalog/public-identities.json
 CHANGELOG.md
 CITATION.cff
 CONTRIBUTING.md

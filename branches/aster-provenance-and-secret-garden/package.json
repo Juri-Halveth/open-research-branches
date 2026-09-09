@@ -1,0 +1,11 @@
+{
+  "name": "aster-provenance-and-secret-garden",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "description": "A small source-bound ASTER observation lens and public provenance model.",
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  }
+}

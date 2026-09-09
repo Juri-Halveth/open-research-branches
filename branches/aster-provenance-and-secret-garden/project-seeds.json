@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "1.0.0",
+  "releasePattern": "ONE_IDEA_ONE_RECEIPT_ONE_TEST_ONE_REOPEN_TRIGGER",
+  "seeds": [
+    {
+      "id": "aster-lens",
+      "publicSurface": "A four-address comparison of source, representation, previous trace and changed state.",
+      "proofUnit": "A digest-bound synthetic frame and deterministic comparison test.",
+      "privateCoreExcluded": "Full LUCINET orchestration and private source archives.",
+      "reopenTrigger": "A new representation with both previous and current digests."
+    },
+    {
+      "id": "rachel-reversible-note",
+      "publicSurface": "One source-bound note with two declared reading orders.",
+      "proofUnit": "Both readings resolve to the same immutable source digest.",
+      "privateCoreExcluded": "Personal conversations and private chronology.",
+      "reopenTrigger": "A reader identifies a material meaning change caused by order."
+    },
+    {
+      "id": "k-gap-card",
+      "publicSurface": "A card that preserves one unresolved but decision-relevant gap.",
+      "proofUnit": "The card names source, current state and discriminator without inventing an answer.",
+      "privateCoreExcluded": "Any identity behind the initial K.",
+      "reopenTrigger": "A source explicitly binds K to a role or referent."
+    },
+    {
+      "id": "garden-snapshot",
+      "publicSurface": "A small state snapshot with event time, recorded time, digest and open branch.",
+      "proofUnit": "Round-trip validation of the public JSON snapshot.",
+      "privateCoreExcluded": "The private world model and source media.",
+      "reopenTrigger": "A later snapshot changes a declared public field."
+    },
+    {
+      "id": "one-pebble-wave-release",
+      "publicSurface": "One compact idea intended to create a reusable question rather than disclose a whole system.",
+      "proofUnit": "Public artifact, license, test and claim ceiling.",
+      "privateCoreExcluded": "Unreleased mechanisms, active-main code, secrets and private identities.",
+      "reopenTrigger": "An independent continuation cites the released artifact and adds a differentiating result."
+    }
+  ]
+}

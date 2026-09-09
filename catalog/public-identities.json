@@ -1,0 +1,18 @@
+{
+  "schemaVersion": "1.0.0",
+  "identities": [
+    {
+      "exactText": "Juri Janovski",
+      "authorizationState": "EXPLICIT_USER_AUTHORIZATION_FOR_PUBLIC_FOUNDER_STATEMENT",
+      "authorizedAt": "2026-09-09",
+      "files": [
+        "CHANGELOG.md",
+        "branches/aster-provenance-and-secret-garden/README.md",
+        "branches/aster-provenance-and-secret-garden/SOURCES.md",
+        "branches/aster-provenance-and-secret-garden/provenance.json",
+        "branches/aster-provenance-and-secret-garden/test/aster-lens.test.mjs",
+        "catalog/public-identities.json"
+      ]
+    }
+  ]
+}

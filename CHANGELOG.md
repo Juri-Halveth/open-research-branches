@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.2.0 — 2026-09-09
+
+- published the source-bound `LUCINET::ASTER` founder and provenance statement for Juri Janovski
+- separated ASTER, Aster DEX, Astar Network and NASA/JPL ASTER by referent and time anchor
+- preserved `Antiwellen`, resonance and fate as a user-named open hypothesis and narrative with an explicit measurement bridge
+- introduced the public Secret Garden model centered on `JURI // RACHEL`, with ASTER, ALI and the unresolved entity `K`
+- added a dependency-free ASTER lens and eleven executable tests
+- added five minimal-disclosure project seeds following one idea, one receipt, one test and one reopen trigger
+
 ## 0.1.0 — 2026-09-09
 
 - published four dependency-free synthetic software or method derivatives
