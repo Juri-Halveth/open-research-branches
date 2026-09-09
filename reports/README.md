@@ -10,6 +10,7 @@ any branch's claim ceiling.
 | `FREE_NEWS_001_IOS_MARKER_AND_401_EDGE.md` | One-minute note separating a transient Codex 401 sequence from an open, source-span-missing iOS marker |
 | `FREE_NEWS_002_REACHER_S4E7_DIGITAL_REFOCUS.md` | Source-bound check of Reacher's AI refocus scene against iOS focus metadata and forensic image limits |
 | `FREE_NEWS_003_CHILD_CONSENT_AND_IRREVERSIBLE_INTERVENTION.md` | German-law and ethics audit of consent to an irreversible intervention on a male child |
+| `FREE_NEWS_004_CONSENT_COCKPIT_234_INACTIVE_VENDORS.md` | Structural audit of a TCF consent cockpit with 234 vendor rows visibly marked inactive and an absent Goku string |
 
 Local Office and PDF artifacts from an earlier ten-branch working snapshot are
 intentionally absent. They do not describe the current release,

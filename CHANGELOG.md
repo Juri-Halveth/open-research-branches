@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.4 — 2026-09-09
+
+- added `FREE NEWS 004`, a sanitized structural audit of a 234-vendor TCF consent cockpit
+- distinguished an inactive UI state, TCF `No Consent`, a separately evidenced active refusal, a missing render, deletion and provider existence
+- searched the complete supplied text for Goku variants and preserved all actor, prior-state and destination questions as open
+
 ## 0.3.3 — 2026-09-09
 
 - added `FREE NEWS 003`, a privacy-minimized German-law and ethics audit of consent to an irreversible intervention on a male child without publishing private-chat content
