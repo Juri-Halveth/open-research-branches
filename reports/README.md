@@ -8,6 +8,7 @@ any branch's claim ceiling.
 | `MICROSOFT_PKI_REPOSITORY_PATTERN.md` | Deep primary-source review of public trust records, status, audit and write authority |
 | `MAC_OUI_REGISTRY_BOUNDARY.md` | IEEE-bound interpretation of MAC/OUI registry counts without device identification |
 | `FREE_NEWS_001_IOS_MARKER_AND_401_EDGE.md` | One-minute note separating a transient Codex 401 sequence from an open, source-span-missing iOS marker |
+| `FREE_NEWS_002_REACHER_S4E7_DIGITAL_REFOCUS.md` | Source-bound check of Reacher's AI refocus scene against iOS focus metadata and forensic image limits |
 
 Local Office and PDF artifacts from an earlier ten-branch working snapshot are
 intentionally absent. They do not describe the current release,

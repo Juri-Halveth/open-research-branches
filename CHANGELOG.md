@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.2 — 2026-09-09
+
+- added `FREE NEWS 002`, a compact audit of the digital-refocus scene reported for *Reacher* season 4 episode 7
+- separated iOS focus editing with saved depth metadata from deconvolution and generative detail reconstruction
+- bound the result to public episode metadata, Apple documentation, computer-vision research and forensic image guidance
+
 ## 0.3.1 — 2026-09-09
 
 - added `FREE NEWS 001`, a sanitized one-minute note on two transient Codex 401 responses followed by success with the same model
