@@ -129,6 +129,7 @@ branches/wax-crayon-peace-helmet-audit/test/marker-protocol.test.mjs
 branches/wax-crayon-peace-helmet-audit/test/public-records.test.mjs
 CATALOG.md
 catalog/AUDIT_STAR.md
+catalog/audit-star.json
 catalog/branches.json
 catalog/CANDIDATE_TOPICS.md
 catalog/public-files.txt

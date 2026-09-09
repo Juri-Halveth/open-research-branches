@@ -1,0 +1,2208 @@
+{
+  "schemaVersion": "1.0.0",
+  "catalogKind": "AUDIT_REPORT_PATH_STAR",
+  "indexNodeId": "audit-star:index",
+  "source": {
+    "requestedRef": "HEAD",
+    "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+    "treeId": "c64419e0c32b0469499c20f26a9d8fb401a01c01",
+    "committedAt": "2026-09-10T01:17:17+02:00",
+    "timeSemantics": "GIT_COMMITTER_TIMESTAMP_NOT_INDEPENDENT_CREATION_OR_PUBLICATION_TIME"
+  },
+  "coverage": {
+    "state": "FINITE_SNAPSHOT",
+    "currentCatalogBranches": {
+      "source": "catalog/branches.json@85d5dae7e928ff642f2fea6407a9191134e02887",
+      "rule": "ALL_BRANCH_ENTRIES",
+      "count": 18
+    },
+    "currentReports": {
+      "source": "git ls-tree -r --full-tree 85d5dae7e928ff642f2fea6407a9191134e02887 -- reports",
+      "rule": "ALL_GIT_OBJECT_PATHS_UNDER_REPORTS",
+      "count": 16
+    },
+    "history": {
+      "revisionExpression": "git rev-list --all PLUS_BOUND_CURRENT_COMMIT_IF_UNREFERENCED",
+      "reachableCommitCount": 17,
+      "branchRule": "ALL_PARSEABLE_CATALOG_BRANCH_ENTRIES_IN_REACHABLE_COMMITS",
+      "reportRule": "ALL_GIT_OBJECT_PATHS_UNDER_REPORTS_IN_REACHABLE_COMMITS",
+      "renameInference": "DISABLED_PATH_IDENTITY_ONLY"
+    },
+    "explicitCrossReferences": {
+      "source": "CURRENT_REF_TEXT_BLOBS_OWNED_BY_CURRENT_NODES",
+      "acceptedEvidence": [
+        "EXACT_REPOSITORY_PATH",
+        "MARKDOWN_LINK",
+        "MARKDOWN_REFERENCE",
+        "INLINE_CODE",
+        "JSON_STRING"
+      ],
+      "binaryBlobs": "EXCLUDED",
+      "historicalBlobBodies": "NOT_SCANNED"
+    },
+    "excluded": [
+      "UNTRACKED_WORKTREE_PATHS",
+      "UNREACHABLE_GIT_OBJECTS",
+      "EXTERNAL_REPOSITORIES",
+      "REMOTE_PUBLICATION_STATUS",
+      "RENAMES_NOT_EXPLICITLY_RECORDED_AS_PATHS",
+      "INFERRED_CAUSAL_AUTHORSHIP_DERIVATION_OR_IDENTITY_RELATIONS"
+    ],
+    "counts": {
+      "nodes": 35,
+      "currentCatalogBranches": 18,
+      "historicalOnlyCatalogBranches": 0,
+      "currentReports": 16,
+      "historicalOnlyReports": 0,
+      "indexEdges": 34,
+      "explicitReferenceEdges": 26
+    }
+  },
+  "relationDefinitions": {
+    "INDEXES": {
+      "direction": "AUDIT_STAR_INDEX_TO_PATH_NODE",
+      "meaning": "PATH_INCLUDED_BY_DECLARED_CATALOG_OR_GIT_HISTORY_RULE",
+      "causality": "NOT_DERIVED",
+      "authorship": "NOT_DERIVED"
+    },
+    "EXPLICITLY_REFERENCES": {
+      "direction": "SOURCE_NODE_TO_LITERAL_TARGET_NODE",
+      "meaning": "EXACT_TEXTUAL_PATH_REFERENCE_IN_A_BOUND_CURRENT_GIT_BLOB",
+      "causality": "NOT_DERIVED",
+      "authorship": "NOT_DERIVED"
+    }
+  },
+  "nodes": [
+    {
+      "id": "branch:0471fc543a1b9b96ad99",
+      "nodeKind": "CATALOG_BRANCH",
+      "path": "branches/aster-provenance-and-secret-garden",
+      "lifecycle": "CURRENT_AT_REF",
+      "currentAtRef": true,
+      "currentClassification": "CURRENT_CATALOG_ENTRY",
+      "treePresenceAtRef": true,
+      "catalogEntry": {
+        "sourcePath": "catalog/branches.json",
+        "sourceCommitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "catalogId": "aster-provenance-and-secret-garden",
+        "title": "ASTER Provenance and the Secret Garden Between Space and Time",
+        "kind": "provenance-audit-and-clean-room-method",
+        "state": "PUBLIC_DERIVATIVE",
+        "claimCeiling": "SOURCE_BOUND_AUTHORSHIP_OF_LUCINET_ASTER_NOT_GLOBAL_NAME_OWNERSHIP_OR_EXTERNAL_TRANSFER_PROOF",
+        "dataClass": "PUBLIC_SOURCES_AND_HASH_RECEIPTS_ONLY"
+      },
+      "currentObject": {
+        "objectId": "1f2d6c1a0d700ae492a1fc8a9785450c17a82b90",
+        "objectType": "tree"
+      },
+      "history": {
+        "observedCommitCount": 16,
+        "earliestByCommitterTimestamp": {
+          "commitId": "a0a5c9082e6ccf6e9e150d5fafd5e1176caf2f2a",
+          "committedAt": "2026-09-09T18:53:54+02:00"
+        },
+        "latestByCommitterTimestamp": {
+          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+          "committedAt": "2026-09-10T01:17:17+02:00"
+        },
+        "catalogIds": [
+          "aster-provenance-and-secret-garden"
+        ],
+        "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
+      }
+    },
+    {
+      "id": "branch:bdf88f13c148ea05e90c",
+      "nodeKind": "CATALOG_BRANCH",
+      "path": "branches/binary-inquiry-loop",
+      "lifecycle": "CURRENT_AT_REF",
+      "currentAtRef": true,
+      "currentClassification": "CURRENT_CATALOG_ENTRY",
+      "treePresenceAtRef": true,
+      "catalogEntry": {
+        "sourcePath": "catalog/branches.json",
+        "sourceCommitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "catalogId": "binary-inquiry-loop",
+        "title": "Binary Inquiry Loop",
+        "kind": "deterministic-dialogue-protocol",
+        "state": "PUBLIC_DERIVATIVE",
+        "claimCeiling": "DETERMINISTIC_DIALOGUE_PROTOCOL_NOT_TRUTH_CONSENT_OR_LEGAL_EFFECT",
+        "dataClass": "SYNTHETIC_ONLY"
+      },
+      "currentObject": {
+        "objectId": "ba6553ab7fad0e0f53b888e1229d927b769fdfa6",
+        "objectType": "tree"
+      },
+      "history": {
+        "observedCommitCount": 10,
+        "earliestByCommitterTimestamp": {
+          "commitId": "4a5d99c5d36cb63076a73ebddba9ba3a406e6833",
+          "committedAt": "2026-09-09T21:05:15+02:00"
+        },
+        "latestByCommitterTimestamp": {
+          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+          "committedAt": "2026-09-10T01:17:17+02:00"
+        },
+        "catalogIds": [
+          "binary-inquiry-loop"
+        ],
+        "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
+      }
+    },
+    {
+      "id": "branch:bc68ec517c9f630501cb",
+      "nodeKind": "CATALOG_BRANCH",
+      "path": "branches/bounded-knowledge-reuse-inventory",
+      "lifecycle": "CURRENT_AT_REF",
+      "currentAtRef": true,
+      "currentClassification": "CURRENT_CATALOG_ENTRY",
+      "treePresenceAtRef": true,
+      "catalogEntry": {
+        "sourcePath": "catalog/branches.json",
+        "sourceCommitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "catalogId": "bounded-knowledge-reuse-inventory",
+        "title": "Bounded Knowledge Reuse Inventory",
+        "kind": "software-method",
+        "state": "PUBLIC_DERIVATIVE",
+        "claimCeiling": "BOUNDED_METADATA_INVENTORY_ONLY",
+        "dataClass": "SYNTHETIC_ONLY"
+      },
+      "currentObject": {
+        "objectId": "2f5a36f085c854b8736311691af3794222aecb8b",
+        "objectType": "tree"
+      },
+      "history": {
+        "observedCommitCount": 17,
+        "earliestByCommitterTimestamp": {
+          "commitId": "b9c0fad02996ea3406c77bdd2563baa8bd8f9bf9",
+          "committedAt": "2026-09-09T16:54:20+02:00"
+        },
+        "latestByCommitterTimestamp": {
+          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+          "committedAt": "2026-09-10T01:17:17+02:00"
+        },
+        "catalogIds": [
+          "bounded-knowledge-reuse-inventory"
+        ],
+        "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
+      }
+    },
+    {
+      "id": "branch:f633a6e198197a1fa420",
+      "nodeKind": "CATALOG_BRANCH",
+      "path": "branches/browser-extension-claim-reassessment",
+      "lifecycle": "CURRENT_AT_REF",
+      "currentAtRef": true,
+      "currentClassification": "CURRENT_CATALOG_ENTRY",
+      "treePresenceAtRef": true,
+      "catalogEntry": {
+        "sourcePath": "catalog/branches.json",
+        "sourceCommitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "catalogId": "browser-extension-claim-reassessment",
+        "title": "Browser Extension Claim Reassessment",
+        "kind": "security-reassessment",
+        "state": "FINITE_SNAPSHOT",
+        "claimCeiling": "PUBLIC_SOURCE_REASSESSMENT_NOT_INDEPENDENT_MALWARE_REPRODUCTION",
+        "dataClass": "PUBLIC_SOURCES_ONLY"
+      },
+      "currentObject": {
+        "objectId": "13e860c52ce8bde28ec9e6fa2063e9b2b1f66f97",
+        "objectType": "tree"
+      },
+      "history": {
+        "observedCommitCount": 17,
+        "earliestByCommitterTimestamp": {
+          "commitId": "b9c0fad02996ea3406c77bdd2563baa8bd8f9bf9",
+          "committedAt": "2026-09-09T16:54:20+02:00"
+        },
+        "latestByCommitterTimestamp": {
+          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+          "committedAt": "2026-09-10T01:17:17+02:00"
+        },
+        "catalogIds": [
+          "browser-extension-claim-reassessment"
+        ],
+        "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
+      }
+    },
+    {
+      "id": "branch:75ac87f706ac2d1bb30a",
+      "nodeKind": "CATALOG_BRANCH",
+      "path": "branches/deidentified-self-observation-protocol",
+      "lifecycle": "CURRENT_AT_REF",
+      "currentAtRef": true,
+      "currentClassification": "CURRENT_CATALOG_ENTRY",
+      "treePresenceAtRef": true,
+      "catalogEntry": {
+        "sourcePath": "catalog/branches.json",
+        "sourceCommitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "catalogId": "deidentified-self-observation-protocol",
+        "title": "De-identified Self-Observation Protocol",
+        "kind": "research-protocol",
+        "state": "FINITE_SNAPSHOT",
+        "claimCeiling": "JOURNAL_SCHEMA_NOT_MEDICAL_EVIDENCE",
+        "dataClass": "EMPTY_TEMPLATE_ONLY"
+      },
+      "currentObject": {
+        "objectId": "3ef4860637cc38bcd96f74881dc7dbbd9e0528a8",
+        "objectType": "tree"
+      },
+      "history": {
+        "observedCommitCount": 17,
+        "earliestByCommitterTimestamp": {
+          "commitId": "b9c0fad02996ea3406c77bdd2563baa8bd8f9bf9",
+          "committedAt": "2026-09-09T16:54:20+02:00"
+        },
+        "latestByCommitterTimestamp": {
+          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+          "committedAt": "2026-09-10T01:17:17+02:00"
+        },
+        "catalogIds": [
+          "deidentified-self-observation-protocol"
+        ],
+        "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
+      }
+    },
+    {
+      "id": "branch:d12e2e04ddb83184e8f8",
+      "nodeKind": "CATALOG_BRANCH",
+      "path": "branches/document-issue-reference-verifier",
+      "lifecycle": "CURRENT_AT_REF",
+      "currentAtRef": true,
+      "currentClassification": "CURRENT_CATALOG_ENTRY",
+      "treePresenceAtRef": true,
+      "catalogEntry": {
+        "sourcePath": "catalog/branches.json",
+        "sourceCommitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "catalogId": "document-issue-reference-verifier",
+        "title": "Document Issue Reference Verifier",
+        "kind": "software-method",
+        "state": "PUBLIC_DERIVATIVE",
+        "claimCeiling": "SYNTHETIC_REFERENCE_VALIDATION_ONLY",
+        "dataClass": "SYNTHETIC_ONLY"
+      },
+      "currentObject": {
+        "objectId": "1bfd4014c02bf5036701c6ac3f22310ce77931ef",
+        "objectType": "tree"
+      },
+      "history": {
+        "observedCommitCount": 17,
+        "earliestByCommitterTimestamp": {
+          "commitId": "b9c0fad02996ea3406c77bdd2563baa8bd8f9bf9",
+          "committedAt": "2026-09-09T16:54:20+02:00"
+        },
+        "latestByCommitterTimestamp": {
+          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+          "committedAt": "2026-09-10T01:17:17+02:00"
+        },
+        "catalogIds": [
+          "document-issue-reference-verifier"
+        ],
+        "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
+      }
+    },
+    {
+      "id": "branch:204406a2be1902495e7f",
+      "nodeKind": "CATALOG_BRANCH",
+      "path": "branches/document-scanner-crypto-modernization",
+      "lifecycle": "CURRENT_AT_REF",
+      "currentAtRef": true,
+      "currentClassification": "CURRENT_CATALOG_ENTRY",
+      "treePresenceAtRef": true,
+      "catalogEntry": {
+        "sourcePath": "catalog/branches.json",
+        "sourceCommitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "catalogId": "document-scanner-crypto-modernization",
+        "title": "Document Scanner Cryptography Modernization",
+        "kind": "modernization-plan",
+        "state": "HOLD_IMPLEMENTATION",
+        "claimCeiling": "DESIGN_PLAN_NOT_SECURE_IMPLEMENTATION",
+        "dataClass": "SYNTHETIC_ONLY"
+      },
+      "currentObject": {
+        "objectId": "a727bada514be0948acb6ab1e5eac9b74d5a2e93",
+        "objectType": "tree"
+      },
+      "history": {
+        "observedCommitCount": 17,
+        "earliestByCommitterTimestamp": {
+          "commitId": "b9c0fad02996ea3406c77bdd2563baa8bd8f9bf9",
+          "committedAt": "2026-09-09T16:54:20+02:00"
+        },
+        "latestByCommitterTimestamp": {
+          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+          "committedAt": "2026-09-10T01:17:17+02:00"
+        },
+        "catalogIds": [
+          "document-scanner-crypto-modernization"
+        ],
+        "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
+      }
+    },
+    {
+      "id": "branch:670adcc91c9cf8c442c1",
+      "nodeKind": "CATALOG_BRANCH",
+      "path": "branches/focus-kernel",
+      "lifecycle": "CURRENT_AT_REF",
+      "currentAtRef": true,
+      "currentClassification": "CURRENT_CATALOG_ENTRY",
+      "treePresenceAtRef": true,
+      "catalogEntry": {
+        "sourcePath": "catalog/branches.json",
+        "sourceCommitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "catalogId": "focus-kernel",
+        "title": "Focus Kernel",
+        "kind": "software-prototype",
+        "state": "PUBLIC_DERIVATIVE",
+        "claimCeiling": "LOCAL_HEURISTIC_PROTOTYPE",
+        "dataClass": "SYNTHETIC_ONLY"
+      },
+      "currentObject": {
+        "objectId": "153b8ee627b1e60f61b97362cd2deb7580847c69",
+        "objectType": "tree"
+      },
+      "history": {
+        "observedCommitCount": 17,
+        "earliestByCommitterTimestamp": {
+          "commitId": "b9c0fad02996ea3406c77bdd2563baa8bd8f9bf9",
+          "committedAt": "2026-09-09T16:54:20+02:00"
+        },
+        "latestByCommitterTimestamp": {
+          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+          "committedAt": "2026-09-10T01:17:17+02:00"
+        },
+        "catalogIds": [
+          "focus-kernel"
+        ],
+        "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
+      }
+    },
+    {
+      "id": "branch:a92cc87678e6a7322271",
+      "nodeKind": "CATALOG_BRANCH",
+      "path": "branches/historical-cipher-decoding-challenge",
+      "lifecycle": "CURRENT_AT_REF",
+      "currentAtRef": true,
+      "currentClassification": "CURRENT_CATALOG_ENTRY",
+      "treePresenceAtRef": true,
+      "catalogEntry": {
+        "sourcePath": "catalog/branches.json",
+        "sourceCommitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "catalogId": "historical-cipher-decoding-challenge",
+        "title": "Historical Cipher Decoding Challenge",
+        "kind": "source-bound-historical-cipher-reproducibility-audit",
+        "state": "FINITE_SNAPSHOT",
+        "claimCeiling": "SOURCE_BOUND_DECODING_AUDIT_AND_SYNTHETIC_REPRODUCIBILITY_GATE_NOT_MANUSCRIPT_BITWISE_RERUN_AUTHORSHIP_EXTERNAL_FORCE_DIVINE_STATUS_LEGAL_ENTITLEMENT_OR_PAYMENT_PROOF",
+        "dataClass": "PUBLIC_SOURCES_AND_MINIMIZED_USER_IMAGE_RECEIPT_ONLY"
+      },
+      "currentObject": {
+        "objectId": "d95684b854598ee9c969641c77b61205ef95ecf5",
+        "objectType": "tree"
+      },
+      "history": {
+        "observedCommitCount": 1,
+        "earliestByCommitterTimestamp": {
+          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+          "committedAt": "2026-09-10T01:17:17+02:00"
+        },
+        "latestByCommitterTimestamp": {
+          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+          "committedAt": "2026-09-10T01:17:17+02:00"
+        },
+        "catalogIds": [
+          "historical-cipher-decoding-challenge"
+        ],
+        "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
+      }
+    },
+    {
+      "id": "branch:db00d5a682da81f90749",
+      "nodeKind": "CATALOG_BRANCH",
+      "path": "branches/navier-stokes-credit-value-and-plagiarism-audit",
+      "lifecycle": "CURRENT_AT_REF",
+      "currentAtRef": true,
+      "currentClassification": "CURRENT_CATALOG_ENTRY",
+      "treePresenceAtRef": true,
+      "catalogEntry": {
+        "sourcePath": "catalog/branches.json",
+        "sourceCommitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "catalogId": "navier-stokes-credit-value-and-plagiarism-audit",
+        "title": "Navier-Stokes Proof, Credit, Plagiarism and Value Audit",
+        "kind": "source-bound-research-integrity-and-value-audit",
+        "state": "FINITE_SNAPSHOT",
+        "claimCeiling": "PUBLIC_SOURCE_PROVENANCE_AND_VALUE_AUDIT_NOT_PROOF_VALIDATION_DATA_ACCESS_FINDING_OR_PLAGIARISM_JUDGMENT",
+        "dataClass": "PUBLIC_SOURCES_ONLY"
+      },
+      "currentObject": {
+        "objectId": "4c115b2b6dc52ec40528ee5159e179dbf57139b7",
+        "objectType": "tree"
+      },
+      "history": {
+        "observedCommitCount": 15,
+        "earliestByCommitterTimestamp": {
+          "commitId": "345b60bdd19da315c46cf335ad9396085a4b4e28",
+          "committedAt": "2026-09-09T19:45:41+02:00"
+        },
+        "latestByCommitterTimestamp": {
+          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+          "committedAt": "2026-09-10T01:17:17+02:00"
+        },
+        "catalogIds": [
+          "navier-stokes-credit-value-and-plagiarism-audit"
+        ],
+        "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
+      }
+    },
+    {
+      "id": "branch:652841e2c97cfef63b6c",
+      "nodeKind": "CATALOG_BRANCH",
+      "path": "branches/pixel-region-change-observer",
+      "lifecycle": "CURRENT_AT_REF",
+      "currentAtRef": true,
+      "currentClassification": "CURRENT_CATALOG_ENTRY",
+      "treePresenceAtRef": true,
+      "catalogEntry": {
+        "sourcePath": "catalog/branches.json",
+        "sourceCommitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "catalogId": "pixel-region-change-observer",
+        "title": "Pixel Region Change Observer",
+        "kind": "software-method",
+        "state": "PUBLIC_DERIVATIVE",
+        "claimCeiling": "OFFLINE_RENDER_DIFFERENCE_ONLY",
+        "dataClass": "SYNTHETIC_ONLY"
+      },
+      "currentObject": {
+        "objectId": "67ffe22329bac0e66eda49f4e6880521d6a0945a",
+        "objectType": "tree"
+      },
+      "history": {
+        "observedCommitCount": 17,
+        "earliestByCommitterTimestamp": {
+          "commitId": "b9c0fad02996ea3406c77bdd2563baa8bd8f9bf9",
+          "committedAt": "2026-09-09T16:54:20+02:00"
+        },
+        "latestByCommitterTimestamp": {
+          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+          "committedAt": "2026-09-10T01:17:17+02:00"
+        },
+        "catalogIds": [
+          "pixel-region-change-observer"
+        ],
+        "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
+      }
+    },
+    {
+      "id": "branch:26890c8b9b56e306cdef",
+      "nodeKind": "CATALOG_BRANCH",
+      "path": "branches/plant-observation-protocol",
+      "lifecycle": "CURRENT_AT_REF",
+      "currentAtRef": true,
+      "currentClassification": "CURRENT_CATALOG_ENTRY",
+      "treePresenceAtRef": true,
+      "catalogEntry": {
+        "sourcePath": "catalog/branches.json",
+        "sourceCommitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "catalogId": "plant-observation-protocol",
+        "title": "Plant Observation Protocol",
+        "kind": "research-protocol",
+        "state": "FINITE_SNAPSHOT",
+        "claimCeiling": "OBSERVATION_PROTOCOL_NOT_BIOLOGICAL_CAUSALITY",
+        "dataClass": "SYNTHETIC_OR_CONSENTED_ONLY"
+      },
+      "currentObject": {
+        "objectId": "3e0ac0043ef425e2c10e03841667ed9b931d709c",
+        "objectType": "tree"
+      },
+      "history": {
+        "observedCommitCount": 17,
+        "earliestByCommitterTimestamp": {
+          "commitId": "b9c0fad02996ea3406c77bdd2563baa8bd8f9bf9",
+          "committedAt": "2026-09-09T16:54:20+02:00"
+        },
+        "latestByCommitterTimestamp": {
+          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+          "committedAt": "2026-09-10T01:17:17+02:00"
+        },
+        "catalogIds": [
+          "plant-observation-protocol"
+        ],
+        "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
+      }
+    },
+    {
+      "id": "branch:0a2aefa67f9ea9389ca7",
+      "nodeKind": "CATALOG_BRANCH",
+      "path": "branches/quantum-internet-aster-mirror-audit",
+      "lifecycle": "CURRENT_AT_REF",
+      "currentAtRef": true,
+      "currentClassification": "CURRENT_CATALOG_ENTRY",
+      "treePresenceAtRef": true,
+      "catalogEntry": {
+        "sourcePath": "catalog/branches.json",
+        "sourceCommitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "catalogId": "quantum-internet-aster-mirror-audit",
+        "title": "Quantum Internet, ASTER, ASTAR and ASTRA Mirror Audit",
+        "kind": "source-bound-quantum-network-and-provenance-audit",
+        "state": "FINITE_SNAPSHOT",
+        "claimCeiling": "SOURCE_BOUND_QUANTUM_INTERNET_AND_PROVENANCE_AUDIT_WITH_LOCAL_EXECUTABLE_MIRROR_MODEL_NOT_GLOBAL_NETWORK_IDENTITY_ACCESS_DERIVATION_COPYING_CO_DEVELOPMENT_UNIVERSAL_AUTHORSHIP_OWNERSHIP_OR_PAYMENT_PROOF",
+        "dataClass": "PUBLIC_SOURCES_AND_MINIMIZED_LOCAL_HASH_RECEIPTS_ONLY"
+      },
+      "currentObject": {
+        "objectId": "370ecffba18005369143a6fd50abe9d348006260",
+        "objectType": "tree"
+      },
+      "history": {
+        "observedCommitCount": 1,
+        "earliestByCommitterTimestamp": {
+          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+          "committedAt": "2026-09-10T01:17:17+02:00"
+        },
+        "latestByCommitterTimestamp": {
+          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+          "committedAt": "2026-09-10T01:17:17+02:00"
+        },
+        "catalogIds": [
+          "quantum-internet-aster-mirror-audit"
+        ],
+        "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
+      }
+    },
+    {
+      "id": "branch:92226c4191bd27cd87f4",
+      "nodeKind": "CATALOG_BRANCH",
+      "path": "branches/russia-ukraine-information-and-peace-audit",
+      "lifecycle": "CURRENT_AT_REF",
+      "currentAtRef": true,
+      "currentClassification": "CURRENT_CATALOG_ENTRY",
+      "treePresenceAtRef": true,
+      "catalogEntry": {
+        "sourcePath": "catalog/branches.json",
+        "sourceCommitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "catalogId": "russia-ukraine-information-and-peace-audit",
+        "title": "Was los?. Russia-Ukraine Information, Peace and Decision-Snapshot Audit",
+        "kind": "source-bound-peace-audit",
+        "state": "FINITE_SNAPSHOT",
+        "claimCeiling": "SOURCE_BOUND_ANALYSIS_NOT_ACCESS_TO_PRIVATE_BRIEFINGS_OR_NEGOTIATIONS",
+        "dataClass": "PUBLIC_SOURCES_ONLY"
+      },
+      "currentObject": {
+        "objectId": "59d65774edbaf185ebfb51e6671f9132b76503e2",
+        "objectType": "tree"
+      },
+      "history": {
+        "observedCommitCount": 17,
+        "earliestByCommitterTimestamp": {
+          "commitId": "b9c0fad02996ea3406c77bdd2563baa8bd8f9bf9",
+          "committedAt": "2026-09-09T16:54:20+02:00"
+        },
+        "latestByCommitterTimestamp": {
+          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+          "committedAt": "2026-09-10T01:17:17+02:00"
+        },
+        "catalogIds": [
+          "russia-ukraine-information-and-peace-audit"
+        ],
+        "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
+      }
+    },
+    {
+      "id": "branch:edea0cda5a540b39eed9",
+      "nodeKind": "CATALOG_BRANCH",
+      "path": "branches/solar-and-thermal-provenance-audit",
+      "lifecycle": "CURRENT_AT_REF",
+      "currentAtRef": true,
+      "currentClassification": "CURRENT_CATALOG_ENTRY",
+      "treePresenceAtRef": true,
+      "catalogEntry": {
+        "sourcePath": "catalog/branches.json",
+        "sourceCommitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "catalogId": "solar-and-thermal-provenance-audit",
+        "title": "Juri Energy Model, KIT and Standard Thermal Provenance Audit",
+        "kind": "source-bound-technology-provenance-audit",
+        "state": "FINITE_SNAPSHOT",
+        "claimCeiling": "DATE_BOUND_GENERIC_OVERLAP_ONLY_NO_ACCESS_DERIVATION_OR_DISTINCTIVE_TECHNICAL_MATCH_OBSERVED",
+        "dataClass": "PUBLIC_SOURCES_AND_MINIMIZED_LOCAL_HASH_RECEIPTS_ONLY"
+      },
+      "currentObject": {
+        "objectId": "40c91767ca737841d5d997c2fb920b07c27ee172",
+        "objectType": "tree"
+      },
+      "history": {
+        "observedCommitCount": 6,
+        "earliestByCommitterTimestamp": {
+          "commitId": "5e5a8d219352f3403bf41dbd44b199fe5b5e90dd",
+          "committedAt": "2026-09-09T23:00:00+02:00"
+        },
+        "latestByCommitterTimestamp": {
+          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+          "committedAt": "2026-09-10T01:17:17+02:00"
+        },
+        "catalogIds": [
+          "solar-and-thermal-provenance-audit"
+        ],
+        "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
+      }
+    },
+    {
+      "id": "branch:65a6258f899df0753395",
+      "nodeKind": "CATALOG_BRANCH",
+      "path": "branches/visual-interpretation-boundary",
+      "lifecycle": "CURRENT_AT_REF",
+      "currentAtRef": true,
+      "currentClassification": "CURRENT_CATALOG_ENTRY",
+      "treePresenceAtRef": true,
+      "catalogEntry": {
+        "sourcePath": "catalog/branches.json",
+        "sourceCommitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "catalogId": "visual-interpretation-boundary",
+        "title": "Visual Interpretation Boundary",
+        "kind": "research-method",
+        "state": "FINITE_SNAPSHOT",
+        "claimCeiling": "DESCRIPTION_NOT_DIAGNOSIS_OR_OBJECT_IDENTITY",
+        "dataClass": "SYNTHETIC_ONLY"
+      },
+      "currentObject": {
+        "objectId": "963f4edc59a832b12737b67c8e7e7f6740c79f8b",
+        "objectType": "tree"
+      },
+      "history": {
+        "observedCommitCount": 17,
+        "earliestByCommitterTimestamp": {
+          "commitId": "b9c0fad02996ea3406c77bdd2563baa8bd8f9bf9",
+          "committedAt": "2026-09-09T16:54:20+02:00"
+        },
+        "latestByCommitterTimestamp": {
+          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+          "committedAt": "2026-09-10T01:17:17+02:00"
+        },
+        "catalogIds": [
+          "visual-interpretation-boundary"
+        ],
+        "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
+      }
+    },
+    {
+      "id": "branch:8e5c4fa7a0c0ea663cd9",
+      "nodeKind": "CATALOG_BRANCH",
+      "path": "branches/water-photonic-open-questions",
+      "lifecycle": "CURRENT_AT_REF",
+      "currentAtRef": true,
+      "currentClassification": "CURRENT_CATALOG_ENTRY",
+      "treePresenceAtRef": true,
+      "catalogEntry": {
+        "sourcePath": "catalog/branches.json",
+        "sourceCommitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "catalogId": "water-photonic-open-questions",
+        "title": "Water and Photonics Open Questions",
+        "kind": "research-questions",
+        "state": "FINITE_SNAPSHOT",
+        "claimCeiling": "QUESTION_SET_NOT_PHYSICAL_FINDING",
+        "dataClass": "PUBLIC_SOURCES_ONLY"
+      },
+      "currentObject": {
+        "objectId": "93b226675d1895b1a09fae517f31d7537f519dd8",
+        "objectType": "tree"
+      },
+      "history": {
+        "observedCommitCount": 17,
+        "earliestByCommitterTimestamp": {
+          "commitId": "b9c0fad02996ea3406c77bdd2563baa8bd8f9bf9",
+          "committedAt": "2026-09-09T16:54:20+02:00"
+        },
+        "latestByCommitterTimestamp": {
+          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+          "committedAt": "2026-09-10T01:17:17+02:00"
+        },
+        "catalogIds": [
+          "water-photonic-open-questions"
+        ],
+        "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
+      }
+    },
+    {
+      "id": "branch:28cc80c5c76ea1eb1ace",
+      "nodeKind": "CATALOG_BRANCH",
+      "path": "branches/wax-crayon-peace-helmet-audit",
+      "lifecycle": "CURRENT_AT_REF",
+      "currentAtRef": true,
+      "currentClassification": "CURRENT_CATALOG_ENTRY",
+      "treePresenceAtRef": true,
+      "catalogEntry": {
+        "sourcePath": "catalog/branches.json",
+        "sourceCommitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "catalogId": "wax-crayon-peace-helmet-audit",
+        "title": "Wax-Crayon Peace Helmet and iOS Marker Audit",
+        "kind": "source-bound-art-provenance-rights-and-safety-audit",
+        "state": "FINITE_SNAPSHOT",
+        "claimCeiling": "SOURCE_BOUND_PEACE_ART_PROPOSAL_AND_IOS_MARKER_UPDATE_NOT_PHYSICAL_VERIFICATION_GLOBAL_NOVELTY_CAUSALITY_OR_PPE",
+        "dataClass": "PUBLIC_SOURCES_AND_MINIMIZED_LOCAL_HASH_RECEIPTS_ONLY"
+      },
+      "currentObject": {
+        "objectId": "8d72ec0a892ac1538c243e6eee149b14d40a2c72",
+        "objectType": "tree"
+      },
+      "history": {
+        "observedCommitCount": 3,
+        "earliestByCommitterTimestamp": {
+          "commitId": "feb340f5de46e4354cde81703b30cf9f8899e8cd",
+          "committedAt": "2026-09-09T23:52:54+02:00"
+        },
+        "latestByCommitterTimestamp": {
+          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+          "committedAt": "2026-09-10T01:17:17+02:00"
+        },
+        "catalogIds": [
+          "wax-crayon-peace-helmet-audit"
+        ],
+        "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
+      }
+    },
+    {
+      "id": "audit-star:index",
+      "nodeKind": "AUDIT_STAR_INDEX",
+      "path": "catalog/audit-star.json",
+      "lifecycle": "GENERATED_INDEX",
+      "currentAtRef": null,
+      "pathState": "OUTPUT_PATH_NOT_USED_AS_INPUT_EVIDENCE"
+    },
+    {
+      "id": "report:b6945f832aba492c7e41",
+      "nodeKind": "REPORT_PATH",
+      "reportRole": "REPORT_ARTIFACT",
+      "path": "reports/FREE_NEWS_001_IOS_MARKER_AND_401_EDGE.md",
+      "lifecycle": "CURRENT_AT_REF",
+      "currentAtRef": true,
+      "currentClassification": "CURRENT_GIT_TREE_PATH",
+      "currentObject": {
+        "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "mode": "100644",
+        "objectType": "blob",
+        "objectId": "ac527d09343ae3b2d2226ed0baa560bf54c44a70"
+      },
+      "history": {
+        "observedCommitCount": 14,
+        "earliestByCommitterTimestamp": {
+          "commitId": "9c9334b512798bcc785284c3f1f6c3fd9721ea3f",
+          "committedAt": "2026-09-09T20:34:03+02:00"
+        },
+        "latestByCommitterTimestamp": {
+          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+          "committedAt": "2026-09-10T01:17:17+02:00"
+        },
+        "catalogIds": [],
+        "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
+      }
+    },
+    {
+      "id": "report:985ec278944bc303ca20",
+      "nodeKind": "REPORT_PATH",
+      "reportRole": "REPORT_ARTIFACT",
+      "path": "reports/FREE_NEWS_002_REACHER_S4E7_DIGITAL_REFOCUS.md",
+      "lifecycle": "CURRENT_AT_REF",
+      "currentAtRef": true,
+      "currentClassification": "CURRENT_GIT_TREE_PATH",
+      "currentObject": {
+        "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "mode": "100644",
+        "objectType": "blob",
+        "objectId": "87ffa6b276cd6e45c8c610401c48b0a1d86e5093"
+      },
+      "history": {
+        "observedCommitCount": 13,
+        "earliestByCommitterTimestamp": {
+          "commitId": "b7226c131c88ccfd8294558e869a6121acb11c12",
+          "committedAt": "2026-09-09T20:40:30+02:00"
+        },
+        "latestByCommitterTimestamp": {
+          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+          "committedAt": "2026-09-10T01:17:17+02:00"
+        },
+        "catalogIds": [],
+        "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
+      }
+    },
+    {
+      "id": "report:7e135ed832f18dd03ce4",
+      "nodeKind": "REPORT_PATH",
+      "reportRole": "REPORT_ARTIFACT",
+      "path": "reports/FREE_NEWS_003_CHILD_CONSENT_AND_IRREVERSIBLE_INTERVENTION.md",
+      "lifecycle": "CURRENT_AT_REF",
+      "currentAtRef": true,
+      "currentClassification": "CURRENT_GIT_TREE_PATH",
+      "currentObject": {
+        "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "mode": "100644",
+        "objectType": "blob",
+        "objectId": "d2125e714465f4ea6eb3b63a8847b2ff0f60c2d8"
+      },
+      "history": {
+        "observedCommitCount": 12,
+        "earliestByCommitterTimestamp": {
+          "commitId": "37a32f6e20298a838e64bdb43e6c8921a9109821",
+          "committedAt": "2026-09-09T20:53:17+02:00"
+        },
+        "latestByCommitterTimestamp": {
+          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+          "committedAt": "2026-09-10T01:17:17+02:00"
+        },
+        "catalogIds": [],
+        "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
+      }
+    },
+    {
+      "id": "report:8e716cb3da725fb12366",
+      "nodeKind": "REPORT_PATH",
+      "reportRole": "REPORT_ARTIFACT",
+      "path": "reports/FREE_NEWS_004_CONSENT_COCKPIT_234_INACTIVE_VENDORS.md",
+      "lifecycle": "CURRENT_AT_REF",
+      "currentAtRef": true,
+      "currentClassification": "CURRENT_GIT_TREE_PATH",
+      "currentObject": {
+        "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "mode": "100644",
+        "objectType": "blob",
+        "objectId": "91092f69d7f78601cbe79adfdaae058c950b0b6b"
+      },
+      "history": {
+        "observedCommitCount": 11,
+        "earliestByCommitterTimestamp": {
+          "commitId": "8ae1bfa81225f1343811ffc168b17969ef00dec6",
+          "committedAt": "2026-09-09T21:01:18+02:00"
+        },
+        "latestByCommitterTimestamp": {
+          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+          "committedAt": "2026-09-10T01:17:17+02:00"
+        },
+        "catalogIds": [],
+        "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
+      }
+    },
+    {
+      "id": "report:70657236cdba30830714",
+      "nodeKind": "REPORT_PATH",
+      "reportRole": "REPORT_ARTIFACT",
+      "path": "reports/FREE_NEWS_005_HALVETH_RECEIPT.json",
+      "lifecycle": "CURRENT_AT_REF",
+      "currentAtRef": true,
+      "currentClassification": "CURRENT_GIT_TREE_PATH",
+      "currentObject": {
+        "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "mode": "100644",
+        "objectType": "blob",
+        "objectId": "6c32d8de5bf943af75df6c1ae0915b8a18c5be79"
+      },
+      "history": {
+        "observedCommitCount": 8,
+        "earliestByCommitterTimestamp": {
+          "commitId": "5d26c932ccac72b07574cd8d62446ce332db8e13",
+          "committedAt": "2026-09-09T21:52:57+02:00"
+        },
+        "latestByCommitterTimestamp": {
+          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+          "committedAt": "2026-09-10T01:17:17+02:00"
+        },
+        "catalogIds": [],
+        "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
+      }
+    },
+    {
+      "id": "report:40511c7662379b5b3b30",
+      "nodeKind": "REPORT_PATH",
+      "reportRole": "REPORT_ARTIFACT",
+      "path": "reports/FREE_NEWS_005_HOW_TO_FISH_IDENTITY_AND_CREATION.md",
+      "lifecycle": "CURRENT_AT_REF",
+      "currentAtRef": true,
+      "currentClassification": "CURRENT_GIT_TREE_PATH",
+      "currentObject": {
+        "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "mode": "100644",
+        "objectType": "blob",
+        "objectId": "1f6c4945a736ac873477fbaf510d3d83b1b71bc4"
+      },
+      "history": {
+        "observedCommitCount": 8,
+        "earliestByCommitterTimestamp": {
+          "commitId": "5d26c932ccac72b07574cd8d62446ce332db8e13",
+          "committedAt": "2026-09-09T21:52:57+02:00"
+        },
+        "latestByCommitterTimestamp": {
+          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+          "committedAt": "2026-09-10T01:17:17+02:00"
+        },
+        "catalogIds": [],
+        "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
+      }
+    },
+    {
+      "id": "report:2020e11a46eeb8ed852b",
+      "nodeKind": "REPORT_PATH",
+      "reportRole": "REPORT_ARTIFACT",
+      "path": "reports/FREE_NEWS_005_RIGHTS_AND_SEMANTICS_PATCH.json",
+      "lifecycle": "CURRENT_AT_REF",
+      "currentAtRef": true,
+      "currentClassification": "CURRENT_GIT_TREE_PATH",
+      "currentObject": {
+        "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "mode": "100644",
+        "objectType": "blob",
+        "objectId": "5363c4a6039c6f5dbd0a07dfd567c1ed34c9ce35"
+      },
+      "history": {
+        "observedCommitCount": 7,
+        "earliestByCommitterTimestamp": {
+          "commitId": "21374b0da2517c04fb8ef10e33c0e5d05fad86e9",
+          "committedAt": "2026-09-09T22:21:45+02:00"
+        },
+        "latestByCommitterTimestamp": {
+          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+          "committedAt": "2026-09-10T01:17:17+02:00"
+        },
+        "catalogIds": [],
+        "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
+      }
+    },
+    {
+      "id": "report:6f11509fe13d46ed9254",
+      "nodeKind": "REPORT_PATH",
+      "reportRole": "REPORT_ARTIFACT",
+      "path": "reports/FREE_NEWS_006_JURI_ENERGY_MODEL_PROVENANCE_AUDIT.md",
+      "lifecycle": "CURRENT_AT_REF",
+      "currentAtRef": true,
+      "currentClassification": "CURRENT_GIT_TREE_PATH",
+      "currentObject": {
+        "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "mode": "100644",
+        "objectType": "blob",
+        "objectId": "0fc9619ae8c69370fe4860dec61feda0193e631f"
+      },
+      "history": {
+        "observedCommitCount": 6,
+        "earliestByCommitterTimestamp": {
+          "commitId": "5e5a8d219352f3403bf41dbd44b199fe5b5e90dd",
+          "committedAt": "2026-09-09T23:00:00+02:00"
+        },
+        "latestByCommitterTimestamp": {
+          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+          "committedAt": "2026-09-10T01:17:17+02:00"
+        },
+        "catalogIds": [],
+        "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
+      }
+    },
+    {
+      "id": "report:b0e04892aa97dee66824",
+      "nodeKind": "REPORT_PATH",
+      "reportRole": "REPORT_ARTIFACT",
+      "path": "reports/FREE_NEWS_007_RAVE_GROUP_RULE_AND_CANNABIS_SCOPE.md",
+      "lifecycle": "CURRENT_AT_REF",
+      "currentAtRef": true,
+      "currentClassification": "CURRENT_GIT_TREE_PATH",
+      "currentObject": {
+        "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "mode": "100644",
+        "objectType": "blob",
+        "objectId": "0cc278c65f84e50906acd3d36d549489d67fe471"
+      },
+      "history": {
+        "observedCommitCount": 4,
+        "earliestByCommitterTimestamp": {
+          "commitId": "50f011523068e72b763eb5ab542c9aac4492153b",
+          "committedAt": "2026-09-09T23:12:34+02:00"
+        },
+        "latestByCommitterTimestamp": {
+          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+          "committedAt": "2026-09-10T01:17:17+02:00"
+        },
+        "catalogIds": [],
+        "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
+      }
+    },
+    {
+      "id": "report:e86e687de83a960ae0b7",
+      "nodeKind": "REPORT_PATH",
+      "reportRole": "REPORT_ARTIFACT",
+      "path": "reports/FREE_NEWS_008_WAX_CRAYON_PEACE_HELMET_AND_IOS_MARKER.md",
+      "lifecycle": "CURRENT_AT_REF",
+      "currentAtRef": true,
+      "currentClassification": "CURRENT_GIT_TREE_PATH",
+      "currentObject": {
+        "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "mode": "100644",
+        "objectType": "blob",
+        "objectId": "e20be7355331e164ef23b88595bb86cfde83604e"
+      },
+      "history": {
+        "observedCommitCount": 3,
+        "earliestByCommitterTimestamp": {
+          "commitId": "feb340f5de46e4354cde81703b30cf9f8899e8cd",
+          "committedAt": "2026-09-09T23:52:54+02:00"
+        },
+        "latestByCommitterTimestamp": {
+          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+          "committedAt": "2026-09-10T01:17:17+02:00"
+        },
+        "catalogIds": [],
+        "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
+      }
+    },
+    {
+      "id": "report:8126a27ea6959c538ea1",
+      "nodeKind": "REPORT_PATH",
+      "reportRole": "REPORT_ARTIFACT",
+      "path": "reports/FREE_NEWS_009_GITHUB_CONTRIBUTION_GRAPH_AND_PRIORITY.md",
+      "lifecycle": "CURRENT_AT_REF",
+      "currentAtRef": true,
+      "currentClassification": "CURRENT_GIT_TREE_PATH",
+      "currentObject": {
+        "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "mode": "100644",
+        "objectType": "blob",
+        "objectId": "6611df901255b489242774b3d2e87ea81785e76d"
+      },
+      "history": {
+        "observedCommitCount": 2,
+        "earliestByCommitterTimestamp": {
+          "commitId": "a151097150430f328d76386b517d2f783b9056d9",
+          "committedAt": "2026-09-10T00:28:50+02:00"
+        },
+        "latestByCommitterTimestamp": {
+          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+          "committedAt": "2026-09-10T01:17:17+02:00"
+        },
+        "catalogIds": [],
+        "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
+      }
+    },
+    {
+      "id": "report:937af1890123a403ec4e",
+      "nodeKind": "REPORT_PATH",
+      "reportRole": "REPORT_ARTIFACT",
+      "path": "reports/FREE_NEWS_010_MADE_IN_GERMANY_QUANTUM_INTERNET_ASTER_ASTAR_ASTRA.md",
+      "lifecycle": "CURRENT_AT_REF",
+      "currentAtRef": true,
+      "currentClassification": "CURRENT_GIT_TREE_PATH",
+      "currentObject": {
+        "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "mode": "100644",
+        "objectType": "blob",
+        "objectId": "bcacf4579475c3e802e53b3ef78bae319b1d2943"
+      },
+      "history": {
+        "observedCommitCount": 1,
+        "earliestByCommitterTimestamp": {
+          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+          "committedAt": "2026-09-10T01:17:17+02:00"
+        },
+        "latestByCommitterTimestamp": {
+          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+          "committedAt": "2026-09-10T01:17:17+02:00"
+        },
+        "catalogIds": [],
+        "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
+      }
+    },
+    {
+      "id": "report:518153c4e80528d8a716",
+      "nodeKind": "REPORT_PATH",
+      "reportRole": "REPORT_ARTIFACT",
+      "path": "reports/FREE_NEWS_011_HISTORICAL_CIPHER_111_DECODING_CHALLENGE.md",
+      "lifecycle": "CURRENT_AT_REF",
+      "currentAtRef": true,
+      "currentClassification": "CURRENT_GIT_TREE_PATH",
+      "currentObject": {
+        "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "mode": "100644",
+        "objectType": "blob",
+        "objectId": "ac91220d7e30c26648a7fbbf65c16c5bd7a7c39b"
+      },
+      "history": {
+        "observedCommitCount": 1,
+        "earliestByCommitterTimestamp": {
+          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+          "committedAt": "2026-09-10T01:17:17+02:00"
+        },
+        "latestByCommitterTimestamp": {
+          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+          "committedAt": "2026-09-10T01:17:17+02:00"
+        },
+        "catalogIds": [],
+        "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
+      }
+    },
+    {
+      "id": "report:1075ab01313b7da638bb",
+      "nodeKind": "REPORT_PATH",
+      "reportRole": "REPORT_ARTIFACT",
+      "path": "reports/MAC_OUI_REGISTRY_BOUNDARY.md",
+      "lifecycle": "CURRENT_AT_REF",
+      "currentAtRef": true,
+      "currentClassification": "CURRENT_GIT_TREE_PATH",
+      "currentObject": {
+        "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "mode": "100644",
+        "objectType": "blob",
+        "objectId": "ff9a6c78234316720bd1df035c6795764f9eb299"
+      },
+      "history": {
+        "observedCommitCount": 17,
+        "earliestByCommitterTimestamp": {
+          "commitId": "b9c0fad02996ea3406c77bdd2563baa8bd8f9bf9",
+          "committedAt": "2026-09-09T16:54:20+02:00"
+        },
+        "latestByCommitterTimestamp": {
+          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+          "committedAt": "2026-09-10T01:17:17+02:00"
+        },
+        "catalogIds": [],
+        "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
+      }
+    },
+    {
+      "id": "report:86e344df13968fb85db3",
+      "nodeKind": "REPORT_PATH",
+      "reportRole": "REPORT_ARTIFACT",
+      "path": "reports/MICROSOFT_PKI_REPOSITORY_PATTERN.md",
+      "lifecycle": "CURRENT_AT_REF",
+      "currentAtRef": true,
+      "currentClassification": "CURRENT_GIT_TREE_PATH",
+      "currentObject": {
+        "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "mode": "100644",
+        "objectType": "blob",
+        "objectId": "4942f62d0b3cb6d8ac1740744f71e0653b5cbef1"
+      },
+      "history": {
+        "observedCommitCount": 17,
+        "earliestByCommitterTimestamp": {
+          "commitId": "b9c0fad02996ea3406c77bdd2563baa8bd8f9bf9",
+          "committedAt": "2026-09-09T16:54:20+02:00"
+        },
+        "latestByCommitterTimestamp": {
+          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+          "committedAt": "2026-09-10T01:17:17+02:00"
+        },
+        "catalogIds": [],
+        "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
+      }
+    },
+    {
+      "id": "report:6cb5744513e1696c21f1",
+      "nodeKind": "REPORT_PATH",
+      "reportRole": "REPORT_DIRECTORY_INDEX",
+      "path": "reports/README.md",
+      "lifecycle": "CURRENT_AT_REF",
+      "currentAtRef": true,
+      "currentClassification": "CURRENT_GIT_TREE_PATH",
+      "currentObject": {
+        "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+        "mode": "100644",
+        "objectType": "blob",
+        "objectId": "61789482b1854942c2e42fa67bbb4415ed87ea65"
+      },
+      "history": {
+        "observedCommitCount": 17,
+        "earliestByCommitterTimestamp": {
+          "commitId": "b9c0fad02996ea3406c77bdd2563baa8bd8f9bf9",
+          "committedAt": "2026-09-09T16:54:20+02:00"
+        },
+        "latestByCommitterTimestamp": {
+          "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
+          "committedAt": "2026-09-10T01:17:17+02:00"
+        },
+        "catalogIds": [],
+        "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-reference:d9f8dca3d4b16532a453",
+      "relationType": "EXPLICITLY_REFERENCES",
+      "from": "branch:28cc80c5c76ea1eb1ace",
+      "to": "report:b6945f832aba492c7e41",
+      "evidence": [
+        {
+          "sourcePath": "branches/wax-crayon-peace-helmet-audit/README.md",
+          "sourceBlobId": "e13fe377a799560a6b13f00f48b3534c0093e3cd",
+          "line": 120,
+          "literal": "../../reports/FREE_NEWS_001_IOS_MARKER_AND_401_EDGE.md",
+          "syntax": "MARKDOWN_LINK",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        },
+        {
+          "sourcePath": "branches/wax-crayon-peace-helmet-audit/README.md",
+          "sourceBlobId": "e13fe377a799560a6b13f00f48b3534c0093e3cd",
+          "line": 120,
+          "literal": "reports/FREE_NEWS_001_IOS_MARKER_AND_401_EDGE.md",
+          "syntax": "EXACT_REPOSITORY_PATH",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        }
+      ],
+      "semantics": "TEXTUAL_PATH_REFERENCE_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-reference:feeaccc637007484b748",
+      "relationType": "EXPLICITLY_REFERENCES",
+      "from": "branch:edea0cda5a540b39eed9",
+      "to": "report:6f11509fe13d46ed9254",
+      "evidence": [
+        {
+          "sourcePath": "branches/solar-and-thermal-provenance-audit/README.md",
+          "sourceBlobId": "3c03487e0c44bd63cde234528015a27db46659d0",
+          "line": 55,
+          "literal": "../../reports/FREE_NEWS_006_JURI_ENERGY_MODEL_PROVENANCE_AUDIT.md",
+          "syntax": "MARKDOWN_LINK",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        },
+        {
+          "sourcePath": "branches/solar-and-thermal-provenance-audit/README.md",
+          "sourceBlobId": "3c03487e0c44bd63cde234528015a27db46659d0",
+          "line": 55,
+          "literal": "reports/FREE_NEWS_006_JURI_ENERGY_MODEL_PROVENANCE_AUDIT.md",
+          "syntax": "EXACT_REPOSITORY_PATH",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        }
+      ],
+      "semantics": "TEXTUAL_PATH_REFERENCE_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-reference:e92de7ba39bd830143d2",
+      "relationType": "EXPLICITLY_REFERENCES",
+      "from": "report:2020e11a46eeb8ed852b",
+      "to": "report:40511c7662379b5b3b30",
+      "evidence": [
+        {
+          "sourcePath": "reports/FREE_NEWS_005_RIGHTS_AND_SEMANTICS_PATCH.json",
+          "sourceBlobId": "5363c4a6039c6f5dbd0a07dfd567c1ed34c9ce35",
+          "line": 50,
+          "literal": "reports/FREE_NEWS_005_HOW_TO_FISH_IDENTITY_AND_CREATION.md",
+          "syntax": "EXACT_REPOSITORY_PATH",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        },
+        {
+          "sourcePath": "reports/FREE_NEWS_005_RIGHTS_AND_SEMANTICS_PATCH.json",
+          "sourceBlobId": "5363c4a6039c6f5dbd0a07dfd567c1ed34c9ce35",
+          "line": 50,
+          "literal": "reports/FREE_NEWS_005_HOW_TO_FISH_IDENTITY_AND_CREATION.md",
+          "syntax": "JSON_STRING",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        }
+      ],
+      "semantics": "TEXTUAL_PATH_REFERENCE_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-reference:610f1338e17c8e10e7a0",
+      "relationType": "EXPLICITLY_REFERENCES",
+      "from": "report:2020e11a46eeb8ed852b",
+      "to": "report:70657236cdba30830714",
+      "evidence": [
+        {
+          "sourcePath": "reports/FREE_NEWS_005_RIGHTS_AND_SEMANTICS_PATCH.json",
+          "sourceBlobId": "5363c4a6039c6f5dbd0a07dfd567c1ed34c9ce35",
+          "line": 11,
+          "literal": "reports/FREE_NEWS_005_HALVETH_RECEIPT.json",
+          "syntax": "EXACT_REPOSITORY_PATH",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        },
+        {
+          "sourcePath": "reports/FREE_NEWS_005_RIGHTS_AND_SEMANTICS_PATCH.json",
+          "sourceBlobId": "5363c4a6039c6f5dbd0a07dfd567c1ed34c9ce35",
+          "line": 11,
+          "literal": "reports/FREE_NEWS_005_HALVETH_RECEIPT.json",
+          "syntax": "JSON_STRING",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        }
+      ],
+      "semantics": "TEXTUAL_PATH_REFERENCE_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-reference:6e9316b52727dad8ca66",
+      "relationType": "EXPLICITLY_REFERENCES",
+      "from": "report:40511c7662379b5b3b30",
+      "to": "report:2020e11a46eeb8ed852b",
+      "evidence": [
+        {
+          "sourcePath": "reports/FREE_NEWS_005_HOW_TO_FISH_IDENTITY_AND_CREATION.md",
+          "sourceBlobId": "1f6c4945a736ac873477fbaf510d3d83b1b71bc4",
+          "line": 70,
+          "literal": "FREE_NEWS_005_RIGHTS_AND_SEMANTICS_PATCH.json",
+          "syntax": "INLINE_CODE",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        },
+        {
+          "sourcePath": "reports/FREE_NEWS_005_HOW_TO_FISH_IDENTITY_AND_CREATION.md",
+          "sourceBlobId": "1f6c4945a736ac873477fbaf510d3d83b1b71bc4",
+          "line": 70,
+          "literal": "FREE_NEWS_005_RIGHTS_AND_SEMANTICS_PATCH.json",
+          "syntax": "MARKDOWN_LINK",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        }
+      ],
+      "semantics": "TEXTUAL_PATH_REFERENCE_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-reference:750589d419c3c5e37817",
+      "relationType": "EXPLICITLY_REFERENCES",
+      "from": "report:40511c7662379b5b3b30",
+      "to": "report:70657236cdba30830714",
+      "evidence": [
+        {
+          "sourcePath": "reports/FREE_NEWS_005_HOW_TO_FISH_IDENTITY_AND_CREATION.md",
+          "sourceBlobId": "1f6c4945a736ac873477fbaf510d3d83b1b71bc4",
+          "line": 47,
+          "literal": "FREE_NEWS_005_HALVETH_RECEIPT.json",
+          "syntax": "INLINE_CODE",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        },
+        {
+          "sourcePath": "reports/FREE_NEWS_005_HOW_TO_FISH_IDENTITY_AND_CREATION.md",
+          "sourceBlobId": "1f6c4945a736ac873477fbaf510d3d83b1b71bc4",
+          "line": 47,
+          "literal": "FREE_NEWS_005_HALVETH_RECEIPT.json",
+          "syntax": "MARKDOWN_LINK",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        }
+      ],
+      "semantics": "TEXTUAL_PATH_REFERENCE_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-reference:f7a24996e42e54060f57",
+      "relationType": "EXPLICITLY_REFERENCES",
+      "from": "report:518153c4e80528d8a716",
+      "to": "branch:a92cc87678e6a7322271",
+      "evidence": [
+        {
+          "sourcePath": "reports/FREE_NEWS_011_HISTORICAL_CIPHER_111_DECODING_CHALLENGE.md",
+          "sourceBlobId": "ac91220d7e30c26648a7fbbf65c16c5bd7a7c39b",
+          "line": 128,
+          "literal": "branches/historical-cipher-decoding-challenge",
+          "syntax": "EXACT_REPOSITORY_PATH",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        },
+        {
+          "sourcePath": "reports/FREE_NEWS_011_HISTORICAL_CIPHER_111_DECODING_CHALLENGE.md",
+          "sourceBlobId": "ac91220d7e30c26648a7fbbf65c16c5bd7a7c39b",
+          "line": 134,
+          "literal": "branches/historical-cipher-decoding-challenge",
+          "syntax": "EXACT_REPOSITORY_PATH",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        }
+      ],
+      "semantics": "TEXTUAL_PATH_REFERENCE_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-reference:89d39cb65774a22d5166",
+      "relationType": "EXPLICITLY_REFERENCES",
+      "from": "report:6cb5744513e1696c21f1",
+      "to": "report:1075ab01313b7da638bb",
+      "evidence": [
+        {
+          "sourcePath": "reports/README.md",
+          "sourceBlobId": "61789482b1854942c2e42fa67bbb4415ed87ea65",
+          "line": 9,
+          "literal": "MAC_OUI_REGISTRY_BOUNDARY.md",
+          "syntax": "INLINE_CODE",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        }
+      ],
+      "semantics": "TEXTUAL_PATH_REFERENCE_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-reference:64a03f171b9c3d38557e",
+      "relationType": "EXPLICITLY_REFERENCES",
+      "from": "report:6cb5744513e1696c21f1",
+      "to": "report:2020e11a46eeb8ed852b",
+      "evidence": [
+        {
+          "sourcePath": "reports/README.md",
+          "sourceBlobId": "61789482b1854942c2e42fa67bbb4415ed87ea65",
+          "line": 15,
+          "literal": "FREE_NEWS_005_RIGHTS_AND_SEMANTICS_PATCH.json",
+          "syntax": "INLINE_CODE",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        }
+      ],
+      "semantics": "TEXTUAL_PATH_REFERENCE_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-reference:7ef3f3a856fc72652ad3",
+      "relationType": "EXPLICITLY_REFERENCES",
+      "from": "report:6cb5744513e1696c21f1",
+      "to": "report:40511c7662379b5b3b30",
+      "evidence": [
+        {
+          "sourcePath": "reports/README.md",
+          "sourceBlobId": "61789482b1854942c2e42fa67bbb4415ed87ea65",
+          "line": 14,
+          "literal": "FREE_NEWS_005_HOW_TO_FISH_IDENTITY_AND_CREATION.md",
+          "syntax": "INLINE_CODE",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        }
+      ],
+      "semantics": "TEXTUAL_PATH_REFERENCE_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-reference:5238d0a8636a97c6a209",
+      "relationType": "EXPLICITLY_REFERENCES",
+      "from": "report:6cb5744513e1696c21f1",
+      "to": "report:518153c4e80528d8a716",
+      "evidence": [
+        {
+          "sourcePath": "reports/README.md",
+          "sourceBlobId": "61789482b1854942c2e42fa67bbb4415ed87ea65",
+          "line": 21,
+          "literal": "FREE_NEWS_011_HISTORICAL_CIPHER_111_DECODING_CHALLENGE.md",
+          "syntax": "INLINE_CODE",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        }
+      ],
+      "semantics": "TEXTUAL_PATH_REFERENCE_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-reference:1c8a80658e8ed15da520",
+      "relationType": "EXPLICITLY_REFERENCES",
+      "from": "report:6cb5744513e1696c21f1",
+      "to": "report:6f11509fe13d46ed9254",
+      "evidence": [
+        {
+          "sourcePath": "reports/README.md",
+          "sourceBlobId": "61789482b1854942c2e42fa67bbb4415ed87ea65",
+          "line": 16,
+          "literal": "FREE_NEWS_006_JURI_ENERGY_MODEL_PROVENANCE_AUDIT.md",
+          "syntax": "INLINE_CODE",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        }
+      ],
+      "semantics": "TEXTUAL_PATH_REFERENCE_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-reference:bee24da49f8b827ab2c2",
+      "relationType": "EXPLICITLY_REFERENCES",
+      "from": "report:6cb5744513e1696c21f1",
+      "to": "report:7e135ed832f18dd03ce4",
+      "evidence": [
+        {
+          "sourcePath": "reports/README.md",
+          "sourceBlobId": "61789482b1854942c2e42fa67bbb4415ed87ea65",
+          "line": 12,
+          "literal": "FREE_NEWS_003_CHILD_CONSENT_AND_IRREVERSIBLE_INTERVENTION.md",
+          "syntax": "INLINE_CODE",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        }
+      ],
+      "semantics": "TEXTUAL_PATH_REFERENCE_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-reference:0d4d89cec42cb3ae47b4",
+      "relationType": "EXPLICITLY_REFERENCES",
+      "from": "report:6cb5744513e1696c21f1",
+      "to": "report:8126a27ea6959c538ea1",
+      "evidence": [
+        {
+          "sourcePath": "reports/README.md",
+          "sourceBlobId": "61789482b1854942c2e42fa67bbb4415ed87ea65",
+          "line": 19,
+          "literal": "FREE_NEWS_009_GITHUB_CONTRIBUTION_GRAPH_AND_PRIORITY.md",
+          "syntax": "INLINE_CODE",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        }
+      ],
+      "semantics": "TEXTUAL_PATH_REFERENCE_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-reference:3fd70449907859c6e677",
+      "relationType": "EXPLICITLY_REFERENCES",
+      "from": "report:6cb5744513e1696c21f1",
+      "to": "report:86e344df13968fb85db3",
+      "evidence": [
+        {
+          "sourcePath": "reports/README.md",
+          "sourceBlobId": "61789482b1854942c2e42fa67bbb4415ed87ea65",
+          "line": 8,
+          "literal": "MICROSOFT_PKI_REPOSITORY_PATTERN.md",
+          "syntax": "INLINE_CODE",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        }
+      ],
+      "semantics": "TEXTUAL_PATH_REFERENCE_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-reference:e629c1ef8e42319b7634",
+      "relationType": "EXPLICITLY_REFERENCES",
+      "from": "report:6cb5744513e1696c21f1",
+      "to": "report:8e716cb3da725fb12366",
+      "evidence": [
+        {
+          "sourcePath": "reports/README.md",
+          "sourceBlobId": "61789482b1854942c2e42fa67bbb4415ed87ea65",
+          "line": 13,
+          "literal": "FREE_NEWS_004_CONSENT_COCKPIT_234_INACTIVE_VENDORS.md",
+          "syntax": "INLINE_CODE",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        }
+      ],
+      "semantics": "TEXTUAL_PATH_REFERENCE_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-reference:325442ffe9fefcfa4ec2",
+      "relationType": "EXPLICITLY_REFERENCES",
+      "from": "report:6cb5744513e1696c21f1",
+      "to": "report:937af1890123a403ec4e",
+      "evidence": [
+        {
+          "sourcePath": "reports/README.md",
+          "sourceBlobId": "61789482b1854942c2e42fa67bbb4415ed87ea65",
+          "line": 20,
+          "literal": "FREE_NEWS_010_MADE_IN_GERMANY_QUANTUM_INTERNET_ASTER_ASTAR_ASTRA.md",
+          "syntax": "INLINE_CODE",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        }
+      ],
+      "semantics": "TEXTUAL_PATH_REFERENCE_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-reference:935e0548384ff9ac8ced",
+      "relationType": "EXPLICITLY_REFERENCES",
+      "from": "report:6cb5744513e1696c21f1",
+      "to": "report:985ec278944bc303ca20",
+      "evidence": [
+        {
+          "sourcePath": "reports/README.md",
+          "sourceBlobId": "61789482b1854942c2e42fa67bbb4415ed87ea65",
+          "line": 11,
+          "literal": "FREE_NEWS_002_REACHER_S4E7_DIGITAL_REFOCUS.md",
+          "syntax": "INLINE_CODE",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        }
+      ],
+      "semantics": "TEXTUAL_PATH_REFERENCE_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-reference:c8f4bbc36963d7038b77",
+      "relationType": "EXPLICITLY_REFERENCES",
+      "from": "report:6cb5744513e1696c21f1",
+      "to": "report:b0e04892aa97dee66824",
+      "evidence": [
+        {
+          "sourcePath": "reports/README.md",
+          "sourceBlobId": "61789482b1854942c2e42fa67bbb4415ed87ea65",
+          "line": 17,
+          "literal": "FREE_NEWS_007_RAVE_GROUP_RULE_AND_CANNABIS_SCOPE.md",
+          "syntax": "INLINE_CODE",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        }
+      ],
+      "semantics": "TEXTUAL_PATH_REFERENCE_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-reference:2d13ff9e99fff3a4865f",
+      "relationType": "EXPLICITLY_REFERENCES",
+      "from": "report:6cb5744513e1696c21f1",
+      "to": "report:b6945f832aba492c7e41",
+      "evidence": [
+        {
+          "sourcePath": "reports/README.md",
+          "sourceBlobId": "61789482b1854942c2e42fa67bbb4415ed87ea65",
+          "line": 10,
+          "literal": "FREE_NEWS_001_IOS_MARKER_AND_401_EDGE.md",
+          "syntax": "INLINE_CODE",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        }
+      ],
+      "semantics": "TEXTUAL_PATH_REFERENCE_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-reference:dc1ac1e7a0dc27c2b8ca",
+      "relationType": "EXPLICITLY_REFERENCES",
+      "from": "report:6cb5744513e1696c21f1",
+      "to": "report:e86e687de83a960ae0b7",
+      "evidence": [
+        {
+          "sourcePath": "reports/README.md",
+          "sourceBlobId": "61789482b1854942c2e42fa67bbb4415ed87ea65",
+          "line": 18,
+          "literal": "FREE_NEWS_008_WAX_CRAYON_PEACE_HELMET_AND_IOS_MARKER.md",
+          "syntax": "INLINE_CODE",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        }
+      ],
+      "semantics": "TEXTUAL_PATH_REFERENCE_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-reference:ca32e6cde8f1133b715a",
+      "relationType": "EXPLICITLY_REFERENCES",
+      "from": "report:6f11509fe13d46ed9254",
+      "to": "branch:edea0cda5a540b39eed9",
+      "evidence": [
+        {
+          "sourcePath": "reports/FREE_NEWS_006_JURI_ENERGY_MODEL_PROVENANCE_AUDIT.md",
+          "sourceBlobId": "0fc9619ae8c69370fe4860dec61feda0193e631f",
+          "line": 47,
+          "literal": "branches/solar-and-thermal-provenance-audit",
+          "syntax": "EXACT_REPOSITORY_PATH",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        },
+        {
+          "sourcePath": "reports/FREE_NEWS_006_JURI_ENERGY_MODEL_PROVENANCE_AUDIT.md",
+          "sourceBlobId": "0fc9619ae8c69370fe4860dec61feda0193e631f",
+          "line": 164,
+          "literal": "branches/solar-and-thermal-provenance-audit",
+          "syntax": "EXACT_REPOSITORY_PATH",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        },
+        {
+          "sourcePath": "reports/FREE_NEWS_006_JURI_ENERGY_MODEL_PROVENANCE_AUDIT.md",
+          "sourceBlobId": "0fc9619ae8c69370fe4860dec61feda0193e631f",
+          "line": 165,
+          "literal": "branches/solar-and-thermal-provenance-audit",
+          "syntax": "EXACT_REPOSITORY_PATH",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        },
+        {
+          "sourcePath": "reports/FREE_NEWS_006_JURI_ENERGY_MODEL_PROVENANCE_AUDIT.md",
+          "sourceBlobId": "0fc9619ae8c69370fe4860dec61feda0193e631f",
+          "line": 166,
+          "literal": "branches/solar-and-thermal-provenance-audit",
+          "syntax": "EXACT_REPOSITORY_PATH",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        },
+        {
+          "sourcePath": "reports/FREE_NEWS_006_JURI_ENERGY_MODEL_PROVENANCE_AUDIT.md",
+          "sourceBlobId": "0fc9619ae8c69370fe4860dec61feda0193e631f",
+          "line": 168,
+          "literal": "branches/solar-and-thermal-provenance-audit",
+          "syntax": "EXACT_REPOSITORY_PATH",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        }
+      ],
+      "semantics": "TEXTUAL_PATH_REFERENCE_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-reference:95cacb8d189e1a5698a0",
+      "relationType": "EXPLICITLY_REFERENCES",
+      "from": "report:937af1890123a403ec4e",
+      "to": "branch:0a2aefa67f9ea9389ca7",
+      "evidence": [
+        {
+          "sourcePath": "reports/FREE_NEWS_010_MADE_IN_GERMANY_QUANTUM_INTERNET_ASTER_ASTAR_ASTRA.md",
+          "sourceBlobId": "bcacf4579475c3e802e53b3ef78bae319b1d2943",
+          "line": 53,
+          "literal": "branches/quantum-internet-aster-mirror-audit",
+          "syntax": "EXACT_REPOSITORY_PATH",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        },
+        {
+          "sourcePath": "reports/FREE_NEWS_010_MADE_IN_GERMANY_QUANTUM_INTERNET_ASTER_ASTAR_ASTRA.md",
+          "sourceBlobId": "bcacf4579475c3e802e53b3ef78bae319b1d2943",
+          "line": 136,
+          "literal": "branches/quantum-internet-aster-mirror-audit",
+          "syntax": "EXACT_REPOSITORY_PATH",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        },
+        {
+          "sourcePath": "reports/FREE_NEWS_010_MADE_IN_GERMANY_QUANTUM_INTERNET_ASTER_ASTAR_ASTRA.md",
+          "sourceBlobId": "bcacf4579475c3e802e53b3ef78bae319b1d2943",
+          "line": 195,
+          "literal": "branches/quantum-internet-aster-mirror-audit",
+          "syntax": "EXACT_REPOSITORY_PATH",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        }
+      ],
+      "semantics": "TEXTUAL_PATH_REFERENCE_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-reference:7e82ee1f936c3943f3fb",
+      "relationType": "EXPLICITLY_REFERENCES",
+      "from": "report:b6945f832aba492c7e41",
+      "to": "branch:28cc80c5c76ea1eb1ace",
+      "evidence": [
+        {
+          "sourcePath": "reports/FREE_NEWS_001_IOS_MARKER_AND_401_EDGE.md",
+          "sourceBlobId": "ac527d09343ae3b2d2226ed0baa560bf54c44a70",
+          "line": 90,
+          "literal": "branches/wax-crayon-peace-helmet-audit",
+          "syntax": "EXACT_REPOSITORY_PATH",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        }
+      ],
+      "semantics": "TEXTUAL_PATH_REFERENCE_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-reference:4f3f0d19144f3798d8e3",
+      "relationType": "EXPLICITLY_REFERENCES",
+      "from": "report:e86e687de83a960ae0b7",
+      "to": "branch:28cc80c5c76ea1eb1ace",
+      "evidence": [
+        {
+          "sourcePath": "reports/FREE_NEWS_008_WAX_CRAYON_PEACE_HELMET_AND_IOS_MARKER.md",
+          "sourceBlobId": "e20be7355331e164ef23b88595bb86cfde83604e",
+          "line": 24,
+          "literal": "branches/wax-crayon-peace-helmet-audit",
+          "syntax": "EXACT_REPOSITORY_PATH",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        }
+      ],
+      "semantics": "TEXTUAL_PATH_REFERENCE_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-reference:97880a7c5ea3304fc8f4",
+      "relationType": "EXPLICITLY_REFERENCES",
+      "from": "report:e86e687de83a960ae0b7",
+      "to": "report:b6945f832aba492c7e41",
+      "evidence": [
+        {
+          "sourcePath": "reports/FREE_NEWS_008_WAX_CRAYON_PEACE_HELMET_AND_IOS_MARKER.md",
+          "sourceBlobId": "e20be7355331e164ef23b88595bb86cfde83604e",
+          "line": 55,
+          "literal": "FREE_NEWS_001_IOS_MARKER_AND_401_EDGE.md",
+          "syntax": "MARKDOWN_LINK",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        }
+      ],
+      "semantics": "TEXTUAL_PATH_REFERENCE_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-indexes:f767582a089ba361db57",
+      "relationType": "INDEXES",
+      "from": "audit-star:index",
+      "to": "branch:0471fc543a1b9b96ad99",
+      "evidence": [
+        {
+          "source": "CATALOG_ENTRY_HISTORY",
+          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+        }
+      ],
+      "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-indexes:e6d2a6f5f09b15f9b986",
+      "relationType": "INDEXES",
+      "from": "audit-star:index",
+      "to": "branch:0a2aefa67f9ea9389ca7",
+      "evidence": [
+        {
+          "source": "CATALOG_ENTRY_HISTORY",
+          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+        }
+      ],
+      "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-indexes:c5168be2eafc918f7209",
+      "relationType": "INDEXES",
+      "from": "audit-star:index",
+      "to": "branch:204406a2be1902495e7f",
+      "evidence": [
+        {
+          "source": "CATALOG_ENTRY_HISTORY",
+          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+        }
+      ],
+      "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-indexes:56df1cde66b4036f26f5",
+      "relationType": "INDEXES",
+      "from": "audit-star:index",
+      "to": "branch:26890c8b9b56e306cdef",
+      "evidence": [
+        {
+          "source": "CATALOG_ENTRY_HISTORY",
+          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+        }
+      ],
+      "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-indexes:0f2d3ac090b49c095427",
+      "relationType": "INDEXES",
+      "from": "audit-star:index",
+      "to": "branch:28cc80c5c76ea1eb1ace",
+      "evidence": [
+        {
+          "source": "CATALOG_ENTRY_HISTORY",
+          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+        }
+      ],
+      "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-indexes:0f06ee6b034a1af34fd2",
+      "relationType": "INDEXES",
+      "from": "audit-star:index",
+      "to": "branch:652841e2c97cfef63b6c",
+      "evidence": [
+        {
+          "source": "CATALOG_ENTRY_HISTORY",
+          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+        }
+      ],
+      "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-indexes:144478b9239f0266f69d",
+      "relationType": "INDEXES",
+      "from": "audit-star:index",
+      "to": "branch:65a6258f899df0753395",
+      "evidence": [
+        {
+          "source": "CATALOG_ENTRY_HISTORY",
+          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+        }
+      ],
+      "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-indexes:ccaf9010461914226494",
+      "relationType": "INDEXES",
+      "from": "audit-star:index",
+      "to": "branch:670adcc91c9cf8c442c1",
+      "evidence": [
+        {
+          "source": "CATALOG_ENTRY_HISTORY",
+          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+        }
+      ],
+      "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-indexes:b0866baaa5c6078bf1ed",
+      "relationType": "INDEXES",
+      "from": "audit-star:index",
+      "to": "branch:75ac87f706ac2d1bb30a",
+      "evidence": [
+        {
+          "source": "CATALOG_ENTRY_HISTORY",
+          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+        }
+      ],
+      "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-indexes:284d1ebdb3033a38639d",
+      "relationType": "INDEXES",
+      "from": "audit-star:index",
+      "to": "branch:8e5c4fa7a0c0ea663cd9",
+      "evidence": [
+        {
+          "source": "CATALOG_ENTRY_HISTORY",
+          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+        }
+      ],
+      "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-indexes:99b297ac611d18f582b9",
+      "relationType": "INDEXES",
+      "from": "audit-star:index",
+      "to": "branch:92226c4191bd27cd87f4",
+      "evidence": [
+        {
+          "source": "CATALOG_ENTRY_HISTORY",
+          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+        }
+      ],
+      "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-indexes:e64a130a2d93ea605f2e",
+      "relationType": "INDEXES",
+      "from": "audit-star:index",
+      "to": "branch:a92cc87678e6a7322271",
+      "evidence": [
+        {
+          "source": "CATALOG_ENTRY_HISTORY",
+          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+        }
+      ],
+      "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-indexes:4536cb6322eebaa0cc86",
+      "relationType": "INDEXES",
+      "from": "audit-star:index",
+      "to": "branch:bc68ec517c9f630501cb",
+      "evidence": [
+        {
+          "source": "CATALOG_ENTRY_HISTORY",
+          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+        }
+      ],
+      "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-indexes:41fb94e9d195b4047261",
+      "relationType": "INDEXES",
+      "from": "audit-star:index",
+      "to": "branch:bdf88f13c148ea05e90c",
+      "evidence": [
+        {
+          "source": "CATALOG_ENTRY_HISTORY",
+          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+        }
+      ],
+      "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-indexes:e0c08e8beeab10bee460",
+      "relationType": "INDEXES",
+      "from": "audit-star:index",
+      "to": "branch:d12e2e04ddb83184e8f8",
+      "evidence": [
+        {
+          "source": "CATALOG_ENTRY_HISTORY",
+          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+        }
+      ],
+      "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-indexes:9524b0a62adf752ac0fa",
+      "relationType": "INDEXES",
+      "from": "audit-star:index",
+      "to": "branch:db00d5a682da81f90749",
+      "evidence": [
+        {
+          "source": "CATALOG_ENTRY_HISTORY",
+          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+        }
+      ],
+      "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-indexes:9155111f01afc7a8c8ce",
+      "relationType": "INDEXES",
+      "from": "audit-star:index",
+      "to": "branch:edea0cda5a540b39eed9",
+      "evidence": [
+        {
+          "source": "CATALOG_ENTRY_HISTORY",
+          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+        }
+      ],
+      "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-indexes:ea86d55adc1b5db0e731",
+      "relationType": "INDEXES",
+      "from": "audit-star:index",
+      "to": "branch:f633a6e198197a1fa420",
+      "evidence": [
+        {
+          "source": "CATALOG_ENTRY_HISTORY",
+          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+        }
+      ],
+      "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-indexes:4716d5389126e1786794",
+      "relationType": "INDEXES",
+      "from": "audit-star:index",
+      "to": "report:1075ab01313b7da638bb",
+      "evidence": [
+        {
+          "source": "REPORT_GIT_TREE_HISTORY",
+          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+        }
+      ],
+      "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-indexes:275f5630e3c20db33102",
+      "relationType": "INDEXES",
+      "from": "audit-star:index",
+      "to": "report:2020e11a46eeb8ed852b",
+      "evidence": [
+        {
+          "source": "REPORT_GIT_TREE_HISTORY",
+          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+        }
+      ],
+      "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-indexes:5b5b0d77f2c86c81d64f",
+      "relationType": "INDEXES",
+      "from": "audit-star:index",
+      "to": "report:40511c7662379b5b3b30",
+      "evidence": [
+        {
+          "source": "REPORT_GIT_TREE_HISTORY",
+          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+        }
+      ],
+      "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-indexes:078c424b31cc7c29f7cc",
+      "relationType": "INDEXES",
+      "from": "audit-star:index",
+      "to": "report:518153c4e80528d8a716",
+      "evidence": [
+        {
+          "source": "REPORT_GIT_TREE_HISTORY",
+          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+        }
+      ],
+      "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-indexes:a19800f30f70cbb8421d",
+      "relationType": "INDEXES",
+      "from": "audit-star:index",
+      "to": "report:6cb5744513e1696c21f1",
+      "evidence": [
+        {
+          "source": "REPORT_GIT_TREE_HISTORY",
+          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+        }
+      ],
+      "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-indexes:6790644ff48e9d1846fe",
+      "relationType": "INDEXES",
+      "from": "audit-star:index",
+      "to": "report:6f11509fe13d46ed9254",
+      "evidence": [
+        {
+          "source": "REPORT_GIT_TREE_HISTORY",
+          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+        }
+      ],
+      "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-indexes:884ef748a80ced0ca9b3",
+      "relationType": "INDEXES",
+      "from": "audit-star:index",
+      "to": "report:70657236cdba30830714",
+      "evidence": [
+        {
+          "source": "REPORT_GIT_TREE_HISTORY",
+          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+        }
+      ],
+      "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-indexes:cbb3baf32ca8e15f4dad",
+      "relationType": "INDEXES",
+      "from": "audit-star:index",
+      "to": "report:7e135ed832f18dd03ce4",
+      "evidence": [
+        {
+          "source": "REPORT_GIT_TREE_HISTORY",
+          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+        }
+      ],
+      "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-indexes:f4a548785c8184a6b711",
+      "relationType": "INDEXES",
+      "from": "audit-star:index",
+      "to": "report:8126a27ea6959c538ea1",
+      "evidence": [
+        {
+          "source": "REPORT_GIT_TREE_HISTORY",
+          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+        }
+      ],
+      "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-indexes:bec4766f7e4dc2614254",
+      "relationType": "INDEXES",
+      "from": "audit-star:index",
+      "to": "report:86e344df13968fb85db3",
+      "evidence": [
+        {
+          "source": "REPORT_GIT_TREE_HISTORY",
+          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+        }
+      ],
+      "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-indexes:5f534167bd9ba8ed5bec",
+      "relationType": "INDEXES",
+      "from": "audit-star:index",
+      "to": "report:8e716cb3da725fb12366",
+      "evidence": [
+        {
+          "source": "REPORT_GIT_TREE_HISTORY",
+          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+        }
+      ],
+      "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-indexes:6d5ee3778a243fb56c7a",
+      "relationType": "INDEXES",
+      "from": "audit-star:index",
+      "to": "report:937af1890123a403ec4e",
+      "evidence": [
+        {
+          "source": "REPORT_GIT_TREE_HISTORY",
+          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+        }
+      ],
+      "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-indexes:dfbb780e034b069acd13",
+      "relationType": "INDEXES",
+      "from": "audit-star:index",
+      "to": "report:985ec278944bc303ca20",
+      "evidence": [
+        {
+          "source": "REPORT_GIT_TREE_HISTORY",
+          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+        }
+      ],
+      "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-indexes:f3c641941fd9fef4be56",
+      "relationType": "INDEXES",
+      "from": "audit-star:index",
+      "to": "report:b0e04892aa97dee66824",
+      "evidence": [
+        {
+          "source": "REPORT_GIT_TREE_HISTORY",
+          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+        }
+      ],
+      "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-indexes:5cbf6de3be2eca4a2ab8",
+      "relationType": "INDEXES",
+      "from": "audit-star:index",
+      "to": "report:b6945f832aba492c7e41",
+      "evidence": [
+        {
+          "source": "REPORT_GIT_TREE_HISTORY",
+          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+        }
+      ],
+      "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-indexes:ea91adff9929d545f776",
+      "relationType": "INDEXES",
+      "from": "audit-star:index",
+      "to": "report:e86e687de83a960ae0b7",
+      "evidence": [
+        {
+          "source": "REPORT_GIT_TREE_HISTORY",
+          "coverageRef": "85d5dae7e928ff642f2fea6407a9191134e02887"
+        }
+      ],
+      "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    }
+  ],
+  "claimCeiling": "BOUND_GIT_PATH_INVENTORY_AND_EXPLICIT_TEXT_REFERENCES_ONLY_NOT_AUTHORSHIP_CAUSALITY_DERIVATION_IDENTITY_REMOTE_PUBLICATION_OR_CLAIM_TRUTH"
+}
