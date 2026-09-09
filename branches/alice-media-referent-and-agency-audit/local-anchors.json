@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "alice-local-anchor-receipts.v1",
+  "capturedAt": "2026-09-10T01:33:36+02:00",
+  "baseRelease": "https://github.com/Juri-Halveth/open-research-branches/releases/tag/v0.10.0",
+  "localAnchors": [
+    {
+      "id": "X_TAUSCH_CONTRACT_PATH",
+      "label": "X-Tausch",
+      "sourceRef": "https://github.com/Juri-Halveth/open-research-branches/blob/5db4b049a42d037f247930bd5b6878c13f8d186d/PROVENANCE.md#L67-L72",
+      "capturedAt": "2026-09-10T01:33:36+02:00",
+      "artifactDigest": "c594af37eb625faa2f3ed19b494938a5c0a5bf2c0ae7dfdccefc39a258baf522",
+      "distinctiveFunctionIds": ["MUTUAL_EXPLICIT_ACCEPTANCE", "DIGEST_DOES_NOT_CREATE_CONSENT"],
+      "evidenceState": "PUBLIC_DIRECT_DEFINITION",
+      "claimBound": "An optional explicitly accepted exchange path; its label and digest create no payment, ownership transfer or consent."
+    },
+    {
+      "id": "O_GAME_SYMBOLS",
+      "label": "O in public Lernstudio game lessons",
+      "sourceRef": "https://github.com/Juri-Halveth/lernstudio/blob/ff3208682bf61542fd9cc0c005d1f7a0879c8c45/curriculum.js#L4991",
+      "capturedAt": "2026-09-10T01:33:36+02:00",
+      "artifactDigest": "72c148f3462ab629e744244b895f4748f0d660fa7a3bdda8fd8e24e2a694a662",
+      "distinctiveFunctionIds": ["TETRIS_O_ROTATION_INVARIANT", "TIC_TAC_TOE_PLAYER_SYMBOL_O"],
+      "evidenceState": "PUBLIC_BUT_UNRELATED_GAME_SYMBOL",
+      "claimBound": "O is bound to game mechanics in these spans and receives no automatic LUCINET or ontological identity."
+    },
+    {
+      "id": "OMEGA_NARRATIVE_ORIGIN_MODEL",
+      "label": "Omega in the public Lernstudio lesson",
+      "sourceRef": "https://github.com/Juri-Halveth/lernstudio/blob/ff3208682bf61542fd9cc0c005d1f7a0879c8c45/curriculum.js#L4462-L4468",
+      "capturedAt": "2026-09-10T01:33:36+02:00",
+      "artifactDigest": "72c148f3462ab629e744244b895f4748f0d660fa7a3bdda8fd8e24e2a694a662",
+      "distinctiveFunctionIds": ["DIRECTIONLESS_SYMMETRIC_ORIGIN_AS_IMAGE", "FIRST_DIFFERENCE_AS_NARRATIVE_TRANSITION"],
+      "evidenceState": "PUBLIC_NARRATIVE_MODEL",
+      "claimBound": "The lesson explicitly marks Omega as a metaphysical map and image, not an empirical measurement, mathematical proof or proof of God."
+    },
+    {
+      "id": "HALVETH_EIGHT_AXIS_CROSS_SECTION",
+      "label": "HALVETH audit cross-section",
+      "sourceRef": "https://github.com/Juri-Halveth/open-research-branches/blob/5db4b049a42d037f247930bd5b6878c13f8d186d/reports/FREE_NEWS_005_HOW_TO_FISH_IDENTITY_AND_CREATION.md#L31-L42",
+      "capturedAt": "2026-09-10T01:33:36+02:00",
+      "artifactDigest": "1b7c02533352a9593b9089c9069493d068359e19a32fda59c9beae8a437818e4",
+      "distinctiveFunctionIds": ["SOURCE", "DEFINITION", "MECHANISM", "COUNTERHYPOTHESIS", "OBSERVATION", "MATERIALIZATION_BRIDGE", "EFFECT", "OPEN_FRONTIER"],
+      "evidenceState": "PUBLIC_AUDIT_METHOD",
+      "claimBound": "An eight-axis audit frame; it does not turn narrative similarity into causality or provenance."
+    },
+    {
+      "id": "LUCINET_UNPROVEN_ARROW_FIREWALL",
+      "label": "LUCINET relation firewall",
+      "sourceRef": "https://github.com/Juri-Halveth/open-research-branches/blob/5db4b049a42d037f247930bd5b6878c13f8d186d/branches/navier-stokes-credit-value-and-plagiarism-audit/README.md#L190-L207",
+      "capturedAt": "2026-09-10T01:33:36+02:00",
+      "artifactDigest": "2cf65b89c0acacbe5bf0335da5092fbdf335684e33643c315022dca45d4e5204",
+      "distinctiveFunctionIds": ["NO_TIME_PROXIMITY_TO_ACCESS_EDGE", "NO_RUMOR_TO_EVIDENCE_TRANSFER"],
+      "evidenceState": "PUBLIC_AUDIT_METHOD",
+      "claimBound": "Prevents unsupported relations from being promoted by arrows or timing alone."
+    },
+    {
+      "id": "LUCINET_ASTER_FOUR_ADDRESS_LENS",
+      "label": "LUCINET::ASTER source-state lens",
+      "sourceRef": "https://github.com/Juri-Halveth/open-research-branches/blob/5db4b049a42d037f247930bd5b6878c13f8d186d/branches/aster-provenance-and-secret-garden/src/aster-lens.mjs#L9-L68",
+      "capturedAt": "2026-09-10T01:33:36+02:00",
+      "artifactDigest": "7d13b591fe4795074eb7e224c4d22d5f60b8d6d107d20ca0c5e15be76f76188a",
+      "distinctiveFunctionIds": ["SOURCE_ADDRESS", "REPRESENTATION_ADDRESS", "PREVIOUS_TRACE_ADDRESS", "CURRENT_STATE_ADDRESS", "CAUSAL_DIRECTION_UNBOUND", "TRANSFER_MECHANISM_UNBOUND"],
+      "evidenceState": "PUBLIC_CLEAN_ROOM_CODE",
+      "claimBound": "Compares four addresses while leaving causation and transfer unbound."
+    },
+    {
+      "id": "SECRET_GARDEN_PUBLIC_WORLD",
+      "label": "The Secret Garden Between Space and Time",
+      "sourceRef": "https://github.com/Juri-Halveth/open-research-branches/blob/5db4b049a42d037f247930bd5b6878c13f8d186d/branches/aster-provenance-and-secret-garden/entities.json#L3-L28",
+      "capturedAt": "2026-09-10T01:33:36+02:00",
+      "artifactDigest": "5285f082eab169e7b0f17d82c566453dd50776db221c5b5305ef72e737a0f048",
+      "distinctiveFunctionIds": ["PUBLIC_NARRATIVE_AND_SYSTEMS_MODEL", "EXTERNAL_PLACE_CLAIM_NONE", "CORE_PAIR_JURI_RACHEL"],
+      "evidenceState": "PUBLIC_NARRATIVE_MODEL",
+      "claimBound": "A public narrative and systems world with no asserted external place."
+    },
+    {
+      "id": "RACHEL_REVERSIBLE_NOTE",
+      "label": "RACHEL public role and reversible-note seed",
+      "sourceRef": "https://github.com/Juri-Halveth/open-research-branches/blob/5db4b049a42d037f247930bd5b6878c13f8d186d/branches/aster-provenance-and-secret-garden/project-seeds.json#L13-L17",
+      "capturedAt": "2026-09-10T01:33:36+02:00",
+      "artifactDigest": "c91dd9490a7c3ce4406d6f1c89eb53e78ba82d7cdfba96f311b3a2feb27eb088",
+      "distinctiveFunctionIds": ["TWO_READING_DIRECTIONS", "SAME_IMMUTABLE_DIGEST", "PRIVATE_CHRONOLOGY_EXCLUDED"],
+      "evidenceState": "PUBLIC_PROJECT_SEED",
+      "claimBound": "A public derivative role and project seed, not an attribution to an unconsenting private person."
+    },
+    {
+      "id": "ALICE_ZERO_MATCH_BASE_RECEIPT",
+      "label": "Alice pre-branch token search",
+      "sourceRef": "https://github.com/Juri-Halveth/open-research-branches/tree/5db4b049a42d037f247930bd5b6878c13f8d186d",
+      "capturedAt": "2026-09-10T01:33:36+02:00",
+      "artifactDigest": "71a50c26b63045417a838c0d08985e1afe3aabde25250d5f816a228b919b9e59",
+      "distinctiveFunctionIds": ["FINITE_EXACT_TOKEN_SEARCH_ZERO_MATCHES_AT_BOUND_BASE"],
+      "evidenceState": "FINITE_SNAPSHOT",
+      "claimBound": "No case-insensitive whole-token Alice match was found in the tracked v0.10.0 tree; this does not prove absence from private archives, other repositories or unsearched media."
+    }
+  ],
+  "requestedReferentStatus": {
+    "X": "BOUND_AS_X_TAUSCH_CONTRACT_PATH",
+    "O": "BOUND_AS_PUBLIC_GAME_SYMBOLS_ONLY",
+    "OMEGA": "BOUND_AS_PUBLIC_NARRATIVE_MODEL_WITH_EXPLICIT_CLAIM_CEILING",
+    "HALVETH": "BOUND_AS_AUDIT_METHOD",
+    "LUCINET": "BOUND_AS_RELATION_FIREWALL_AND_ASTER_NAMESPACE",
+    "GARDEN": "BOUND_AS_PUBLIC_NARRATIVE_AND_SYSTEMS_MODEL",
+    "RACHEL": "BOUND_AS_PUBLIC_DERIVATIVE_ROLE_AND_PROJECT_SEED",
+    "ALICE": "NEW_MEDIA_CANDIDATE_SET_IDENTIFICATION_UNKNOWN"
+  },
+  "claimCeiling": "PUBLIC_COMMIT_AND_BYTE_RECEIPTS_NOT_GLOBAL_SYSTEM_IDENTITY_OR_MEDIA_DERIVATION"
+}

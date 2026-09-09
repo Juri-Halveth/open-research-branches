@@ -1,0 +1,10 @@
+{
+  "name": "alice-media-referent-and-agency-audit",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/media-audit.test.mjs",
+    "audit": "node src/media-audit.mjs"
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "schemaVersion": "alice-media-sources.v1",
+  "asOf": "2026-09-10",
+  "collectionState": "FINITE_PRIMARY_AND_OFFICIAL_SOURCE_SNAPSHOT",
+  "sources": [
+    {
+      "id": "BRITISH-LIBRARY-ALICE-MANUSCRIPT",
+      "publisher": "British Library",
+      "title": "Add MS 46700 — Alice's Adventures Under Ground",
+      "url": "https://searcharchives.bl.uk/catalog/032-002102746",
+      "sourceType": "PRIMARY_ARCHIVE_CATALOG",
+      "evidenceState": "OBSERVED",
+      "claimBound": "Binds the autograph manuscript, its relation to the expanded Wonderland story, and the 1865 publication history."
+    },
+    {
+      "id": "LOC-LEWIS-CARROLL-TIMELINE",
+      "publisher": "Library of Congress",
+      "title": "Lewis Carroll timeline",
+      "url": "https://www.loc.gov/collections/lewis-carroll-scrapbook/articles-and-essays/timeline/",
+      "sourceType": "PUBLIC_INSTITUTION_TIMELINE",
+      "evidenceState": "OBSERVED",
+      "claimBound": "Binds the 1862 oral-story/manuscript origin, 1865 publication, and 1871 Through the Looking-Glass publication."
+    },
+    {
+      "id": "HULU-FURIOUS-2026",
+      "publisher": "Hulu Press",
+      "title": "Furious",
+      "url": "https://press.hulu.com/shows/furious/",
+      "sourceType": "OFFICIAL_SERIES_PRESS_PAGE",
+      "evidenceState": "OBSERVED",
+      "claimBound": "Alice Black is an FBI agent pursuing a female serial killer; both pursue justice and the line between right and wrong begins to blur."
+    },
+    {
+      "id": "DISNEY-FURIOUS-GUIDE-2026",
+      "publisher": "Disney+",
+      "title": "Furious: Hulu's Gripping New Crime Thriller Is Now Streaming",
+      "url": "https://www.disneyplus.com/explore/articles/furious-show",
+      "sourceType": "OFFICIAL_PLATFORM_GUIDE",
+      "evidenceState": "OBSERVED",
+      "claimBound": "Binds Alice Black, Catherine, the July 27, 2026 premiere, eight episodes, and the fictional loose adaptation of Black Widow (1987)."
+    },
+    {
+      "id": "SYFY-BUTCHERS-BLOCK",
+      "publisher": "SYFY",
+      "title": "Channel Zero: Butcher's Block",
+      "url": "https://www.syfy.com/channel-zero-butchers-block",
+      "sourceType": "OFFICIAL_SERIES_PAGE",
+      "evidenceState": "OBSERVED",
+      "claimBound": "Binds Alice Woods, Zoe, the Peach family, an offered life without illness, and an unimaginable cost."
+    },
+    {
+      "id": "SYFY-BUTCHERS-RED-DOOR",
+      "publisher": "SYFY",
+      "title": "The Red Door: Season 3, Episode 5",
+      "url": "https://www.syfy.com/channel-zero-butchers-block/photos/the-red-door-season-3-episode-5",
+      "sourceType": "OFFICIAL_EPISODE_RECAP",
+      "evidenceState": "OBSERVED",
+      "claimBound": "Binds the red door, the attempted cure, Alice's changed hunger, the Peach-family coercion, and Zoe's effort to save her."
+    },
+    {
+      "id": "EA-ALICE-MADNESS-RETURNS",
+      "publisher": "Electronic Arts",
+      "title": "Alice: Madness Returns",
+      "url": "https://www.ea.com/games/alice/alice-madness-returns",
+      "sourceType": "OFFICIAL_GAME_PAGE",
+      "evidenceState": "OBSERVED",
+      "claimBound": "Binds the horror game, Alice's family loss, institutional history, distorted Wonderland, and her search for the truth."
+    },
+    {
+      "id": "DC-BATWOMAN-ALICE",
+      "publisher": "DC",
+      "title": "Batwoman Is a Deliciously Twisted Story of Family Betrayal",
+      "url": "https://www.dc.com/blog/2020/07/30/batwoman-is-a-deliciously-twisted-story-of-family-betrayal",
+      "sourceType": "OFFICIAL_PUBLISHER_FEATURE",
+      "evidenceState": "OBSERVED",
+      "claimBound": "Binds Alice as Beth Kane, her childhood nightmare, family rupture, violent antagonist role, and continuing wish for family connection."
+    },
+    {
+      "id": "DISNEY-OUAT-WONDERLAND",
+      "publisher": "Disney+",
+      "title": "Once Upon a Time in Wonderland",
+      "url": "https://www.disneyplus.com/de-de/browse/entity-817515f5-ed80-4e02-ad2e-8deb7ee519da",
+      "sourceType": "OFFICIAL_PLATFORM_CATALOG",
+      "evidenceState": "OBSERVED",
+      "claimBound": "Binds the series referent; institutional disbelief and proposed memory-erasure treatment remain synopsis-level story claims."
+    },
+    {
+      "id": "SYFY-MAGICIANS",
+      "publisher": "SYFY",
+      "title": "The Magicians",
+      "url": "https://www.syfy.com/the-magicians",
+      "sourceType": "OFFICIAL_SERIES_PAGE",
+      "evidenceState": "OBSERVED",
+      "claimBound": "Binds the series and Alice Quinn referent; episode-specific transformation claims require an episode source."
+    },
+    {
+      "id": "POWER-ALICE-2009",
+      "publisher": "Power Entertainment",
+      "title": "Alice",
+      "url": "https://www.powerentertainment.tv/programmes/alice/",
+      "sourceType": "OFFICIAL_DISTRIBUTOR_PAGE",
+      "evidenceState": "OBSERVED",
+      "claimBound": "Binds the 2009 miniseries, mirror portal, emotion-harvesting Wonderland, missing father, and hope as a counterforce."
+    },
+    {
+      "id": "NETFLIX-ALICE-BORDERLAND",
+      "publisher": "Netflix",
+      "title": "Alice in Borderland",
+      "url": "https://media.netflix.com/en/only-on-netflix/80200575",
+      "sourceType": "OFFICIAL_MEDIA_CENTER",
+      "evidenceState": "OBSERVED",
+      "claimBound": "Binds Arisu and Usagi as distinct characters in a survival-thriller series; Alice is not the name of a female protagonist in this referent."
+    },
+    {
+      "id": "MARVEL-AGATHA-ALONG",
+      "publisher": "Marvel",
+      "title": "Agatha All Along",
+      "url": "https://www.marvel.com/tv-shows/agatha-all-along/1",
+      "sourceType": "OFFICIAL_SERIES_PAGE",
+      "evidenceState": "OBSERVED",
+      "claimBound": "Binds the series and its cast context; a detailed Alice Wu-Gulliver mechanism requires an episode-level source."
+    },
+    {
+      "id": "SONY-RESIDENT-EVIL-RETRIBUTION",
+      "publisher": "Sony Pictures",
+      "title": "Resident Evil: Retribution press release",
+      "url": "https://www.sonypictures.com/corp/press_releases/2012/09_12/091112_residentevil.html",
+      "sourceType": "OFFICIAL_STUDIO_PRESS_RELEASE",
+      "evidenceState": "OBSERVED",
+      "claimBound": "Binds Alice, Umbrella and the film-franchise referent; this is a film line rather than a television series."
+    },
+    {
+      "id": "CANNESERIES-DREAMS-OF-ALICE",
+      "publisher": "CANNESERIES",
+      "title": "Dreams of Alice",
+      "url": "https://canneseries.com/en/series/dreams-of-alice-1",
+      "sourceType": "OFFICIAL_FESTIVAL_CATALOG",
+      "evidenceState": "OBSERVED",
+      "claimBound": "Binds the Russian mystical-series candidate and its teenage Alice referent."
+    },
+    {
+      "id": "APPLE-ALICE-SWEET-ALICE",
+      "publisher": "Apple TV",
+      "title": "Alice, Sweet Alice",
+      "url": "https://tv.apple.com/us/movie/alice-sweet-alice/umc.cmc.2fsv3clz6zw7zzlyitaoarob",
+      "sourceType": "PLATFORM_FILM_CATALOG",
+      "evidenceState": "OBSERVED",
+      "claimBound": "Binds the 1976 horror-film candidate in which suspicion falls on a young Alice; it is not a series."
+    }
+  ],
+  "claimCeiling": "SOURCE_CATALOG_AND_BOUND_SYNOPSIS_FACTS_NOT_COMPLETE_EPISODE_TRACE_OR_EXTERNAL_INFLUENCE"
+}

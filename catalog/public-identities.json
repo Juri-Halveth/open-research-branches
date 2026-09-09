@@ -14,6 +14,7 @@
         "branches/aster-provenance-and-secret-garden/test/aster-lens.test.mjs",
         "branches/historical-cipher-decoding-challenge/challenge.json",
         "branches/historical-cipher-decoding-challenge/README.md",
+        "branches/alice-media-referent-and-agency-audit/README.md",
         "branches/navier-stokes-credit-value-and-plagiarism-audit/README.md",
         "branches/quantum-internet-aster-mirror-audit/README.md",
         "branches/solar-and-thermal-provenance-audit/README.md",
@@ -30,7 +31,8 @@
         "reports/FREE_NEWS_007_RAVE_GROUP_RULE_AND_CANNABIS_SCOPE.md",
         "reports/FREE_NEWS_008_WAX_CRAYON_PEACE_HELMET_AND_IOS_MARKER.md",
         "reports/FREE_NEWS_010_MADE_IN_GERMANY_QUANTUM_INTERNET_ASTER_ASTAR_ASTRA.md",
-        "reports/FREE_NEWS_011_HISTORICAL_CIPHER_111_DECODING_CHALLENGE.md"
+        "reports/FREE_NEWS_011_HISTORICAL_CIPHER_111_DECODING_CHALLENGE.md",
+        "reports/FREE_NEWS_012_ALICE_MEDIA_REFERENT_AND_AGENCY_AUDIT.md"
       ]
     },
     {
@@ -43,6 +45,7 @@
         "branches/binary-inquiry-loop/README.md",
         "branches/historical-cipher-decoding-challenge/challenge.json",
         "branches/historical-cipher-decoding-challenge/README.md",
+        "branches/alice-media-referent-and-agency-audit/README.md",
         "branches/quantum-internet-aster-mirror-audit/README.md",
         "branches/russia-ukraine-information-and-peace-audit/DECISION_SNAPSHOT_AUDIT.md",
         "catalog/public-identities.json",
@@ -52,6 +55,7 @@
         "reports/FREE_NEWS_004_CONSENT_COCKPIT_234_INACTIVE_VENDORS.md",
         "reports/FREE_NEWS_010_MADE_IN_GERMANY_QUANTUM_INTERNET_ASTER_ASTAR_ASTRA.md",
         "reports/FREE_NEWS_011_HISTORICAL_CIPHER_111_DECODING_CHALLENGE.md",
+        "reports/FREE_NEWS_012_ALICE_MEDIA_REFERENT_AND_AGENCY_AUDIT.md",
         "provenance-policy.json",
         "reports/FREE_NEWS_005_HOW_TO_FISH_IDENTITY_AND_CREATION.md"
       ]

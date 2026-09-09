@@ -182,6 +182,16 @@
       "claimCeiling": "SOURCE_BOUND_DECODING_AUDIT_AND_SYNTHETIC_REPRODUCIBILITY_GATE_NOT_MANUSCRIPT_BITWISE_RERUN_AUTHORSHIP_EXTERNAL_FORCE_DIVINE_STATUS_LEGAL_ENTITLEMENT_OR_PAYMENT_PROOF",
       "dataClass": "PUBLIC_SOURCES_AND_MINIMIZED_USER_IMAGE_RECEIPT_ONLY",
       "activeMain": false
+    },
+    {
+      "id": "alice-media-referent-and-agency-audit",
+      "title": "Alice Media Referent and Agency Audit",
+      "kind": "source-bound-media-story-agency-and-provenance-audit",
+      "state": "FINITE_SNAPSHOT",
+      "path": "branches/alice-media-referent-and-agency-audit",
+      "claimCeiling": "CANDIDATE_IDENTIFICATION_AND_SOURCE_BOUND_STORY_MECHANISM_COMPARISON_WITH_EXECUTABLE_REVIEW_GATE_NOT_IDENTITY_DERIVATION_COPYING_INFLUENCE_AUTHORSHIP_OWNERSHIP_ENTITLEMENT_OR_EXTERNAL_CAUSALITY_PROOF",
+      "dataClass": "PUBLIC_SOURCES_AND_MINIMIZED_PUBLIC_REPOSITORY_RECEIPTS_ONLY",
+      "activeMain": false
     }
   ]
 }

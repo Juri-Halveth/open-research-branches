@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.11.0 — 2026-09-10
+
+- added `FREE NEWS 012`, a source-bound Alice media, story and agency audit that retains twelve candidates until an exact title, actor, clip or distinguishing scene marker is supplied
+- identified *Furious* as the strongest current-series and moral-role-blurring candidate and *Channel Zero: Butcher's Block* as the strongest literal horror and changed-Alice candidate without silently choosing either referent
+- separated coercion, forced or supernatural transformation, abduction and abuse, institutional disbelief, dark authorial reframing, moral role blurring, title allusion and unknown mechanism states
+- traced the public Alice source line through the British Library manuscript and Library of Congress chronology while keeping each later adaptation in its own source-bound narrative scope
+- compared the public X, O, Omega, HALVETH, LUCINET, ASTER, Secret Garden and RACHEL anchors by declared audit function only; no name or motif parallel was promoted into identity, copying, influence, ownership, entitlement or outside causality
+- added a fail-closed executable media audit with deterministic SHA-256 receipts, exact marker selection, seventeen tests and a derivation-review gate that never auto-proves copying or ownership
+
 ## 0.10.0 — 2026-09-10
 
 - added `FREE NEWS 010`, an international source-bound audit of demonstrated quantum-internet components, trusted-relay QKD, repeaters, teleportation and the still-unproved integrated global system
