@@ -58,10 +58,20 @@ Reproduktionsschritten oder besseren Quellen sind willkommen.
 
 ## Lizenzen
 
-- Code: [MIT](LICENSE)
+- Code: generally [MIT](LICENSE), with the exact new provenance-tool exceptions listed in [`LICENSES.md`](LICENSES.md)
 - neu verfasste Texte und eigene Abbildungen: [CC BY 4.0](LICENSE-CONTENT.md)
 - selbst erstellte Daten und Metadaten gemäß Pfadkarte: [CC0 1.0](LICENSE-DATA.md)
+- bezeichnete neue Forschungs- und Provenienzdateien: [Juri Public-Interest Research Permission 1.0](LICENSE-JURI-PUBLIC-INTEREST.md)
 
 Die vollständige pfadbezogene Zuordnung steht in [`LICENSES.md`](LICENSES.md).
 
 Diese Zuordnung erteilt keine Rechte an verlinkten oder zitierten Quellen.
+
+## Reproduzierbarer Snapshot
+
+[`CODE ZEITWÄRTSZURÜCK`](PROVENANCE.md) erzeugt für einen Release einen
+maschinenlesbaren Umschlag aus Tag, Commit, Git-Tree, sichtbarer Historie,
+Dateipfaden, Byteanzahlen, SHA-256-Digests und deklarierter Pfadlizenz. Damit
+kann der veröffentlichte Code- und Textstand später bytegenau geprüft werden.
+Der Nachweis ändert keine historischen Lizenzen und beansprucht keine Rechte
+an fremden Quellen, Tatsachen oder allgemeinen Ideen.

@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.6.0 — 2026-09-09
+
+- added `CODE ZEITWÄRTSZURÜCK`, a reproducible Git provenance envelope binding a target tag or ref, its object, commit, tree, visible history, every target-tree file, byte length, SHA-256 digest and declared path license; the release also carries a verified Git bundle and checksum list
+- defined `FLAGGED_MATERIAL` as review marking plus decision relevance within the named audit; it conveys no physical flag, territory, conquest capability, ownership, target, cause or external effect
+- added an append-only FREE NEWS 005 semantics patch that binds the historical `v0.5.1` receipt without rewriting it
+- introduced a file-specific public-interest permission for the new FREE NEWS 005 version and provenance patch: noncommercial public-interest use is permitted, while advertising and commercial exploitation require a separate written permission where legally required
+- preserved the irrevocable historical `v0.5.1` CC BY 4.0 and CC0 1.0 grants instead of pretending to revoke them
+- bound X exchange to identified parties, material or digest, use, rights scope, consideration, time and matching explicit acceptance
+- registered the snapshot-ensemble film idea as a held candidate pending an original treatment, real-person consent and any required franchise authorization
+
 ## 0.5.1 — 2026-09-09
 
 - published `FREE NEWS 005`, a compact HALVETH cross-section of *How to Fish*, Leib/Wohl terminology, identity and open creation provenance

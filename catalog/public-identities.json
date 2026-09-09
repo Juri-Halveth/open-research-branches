@@ -7,12 +7,14 @@
       "authorizedAt": "2026-09-09",
       "files": [
         "CHANGELOG.md",
+        "LICENSE-JURI-PUBLIC-INTEREST.md",
         "branches/aster-provenance-and-secret-garden/README.md",
         "branches/aster-provenance-and-secret-garden/SOURCES.md",
         "branches/aster-provenance-and-secret-garden/provenance.json",
         "branches/aster-provenance-and-secret-garden/test/aster-lens.test.mjs",
         "branches/navier-stokes-credit-value-and-plagiarism-audit/README.md",
-        "catalog/public-identities.json"
+        "catalog/public-identities.json",
+        "provenance-policy.json"
       ]
     },
     {
@@ -21,6 +23,7 @@
       "authorizedAt": "2026-09-09",
       "files": [
         "CHANGELOG.md",
+        "LICENSE-JURI-PUBLIC-INTEREST.md",
         "branches/binary-inquiry-loop/README.md",
         "branches/russia-ukraine-information-and-peace-audit/DECISION_SNAPSHOT_AUDIT.md",
         "catalog/public-identities.json",
@@ -28,6 +31,7 @@
         "reports/FREE_NEWS_002_REACHER_S4E7_DIGITAL_REFOCUS.md",
         "reports/FREE_NEWS_003_CHILD_CONSENT_AND_IRREVERSIBLE_INTERVENTION.md",
         "reports/FREE_NEWS_004_CONSENT_COCKPIT_234_INACTIVE_VENDORS.md",
+        "provenance-policy.json",
         "reports/FREE_NEWS_005_HOW_TO_FISH_IDENTITY_AND_CREATION.md"
       ]
     }

@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "1.0.0",
+  "policyId": "JURI-PROVENANCE-AND-RIGHTS-2026-09-09",
+  "publisher": {
+    "displayName": "Juri Janovski",
+    "publicHandle": "@Juri-Halveth",
+    "assertionState": "PUBLISHER_DECLARATION_BOUND_TO_FILE_VERSION_AND_CONTROLLED_RIGHTS"
+  },
+  "historyPolicy": {
+    "mode": "APPEND_ONLY_TAGGED_SNAPSHOTS",
+    "rewriteHistoricalTags": false,
+    "retroactiveRightsChange": false
+  },
+  "statusDefinitions": {
+    "FLAGGED_MATERIAL": {
+      "definitionId": "HALVETH:STATUS:FLAGGED_MATERIAL:1",
+      "means": [
+        "MARKED_FOR_REVIEW",
+        "DECISION_RELEVANT_WITHIN_NAMED_AUDIT"
+      ],
+      "doesNotMean": [
+        "PHYSICAL_FLAG",
+        "TERRITORY",
+        "CONQUEST_CAPABILITY",
+        "OWNERSHIP",
+        "TARGET",
+        "CAUSE",
+        "EXTERNAL_EFFECT"
+      ],
+      "backwardTrace": [
+        "LABEL_AT_TN",
+        "DEFINITION_ID",
+        "SOURCE_SPAN",
+        "FILE_DIGEST",
+        "COMMIT_AT_T0"
+      ],
+      "retrocausality": false
+    }
+  },
+  "xExchange": {
+    "state": "OPTIONAL_SEPARATE_AGREEMENT",
+    "requires": [
+      "IDENTIFIED_PARTIES",
+      "BOUND_MATERIAL_VERSION_OR_DIGEST",
+      "BOUND_USE",
+      "BOUND_RIGHTS_SCOPE",
+      "BOUND_CONSIDERATION",
+      "MATCHING_EXPLICIT_ACCEPTANCE"
+    ],
+    "automaticPaymentOrTransfer": false
+  },
+  "assistantContribution": {
+    "role": "DRAFTING_AND_TOOLING_ASSISTANCE",
+    "separateLegalCoOwner": false,
+    "separatePaymentRecipient": false,
+    "termsReference": "https://openai.com/policies/terms-of-use/"
+  },
+  "claimCeiling": "PUBLISHER_DECLARATION_AND_REPOSITORY_BOUND_PROVENANCE_POLICY_NOT_EXCLUSIVE_RIGHTS_TO_FACTS_IDEAS_THIRD_PARTY_MATERIAL_OR_PRE_REPOSITORY_CREATION"
+}

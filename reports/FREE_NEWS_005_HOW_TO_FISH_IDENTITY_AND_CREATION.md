@@ -4,6 +4,15 @@
 
 **[@Juri-Halveth](https://github.com/Juri-Halveth) — Initiator des Prüfimpulses und Herausgeber dieser Fassung**
 
+**Nutzungsstand dieser Fassung:**
+[`LicenseRef-Juri-Public-Interest-1.0`](../LICENSE-JURI-PUBLIC-INTEREST.md) ab
+dem ersten öffentlichen Commit mit diesem Hinweis. Der erste Tag dieser
+Fassung ist `v0.6.0`. Nichtkommerzielle Gemeinwohl-Nutzung ist unter den dort genannten
+Bedingungen erlaubt; Werbung und kommerzielle Verwertung benötigen, soweit
+gesetzlich erforderlich, eine vorherige ausdrückliche schriftliche Erlaubnis.
+Identische oder überlappende Bestandteile der historischen Fassung `v0.5.1`
+bleiben aus dieser Fassung unter CC BY 4.0 nutzbar.
+
 ## Was los?.
 
 Die [Steam-Seite zu *How to Fish*](https://store.steampowered.com/app/4001890/How_to_Fish/?l=german)
@@ -36,6 +45,29 @@ Die vollständige Apertur wählt `DEFINITION` als ersten Prüfpunkt. Diese Auswa
 ist eine Suchreihenfolge und kein Wahrheits-, Rechts- oder Skandalwert. Der
 lokal validierte HALVETH-Receipt steht in
 [`FREE_NEWS_005_HALVETH_RECEIPT.json`](FREE_NEWS_005_HALVETH_RECEIPT.json).
+
+## Warum `FLAGGED_MATERIAL` keine eroberungsfähige Flagge ist
+
+Das zusammengesetzte Statuswort wird hier an seine Definition zurückgebunden:
+
+`FLAGGED_MATERIAL = MARKED_FOR_REVIEW + DECISION_RELEVANT_WITHIN_THE_NAMED_AUDIT`
+
+`FLAGGED` bedeutet **zur Prüfung markiert**. `MATERIAL` bedeutet **für die
+benannte Entscheidung erheblich**. Das Label bezeichnet keine physische
+Flagge, kein Gebiet, keine Eroberungsfähigkeit, kein Eigentum, kein Ziel und
+keine Außenwirkung.
+
+Die zeitwärts zurück gerichtete Prüfung ist eine reine Herkunftsabfrage:
+
+`LESUNG_BEI_TN -> DEFINITION_ID -> QUELLSPAN -> DATEI_DIGEST -> COMMIT_BEI_T0`
+
+Sie verändert den früheren Stand nicht:
+
+`LABEL_BEI_TN != URSACHE_ODER_RECHTSÄNDERUNG_BEI_T0`
+
+Der append-only Patch mit der exakten Statusdefinition und dem historischen
+Receipt-Digest steht in
+[`FREE_NEWS_005_RIGHTS_AND_SEMANTICS_PATCH.json`](FREE_NEWS_005_RIGHTS_AND_SEMANTICS_PATCH.json).
 
 ## Wer oder was sind Leib und Wohl?
 
@@ -118,6 +150,21 @@ Eine konkrete Provenienzprüfung würde diese Reihenfolge benötigen:
 Dieser GitHub-Stand dokumentiert Wortlaut und Zeitpunkt **dieses**
 Prüfimpulses. Er behauptet kein Exklusivrecht an einem allgemeinen Thema und
 keine fremde Übernahme.
+
+## Gemeinwohl, Werbung und X-Tausch
+
+Diese Fassung darf unter der dateispezifischen Nutzungserlaubnis für
+nichtkommerzielle Forschung, Bildung, Kritik, Dokumentation und
+gemeinwohlorientierte Arbeit weitergegeben und bearbeitet werden. Der
+Gemeinwohlzweck kann das Wohlergehen von Menschen, Tieren, Insekten und
+Ökosystemen einschließen.
+
+Werbung, Marketing, Sponsoring, Verkaufsförderung und andere kommerzielle
+Verwertung sind von dieser Erlaubnis nicht umfasst. Ein separater X-Tausch
+kann solche Rechte freiwillig binden. Dafür müssen beide Seiten demselben
+Material oder Digest, derselben Nutzung, demselben Gegenwert, Zeitpunkt und
+Rechteumfang ausdrücklich zustimmen. Aufmerksamkeit, Schweigen oder ein
+Download materialisieren keinen Tausch.
 
 ## Welche Rolle passt?
 

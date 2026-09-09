@@ -99,8 +99,11 @@ CONTRIBUTING.md
 LICENSE
 LICENSE-CONTENT.md
 LICENSE-DATA.md
+LICENSE-JURI-PUBLIC-INTEREST.md
 LICENSES.md
 package.json
+provenance-policy.json
+PROVENANCE.md
 PUBLICATION_POLICY.md
 README.md
 reports/FREE_NEWS_001_IOS_MARKER_AND_401_EDGE.md
@@ -109,10 +112,13 @@ reports/FREE_NEWS_003_CHILD_CONSENT_AND_IRREVERSIBLE_INTERVENTION.md
 reports/FREE_NEWS_004_CONSENT_COCKPIT_234_INACTIVE_VENDORS.md
 reports/FREE_NEWS_005_HALVETH_RECEIPT.json
 reports/FREE_NEWS_005_HOW_TO_FISH_IDENTITY_AND_CREATION.md
+reports/FREE_NEWS_005_RIGHTS_AND_SEMANTICS_PATCH.json
 reports/MAC_OUI_REGISTRY_BOUNDARY.md
 reports/MICROSOFT_PKI_REPOSITORY_PATTERN.md
 reports/README.md
+scripts/create-provenance-snapshot.mjs
 scripts/prepublish-check.mjs
+scripts/provenance-snapshot.test.mjs
 scripts/run-tests.mjs
 scripts/validate-catalog.mjs
 scripts/validate-public-manifest.mjs

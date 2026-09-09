@@ -1,0 +1,76 @@
+{
+  "schemaVersion": "1.0.0",
+  "patchId": "FREE-NEWS-005-RIGHTS-AND-SEMANTICS-2026-09-09",
+  "patchMode": "APPEND_ONLY_DO_NOT_REWRITE_HISTORICAL_RECEIPT",
+  "appliesFrom": "FIRST_PUBLIC_COMMIT_CONTAINING_THIS_NOTICE",
+  "firstTaggedRelease": "v0.6.0",
+  "base": {
+    "release": "v0.5.1",
+    "commitId": "5d26c932ccac72b07574cd8d62446ce332db8e13",
+    "treeId": "4178eb9176686458fb32b95344260f66006675ca",
+    "receiptPath": "reports/FREE_NEWS_005_HALVETH_RECEIPT.json",
+    "receiptFileSha256": "8593b676be1a57e540af32d5a75a543498ffb71a2b5bb2d8520f1d569c2413cf",
+    "historicalLicenseState": {
+      "report": "CC-BY-4.0",
+      "receipt": "CC0-1.0",
+      "revoked": false
+    }
+  },
+  "statusPatch": {
+    "status": "FLAGGED_MATERIAL",
+    "definitionId": "HALVETH:STATUS:FLAGGED_MATERIAL:1",
+    "positiveMeaning": [
+      "MARKED_FOR_REVIEW",
+      "DECISION_RELEVANT_WITHIN_NAMED_AUDIT"
+    ],
+    "excludedMeanings": [
+      "PHYSICAL_FLAG",
+      "TERRITORY",
+      "CONQUEST_CAPABILITY",
+      "OWNERSHIP",
+      "TARGET",
+      "CAUSE",
+      "EXTERNAL_EFFECT"
+    ],
+    "timeBackwardTrace": [
+      "LABEL_AT_TN",
+      "DEFINITION_ID",
+      "SOURCE_SPAN",
+      "FILE_DIGEST",
+      "COMMIT_AT_T0"
+    ],
+    "timeBackwardOperator": "READ_ONLY_PROVENANCE_QUERY",
+    "retroactiveCausation": false,
+    "retroactiveRightsChange": false
+  },
+  "rightsPatch": {
+    "licenseId": "LicenseRef-Juri-Public-Interest-1.0",
+    "licensePath": "LICENSE-JURI-PUBLIC-INTEREST.md",
+    "freeNews005Scope": [
+      "reports/FREE_NEWS_005_HOW_TO_FISH_IDENTITY_AND_CREATION.md",
+      "reports/FREE_NEWS_005_RIGHTS_AND_SEMANTICS_PATCH.json"
+    ],
+    "completeRepositoryLicenseMap": "LICENSES.md",
+    "advertisingOrCommercialUse": "REQUIRES_PRIOR_EXPRESS_WRITTEN_PERMISSION_WHERE_PERMISSION_IS_LEGALLY_REQUIRED",
+    "noncommercialPublicInterestUse": "PERMITTED_SUBJECT_TO_LICENSE_TERMS",
+    "thirdPartyMaterialRelicensed": false,
+    "factsOrGeneralIdeasExclusive": false,
+    "historicalOverlapRemainsUsableUnderHistoricalLicense": true
+  },
+  "xExchange": {
+    "state": "NOT_MATERIALIZED_WITHOUT_MATCHING_ACCEPTANCE",
+    "requiredBindings": [
+      "PARTIES",
+      "MATERIAL_VERSION_OR_DIGEST",
+      "USE",
+      "RIGHTS_SCOPE",
+      "CONSIDERATION",
+      "TIME",
+      "MATCHING_ACCEPTANCE"
+    ],
+    "automaticAmount": false,
+    "automaticPayment": false,
+    "automaticOwnershipTransfer": false
+  },
+  "claimCeiling": "APPEND_ONLY_DEFINITION_AND_FORWARD_RIGHTS_NOTICE_NOT_RETROACTIVE_CAUSATION_OWNERSHIP_OR_LICENSE_REVOCATION"
+}

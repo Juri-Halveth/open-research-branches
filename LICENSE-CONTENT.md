@@ -13,3 +13,8 @@ erforderlichen Rechte besitzen. Verlinkte Quellen, Zitate und fremde Werke
 bleiben unter ihren jeweiligen Bedingungen. Das Repository bündelt keine
 fremden Originaldateien.
 
+Dateispezifische Ausnahmen stehen in [`LICENSES.md`](LICENSES.md) vor den
+allgemeinen Regeln. Insbesondere gilt für die dort bezeichneten neuen
+Fassungen von `FREE NEWS 005` die
+[`Juri Public-Interest Research Permission 1.0`](LICENSE-JURI-PUBLIC-INTEREST.md). Historische
+Fassungen behalten ihre bei Veröffentlichung erteilte Lizenz.

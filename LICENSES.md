@@ -5,11 +5,13 @@ relicensed by this repository.
 
 | Paths or file classes | License |
 | --- | --- |
+| `reports/FREE_NEWS_005_HOW_TO_FISH_IDENTITY_AND_CREATION.md` from the first public commit containing this notice (first tagged release: `v0.6.0`) | [Juri Public-Interest Research Permission 1.0](LICENSE-JURI-PUBLIC-INTEREST.md) |
+| `reports/FREE_NEWS_005_RIGHTS_AND_SEMANTICS_PATCH.json`, `PROVENANCE.md`, `provenance-policy.json`, `scripts/create-provenance-snapshot.mjs` and `scripts/provenance-snapshot.test.mjs` from their first public commit | [Juri Public-Interest Research Permission 1.0](LICENSE-JURI-PUBLIC-INTEREST.md) |
 | Source code, tests, HTML and CSS under `branches/` and `scripts/` | [MIT](LICENSE) |
 | Repository configuration in `.gitattributes`, every `.gitignore` file and `.github/**/*.yml` | [MIT](LICENSE) |
 | Newly written Markdown prose, including branch reports and documentation | [CC BY 4.0](LICENSE-CONTENT.md) |
 | Repository-created JSON, CSV, schemas, fixtures, catalog metadata and `CITATION.cff` | [CC0 1.0](LICENSE-DATA.md) |
-| License texts themselves | The license named by each file |
+| License texts themselves | The license or copying permission named by each file |
 
 Names, quotations, linked pages, public identifiers and factual source records
 remain subject to applicable law and the originating source's rights. The
@@ -18,3 +20,15 @@ arrangement, code and prose only.
 
 Local Office, PDF, build and rendering artifacts excluded by `.gitignore` are
 outside this public license map and outside the release.
+
+## Historical boundary
+
+Release `v0.5.1` distributed
+`reports/FREE_NEWS_005_HOW_TO_FISH_IDENTITY_AND_CREATION.md` under CC BY 4.0
+and `reports/FREE_NEWS_005_HALVETH_RECEIPT.json` under CC0 1.0. Those grants
+remain available for that historical version. The file-specific rule above
+governs the new distribution beginning with the first public commit containing
+the notice; `v0.6.0` is its first tagged release. It controls distinguishable
+new contributions and does not rewrite old tags or withdraw earlier
+permissions. Material that overlaps the old release remains reusable from that
+old release under CC BY 4.0 or CC0 1.0.

@@ -18,6 +18,7 @@ They are not counted among the fourteen released branches.
 | completed or submitted security audits | `CASE_BY_CASE_DISCLOSURE_REVIEW` | public disclosure status, vendor coordination, evidence minimisation and explicit release decision |
 | unfinished security findings | `NOT_PUBLIC` | current authorization, safe reproduction boundary and coordinated disclosure path |
 | heat, stress response and computing waste heat | `SOURCE_RECOVERY_NEEDED` | physiological temperature ranges, defined stress markers, energy accounting, computing-workload baseline and a non-medical systems comparison |
+| snapshot-ensemble film with `JURI // RACHEL // K // E // CHR // RRR` | `JURI_CASTING_PROPOSAL_HOLD_RIGHTS` | original three-part story treatment; the named roles are Juri's casting proposal, while actual participation and any use of protected franchise characters or settings remain separately bindable |
 
 ## Reopen trigger
 

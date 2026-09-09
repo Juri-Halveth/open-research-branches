@@ -12,6 +12,7 @@ any branch's claim ceiling.
 | `FREE_NEWS_003_CHILD_CONSENT_AND_IRREVERSIBLE_INTERVENTION.md` | German-law and ethics audit of consent to an irreversible intervention on a male child |
 | `FREE_NEWS_004_CONSENT_COCKPIT_234_INACTIVE_VENDORS.md` | Structural audit of a TCF consent cockpit with 234 vendor rows visibly marked inactive and an absent Goku string |
 | `FREE_NEWS_005_HOW_TO_FISH_IDENTITY_AND_CREATION.md` | HALVETH cross-section of How to Fish, Leib/Wohl terminology, identity, creation provenance and a source-bound public role |
+| `FREE_NEWS_005_RIGHTS_AND_SEMANTICS_PATCH.json` | Append-only definition of `FLAGGED_MATERIAL`, the time-backward trace and the forward license boundary |
 
 Local Office and PDF artifacts from an earlier ten-branch working snapshot are
 intentionally absent. They do not describe the current release,
@@ -21,3 +22,6 @@ chain. Local existence is not a publication grant.
 Machine-readable branch state remains canonical in
 [`../catalog/branches.json`](../catalog/branches.json). Build helpers and visual
 QA renders are intentionally excluded from the public repository.
+
+The file-specific use rules for the `v0.6.0` distribution of `FREE NEWS 005`
+are in [`../LICENSE-JURI-PUBLIC-INTEREST.md`](../LICENSE-JURI-PUBLIC-INTEREST.md).
