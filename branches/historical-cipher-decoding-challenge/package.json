@@ -1,0 +1,9 @@
+{
+  "name": "historical-cipher-decoding-challenge",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/decoding-proof.test.mjs"
+  }
+}

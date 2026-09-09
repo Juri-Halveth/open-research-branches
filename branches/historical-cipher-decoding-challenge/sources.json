@@ -1,0 +1,135 @@
+{
+  "schemaVersion": "1.0.0",
+  "snapshotDate": "2026-09-10",
+  "sources": [
+    {
+      "id": "MSN-ARTICLE-2026",
+      "kind": "JOURNALISTIC_REPUBLICATION",
+      "title": "Geheimschriften nach Jahrhunderten entschlüsselt",
+      "url": "https://www.msn.com/de-de/nachrichten/other/geheimschriften-nach-jahrhunderten-entschl%C3%BCsselt/ar-AA24EkMV",
+      "evidenceState": "OBSERVED",
+      "scope": "User-supplied article URL and article presentation"
+    },
+    {
+      "id": "T-ONLINE-CANONICAL-2026",
+      "kind": "JOURNALISTIC_SECONDARY_SOURCE",
+      "title": "Borg-Chiffre: Wie KI jahrhundertealte Codes aus Archiven entschlüsselt",
+      "url": "https://www.t-online.de/digital/aktuelles/id_101279736/borg-chiffre-wie-ki-jahrhundertealte-codes-aus-archiven-entschluesselt.html",
+      "publishedAt": "2026-06-02",
+      "evidenceState": "OBSERVED",
+      "scope": "Canonical article target and 2026 public framing"
+    },
+    {
+      "id": "VATICAN-BORG-LAT-898",
+      "kind": "PRIMARY_ARCHIVE",
+      "title": "Borg.lat.898",
+      "url": "https://digi.vatlib.it/view/MSS_Borg.lat.898",
+      "manifestUrl": "https://digi.vatlib.it/iiif/MSS_Borg.lat.898/manifest.json",
+      "evidenceState": "OBSERVED",
+      "scope": "Digital images and archive identity of the encrypted manuscript"
+    },
+    {
+      "id": "STOCKHOLM-BORG-PROJECT",
+      "kind": "OFFICIAL_PROJECT_PAGE",
+      "title": "The Borg Cipher",
+      "url": "https://www.su.se/english/research/research-catalogue/research-projects/d/decipherment-of-historical-manuscripts/the-borg-cipher",
+      "evidenceState": "OBSERVED",
+      "scope": "Project roles, artifact, transcription, key and corrected outputs"
+    },
+    {
+      "id": "ALDARRAB-THESIS-2017",
+      "kind": "PRIMARY_TECHNICAL_REPORT",
+      "title": "Decipherment of Historical Manuscripts",
+      "author": "Nada Aldarrab",
+      "publishedAt": "2017-05",
+      "url": "https://nadaaldarrab.github.io/files/ms-thesis-nada.pdf",
+      "evidenceState": "OBSERVED",
+      "scope": "Technical description of transcription, language identification, FST, EM, Viterbi and evaluation"
+    },
+    {
+      "id": "STOCKHOLM-NEWS-2026",
+      "kind": "OFFICIAL_INSTITUTION_NEWS",
+      "title": "Linguistics professor Beáta Megyesi cracks ciphers with AI",
+      "publishedAt": "2026-06-15",
+      "url": "https://www.su.se/enheter/institutionen-for-lingvistik/nyheter/nyhetsartiklar/2026-06-15-lingvistikprofessor-beata-megyesi-knacker-chiffer-med-ai---stort-medialt-genomslag",
+      "evidenceState": "OBSERVED",
+      "scope": "2026 rerun framing and approximate runtime comparison"
+    },
+    {
+      "id": "BORG-TRANSCRIPTION",
+      "kind": "OFFICIAL_PROJECT_DATA",
+      "title": "Borg Cipher full transcription",
+      "url": "https://www.su.se/download/18.6856063019d24ef3ecb1117/1774944956220/transcription-0001r-0204v.txt",
+      "evidenceState": "OBSERVED",
+      "scope": "Published transcription output"
+    },
+    {
+      "id": "BORG-CORRECTED-LATIN",
+      "kind": "OFFICIAL_PROJECT_DATA",
+      "title": "Corrected Latin transcription",
+      "url": "https://www.su.se/download/18.6856063019d24ef3ecb111e/1774945344171/corrected-Latin-translation.txt",
+      "evidenceState": "OBSERVED",
+      "scope": "Expert-corrected Latin output"
+    },
+    {
+      "id": "BORG-ENGLISH-TRANSLATION",
+      "kind": "OFFICIAL_PROJECT_DATA",
+      "title": "English translation",
+      "url": "https://www.su.se/download/18.6856063019d24ef3ecb112e/1774945410173/translation-english-0001r-0204v.txt",
+      "evidenceState": "OBSERVED",
+      "scope": "Published English translation output"
+    },
+    {
+      "id": "BORG-KEY-IMAGE",
+      "kind": "OFFICIAL_PROJECT_DATA",
+      "title": "Borg Cipher key",
+      "url": "https://www.su.se/images/18.6856063019d24ef3ecb1176/1774948306890/key.png",
+      "evidenceState": "OBSERVED",
+      "scope": "Published symbol-to-plaintext key presentation"
+    },
+    {
+      "id": "ACL-2019-KEY-MATCHING",
+      "kind": "PEER_REVIEWED_PRIMARY_PUBLICATION",
+      "title": "Matching Keys and Encrypted Manuscripts",
+      "url": "https://aclanthology.org/W19-6126/",
+      "publishedAt": "2019",
+      "evidenceState": "OBSERVED",
+      "scope": "Historical key matching and plaintext-language identification"
+    },
+    {
+      "id": "ACL-2021-S2S-CIPHERS",
+      "kind": "PEER_REVIEWED_PRIMARY_PUBLICATION",
+      "title": "Can Sequence-to-Sequence Models Crack Substitution Ciphers?",
+      "url": "https://aclanthology.org/2021.acl-long.561/",
+      "publishedAt": "2021",
+      "evidenceState": "OBSERVED",
+      "scope": "Substitution-cipher evaluation including Borg as an established case"
+    },
+    {
+      "id": "ACL-2022-DECODE-CORPUS",
+      "kind": "PEER_REVIEWED_DATASET_PUBLICATION",
+      "title": "A Multilingual Historical Cipher Database",
+      "url": "https://aclanthology.org/2022.lt4hala-1.1/",
+      "publishedAt": "2022",
+      "evidenceState": "OBSERVED",
+      "scope": "Historical cipher corpus and transcription context"
+    },
+    {
+      "id": "ACL-2023-REGRESSION",
+      "kind": "PEER_REVIEWED_PRIMARY_PUBLICATION",
+      "title": "Decipherment as Regression",
+      "url": "https://aclanthology.org/2023.findings-eacl.160/",
+      "publishedAt": "2023",
+      "evidenceState": "OBSERVED",
+      "scope": "Recurrence-based historical substitution-cipher method"
+    },
+    {
+      "id": "BRITISH-MUSEUM-ROSETTA",
+      "kind": "PRIMARY_MUSEUM_CATALOG",
+      "title": "The Rosetta Stone, EA24",
+      "url": "https://www.britishmuseum.org/collection/object/Y_EA24",
+      "evidenceState": "OBSERVED",
+      "scope": "Object identity, date and the same decree in hieroglyphic, demotic and Greek scripts"
+    }
+  ]
+}

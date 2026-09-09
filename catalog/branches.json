@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-09-09",
+  "generatedAt": "2026-09-10",
   "collectionState": "FINITE_SNAPSHOT",
   "branches": [
     {
@@ -161,6 +161,26 @@
       "path": "branches/wax-crayon-peace-helmet-audit",
       "claimCeiling": "SOURCE_BOUND_PEACE_ART_PROPOSAL_AND_IOS_MARKER_UPDATE_NOT_PHYSICAL_VERIFICATION_GLOBAL_NOVELTY_CAUSALITY_OR_PPE",
       "dataClass": "PUBLIC_SOURCES_AND_MINIMIZED_LOCAL_HASH_RECEIPTS_ONLY",
+      "activeMain": false
+    },
+    {
+      "id": "quantum-internet-aster-mirror-audit",
+      "title": "Quantum Internet, ASTER, ASTAR and ASTRA Mirror Audit",
+      "kind": "source-bound-quantum-network-and-provenance-audit",
+      "state": "FINITE_SNAPSHOT",
+      "path": "branches/quantum-internet-aster-mirror-audit",
+      "claimCeiling": "SOURCE_BOUND_QUANTUM_INTERNET_AND_PROVENANCE_AUDIT_WITH_LOCAL_EXECUTABLE_MIRROR_MODEL_NOT_GLOBAL_NETWORK_IDENTITY_ACCESS_DERIVATION_COPYING_CO_DEVELOPMENT_UNIVERSAL_AUTHORSHIP_OWNERSHIP_OR_PAYMENT_PROOF",
+      "dataClass": "PUBLIC_SOURCES_AND_MINIMIZED_LOCAL_HASH_RECEIPTS_ONLY",
+      "activeMain": false
+    },
+    {
+      "id": "historical-cipher-decoding-challenge",
+      "title": "Historical Cipher Decoding Challenge",
+      "kind": "source-bound-historical-cipher-reproducibility-audit",
+      "state": "FINITE_SNAPSHOT",
+      "path": "branches/historical-cipher-decoding-challenge",
+      "claimCeiling": "SOURCE_BOUND_DECODING_AUDIT_AND_SYNTHETIC_REPRODUCIBILITY_GATE_NOT_MANUSCRIPT_BITWISE_RERUN_AUTHORSHIP_EXTERNAL_FORCE_DIVINE_STATUS_LEGAL_ENTITLEMENT_OR_PAYMENT_PROOF",
+      "dataClass": "PUBLIC_SOURCES_AND_MINIMIZED_USER_IMAGE_RECEIPT_ONLY",
       "activeMain": false
     }
   ]

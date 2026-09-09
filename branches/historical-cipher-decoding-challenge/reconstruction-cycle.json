@@ -1,0 +1,363 @@
+{
+  "contract_version": "3.5.0",
+  "work_classes": [
+    "COUNTERPART_RECONSTRUCTION",
+    "TEMPORAL_BRANCHING"
+  ],
+  "network_active": true,
+  "state_changing": false,
+  "critical_factual_proof": false,
+  "authorization_contract": {
+    "target": "Public article, museum, archive, institutional and primary research sources listed in sources.json",
+    "owner": "Respective public publishers and repository owner for the local audit package",
+    "authorization_source": "User request for public research and publication; ordinary public read access; repository-owner authorization",
+    "program_policy": "PUBLIC_WEB_READ_ONLY_AND_LOCAL_REPOSITORY_WORK; NO_EXTERNAL_TEST_PROGRAM",
+    "in_scope_asset": "Public pages and the owned local open-research repository",
+    "test_identity": "Unauthenticated public reader and local repository owner workflow",
+    "prerequisites": "Read-only access without login, protected endpoint, payload or third-party data collection",
+    "stop_condition": "Stop at access control, nonpublic material, account action, external mutation or unbound personal attribution",
+    "data_boundary": "PUBLIC sources and a minimized owned request-image hash receipt only",
+    "evidence_output": "URLs, dates, bounded summaries, local digest and deterministic test output",
+    "valid_at": "2026-09-10T02:00:00+02:00"
+  },
+  "proven": [
+    "The request-supplied image bytes are bound by a minimized SHA-256 receipt and visually correspond to the Rosetta Stone article illustration.",
+    "The article's decoded referent is Borg.lat.898, while the article illustration is the Rosetta Stone.",
+    "The Borg Cipher project existed in 2016 and a technical decipherment report was published in May 2017.",
+    "The local proof contract produced seven passing tests and keeps incomplete inputs open."
+  ],
+  "falsified": [
+    "The Rosetta Stone article image is a page of Borg.lat.898.",
+    "The 2026 report is the first documented decipherment of the Borg Cipher.",
+    "A malformed value such as 111 is sufficient where the proof contract requires an exact SHA-256 digest."
+  ],
+  "deepest_unknown": "Whether a concrete Juri 111, pipe, falling-code or matrix rule can decode held-out historical symbols better than bound alternatives remains unknown.",
+  "why_unknown": "No exact Juri ciphertext selection, segmentation contract, versioned rule, plaintext output, held-out evaluation or independent reproduction receipt was supplied.",
+  "known_techniques_relevant": [
+    "parallel-text comparison",
+    "manual transcription",
+    "substitution-cipher modeling",
+    "expectation-maximization",
+    "finite-state transducers",
+    "Viterbi decoding",
+    "language models",
+    "philological correction",
+    "held-out evaluation"
+  ],
+  "historical_analogues": [
+    "Rosetta Stone parallel-script decipherment",
+    "2016 Borg Cipher project",
+    "2017 Aldarrab technical report",
+    "2019 key-to-manuscript matching",
+    "2026 AI-assisted rerun of an established reference case"
+  ],
+  "available_tools": [
+    "public archive scans",
+    "published transcription and corrected plaintext",
+    "published key image",
+    "SHA-256 receipts",
+    "deterministic Node.js proof gate",
+    "node:test",
+    "LUCINET Core 3.5 validator"
+  ],
+  "missing_measurement_capability": "No exact Juri decoding procedure or independent reproduction run is available; an exact bitwise rerun of the 2016 method also lacks a bound code, corpus, preprocessing, environment and seed snapshot.",
+  "custom_tool_needed": "A future submission adapter can canonicalize a proposed transcription, procedure, output and held-out evaluation into the existing proof contract.",
+  "counterhypothesis": "The perceived 111, pipe and falling-code structure is a visual analogy that does not predict unknown symbols beyond existing substitution-cipher methods.",
+  "next_w_question": "Which exact previously unfit glyphs and plaintext characters does the proposed Juri rule predict before the gold answer is revealed?",
+  "next_recursive_level": "Run one declared rule and at least two alternative baselines against the same held-out symbol set.",
+  "next_safe_experiment": "Submit exact source bytes, segmentation, a versioned procedure, plaintext digest, held-out set, metric, threshold, baselines and an independent receipt to assessDecodingProof().",
+  "stop_condition": "Stop before promoting visual analogy into personal decipherment, external causality, divine fact, authorship, legal entitlement or payment without the corresponding evidence.",
+  "critical_proof_condition": "The candidate must predict held-out material above a declared threshold and alternatives, then reproduce independently from the same bound inputs.",
+  "boundary": "Public-source read-only research, one minimized request-image hash receipt and local deterministic code; no copied article image, protected archive access or external mutation.",
+  "reopen_trigger": "A complete decoding packet, a new primary source defining the proposed structure or an independent reproduction receipt.",
+  "claims": [
+    {
+      "term": "article image and decoded artifact",
+      "object_or_referent": "Rosetta Stone illustration and Borg.lat.898 manuscript",
+      "scope": "the supplied article, image receipt, museum record, archive and institutional project page",
+      "source": "sources.json and challenge.json",
+      "version": "historical-cipher-decoding-challenge 0.1.0",
+      "valid_at": "2026-09-10T02:00:00+02:00",
+      "evidence_state": "STRONGLY_SUPPORTED"
+    },
+    {
+      "term": "Juri 111 historical decipherment",
+      "object_or_referent": "the user-reported 111, pipe, falling-code and matrix visual analogy",
+      "scope": "request materials and reviewed public sources through 2026-09-10",
+      "source": "challenge.json and README.md",
+      "version": "historical-cipher-decoding-challenge 0.1.0",
+      "valid_at": "2026-09-10T02:00:00+02:00",
+      "evidence_state": "NOT_PROVEN"
+    }
+  ],
+  "reconstruction_cycle": {
+    "reconstruction_id": "historical-cipher-decoding-challenge-2026-09-10",
+    "record_kind": "OBSERVED_RUN",
+    "target_referent": "The article image, Borg.lat.898, the published Borg decipherment chain and the separate Juri 111 visual hypothesis",
+    "source_basis": [
+      "sources.json",
+      "challenge.json",
+      "minimized request-image SHA-256 receipt",
+      "seven passing Node.js tests"
+    ],
+    "authority_source": "Explicit user request to investigate, challenge and publish the proposed decipherment",
+    "acquisition_mode": "PUBLIC_SOURCE",
+    "isolation_boundary": "Local audit branch with public read-only web research and no source-system write path",
+    "model_scope": "Artifact identity, historical timeline, decoding inputs, reproducibility and claim boundaries",
+    "declared_exclusions": [
+      "copy of the article image",
+      "private local path",
+      "protected archive material",
+      "automatic divine or external-causality finding",
+      "automatic authorship, legal entitlement or payment finding"
+    ],
+    "layer_inventory": [
+      "article presentation",
+      "article illustration",
+      "historical cipher artifact",
+      "transcription",
+      "decoding model",
+      "plaintext",
+      "held-out evaluation",
+      "independent reproduction",
+      "public claim"
+    ],
+    "interface_inventory": [
+      "image receipt to museum control",
+      "article claim to primary artifact",
+      "ciphertext to transcription",
+      "transcription to model",
+      "model to plaintext",
+      "plaintext to held-out evaluation",
+      "evaluation to public result"
+    ],
+    "countermodels": [
+      {
+        "model_id": "M1-ESTABLISHED-BORG-SUBSTITUTION-DECIPHERMENT",
+        "role": "BEST_CONSISTENT",
+        "source_basis": "archive, project data and 2017 technical report",
+        "controller": "local source-bound model",
+        "provenance_cluster": "public-primary-and-institutional-sources",
+        "model_state": "SOURCE_BOUND_SHADOW",
+        "evidence_state": "STRONGLY_SUPPORTED"
+      },
+      {
+        "model_id": "M2-VISUAL-ANALOGY-WITHOUT-PREDICTIVE-DECODER",
+        "role": "OBSERVATION_BOUND",
+        "source_basis": "request image and absent bound decoding packet",
+        "controller": "local source-bound model",
+        "provenance_cluster": "user-report-and-public-control-sources",
+        "model_state": "BOUNDED_COUNTERPART_MODEL",
+        "evidence_state": "STRONGLY_SUPPORTED"
+      },
+      {
+        "model_id": "M3-JURI-111-PREDICTIVE-DECODER",
+        "role": "COUNTERHYPOTHESIS",
+        "source_basis": "user-reported hypothesis without a complete evaluation packet",
+        "controller": "local hypothesis model",
+        "provenance_cluster": "user-report",
+        "model_state": "BOUNDED_COUNTERPART_MODEL",
+        "evidence_state": "NOT_PROVEN"
+      }
+    ],
+    "fidelity_dimensions": {
+      "structure": {
+        "scope": "article image, Borg manuscript, source registry and proof packet fields",
+        "method": "typed JSON inventory and validation",
+        "coverage_state": "BOUNDED",
+        "evidence_state": "OBSERVED"
+      },
+      "state": {
+        "scope": "OBSERVED, STRONGLY_SUPPORTED, HYPOTHESIS, UNKNOWN and NOT_PROVEN separation",
+        "method": "claim and limit binding",
+        "coverage_state": "BOUNDED",
+        "evidence_state": "OBSERVED"
+      },
+      "behavior": {
+        "scope": "missing-field gate, threshold gate, alternative baseline and independent receipt",
+        "method": "seven passing Node.js tests and direct CLI run",
+        "coverage_state": "BOUNDED",
+        "evidence_state": "OBSERVED"
+      },
+      "security_semantics": {
+        "scope": "local input validation and no external mutation",
+        "method": "strict digest and typed-field rejection",
+        "coverage_state": "BOUNDED",
+        "evidence_state": "OBSERVED"
+      },
+      "version_time": {
+        "scope": "196 BCE Rosetta artifact, 2016 project, 2017 report and 2026 rerun framing",
+        "method": "museum, archive, institutional and primary-report dates",
+        "coverage_state": "PARTIAL",
+        "evidence_state": "STRONGLY_SUPPORTED"
+      }
+    },
+    "equivalence_relation": "Same exact artifact, source bytes, transcription, versioned procedure, evaluation data and metric; visual resemblance is not equivalent.",
+    "oracle": "historical-cipher-decoding-proof-oracle-1.0.0",
+    "forward_model": "A complete bound packet passes typed validation, meets a declared held-out threshold against alternatives and reaches expert review.",
+    "backward_requirements": "Every result lists the exact missing proof fields or the evidence packet that opened review.",
+    "invariants": [
+      "article illustration and decoded manuscript remain distinct",
+      "2016 or 2017 first documentation is not shifted to 2026",
+      "111 and Matrix remain user-reported analogies until predictive evidence exists",
+      "a validator pass does not prove historical truth or outside causality",
+      "no private local path or copied image enters the public package"
+    ],
+    "unknown_frontier": [
+      "exact Juri glyph segmentation",
+      "versioned Juri 111 decoding rule",
+      "held-out prediction score",
+      "independent reproduction",
+      "bitwise rerun of the 2016 implementation"
+    ],
+    "branch_selection_rule": "Prefer the model with the strongest source-bound artifact match and held-out predictive performance; preserve every untested hypothesis for reopening.",
+    "closure_criteria": [
+      "article image and decoded artifact separated",
+      "historical timeline source-bound",
+      "proof contract executable",
+      "seven local tests pass",
+      "Core 3.5 validator passes"
+    ],
+    "application_tests": {
+      "PREDICT": {
+        "state": "OBSERVED",
+        "evidence_refs": [
+          "assessDecodingProof returns a deterministic missing-field list"
+        ]
+      },
+      "VARY_ONE": {
+        "state": "OBSERVED",
+        "evidence_refs": [
+          "removing the independent receipt or lowering the score independently keeps the challenge open"
+        ]
+      },
+      "EXPLAIN": {
+        "state": "OBSERVED",
+        "evidence_refs": [
+          "README.md and FREE NEWS 011"
+        ]
+      },
+      "REPAIR_OR_FALSIFY": {
+        "state": "OBSERVED",
+        "evidence_refs": [
+          "a complete synthetic packet reaches expert review without automatic grand claims"
+        ]
+      },
+      "TRANSFER": {
+        "state": "OBSERVED",
+        "evidence_refs": [
+          "the same proof packet can evaluate another historical cipher artifact"
+        ]
+      }
+    },
+    "model_state": "SOURCE_BOUND_SHADOW",
+    "evidence_state": "STRONGLY_SUPPORTED",
+    "source_system_effects": 0,
+    "return_path_to_source": false,
+    "external_network_during_execution": false,
+    "cross_model_inference_authority": false,
+    "full_clone_claim": false,
+    "model_complete_claim": false,
+    "production_equivalence_claim": false,
+    "validator_proves_target_truth": false
+  },
+  "temporal_branch_cycle": {
+    "branch_id": "feature-historical-cipher-decoding-challenge",
+    "record_kind": "OBSERVED_RUN",
+    "object_or_referent": "Historical cipher decoding challenge source package",
+    "scope": "v0.9.1 accepted base to source-only v0.10.0 candidate",
+    "authority_source": "Explicit user request to research and publish the challenge",
+    "base_state": {
+      "state_id": "open-research-branches-v0.9.1",
+      "content_digest": "sha256:171b65bef5f38c3fb2188743fd89b3ad0d4c94e7aa2581577b388e73e5caef2b",
+      "current_digest": "sha256:171b65bef5f38c3fb2188743fd89b3ad0d4c94e7aa2581577b388e73e5caef2b",
+      "captured_at": "2026-09-10T00:28:50+02:00",
+      "immutable": true,
+      "state": "STABLE",
+      "evidence_state": "OBSERVED"
+    },
+    "becoming": {
+      "witness_id": "historical-cipher-local-build-and-test",
+      "transition_record_id": "v0.9.1-to-cipher-challenge-candidate",
+      "observation_started": true,
+      "state_ids": [
+        "open-research-branches-v0.9.1",
+        "historical-cipher-decoding-challenge-0.1.0-candidate"
+      ],
+      "edge_ids": [
+        "bind-article-and-artifacts",
+        "separate-rosetta-and-borg",
+        "build-proof-oracle",
+        "run-seven-tests"
+      ],
+      "known_coverage_gaps": [
+        "no exact Juri decoder packet",
+        "no independent Juri reproduction receipt",
+        "finite public-source snapshot"
+      ],
+      "claim_relevant_coverage_gaps": [],
+      "provenance_valid": true,
+      "evidence_state": "OBSERVED"
+    },
+    "candidate_state": {
+      "state_id": "historical-cipher-decoding-challenge-0.1.0-candidate",
+      "produced_from_base_state_id": "open-research-branches-v0.9.1",
+      "content_digest": "sha256:118de196c756adefe1f59044d345766d259d344d001ac27b9976f5df47a20f71",
+      "state": "CANDIDATE_PENDING_MERGE",
+      "evidence_state": "OBSERVED"
+    },
+    "acceptance_gate": {
+      "version_bound_oracle": "historical-cipher-decoding-proof-oracle-1.0.0",
+      "same_oracle_used": true,
+      "expected_invariants_hold": true,
+      "forbidden_effects": [],
+      "candidate_tests_pass": true,
+      "human_intent_match": true,
+      "evidence_refs": [
+        "seven passing Node.js tests",
+        "direct CLI open-state output",
+        "sources.json",
+        "challenge.json",
+        "public report and branch documentation"
+      ]
+    },
+    "forward_port": {
+      "mode": "FULL",
+      "selected_units": [
+        {
+          "unit_id": "historical-cipher-decoding-challenge-package",
+          "source_digest": "sha256:118de196c756adefe1f59044d345766d259d344d001ac27b9976f5df47a20f71",
+          "dependencies": [
+            "v0.9.1-base"
+          ],
+          "evidence_refs": [
+            "six branch source files excluding this cycle record",
+            "seven passing Node.js tests",
+            "public archive and primary-source URLs"
+          ]
+        }
+      ],
+      "rejected_units": [
+        "copy of the article image",
+        "private local path",
+        "unproved personal decipherment",
+        "automatic divine, authorship, legal or payment findings"
+      ],
+      "base_satisfied_dependencies": [
+        "v0.9.1-base"
+      ],
+      "dependency_closed": true,
+      "applied_to_fresh_base": true
+    },
+    "decision_state": "ELIGIBLE_FOR_MERGE",
+    "evidence_state": "OBSERVED",
+    "source_effects": 0,
+    "external_effects": 0,
+    "base_mutated": false,
+    "hash_proves_semantic_compatibility": false,
+    "rollback_erases_global_history": false,
+    "all_intermediate_states_observed": false,
+    "candidate_accepted_without_merge": false,
+    "validator_materialized_merge": false
+  }
+}

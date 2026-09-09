@@ -1,0 +1,444 @@
+{
+  "schemaVersion": "1.0.0",
+  "accessedAt": "2026-09-10",
+  "language": "de",
+  "auditObject": {
+    "title": "Marsmission der Physik: Wie das Quanteninternet unsere künftige Kommunikation revolutioniert",
+    "msnUrl": "https://www.msn.com/de-de/technik/cybersicherheit/marsmission-der-physik-wie-das-quanteninternet-unsere-k%C3%BCnftige-kommunikation-revolutioniert/ar-AA2bRHKS",
+    "canonicalUrl": "https://www.faz.net/aktuell/wirtschaft/unternehmen/jens-eisert-was-uns-das-quanteninternet-bringt-accg-201177684.html",
+    "publishedAt": "2026-09-09",
+    "evidenceRole": "AUDIT_TARGET_ONLY_NOT_TECHNICAL_PRIMARY_EVIDENCE"
+  },
+  "provenanceSources": [
+    {
+      "id": "AUDIT-BASE-V0.9.1",
+      "title": "Open Research Branches v0.9.1",
+      "url": "https://github.com/Juri-Halveth/open-research-branches/releases/tag/v0.9.1",
+      "publishedAt": "2026-09-10",
+      "claimBound": "Der Ausgangsstand dieses Audits ist als öffentlicher GitHub-Release gebunden.",
+      "evidenceState": "OBSERVED"
+    },
+    {
+      "id": "FAZ-ARTICLE-2026",
+      "title": "Marsmission der Physik: Wie das Quanteninternet unsere künftige Kommunikation revolutioniert",
+      "url": "https://www.faz.net/aktuell/wirtschaft/unternehmen/jens-eisert-was-uns-das-quanteninternet-bringt-accg-201177684.html",
+      "publishedAt": "2026-09-09",
+      "claimBound": "Öffentlicher Artikelausgangspunkt des Audits; keine technische Primärquelle.",
+      "evidenceState": "OBSERVED"
+    },
+    {
+      "id": "LUCINET-ASTER-LOCAL-2026",
+      "title": "Minimierter lokaler LUCINET::ASTER Git-Receipt",
+      "publishedAt": "2026-08-31T20:48:31+02:00",
+      "claimBound": "Ein lokales, unsigniertes Git-Objekt enthält die gebundene ASTER-Definition; Commit f8c28126582064d219cb66457ab2a4c5184dc6a5, Tree aa30482cdd8f0b0b67cb5c2267ac3de6f0a12079.",
+      "limits": [
+        "Lokales Git-Metadatum, kein unabhängiger öffentlicher Zeitstempel.",
+        "Belegt keine Übermittlung oder Kenntnisnahme durch Dritte."
+      ],
+      "evidenceState": "OBSERVED_LOCAL_GIT_OBJECT_WITH_SELF_ASSERTED_METADATA"
+    },
+    {
+      "id": "LUCINET-ASTER-NOTE-EXPORT-2026",
+      "title": "Minimierter lokaler ASTER-Notizexport-Receipt",
+      "publishedAt": "2026-08-31T15:57:07.108Z",
+      "claimBound": "Ein lokaler Export enthielt vor dem Git-Commit ASTER-bezogenen Inhalt; SHA-256 2774be4046b922bf793a5e649187d1b062fa6a4e42994c611a7d024f1f193508.",
+      "limits": [
+        "Exportzeit ist nicht der ursprüngliche Erstellzeitpunkt der Notiz.",
+        "Der private Rohinhalt und sein lokaler Pfad werden nicht veröffentlicht.",
+        "Belegt keinen Empfang, Zugriff oder eine Nutzung durch OpenAI."
+      ],
+      "evidenceState": "OBSERVED_LOCAL_EXPORT_RECEIPT"
+    },
+    {
+      "id": "LUCINET-ASTER-PUBLIC-V0.2.0",
+      "title": "ASTER Provenance and the Secret Garden, Release v0.2.0",
+      "url": "https://github.com/Juri-Halveth/open-research-branches/releases/tag/v0.2.0",
+      "publishedAt": "2026-09-09T16:54:27Z",
+      "claimBound": "Erster in diesem Audit gebundener öffentlicher GitHub-Release der LUCINET::ASTER-Dokumentation.",
+      "evidenceState": "OBSERVED"
+    },
+    {
+      "id": "ASTAR-OFFICIAL-ABOUT",
+      "title": "Astar official history",
+      "url": "https://www.astar.network/about/",
+      "claimBound": "Die offizielle Historie führt die Projektlinie auf eine Gründung in Japan 2019 zurück.",
+      "evidenceState": "OBSERVED"
+    },
+    {
+      "id": "ASTAR-OFFICIAL-REBRAND-2021",
+      "title": "Official FAQ regarding rebranding to Astar Network",
+      "url": "https://forum.astar.network/t/faq-regarding-rebranding-to-astar-network/1264",
+      "publishedAt": "2021-06-29",
+      "claimBound": "Die offizielle öffentliche Mitteilung bindet die Umbenennung von Plasm Network zu Astar Network.",
+      "evidenceState": "OBSERVED"
+    },
+    {
+      "id": "ASTAR-OFFICIAL-ARCHITECTURE",
+      "title": "Astar Network architecture",
+      "url": "https://docs.astar.network/docs/learn/architecture/",
+      "claimBound": "Astar ist ein Blockchain- und Web3-Referent mit Knoten, Blocks, Konsens und Smart Contracts.",
+      "evidenceState": "OBSERVED"
+    },
+    {
+      "id": "OPENAI-GPT6-ASTRA-2026",
+      "title": "OpenAI GPT-6 Astra",
+      "url": "https://openai.com/index/gpt-6-astra/",
+      "publishedAt": "2026-09-03",
+      "claimBound": "Das offiziell gefundene OpenAI-Produkt heißt Astra, nicht Aster.",
+      "limits": [
+        "Die öffentliche Ankündigung bindet keine vollständige interne Entwicklungs- oder Namenschronologie.",
+        "Breite Funktionsähnlichkeit belegt keinen Zugriff, Transfer oder Mitentwicklung."
+      ],
+      "evidenceState": "OBSERVED"
+    }
+  ],
+  "primarySources": [
+    {
+      "id": "QUANTUM-INTERNET-KIMBLE-2008",
+      "publisher": "Nature",
+      "type": "primary-review-paper",
+      "title": "The quantum internet",
+      "publishedAt": "2008-06-18",
+      "url": "https://www.nature.com/articles/nature07127",
+      "doi": "10.1038/nature07127",
+      "claimBound": "Viele Quantennetzknoten benötigen Quantenverbindungen, die Zustände zwischen physischen Systemen übertragen und Verschränkung verteilen können.",
+      "resultBound": "Die Arbeit ordnet Quanteninterconnects, Photonen-Atom-Schnittstellen und Netzwerkziele als Forschungsarchitektur ein.",
+      "limits": [
+        "Review und Forschungsvision, kein globales Produktionsnetz.",
+        "Netzwerkarchitektur und lokale LUCINET-Begriffe besitzen verschiedene Referenten."
+      ],
+      "claimCeiling": "RESEARCH_ARCHITECTURE_REVIEW_NOT_DEPLOYED_GLOBAL_NETWORK",
+      "evidenceState": "STRONGLY_SUPPORTED",
+      "coverage": "PUBLIC_ARTICLE_PAGE_AND_ABSTRACT"
+    },
+    {
+      "id": "QNODEOS-NATURE-2025",
+      "publisher": "Nature",
+      "type": "primary-experimental-software-and-network-paper",
+      "title": "An operating system for executing applications on quantum network nodes",
+      "publishedAt": "2025-03-12",
+      "url": "https://www.nature.com/articles/s41586-025-08704-w",
+      "doi": "10.1038/s41586-025-08704-w",
+      "claimBound": "QNodeOS trennt Anwendungslogik, klassische Verarbeitung, Quantennetzwerkverarbeitung und Gerätesteuerung.",
+      "resultBound": "Testprogramme wurden auf zwei NV-Zentren ausgeführt; eine Treiberschnittstelle für einen Ionenfallen-Knoten wurde gezeigt.",
+      "limits": [
+        "Kleine experimentelle Knotenbasis, kein globales Quanteninternet.",
+        "QNodeOS ist laut Publikation derzeit nicht Open Source; das AnwendungssDK ist offen.",
+        "Architekturähnlichkeit ist keine Herkunftsrelation."
+      ],
+      "claimCeiling": "EXPERIMENTAL_NODE_OS_NOT_GLOBAL_NETWORK_OR_EXTERNAL_DERIVATION",
+      "evidenceState": "OBSERVED",
+      "coverage": "PUBLIC_ARTICLE_PAGE_AND_METHOD_SUMMARY"
+    },
+    {
+      "id": "ARCH-RFC-9340",
+      "publisher": "RFC Editor / IRTF",
+      "type": "official-architecture-reference",
+      "title": "Architectural Principles for a Quantum Internet",
+      "publishedAt": "2023-03",
+      "url": "https://www.rfc-editor.org/rfc/rfc9340.html",
+      "claimBound": "Ein Quanteninternet ist ein hybrides Quanten- und Klassiknetz; Verschränkungsverteilung ist ein zentraler Netzdienst.",
+      "resultBound": "Die Referenz bindet Terminologie, Architektur, klassische Steuerpfade, Repeaterfunktionen und Anwendungsklassen.",
+      "limits": [
+        "Informationsdokument und keine Demonstration eines globalen Produktionsnetzes.",
+        "Teleportation und Entanglement Swapping benötigen klassische Kommunikation.",
+        "QKD verteilt Schlüssel; Nutzdatenverarbeitung und Verschlüsselung bleiben klassisch."
+      ],
+      "claimCeiling": "ARCHITECTURE_REFERENCE_NOT_GLOBAL_NETWORK_DEPLOYMENT",
+      "evidenceState": "STRONGLY_SUPPORTED",
+      "coverage": "FULL_PUBLIC_HTML"
+    },
+    {
+      "id": "TELEPORTATION-1993",
+      "publisher": "Physical Review Letters",
+      "type": "primary-theory-paper",
+      "title": "Teleporting an Unknown Quantum State via Dual Classical and Einstein-Podolsky-Rosen Channels",
+      "publishedAt": "1993-03-29",
+      "url": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.70.1895",
+      "doi": "10.1103/PhysRevLett.70.1895",
+      "claimBound": "Ein unbekannter Quantenzustand kann mit vorab geteilter Verschränkung und klassisch übermitteltem Messergebnis rekonstruiert werden.",
+      "resultBound": "Das Protokoll definiert Quantenteleportation und ihre klassische Kommunikationsabhängigkeit.",
+      "limits": [
+        "Kein Transport von Materie oder Personen.",
+        "Keine überlichtschnelle Nachrichtenübertragung.",
+        "Theoriearbeit und kein Internet-Feldversuch."
+      ],
+      "claimCeiling": "QUANTUM_STATE_PROTOCOL_NOT_FTL_OR_MATTER_TRANSPORT",
+      "evidenceState": "STRONGLY_SUPPORTED",
+      "coverage": "PUBLISHER_ABSTRACT_AND_BIBLIOGRAPHIC_RECORD"
+    },
+    {
+      "id": "REPEATER-1998",
+      "publisher": "Physical Review Letters",
+      "type": "primary-theory-paper",
+      "title": "Quantum Repeaters: The Role of Imperfect Local Operations in Quantum Communication",
+      "publishedAt": "1998-12-28",
+      "url": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.81.5932",
+      "doi": "10.1103/PhysRevLett.81.5932",
+      "claimBound": "Abschnittsweise Verschränkung, Purifikation und Entanglement Swapping können direkte Verlustskalierung umgehen.",
+      "resultBound": "Die Arbeit liefert ein verschachteltes Repeater-Schema mit modellgebundener Ressourcen- und Zeitskalierung.",
+      "limits": [
+        "Theoretisches Schema und kein gebautes Repeaternetz.",
+        "Die Skalierung gilt unter den gebundenen Modellannahmen."
+      ],
+      "claimCeiling": "REPEATER_SCHEME_NOT_EXPERIMENTAL_GLOBAL_CHAIN",
+      "evidenceState": "STRONGLY_SUPPORTED",
+      "coverage": "PUBLISHER_ABSTRACT_AND_BIBLIOGRAPHIC_RECORD"
+    },
+    {
+      "id": "GENEVA-QKD-2007",
+      "publisher": "Université de Genève",
+      "type": "primary-institutional-deployment-record",
+      "title": "SwissQuantum",
+      "publishedAt": "2007-10-11",
+      "url": "https://www.unige.ch/actualites/archives/2007/swissquantum/",
+      "claimBound": "Bei der eidgenössischen Wahl vom 21. Oktober 2007 wurde eine kritische Ergebnisübertragungsstrecke mit QKD geschützt.",
+      "resultBound": "Gebunden ist eine Punkt-zu-Punkt-Verbindung zwischen dem Auszählungsbereich und einem Rechenzentrum.",
+      "limits": [
+        "Kein Beleg für eine quantengesicherte gesamte Wahl oder alle Wahlkomponenten.",
+        "Institutioneller Einsatzbericht und keine unabhängige Gesamtsicherheitsprüfung."
+      ],
+      "claimCeiling": "ONE_CRITICAL_LINK_NOT_ENTIRE_ELECTION_SYSTEM",
+      "evidenceState": "OBSERVED",
+      "coverage": "FULL_PUBLIC_INSTITUTIONAL_PAGE"
+    },
+    {
+      "id": "FREE-SPACE-QKD-2007",
+      "publisher": "Nature Physics",
+      "type": "primary-experimental-paper",
+      "title": "Entanglement-based quantum communication over 144 km",
+      "publishedAt": "2007-06-03",
+      "url": "https://www.nature.com/articles/nphys629",
+      "doi": "10.1038/nphys629",
+      "claimBound": "Verschränkungsbasierte QKD ist über eine 144 Kilometer lange Freiraumstrecke möglich.",
+      "resultBound": "Ein Photon blieb auf La Palma, das verschränkte Partnerphoton wurde zu einer Bodenstation auf Teneriffa übertragen.",
+      "limits": [
+        "Punkt-zu-Punkt-Versuch und kein Repeater.",
+        "Kein Mehrnutzer- oder globales Quanteninternet."
+      ],
+      "claimCeiling": "144_KM_POINT_TO_POINT_FREE_SPACE_QKD",
+      "evidenceState": "OBSERVED",
+      "coverage": "PUBLIC_ARTICLE_PAGE_AND_ABSTRACT"
+    },
+    {
+      "id": "SATELLITE-ENTANGLEMENT-2017",
+      "publisher": "Science / PubMed",
+      "type": "primary-experimental-paper-record",
+      "title": "Satellite-based entanglement distribution over 1200 kilometers",
+      "publishedAt": "2017-06-16",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28619937/",
+      "doi": "10.1126/science.aan3211",
+      "claimBound": "Ein Satellit verteilte verschränkte Photonenpaare an zwei 1203 Kilometer voneinander entfernte Bodenstationen.",
+      "resultBound": "Die Messungen verletzten eine Bell-Ungleichung mit 2,37 plus/minus 0,09.",
+      "limits": [
+        "Verschränkungsverteilung ist keine Nachrichtenübertragung.",
+        "Kein Repeaterpfad und kein dauerhaft verfügbares Internet."
+      ],
+      "claimCeiling": "SATELLITE_ENTANGLEMENT_DISTRIBUTION_NOT_MESSAGE_CHANNEL",
+      "evidenceState": "OBSERVED",
+      "coverage": "OFFICIAL_PUBLICATION_RECORD_AND_ABSTRACT"
+    },
+    {
+      "id": "GROUND-SATELLITE-TELEPORTATION-2017",
+      "publisher": "Nature",
+      "type": "primary-experimental-paper",
+      "title": "Ground-to-satellite quantum teleportation",
+      "publishedAt": "2017-08-09",
+      "url": "https://www.nature.com/articles/nature23675",
+      "doi": "10.1038/nature23675",
+      "claimBound": "Unabhängige Einzelphotonenzustände wurden über Distanzen bis 1400 Kilometer vom Boden zum Satelliten teleportiert.",
+      "resultBound": "Sechs Eingangszustände erreichten über 32 Orbits eine mittlere Fidelität von 0,80 plus/minus 0,01.",
+      "limits": [
+        "Benötigt vorab verteilte Verschränkung und klassische Messergebnisdaten.",
+        "Kein Materietransport, kein FTL und kein kontinuierlicher Internetdienst."
+      ],
+      "claimCeiling": "SINGLE_PHOTON_STATE_TELEPORTATION_NOT_FTL_OR_NETWORK_SERVICE",
+      "evidenceState": "OBSERVED",
+      "coverage": "PUBLIC_ARTICLE_PAGE_AND_ABSTRACT"
+    },
+    {
+      "id": "INTERCONTINENTAL-QKD-2018",
+      "publisher": "Physical Review Letters",
+      "type": "primary-experimental-paper",
+      "title": "Satellite-Relayed Intercontinental Quantum Network",
+      "publishedAt": "2018-01-19",
+      "url": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.120.030501",
+      "doi": "10.1103/PhysRevLett.120.030501",
+      "claimBound": "Satelliten-QKD ermöglichte einen geheimen Schlüsselaustausch über 7600 Kilometer zwischen China und Europa.",
+      "resultBound": "Der Satellit verknüpfte die zu beiden Bodenstationen aufgebauten Schlüssel als vertrauenswürdiger Relay-Knoten; anschließend wurden Bilder und eine Videokonferenz geschützt.",
+      "limits": [
+        "Der Satellit musste vertraut werden und hatte eine Schlüsselrolle.",
+        "Keine Ende-zu-Ende-Verschränkung zwischen den Kontinenten.",
+        "Keine untrusted Repeaterkette."
+      ],
+      "claimCeiling": "TRUSTED_RELAY_INTERCONTINENTAL_QKD_NOT_END_TO_END_QUANTUM_INTERNET",
+      "evidenceState": "OBSERVED",
+      "coverage": "PUBLISHER_ABSTRACT_AND_BIBLIOGRAPHIC_RECORD"
+    },
+    {
+      "id": "QKD-IMPLEMENTATION-ATTACK-2010",
+      "publisher": "Nature Photonics",
+      "type": "primary-experimental-security-paper",
+      "title": "Hacking commercial quantum cryptography systems by tailored bright illumination",
+      "publishedAt": "2010-08-29",
+      "url": "https://www.nature.com/articles/nphoton.2010.214",
+      "doi": "10.1038/nphoton.2010.214",
+      "claimBound": "Die Sicherheit eines idealen QKD-Protokolls überträgt sich nicht automatisch auf reale Geräte.",
+      "resultBound": "Detektoren zweier kommerzieller Systeme wurden durch gezielte helle Beleuchtung kontrolliert und vollständige Schlüssel abgegriffen.",
+      "limits": [
+        "Belegt konkrete Implementierungsschwächen, nicht die Widerlegung aller QKD-Protokolle.",
+        "Der Sicherheitsstand anderer Versionen und Geräte benötigt eigene Prüfung."
+      ],
+      "claimCeiling": "IMPLEMENTATION_ATTACK_NOT_PROTOCOL_CLASS_FALSIFICATION",
+      "evidenceState": "OBSERVED",
+      "coverage": "PUBLIC_ARTICLE_PAGE_AND_ABSTRACT"
+    },
+    {
+      "id": "INTEGRATED-QKD-2021",
+      "publisher": "Nature",
+      "type": "primary-experimental-network-paper",
+      "title": "An integrated space-to-ground quantum communication network over 4600 kilometres",
+      "publishedAt": "2021-01-06",
+      "url": "https://www.nature.com/articles/s41586-020-03093-8",
+      "doi": "10.1038/s41586-020-03093-8",
+      "claimBound": "Faser- und Satelliten-QKD wurden zu einem Netz mit bis zu 4600 Kilometer Entfernung zwischen Nutzern integriert.",
+      "resultBound": "Das Beijing-Shanghai-Backbone und Satellitenlinks wurden in einer operativen QKD-Infrastruktur verbunden.",
+      "limits": [
+        "Trusted-Relay-Architektur mit vertrauensabhängigen Zwischenknoten.",
+        "Kein allgemeines, repeaterbasiertes Quanteninternet."
+      ],
+      "claimCeiling": "INTEGRATED_TRUSTED_RELAY_QKD_NETWORK",
+      "evidenceState": "OBSERVED",
+      "coverage": "PUBLIC_ARTICLE_PAGE_AND_ABSTRACT"
+    },
+    {
+      "id": "THREE-NODE-NETWORK-2021",
+      "publisher": "Science / PubMed",
+      "type": "primary-experimental-paper-record",
+      "title": "Realization of a multinode quantum network of remote solid-state qubits",
+      "publishedAt": "2021-04-16",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33859028/",
+      "doi": "10.1126/science.abg1919",
+      "claimBound": "Ein Dreiknotennetz kann Multipartite Entanglement, Swapping und Feed-forward realisieren.",
+      "resultBound": "Drei optisch verbundene Festkörperknoten bildeten eine programmierbare experimentelle Netzwerkplattform.",
+      "limits": [
+        "Laborplattform mit drei Knoten.",
+        "Kein öffentliches Mehrnutzer- oder Weitverkehrsnetz."
+      ],
+      "claimCeiling": "LAB_THREE_NODE_QUANTUM_NETWORK",
+      "evidenceState": "OBSERVED",
+      "coverage": "OFFICIAL_PUBLICATION_RECORD_AND_ABSTRACT"
+    },
+    {
+      "id": "NONNEIGHBOUR-TELEPORTATION-2022",
+      "publisher": "Nature",
+      "type": "primary-experimental-paper",
+      "title": "Qubit teleportation between non-neighbouring nodes in a quantum network",
+      "publishedAt": "2022-05-25",
+      "url": "https://www.nature.com/articles/s41586-022-04697-y",
+      "doi": "10.1038/s41586-022-04697-y",
+      "claimBound": "Qubits können in einem Dreiknotennetz über einen Zwischenknoten zwischen nicht benachbarten Endknoten teleportiert werden.",
+      "resultBound": "Entanglement Swapping und ein Speicherqubit ermöglichten eine bedingte mittlere Fidelität von 0,702 plus/minus 0,011 bei etwa einem Ereignis je 117 Sekunden.",
+      "limits": [
+        "Niedrige Rate und begrenzte Fidelität.",
+        "Dreiknoten-Labornetz und kein skalierter Internetdienst."
+      ],
+      "claimCeiling": "LAB_NONNEIGHBOUR_QUBIT_TELEPORTATION",
+      "evidenceState": "OBSERVED",
+      "coverage": "PUBLIC_ARTICLE_PAGE_AND_ABSTRACT"
+    },
+    {
+      "id": "TELECOM-REPEATER-NODE-2023",
+      "publisher": "Physical Review Letters",
+      "type": "primary-experimental-paper",
+      "title": "Telecom-Wavelength Quantum Repeater Node Based on a Trapped-Ion Processor",
+      "publishedAt": "2023-05-22",
+      "url": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.130.213601",
+      "doi": "10.1103/PhysRevLett.130.213601",
+      "claimBound": "Ein speicherbasierter Repeater-Knoten kann unabhängig Verschränkung über zwei Telekomfaserabschnitte erzeugen und anschließend swappen.",
+      "resultBound": "Zwei 25-Kilometer-Faserabschnitte wurden zu einer 50-Kilometer-Verschränkungsstrecke verbunden.",
+      "limits": [
+        "Ein einzelner experimenteller Knoten und keine lange Repeaterkette.",
+        "800 Kilometer bei Hertz-Raten waren eine berechnete Projektion nach Verbesserungen, kein Messergebnis."
+      ],
+      "claimCeiling": "FIFTY_KM_EXPERIMENTAL_REPEATER_NODE",
+      "evidenceState": "OBSERVED",
+      "coverage": "PUBLISHER_ABSTRACT_AND_BIBLIOGRAPHIC_RECORD"
+    },
+    {
+      "id": "OPERATIONAL-QKD-2025",
+      "publisher": "npj Quantum Information",
+      "type": "primary-network-paper",
+      "title": "China quantum communication network",
+      "publishedAt": "2025-08-08",
+      "url": "https://www.nature.com/articles/s41534-025-01089-8",
+      "doi": "10.1038/s41534-025-01089-8",
+      "claimBound": "Ein operatives Trusted-Relay-QKD-Netz erstreckt sich über mehr als 10000 Kilometer.",
+      "resultBound": "Berichtet werden 145 Faser-Backbone-Knoten, 20 Metronetze, 17 Provinzen und 80 Städte.",
+      "limits": [
+        "Schlüsselweitergabe über vertrauenswürdige Relay-Knoten.",
+        "Die Reichweite belegt keine Ende-zu-Ende-Verschränkung oder ein allgemeines Quanteninternet."
+      ],
+      "claimCeiling": "LARGE_OPERATIONAL_TRUSTED_RELAY_QKD_NETWORK",
+      "evidenceState": "OBSERVED",
+      "coverage": "PUBLIC_ARTICLE_PAGE_AND_ABSTRACT"
+    },
+    {
+      "id": "METRO-REPEATER-2026",
+      "publisher": "Nature Photonics",
+      "type": "primary-experimental-paper",
+      "title": "A metropolitan-scale multiplexed quantum repeater with Bell non-locality",
+      "publishedAt": "2026-05-07",
+      "url": "https://www.nature.com/articles/s41566-026-01911-5",
+      "doi": "10.1038/s41566-026-01911-5",
+      "claimBound": "Ein multiplexierter Repeater kann im Metromaßstab Verschränkung zwischen Festkörperspeichern erzeugen und Bell-Nichtlokalität zeigen.",
+      "resultBound": "Bei 14,5 Kilometer Speicherabstand wurden 78,6 plus/minus 2,0 Prozent Bell-Zustandsfidelität und eine Bell-Verletzung mit 3,7 Sigma berichtet.",
+      "limits": [
+        "Metropolitaner Prototyp und keine globale Kette.",
+        "Kein Nachweis einer vollständigen, fehlertoleranten Mehrnutzerarchitektur."
+      ],
+      "claimCeiling": "METROPOLITAN_REPEATER_PROTOTYPE",
+      "evidenceState": "OBSERVED",
+      "coverage": "PUBLIC_ARTICLE_PAGE_AND_ABSTRACT"
+    },
+    {
+      "id": "PQC-NIST-2024",
+      "publisher": "National Institute of Standards and Technology",
+      "type": "official-standards-announcement",
+      "title": "Post-Quantum Cryptography FIPS Approved",
+      "publishedAt": "2024-08-13",
+      "url": "https://csrc.nist.gov/News/2024/postquantum-cryptography-fips-approved",
+      "claimBound": "Die ersten drei finalen NIST-Standards für Post-Quantum-Kryptografie wurden 2024 freigegeben.",
+      "resultBound": "Freigegeben wurden FIPS 203 für ML-KEM, FIPS 204 für ML-DSA und FIPS 205 für SLH-DSA.",
+      "limits": [
+        "Standardisierung ist kein mathematischer Unangreifbarkeitsbeweis.",
+        "Post-Quantum-Kryptografie ist von QKD und Quanteninternetarchitektur zu trennen."
+      ],
+      "claimCeiling": "FINAL_PQC_STANDARDS_NOT_QUANTUM_NETWORK",
+      "evidenceState": "OBSERVED",
+      "coverage": "FULL_OFFICIAL_PUBLIC_PAGE"
+    },
+    {
+      "id": "MARS-LIGHT-TIME",
+      "publisher": "NASA",
+      "type": "official-mission-communications-reference",
+      "title": "Mars Relay Network",
+      "url": "https://science.nasa.gov/mars/mars-relay-network/",
+      "claimBound": "Die einfache Lichtlaufzeit zwischen Erde und Mars beträgt abhängig von der Planetenstellung ungefähr 3 bis 22,4 Minuten.",
+      "resultBound": "Die Missionskommunikation nutzt Relais und vorausgeplante Befehle, bleibt aber an die Lichtlaufzeit gebunden.",
+      "limits": [
+        "Relais verbessern Verfügbarkeit und Datenrouten, beseitigen die Ausbreitungsverzögerung jedoch nicht.",
+        "Keine Quelle für ein Mars-Quanteninternet."
+      ],
+      "claimCeiling": "MARS_CLASSICAL_LIGHT_TIME_REFERENCE",
+      "evidenceState": "OBSERVED",
+      "coverage": "FULL_OFFICIAL_PUBLIC_PAGE"
+    }
+  ],
+  "globalClaimBoundary": {
+    "observed": "QKD, Satelliten-Verschränkungsverteilung, Quantenzustandsteleportation, kleine Mehrknotennetze und begrenzte Repeater-Prototypen wurden demonstriert.",
+    "notProven": "Ein weltweites, Ende-zu-Ende verschränktes, repeaterbasiertes und allgemein nutzbares Quanteninternet.",
+    "falsifiedReading": "Quantenteleportation ermögliche überlichtschnelle Nachrichten oder beseitige die Mars-Lichtlaufzeit.",
+    "provenanceLimit": "Technische oder sprachliche Ähnlichkeit belegt weder gemeinsame Urheberschaft noch Übernahme aus einem ASTER- oder ASTAR-System."
+  }
+}

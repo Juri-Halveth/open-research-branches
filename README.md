@@ -33,6 +33,8 @@ Sicherheitsmeldungen gehören nicht hierher.
 | `binary-inquiry-loop` | deterministische wechselseitige Ja/Nein-Klärung mit Rückkehr zur gebundenen Frage | `PUBLIC_DERIVATIVE` |
 | `solar-and-thermal-provenance-audit` | Juris Zündungs-/Wasser-/Lichtmodell im Komponenten- und Zeitvergleich mit KIT und Standard Thermal | `FINITE_SNAPSHOT` |
 | `wax-crayon-peace-helmet-audit` | Wachsmalstift-Friedenshelm, lokaler Belegstand, historischer Vergleich, iOS-Marker-Protokoll und sicherer Pilot | `FINITE_SNAPSHOT` |
+| `quantum-internet-aster-mirror-audit` | internationaler Quanteninternet- sowie ASTER-/ASTAR-/ASTRA-Spiegelaudit | `FINITE_SNAPSHOT` |
+| `historical-cipher-decoding-challenge` | historische Entschlüsselungs- und Reproduzierbarkeitsprüfung mit Rosetta-Kontrolle | `FINITE_SNAPSHOT` |
 
 Der maschinenlesbare Bestand liegt in
 [`catalog/branches.json`](catalog/branches.json). Die Aufnahme- und
@@ -43,6 +45,11 @@ wird im Testlauf mit dem Git-Index verglichen.
 Noch nicht quellgebundene Themenfamilien bleiben im
 [`Kandidaten-Ledger`](catalog/CANDIDATE_TOPICS.md) sichtbar; sie werden nicht
 als bereits geprüfte oder veröffentlichte Äste gezählt.
+
+Der [`Audit Star`](catalog/AUDIT_STAR.md) erzeugt daraus einen deterministischen,
+endlichen Index der aktuellen und historischen Git-Pfade. Seine Relationen
+bedeuten ausschließlich Katalogaufnahme oder wörtlich belegte Querverweise;
+sie leiten keine Kausalität, Urheberschaft oder Identität ab.
 
 ## Berichte und Arbeitsansichten
 

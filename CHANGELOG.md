@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.10.0 — 2026-09-10
+
+- added `FREE NEWS 010`, an international source-bound audit of demonstrated quantum-internet components, trusted-relay QKD, repeaters, teleportation and the still-unproved integrated global system
+- separated `LUCINET::ASTER`, Astar Network, GPT-6 Astra and the quantum-internet research line by referent, function and chronology without promoting name proximity into identity, access, derivation, copying or co-development
+- added `FREE NEWS 011`, a historical-cipher `111` decoding challenge that binds every reading to exact inputs, transformation contracts and reproducible evaluation
+- added the Rosetta Stone as a source-bound reference case that separates the article illustration from `Borg.lat.898` and binds the challenge to explicit reproducibility requirements
+- added the Audit Star, a deterministic finite index of current and historical Git paths plus literal cross-references; it derives no causality, authorship, identity or artifact truth
+- wired the Audit Star regression suite into the root test command and kept untracked worktree paths, unreachable objects, remote publication state and inferred relations outside its declared coverage
+
 ## 0.9.1 — 2026-09-10
 
 - added `FREE NEWS 009`, a privacy-safe guide to what GitHub contribution squares count and why blank, light and darker squares represent activity ranges rather than quality or ownership

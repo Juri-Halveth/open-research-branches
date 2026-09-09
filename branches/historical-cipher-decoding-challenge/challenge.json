@@ -1,0 +1,102 @@
+{
+  "schemaVersion": "1.0.0",
+  "challengeId": "JURI-111-HISTORICAL-CIPHER-CHALLENGE-2026-09-10",
+  "title": "Juri 111 Historical Cipher Decoding Challenge",
+  "initiator": "Juri Janovski",
+  "publicHandle": "@Juri-Halveth",
+  "state": "OPEN_DECODING_HYPOTHESIS",
+  "article": {
+    "suppliedSourceId": "MSN-ARTICLE-2026",
+    "canonicalSourceId": "T-ONLINE-CANONICAL-2026",
+    "actualDecodedArtifactId": "BORG-LAT-898",
+    "articleImageArtifactId": "ROSETTA-STONE-ILLUSTRATION",
+    "separationRule": "ARTICLE_IMAGE_IS_NOT_ARTICLE_DECODED_MANUSCRIPT"
+  },
+  "artifacts": [
+    {
+      "id": "BORG-LAT-898",
+      "kind": "HISTORICAL_ENCRYPTED_MANUSCRIPT",
+      "sourceIds": [
+        "VATICAN-BORG-LAT-898",
+        "STOCKHOLM-BORG-PROJECT",
+        "ALDARRAB-THESIS-2017"
+      ],
+      "evidenceState": "OBSERVED"
+    },
+    {
+      "id": "ROSETTA-STONE-ILLUSTRATION",
+      "kind": "ARTICLE_HEADER_ILLUSTRATION_AND_KNOWN_PARALLEL_TEXT_CONTROL",
+      "sourceIds": [
+        "BRITISH-MUSEUM-ROSETTA"
+      ],
+      "evidenceState": "STRONGLY_SUPPORTED",
+      "roleLimit": "The image illustrates decipherment; it is not a page of Borg.lat.898."
+    }
+  ],
+  "suppliedImageReceipt": {
+    "byteLength": 65536,
+    "sha256": "b969dd2cff53274a5f50c2895f02803df3c8c5fb53cb134fedf2e2cc9fcf123d",
+    "width": 768,
+    "height": 432,
+    "format": "JPEG",
+    "dataClass": "MINIMIZED_HASH_RECEIPT_ONLY",
+    "evidenceState": "OBSERVED",
+    "claimCeiling": "BINDS_REQUEST_BYTES_ONLY_NOT_UPSTREAM_IMAGE_PROVENANCE_COPYRIGHT_OR_ARTICLE_ORIGIN"
+  },
+  "knownBorgDecipherment": {
+    "firstPublicProjectPeriod": "2016",
+    "technicalReport": "2017-05",
+    "2026Role": "FASTER_RERUN_OF_ALREADY_DECIPHERED_REFERENCE_CASE",
+    "method": [
+      "manual transcription of initial pages",
+      "language identification against sixteen European languages using EM",
+      "Latin five-gram language model",
+      "substitution channel represented as a finite-state transducer",
+      "EM training and Viterbi decoding",
+      "philological correction and translation"
+    ],
+    "evidenceState": "OBSERVED",
+    "exactBitwiseRerunState": "NOT_PROVEN",
+    "missingForBitwiseRerun": [
+      "exact 2016 implementation snapshot",
+      "exact corpus snapshot",
+      "complete preprocessing contract",
+      "environment and dependency lock",
+      "seed policy"
+    ]
+  },
+  "userOriginHypothesis": {
+    "state": "USER_REPORTED_VISUAL_ANALOGY",
+    "expressions": [
+      "111",
+      "pipe or tube-like signs",
+      "code falling downward",
+      "text mixed with numbers and code",
+      "Matrix",
+      "GODLY_ARTIFACT"
+    ],
+    "interpretationState": "HYPOTHESIS",
+    "sourceIds": [
+      "MSN-ARTICLE-2026",
+      "REQUEST-SUPPLIED-IMAGE-RECEIPT"
+    ],
+    "currentFinding": "No reviewed source defines 111, a pipe/fall operator, executable program code or a historical matrix as the Borg cipher key.",
+    "evidenceState": "NOT_PROVEN_REOPENABLE"
+  },
+  "proofContract": {
+    "requiredFields": [
+      "ciphertext artifact ID, exact byte digest and source reference",
+      "transcription digest and segmentation contract",
+      "cipher family and procedure or implementation version",
+      "plaintext digest and declared language",
+      "held-out data or independent gold reference",
+      "metric, threshold and score",
+      "alternative baselines",
+      "independent reproduction receipt"
+    ],
+    "currentResult": "OPEN_DECODING_HYPOTHESIS",
+    "successGate": "A declared rule must predict held-out symbols or plaintext better than bound alternatives and be independently reproducible.",
+    "maximumAutomatedOutcome": "REPRODUCIBLE_CANDIDATE_REQUIRES_EXPERT_REVIEW"
+  },
+  "claimCeiling": "SOURCE_BOUND_ARTIFACT_IDENTIFICATION_AND_REPRODUCIBILITY_CHALLENGE_NOT_PERSONAL_DECIPHERMENT_DIVINE_OR_EXTERNAL_CAUSALITY_AUTHORSHIP_LEGAL_ENTITLEMENT_OR_PAYMENT_PROOF"
+}

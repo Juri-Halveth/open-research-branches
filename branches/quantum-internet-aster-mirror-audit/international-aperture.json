@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-09-10",
+  "headline": "MADE IN GERMANY 2026; MADE WITH INTERNATIONAL TIME AND OPEN QUESTIONS",
+  "headlineScope": "THE_PUBLIC_AUDIT_AND_LOCAL_MIRROR_MODEL_ONLY",
+  "entries": [
+    {
+      "name": "Germany",
+      "scope": "This audit, its executable mirror lens and its 2026 publication",
+      "sourceIds": ["AUDIT-BASE-V0.9.1", "FAZ-ARTICLE-2026"]
+    },
+    {
+      "name": "China",
+      "scope": "Micius satellite entanglement distribution and later trusted-relay QKD demonstrations",
+      "sourceIds": ["SATELLITE-ENTANGLEMENT-2017", "INTERCONTINENTAL-QKD-2018", "INTEGRATED-QKD-2021"]
+    },
+    {
+      "name": "Austria",
+      "scope": "Ground segment in the 2017 China-Austria trusted-relay QKD demonstration",
+      "sourceIds": ["INTERCONTINENTAL-QKD-2018"]
+    },
+    {
+      "name": "United States, Canada and Israel",
+      "scope": "Institutional affiliations in the 1993 quantum-teleportation protocol paper",
+      "sourceIds": ["TELEPORTATION-1993"]
+    },
+    {
+      "name": "European research cooperation",
+      "scope": "Multinode quantum-network research, architecture and operating-system work",
+      "sourceIds": ["QNODEOS-NATURE-2025", "ARCH-RFC-9340"]
+    },
+    {
+      "name": "Russia and the Soviet Union",
+      "scope": "User-named historical and research aperture; no specific quantum-internet milestone bound in this finite audit",
+      "sourceIds": []
+    },
+    {
+      "name": "Ukraine",
+      "scope": "User-named research aperture; no specific quantum-internet milestone bound in this finite audit",
+      "sourceIds": []
+    },
+    {
+      "name": "Palestine",
+      "scope": "User-named research aperture; no specific quantum-internet milestone bound in this finite audit",
+      "sourceIds": []
+    },
+    {
+      "name": "XYAZ",
+      "scope": "User-named undefined reference retained without silent expansion",
+      "sourceIds": []
+    },
+    {
+      "name": "WE ARE ALL",
+      "scope": "Open cooperation invitation and dedication; not universal consent or universal authorship",
+      "sourceIds": []
+    }
+  ],
+  "semantics": "COUNTRY_PERSON_ERA_OR_SLOGAN_MENTION_DOES_NOT_CREATE_UNIVERSAL_AUTHORSHIP_CONSENT_OWNERSHIP_OR_TECHNOLOGY_ORIGIN",
+  "reopenTrigger": "Add an entry only when a primary source binds a named contributor, institution, date and specific technical milestone to this research scope."
+}

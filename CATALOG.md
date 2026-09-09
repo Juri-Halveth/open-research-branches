@@ -1,6 +1,6 @@
 # Branch Catalog
 
-Stand: 2026-09-09  
+Stand: 2026-09-10
 Collection state: `FINITE_SNAPSHOT`
 
 ## Reproduzierbare Ableger
@@ -27,6 +27,17 @@ Collection state: `FINITE_SNAPSHOT`
 | `navier-stokes-credit-value-and-plagiarism-audit` | Was ist am OpenAI-Navier–Stokes-Konflikt Beweis, Priorität, Datenfrage, Plagiatsbezeichnung, Preisgeld und offener Wert | `FINITE_SNAPSHOT` | unabhängige Beweisprüfung, Prompt- oder Zugriffsprovenienz, Strukturvergleich oder Clay-Entscheidung |
 | `solar-and-thermal-provenance-audit` | Was hat Juri im August zu Zündung, Wasser, Licht und Energie dokumentiert, und wie unterscheidet es sich von KIT und Standard Thermal | `FINITE_SNAPSHOT` | früheres unterscheidendes Artefakt, belastbarer Zugangsbeleg, Claim-Chart oder neue Originalmetadaten |
 | `wax-crayon-peace-helmet-audit` | Wie wird Juris berichteter Wachsmalstift-Helm als quellengebundene Friedenskunst, sicherer Prototyp und offener iOS-Marker technisch fortsetzbar | `FINITE_SNAPSHOT` | Foto- oder Objekt-Receipt, konkretes iOS-Element, Materialtest oder gebundene Partneranfrage |
+| `quantum-internet-aster-mirror-audit` | Welche Quanteninternet-Bauteile sind demonstriert, und was tragen Funktion und Zeitlinie für den getrennten ASTER-/ASTAR-/ASTRA-Vergleich | `FINITE_SNAPSHOT` | neuer Primärbeleg für eine längere Repeaterkette, eine Anwendung oder eine konkrete, quellengebundene Provenienzbrücke |
+| `historical-cipher-decoding-challenge` | Welche vollständige, versionsgebundene Beweiskette macht eine behauptete historische Entschlüsselung unabhängig wiederholbar? | `FINITE_SNAPSHOT` | Exakte Ciphertextbytes, Transkriptions- und Segmentierungsvertrag, Schlüssel- oder Modellversion, Code-, Korpus- und Umgebungs-Snapshot, Seeds sowie unabhängige Gold- oder Held-out-Auswertung werden gemeinsam veröffentlicht. |
+
+## Audit Star
+
+[`catalog/audit-star.json`](catalog/audit-star.json) ist ein deterministischer,
+endlicher Index der aktuellen und historischen Git-Pfade des gebundenen
+Commits. Er enthält nur Katalogaufnahme-Relationen und wörtlich belegte
+Querverweise. Kausalität, Urheberschaft, Ableitung und Identität werden daraus
+nicht hergeleitet. Coverage und Reproduktion sind in
+[`catalog/AUDIT_STAR.md`](catalog/AUDIT_STAR.md) beschrieben.
 
 Bereits öffentliche Hauptprojekte werden nur verlinkt:
 

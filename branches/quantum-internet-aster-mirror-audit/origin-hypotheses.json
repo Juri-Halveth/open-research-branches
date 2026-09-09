@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-09-10",
+  "hypotheses": [
+    {
+      "id": "RELATIONAL_INSPIRATION_SET",
+      "expression": "Past relationships and a former social-media acquaintance may have influenced questions that Juri understood only later.",
+      "state": "USER_REPORTED_HYPOTHESIS",
+      "publicPersonalNamesIncluded": false,
+      "consentForNamedPublicAttribution": "UNKNOWN",
+      "externalParticipationEvidence": "UNKNOWN",
+      "authorshipEffect": "NONE_WITHOUT_BOUND_CONTRIBUTION_AND_CONSENT",
+      "reopenTrigger": "A consenting person identifies a specific contribution and the exact artifact, time, scope and attribution wording are jointly bound."
+    },
+    {
+      "id": "UNKNOWN_FORCE_PRIMARY_ANCHOR",
+      "expression": "A past interpersonal encounter could be the primary anchor of an unknown influence.",
+      "state": "HYPOTHESIS",
+      "definedCarrier": "UNKNOWN",
+      "distinguishingPrediction": "UNKNOWN",
+      "externalEffectEvidence": "UNKNOWN",
+      "reopenTrigger": "Define the carrier, direction, time window, alternative explanations, a differentiating prediction and a safe reproducible observation."
+    }
+  ],
+  "claimCeiling": "PRIVACY_MINIMIZED_USER_REPORTED_ORIGIN_HYPOTHESES_NOT_PARTICIPATION_AUTHORSHIP_CAUSALITY_OR_EXTERNAL_FORCE_PROOF"
+}

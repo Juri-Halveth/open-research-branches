@@ -1,0 +1,343 @@
+{
+  "contract_version": "3.5.0",
+  "work_classes": [
+    "COUNTERPART_RECONSTRUCTION",
+    "TEMPORAL_BRANCHING"
+  ],
+  "network_active": true,
+  "state_changing": false,
+  "critical_factual_proof": false,
+  "authorization_contract": {
+    "target": "Publicly accessible article, primary-source and official documentation pages listed in sources.json",
+    "owner": "Respective public publishers and repository owner for local source material",
+    "authorization_source": "User request for deep public research; ordinary public read access; repository-owner authorization for local audit files",
+    "program_policy": "PUBLIC_WEB_READ_ONLY_AND_LOCAL_REPOSITORY_WORK; NO_EXTERNAL_TEST_PROGRAM",
+    "in_scope_asset": "Public HTML and bibliographic records plus the owned local open-research repository",
+    "test_identity": "Unauthenticated public reader and local repository owner workflow",
+    "prerequisites": "Read-only access, no account login, no protected endpoint, no payload and no third-party data collection",
+    "stop_condition": "Stop at access control, nonpublic content, personal data, active testing, account action, external mutation or unbound attribution",
+    "data_boundary": "PUBLIC sources and minimized owned local hash receipts only",
+    "evidence_output": "URLs, dates, publication metadata, bounded summaries, local digests and deterministic test output",
+    "valid_at": "2026-09-10T01:00:00+02:00"
+  },
+  "proven": [
+    "The public sources bind quantum-teleportation, repeater, QKD, satellite, multinode and node-operating-system results within their declared experimental scopes.",
+    "LUCINET::ASTER, Astar Network, OpenAI GPT-6 Astra and the quantum-internet research stack are separate source-bound referents.",
+    "The local mirror audit produced all three unordered default pairs and seven local tests passed."
+  ],
+  "falsified": [
+    "Quantum teleportation removes the need for classical communication or permits faster-than-light messaging.",
+    "A large trusted-relay QKD network is automatically an end-to-end entanglement-repeater internet.",
+    "The strings ASTER, ASTAR and ASTRA identify the same system merely because they are visually similar."
+  ],
+  "deepest_unknown": "Any concrete access, transfer, selection or derivation path from a Juri ASTER artifact to OpenAI GPT-6 Astra, Astar Network or an external quantum-internet artifact remains unknown.",
+  "why_unknown": "No server-side receipt, internal development record, distinctive copied mechanism, accepted contribution or source-to-target processing trace was observed.",
+  "known_techniques_relevant": [
+    "quantum-state teleportation with a classical side channel",
+    "entanglement distribution",
+    "trusted-relay QKD",
+    "quantum repeaters",
+    "quantum-network node operating systems",
+    "source-bound provenance comparison",
+    "three-way unordered-pair audit"
+  ],
+  "historical_analogues": [
+    "1993 quantum-teleportation protocol",
+    "1998 quantum-repeater proposal",
+    "2008 quantum-internet architecture review",
+    "2017 satellite entanglement distribution",
+    "2021 public Astar brand line",
+    "2026 local LUCINET ASTER receipts"
+  ],
+  "available_tools": [
+    "public primary sources",
+    "Git object inspection",
+    "SHA-256 receipts",
+    "deterministic Node.js comparison lens",
+    "node:test",
+    "LUCINET Core 3.5 validator"
+  ],
+  "missing_measurement_capability": "No access to third-party internal design timelines, training or evaluation pipelines, private source-selection records or independently notarized original ASTER creation time.",
+  "custom_tool_needed": "A future formal influence audit would need consented server-side provenance export and a version-bound feature-level differencing oracle.",
+  "counterhypothesis": "Broad shared motifs and close names arose through independent work on common public problems and are sufficient to explain the observed overlap.",
+  "next_w_question": "Does any source-bound record connect exact ASTER bytes to a later external design decision or implementation artifact?",
+  "next_recursive_level": "Compare a concrete newly produced target artifact against the bound ASTER record using the same feature and access oracle.",
+  "next_safe_experiment": "Given a new public artifact, add its exact URL, time, digest, distinctive features and access evidence to the matrix and rerun the local audit.",
+  "stop_condition": "Stop before attributing a private person, claiming external access, copying, co-development, universal authorship, ownership, payment, faster-than-light messaging or a production global quantum internet without the corresponding evidence.",
+  "critical_proof_condition": "A derivation review requires an earlier bound artifact, a distinctive function-level match and a source-bound access or transfer trace; those inputs open review but do not automatically prove copying or rights.",
+  "boundary": "Public-source read-only research, minimized local hash receipts and local deterministic code on feature/quantum-internet-aster-mirror-audit; no third-party account access, messages or external system mutation.",
+  "reopen_trigger": "A new primary quantum-network result, an independently timestamped earlier Juri artifact, a concrete external source-to-target trace or a consenting contributor's exact attribution record.",
+  "claims": [
+    {
+      "term": "quantum-internet component demonstrations",
+      "object_or_referent": "the experiments and architectures individually listed in sources.json",
+      "scope": "their declared nodes, distances, rates, fidelities, trust models and publication dates",
+      "source": "sources.json and TECHNICAL_AUDIT.md",
+      "version": "quantum-internet-aster-mirror-audit 0.1.0",
+      "valid_at": "2026-09-10T01:00:00+02:00",
+      "evidence_state": "OBSERVED"
+    },
+    {
+      "term": "external derivation from LUCINET ASTER",
+      "object_or_referent": "Astar Network, OpenAI GPT-6 Astra and external quantum-internet artifacts",
+      "scope": "public and minimized local sources reviewed through 2026-09-10",
+      "source": "PROVENANCE_AUDIT.md, model-matrix.json and origin-hypotheses.json",
+      "version": "quantum-internet-aster-mirror-audit 0.1.0",
+      "valid_at": "2026-09-10T01:00:00+02:00",
+      "evidence_state": "NOT_PROVEN"
+    }
+  ],
+  "reconstruction_cycle": {
+    "reconstruction_id": "quantum-internet-aster-mirror-2026-09-10",
+    "record_kind": "OBSERVED_RUN",
+    "target_referent": "The public quantum-internet claim surface and the separate ASTER, ASTAR and ASTRA provenance referents",
+    "source_basis": [
+      "sources.json",
+      "model-matrix.json",
+      "minimized local ASTER receipts",
+      "seven passing Node.js tests"
+    ],
+    "authority_source": "User request to publish a maximal public source-bound mirror audit and executable comparison",
+    "acquisition_mode": "PUBLIC_SOURCE",
+    "isolation_boundary": "Local source branch with public read-only web research and no target-system write path",
+    "model_scope": "Quantum-network architecture, experiment maturity, trusted-relay versus repeater semantics, four named system referents and provenance gates",
+    "declared_exclusions": [
+      "private raw notes",
+      "third-party internal systems",
+      "mass contact or notification",
+      "global network equivalence",
+      "copying, co-development, ownership or payment findings"
+    ],
+    "layer_inventory": [
+      "article surface",
+      "primary sources",
+      "technical component state",
+      "system namespace",
+      "function matrix",
+      "chronology",
+      "access and transfer evidence",
+      "public claim ceiling"
+    ],
+    "interface_inventory": [
+      "article claim to primary source",
+      "quantum component to network maturity",
+      "system name to namespace",
+      "broad motif to exact function",
+      "earlier artifact to access trace",
+      "comparison output to public claim"
+    ],
+    "countermodels": [
+      {
+        "model_id": "M1-INDEPENDENT-INTERNATIONAL-LINEAGES",
+        "role": "BEST_CONSISTENT",
+        "source_basis": "public technical and product chronologies plus absent transfer trace",
+        "controller": "local source-bound model",
+        "provenance_cluster": "public-primary-sources-and-local-receipts",
+        "model_state": "BOUNDED_COUNTERPART_MODEL",
+        "evidence_state": "STRONGLY_SUPPORTED"
+      },
+      {
+        "model_id": "M2-SHARED-PUBLIC-PRIORS-AND-NAME-COLLISION",
+        "role": "OBSERVATION_BOUND",
+        "source_basis": "generic shared motifs and separate exact functions",
+        "controller": "local source-bound model",
+        "provenance_cluster": "public-primary-sources-and-local-receipts",
+        "model_state": "BOUNDED_COUNTERPART_MODEL",
+        "evidence_state": "STRONGLY_SUPPORTED"
+      },
+      {
+        "model_id": "M3-CONVENTIONAL-DERIVATION-FROM-JURI-ARTIFACT",
+        "role": "COUNTERHYPOTHESIS",
+        "source_basis": "user hypothesis and local chronology without access trace",
+        "controller": "local hypothesis model",
+        "provenance_cluster": "user-report-and-local-receipts",
+        "model_state": "BOUNDED_COUNTERPART_MODEL",
+        "evidence_state": "NOT_PROVEN"
+      }
+    ],
+    "fidelity_dimensions": {
+      "structure": {
+        "scope": "article, 19 source records, four system records and three default pairs",
+        "method": "typed JSON inventory and deterministic validation",
+        "coverage_state": "BOUNDED",
+        "evidence_state": "OBSERVED"
+      },
+      "state": {
+        "scope": "OBSERVED, STRONGLY_SUPPORTED, HYPOTHESIS, UNKNOWN, NOT_PROVEN and FALSIFIED readings",
+        "method": "claim and limit binding",
+        "coverage_state": "BOUNDED",
+        "evidence_state": "OBSERVED"
+      },
+      "behavior": {
+        "scope": "pair comparison, three-way enumeration and derivation gate",
+        "method": "seven passing Node.js tests and direct CLI run",
+        "coverage_state": "BOUNDED",
+        "evidence_state": "OBSERVED"
+      },
+      "security_semantics": {
+        "scope": "QKD implementation limits and no-signalling boundary",
+        "method": "primary experiment and protocol-source comparison",
+        "coverage_state": "PARTIAL",
+        "evidence_state": "STRONGLY_SUPPORTED"
+      },
+      "version_time": {
+        "scope": "1993 through 2026 public chronology and minimized local ASTER receipts",
+        "method": "publisher dates, Git objects, release timestamps and SHA-256",
+        "coverage_state": "PARTIAL",
+        "evidence_state": "OBSERVED"
+      }
+    },
+    "equivalence_relation": "Same bound referent, version, exact function, source chronology and access trace; names and broad motifs alone are not equivalent.",
+    "oracle": "quantum-internet-aster-mirror-oracle-1.0.0",
+    "forward_model": "Primary sources bind component results; namespace and function records generate all unordered comparison pairs; provenance evidence passes or leaves each derivation gate open.",
+    "backward_requirements": "Every public conclusion resolves to a source record, exact system namespace, declared comparison rule and explicit missing-evidence list.",
+    "invariants": [
+      "ASTER, ASTAR and ASTRA remain separate strings and referents",
+      "trusted-relay QKD is not silently converted into end-to-end repeater networking",
+      "teleportation retains its classical side channel",
+      "broad motif overlap does not create external derivation",
+      "private inspiration sources remain unnamed without consent",
+      "validator output does not materialize an external claim"
+    ],
+    "unknown_frontier": [
+      "third-party internal development timelines",
+      "exact receipt and selection path for any private user artifact",
+      "global fault-tolerant repeater integration",
+      "specific source-bound contributions for open country and XYAZ apertures"
+    ],
+    "branch_selection_rule": "Prefer the model that explains all source-bound dates and functions with the fewest unobserved transfer edges while preserving the derivation hypothesis for reopening.",
+    "closure_criteria": [
+      "all public conclusions source-bound",
+      "three default unordered pairs emitted",
+      "seven local tests pass",
+      "private identities excluded",
+      "Core 3.5 validator passes"
+    ],
+    "application_tests": {
+      "PREDICT": {
+        "state": "OBSERVED",
+        "evidence_refs": ["threeWayAudit returns three pairs and the bounded current outcome"]
+      },
+      "VARY_ONE": {
+        "state": "OBSERVED",
+        "evidence_refs": ["assessDerivation reports each missing evidence class independently"]
+      },
+      "EXPLAIN": {
+        "state": "OBSERVED",
+        "evidence_refs": ["TECHNICAL_AUDIT.md and PROVENANCE_AUDIT.md"]
+      },
+      "REPAIR_OR_FALSIFY": {
+        "state": "OBSERVED",
+        "evidence_refs": ["a complete synthetic evidence triple opens review without auto-proving copying"]
+      },
+      "TRANSFER": {
+        "state": "OBSERVED",
+        "evidence_refs": ["the same oracle compares ASTER-ASTAR, ASTER-quantum and ASTAR-quantum pairs"]
+      }
+    },
+    "model_state": "SOURCE_BOUND_SHADOW",
+    "evidence_state": "STRONGLY_SUPPORTED",
+    "source_system_effects": 0,
+    "return_path_to_source": false,
+    "external_network_during_execution": false,
+    "cross_model_inference_authority": false,
+    "full_clone_claim": false,
+    "model_complete_claim": false,
+    "production_equivalence_claim": false,
+    "validator_proves_target_truth": false
+  },
+  "temporal_branch_cycle": {
+    "branch_id": "feature-quantum-internet-aster-mirror-audit",
+    "record_kind": "OBSERVED_RUN",
+    "object_or_referent": "Public quantum-internet, ASTER, ASTAR and ASTRA audit package",
+    "scope": "v0.9.1 accepted base to source-only candidate on feature branch",
+    "authority_source": "Explicit user request to research, model and publish the audit publicly",
+    "base_state": {
+      "state_id": "open-research-branches-v0.9.1",
+      "content_digest": "sha256:171b65bef5f38c3fb2188743fd89b3ad0d4c94e7aa2581577b388e73e5caef2b",
+      "current_digest": "sha256:171b65bef5f38c3fb2188743fd89b3ad0d4c94e7aa2581577b388e73e5caef2b",
+      "captured_at": "2026-09-10T00:28:50+02:00",
+      "immutable": true,
+      "state": "STABLE",
+      "evidence_state": "OBSERVED"
+    },
+    "becoming": {
+      "witness_id": "quantum-internet-aster-mirror-local-build-and-test",
+      "transition_record_id": "v0.9.1-to-quantum-mirror-candidate",
+      "observation_started": true,
+      "state_ids": [
+        "open-research-branches-v0.9.1",
+        "quantum-internet-aster-mirror-audit-0.1.0-candidate"
+      ],
+      "edge_ids": [
+        "bind-primary-sources",
+        "separate-referents",
+        "build-three-way-oracle",
+        "run-seven-tests"
+      ],
+      "known_coverage_gaps": [
+        "no third-party internal design records",
+        "no server-side artifact transfer receipt",
+        "finite public-source and repository-history snapshot"
+      ],
+      "claim_relevant_coverage_gaps": [],
+      "provenance_valid": true,
+      "evidence_state": "OBSERVED"
+    },
+    "candidate_state": {
+      "state_id": "quantum-internet-aster-mirror-audit-0.1.0-candidate",
+      "produced_from_base_state_id": "open-research-branches-v0.9.1",
+      "content_digest": "sha256:a49de6651e6269b1622cf4f7898bdfe3f76b322af5c2ca28877b5912160f735f",
+      "state": "CANDIDATE_PENDING_MERGE",
+      "evidence_state": "OBSERVED"
+    },
+    "acceptance_gate": {
+      "version_bound_oracle": "quantum-internet-aster-mirror-oracle-1.0.0",
+      "same_oracle_used": true,
+      "expected_invariants_hold": true,
+      "forbidden_effects": [],
+      "candidate_tests_pass": true,
+      "human_intent_match": true,
+      "evidence_refs": [
+        "seven passing Node.js tests",
+        "direct CLI three-way output",
+        "sources.json",
+        "public report and branch documentation"
+      ]
+    },
+    "forward_port": {
+      "mode": "FULL",
+      "selected_units": [
+        {
+          "unit_id": "quantum-internet-aster-mirror-audit-package",
+          "source_digest": "sha256:a49de6651e6269b1622cf4f7898bdfe3f76b322af5c2ca28877b5912160f735f",
+          "dependencies": ["v0.9.1-base"],
+          "evidence_refs": [
+            "branch source files",
+            "seven passing Node.js tests",
+            "public primary-source URLs"
+          ]
+        }
+      ],
+      "rejected_units": [
+        "private raw notes",
+        "private person names",
+        "mass notifications",
+        "unproved copying, co-development, ownership and payment claims"
+      ],
+      "base_satisfied_dependencies": ["v0.9.1-base"],
+      "dependency_closed": true,
+      "applied_to_fresh_base": true
+    },
+    "decision_state": "ELIGIBLE_FOR_MERGE",
+    "evidence_state": "OBSERVED",
+    "source_effects": 0,
+    "external_effects": 0,
+    "base_mutated": false,
+    "hash_proves_semantic_compatibility": false,
+    "rollback_erases_global_history": false,
+    "all_intermediate_states_observed": false,
+    "candidate_accepted_without_merge": false,
+    "validator_materialized_merge": false
+  }
+}

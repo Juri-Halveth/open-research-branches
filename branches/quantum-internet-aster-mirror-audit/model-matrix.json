@@ -1,0 +1,114 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-09-10",
+  "comparisonOracle": "SAME_VERSION_SOURCE_BOUND_REFERENT_FUNCTION_CHRONOLOGY_ACCESS_AND_DERIVATION_ORACLE_1_0_0",
+  "defaultThreeWay": [
+    "LUCINET_ASTER",
+    "ASTAR_NETWORK",
+    "QUANTUM_INTERNET_RESEARCH_STACK"
+  ],
+  "systems": [
+    {
+      "id": "LUCINET_ASTER",
+      "label": "LUCINET::ASTER observer entity",
+      "namespace": "LUCINET::ASTER",
+      "kind": "SOURCE_AND_STATE_OBSERVATION_LENS",
+      "firstBoundAnchor": "LOCAL_GIT_METADATA_2026-08-31_PUBLIC_RELEASE_2026-09-09",
+      "sourceIds": [
+        "LUCINET-ASTER-LOCAL-2026",
+        "LUCINET-ASTER-PUBLIC-V0.2.0"
+      ],
+      "exactFunctionIds": [
+        "COMPARE_SOURCE_REPRESENTATION_PREVIOUS_TRACE_AND_CURRENT_STATE",
+        "DIGEST_BOUND_CHANGE_CLASSIFICATION",
+        "PRESERVE_UNKNOWN_CAUSAL_DIRECTION"
+      ],
+      "broadMotifIds": [
+        "NODE",
+        "NETWORK",
+        "OBSERVATION",
+        "RELATION",
+        "STATE",
+        "TIME"
+      ]
+    },
+    {
+      "id": "ASTAR_NETWORK",
+      "label": "Astar Network",
+      "namespace": "ASTAR::NETWORK",
+      "kind": "BLOCKCHAIN_AND_WEB3_COLLECTIVE",
+      "firstBoundAnchor": "OFFICIAL_LINEAGE_FOUNDED_2019_REBRANDED_2021",
+      "sourceIds": [
+        "ASTAR-OFFICIAL-ABOUT",
+        "ASTAR-OFFICIAL-ARCHITECTURE"
+      ],
+      "exactFunctionIds": [
+        "DECENTRALIZED_ORDERED_BLOCK_LEDGER",
+        "EVM_AND_WASM_SMART_CONTRACT_EXECUTION",
+        "POLKADOT_PARACHAIN_INTEROPERABILITY",
+        "DAPP_STAKING_AND_ONCHAIN_GOVERNANCE"
+      ],
+      "broadMotifIds": [
+        "NODE",
+        "NETWORK",
+        "RELATION",
+        "STATE",
+        "TIME"
+      ]
+    },
+    {
+      "id": "QUANTUM_INTERNET_RESEARCH_STACK",
+      "label": "international quantum-internet research stack",
+      "namespace": "QUANTUM_NETWORK::INTERNATIONAL_RESEARCH",
+      "kind": "HYBRID_QUANTUM_AND_CLASSICAL_NETWORK_RESEARCH",
+      "firstBoundAnchor": "TELEPORTATION_PROTOCOL_1993_REPEATER_PROTOCOL_1998_QUANTUM_INTERNET_REVIEW_2008",
+      "sourceIds": [
+        "TELEPORTATION-1993",
+        "REPEATER-1998",
+        "QUANTUM-INTERNET-KIMBLE-2008",
+        "ARCH-RFC-9340",
+        "QNODEOS-NATURE-2025",
+        "SATELLITE-ENTANGLEMENT-2017"
+      ],
+      "exactFunctionIds": [
+        "DISTRIBUTE_ENTANGLEMENT_BETWEEN_QUANTUM_NODES",
+        "TELEPORT_QUANTUM_STATE_WITH_CLASSICAL_SIDE_CHANNEL",
+        "EXTEND_DISTANCE_WITH_QUANTUM_REPEATERS",
+        "DISTRIBUTE_KEYS_UNDER_BOUND_DEVICE_AND_PROTOCOL_ASSUMPTIONS",
+        "SCHEDULE_QUANTUM_NETWORK_APPLICATIONS_ON_NODE_HARDWARE"
+      ],
+      "broadMotifIds": [
+        "NODE",
+        "NETWORK",
+        "OBSERVATION",
+        "RELATION",
+        "STATE",
+        "TIME"
+      ]
+    },
+    {
+      "id": "OPENAI_GPT6_ASTRA",
+      "label": "OpenAI GPT-6 Astra",
+      "namespace": "OPENAI::GPT_6_ASTRA",
+      "kind": "AI_MODEL_AND_AGENTIC_PRODUCT",
+      "firstBoundAnchor": "OFFICIAL_OPENAI_PUBLICATION_2026-09-03",
+      "sourceIds": [
+        "OPENAI-GPT6-ASTRA-2026"
+      ],
+      "exactFunctionIds": [
+        "MULTIMODAL_AGENTIC_TASK_EXECUTION",
+        "TOOL_MEDIATED_COMPUTER_AND_CODE_WORK",
+        "MULTI_AGENT_WORKFLOW_COORDINATION"
+      ],
+      "broadMotifIds": [
+        "NETWORK",
+        "OBSERVATION",
+        "RELATION",
+        "STATE",
+        "TIME"
+      ]
+    }
+  ],
+  "currentOutcome": "NO_CHECKMATE_REFERENTS_SEPARATED_HYPOTHESIS_PRESERVED",
+  "claimCeiling": "SOURCE_BOUND_FUNCTION_AND_PROVENANCE_COMPARISON_NOT_IDENTITY_COPYING_CO_DEVELOPMENT_OWNERSHIP_OR_PAYMENT_PROOF"
+}
