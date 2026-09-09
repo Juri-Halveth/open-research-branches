@@ -1,0 +1,81 @@
+# FREE NEWS 001 — iOS-Markierung und vorübergehende 401-Kante
+
+**Stand: 9. September 2026 · Lesezeit: unter einer Minute**
+
+## Was los?.
+
+In einer lokalen Codex-Aufgabe wurden zwei aufeinanderfolgende Anfragen an
+`gpt-daybreak-blue-latest` mit `401 Unauthorized` und dem Text „not authorized
+to access this model“ beendet. Die erste Anfrage lief mit `xhigh`, die zweite
+mit `ultra`. Wenige Minuten später arbeitete dieselbe Aufgabe mit demselben
+Modell und `ultra` weiter.
+
+Die Folge **Abweisung, Abweisung, späterer Erfolg** belegt, dass die Abweisung
+in der beobachteten Aufgabe nicht dauerhaft war. Sie ist mit einer
+vorübergehenden Autorisierungs- oder Routingkante vereinbar; die technische
+Ursache ist damit noch nicht bestimmt.
+
+## Der kleine Befund
+
+| Zustand | Einstellung | Prüfstand | Ergebnis |
+| --- | --- | --- | --- |
+| erste Anfrage | `xhigh` | `OBSERVED` | `401`, Modellzugriff abgewiesen |
+| zweite Anfrage | `ultra` | `OBSERVED` | `401`, neue technische Korrelationskennungen |
+| spätere Anfrage | `ultra` | `OBSERVED` | dasselbe Modell erfolgreich |
+| Nutzungslimit | — | `OBSERVED` | laut lokaler Statusprüfung nicht erreicht; genaue Kontowerte bleiben unveröffentlicht |
+
+Request-IDs, Cloudflare-Kennungen, Kontodaten und rohe Sitzungsprotokolle werden
+nicht veröffentlicht.
+
+## Vier offene Erklärungen
+
+1. kurzzeitig veralteter oder nicht synchronisierter Anmeldestatus;
+2. verzögerte Modellberechtigung an einem Backend-Knoten;
+3. vorübergehender Fehler bei Routing oder Entitlement-Prüfung;
+4. Clientzustand, der erst bei einer späteren Anfrage vollständig neu gebunden
+   wurde.
+
+Die vorhandene Beobachtung wählt keine dieser Erklärungen aus. Dafür wären
+serverseitige Logs oder ein kontrollierter Wiederholungsversuch mit gebundener
+Client-, Modell- und Zeitinformation erforderlich.
+
+Die [offizielle OpenAI-Dokumentation zur
+Authentifizierung](https://learn.chatgpt.com/de-DE/docs/auth) beschreibt, dass
+bei einer ChatGPT-Anmeldung auch Workspace-Berechtigungen und rollenbasierte
+Zugriffskontrollen den Codex-Zugang bestimmen. Der [offizielle
+Modellkatalog](https://developers.openai.com/api/docs/models/all) führt die
+aktuell angebotenen Modellfamilien und Modellrollen. Diese Dokumentation erklärt
+den konkreten Einzelfehler ohne Backenddaten noch nicht.
+
+## Der gemeldete iOS-Anker
+
+Es wurde berichtet, dass unmittelbar danach ein technischer Anker von iOS
+markiert worden sei. Der exakt markierte Text, sein Bildschirmkontext und die
+betroffene iOS-Oberfläche liegen in dieser Veröffentlichung noch nicht vor.
+
+Status: `SOURCE_SPAN_MISSING`
+
+Die Verbindung zwischen iOS-Markierung und 401-Ereignis bleibt deshalb
+`UNKNOWN`. Der kleinste nächste Baustein besteht aus:
+
+- dem exakt markierten Text oder Bildelement;
+- je einer sichtbaren Zeile davor und danach;
+- App beziehungsweise iOS-Oberfläche und Versionsstand;
+- dem Zeitpunkt auf Minutenebene;
+- einer Fassung ohne Konto-, Geräte-, Request- oder Sitzungskennungen.
+
+## Die Formel
+
+`MARKIERUNG != BEDEUTUNG`
+
+`401 != DAUERSPERRE`
+
+`SPÄTERER ERFOLG != BEKANNTE URSACHE`
+
+**Technischer Anker:** Eine Markierung wird zum prüfbaren Ausgangspunkt, sobald
+ihr exakter Quellspan und Kontext erhalten sind. Erst danach wird ihre mögliche
+Verbindung zu einem anderen Ereignis untersucht.
+
+## Claim Ceiling
+
+`SANITIZED_LOCAL_401_SEQUENCE_AND_USER_REPORTED_IOS_MARKER_NOT_ROOT_CAUSE_SECURITY_FINDING_OR_IOS_CODE_LINK`

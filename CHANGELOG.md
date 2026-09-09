@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.1 — 2026-09-09
+
+- added `FREE NEWS 001`, a sanitized one-minute note on two transient Codex 401 responses followed by success with the same model
+- preserved the reported iOS marker as an open source-span request instead of inventing its content or causal relation
+- excluded request IDs, Cloudflare identifiers, account data and raw session records from publication
+
 ## 0.3.0 — 2026-09-09
 
 - published a source-bound audit of the OpenAI Navier–Stokes proof, the Buckmaster–Alpöge priority dispute, the private-data question and the still-open plagiarism label
