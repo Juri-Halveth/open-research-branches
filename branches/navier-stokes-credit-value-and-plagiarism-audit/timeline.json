@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.0.0",
+  "timezoneRule": "Source-local dates retained; exact times remain UNKNOWN unless the source supplies them.",
+  "events": [
+    {"date":"2026-08-15","event":"Buckmaster reports receiving LLM-generated proofs for smooth-forcing Boussinesq and Euler blowup.","status":"SOURCE_REPORTED","sourceIds":["S05"]},
+    {"date":"2026-08-22","event":"Buckmaster reports Lean verification of the result available to the collaboration.","status":"SOURCE_REPORTED","sourceIds":["S05"]},
+    {"date":"2026-09-01","event":"OpenAI says it launched evaluations on all open Millennium problems after hearing rumors of progress.","status":"PUBLICLY_ATTESTED_BY_ACTOR","sourceIds":["S02"]},
+    {"date":"2026-09-03","event":"Buckmaster says he emailed a prominent OpenAI mathematician to clarify the rumor and related work.","status":"SOURCE_REPORTED_WITH_QUOTED_EMAIL","sourceIds":["S05"]},
+    {"date":"2026-09-05","event":"OpenAI says its agents arrived at the Navier-Stokes resolution after about 88 hours.","status":"PUBLICLY_ATTESTED_BY_ACTOR","sourceIds":["S02"]},
+    {"date":"2026-09-06","event":"OpenAI says Lean verification was complete; Buckmaster reports two calls with OpenAI representatives and publication-credit proposals.","status":"COMPETING_PUBLIC_ACCOUNTS_WITH_PARTIAL_OVERLAP","sourceIds":["S02","S05"]},
+    {"date":"2026-09-08","event":"OpenAI publicly released its announcement, 166-page proof and Lean repository; major reporting began.","status":"OBSERVED_PUBLIC_RELEASE","sourceIds":["S02","S03","S04","S08","S09"]},
+    {"date":"2026-09-09","event":"JURI / ASTER / LUCINET / HALVETH audit separates proof, priority, access, credit, prize and value.","status":"PUBLIC_AUDIT_RELEASE","sourceIds":["S01","S02","S03","S04","S05","S06"]}
+  ]
+}

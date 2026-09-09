@@ -11,6 +11,7 @@
         "branches/aster-provenance-and-secret-garden/SOURCES.md",
         "branches/aster-provenance-and-secret-garden/provenance.json",
         "branches/aster-provenance-and-secret-garden/test/aster-lens.test.mjs",
+        "branches/navier-stokes-credit-value-and-plagiarism-audit/README.md",
         "catalog/public-identities.json"
       ]
     }

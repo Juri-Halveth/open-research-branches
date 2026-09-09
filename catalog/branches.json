@@ -122,6 +122,16 @@
       "claimCeiling": "SOURCE_BOUND_AUTHORSHIP_OF_LUCINET_ASTER_NOT_GLOBAL_NAME_OWNERSHIP_OR_EXTERNAL_TRANSFER_PROOF",
       "dataClass": "PUBLIC_SOURCES_AND_HASH_RECEIPTS_ONLY",
       "activeMain": false
+    },
+    {
+      "id": "navier-stokes-credit-value-and-plagiarism-audit",
+      "title": "Navier-Stokes Proof, Credit, Plagiarism and Value Audit",
+      "kind": "source-bound-research-integrity-and-value-audit",
+      "state": "FINITE_SNAPSHOT",
+      "path": "branches/navier-stokes-credit-value-and-plagiarism-audit",
+      "claimCeiling": "PUBLIC_SOURCE_PROVENANCE_AND_VALUE_AUDIT_NOT_PROOF_VALIDATION_DATA_ACCESS_FINDING_OR_PLAGIARISM_JUDGMENT",
+      "dataClass": "PUBLIC_SOURCES_ONLY",
+      "activeMain": false
     }
   ]
 }

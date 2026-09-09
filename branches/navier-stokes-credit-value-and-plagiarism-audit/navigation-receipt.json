@@ -1,0 +1,371 @@
+{
+  "schema": "halveth.status-quo-navigation-receipt.v1",
+  "logicVersion": "3.5.1",
+  "entityVersion": "1.0.0",
+  "entityState": "STATUS_QUO_FROZEN",
+  "frameId": "NAVIER.STOKES.CREDIT.VALUE.20260909",
+  "project": {
+    "domainAdapter": "GENERAL_RESEARCH",
+    "objective": "Audit the public Navier-Stokes proof, priority, data-access, plagiarism and value claims without merging their evidence requirements.",
+    "objectOrReferent": "The public OpenAI and Buckmaster-Alpoge Navier-Stokes credit controversy as of 2026-09-09.",
+    "scope": "Public sources only; source and code inspection without proof validation, private-system access or legal adjudication.",
+    "deliverableType": "PUBLIC_AUDIT_BRANCH",
+    "sourceRefs": [
+      "S01",
+      "S02",
+      "S03",
+      "S04",
+      "S05",
+      "S06",
+      "S07",
+      "S08",
+      "S09",
+      "S10",
+      "S11",
+      "S12",
+      "S13",
+      "S14",
+      "S15",
+      "S16",
+      "S17"
+    ],
+    "acceptedBaselineRef": "OPEN.RESEARCH.MAIN.A0A5C90"
+  },
+  "scanPolicy": {
+    "horizontalMode": "FULL_DECLARED_ADAPTER_APERTURE",
+    "verticalPreviewDepth": 4,
+    "diagonalMode": "COMPLETE_MATERIAL_CANDIDATE_PAIR_GRAPH",
+    "selectiveDrillDepth": 4,
+    "noSelectiveDrillBeforeDiagonal": true,
+    "freezeMode": "VERSIONED_IMMUTABLE_BASELINE"
+  },
+  "adapterRequiredAxisIds": [
+    "SOURCE",
+    "DEFINITION",
+    "MECHANISM",
+    "COUNTERHYPOTHESIS",
+    "OBSERVATION",
+    "MATERIALIZATION_BRIDGE",
+    "IMPACT",
+    "UNKNOWN_FRONTIER"
+  ],
+  "registeredAxisIds": [
+    "COUNTERHYPOTHESIS",
+    "DEFINITION",
+    "IMPACT",
+    "MATERIALIZATION_BRIDGE",
+    "MECHANISM",
+    "OBSERVATION",
+    "SOURCE",
+    "UNKNOWN_FRONTIER"
+  ],
+  "materialCandidateAxisIds": [
+    "COUNTERHYPOTHESIS",
+    "MECHANISM",
+    "UNKNOWN_FRONTIER"
+  ],
+  "axisResults": [
+    {
+      "axisId": "COUNTERHYPOTHESIS",
+      "state": "FLAGGED_MATERIAL",
+      "evidenceState": "STRONGLY_SUPPORTED",
+      "horizontalReceiptRefs": [
+        "RECEIPT.MODELS.FOUR"
+      ],
+      "exclusionReason": null,
+      "verticalProbe": {
+        "state": "COVERED",
+        "completedDepth": 4,
+        "maximumDepth": 4,
+        "layerReceiptRefs": [
+          "MODELS.L1.INDEPENDENT",
+          "MODELS.L2.RUMOR",
+          "MODELS.L3.INDIRECT",
+          "MODELS.L4.DIRECT"
+        ],
+        "criticalUnknownCount": 2,
+        "deepDivePurpose": "MULTI_APERTURE_FIELD_PROBE"
+      },
+      "priorityVector": {
+        "objectiveRelevance": 4,
+        "criticality": 4,
+        "evidenceStrength": 3,
+        "authorizedActionability": 3,
+        "informationGain": 4,
+        "repairValue": 4,
+        "effortCost": 1,
+        "actionRisk": 1
+      },
+      "frontierRef": "FRONTIER.MODEL.DISCRIMINATORS",
+      "basePriorityScore": 20,
+      "diagonalDelta": 0,
+      "collectiveScore": 20
+    },
+    {
+      "axisId": "DEFINITION",
+      "state": "STABLE_WITHIN_COVERAGE",
+      "evidenceState": "STRONGLY_SUPPORTED",
+      "horizontalReceiptRefs": [
+        "RECEIPT.DEFINITIONS.SPLIT"
+      ],
+      "exclusionReason": null,
+      "verticalProbe": {
+        "state": "NOT_REQUIRED",
+        "completedDepth": 0,
+        "maximumDepth": 4,
+        "layerReceiptRefs": [],
+        "criticalUnknownCount": 0,
+        "deepDivePurpose": null
+      },
+      "priorityVector": {
+        "objectiveRelevance": 4,
+        "criticality": 3,
+        "evidenceStrength": 4,
+        "authorizedActionability": 4,
+        "informationGain": 2,
+        "repairValue": 3,
+        "effortCost": 0,
+        "actionRisk": 0
+      },
+      "frontierRef": null,
+      "basePriorityScore": 20,
+      "diagonalDelta": 0,
+      "collectiveScore": 20
+    },
+    {
+      "axisId": "IMPACT",
+      "state": "STABLE_WITHIN_COVERAGE",
+      "evidenceState": "STRONGLY_SUPPORTED",
+      "horizontalReceiptRefs": [
+        "RECEIPT.VALUE.TRACKS.SEVEN"
+      ],
+      "exclusionReason": null,
+      "verticalProbe": {
+        "state": "NOT_REQUIRED",
+        "completedDepth": 0,
+        "maximumDepth": 4,
+        "layerReceiptRefs": [],
+        "criticalUnknownCount": 0,
+        "deepDivePurpose": null
+      },
+      "priorityVector": {
+        "objectiveRelevance": 4,
+        "criticality": 3,
+        "evidenceStrength": 3,
+        "authorizedActionability": 3,
+        "informationGain": 3,
+        "repairValue": 4,
+        "effortCost": 0,
+        "actionRisk": 0
+      },
+      "frontierRef": null,
+      "basePriorityScore": 20,
+      "diagonalDelta": 0,
+      "collectiveScore": 20
+    },
+    {
+      "axisId": "MATERIALIZATION_BRIDGE",
+      "state": "STABLE_WITHIN_COVERAGE",
+      "evidenceState": "OBSERVED",
+      "horizontalReceiptRefs": [
+        "RECEIPT.PUBLIC.BRANCH.TESTS"
+      ],
+      "exclusionReason": null,
+      "verticalProbe": {
+        "state": "NOT_REQUIRED",
+        "completedDepth": 0,
+        "maximumDepth": 4,
+        "layerReceiptRefs": [],
+        "criticalUnknownCount": 0,
+        "deepDivePurpose": null
+      },
+      "priorityVector": {
+        "objectiveRelevance": 3,
+        "criticality": 2,
+        "evidenceStrength": 4,
+        "authorizedActionability": 4,
+        "informationGain": 2,
+        "repairValue": 4,
+        "effortCost": 0,
+        "actionRisk": 0
+      },
+      "frontierRef": null,
+      "basePriorityScore": 19,
+      "diagonalDelta": 0,
+      "collectiveScore": 19
+    },
+    {
+      "axisId": "MECHANISM",
+      "state": "UNKNOWN_MATERIAL",
+      "evidenceState": "UNKNOWN",
+      "horizontalReceiptRefs": [
+        "RECEIPT.MECHANISM.MODELS"
+      ],
+      "exclusionReason": null,
+      "verticalProbe": {
+        "state": "BOUNDARY",
+        "completedDepth": 4,
+        "maximumDepth": 4,
+        "layerReceiptRefs": [
+          "MECHANISM.L1.RUMOR",
+          "MECHANISM.L2.PRODUCT",
+          "MECHANISM.L3.TRAINING",
+          "MECHANISM.L4.DIRECT"
+        ],
+        "criticalUnknownCount": 4,
+        "deepDivePurpose": "MULTI_APERTURE_FIELD_PROBE"
+      },
+      "priorityVector": {
+        "objectiveRelevance": 4,
+        "criticality": 4,
+        "evidenceStrength": 2,
+        "authorizedActionability": 2,
+        "informationGain": 4,
+        "repairValue": 3,
+        "effortCost": 2,
+        "actionRisk": 2
+      },
+      "frontierRef": "FRONTIER.ACCESS.PROVENANCE",
+      "basePriorityScore": 15,
+      "diagonalDelta": 0,
+      "collectiveScore": 15
+    },
+    {
+      "axisId": "OBSERVATION",
+      "state": "STABLE_WITHIN_COVERAGE",
+      "evidenceState": "OBSERVED",
+      "horizontalReceiptRefs": [
+        "RECEIPT.PUBLIC.ARTIFACTS"
+      ],
+      "exclusionReason": null,
+      "verticalProbe": {
+        "state": "NOT_REQUIRED",
+        "completedDepth": 0,
+        "maximumDepth": 4,
+        "layerReceiptRefs": [],
+        "criticalUnknownCount": 0,
+        "deepDivePurpose": null
+      },
+      "priorityVector": {
+        "objectiveRelevance": 4,
+        "criticality": 4,
+        "evidenceStrength": 4,
+        "authorizedActionability": 4,
+        "informationGain": 3,
+        "repairValue": 3,
+        "effortCost": 0,
+        "actionRisk": 0
+      },
+      "frontierRef": null,
+      "basePriorityScore": 22,
+      "diagonalDelta": 0,
+      "collectiveScore": 22
+    },
+    {
+      "axisId": "SOURCE",
+      "state": "STABLE_WITHIN_COVERAGE",
+      "evidenceState": "OBSERVED",
+      "horizontalReceiptRefs": [
+        "RECEIPT.SOURCES.17"
+      ],
+      "exclusionReason": null,
+      "verticalProbe": {
+        "state": "NOT_REQUIRED",
+        "completedDepth": 0,
+        "maximumDepth": 4,
+        "layerReceiptRefs": [],
+        "criticalUnknownCount": 0,
+        "deepDivePurpose": null
+      },
+      "priorityVector": {
+        "objectiveRelevance": 3,
+        "criticality": 3,
+        "evidenceStrength": 4,
+        "authorizedActionability": 4,
+        "informationGain": 2,
+        "repairValue": 2,
+        "effortCost": 0,
+        "actionRisk": 0
+      },
+      "frontierRef": null,
+      "basePriorityScore": 18,
+      "diagonalDelta": 0,
+      "collectiveScore": 18
+    },
+    {
+      "axisId": "UNKNOWN_FRONTIER",
+      "state": "UNKNOWN_MATERIAL",
+      "evidenceState": "UNKNOWN",
+      "horizontalReceiptRefs": [
+        "RECEIPT.OPEN.FRONTIERS"
+      ],
+      "exclusionReason": null,
+      "verticalProbe": {
+        "state": "BOUNDARY",
+        "completedDepth": 4,
+        "maximumDepth": 4,
+        "layerReceiptRefs": [
+          "UNKNOWN.L1.PROOF",
+          "UNKNOWN.L2.ACCESS",
+          "UNKNOWN.L3.STRUCTURE",
+          "UNKNOWN.L4.CLAY"
+        ],
+        "criticalUnknownCount": 4,
+        "deepDivePurpose": "MULTI_APERTURE_FIELD_PROBE"
+      },
+      "priorityVector": {
+        "objectiveRelevance": 4,
+        "criticality": 3,
+        "evidenceStrength": 1,
+        "authorizedActionability": 2,
+        "informationGain": 4,
+        "repairValue": 3,
+        "effortCost": 2,
+        "actionRisk": 2
+      },
+      "frontierRef": "FRONTIER.PUBLIC.NEW.EVIDENCE",
+      "basePriorityScore": 13,
+      "diagonalDelta": 0,
+      "collectiveScore": 13
+    }
+  ],
+  "diagonalPairCoverage": {
+    "expectedPairCount": 3,
+    "registeredPairCount": 3,
+    "evaluatedPairCount": 3,
+    "state": "COMPLETE_FOR_MATERIAL_CANDIDATE_GRAPH"
+  },
+  "coverageState": "COMPLETE_FOR_DECLARED_ADAPTER_APERTURE",
+  "prioritySemantics": "ORDINAL_SEARCH_HEURISTIC_NOT_FACT_OR_IMPACT",
+  "computedOutcome": "SELECT_FRONTIER",
+  "selectedAxisId": "COUNTERHYPOTHESIS",
+  "selectedFrontierRef": "FRONTIER.MODEL.DISCRIMINATORS",
+  "nextOperator": "EXTREMUM_NAVIGATION",
+  "decision": {
+    "outcome": "SELECT_FRONTIER",
+    "selectedAxisId": "COUNTERHYPOTHESIS",
+    "nextOperator": "EXTREMUM_NAVIGATION",
+    "preservedAxisIds": [
+      "SOURCE",
+      "DEFINITION",
+      "MECHANISM",
+      "COUNTERHYPOTHESIS",
+      "OBSERVATION",
+      "MATERIALIZATION_BRIDGE",
+      "IMPACT",
+      "UNKNOWN_FRONTIER"
+    ],
+    "rationale": "The four-model comparison gives the clearest public structure while preserving access and proof unknowns for later evidence."
+  },
+  "authority": {
+    "mode": "LOCAL_READ_ONLY_ANALYSIS",
+    "sourceSystemEffects": 0,
+    "externalNetworkEffects": 0,
+    "mutationAuthorized": false
+  },
+  "recordedAt": "2026-09-09T17:38:44Z",
+  "freezeState": "ENTITY_V1_0_0_IMMUTABLE_PROJECT_RECEIPTS_APPEND_SEPARATELY",
+  "claimCeiling": "BOUND_MULTI_APERTURE_NAVIGATION_DECISION_ONLY",
+  "finding": false,
+  "receiptDigest": "sha256:d0e4858c4ae4063b7e17aa5680fb071b050e2fcb31b647ef32f8e927783fd3f2"
+}

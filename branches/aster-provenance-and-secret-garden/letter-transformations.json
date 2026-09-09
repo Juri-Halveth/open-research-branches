@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "aster-letter-transition.v1",
+  "patchId": "ASTER-K-C-20260909",
+  "principle": "Preserve every source grapheme and name every transformation before comparing results.",
+  "letters": [
+    {"glyph":"K","unicode":"U+004B","identity":"DISTINCT_GRAPHEME"},
+    {"glyph":"C","unicode":"U+0043","identity":"DISTINCT_GRAPHEME"}
+  ],
+  "candidates": [
+    {"id":"K_TO_C","input":"K","operators":["REPLACE_INITIAL_K_WITH_C"],"output":"C","stringEquality":false,"referentEquality":"UNKNOWN"},
+    {"id":"KEVIN_TO_CEVIN","input":"Kevin","operators":["REPLACE_INITIAL_K_WITH_C"],"output":"Cevin","stringEquality":false,"referentEquality":"UNKNOWN"},
+    {"id":"KEVIN_TO_KEWIN","input":"Kevin","operators":["REPLACE_V_WITH_W"],"output":"Kewin","stringEquality":false,"referentEquality":"UNKNOWN"},
+    {"id":"KEVIN_TO_CELVIN","input":"Kevin","operators":["REPLACE_INITIAL_K_WITH_C","INSERT_L_AFTER_FIRST_VOWEL"],"output":"Celvin","stringEquality":false,"referentEquality":"UNKNOWN"}
+  ],
+  "claimCeiling": "SCOPED_GRAPHEME_TRANSFORMATION_WITH_SOURCE_PRESERVATION_NOT_PERSON_IDENTITY_OR_PHYSICAL_EFFECT"
+}

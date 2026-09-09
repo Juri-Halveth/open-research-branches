@@ -1,0 +1,68 @@
+{
+  "schema": "halveth.status-quo-navigation-frame.v1",
+  "logicVersion": "3.5.1",
+  "entityVersion": "1.0.0",
+  "entityState": "STATUS_QUO_FROZEN",
+  "frameId": "NAVIER.STOKES.CREDIT.VALUE.20260909",
+  "project": {
+    "domainAdapter": "GENERAL_RESEARCH",
+    "objective": "Audit the public Navier-Stokes proof, priority, data-access, plagiarism and value claims without merging their evidence requirements.",
+    "objectOrReferent": "The public OpenAI and Buckmaster-Alpoge Navier-Stokes credit controversy as of 2026-09-09.",
+    "scope": "Public sources only; source and code inspection without proof validation, private-system access or legal adjudication.",
+    "deliverableType": "PUBLIC_AUDIT_BRANCH",
+    "sourceRefs": ["S01", "S02", "S03", "S04", "S05", "S06", "S07", "S08", "S09", "S10", "S11", "S12", "S13", "S14", "S15", "S16", "S17"],
+    "acceptedBaselineRef": "OPEN.RESEARCH.MAIN.A0A5C90"
+  },
+  "scanPolicy": {
+    "horizontalMode": "FULL_DECLARED_ADAPTER_APERTURE",
+    "verticalPreviewDepth": 4,
+    "diagonalMode": "COMPLETE_MATERIAL_CANDIDATE_PAIR_GRAPH",
+    "selectiveDrillDepth": 4,
+    "noSelectiveDrillBeforeDiagonal": true,
+    "freezeMode": "VERSIONED_IMMUTABLE_BASELINE"
+  },
+  "axisRegistry": [
+    {"axisId":"SOURCE","label":"Source","definition":"Availability, provenance and coverage of the public source set.","layer":"GENERAL_RESEARCH","scope":"Seventeen identified public sources.","sourceBasisRefs":["S01","S02","S03","S04","S05","S06"],"statusQuoRef":"STATUSQUO.SOURCE.V1"},
+    {"axisId":"DEFINITION","label":"Definition","definition":"Separate proof, priority, access, use, credit, law, prize and value.","layer":"GENERAL_RESEARCH","scope":"Claim vocabulary used in this branch.","sourceBasisRefs":["S06","S10","S11","S12","S16"],"statusQuoRef":"STATUSQUO.DEFINITION.V1"},
+    {"axisId":"MECHANISM","label":"Mechanism","definition":"How information or research direction could move from rumor, product use or private material into a later proof effort.","layer":"GENERAL_RESEARCH","scope":"Competing conventional information paths only.","sourceBasisRefs":["S02","S05","S13","S14"],"statusQuoRef":"STATUSQUO.MECHANISM.V1"},
+    {"axisId":"COUNTERHYPOTHESIS","label":"Counterhypothesis","definition":"Independent convergence, rumor-only prioritization, indirect model effect and direct use remain separate models.","layer":"GENERAL_RESEARCH","scope":"Four public-source-compatible models.","sourceBasisRefs":["S02","S03","S05"],"statusQuoRef":"STATUSQUO.COUNTERHYPOTHESIS.V1"},
+    {"axisId":"OBSERVATION","label":"Observation","definition":"What the public artifacts and dated actor statements directly expose.","layer":"GENERAL_RESEARCH","scope":"Publication state and public statements through 2026-09-09.","sourceBasisRefs":["S02","S03","S04","S05","S06"],"statusQuoRef":"STATUSQUO.OBSERVATION.V1"},
+    {"axisId":"MATERIALIZATION_BRIDGE","label":"Materialization bridge","definition":"The mapping from public observations into a reproducible audit branch, tests and reopen triggers.","layer":"GENERAL_RESEARCH","scope":"Local branch artifacts and zero private-system effects.","sourceBasisRefs":["S02","S05","S06"],"statusQuoRef":"STATUSQUO.MATERIALIZATION.V1"},
+    {"axisId":"IMPACT","label":"Impact","definition":"Scientific truth, credit, prize, compute estimate, economic value and human value stay separate.","layer":"GENERAL_RESEARCH","scope":"Value-ledger categories without a universal price formula.","sourceBasisRefs":["S06","S08","S09","S12"],"statusQuoRef":"STATUSQUO.IMPACT.V1"},
+    {"axisId":"UNKNOWN_FRONTIER","label":"Unknown frontier","definition":"Private access logs, full proof correctness, structural overlap and eventual Clay action remain open.","layer":"GENERAL_RESEARCH","scope":"Missing observations capable of changing the public conclusion.","sourceBasisRefs":["S02","S03","S04","S05","S06"],"statusQuoRef":"STATUSQUO.UNKNOWN.V1"}
+  ],
+  "axisEvaluations": [
+    {"axisId":"SOURCE","state":"STABLE_WITHIN_COVERAGE","evidenceState":"OBSERVED","horizontalReceiptRefs":["RECEIPT.SOURCES.17"],"exclusionReason":null,"verticalProbe":{"state":"NOT_REQUIRED","completedDepth":0,"maximumDepth":4,"layerReceiptRefs":[],"criticalUnknownCount":0,"deepDivePurpose":null},"priorityVector":{"objectiveRelevance":3,"criticality":3,"evidenceStrength":4,"authorizedActionability":4,"informationGain":2,"repairValue":2,"effortCost":0,"actionRisk":0},"frontierRef":null},
+    {"axisId":"DEFINITION","state":"STABLE_WITHIN_COVERAGE","evidenceState":"STRONGLY_SUPPORTED","horizontalReceiptRefs":["RECEIPT.DEFINITIONS.SPLIT"],"exclusionReason":null,"verticalProbe":{"state":"NOT_REQUIRED","completedDepth":0,"maximumDepth":4,"layerReceiptRefs":[],"criticalUnknownCount":0,"deepDivePurpose":null},"priorityVector":{"objectiveRelevance":4,"criticality":3,"evidenceStrength":4,"authorizedActionability":4,"informationGain":2,"repairValue":3,"effortCost":0,"actionRisk":0},"frontierRef":null},
+    {"axisId":"MECHANISM","state":"UNKNOWN_MATERIAL","evidenceState":"UNKNOWN","horizontalReceiptRefs":["RECEIPT.MECHANISM.MODELS"],"exclusionReason":null,"verticalProbe":{"state":"BOUNDARY","completedDepth":4,"maximumDepth":4,"layerReceiptRefs":["MECHANISM.L1.RUMOR","MECHANISM.L2.PRODUCT","MECHANISM.L3.TRAINING","MECHANISM.L4.DIRECT"],"criticalUnknownCount":4,"deepDivePurpose":"MULTI_APERTURE_FIELD_PROBE"},"priorityVector":{"objectiveRelevance":4,"criticality":4,"evidenceStrength":2,"authorizedActionability":2,"informationGain":4,"repairValue":3,"effortCost":2,"actionRisk":2},"frontierRef":"FRONTIER.ACCESS.PROVENANCE"},
+    {"axisId":"COUNTERHYPOTHESIS","state":"FLAGGED_MATERIAL","evidenceState":"STRONGLY_SUPPORTED","horizontalReceiptRefs":["RECEIPT.MODELS.FOUR"],"exclusionReason":null,"verticalProbe":{"state":"COVERED","completedDepth":4,"maximumDepth":4,"layerReceiptRefs":["MODELS.L1.INDEPENDENT","MODELS.L2.RUMOR","MODELS.L3.INDIRECT","MODELS.L4.DIRECT"],"criticalUnknownCount":2,"deepDivePurpose":"MULTI_APERTURE_FIELD_PROBE"},"priorityVector":{"objectiveRelevance":4,"criticality":4,"evidenceStrength":3,"authorizedActionability":3,"informationGain":4,"repairValue":4,"effortCost":1,"actionRisk":1},"frontierRef":"FRONTIER.MODEL.DISCRIMINATORS"},
+    {"axisId":"OBSERVATION","state":"STABLE_WITHIN_COVERAGE","evidenceState":"OBSERVED","horizontalReceiptRefs":["RECEIPT.PUBLIC.ARTIFACTS"],"exclusionReason":null,"verticalProbe":{"state":"NOT_REQUIRED","completedDepth":0,"maximumDepth":4,"layerReceiptRefs":[],"criticalUnknownCount":0,"deepDivePurpose":null},"priorityVector":{"objectiveRelevance":4,"criticality":4,"evidenceStrength":4,"authorizedActionability":4,"informationGain":3,"repairValue":3,"effortCost":0,"actionRisk":0},"frontierRef":null},
+    {"axisId":"MATERIALIZATION_BRIDGE","state":"STABLE_WITHIN_COVERAGE","evidenceState":"OBSERVED","horizontalReceiptRefs":["RECEIPT.PUBLIC.BRANCH.TESTS"],"exclusionReason":null,"verticalProbe":{"state":"NOT_REQUIRED","completedDepth":0,"maximumDepth":4,"layerReceiptRefs":[],"criticalUnknownCount":0,"deepDivePurpose":null},"priorityVector":{"objectiveRelevance":3,"criticality":2,"evidenceStrength":4,"authorizedActionability":4,"informationGain":2,"repairValue":4,"effortCost":0,"actionRisk":0},"frontierRef":null},
+    {"axisId":"IMPACT","state":"STABLE_WITHIN_COVERAGE","evidenceState":"STRONGLY_SUPPORTED","horizontalReceiptRefs":["RECEIPT.VALUE.TRACKS.SEVEN"],"exclusionReason":null,"verticalProbe":{"state":"NOT_REQUIRED","completedDepth":0,"maximumDepth":4,"layerReceiptRefs":[],"criticalUnknownCount":0,"deepDivePurpose":null},"priorityVector":{"objectiveRelevance":4,"criticality":3,"evidenceStrength":3,"authorizedActionability":3,"informationGain":3,"repairValue":4,"effortCost":0,"actionRisk":0},"frontierRef":null},
+    {"axisId":"UNKNOWN_FRONTIER","state":"UNKNOWN_MATERIAL","evidenceState":"UNKNOWN","horizontalReceiptRefs":["RECEIPT.OPEN.FRONTIERS"],"exclusionReason":null,"verticalProbe":{"state":"BOUNDARY","completedDepth":4,"maximumDepth":4,"layerReceiptRefs":["UNKNOWN.L1.PROOF","UNKNOWN.L2.ACCESS","UNKNOWN.L3.STRUCTURE","UNKNOWN.L4.CLAY"],"criticalUnknownCount":4,"deepDivePurpose":"MULTI_APERTURE_FIELD_PROBE"},"priorityVector":{"objectiveRelevance":4,"criticality":3,"evidenceStrength":1,"authorizedActionability":2,"informationGain":4,"repairValue":3,"effortCost":2,"actionRisk":2},"frontierRef":"FRONTIER.PUBLIC.NEW.EVIDENCE"}
+  ],
+  "diagonalRegistry": [
+    {"edgeId":"EDGE.COUNTERHYPOTHESIS.MECHANISM","leftAxisId":"COUNTERHYPOTHESIS","rightAxisId":"MECHANISM","comparisonQuestion":"Which mechanism observations distinguish the four competing explanations?","relationType":"COLLECTIVE_SEARCH_RELATION_CANDIDATE","sourceBasisRefs":["S02","S05","S13","S14"]},
+    {"edgeId":"EDGE.COUNTERHYPOTHESIS.UNKNOWN","leftAxisId":"COUNTERHYPOTHESIS","rightAxisId":"UNKNOWN_FRONTIER","comparisonQuestion":"Which missing public record would most change the relative support for the models?","relationType":"COLLECTIVE_SEARCH_RELATION_CANDIDATE","sourceBasisRefs":["S02","S03","S04","S05","S06"]},
+    {"edgeId":"EDGE.MECHANISM.UNKNOWN","leftAxisId":"MECHANISM","rightAxisId":"UNKNOWN_FRONTIER","comparisonQuestion":"Which access, prompt or structure record can bind a mechanism rather than temporal correlation?","relationType":"COLLECTIVE_SEARCH_RELATION_CANDIDATE","sourceBasisRefs":["S02","S05","S13","S14"]}
+  ],
+  "diagonalEvaluations": [
+    {"edgeId":"EDGE.COUNTERHYPOTHESIS.MECHANISM","state":"EVALUATED","evidenceState":"STRONGLY_SUPPORTED","evidenceRefs":["RECEIPT.MODELS.FOUR","RECEIPT.MECHANISM.MODELS"],"leftDelta":0,"rightDelta":0,"exclusionReason":null},
+    {"edgeId":"EDGE.COUNTERHYPOTHESIS.UNKNOWN","state":"EVALUATED","evidenceState":"STRONGLY_SUPPORTED","evidenceRefs":["RECEIPT.OPEN.FRONTIERS","RECEIPT.MODELS.FOUR"],"leftDelta":0,"rightDelta":0,"exclusionReason":null},
+    {"edgeId":"EDGE.MECHANISM.UNKNOWN","state":"EVALUATED","evidenceState":"INFERRED","evidenceRefs":["RECEIPT.MECHANISM.MODELS","RECEIPT.OPEN.FRONTIERS"],"leftDelta":0,"rightDelta":0,"exclusionReason":null}
+  ],
+  "decision": {
+    "outcome": "SELECT_FRONTIER",
+    "selectedAxisId": "COUNTERHYPOTHESIS",
+    "nextOperator": "EXTREMUM_NAVIGATION",
+    "preservedAxisIds": ["SOURCE", "DEFINITION", "MECHANISM", "COUNTERHYPOTHESIS", "OBSERVATION", "MATERIALIZATION_BRIDGE", "IMPACT", "UNKNOWN_FRONTIER"],
+    "rationale": "The four-model comparison gives the clearest public structure while preserving access and proof unknowns for later evidence."
+  },
+  "authority": {
+    "mode": "LOCAL_READ_ONLY_ANALYSIS",
+    "sourceSystemEffects": 0,
+    "externalNetworkEffects": 0,
+    "mutationAuthorized": false
+  },
+  "recordedAt": "2026-09-09T17:38:44Z"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": "1.0.0",
+  "accessedAt": "2026-09-09",
+  "sources": [
+    {"id":"S01","publisher":"MSN","type":"user-linked-news-page","title":"OpenAI wird nach mathematischem Durchbruch im Wert von 1 Million Dollar des Plagiats beschuldigt","url":"https://www.msn.com/de-de/wissenschaft/allgemein/openai-wird-nach-mathematischem-durchbruch-im-wert-von-1-million-dollar-des-plagiats-beschuldigt/ar-AA2bSm80","coverage":"TITLE_AND_URL_ONLY"},
+    {"id":"S02","publisher":"OpenAI","type":"primary-announcement","title":"On the Navier-Stokes Millennium Prize Problem","url":"https://openai.com/index/navier-stokes-solution/","coverage":"FULL_PUBLIC_PAGE"},
+    {"id":"S03","publisher":"OpenAI","type":"primary-proof-paper","title":"Finite Time Blowup for Navier-Stokes","url":"https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf","coverage":"INTRODUCTION_METHOD_OVERVIEW_AND_REFERENCES_NOT_FULL_PROOF_VALIDATION"},
+    {"id":"S04","publisher":"OpenAI on GitHub","type":"formalization-repository","title":"NavierStokesAndEuler","url":"https://github.com/openai/NavierStokesAndEuler","coverage":"PUBLIC_REPOSITORY_README_AND_FILE_SURFACE"},
+    {"id":"S05","publisher":"Tristan Buckmaster / NYU CIMS","type":"primary-personal-statement","title":"Statement on finite-time blowup results and OpenAI communication","url":"https://cims.nyu.edu/~tristanb/statement.pdf","coverage":"FULL_FOUR_PAGE_STATEMENT"},
+    {"id":"S06","publisher":"Clay Mathematics Institute","type":"official-prize-rules","title":"Millennium Prize Description and Rules","url":"https://www.claymath.org/wp-content/uploads/2022/03/millennium_prize_rules_0.pdf","coverage":"FULL_RULES_WITH_FOCUS_ON_SECTIONS_2_7_8"},
+    {"id":"S07","publisher":"Clay Mathematics Institute","type":"official-problem-statement","title":"Existence and Smoothness of the Navier-Stokes Equation","url":"https://www.claymath.org/wp-content/uploads/2022/06/navierstokes.pdf","coverage":"OFFICIAL_PROBLEM_VARIANTS"},
+    {"id":"S08","publisher":"Nature","type":"independent-science-report","title":"OpenAI claims huge maths breakthrough on a famed Millennium Problem","url":"https://www.nature.com/articles/d41586-026-02842-5","coverage":"PUBLIC_REPORT"},
+    {"id":"S09","publisher":"TechCrunch","type":"secondary-report","title":"OpenAI fought dirty on career-making math problem, says NYU mathematician","url":"https://techcrunch.com/2026/09/08/openai-fought-dirty-on-career-making-math-problem-says-nyu-mathematician/","coverage":"PUBLIC_REPORT"},
+    {"id":"S10","publisher":"U.S. Copyright Office","type":"official-guidance","title":"Circular 33: Works Not Protected by Copyright","url":"https://www.copyright.gov/circs/circ33.pdf","coverage":"IDEAS_METHODS_SYSTEMS_AND_EXPRESSION"},
+    {"id":"S11","publisher":"U.S. House Office of the Law Revision Counsel","type":"statute","title":"17 U.S.C. Section 102","url":"https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title17-section102","coverage":"SUBJECT_MATTER_AND_SECTION_102_B"},
+    {"id":"S12","publisher":"American Mathematical Society","type":"professional-ethics-guidance","title":"Ethical Guidelines","url":"https://www.ams.org/about-us/governance/council-minutes0421.pdf","coverage":"CREDIT_AND_PLAGIARISM_GUIDANCE"},
+    {"id":"S13","publisher":"OpenAI","type":"official-data-policy-explainer","title":"How your data is used to improve model performance","url":"https://openai.com/policies/how-your-data-is-used-to-improve-model-performance/","coverage":"INDIVIDUAL_AND_BUSINESS_PRODUCT_DEFAULTS"},
+    {"id":"S14","publisher":"OpenAI Help Center","type":"official-product-guidance","title":"Using Codex with your ChatGPT plan","url":"https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan","coverage":"CODEX_DATA_CONTROLS_AND_PLAN_DIFFERENCES"},
+    {"id":"S15","publisher":"U.S. House Office of the Law Revision Counsel","type":"statute","title":"18 U.S.C. Section 1839","url":"https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section1839&num=0&edition=prelim","coverage":"TRADE_SECRET_AND_MISAPPROPRIATION_DEFINITIONS"},
+    {"id":"S16","publisher":"U.S. Government Publishing Office","type":"regulation","title":"42 CFR Part 93","url":"https://www.govinfo.gov/content/pkg/CFR-2024-title42-vol1/pdf/CFR-2024-title42-vol1-part93.pdf","coverage":"PHS_RESEARCH_MISCONDUCT_DEFINITION_ONLY"},
+    {"id":"S17","publisher":"ALLEA","type":"research-integrity-code","title":"European Code of Conduct for Research Integrity","url":"https://allea.org/code-of-conduct/","coverage":"CURRENT_FRAMEWORK_PAGE"}
+  ]
+}

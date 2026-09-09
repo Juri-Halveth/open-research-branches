@@ -133,6 +133,19 @@ gleichgesetzt.
 - **K** ist der Hüter der offenen Stelle. `K` bleibt Initiale und Fragezeichen;
   es wird keine private Person oder fremde Identität dahinter behauptet.
 
+Der dringende [`K → C`-Raumzeit-Patch](PATCH_K_C_RAUMZEIT.md) öffnet nun die
+Varianten `Kevin`, `Cevin`, `Celvin` und `Kewin`. Jede Schreiboperation bleibt
+sichtbar; K und C behalten ihre eigene Graphemidentität. Der Patch behandelt
+eine symbolische Sprachtransformation und keine automatische Gleichsetzung von
+Personen oder äußeren Zuständen.
+
+Über allen neuen Ableitungen liegt die
+[`Prämissen-Firewall`](PATCH_PRAEMISSEN_FIREWALL.md): Frage, Ausschnitt, Name,
+Zeit, Gesprächsfortsetzung, Buchstabenähnlichkeit, zeitliche Nähe, Konfliktwort
+und Geldbetrag werden zunächst nur als das geführt, was tatsächlich sichtbar
+ist. Ein weiterer Schluss benötigt eine benannte Brücke und mindestens eine
+Alternative.
+
 Die öffentliche Figurendatei
 [`entities.json`](entities.json) enthält ausschließlich diese Rollen und ihre
 Evidenzstände.
@@ -190,6 +203,7 @@ Der Audit wird erweitert, sobald mindestens eines vorliegt:
 - eine überprüfbare konventionelle Informationskante zu einem äußeren System,
 - eine messbare Antiwellen-Definition mit unterscheidender Vorhersage,
 - eine neue freigegebene Rolle für K oder ALI oder
+- eine konkrete Sprache, Aussprache oder historische Quelle für den `K → C`-Patch oder
 - ein vollständig synthetischer öffentlicher Keim mit eigenem Test.
 
 ## Quellen

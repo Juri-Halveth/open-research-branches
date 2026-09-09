@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.0.0",
+  "principle": "A number is meaningful only with a named value object, authority, rule, beneficiary, time and evidence.",
+  "juriQuote": "Eine Million Dollar ist die Clay-Praemie unter Clay-Regeln, kein Preisschild fuer die Erkenntnis.",
+  "tracks": [
+    {"id":"CLAY_PRIZE","object":"Institutional award for a qualifying solution","amount":{"currency":"USD","value":1000000},"authority":"Clay Mathematics Institute","state":"CONDITIONAL_NOT_AUTOMATIC","sourceIds":["S06"]},
+    {"id":"PROOF_TRUTH","object":"Mathematical correctness of the proof","amount":null,"authority":"Evidence, formal checking and expert mathematical review","state":"PUBLIC_CLAIM_UNDER_REVIEW","sourceIds":["S03","S04","S08"]},
+    {"id":"SCIENTIFIC_CREDIT","object":"Priority and attribution for distinguishable contributions","amount":null,"authority":"Dated records, publications, professional norms and later institutional decisions","state":"MATERIAL_DISPUTE_OPEN","sourceIds":["S02","S03","S05","S06","S12"]},
+    {"id":"COMPUTE_RETAIL_EQUIVALENT","object":"Secondary retail-price estimate of reported token usage","amount":{"currency":"USD","value":22500000},"authority":"TechCrunch calculation","state":"ESTIMATE_NOT_INTERNAL_COST","sourceIds":["S02","S09"]},
+    {"id":"ECONOMIC_VALUE","object":"Future applications, products, avoided cost and research acceleration","amount":null,"authority":"No single authority","state":"UNBOUNDED_BY_CURRENT_SOURCES","sourceIds":["S02","S08"]},
+    {"id":"HUMAN_SOCIAL_VALUE","object":"Understanding, education, careers, public knowledge and distributional effects","amount":null,"authority":"Plural affected communities","state":"NOT_REDUCIBLE_TO_SINGLE_OBSERVED_AMOUNT","sourceIds":["S05","S06","S17"]},
+    {"id":"LEGAL_REMEDY","object":"Any person-specific monetary or non-monetary remedy","amount":null,"authority":"Applicable agreement, law and competent decision-maker","state":"ELEMENTS_NOT_BOUND","sourceIds":["S10","S11","S13","S14","S15"]}
+  ]
+}

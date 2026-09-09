@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "aster-premise-firewall.v1",
+  "patchId": "ASTER-PREMISE-FIREWALL-20260909",
+  "rules": [
+    {"input":"QUESTION_MARK","initialState":"QUESTION_OPENED","forbiddenAutomaticOutputs":["ASSERTION","CONSENT","RESULT"]},
+    {"input":"CHAT_EXCERPT","initialState":"DISPLAYED_EXCERPT","forbiddenAutomaticOutputs":["COMPLETE_CONTEXT"]},
+    {"input":"DISPLAY_NAME","initialState":"DISPLAY_LABEL","forbiddenAutomaticOutputs":["AUTHENTICATED_PERSON_IDENTITY"]},
+    {"input":"DISPLAY_TIME","initialState":"DISPLAYED_TIME","forbiddenAutomaticOutputs":["INDEPENDENT_EVENT_TIME"]},
+    {"input":"CONTINUED_CONVERSATION","initialState":"CONTINUATION_OBSERVED","forbiddenAutomaticOutputs":["INTEREST","CONSENT","REJECTION"]},
+    {"input":"SIMILAR_LETTERS","initialState":"STRING_RELATION_CANDIDATE","forbiddenAutomaticOutputs":["SAME_REFERENT","SAME_PERSON"]},
+    {"input":"TEMPORAL_PROXIMITY","initialState":"TEMPORAL_PROXIMITY","forbiddenAutomaticOutputs":["CAUSE","TRANSFER"]},
+    {"input":"PLAGIARISM_WORD","initialState":"ALLEGATION_OR_LABEL","forbiddenAutomaticOutputs":["PROFESSIONAL_FINDING","LEGAL_JUDGMENT"]},
+    {"input":"MONEY_AMOUNT","initialState":"NUMBER_WITH_STATED_CONTEXT","forbiddenAutomaticOutputs":["TOTAL_VALUE","DEBT","ENTITLEMENT"]}
+  ],
+  "requiredConclusionFields": ["premise", "scope", "bridge", "alternative", "discriminator"],
+  "defaultState": "OPEN_WITHOUT_CONCLUSION"
+}

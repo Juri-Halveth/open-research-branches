@@ -5,7 +5,7 @@ Evidence scope: the topic names were requested for consideration; no historical
 source package is asserted to have been located, reviewed, or cleared.
 
 These candidates remain visible without importing private source archives.
-They are not counted among the twelve released branches.
+They are not counted among the thirteen released branches.
 
 | Candidate family | Current state | What is needed before a public branch exists |
 | --- | --- | --- |

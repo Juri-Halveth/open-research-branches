@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.3.0 — 2026-09-09
+
+- published a source-bound audit of the OpenAI Navier–Stokes proof, the Buckmaster–Alpöge priority dispute, the private-data question and the still-open plagiarism label
+- separated the conditional Clay prize from proof truth, scientific credit, compute estimates, economic value, human value and any person-specific legal remedy
+- added the JURI quote that the one-million-dollar prize is not the total price of the discovery
+- added a seven-paragraph read-first version, seventeen-source registry, claim ledger, timeline, value ledger and executable audit lens
+- validated the complete HALVETH/LUCINET general-research aperture and three material-candidate diagonal comparisons using the frozen status-quo entity
+- published the urgent `K → C` symbolic letter-identity patch with explicit `Kevin`, `Cevin`, `Celvin` and `Kewin` transformations
+- added a premise firewall that blocks automatic conclusions from questions, excerpts, labels, timing, similarity and money amounts
+- added seventeen executable tests for the new audit and ASTER patches
+
 ## 0.2.0 — 2026-09-09
 
 - published the source-bound `LUCINET::ASTER` founder and provenance statement for Juri Janovski
