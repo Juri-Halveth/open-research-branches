@@ -1,0 +1,57 @@
+{
+  "schemaVersion": "1.0.0",
+  "width": 3,
+  "height": 2,
+  "channels": 4,
+  "sourceDeclaration": {
+    "kind": "SYNTHETIC_GENERATED",
+    "containsPersonalData": false,
+    "containsThirdPartyContent": false,
+    "capturedFromDevice": false
+  },
+  "region": {
+    "x": 0,
+    "y": 0,
+    "width": 2,
+    "height": 2
+  },
+  "threshold": 10,
+  "frames": [
+    {
+      "id": "frame-000",
+      "atMs": 0,
+      "pixels": [
+        0, 0, 0, 255,
+        0, 0, 0, 255,
+        0, 0, 0, 255,
+        0, 0, 0, 255,
+        0, 0, 0, 255,
+        0, 0, 0, 255
+      ]
+    },
+    {
+      "id": "frame-001",
+      "atMs": 100,
+      "pixels": [
+        0, 0, 0, 255,
+        20, 0, 0, 255,
+        200, 0, 0, 255,
+        0, 0, 0, 255,
+        0, 0, 0, 255,
+        0, 0, 0, 255
+      ]
+    },
+    {
+      "id": "frame-002",
+      "atMs": 220,
+      "pixels": [
+        0, 0, 0, 255,
+        25, 0, 0, 255,
+        0, 200, 0, 255,
+        0, 0, 0, 255,
+        0, 0, 0, 255,
+        0, 0, 0, 255
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+name: Continue an open branch
+description: Propose a bounded test, source, counterhypothesis, or synthetic fixture.
+title: "[branch] "
+labels: ["continuation"]
+body:
+  - type: input
+    id: branch
+    attributes:
+      label: Branch ID
+      placeholder: water-photonic-open-questions
+    validations:
+      required: true
+  - type: dropdown
+    id: contribution
+    attributes:
+      label: Contribution type
+      options:
+        - Synthetic fixture
+        - Reproduction step
+        - Counterhypothesis
+        - Primary source
+        - Measurement or calibration method
+        - Documentation correction
+    validations:
+      required: true
+  - type: textarea
+    id: claim
+    attributes:
+      label: Exact claim or question affected
+      description: Keep observation, inference, unknowns, and non-proof separate.
+    validations:
+      required: true
+  - type: textarea
+    id: method
+    attributes:
+      label: Proposed bounded method
+      description: Include inputs, expected outputs, coverage, and a falsifier.
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Public-data check
+      options:
+        - label: I will not attach personal, client, wallet, browser, health, controlled-genomic, credential, or private disclosure data.
+          required: true
+        - label: I have read the branch claim ceiling and `PUBLICATION_POLICY.md`.
+          required: true
+

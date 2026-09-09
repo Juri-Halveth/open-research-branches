@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Local-first research prototype for explicit focus, context layers and transparent review.">
+  <title>Focus Kernel Research</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="app">
+    <header class="topbar">
+      <div class="mark" aria-hidden="true">FK</div>
+      <div>
+        <p class="eyebrow">LOCAL-FIRST REFERENCE IMPLEMENTATION</p>
+        <h1>Focus Kernel Research</h1>
+        <p class="sub">Keep confirmed intent, evidence and uncertainty separate.</p>
+      </div>
+      <p class="status"><span aria-hidden="true"></span>Session only · no network · no autonomous action</p>
+    </header>
+
+    <section class="surface hero">
+      <div>
+        <p class="eyebrow">VISIBLE RESULT + BOUND CONTEXT</p>
+        <h2>A status label is not the whole decision.</h2>
+        <p>A visible result can be useful while its sources, assumptions, coverage gaps and required user decisions remain visible beside it.</p>
+      </div>
+      <div class="model" aria-label="Diagram: visible result above source, context, uncertainty and authority layers">
+        <span>visible result</span>
+        <span>source · context · uncertainty · authority</span>
+      </div>
+    </section>
+
+    <section class="two-column setup">
+      <article class="card">
+        <p class="eyebrow">01 · CONFIRM THE REFERENCE</p>
+        <label for="goal">Confirmed main goal</label>
+        <textarea id="goal" placeholder="What should remain the main objective?"></textarea>
+        <label for="task">Current bounded task</label>
+        <textarea id="task" placeholder="What is being worked on now?"></textarea>
+        <button type="button" class="primary" id="confirmFocus">Confirm focus</button>
+        <p class="micro" id="focusStatus" aria-live="polite">No focus confirmed.</p>
+      </article>
+
+      <article class="card focus-card" id="focusCard">
+        <p class="eyebrow">CONFIRMED FOCUS</p>
+        <h3>Waiting for explicit confirmation.</h3>
+        <p>Reviewers may question a focus. They cannot silently replace it.</p>
+      </article>
+    </section>
+
+    <section class="card workbench">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">02 · REVIEW AN INPUT IN LAYERS</p>
+          <h2>New input</h2>
+        </div>
+        <button type="button" class="ghost" id="insertExample">Insert example</button>
+      </div>
+      <label for="input">Statement, question, finding or reviewer output</label>
+      <textarea id="input" class="large" placeholder="What should be reviewed?"></textarea>
+      <label for="projectContext">Additional project context <span>(optional)</span></label>
+      <textarea id="projectContext" placeholder="Relevant facts, scope or prior decisions."></textarea>
+      <button type="button" class="primary" id="analyze">Review context</button>
+    </section>
+
+    <section id="results" hidden aria-live="polite">
+      <section class="decision" id="decision"></section>
+      <section class="two-column result-grid">
+        <article class="card">
+          <p class="eyebrow">ANALYSIS LAYERS</p>
+          <div id="layers" class="stack"></div>
+        </article>
+        <article class="card">
+          <p class="eyebrow">BOUNDED REVIEWERS · UNTRUSTED OUTPUT</p>
+          <div id="reviews" class="stack"></div>
+        </article>
+      </section>
+      <section class="card">
+        <p class="eyebrow">SHORT DECISION LOG · SESSION ONLY</p>
+        <div id="log" class="stack"></div>
+      </section>
+    </section>
+  </main>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,377 @@
+{
+  "schemaVersion": "1.0.0",
+  "snapshotDate": "2026-09-09",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "MSN syndication of the Dagens article",
+      "publisher": "MSN",
+      "type": "syndication",
+      "url": "https://www.msn.com/de-de/politik/beh%C3%B6rde/putin-durch-l%C3%BCgen-geblendet-russisches-milit%C3%A4r-soll-ihn-systematisch-desinformieren/ar-AA2bRckR"
+    },
+    {
+      "id": "S02",
+      "title": "Putin durch Luegen geblendet",
+      "publisher": "Dagens.de",
+      "type": "secondary-news",
+      "url": "https://dagens.de/krieg/putin-durch-luegen-geblendet-russisches-militaer-soll-ihn-systematisch-desinformieren"
+    },
+    {
+      "id": "S03",
+      "title": "Russian commanders lying to Putin",
+      "publisher": "Daily Express",
+      "type": "secondary-news",
+      "url": "https://www.express.co.uk/news/world/2246403/russian-commanders-lying-putin-kremlin-ukraine"
+    },
+    {
+      "id": "S04",
+      "title": "Russian Offensive Campaign Assessment, September 6, 2026",
+      "publisher": "Institute for the Study of War",
+      "type": "open-source-analysis",
+      "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-september-6-2026/"
+    },
+    {
+      "id": "S05",
+      "title": "Russian Offensive Campaign Assessment, September 7, 2026",
+      "publisher": "Institute for the Study of War",
+      "type": "open-source-analysis",
+      "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-september-7-2026/"
+    },
+    {
+      "id": "S06",
+      "title": "GCHQ Annual Lecture 2026",
+      "publisher": "GCHQ",
+      "type": "official-statement",
+      "url": "https://www.gchq.gov.uk/sites/default/files/2026-05/GCHQ-Annual-Lecture-2026---as-delivered.pdf"
+    },
+    {
+      "id": "S07",
+      "title": "Ukraine ready for a temporary pause in long-range strikes",
+      "publisher": "President of Ukraine",
+      "type": "official-statement",
+      "url": "https://www.president.gov.ua/news/ukrayina-gotova-dotrimuvatisya-rezhimu-pripinennya-povitryan-106265"
+    },
+    {
+      "id": "S08",
+      "title": "Short pause in strikes during US envoys' travel",
+      "publisher": "Associated Press",
+      "type": "independent-news",
+      "url": "https://apnews.com/article/36a991feaff241bb8f24857ac159202a"
+    },
+    {
+      "id": "S09",
+      "title": "Finnish intelligence view of Putin's information picture",
+      "publisher": "Associated Press",
+      "type": "independent-news",
+      "url": "https://apnews.com/article/10ea5ad20158945f18c718375b84a2f3"
+    },
+    {
+      "id": "S10",
+      "title": "Biography of Yury Ushakov",
+      "publisher": "President of Russia",
+      "type": "official-biography",
+      "url": "https://en.kremlin.ru/catalog/persons/305/biography"
+    },
+    {
+      "id": "S11",
+      "title": "Russian privatization retrospective",
+      "publisher": "World Bank",
+      "type": "institutional-retrospective",
+      "url": "https://documents1.worldbank.org/curated/en/862261637233938240/pdf/Full-Report.pdf"
+    },
+    {
+      "id": "S12",
+      "title": "Russian enterprise reform and privatization overview",
+      "publisher": "World Bank",
+      "type": "institutional-report",
+      "url": "https://documents1.worldbank.org/curated/en/603201468776402502/pdf/multi0page.pdf"
+    },
+    {
+      "id": "S13",
+      "title": "Russia's transition and privatization",
+      "publisher": "International Monetary Fund",
+      "type": "institutional-retrospective",
+      "url": "https://www.elibrary.imf.org/display/book/9781589060135/ch07.xml"
+    },
+    {
+      "id": "S14",
+      "title": "HIID work in Russia and Ukraine",
+      "publisher": "US Government Accountability Office",
+      "type": "government-audit",
+      "url": "https://www.gao.gov/products/nsiad-97-27"
+    },
+    {
+      "id": "S15",
+      "title": "Loans for Shares Revisited",
+      "publisher": "National Bureau of Economic Research",
+      "type": "research-paper",
+      "url": "https://www.nber.org/papers/w15819"
+    },
+    {
+      "id": "S16",
+      "title": "NATO-Russia Founding Act",
+      "publisher": "NATO",
+      "type": "official-agreement",
+      "url": "https://www.nato.int/cps/en/natohq/official_texts_25468.htm"
+    },
+    {
+      "id": "S17",
+      "title": "Bucharest Summit Declaration",
+      "publisher": "NATO",
+      "type": "official-declaration",
+      "url": "https://www.nato.int/cps/en/natolive/official_texts_8443.htm"
+    },
+    {
+      "id": "S18",
+      "title": "Territorial integrity of Ukraine, A/RES/68/262",
+      "publisher": "United Nations General Assembly",
+      "type": "official-resolution",
+      "url": "https://digitallibrary.un.org/record/767883?ln=en"
+    },
+    {
+      "id": "S19",
+      "title": "Aggression against Ukraine, A/RES/ES-11/1",
+      "publisher": "United Nations General Assembly",
+      "type": "official-resolution",
+      "url": "https://digitallibrary.un.org/record/3959039?ln=en"
+    },
+    {
+      "id": "S20",
+      "title": "Special Monitoring Mission to Ukraine archive",
+      "publisher": "OSCE",
+      "type": "official-monitoring-archive",
+      "url": "https://www.osce.org/special-monitoring-mission-to-ukraine"
+    },
+    {
+      "id": "S21",
+      "title": "Restrictions on SMM freedom of movement",
+      "publisher": "OSCE",
+      "type": "official-monitoring-report",
+      "url": "https://www.osce.org/ukraine-smm/275521"
+    },
+    {
+      "id": "S22",
+      "title": "Support for lasting peace in Ukraine, A/RES/ES-11/10",
+      "publisher": "United Nations General Assembly",
+      "type": "official-resolution",
+      "url": "https://digitallibrary.un.org/record/4103750?ln=en"
+    },
+    {
+      "id": "S23",
+      "title": "Russia-Ukraine international armed conflict",
+      "publisher": "International Committee of the Red Cross",
+      "type": "humanitarian-operations",
+      "url": "https://www.icrc.org/en/where-we-work/europe-central-asia/ukraine"
+    },
+    {
+      "id": "S24",
+      "title": "Nuclear safety, security and safeguards in Ukraine",
+      "publisher": "International Atomic Energy Agency",
+      "type": "technical-operations",
+      "url": "https://www.iaea.org/topics/response/nuclear-safety-security-and-safeguards-in-ukraine"
+    },
+    {
+      "id": "S25",
+      "title": "1991 Ukrainian independence referendum summary",
+      "publisher": "Verkhovna Rada of Ukraine",
+      "type": "official-record",
+      "url": "https://zakon.rada.gov.ua/rada/show/v-148729-16?dark=1"
+    },
+    {
+      "id": "S26",
+      "title": "Budapest Memorandum",
+      "publisher": "United Nations",
+      "type": "official-agreement",
+      "url": "https://digitallibrary.un.org/record/169471/files/A_49_765_S_1994_1399-EN.pdf"
+    },
+    {
+      "id": "S27",
+      "title": "Treaty on Friendship, Cooperation and Partnership, 1997",
+      "publisher": "United Nations",
+      "type": "official-treaty",
+      "url": "https://digitallibrary.un.org/record/240191/files/A_52_174-EN.pdf"
+    },
+    {
+      "id": "S28",
+      "title": "Putin official biography",
+      "publisher": "President of Russia",
+      "type": "official-biography",
+      "url": "https://en.kremlin.ru/catalog/persons/54/biography"
+    },
+    {
+      "id": "S29",
+      "title": "Transfer of Crimea Oblast, 1954",
+      "publisher": "Russian State Archive",
+      "type": "official-archive",
+      "url": "https://krym.rusarchives.ru/node/878"
+    },
+    {
+      "id": "S30",
+      "title": "Act of Declaration of Independence of Ukraine",
+      "publisher": "Verkhovna Rada of Ukraine",
+      "type": "official-record",
+      "url": "https://zakon.rada.gov.ua/rada/show/en/1427-12"
+    },
+    {
+      "id": "S31",
+      "title": "Report on the human rights situation in Ukraine, April 2014",
+      "publisher": "Office of the UN High Commissioner for Human Rights",
+      "type": "official-monitoring-report",
+      "url": "https://ukraine.ohchr.org/sites/default/files/2024-03/Ukraine_Report_15April2014.pdf"
+    },
+    {
+      "id": "S32",
+      "title": "Ukraine and the Netherlands v. Russia admissibility decision",
+      "publisher": "European Court of Human Rights",
+      "type": "judicial-record",
+      "url": "https://hudoc.echr.coe.int/app/conversion/pdf/?id=001-222889&library=ECHR"
+    },
+    {
+      "id": "S33",
+      "title": "OSCE SMM update, April 16, 2014",
+      "publisher": "OSCE",
+      "type": "official-monitoring-report",
+      "url": "https://www.osce.org/ukraine-smm/117813"
+    },
+    {
+      "id": "S34",
+      "title": "OSCE SMM update, April 20, 2014",
+      "publisher": "OSCE",
+      "type": "official-monitoring-report",
+      "url": "https://www.osce.org/ukraine-smm/117881"
+    },
+    {
+      "id": "S35",
+      "title": "Wagner Group added to EU sanctions list",
+      "publisher": "Council of the European Union",
+      "type": "official-statement",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2023/04/13/russia-s-war-of-aggression-against-ukraine-wagner-group-and-ria-fan-added-to-the-eu-s-sanctions-list/"
+    },
+    {
+      "id": "S36",
+      "title": "Ukraine presidential election 2004",
+      "publisher": "OSCE Office for Democratic Institutions and Human Rights",
+      "type": "official-election-observation",
+      "url": "https://odihr.osce.org/odihr/elections/ukraine/eoms/presidential_2004"
+    },
+    {
+      "id": "S37",
+      "title": "Restoration of negotiations is important",
+      "publisher": "President of Ukraine",
+      "type": "official-statement",
+      "url": "https://www.president.gov.ua/en/news/vidnovlennya-peregovornogo-procesu-ye-vazhlivim-i-ukrayina-v-106273"
+    },
+    {
+      "id": "S38",
+      "title": "Meeting on September 8, 2026",
+      "publisher": "President of Russia",
+      "type": "official-statement",
+      "url": "https://en.kremlin.ru/events/president/news/80716"
+    },
+    {
+      "id": "S39",
+      "title": "Secretary-General briefing, September 8, 2026",
+      "publisher": "United Nations",
+      "type": "automated-transcript-not-official-record",
+      "url": "https://transcripts.un.org/en/briefing/sg/2026-09-08"
+    },
+    {
+      "id": "S40",
+      "title": "Civilian casualties in Ukraine in the first half of 2026",
+      "publisher": "Office of the UN High Commissioner for Human Rights",
+      "type": "official-monitoring-report",
+      "url": "https://ukraine.ohchr.org/en/Civilian-Casualties-Soar-in-Ukraine-in-the-First-Half-of-2026-Amid-Escalating-Attacks-and-Intensifying-Use-of-Deadly-Weapons-UN-Human-Rights-Monitors-Say"
+    },
+    {
+      "id": "S41",
+      "title": "Guidance on Mediation of Ceasefires",
+      "publisher": "United Nations Peacemaker",
+      "type": "official-guidance",
+      "url": "https://peacemaker.un.org/en/thematic-areas/ceasefires-security-arrangements/guidance-on-mediation-of-ceasefires"
+    },
+    {
+      "id": "S42",
+      "title": "OSCE SMM experience with windows of silence",
+      "publisher": "OSCE",
+      "type": "official-mission-record",
+      "url": "https://www.osce.org/chairpersonship/514958"
+    },
+    {
+      "id": "S43",
+      "title": "OSCE decision-making",
+      "publisher": "OSCE",
+      "type": "official-governance-description",
+      "url": "https://www.osce.org/decision-making"
+    },
+    {
+      "id": "S44",
+      "title": "Paris Declaration on security guarantees for Ukraine",
+      "publisher": "President of Ukraine",
+      "type": "official-multilateral-declaration",
+      "url": "https://www.president.gov.ua/en/news/parizka-deklaraciya-nadijni-garantiyi-bezpeki-dlya-micnogo-j-102313"
+    },
+    {
+      "id": "S45",
+      "title": "ICRC work in the Russia-Ukraine international armed conflict",
+      "publisher": "International Committee of the Red Cross",
+      "type": "humanitarian-operations-faq",
+      "url": "https://www.icrc.org/en/article/FAQ-icrc-work-russia-ukraine-international-armed-conflict"
+    },
+    {
+      "id": "S46",
+      "title": "Return of Ukrainian children, A/RES/ES-11/9",
+      "publisher": "United Nations General Assembly",
+      "type": "official-resolution",
+      "url": "https://documents.un.org/api/symbol/access?l=en&s=A%2FRES%2FES-11%2F9&t=pdf"
+    },
+    {
+      "id": "S47",
+      "title": "EU sanctions against Russia",
+      "publisher": "Council of the European Union",
+      "type": "official-policy-overview",
+      "url": "https://www.consilium.europa.eu/en/policies/sanctions-against-russia/"
+    },
+    {
+      "id": "S48",
+      "title": "Helsinki Final Act",
+      "publisher": "OSCE",
+      "type": "official-agreement",
+      "url": "https://odihr.osce.org/sites/default/files/f/documents/0/f/16378.pdf"
+    },
+    {
+      "id": "S49",
+      "title": "Ukrainian commander appears in Sviatohirsk after Russian capture claim",
+      "publisher": "Ukrainska Pravda",
+      "type": "news-with-source-video",
+      "url": "https://www.pravda.com.ua/eng/news/2026/09/07/8052226/"
+    },
+    {
+      "id": "S50",
+      "title": "Presidential Executive Office members",
+      "publisher": "President of Russia",
+      "type": "official-role-directory",
+      "url": "https://en.kremlin.ru/structure/administration/members"
+    },
+    {
+      "id": "S51",
+      "title": "Informational Autocrats",
+      "publisher": "American Economic Association",
+      "type": "research-paper",
+      "url": "https://pubs.aeaweb.org/doi/10.1257/jep.33.4.100"
+    },
+    {
+      "id": "S52",
+      "title": "The dictator's dilemma: information and authoritarian governance",
+      "publisher": "Journal of Economic Behavior and Organization",
+      "type": "research-paper",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0167278924001003"
+    },
+    {
+      "id": "S53",
+      "title": "Human Rights Assessment Mission in Ukraine, March-April 2014",
+      "publisher": "OSCE Office for Democratic Institutions and Human Rights",
+      "type": "official-assessment-report",
+      "url": "https://www.osce.org/sites/default/files/f/documents/d/3/118476.pdf"
+    }
+  ]
+}

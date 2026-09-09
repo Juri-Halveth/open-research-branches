@@ -1,0 +1,12 @@
+{
+  "name": "document-issue-reference-verifier",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Synthetic reference-currentness verifier for research and teaching.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "validate": "node --check src/reference-verifier.mjs && node --check test/reference-verifier.test.mjs && node --test"
+  }
+}

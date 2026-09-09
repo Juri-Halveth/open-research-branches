@@ -1,0 +1,14 @@
+{
+  "name": "bounded-knowledge-reuse-inventory",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Offline metadata gate for bounded public-knowledge reuse review.",
+  "license": "MIT",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test"
+  }
+}

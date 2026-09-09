@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Juri-Halveth/open-research-branches/schemas/self-observation.schema.json",
+  "title": "Empty self-observation record",
+  "description": "Template only. Do not publish records containing real health or identity data.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["record_id", "relative_minute", "variable", "method", "coverage_state"],
+  "properties": {
+    "record_id": { "type": "string", "pattern": "^SYNTH-[A-Z0-9-]+$" },
+    "relative_minute": { "type": "integer", "minimum": 0 },
+    "variable": { "type": "string", "minLength": 1, "maxLength": 80 },
+    "value": { "type": ["number", "string", "null"] },
+    "unit": { "type": ["string", "null"], "maxLength": 30 },
+    "method": { "type": "string", "minLength": 1, "maxLength": 120 },
+    "coverage_state": {
+      "enum": ["OBSERVED", "OBSERVATION_GAP", "UNKNOWN"]
+    },
+    "interpretation_state": {
+      "enum": ["UNASSESSED", "HYPOTHESIS", "UNKNOWN"]
+    }
+  }
+}
+

@@ -1,0 +1,41 @@
+{
+  "protocolVersion": "1.0.0",
+  "marker": "Was los?.",
+  "markerMeaning": {
+    "questionMark": "Keep the inquiry open.",
+    "period": "Record the evidence state reached in this iteration."
+  },
+  "requiredFields": [
+    "observation",
+    "question",
+    "candidateExplanations",
+    "discriminator",
+    "sourceAndMethod",
+    "evidenceState",
+    "nextObservationOrReopenTrigger"
+  ],
+  "evidenceStates": [
+    "OBSERVED",
+    "STRONGLY_SUPPORTED",
+    "INFERRED",
+    "UNKNOWN",
+    "NOT_PROVEN"
+  ],
+  "iterationRule": "Repeat only when a new source, observation, definition or discriminator can change the evidence state.",
+  "finiteStopRule": "If no current discriminator is available, record UNKNOWN or NOT_PROVEN and bind a concrete reopen trigger.",
+  "example": {
+    "observation": "A public territorial claim conflicts with later geolocated material.",
+    "question": "Was the earlier claim a reporting error, a timing difference, a definition difference or strategic public messaging?",
+    "candidateExplanations": [
+      "upward reporting error",
+      "public statement differs from private briefing",
+      "different definitions of infiltration and control",
+      "deliberate strategic messaging"
+    ],
+    "discriminator": "Compare the timestamped internal claim definition, later control evidence and resource decisions made during the same interval.",
+    "sourceAndMethod": "Public-source comparison with explicit time and coverage limits.",
+    "evidenceState": "UNKNOWN",
+    "nextObservationOrReopenTrigger": "Authenticated briefing evidence or an independently timestamped same-interval operational record."
+  }
+}
+

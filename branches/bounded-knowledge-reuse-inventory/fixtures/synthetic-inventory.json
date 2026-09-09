@@ -1,0 +1,89 @@
+{
+  "schemaVersion": "1.0.0",
+  "records": [
+    {
+      "id": "published-method",
+      "title": "Published comparison method",
+      "sourceStatus": "PUBLIC_OPEN_LICENSE",
+      "evidenceState": "OBSERVED",
+      "dataClass": "PUBLIC",
+      "licenseStatus": "CLEAR",
+      "activeMainProject": false,
+      "disclosureStatus": "PUBLICLY_DISCLOSED",
+      "personalLinkability": "NONE",
+      "containsSecrets": false,
+      "containsOperationalExploitDetail": false,
+      "requestedOutput": "LINK_ONLY"
+    },
+    {
+      "id": "active-research",
+      "title": "Active research branch",
+      "sourceStatus": "OWNER_AUTHORED",
+      "evidenceState": "OBSERVED",
+      "dataClass": "INTERNAL_PSEUDONYMIZED",
+      "licenseStatus": "CLEAR",
+      "activeMainProject": true,
+      "disclosureStatus": "NONE",
+      "personalLinkability": "LOW",
+      "containsSecrets": false,
+      "containsOperationalExploitDetail": false,
+      "requestedOutput": "SANITIZED_DERIVATIVE"
+    },
+    {
+      "id": "private-report",
+      "title": "Private submitted report",
+      "sourceStatus": "OWNER_AUTHORED",
+      "evidenceState": "OBSERVED",
+      "dataClass": "EXTERNAL_MINIMIZED",
+      "licenseStatus": "CLEAR",
+      "activeMainProject": false,
+      "disclosureStatus": "SUBMITTED_PRIVATE",
+      "personalLinkability": "LOW",
+      "containsSecrets": false,
+      "containsOperationalExploitDetail": false,
+      "requestedOutput": "SANITIZED_DERIVATIVE"
+    },
+    {
+      "id": "restricted-notes",
+      "title": "Restricted synthetic notes",
+      "sourceStatus": "OWNER_AUTHORED",
+      "evidenceState": "OBSERVED",
+      "dataClass": "RESTRICTED_RAW",
+      "licenseStatus": "CLEAR",
+      "activeMainProject": false,
+      "disclosureStatus": "NONE",
+      "personalLinkability": "HIGH",
+      "containsSecrets": false,
+      "containsOperationalExploitDetail": false,
+      "requestedOutput": "SANITIZED_DERIVATIVE"
+    },
+    {
+      "id": "defensive-pattern",
+      "title": "Defensive parser pattern",
+      "sourceStatus": "OWNER_AUTHORED",
+      "evidenceState": "STRONGLY_SUPPORTED",
+      "dataClass": "EXTERNAL_MINIMIZED",
+      "licenseStatus": "CLEAR",
+      "activeMainProject": false,
+      "disclosureStatus": "PUBLICLY_DISCLOSED",
+      "personalLinkability": "NONE",
+      "containsSecrets": false,
+      "containsOperationalExploitDetail": true,
+      "requestedOutput": "SANITIZED_DERIVATIVE"
+    },
+    {
+      "id": "synthetic-checklist",
+      "title": "Synthetic release checklist",
+      "sourceStatus": "OWNER_AUTHORED",
+      "evidenceState": "OBSERVED",
+      "dataClass": "PUBLIC",
+      "licenseStatus": "CLEAR",
+      "activeMainProject": false,
+      "disclosureStatus": "NONE",
+      "personalLinkability": "NONE",
+      "containsSecrets": false,
+      "containsOperationalExploitDetail": false,
+      "requestedOutput": "SYNTHETIC_FIXTURE"
+    }
+  ]
+}

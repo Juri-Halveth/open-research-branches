@@ -1,0 +1,211 @@
+{
+  "schemaVersion": "1.0.0",
+  "snapshotDate": "2026-09-09",
+  "claimCeiling": "SOURCE_BOUND_ANALYSIS_NOT_ACCESS_TO_PRIVATE_BRIEFINGS_OR_NEGOTIATIONS",
+  "claims": [
+    {
+      "id": "SRC-001",
+      "statement": "The MSN item is a syndication of a Dagens article that relies on Daily Express and ultimately on the September 6 ISW assessment for its central claim.",
+      "status": "OBSERVED",
+      "sourceIds": ["S01", "S02", "S03", "S04"],
+      "scope": "publication and attribution chain"
+    },
+    {
+      "id": "SRC-002",
+      "statement": "Dagens and Daily Express do not provide two independent confirmations of the central misinformation claim because both propagate the same ISW analytical origin.",
+      "status": "STRONGLY_SUPPORTED",
+      "sourceIds": ["S02", "S03", "S04"],
+      "scope": "source independence"
+    },
+    {
+      "id": "INF-001",
+      "statement": "Publicly checkable front data repeatedly contradict concrete Russian claims of captured territory.",
+      "status": "STRONGLY_SUPPORTED",
+      "sourceIds": ["S04", "S05", "S49"],
+      "scope": "specific public battlefield claims"
+    },
+    {
+      "id": "INF-002",
+      "statement": "Russian military reporting incentives and recurring embellished reports can distort information moving upward through the command system.",
+      "status": "STRONGLY_SUPPORTED",
+      "sourceIds": ["S04", "S05"],
+      "scope": "organizational pattern visible in cited open sources"
+    },
+    {
+      "id": "INF-003",
+      "statement": "ISW assesses that distorted military reporting is likely contributing to Putin's confidence and unwillingness to compromise; the reviewed sources do not establish personal causation.",
+      "status": "INFERRED",
+      "sourceIds": ["S04", "S09"],
+      "scope": "causal model of a private decision process",
+      "limitations": "No complete authenticated briefing record or direct observation of belief is public."
+    },
+    {
+      "id": "INF-004",
+      "statement": "The exact information Putin receives, which reports he believes, and whether he knowingly uses public exaggeration remain unknown in the reviewed public record.",
+      "status": "UNKNOWN",
+      "sourceIds": ["S04", "S09"],
+      "scope": "private presidential information state",
+      "reopenTrigger": "Authenticated lawfully published briefing records or multiple independent direct witnesses with compatible chronology."
+    },
+    {
+      "id": "WAR-001",
+      "statement": "ISW's October 2032 date is a conditional linear extrapolation based on an August 2026 advance rate, not a fixed prediction.",
+      "status": "OBSERVED",
+      "sourceIds": ["S04"],
+      "scope": "model form and stated limitation"
+    },
+    {
+      "id": "WAR-002",
+      "statement": "Almost 500,000 Russian military deaths is a public British government estimate whose full reproducible methodology is not included in the cited speech.",
+      "status": "OBSERVED",
+      "sourceIds": ["S06"],
+      "scope": "existence and disclosure limit of the official estimate"
+    },
+    {
+      "id": "PEACE-001",
+      "statement": "Ukraine and Russia publicly accepted a short and geographically bounded pause in certain long-range strikes during US envoys' travel.",
+      "status": "STRONGLY_SUPPORTED",
+      "sourceIds": ["S04", "S07", "S08"],
+      "scope": "bounded September 2026 arrangement"
+    },
+    {
+      "id": "PEACE-002",
+      "statement": "The short pause proves readiness and capacity for a durable comprehensive ceasefire.",
+      "status": "NOT_PROVEN",
+      "sourceIds": ["S04", "S07", "S08"],
+      "scope": "durable peace inference",
+      "reopenTrigger": "Sustained verified compliance under a comprehensive agreement."
+    },
+    {
+      "id": "PEACE-003",
+      "statement": "Ukraine and Russia publicly described continued or renewed negotiation activity in early September 2026; an automated UN transcript attributes an encouraging but ceasefire-focused response to the Secretary-General's spokesperson.",
+      "status": "OBSERVED",
+      "sourceIds": ["S37", "S38", "S39"],
+      "scope": "publicly declared negotiation activity"
+    },
+    {
+      "id": "PEACE-004A",
+      "statement": "No jointly signed comprehensive ceasefire with a common contact-line map and complete verification mechanism appears in the reviewed public corpus.",
+      "status": "OBSERVED",
+      "sourceIds": ["S37", "S38", "S39", "S41"],
+      "scope": "absence within the explicitly reviewed public corpus"
+    },
+    {
+      "id": "PEACE-004B",
+      "statement": "Whether an unpublished draft or agreement with those characteristics exists beyond the reviewed public record remains unknown.",
+      "status": "UNKNOWN",
+      "sourceIds": ["S37", "S38", "S39", "S41"],
+      "scope": "state beyond the reviewed public corpus",
+      "reopenTrigger": "Publication of an authenticated jointly signed agreement and its operative annexes."
+    },
+    {
+      "id": "HARM-001",
+      "statement": "OHCHR verified 1,396 civilian deaths and 7,978 injuries in Ukraine from January through June 2026 within its stated methodology and coverage.",
+      "status": "OBSERVED",
+      "sourceIds": ["S40"],
+      "scope": "UN-verified civilian casualties in the defined period"
+    },
+    {
+      "id": "HIST-001",
+      "statement": "Russia distributed privatization vouchers at mass scale and transferred thousands of enterprises during the 1992-1994 program.",
+      "status": "STRONGLY_SUPPORTED",
+      "sourceIds": ["S11", "S12", "S13"],
+      "scope": "formal voucher privatization"
+    },
+    {
+      "id": "HIST-002",
+      "statement": "Weak safeguards, hardship, information asymmetry and insider advantages contributed to concentrated control despite mass voucher distribution.",
+      "status": "STRONGLY_SUPPORTED",
+      "sourceIds": ["S11", "S12", "S13", "S15"],
+      "scope": "institutional outcome of privatization"
+    },
+    {
+      "id": "HIST-003",
+      "statement": "Western institutions funded programs and provided advisers for parts of Russian market and privatization reform.",
+      "status": "OBSERVED",
+      "sourceIds": ["S11", "S12", "S14"],
+      "scope": "documented advisory and funding roles"
+    },
+    {
+      "id": "HIST-004",
+      "statement": "The documented advisory role proves that a single Western actor owned or controlled the whole Russian privatization transfer.",
+      "status": "NOT_PROVEN",
+      "sourceIds": ["S11", "S12", "S13", "S14", "S15"],
+      "scope": "singular-control claim",
+      "reopenTrigger": "Transaction-level ownership and command evidence covering the claimed whole."
+    },
+    {
+      "id": "HIST-005",
+      "statement": "The 1991 Ukrainian independence referendum received a majority in every counted administrative region, including Crimea, Donetsk and Luhansk.",
+      "status": "OBSERVED",
+      "sourceIds": ["S25"],
+      "scope": "official 1991 referendum result"
+    },
+    {
+      "id": "HIST-006",
+      "statement": "Russia formally recognized Ukraine's sovereignty and existing borders in post-Soviet agreements before 2014.",
+      "status": "STRONGLY_SUPPORTED",
+      "sourceIds": ["S26", "S27"],
+      "scope": "formal interstate commitments"
+    },
+    {
+      "id": "HIST-007",
+      "statement": "Armed forces under Russian control seized strategic and governmental sites in Crimea before the March 2014 status referendum.",
+      "status": "STRONGLY_SUPPORTED",
+      "sourceIds": ["S18", "S31", "S53"],
+      "scope": "Crimea sequence and external control"
+    },
+    {
+      "id": "LEGAL-001",
+      "statement": "The UN General Assembly rejected the validity of the Crimea referendum as a basis for changing territorial status and condemned Russia's 2022 aggression.",
+      "status": "OBSERVED",
+      "sourceIds": ["S18", "S19"],
+      "scope": "UN General Assembly positions"
+    },
+    {
+      "id": "ROLE-001",
+      "statement": "Yury Ushakov's official public biography identifies him as a long-serving diplomat and presidential aide.",
+      "status": "OBSERVED",
+      "sourceIds": ["S10"],
+      "scope": "public role"
+    },
+    {
+      "id": "ROLE-002",
+      "statement": "A shared given name, thematic resonance or generic diplomatic phrases prove appropriation of another person's identity or ideas.",
+      "status": "NOT_PROVEN",
+      "sourceIds": ["S10"],
+      "scope": "identity and authorship provenance",
+      "reopenTrigger": "A dated earlier source, distinctive matching expression, plausible access route and later source-bound reuse."
+    },
+    {
+      "id": "DESIGN-001",
+      "statement": "Short renewable pauses, separate party accounts, independent observations, explicit unknowns and fast incident correction form a testable peace-verification design.",
+      "status": "INFERRED",
+      "sourceIds": ["S08", "S20", "S21", "S22", "S23", "S24"],
+      "scope": "design inference from observed precedents",
+      "limitations": "The design has not been jointly adopted or field-tested as one system."
+    },
+    {
+      "id": "DESIGN-002",
+      "statement": "A shared front-data protocol with definitions, timestamps, geolocation, competing accounts and correction history would reduce ambiguity around disputed capture claims.",
+      "status": "INFERRED",
+      "sourceIds": ["S04", "S05", "S20", "S21"],
+      "scope": "information-quality mechanism"
+    },
+    {
+      "id": "DESIGN-003",
+      "statement": "Ceasefire incident records should keep reports, observations, corroboration, attribution and unresolved status separate.",
+      "status": "INFERRED",
+      "sourceIds": ["S20", "S21", "S41", "S42"],
+      "scope": "verification and dispute-resolution design"
+    },
+    {
+      "id": "DESIGN-004",
+      "statement": "An invited monitoring mission outside a consensus-blocked institution is an institutional design candidate requiring a separate legal basis and express party agreement.",
+      "status": "INFERRED",
+      "sourceIds": ["S41", "S42", "S43"],
+      "scope": "institutional fallback design",
+      "limitations": "Host-state consent, status and immunities, jurisdiction, territorial mandate, personnel protection, funding and actual party consent remain unresolved."
+    }
+  ]
+}

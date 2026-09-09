@@ -1,0 +1,14 @@
+node_modules/
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+reports/_render/
+release-control/
+reports/Open_Research_Business_Review.pptx
+reports/Open_Research_Market_Trends.pptx
+reports/Open_Research_Operating_Review.pptx
+reports/Open_Research_Branches_Report.docx
+reports/Open_Research_Branches_Report.pdf
+reports/Open_Research_Branches_Inventory.xlsx
+reports/RESEARCH_REPORT.md

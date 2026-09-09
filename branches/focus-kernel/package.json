@@ -1,0 +1,14 @@
+{
+  "name": "focus-kernel-research",
+  "version": "0.1.0-public.1",
+  "private": true,
+  "description": "Local-first reference implementation for explicit focus and transparent review.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test tests/core.test.mjs"
+  }
+}

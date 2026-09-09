@@ -1,0 +1,20 @@
+{
+  "name": "open-research-branches",
+  "version": "0.1.0",
+  "description": "Public-safe, independently continuable research and software branches.",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "repository": "github:Juri-Halveth/open-research-branches",
+  "keywords": [
+    "open-research",
+    "reproducibility",
+    "synthetic-data"
+  ],
+  "scripts": {
+    "test": "node scripts/validate-public-manifest.mjs && node scripts/run-tests.mjs && node scripts/validate-catalog.mjs && node scripts/prepublish-check.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

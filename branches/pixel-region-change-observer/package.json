@@ -1,0 +1,14 @@
+{
+  "name": "pixel-region-change-observer",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Offline bounded-region comparator for supplied synthetic RGBA frames.",
+  "license": "MIT",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test"
+  }
+}

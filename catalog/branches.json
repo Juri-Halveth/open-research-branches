@@ -1,0 +1,117 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-09-09",
+  "collectionState": "FINITE_SNAPSHOT",
+  "branches": [
+    {
+      "id": "focus-kernel",
+      "title": "Focus Kernel",
+      "kind": "software-prototype",
+      "state": "PUBLIC_DERIVATIVE",
+      "path": "branches/focus-kernel",
+      "claimCeiling": "LOCAL_HEURISTIC_PROTOTYPE",
+      "dataClass": "SYNTHETIC_ONLY",
+      "activeMain": false
+    },
+    {
+      "id": "document-issue-reference-verifier",
+      "title": "Document Issue Reference Verifier",
+      "kind": "software-method",
+      "state": "PUBLIC_DERIVATIVE",
+      "path": "branches/document-issue-reference-verifier",
+      "claimCeiling": "SYNTHETIC_REFERENCE_VALIDATION_ONLY",
+      "dataClass": "SYNTHETIC_ONLY",
+      "activeMain": false
+    },
+    {
+      "id": "bounded-knowledge-reuse-inventory",
+      "title": "Bounded Knowledge Reuse Inventory",
+      "kind": "software-method",
+      "state": "PUBLIC_DERIVATIVE",
+      "path": "branches/bounded-knowledge-reuse-inventory",
+      "claimCeiling": "BOUNDED_METADATA_INVENTORY_ONLY",
+      "dataClass": "SYNTHETIC_ONLY",
+      "activeMain": false
+    },
+    {
+      "id": "pixel-region-change-observer",
+      "title": "Pixel Region Change Observer",
+      "kind": "software-method",
+      "state": "PUBLIC_DERIVATIVE",
+      "path": "branches/pixel-region-change-observer",
+      "claimCeiling": "OFFLINE_RENDER_DIFFERENCE_ONLY",
+      "dataClass": "SYNTHETIC_ONLY",
+      "activeMain": false
+    },
+    {
+      "id": "browser-extension-claim-reassessment",
+      "title": "Browser Extension Claim Reassessment",
+      "kind": "security-reassessment",
+      "state": "FINITE_SNAPSHOT",
+      "path": "branches/browser-extension-claim-reassessment",
+      "claimCeiling": "PUBLIC_SOURCE_REASSESSMENT_NOT_INDEPENDENT_MALWARE_REPRODUCTION",
+      "dataClass": "PUBLIC_SOURCES_ONLY",
+      "activeMain": false
+    },
+    {
+      "id": "water-photonic-open-questions",
+      "title": "Water and Photonics Open Questions",
+      "kind": "research-questions",
+      "state": "FINITE_SNAPSHOT",
+      "path": "branches/water-photonic-open-questions",
+      "claimCeiling": "QUESTION_SET_NOT_PHYSICAL_FINDING",
+      "dataClass": "PUBLIC_SOURCES_ONLY",
+      "activeMain": false
+    },
+    {
+      "id": "plant-observation-protocol",
+      "title": "Plant Observation Protocol",
+      "kind": "research-protocol",
+      "state": "FINITE_SNAPSHOT",
+      "path": "branches/plant-observation-protocol",
+      "claimCeiling": "OBSERVATION_PROTOCOL_NOT_BIOLOGICAL_CAUSALITY",
+      "dataClass": "SYNTHETIC_OR_CONSENTED_ONLY",
+      "activeMain": false
+    },
+    {
+      "id": "deidentified-self-observation-protocol",
+      "title": "De-identified Self-Observation Protocol",
+      "kind": "research-protocol",
+      "state": "FINITE_SNAPSHOT",
+      "path": "branches/deidentified-self-observation-protocol",
+      "claimCeiling": "JOURNAL_SCHEMA_NOT_MEDICAL_EVIDENCE",
+      "dataClass": "EMPTY_TEMPLATE_ONLY",
+      "activeMain": false
+    },
+    {
+      "id": "visual-interpretation-boundary",
+      "title": "Visual Interpretation Boundary",
+      "kind": "research-method",
+      "state": "FINITE_SNAPSHOT",
+      "path": "branches/visual-interpretation-boundary",
+      "claimCeiling": "DESCRIPTION_NOT_DIAGNOSIS_OR_OBJECT_IDENTITY",
+      "dataClass": "SYNTHETIC_ONLY",
+      "activeMain": false
+    },
+    {
+      "id": "document-scanner-crypto-modernization",
+      "title": "Document Scanner Cryptography Modernization",
+      "kind": "modernization-plan",
+      "state": "HOLD_IMPLEMENTATION",
+      "path": "branches/document-scanner-crypto-modernization",
+      "claimCeiling": "DESIGN_PLAN_NOT_SECURE_IMPLEMENTATION",
+      "dataClass": "SYNTHETIC_ONLY",
+      "activeMain": false
+    },
+    {
+      "id": "russia-ukraine-information-and-peace-audit",
+      "title": "Was los?. Russia-Ukraine Information and Peace Audit",
+      "kind": "source-bound-peace-audit",
+      "state": "FINITE_SNAPSHOT",
+      "path": "branches/russia-ukraine-information-and-peace-audit",
+      "claimCeiling": "SOURCE_BOUND_ANALYSIS_NOT_ACCESS_TO_PRIVATE_BRIEFINGS_OR_NEGOTIATIONS",
+      "dataClass": "PUBLIC_SOURCES_ONLY",
+      "activeMain": false
+    }
+  ]
+}
