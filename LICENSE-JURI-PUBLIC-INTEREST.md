@@ -5,8 +5,8 @@
 leistungsschutzrechtliche oder vergleichbare Rechte bestehen und von ihm
 kontrolliert werden.
 
-Diese Nutzungserlaubnis gilt ausschließlich für die in
-[`LICENSES.md`](LICENSES.md) ausdrücklich bezeichneten Dateien und Fassungen.
+Diese Nutzungserlaubnis gilt  für die in
+[`LICENSES.md`](LICENSES.md)  bezeichneten Dateien und Fassungen.
 Sie erfasst nur Bestandteile, über die der Rechteinhaber verfügen darf.
 
 ## Erlaubte Gemeinwohl-Nutzung
