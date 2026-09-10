@@ -252,6 +252,16 @@
       "claimCeiling": "PUBLIC_DOCUMENTATION_COMPARISON_NOT_PROTOCOL_SECURITY_OR_LEGAL_FINDING",
       "dataClass": "PUBLIC_SOURCES_ONLY",
       "activeMain": false
+    },
+    {
+      "id": "nuclear-legacy-disarmament-and-public-value",
+      "title": "Atomwaffen, Macht und Geld — Nuclear Legacy, Disarmament and Public Value",
+      "kind": "historical-documentary-research-and-civilian-budget-scenario",
+      "state": "FINITE_SNAPSHOT",
+      "path": "branches/nuclear-legacy-disarmament-and-public-value",
+      "claimCeiling": "SOURCE_BOUND_HISTORICAL_DOCUMENTARY_RESEARCH_AND_CIVILIAN_BUDGET_SCENARIO_NOT_WEAPON_DESIGN_UNIVERSAL_HUMAN_VALUATION_OR_LEGAL_ENTITLEMENT",
+      "dataClass": "PUBLIC_SOURCES_SYNTHETIC_BUDGET_SCENARIOS_AND_AUTHORIZED_PUBLIC_AUTHOR_ATTRIBUTION_ONLY",
+      "activeMain": false
     }
   ]
 }

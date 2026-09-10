@@ -1,0 +1,57 @@
+{
+  "schemaVersion": "1.0.0",
+  "purpose": "Civil budget opportunity comparison; source projection and hypothetical scenario are separate records.",
+  "sourceProjection": {
+    "evidenceState": "PUBLISHED_BUDGET_AUTHORITY_PROJECTION",
+    "publisher": "Congressional Budget Office",
+    "title": "Projected Costs of U.S. Nuclear Forces, 2025 to 2034",
+    "url": "https://www.cbo.gov/publication/61362",
+    "publicationMonth": "2025-04",
+    "accessedOn": "2026-09-10",
+    "unit": "billion_USD",
+    "priceBasis": "NOMINAL_NOT_INFLATION_ADJUSTED",
+    "measure": "BUDGET_AUTHORITY",
+    "fiscalYearStart": 2025,
+    "fiscalYearEnd": 2034,
+    "budgetRequestBasis": "Fiscal year 2025 DoD and DOE budget requests submitted in March 2024",
+    "total": 946,
+    "components": [
+      { "id": "operation_and_sustainment", "labelDe": "Betrieb, Unterhalt und Unterstützung", "amount": 357 },
+      { "id": "system_modernization", "labelDe": "Modernisierung der Systeme", "amount": 309 },
+      { "id": "laboratory_modernization", "labelDe": "Modernisierung von Laboreinrichtungen", "amount": 72 },
+      { "id": "communications_modernization", "labelDe": "Modernisierung von Führung, Kommunikation und Frühwarnung", "amount": 79 },
+      { "id": "potential_cost_growth", "labelDe": "Geschätzter möglicher Kostenanstieg", "amount": 129 }
+    ],
+    "limitations": [
+      "This conditional projection is not an enacted appropriation, actual spending total or available cash balance.",
+      "It does not estimate how much could actually be redirected by disarmament.",
+      "The 129 billion USD component estimates possible cost growth; it is not a separately available fund.",
+      "CBO excludes several nuclear legacy costs, including dismantlement of retired weapons and cleanup of past contamination.",
+      "No economic multiplier, health effect, damage amount or individual legal entitlement is inferred."
+    ]
+  },
+  "syntheticExample": {
+    "evidenceState": "AUTHOR_SELECTED_ASSUMPTIONS",
+    "sourceProjectionUsedAsBaseline": false,
+    "unit": "billion_USD_nominal",
+    "scenarioWindow": "2025-2034; chosen solely to illustrate arithmetic over one common window",
+    "inputs": {
+      "baseline": 100,
+      "reallocationShare": 0.2,
+      "transitionCosts": 3,
+      "remediationCosts": 2,
+      "weights": { "health": 0.5, "environment": 0.3, "research": 0.2 }
+    },
+    "expected": {
+      "gross": 20,
+      "totalCosts": 5,
+      "net": 15,
+      "deficit": 0,
+      "allocations": { "health": 7.5, "environment": 4.5, "research": 3 },
+      "allocationTotal": 15,
+      "roundingResidual": 0,
+      "status": "POSITIVE_HYPOTHETICAL_BALANCE"
+    },
+    "interpretation": "All scenario inputs are illustrative assumptions. The result demonstrates arithmetic, not realizable savings, GDP growth, a payment promise or a compensation claim."
+  }
+}

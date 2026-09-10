@@ -2,12 +2,13 @@
 
 [Start](Home.md) · [Themen & Fragen](Thesen-und-Forschungsfragen.md) · [Glossar](Glossar.md)
 
-**25 veröffentlichte Forschungs- und Softwareäste**, alphabetisch nach den lesbaren Namen dieser Übersicht. Die Links führen zu den bestehenden Projekt-READMEs mit Originaltitel, genauer Frage, Dateien und Fortsetzungsmöglichkeiten.
+**26 veröffentlichte Forschungs- und Softwareäste**, alphabetisch nach den lesbaren Namen dieser Übersicht. Die Links führen zu den bestehenden Projekt-READMEs mit Originaltitel, genauer Frage, Dateien und Fortsetzungsmöglichkeiten.
 
 | Projekt | Worum geht es? | Themenraum |
 | --- | --- | --- |
 | [Alice: Geschichte und Handlungsspielraum](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/alice-media-referent-and-agency-audit/README.md) | Einen Medienhinweis einem konkreten Werk und einer Szene zuordnen; Story, Aussage und Belegzugang prüfen. | [Identität & Medien](Identitaet-Sprache-und-Medien.md) |
 | [ASTER und der Geheime Garten](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/aster-provenance-and-secret-garden/README.md) | Die konkrete LUCINET-Entität, ihre dokumentierte Herkunft und eine offene Erzählwelt erkunden. | [Identität & Medien](Identitaet-Sprache-und-Medien.md) |
+| [Atomwaffen, Macht und Geld](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/nuclear-legacy-disarmament-and-public-value/README.md) | Blessing-Brief, Militärfinanzierung, Dollarreserven und Machtwährung erforschen; Fallout, Entschädigung, Abrüstung, SUNDIAL und zivile Budgets anhand öffentlicher Quellen einordnen. | [Gesellschaft & Frieden](Gesellschaft-Teilhabe-und-Frieden.md#atomwaffen-macht-und-geld) |
 | [Beobachten, ohne private Daten offenzulegen](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/deidentified-self-observation-protocol/README.md) | Leeres Schema für Messbedingungen, Unsicherheit und Eigenbeobachtung. | [Natur & Beobachtung](Natur-und-Beobachtung.md) |
 | [Bildbeschreibung und Interpretation](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/visual-interpretation-boundary/README.md) | Bildquelle, Verarbeitung, Messung und Deutung nachvollziehbar auseinanderhalten. | [Natur & Beobachtung](Natur-und-Beobachtung.md) |
 | [Browsererweiterungen im Quellenvergleich](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/browser-extension-claim-reassessment/README.md) | Öffentliche Angaben zu 19 Erweiterungen nach Produktidee, Identität und Versionsbefund einordnen. | [Digitale Plattformen](Digitale-Plattformen.md) |
@@ -34,10 +35,10 @@
 
 ## Berichte schneller finden
 
-Die [Berichtsübersicht](https://github.com/Juri-Halveth/open-research-branches/blob/main/reports/README.md) erschließt **FREE NEWS 001–021** sowie zusätzliche Quellenprüfungen zu Microsoft PKI und MAC/OUI. Ein Bericht kann mehrere Projektfragen verbinden; er ist kein zusätzlicher Projektast.
+Die [Berichtsübersicht](https://github.com/Juri-Halveth/open-research-branches/blob/main/reports/README.md) erschließt **FREE NEWS 001–022** sowie zusätzliche Quellenprüfungen zu Microsoft PKI und MAC/OUI. Ein Bericht kann mehrere Projektfragen verbinden; er ist kein zusätzlicher Projektast.
 
 ## Weitere Ideen bleiben auffindbar
 
-Im [Kandidaten-Ledger](https://github.com/Juri-Halveth/open-research-branches/blob/main/catalog/CANDIDATE_TOPICS.md) stehen weitere angefragte Themenfamilien. Sie besitzen noch keinen freigegebenen öffentlichen Projektast und werden deshalb nicht zu den 25 Projekten gezählt.
+Im [Kandidaten-Ledger](https://github.com/Juri-Halveth/open-research-branches/blob/main/catalog/CANDIDATE_TOPICS.md) stehen weitere angefragte Themenfamilien. Sie besitzen noch keinen freigegebenen öffentlichen Projektast und werden deshalb nicht zu den 26 Projekten gezählt.
 
 **Bestandsgrundlage:** [catalog/branches.json](https://github.com/Juri-Halveth/open-research-branches/blob/main/catalog/branches.json), abgeglichen mit den veröffentlichten Projekt-READMEs am 10. September 2026.

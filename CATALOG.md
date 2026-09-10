@@ -36,6 +36,7 @@ Collection state: `FINITE_SNAPSHOT`
 | `xxxlutz-porta-takeover-and-employee-participation-audit` | Welcher Verfahrensstand der XXXLutz/porta-Transaktion ist belegt, welche Beschäftigtenrechte hängen von welchem Auslöser ab und wie lässt sich Gegenwert als freiwillige Beteiligung verhandeln? | `FINITE_SNAPSHOT` | Eine EU-Entscheidung, ein belegter Vollzug, eine konkrete Betriebsänderung, ein Arbeitgeberwechsel oder eine verbindliche Beteiligungsvereinbarung verändert jeweils nur die passende Achse. |
 | `steam-coins-wallet-and-leak-audit` | Was zeigen Coins-Inventar, Wallet-Regeln und öffentliche Achievement-Leak-Berichte jeweils? | `FINITE_SNAPSHOT` | Konkrete frühere Originaldatei, öffentliche technische Stellungnahme, Ausgabeinformationen oder geänderte Plattformregeln. |
 | `staking-unbonding-transparency-review` | Wie werden Staking-Ausstiegsdauer, Verfügbarkeit und frühzeitige Information bei DAG, FET, ATOM, ETH und SOL verständlich? | `FINITE_SNAPSHOT` | Veröffentlichte Regelkorrektur, offizielle Antwort oder rechtmäßig verfügbarer Transaktionsbeleg. |
+| `nuclear-legacy-disarmament-and-public-value` | Was tragen Blessing-Brief, Militärfinanzierung und Dollarreserven zur Forschung über Machtwährung bei, und wie verbinden sich Fallout, Entschädigung, Abrüstung und die Archivspur SUNDIAL mit einem zivilen Budgetszenario? | `FINITE_SNAPSHOT` | Ein zusätzlicher öffentlicher Archivbeleg, eine aktualisierte Bestands- oder Entschädigungsquelle oder ein nachvollziehbar finanziertes Sanierungs- und Abrüstungsszenario. |
 
 ## Audit Star
 

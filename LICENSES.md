@@ -11,6 +11,13 @@ including historical MIT, ISC, CC BY and CC0 terms.
 
 | Paths or file classes | License |
 | --- | --- |
+| `reports/FREE_NEWS_022_NUCLEAR_LEGACY_POWER_AND_PUBLIC_VALUE.md` from first publication `v0.18.0` | [Juri Public-Interest Research Permission 1.0](LICENSE-JURI-PUBLIC-INTEREST.md) |
+| `branches/nuclear-legacy-disarmament-and-public-value/README.md` from first publication `v0.18.0` | [Juri Public-Interest Research Permission 1.0](LICENSE-JURI-PUBLIC-INTEREST.md) |
+| `branches/nuclear-legacy-disarmament-and-public-value/sources.json` from first publication `v0.18.0` | [Juri Public-Interest Research Permission 1.0](LICENSE-JURI-PUBLIC-INTEREST.md) |
+| `branches/nuclear-legacy-disarmament-and-public-value/claims.json` from first publication `v0.18.0` | [Juri Public-Interest Research Permission 1.0](LICENSE-JURI-PUBLIC-INTEREST.md) |
+| `branches/nuclear-legacy-disarmament-and-public-value/research-map.json` from first publication `v0.18.0` | [Juri Public-Interest Research Permission 1.0](LICENSE-JURI-PUBLIC-INTEREST.md) |
+| `branches/nuclear-legacy-disarmament-and-public-value/budget-projection.png` from first publication `v0.18.0` | [Juri Public-Interest Research Permission 1.0](LICENSE-JURI-PUBLIC-INTEREST.md) |
+| Release assets `Atomwaffen_Macht_und_Geld.docx`, `Atomwaffen_Macht_und_Geld.pdf`, `Atomwaffen_Abruestung_Quellenueberblick.pptx`, `Budgetdaten_und_Szenarien.xlsx` beginning with `v0.18.0` | [Juri Public-Interest Research Permission 1.0](LICENSE-JURI-PUBLIC-INTEREST.md); linked third-party sources retain their own rights |
 | `reports/FREE_NEWS_021_STAKING_UNBONDING_AND_TRANSPARENCY.md` | [Juri Public-Interest Research Permission 1.0](LICENSE-JURI-PUBLIC-INTEREST.md), from first publication v0.17.0 |
 | `branches/staking-unbonding-transparency-review/README.md` | [Juri Public-Interest Research Permission 1.0](LICENSE-JURI-PUBLIC-INTEREST.md), from first publication v0.17.0 |
 | `branches/staking-unbonding-transparency-review/sources.json` | [Juri Public-Interest Research Permission 1.0](LICENSE-JURI-PUBLIC-INTEREST.md), from first publication v0.17.0 |

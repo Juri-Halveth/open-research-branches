@@ -3,7 +3,7 @@
 **Orientierung**
 
 - [Start](Home.md)
-- [Alle 25 Projekte](Projekte.md)
+- [Alle 26 Projekte](Projekte.md)
 - [Thesen & Forschungsfragen](Thesen-und-Forschungsfragen.md)
 
 **Themenräume**
@@ -12,6 +12,7 @@
 - [Licht, Wasser & Energie](Licht-Wasser-und-Energie.md)
 - [Identität, Sprache & Medien](Identitaet-Sprache-und-Medien.md)
 - [Gesellschaft, Teilhabe & Frieden](Gesellschaft-Teilhabe-und-Frieden.md)
+- [Atomwaffen, Macht und Geld](Gesellschaft-Teilhabe-und-Frieden.md#atomwaffen-macht-und-geld)
 - [Natur & Beobachtung](Natur-und-Beobachtung.md)
 - [Digitale Plattformen](Digitale-Plattformen.md)
 - [Belege & Zeitlinien](Belege-und-Zeitlinien.md)

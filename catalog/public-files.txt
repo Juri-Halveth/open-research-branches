@@ -100,6 +100,14 @@ branches/navier-stokes-credit-value-and-plagiarism-audit/src/credit-audit.mjs
 branches/navier-stokes-credit-value-and-plagiarism-audit/test/credit-audit.test.mjs
 branches/navier-stokes-credit-value-and-plagiarism-audit/timeline.json
 branches/navier-stokes-credit-value-and-plagiarism-audit/value-ledger.json
+branches/nuclear-legacy-disarmament-and-public-value/budget-model.mjs
+branches/nuclear-legacy-disarmament-and-public-value/budget-model.test.mjs
+branches/nuclear-legacy-disarmament-and-public-value/budget-projection.png
+branches/nuclear-legacy-disarmament-and-public-value/claims.json
+branches/nuclear-legacy-disarmament-and-public-value/model-data.json
+branches/nuclear-legacy-disarmament-and-public-value/README.md
+branches/nuclear-legacy-disarmament-and-public-value/research-map.json
+branches/nuclear-legacy-disarmament-and-public-value/sources.json
 branches/pixel-region-change-observer/fixtures/synthetic-frames.json
 branches/pixel-region-change-observer/LICENSE
 branches/pixel-region-change-observer/package.json
@@ -242,6 +250,7 @@ reports/FREE_NEWS_018_PUBLIC_AUTHORITY_ENTRY_LISTENING_ROOM.md
 reports/FREE_NEWS_019_XXXLUTZ_PORTA_TAKEOVER_AND_EMPLOYEE_PARTICIPATION.md
 reports/FREE_NEWS_020_STEAM_COINS_WALLET_AND_LEAK_AUDIT.md
 reports/FREE_NEWS_021_STAKING_UNBONDING_AND_TRANSPARENCY.md
+reports/FREE_NEWS_022_NUCLEAR_LEGACY_POWER_AND_PUBLIC_VALUE.md
 reports/MAC_OUI_REGISTRY_BOUNDARY.md
 reports/MICROSOFT_PKI_REPOSITORY_PATTERN.md
 reports/README.md

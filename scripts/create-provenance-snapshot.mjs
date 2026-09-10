@@ -7,6 +7,12 @@ import { spawnSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 
 const CUSTOM_LICENSE_PATHS = new Set([
+  "reports/FREE_NEWS_022_NUCLEAR_LEGACY_POWER_AND_PUBLIC_VALUE.md",
+  "branches/nuclear-legacy-disarmament-and-public-value/README.md",
+  "branches/nuclear-legacy-disarmament-and-public-value/sources.json",
+  "branches/nuclear-legacy-disarmament-and-public-value/claims.json",
+  "branches/nuclear-legacy-disarmament-and-public-value/research-map.json",
+  "branches/nuclear-legacy-disarmament-and-public-value/budget-projection.png",
   "reports/FREE_NEWS_021_STAKING_UNBONDING_AND_TRANSPARENCY.md",
   "branches/staking-unbonding-transparency-review/README.md",
   "branches/staking-unbonding-transparency-review/sources.json",

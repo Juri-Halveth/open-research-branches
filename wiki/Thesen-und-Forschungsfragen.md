@@ -16,6 +16,7 @@ Hier steht die Frage vor dem Dateinamen. Die Übersicht verbindet die vorhandene
 | Wie wird aus einem Beteiligungswunsch ein konkreter Verhandlungsgegenstand? | [XXXLutz/porta-Audit](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/xxxlutz-porta-takeover-and-employee-participation-audit/README.md): datierte Rechte- und Beteiligungswege. | Den betroffenen Vorgang, Beitrag, Vertrag und gewünschten Gegenwert einzeln benennen. |
 | Wie werden handelbare Zufallsgegenstände verständlich dargestellt? | [Steam-Audit](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/steam-coins-wallet-and-leak-audit/README.md): Gegenstand, Guthaben, Handel und Transparenz. | Ausgabe, Gebühren, Freigaben und ausführbare Nachfrage anhand passender Quellen erklären. |
 | Was kann eine persönliche Friedensgestaltung auf einer Helmform ausdrücken? | [Friedenshelm](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/wax-crayon-peace-helmet-audit/README.md): Kunstkonzept und gebundene Motivbelege. | Ein klar definierter Kunst- oder Ausstellungspilot und passende Zustimmungen. |
+| Wie hängen militärische Macht, Finanzierung und Währungsreserven zusammen, und welchen öffentlichen Nutzen kann Abrüstung schaffen? | [Atomwaffen, Macht und Geld](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/nuclear-legacy-disarmament-and-public-value/README.md): Blessing-Brief, Forschung zur Machtwährung, Fallout, Entschädigung, Abrüstung, SUNDIAL-Archivspur und ziviles Budgetszenario. | Konkrete historische Verbindungen quellengebunden prüfen; dokumentierte Ausgaben, Sanierungsbedarf und verfügbare Mittel für ein benanntes Szenario gegenüberstellen. |
 
 ## Wie eine neue Frage anschließt
 
@@ -31,6 +32,6 @@ Eine Hypothese kann entstehen, bevor ihre Prüfung möglich ist. Ihre Veröffent
 
 ## Wo sind weitere Themen?
 
-Das [Projektverzeichnis](Projekte.md) enthält alle 25 öffentlichen Äste. Zusätzliche angefragte Familien – etwa weitere Naturbeobachtungen, Gesundheitsthemen, Marketingmethoden oder Anwendungsideen – stehen im [Kandidaten-Ledger](https://github.com/Juri-Halveth/open-research-branches/blob/main/catalog/CANDIDATE_TOPICS.md). Es hält die Fragen sichtbar, während der passende öffentliche Quellstand noch fehlt.
+Das [Projektverzeichnis](Projekte.md) enthält alle 26 öffentlichen Äste. Zusätzliche angefragte Familien – etwa weitere Naturbeobachtungen, Gesundheitsthemen, Marketingmethoden oder Anwendungsideen – stehen im [Kandidaten-Ledger](https://github.com/Juri-Halveth/open-research-branches/blob/main/catalog/CANDIDATE_TOPICS.md). Es hält die Fragen sichtbar, während der passende öffentliche Quellstand noch fehlt.
 
 [Eine Frage oder Fortsetzung vorschlagen](https://github.com/Juri-Halveth/open-research-branches/issues/new/choose)

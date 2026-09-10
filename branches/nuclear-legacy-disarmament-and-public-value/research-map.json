@@ -1,0 +1,20 @@
+{
+  "schemaVersion":"1.0.0",
+  "snapshotDate":"2026-09-10",
+  "state":"FINITE_SNAPSHOT_WITH_REOPEN_TRIGGERS",
+  "researchScope":"Nukleare Macht, Reservepolitik, menschliche Risikobewertung, Testfolgen, Entschädigung und zivile Abrüstungspolitik",
+  "evidenceScope":"43 benannte Quellen, relevante Dokumentabschnitte und begrenzt geprüfte Medienmetadaten",
+  "actionScope":"Öffentliche sachliche Dokumentation und lokales ziviles Budgetszenario im eigenen Repository",
+  "branches":[
+    {"id":"SOURCE","state":"REVIEWED","next":"Weitere Originalkorrespondenz und lokale Perspektiven ergänzen.","reopenTrigger":"Neue zugängliche Quelle mit Datum und Herkunft."},
+    {"id":"DEFINITION","state":"REVIEWED","next":"Machtwährung, Reservewährung, Banknotensicherung und statistische Risikobewertung getrennt halten.","reopenTrigger":"Benanntes neues Bewertungsverfahren."},
+    {"id":"MECHANISM","state":"PARTIALLY_SOURCE_BOUND","next":"Militärbündnisse, Zahlungsbilanz und Reserveentscheidungen vergleichend untersuchen.","reopenTrigger":"Zusätzliche Entscheidungsdokumente oder geeignetes Datenset."},
+    {"id":"COUNTERHYPOTHESIS","state":"REVIEWED","next":"Ökonomische Faktoren, Netzwerkeffekte und Sicherheitsinteressen gemeinsam prüfen.","reopenTrigger":"Studie mit unterscheidenden Vorhersagen und Kontrollvariablen."},
+    {"id":"OBSERVATION","state":"SOURCE_BOUND","next":"Historische Zeiträume und regionale Belastungen erhalten.","reopenTrigger":"Neue amtliche Daten, unabhängige Messungen oder abgegrenzte Fallstudien."},
+    {"id":"MATERIALIZATION_BRIDGE","state":"OPEN","next":"Politischen Fondsvorschlag in ein konkretes Mandat, Budget und Beteiligungsverfahren übersetzen.","reopenTrigger":"Zuständige kooperierende Institution oder konkreter Gesetzgebungsauftrag."},
+    {"id":"IMPACT","state":"PARTIALLY_SOURCE_BOUND","next":"Programmzugang, Wartezeiten, Versorgung und Sanierung getrennt auswerten.","reopenTrigger":"Vergleichbare Ergebnisdaten mit Population und Zeitraum."},
+    {"id":"UNKNOWN_FRONTIER","state":"OPEN","next":"Weitere Länderprogramme und Quellen zur SUNDIAL-Archivgeschichte prüfen.","reopenTrigger":"Neue öffentliche nichtoperative Archivbelege oder aktuelle Programmunterlagen."},
+    {"id":"HUMAN_OR_CURRENCY_BOMB_DENOMINATION","state":"NOT_IDENTIFIED_IN_REVIEWED_CORPUS","next":"Nach einem konkreten normierten oder dokumentierten Verfahren prüfen, sobald eine Fundstelle vorliegt.","reopenTrigger":"Originalregel, Einlösungsverpflichtung oder reproduzierbare Formel mit Einheiten und Zuständigkeit."},
+    {"id":"WEAPON_ENGINEERING","state":"EXCLUDED_WITH_REASON","next":"Historische und politische Quellenarbeit bleibt möglich.","reason":"Dieser öffentliche Bericht enthält keine Waffenentwicklung oder operativen Wirkungsmodelle.","reopenTrigger":"Ausschließlich eine nichtoperative historische oder zivile Forschungsfrage."}
+  ]
+}

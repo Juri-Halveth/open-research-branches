@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.18.0 — 2026-09-10
+
+- added a 43-source report on nuclear power, military finance, currency reserves, historical fallout, compensation and disarmament
+- linked the Blessing letter and published political-economy research without asserting a universal bomb-denominated valuation of people or currencies
+- added a civilian budget scenario with explicit transition costs, deficits, tests, chart and supporting workbook
+- introduced the 26th project in the research-room entrance, topic Wiki and report catalog
+- prepared a cited document and slide overview; preserved existing license grants and source authorship
+
 ## 0.17.0 — 2026-09-10
 
 - added a five-network staking exit and transparency review with a source-bound DAG 21-/30-day documentation discrepancy

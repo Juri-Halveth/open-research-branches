@@ -25,6 +25,7 @@ Wer hat was beschrieben, in welcher Fassung und mit welchem Nachweis? Dieser Rau
 | [Provenienz und reproduzierbare Snapshots](https://github.com/Juri-Halveth/open-research-branches/blob/main/PROVENANCE.md) | Erläutert den veröffentlichten Umschlag aus Tag, Commit, Tree, Pfaden, Byteanzahlen, Digests und deklarierter Lizenz. |
 | [Priorität, Belege und mögliche Ansprüche](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/priority-evidence-and-regress-audit/README.md) | Trennt sieben Achsen vom vorhandenen Snapshot bis zur Prüfung eines konkreten Betrags. |
 | [Navier–Stokes: Beweis, Credit und Wert](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/navier-stokes-credit-value-and-plagiarism-audit/README.md) | Zeigt diese Unterscheidungen an einer veröffentlichten Forschungs- und Credit-Debatte. |
+| [Atomwaffen, Macht und Geld](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/nuclear-legacy-disarmament-and-public-value/README.md) | Bindet Blessing-Brief, Militärfinanzierung, Dollarreserven, Fallout, Entschädigung, Abrüstung und SUNDIAL an datierte Quellen; trennt historische Dokumentation und ziviles Budgetszenario. |
 | [Audit Star](https://github.com/Juri-Halveth/open-research-branches/blob/main/catalog/AUDIT_STAR.md) | Macht katalogisierte Pfade und wörtlich belegte Querverweise auffindbar. |
 | [Zitierinformationen](https://github.com/Juri-Halveth/open-research-branches/blob/main/CITATION.cff) | Liefert die im Repository geführte Zitierfassung. |
 | [Lizenzkarte](https://github.com/Juri-Halveth/open-research-branches/blob/main/LICENSES.md) | Ordnet die Regeln den tatsächlich benannten Dateien und Daten zu. |
@@ -45,6 +46,7 @@ Die Tabelle folgt der Trennung in den vorhandenen Provenienz- und Anspruchsproje
 
 ## Kurze Lesewege
 
+- [FREE NEWS 022 · Atomwaffen, Macht und Geld](https://github.com/Juri-Halveth/open-research-branches/blob/main/reports/FREE_NEWS_022_NUCLEAR_LEGACY_POWER_AND_PUBLIC_VALUE.md)
 - [FREE NEWS 009 · Beitragsgraph und Priorität](https://github.com/Juri-Halveth/open-research-branches/blob/main/reports/FREE_NEWS_009_GITHUB_CONTRIBUTION_GRAPH_AND_PRIORITY.md)
 - [FREE NEWS 013 · Reziproke Belegprüfung und Informationsasymmetrie](https://github.com/Juri-Halveth/open-research-branches/blob/main/reports/FREE_NEWS_013_RECIPROCAL_EVIDENCE_AND_INFORMATION_ASYMMETRY.md)
 - [FREE NEWS 015 · Priorität, Belege und Regresswege](https://github.com/Juri-Halveth/open-research-branches/blob/main/reports/FREE_NEWS_015_PRIORITY_EVIDENCE_AND_REGRESS_ROUTES.md)

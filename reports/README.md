@@ -30,6 +30,7 @@ any branch's claim ceiling.
 | `FREE_NEWS_019_XXXLUTZ_PORTA_TAKEOVER_AND_EMPLOYEE_PARTICIPATION.md` | Current EU transaction status, NRW footprint, employee-rights triggers and a voluntary participation and employment-security proposal for XXXLutz/porta |
 | `FREE_NEWS_020_STEAM_COINS_WALLET_AND_LEAK_AUDIT.md` | Steam item, Wallet, Points, liquidity and separate reported achievement-exposure audit |
 | [FREE NEWS 021 · Staking und Unbonding](FREE_NEWS_021_STAKING_UNBONDING_AND_TRANSPARENCY.md) | Five-network exit comparison, DAG 21-/30-day documentation discrepancy and pre-delegation transparency proposals |
+| [FREE NEWS 022 · Atomwaffen, Macht und Geld](FREE_NEWS_022_NUCLEAR_LEGACY_POWER_AND_PUBLIC_VALUE.md) | Historical-source research on the Blessing letter, military financing, dollar reserves and power-currency questions; fallout, compensation, disarmament, SUNDIAL archival history and a civilian budget scenario |
 
 Local Office and PDF artifacts from an earlier ten-branch working snapshot are
 intentionally absent. They do not describe the current release,

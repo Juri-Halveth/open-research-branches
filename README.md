@@ -17,11 +17,11 @@ Hier treffen Software, Naturbeobachtung, Sprache und gesellschaftliche Fragen au
 | | |
 | :--- | :--- |
 | **💻 [Code & Werkzeuge](wiki/Code-und-Werkzeuge.md)**<br>Focus Kernel, Ja/Nein-Klärung, Referenzprüfung und wiederverwendbare Methoden. | **💧 [Licht, Wasser & Energie](wiki/Licht-Wasser-und-Energie.md)**<br>Optik, thermische Systeme, Quanteninternet und unterscheidbare Modelle. |
-| **🧭 [Identität, Sprache & Medien](wiki/Identitaet-Sprache-und-Medien.md)**<br>ASTER, Secret Garden, Alice, Zeichen und die Bedeutung von Referenzen. | **🤝 [Gesellschaft, Teilhabe & Frieden](wiki/Gesellschaft-Teilhabe-und-Frieden.md)**<br>Zuhörräume, Beschäftigtenbeteiligung, Friedenskunst und öffentliche Informationen. |
+| **🧭 [Identität, Sprache & Medien](wiki/Identitaet-Sprache-und-Medien.md)**<br>ASTER, Secret Garden, Alice, Zeichen und die Bedeutung von Referenzen. | **🤝 [Gesellschaft, Teilhabe & Frieden](wiki/Gesellschaft-Teilhabe-und-Frieden.md)**<br>Atomwaffen, Macht und Geld, Zuhörräume, Beschäftigtenbeteiligung und Friedenskunst. |
 | **🌱 [Natur & Beobachtung](wiki/Natur-und-Beobachtung.md)**<br>Pflanzen, Wahrnehmung, Protokolle und die Frage, was eine Beobachtung trägt. | **🎮 [Digitale Plattformen](wiki/Digitale-Plattformen.md)**<br>Steam, Wallets, Browser-Erweiterungen und transparente Produktfunktionen. |
 | **🔭 [Thesen & Forschungsfragen](wiki/Thesen-und-Forschungsfragen.md)**<br>Offene Gedanken, Gegenmodelle und konkrete nächste Untersuchungen. | **🗂️ [Belege & Zeitlinien](wiki/Belege-und-Zeitlinien.md)**<br>Quellen, veröffentlichte Fassungen, Prioritätsfragen und nachvollziehbare Herkunft. |
 
-**25 Forschungsäste** sind im [Projektverzeichnis](wiki/Projekte.md) einzeln beschrieben. Das [Glossar](wiki/Glossar.md) erklärt die Begriffe; der [Berichtsindex](reports/README.md) führt zu den öffentlichen Audits.
+**26 Forschungsäste** sind im [Projektverzeichnis](wiki/Projekte.md) einzeln beschrieben. Das [Glossar](wiki/Glossar.md) erklärt die Begriffe; der [Berichtsindex](reports/README.md) führt zu den öffentlichen Audits.
 
 ## Drei Wege zum Einstieg
 
@@ -32,6 +32,10 @@ Hier treffen Software, Naturbeobachtung, Sprache und gesellschaftliche Fragen au
 | **mitdenken und beitragen** | [Mitmachen](wiki/Mitmachen.md) | Fragen, Quellenkorrekturen, eigene Ergebnisse und freiwillige Zusammenarbeit. |
 
 ## Einblicke in die Sammlung
+
+**Atomwaffen, Macht und Geld**
+
+Blessing-Brief, Militärfinanzierung und Dollarreserven als historische Quellenfragen; dazu Fallout, Entschädigung, Abrüstung und die Archivspur SUNDIAL. Die Forschung zur „Machtwährung“ verbindet diese Fragen mit einem zivilen Budgetszenario. [Zum neuen Bericht](reports/FREE_NEWS_022_NUCLEAR_LEGACY_POWER_AND_PUBLIC_VALUE.md) · [Zum Projekt](branches/nuclear-legacy-disarmament-and-public-value/README.md) · [Zum Themenraum](wiki/Gesellschaft-Teilhabe-und-Frieden.md#atomwaffen-macht-und-geld)
 
 **Staking: Wann sind Token wieder verfügbar?**
 
@@ -135,6 +139,8 @@ Sicherheitsmeldungen gehören nicht hierher.
 | `public-authority-entry-listening-room` | Geburtsraum-Prinzip als verantwortlicher, reizarmer Empfangs- und Zuhörraum mit getrennter Sicherheitsfunktion und gegenläufigem Reparaturhaushalt | `FINITE_SNAPSHOT` |
 | `xxxlutz-porta-takeover-and-employee-participation-audit` | angemeldete XXXLutz/porta-Übernahme, EU-Verfahrensstand, NRW-Standorte, Beschäftigtenrechte und freiwillige Beteiligungswege | `FINITE_SNAPSHOT` |
 | `steam-coins-wallet-and-leak-audit` | Coins-Inventar, Wallet, Points, Bitcoin-Vergleich und getrennte Achievement-Leak-Quellenprüfung | `FINITE_SNAPSHOT` |
+| `staking-unbonding-transparency-review` | Staking-Ausstieg, Unbonding und verständliche Vorabinformation im Vergleich von fünf Netzwerken | `FINITE_SNAPSHOT` |
+| `nuclear-legacy-disarmament-and-public-value` | Atomwaffen, Macht und Geld: Blessing-Brief, Militärfinanzierung, Dollarreserven, Fallout, Entschädigung, Abrüstung, SUNDIAL-Archivspur und ziviles Budgetszenario | `FINITE_SNAPSHOT` |
 
 Der maschinenlesbare Bestand liegt in
 [`catalog/branches.json`](catalog/branches.json). Die Aufnahme- und
@@ -183,6 +189,12 @@ Informations-, Mitbestimmungs- und Beteiligungsroute.
 und der [Steam-Coins-Ast](branches/steam-coins-wallet-and-leak-audit/README.md)
 untersuchen digitale Sammelgegenstände, Guthaben, Liquidität und eine
 verbraucherfreundliche Darstellung von Zufallskäufen.
+
+[`FREE NEWS 022`](reports/FREE_NEWS_022_NUCLEAR_LEGACY_POWER_AND_PUBLIC_VALUE.md)
+und der [Atomwaffen-, Macht- und Geld-Ast](branches/nuclear-legacy-disarmament-and-public-value/README.md)
+erschließen historische Quellen zu Militärfinanzierung und Dollarreserven,
+Forschung zur Machtwährung sowie Fallout, Entschädigung, Abrüstung und SUNDIAL.
+Das zivile Budgetszenario bleibt als Gestaltungsvorschlag erkennbar.
 
 ## Mitmachen
 
