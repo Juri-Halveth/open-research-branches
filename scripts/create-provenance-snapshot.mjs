@@ -161,6 +161,9 @@ export function classifyLicense(relativePath) {
   if (normalized === "LICENSE-JURI-PUBLIC-INTEREST.md") {
     return { licenseId: "LicenseRef-License-Notice-Copy-Only", ruleId: "LICENSE_TEXT", basisPath: normalized };
   }
+  if (normalized === "assets/research-room.png") {
+    return { licenseId: "CC-BY-4.0", ruleId: "FILE_SPECIFIC_ORIGINAL_ILLUSTRATION", basisPath: "LICENSE-CONTENT.md" };
+  }
   if (normalized.endsWith(".md")) {
     return { licenseId: "CC-BY-4.0", ruleId: "MARKDOWN_PROSE", basisPath: "LICENSE-CONTENT.md" };
   }

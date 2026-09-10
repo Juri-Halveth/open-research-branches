@@ -158,6 +158,8 @@ test("every file-specific public-interest path takes precedence over generic cla
 
 test("representative generic paths retain their repository license classes", () => {
   const expectations = new Map([
+    ["assets/research-room.png", "CC-BY-4.0"],
+    ["assets/unclassified-image.png", "UNKNOWN"],
     ["reports/FREE_NEWS_004_CONSENT_COCKPIT_234_INACTIVE_VENDORS.md", "CC-BY-4.0"],
     ["branches/solar-and-thermal-provenance-audit/audit-lens.mjs", "MIT"],
     ["branches/quantum-internet-aster-mirror-audit/src/mirror-audit.mjs", "MIT"],
