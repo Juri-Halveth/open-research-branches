@@ -12,7 +12,7 @@
 
 Willkommen bei **Open Research Branches**, einer öffentlichen Forschungssammlung von **Juri Janovski / HALVETH**. Hier treffen kleine Softwarewerkzeuge, wissenschaftliche Fragen, Quellenprüfungen und Gesellschaftsentwürfe aufeinander. Jede Idee bekommt einen lesbaren Einstieg und einen Weg zu ihren Dateien.
 
-Dieses Wiki erschließt die **24 veröffentlichten Projektäste** des Katalogstands vom **10. September 2026**. Die Ordnernamen bleiben erhalten, damit vorhandene Verweise, Code und historische Fassungen weiter auffindbar sind. Die Themenordnung ist eine zusätzliche Lesehilfe; die genauen Projektstände liegen im [maschinenlesbaren Katalog](https://github.com/Juri-Halveth/open-research-branches/blob/main/catalog/branches.json).
+Dieses Wiki erschließt die **25 veröffentlichten Projektäste** des Katalogstands vom **10. September 2026**. Die Ordnernamen bleiben erhalten, damit vorhandene Verweise, Code und historische Fassungen weiter auffindbar sind. Die Themenordnung ist eine zusätzliche Lesehilfe; die genauen Projektstände liegen im [maschinenlesbaren Katalog](https://github.com/Juri-Halveth/open-research-branches/blob/main/catalog/branches.json).
 
 ## Womit möchtest du anfangen?
 

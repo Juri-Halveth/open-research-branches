@@ -11,6 +11,11 @@ including historical MIT, ISC, CC BY and CC0 terms.
 
 | Paths or file classes | License |
 | --- | --- |
+| `reports/FREE_NEWS_021_STAKING_UNBONDING_AND_TRANSPARENCY.md` | [Juri Public-Interest Research Permission 1.0](LICENSE-JURI-PUBLIC-INTEREST.md), from first publication v0.17.0 |
+| `branches/staking-unbonding-transparency-review/README.md` | [Juri Public-Interest Research Permission 1.0](LICENSE-JURI-PUBLIC-INTEREST.md), from first publication v0.17.0 |
+| `branches/staking-unbonding-transparency-review/sources.json` | [Juri Public-Interest Research Permission 1.0](LICENSE-JURI-PUBLIC-INTEREST.md), from first publication v0.17.0 |
+| `branches/staking-unbonding-transparency-review/claims.json` | [Juri Public-Interest Research Permission 1.0](LICENSE-JURI-PUBLIC-INTEREST.md), from first publication v0.17.0 |
+| `branches/staking-unbonding-transparency-review/comparison.json` | [Juri Public-Interest Research Permission 1.0](LICENSE-JURI-PUBLIC-INTEREST.md), from first publication v0.17.0 |
 | `reports/FREE_NEWS_005_HOW_TO_FISH_IDENTITY_AND_CREATION.md` from the first public commit containing this notice (first tagged release: `v0.6.0`) | [Juri Public-Interest Research Permission 1.0](LICENSE-JURI-PUBLIC-INTEREST.md) |
 | `reports/FREE_NEWS_005_RIGHTS_AND_SEMANTICS_PATCH.json`, `PROVENANCE.md`, `provenance-policy.json`, `scripts/create-provenance-snapshot.mjs` and `scripts/provenance-snapshot.test.mjs` from their first public commit | [Juri Public-Interest Research Permission 1.0](LICENSE-JURI-PUBLIC-INTEREST.md) |
 | `reports/FREE_NEWS_006_JURI_ENERGY_MODEL_PROVENANCE_AUDIT.md` and the research records `README.md`, `sources.json`, `claims.json`, `component-matrix.json`, and `local-source-receipt.json` under `branches/solar-and-thermal-provenance-audit/` from their first public commit | [Juri Public-Interest Research Permission 1.0](LICENSE-JURI-PUBLIC-INTEREST.md) |

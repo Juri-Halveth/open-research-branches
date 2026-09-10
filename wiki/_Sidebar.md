@@ -3,7 +3,7 @@
 **Orientierung**
 
 - [Start](Home.md)
-- [Alle 24 Projekte](Projekte.md)
+- [Alle 25 Projekte](Projekte.md)
 - [Thesen & Forschungsfragen](Thesen-und-Forschungsfragen.md)
 
 **Themenräume**

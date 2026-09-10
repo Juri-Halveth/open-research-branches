@@ -7,6 +7,11 @@ import { spawnSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 
 const CUSTOM_LICENSE_PATHS = new Set([
+  "reports/FREE_NEWS_021_STAKING_UNBONDING_AND_TRANSPARENCY.md",
+  "branches/staking-unbonding-transparency-review/README.md",
+  "branches/staking-unbonding-transparency-review/sources.json",
+  "branches/staking-unbonding-transparency-review/claims.json",
+  "branches/staking-unbonding-transparency-review/comparison.json",
   "reports/FREE_NEWS_020_STEAM_COINS_WALLET_AND_LEAK_AUDIT.md",
   "branches/steam-coins-wallet-and-leak-audit/README.md",
   "branches/steam-coins-wallet-and-leak-audit/sources.json",

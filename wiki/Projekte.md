@@ -2,7 +2,7 @@
 
 [Start](Home.md) · [Themen & Fragen](Thesen-und-Forschungsfragen.md) · [Glossar](Glossar.md)
 
-**24 veröffentlichte Forschungs- und Softwareäste**, alphabetisch nach den lesbaren Namen dieser Übersicht. Die Links führen zu den bestehenden Projekt-READMEs mit Originaltitel, genauer Frage, Dateien und Fortsetzungsmöglichkeiten.
+**25 veröffentlichte Forschungs- und Softwareäste**, alphabetisch nach den lesbaren Namen dieser Übersicht. Die Links führen zu den bestehenden Projekt-READMEs mit Originaltitel, genauer Frage, Dateien und Fortsetzungsmöglichkeiten.
 
 | Projekt | Worum geht es? | Themenraum |
 | --- | --- | --- |
@@ -25,6 +25,7 @@
 | [Pixeländerungen vergleichen](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/pixel-region-change-observer/README.md) | Synthetische Pixelmatrizen innerhalb einer festgelegten Region offline vergleichen. | [Code & Werkzeuge](Code-und-Werkzeuge.md) |
 | [Priorität, Belege und mögliche Ansprüche](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/priority-evidence-and-regress-audit/README.md) | Snapshot, Öffentlichkeit, Kenntnis, Ableitung, Rechtsverletzung, Anspruch und Höhe getrennt prüfen. | [Belege & Zeitlinien](Belege-und-Zeitlinien.md) |
 | [Quanteninternet und ASTER-Namensvergleich](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/quantum-internet-aster-mirror-audit/README.md) | Demonstrierte Netzwerkbauteile und die verschiedenen ASTER-/ASTAR-/ASTRA-Bezüge anhand ihrer Quellen vergleichen. | [Digitale Plattformen](Digitale-Plattformen.md) |
+| [Staking: Ausstieg und Verfügbarkeit](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/staking-unbonding-transparency-review/README.md) | Fünf Netzwerke, DAG-Dokumentationsabweichung und verständliche Vorabinformation vergleichen. | [Digitale Plattformen](Digitale-Plattformen.md) |
 | [Steam: Coins, Wallet und Leak-Berichte](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/steam-coins-wallet-and-leak-audit/README.md) | Sammelgegenstände, Guthaben, Points, Handel und getrennte Berichte zu Achievement-Daten verstehen. | [Digitale Plattformen](Digitale-Plattformen.md) |
 | [Was los? Informations- und Friedensaudit](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/russia-ukraine-information-and-peace-audit/README.md) | Öffentliche Quellen zum Russland-Ukraine-Krieg mit verschiedenen Erklärungsmodellen und gebundenen Entscheidungssnapshots lesen. | [Gesellschaft & Frieden](Gesellschaft-Teilhabe-und-Frieden.md) |
 | [Wasser und Photonik](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/water-photonic-open-questions/README.md) | Messbare optische Eigenschaften von Änderungen an Probe, Umwelt, Instrument oder Verarbeitung unterscheiden. | [Licht & Energie](Licht-Wasser-und-Energie.md) |
@@ -33,10 +34,10 @@
 
 ## Berichte schneller finden
 
-Die [Berichtsübersicht](https://github.com/Juri-Halveth/open-research-branches/blob/main/reports/README.md) erschließt **FREE NEWS 001–020** sowie zusätzliche Quellenprüfungen zu Microsoft PKI und MAC/OUI. Ein Bericht kann mehrere Projektfragen verbinden; er ist kein zusätzlicher Projektast.
+Die [Berichtsübersicht](https://github.com/Juri-Halveth/open-research-branches/blob/main/reports/README.md) erschließt **FREE NEWS 001–021** sowie zusätzliche Quellenprüfungen zu Microsoft PKI und MAC/OUI. Ein Bericht kann mehrere Projektfragen verbinden; er ist kein zusätzlicher Projektast.
 
 ## Weitere Ideen bleiben auffindbar
 
-Im [Kandidaten-Ledger](https://github.com/Juri-Halveth/open-research-branches/blob/main/catalog/CANDIDATE_TOPICS.md) stehen weitere angefragte Themenfamilien. Sie besitzen noch keinen freigegebenen öffentlichen Projektast und werden deshalb nicht zu den 24 Projekten gezählt.
+Im [Kandidaten-Ledger](https://github.com/Juri-Halveth/open-research-branches/blob/main/catalog/CANDIDATE_TOPICS.md) stehen weitere angefragte Themenfamilien. Sie besitzen noch keinen freigegebenen öffentlichen Projektast und werden deshalb nicht zu den 25 Projekten gezählt.
 
 **Bestandsgrundlage:** [catalog/branches.json](https://github.com/Juri-Halveth/open-research-branches/blob/main/catalog/branches.json), abgeglichen mit den veröffentlichten Projekt-READMEs am 10. September 2026.

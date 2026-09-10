@@ -242,6 +242,16 @@
       "claimCeiling": "PUBLIC_SOURCE_DESCRIPTIONS_MINIMIZED_IMAGE_OBSERVATIONS_AND_TRANSPARENCY_PROPOSALS_ONLY_NOT_LEAK_ATTRIBUTION_HIDDEN_CRYPTOCURRENCY_INVESTMENT_RETURN_OR_PAYMENT_ENTITLEMENT",
       "dataClass": "PUBLIC_SOURCES_AND_EXPLICITLY_AUTHORIZED_MINIMIZED_IMAGE_DERIVATIVE",
       "activeMain": false
+    },
+    {
+      "id": "staking-unbonding-transparency-review",
+      "title": "Staking Unbonding and Transparency Review",
+      "kind": "product-documentation-review",
+      "state": "FINITE_SNAPSHOT",
+      "path": "branches/staking-unbonding-transparency-review",
+      "claimCeiling": "PUBLIC_DOCUMENTATION_COMPARISON_NOT_PROTOCOL_SECURITY_OR_LEGAL_FINDING",
+      "dataClass": "PUBLIC_SOURCES_ONLY",
+      "activeMain": false
     }
   ]
 }

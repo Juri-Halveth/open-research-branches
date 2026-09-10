@@ -1,0 +1,144 @@
+{
+  "schemaVersion": "1.0.0",
+  "accessedOn": "2026-09-10",
+  "exactFetchTimes": "NOT_PERSISTED_PER_PAGE",
+  "collectionState": "FINITE_SNAPSHOT",
+  "sourceType": "PUBLIC_PRIMARY_SOURCES",
+  "sources": [
+    {
+      "id": "DAG_WITHDRAW",
+      "publisher": "Constellation Network",
+      "title": "DAG withdrawal guide",
+      "url": "https://docs.constellationnetwork.io/network-intro/dag-delegation/managing-delegated-positions/withdraw-unstake-a-delegation",
+      "purpose": "21-day user-facing withdrawal rule and automatic return",
+      "evidenceScope": "PUBLIC_DOCUMENT_TEXT_AT_REVIEW",
+      "thirdPartyRights": "RETAINED"
+    },
+    {
+      "id": "DAG_METANOMICS",
+      "publisher": "Constellation Network",
+      "title": "Metanomics",
+      "url": "https://docs.constellationnetwork.io/network-intro/white-papers/metanomics",
+      "purpose": "30-day wording in publicly reachable litepaper; historical applicability unresolved",
+      "evidenceScope": "PUBLIC_DOCUMENT_TEXT_AT_REVIEW",
+      "thirdPartyRights": "RETAINED"
+    },
+    {
+      "id": "DAG_OVERVIEW",
+      "publisher": "Constellation Network",
+      "title": "DAG Delegation",
+      "url": "https://docs.constellationnetwork.io/network-intro/dag-delegation",
+      "purpose": "Validator change versus full withdrawal; stated rationale",
+      "evidenceScope": "PUBLIC_DOCUMENT_TEXT_AT_REVIEW",
+      "thirdPartyRights": "RETAINED"
+    },
+    {
+      "id": "DAG_INTEGRATION",
+      "publisher": "Constellation Network",
+      "title": "Delegated staking integration",
+      "url": "https://docs.constellationnetwork.io/network-apis/integration-guides/delegated-staking",
+      "purpose": "Pending withdrawal and epoch description; IntegrationNet banner limits mainnet inference",
+      "evidenceScope": "PUBLIC_DOCUMENT_TEXT_AT_REVIEW",
+      "thirdPartyRights": "RETAINED"
+    },
+    {
+      "id": "FET_WALLET",
+      "publisher": "Fetch.ai / ASI Network",
+      "title": "How to stake FET",
+      "url": "https://network.fetch.ai/docs/guides/network/how-to-stake",
+      "purpose": "21-day period and Unbonding Delegations view",
+      "evidenceScope": "PUBLIC_DOCUMENT_TEXT_AT_REVIEW",
+      "thirdPartyRights": "RETAINED"
+    },
+    {
+      "id": "FET_REDELEGATE",
+      "publisher": "Fetch.ai / ASI Network",
+      "title": "Redelegating staked FET",
+      "url": "https://network.fetch.ai/docs/guides/network/re-delegating-staked-fet-token",
+      "purpose": "Rewards and redelegation distinction",
+      "evidenceScope": "PUBLIC_DOCUMENT_TEXT_AT_REVIEW",
+      "thirdPartyRights": "RETAINED"
+    },
+    {
+      "id": "ATOM_FAQ",
+      "publisher": "Cosmos Hub documentation",
+      "title": "Delegator FAQ",
+      "url": "https://docs.cosmos.network/hub/latest/delegators/delegator-faq",
+      "purpose": "Hub-specific 21-day exit and redelegation distinction",
+      "evidenceScope": "PUBLIC_DOCUMENT_TEXT_AT_REVIEW",
+      "thirdPartyRights": "RETAINED"
+    },
+    {
+      "id": "ETH_LAUNCHPAD",
+      "publisher": "Ethereum Launchpad",
+      "title": "Withdrawals",
+      "url": "https://launchpad.ethereum.org/withdrawals",
+      "purpose": "Variable queue and 256-epoch delay for normal voluntary exit",
+      "evidenceScope": "PUBLIC_DOCUMENT_TEXT_AT_REVIEW",
+      "thirdPartyRights": "RETAINED"
+    },
+    {
+      "id": "ETH_WITHDRAWALS",
+      "publisher": "Ethereum.org",
+      "title": "Staking withdrawals",
+      "url": "https://ethereum.org/staking/withdrawals/",
+      "purpose": "Withdrawal address, sweeps and liquid-staking distinction",
+      "evidenceScope": "PUBLIC_DOCUMENT_TEXT_AT_REVIEW",
+      "thirdPartyRights": "RETAINED"
+    },
+    {
+      "id": "SOL_FAQ",
+      "publisher": "Solana",
+      "title": "Staking FAQ",
+      "url": "https://solana.com/staking",
+      "purpose": "Epoch-dependent deactivation, inactive state and withdrawal",
+      "evidenceScope": "PUBLIC_DOCUMENT_TEXT_AT_REVIEW",
+      "thirdPartyRights": "RETAINED"
+    },
+    {
+      "id": "DAG_CONTACT",
+      "publisher": "Constellation Network",
+      "title": "Terms of Service",
+      "url": "https://constellationnetwork.io/terms-of-service/",
+      "purpose": "Published contact route; scope is website/service complaints",
+      "evidenceScope": "PUBLIC_DOCUMENT_TEXT_AT_REVIEW",
+      "thirdPartyRights": "RETAINED"
+    },
+    {
+      "id": "BGB_305",
+      "publisher": "German federal legislation portal",
+      "title": "BGB section 305",
+      "url": "https://www.gesetze-im-internet.de/bgb/__305.html",
+      "purpose": "Conditional inquiry into incorporation of terms",
+      "evidenceScope": "PUBLIC_DOCUMENT_TEXT_AT_REVIEW",
+      "thirdPartyRights": "RETAINED"
+    },
+    {
+      "id": "BGB_307",
+      "publisher": "German federal legislation portal",
+      "title": "BGB section 307",
+      "url": "https://www.gesetze-im-internet.de/bgb/__307.html",
+      "purpose": "Conditional transparency and unfair-terms review",
+      "evidenceScope": "PUBLIC_DOCUMENT_TEXT_AT_REVIEW",
+      "thirdPartyRights": "RETAINED"
+    },
+    {
+      "id": "BGB_280",
+      "publisher": "German federal legislation portal",
+      "title": "BGB section 280",
+      "url": "https://www.gesetze-im-internet.de/bgb/__280.html",
+      "purpose": "Contractual damages prerequisites",
+      "evidenceScope": "PUBLIC_DOCUMENT_TEXT_AT_REVIEW",
+      "thirdPartyRights": "RETAINED"
+    },
+    {
+      "id": "ESMA_2067",
+      "publisher": "ESMA / European Commission answer",
+      "title": "Q&A 2067",
+      "url": "https://www.esma.europa.eu/publications-data/questions-answers/2067",
+      "purpose": "Direct staking versus custodial staking service classification",
+      "evidenceScope": "PUBLIC_DOCUMENT_TEXT_AT_REVIEW",
+      "thirdPartyRights": "RETAINED"
+    }
+  ]
+}

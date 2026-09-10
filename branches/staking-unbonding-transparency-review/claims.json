@@ -1,0 +1,87 @@
+{
+  "schemaVersion": "1.0.0",
+  "reviewDate": "2026-09-10",
+  "scope": "PRODUCT_DOCUMENTATION_REVIEW",
+  "claims": [
+    {
+      "id": "STK-001",
+      "statement": "DAG user withdrawal guide describes 21 days after confirmation",
+      "evidenceState": "OBSERVED",
+      "sourceRefs": [
+        "DAG_WITHDRAW"
+      ],
+      "claimCeiling": "Document text, not a measured transaction"
+    },
+    {
+      "id": "STK-002",
+      "statement": "DAG Metanomics page describes 30 days",
+      "evidenceState": "OBSERVED",
+      "sourceRefs": [
+        "DAG_METANOMICS"
+      ],
+      "claimCeiling": "Document text; version applicability not established"
+    },
+    {
+      "id": "STK-003",
+      "statement": "The two reachable DAG documents have inconsistent duration wording",
+      "evidenceState": "OBSERVED",
+      "sourceRefs": [
+        "DAG_WITHDRAW",
+        "DAG_METANOMICS"
+      ],
+      "claimCeiling": "Documentation discrepancy; no automatic legal or protocol-security conclusion"
+    },
+    {
+      "id": "STK-004",
+      "statement": "Native FET guide describes 21 days and a remaining-time dashboard",
+      "evidenceState": "OBSERVED",
+      "sourceRefs": [
+        "FET_WALLET"
+      ],
+      "claimCeiling": "Wallet version and historical user disclosure not reconstructed"
+    },
+    {
+      "id": "STK-005",
+      "statement": "ATOM, ETH and SOL documentation describes differing exit models",
+      "evidenceState": "OBSERVED",
+      "sourceRefs": [
+        "ATOM_FAQ",
+        "ETH_LAUNCHPAD",
+        "ETH_WITHDRAWALS",
+        "SOL_FAQ"
+      ],
+      "claimCeiling": "Comparison of five named networks only"
+    },
+    {
+      "id": "STK-006",
+      "statement": "A confirmation preview alone establishes an accepted unstaking transaction",
+      "evidenceState": "NOT_PROVEN",
+      "sourceRefs": [
+        "DAG_WITHDRAW",
+        "FET_WALLET"
+      ],
+      "claimCeiling": "Execution needs the corresponding accepted transaction or position record"
+    },
+    {
+      "id": "STK-007",
+      "statement": "The waiting period alone establishes a legal violation or a protocol ownership share",
+      "evidenceState": "NOT_PROVEN",
+      "sourceRefs": [
+        "BGB_305",
+        "BGB_307",
+        "BGB_280"
+      ],
+      "claimCeiling": "Applicable party, law, duty, facts and remedy remain separate"
+    },
+    {
+      "id": "STK-008",
+      "statement": "The retrieved Constellation terms list a written contact route",
+      "evidenceState": "OBSERVED",
+      "sourceRefs": [
+        "DAG_CONTACT"
+      ],
+      "claimCeiling": "No verified ability of this recipient to override consensus or release funds early"
+    }
+  ],
+  "reopenTrigger": "Versioned correction, official response or a legitimately provided transaction record"
+}

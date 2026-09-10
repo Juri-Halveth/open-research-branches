@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.17.0 — 2026-09-10
+
+- added a five-network staking exit and transparency review with a source-bound DAG 21-/30-day documentation discrepancy
+- linked the new topic from the research-room start page, project catalog, report index and platform Wiki
+- kept personal balances, wallet identifiers, complaint drafts and original screenshots in the private case
+- assigned the new authored topic files to the existing public-interest permission without changing previous grants
+
 ## 0.16.1 — 2026-09-10
 
 - clarified that the license map documents permission grants and is not an exhaustive inventory of all rights or potential claims

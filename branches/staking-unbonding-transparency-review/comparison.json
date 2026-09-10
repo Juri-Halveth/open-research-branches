@@ -1,0 +1,67 @@
+{
+  "schemaVersion": "1.0.0",
+  "reviewDate": "2026-09-10",
+  "basis": "PUBLISHED_DOCUMENTATION",
+  "livePositionVerified": false,
+  "worldwideCompletenessClaim": false,
+  "networks": [
+    {
+      "id": "DAG",
+      "network": "Constellation Mainnet DAG",
+      "timeModel": "USER_GUIDE_21_DAYS_WITH_LITEPAPER_30_DAY_DISCREPANCY",
+      "start": "Confirmed unstaking",
+      "release": "Automatic return described by user guide",
+      "sourceRefs": [
+        "DAG_WITHDRAW",
+        "DAG_METANOMICS"
+      ],
+      "qualification": "No current transaction or mainnet parameter measurement"
+    },
+    {
+      "id": "FET",
+      "network": "Fetch native FET",
+      "timeModel": "21_DAYS",
+      "start": "Accepted undelegation",
+      "release": "Unbonding view reports remaining time before availability",
+      "sourceRefs": [
+        "FET_WALLET",
+        "FET_REDELEGATE"
+      ],
+      "qualification": "Native staking only; not ERC20 FET or exchange earning products"
+    },
+    {
+      "id": "ATOM",
+      "network": "Cosmos Hub ATOM",
+      "timeModel": "21_DAYS",
+      "start": "Unbond transaction",
+      "release": "Tokens become available after unbonding",
+      "sourceRefs": [
+        "ATOM_FAQ"
+      ],
+      "qualification": "Hub-specific documentation, not all Cosmos SDK networks"
+    },
+    {
+      "id": "ETH",
+      "network": "Ethereum direct native validator staking",
+      "timeModel": "VARIABLE_EXIT_QUEUE_PLUS_256_EPOCH_DELAY_PLUS_SWEEP",
+      "start": "Voluntary exit accepted and scheduled",
+      "release": "Automatic sweep to withdrawal address after eligibility",
+      "sourceRefs": [
+        "ETH_LAUNCHPAD",
+        "ETH_WITHDRAWALS"
+      ],
+      "qualification": "Normal voluntary exit; slashing and service-specific products need separate review"
+    },
+    {
+      "id": "SOL",
+      "network": "Solana native staking",
+      "timeModel": "EPOCH_DEPENDENT_VARIABLE",
+      "start": "Deactivation request",
+      "release": "Withdraw inactive stake; account lockup may separately apply",
+      "sourceRefs": [
+        "SOL_FAQ"
+      ],
+      "qualification": "Approximate epoch duration does not guarantee completion within one epoch"
+    }
+  ]
+}

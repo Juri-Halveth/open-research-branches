@@ -35,6 +35,7 @@ Collection state: `FINITE_SNAPSHOT`
 | `public-authority-entry-listening-room` | Wie wird der erste Behördeneintritt zugleich ruhig, barrierefrei, verantwortlich und sicher, ohne Zuhören mit Eingriffsbefugnis oder persönlichem Gehaltsanreiz zu vermischen? | `FINITE_SNAPSHOT` | Ein autorisierter, zeitlich begrenzter Mehrstandort-Pilot mit unabhängiger Kosten-, Zugangs-, Sicherheits-, Barrierefreiheits- und Zufriedenheitsauswertung. |
 | `xxxlutz-porta-takeover-and-employee-participation-audit` | Welcher Verfahrensstand der XXXLutz/porta-Transaktion ist belegt, welche Beschäftigtenrechte hängen von welchem Auslöser ab und wie lässt sich Gegenwert als freiwillige Beteiligung verhandeln? | `FINITE_SNAPSHOT` | Eine EU-Entscheidung, ein belegter Vollzug, eine konkrete Betriebsänderung, ein Arbeitgeberwechsel oder eine verbindliche Beteiligungsvereinbarung verändert jeweils nur die passende Achse. |
 | `steam-coins-wallet-and-leak-audit` | Was zeigen Coins-Inventar, Wallet-Regeln und öffentliche Achievement-Leak-Berichte jeweils? | `FINITE_SNAPSHOT` | Konkrete frühere Originaldatei, öffentliche technische Stellungnahme, Ausgabeinformationen oder geänderte Plattformregeln. |
+| `staking-unbonding-transparency-review` | Wie werden Staking-Ausstiegsdauer, Verfügbarkeit und frühzeitige Information bei DAG, FET, ATOM, ETH und SOL verständlich? | `FINITE_SNAPSHOT` | Veröffentlichte Regelkorrektur, offizielle Antwort oder rechtmäßig verfügbarer Transaktionsbeleg. |
 
 ## Audit Star
 

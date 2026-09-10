@@ -21,7 +21,7 @@ Hier treffen Software, Naturbeobachtung, Sprache und gesellschaftliche Fragen au
 | **🌱 [Natur & Beobachtung](wiki/Natur-und-Beobachtung.md)**<br>Pflanzen, Wahrnehmung, Protokolle und die Frage, was eine Beobachtung trägt. | **🎮 [Digitale Plattformen](wiki/Digitale-Plattformen.md)**<br>Steam, Wallets, Browser-Erweiterungen und transparente Produktfunktionen. |
 | **🔭 [Thesen & Forschungsfragen](wiki/Thesen-und-Forschungsfragen.md)**<br>Offene Gedanken, Gegenmodelle und konkrete nächste Untersuchungen. | **🗂️ [Belege & Zeitlinien](wiki/Belege-und-Zeitlinien.md)**<br>Quellen, veröffentlichte Fassungen, Prioritätsfragen und nachvollziehbare Herkunft. |
 
-**24 Forschungsäste** sind im [Projektverzeichnis](wiki/Projekte.md) einzeln beschrieben. Das [Glossar](wiki/Glossar.md) erklärt die Begriffe; der [Berichtsindex](reports/README.md) führt zu den öffentlichen Audits.
+**25 Forschungsäste** sind im [Projektverzeichnis](wiki/Projekte.md) einzeln beschrieben. Das [Glossar](wiki/Glossar.md) erklärt die Begriffe; der [Berichtsindex](reports/README.md) führt zu den öffentlichen Audits.
 
 ## Drei Wege zum Einstieg
 
@@ -32,6 +32,10 @@ Hier treffen Software, Naturbeobachtung, Sprache und gesellschaftliche Fragen au
 | **mitdenken und beitragen** | [Mitmachen](wiki/Mitmachen.md) | Fragen, Quellenkorrekturen, eigene Ergebnisse und freiwillige Zusammenarbeit. |
 
 ## Einblicke in die Sammlung
+
+**Staking: Wann sind Token wieder verfügbar?**
+
+DAG, FET, ATOM, ETH und SOL im Quellenvergleich; bei DAG stehen 21 und 30 Tage in unterschiedlichen Dokumenten. [Zum neuen Bericht](reports/FREE_NEWS_021_STAKING_UNBONDING_AND_TRANSPARENCY.md) · [Zum Projekt](branches/staking-unbonding-transparency-review/README.md)
 
 **Steam: Coins, Wallet & Markt**
 

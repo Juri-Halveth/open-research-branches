@@ -31,6 +31,6 @@ Eine Hypothese kann entstehen, bevor ihre Prüfung möglich ist. Ihre Veröffent
 
 ## Wo sind weitere Themen?
 
-Das [Projektverzeichnis](Projekte.md) enthält alle 24 öffentlichen Äste. Zusätzliche angefragte Familien – etwa weitere Naturbeobachtungen, Gesundheitsthemen, Marketingmethoden oder Anwendungsideen – stehen im [Kandidaten-Ledger](https://github.com/Juri-Halveth/open-research-branches/blob/main/catalog/CANDIDATE_TOPICS.md). Es hält die Fragen sichtbar, während der passende öffentliche Quellstand noch fehlt.
+Das [Projektverzeichnis](Projekte.md) enthält alle 25 öffentlichen Äste. Zusätzliche angefragte Familien – etwa weitere Naturbeobachtungen, Gesundheitsthemen, Marketingmethoden oder Anwendungsideen – stehen im [Kandidaten-Ledger](https://github.com/Juri-Halveth/open-research-branches/blob/main/catalog/CANDIDATE_TOPICS.md). Es hält die Fragen sichtbar, während der passende öffentliche Quellstand noch fehlt.
 
 [Eine Frage oder Fortsetzung vorschlagen](https://github.com/Juri-Halveth/open-research-branches/issues/new/choose)
