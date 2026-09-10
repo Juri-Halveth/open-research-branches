@@ -177,6 +177,11 @@ function canonicalJsonV1(value, ancestors = new Set()) {
   }
 }
 
+function materializeCanonicalJsonSnapshot(value) {
+  const serialized = canonicalJsonV1(value);
+  return { serialized, value: JSON.parse(serialized) };
+}
+
 function addIssue(issues, code, path) {
   issues.push({ code, path });
 }
@@ -393,6 +398,11 @@ export function calculateNextRepairState(input) {
   if (!exactObject(input, "input", ["policy", "state", "measurement"], envelopeIssues) || envelopeIssues.length > 0) {
     return rejected("REJECTED_INPUT", envelopeIssues);
   }
+  try {
+    input = materializeCanonicalJsonSnapshot(input).value;
+  } catch {
+    return rejected("REJECTED_INPUT", [{ code: "CANONICAL_INPUT_SNAPSHOT_FAILED", path: "input" }]);
+  }
   const policyIssues = validateRepairPolicy(input.policy);
   if (policyIssues.length > 0) return rejected("REJECTED_POLICY", policyIssues);
   const issues = [...validateRepairState(input.state, input.policy), ...validateMeasurement(input.measurement)];
@@ -496,7 +506,14 @@ export function calculateNextRepairState(input) {
 
 export function evaluateCompensation(input) {
   const issues = [];
-  if (!exactObject(input, "input", ["policy", "state"], issues)) return rejected("REJECTED_INPUT", issues);
+  if (!exactObject(input, "input", ["policy", "state"], issues) || issues.length > 0) {
+    return rejected("REJECTED_INPUT", issues);
+  }
+  try {
+    input = materializeCanonicalJsonSnapshot(input).value;
+  } catch {
+    return rejected("REJECTED_INPUT", [{ code: "CANONICAL_INPUT_SNAPSHOT_FAILED", path: "input" }]);
+  }
   if (!exactObject(input.policy, "policy", COMPENSATION_POLICY_KEYS, issues) ||
       !exactObject(input.state, "state", COMPENSATION_STATE_KEYS, issues)) return rejected("REJECTED_INPUT", issues);
   nonEmptyString(input.policy.version, "policy.version", issues);
@@ -521,8 +538,17 @@ export function evaluateCompensation(input) {
 
 export function validateListeningRoomDesign(design) {
   const issues = [];
-  if (!exactObject(design, "design", LISTENING_ROOM_KEYS, issues)) {
+  if (!exactObject(design, "design", LISTENING_ROOM_KEYS, issues) || issues.length > 0) {
     return { status: "REJECTED", structureBound: false, issues: sortIssues(issues) };
+  }
+  try {
+    design = materializeCanonicalJsonSnapshot(design).value;
+  } catch {
+    return {
+      status: "REJECTED",
+      structureBound: false,
+      issues: [{ code: "CANONICAL_INPUT_SNAPSHOT_FAILED", path: "design" }]
+    };
   }
   nonEmptyString(design.version, "design.version", issues);
   if (design.unitType !== "AUTHORITY_ENTRY_LISTENING_ROOM") addIssue(issues, "INVALID_UNIT_TYPE", "design.unitType");
@@ -556,9 +582,9 @@ export function validatePublishedRoomContract(contract) {
   let actualContractDigest = null;
   let validationSnapshot = null;
   try {
-    const canonicalContract = canonicalJsonV1(contract);
-    actualContractDigest = createHash("sha256").update(canonicalContract, "utf8").digest("hex");
-    validationSnapshot = JSON.parse(canonicalContract);
+    const canonicalContract = materializeCanonicalJsonSnapshot(contract);
+    actualContractDigest = createHash("sha256").update(canonicalContract.serialized, "utf8").digest("hex");
+    validationSnapshot = canonicalContract.value;
   } catch {
     addIssue(issues, "CANONICAL_CONTRACT_SERIALIZATION_FAILED", "contract");
   }

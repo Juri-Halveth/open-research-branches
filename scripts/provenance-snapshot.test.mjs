@@ -5,11 +5,45 @@ import {
   canonicalize,
   classifyLicense,
   computeFileRoot,
+  parseSnapshotBytes,
+  parseSnapshotText,
+  serializeSnapshot,
   sha256
 } from "./create-provenance-snapshot.mjs";
 
 test("canonicalize is independent of object key insertion order", () => {
   assert.equal(canonicalize({ z: 1, a: { y: 2, b: 3 } }), canonicalize({ a: { b: 3, y: 2 }, z: 1 }));
+});
+
+test("snapshot parsing binds the exact PRETTY_JSON_V1 input and rejects duplicate keys", () => {
+  const snapshot = { schemaVersion: "1.0.0", subject: { commitId: "real-commit" } };
+  const serialized = serializeSnapshot(snapshot);
+  assert.deepEqual(parseSnapshotText(serialized), snapshot);
+
+  const conflicting = serialized.replace(
+    '    "commitId": "real-commit"',
+    '    "commitId": "masked-commit",\n    "commitId": "real-commit"'
+  );
+  assert.throws(
+    () => parseSnapshotText(conflicting),
+    /does not match PRETTY_JSON_V1 serialization/
+  );
+});
+
+test("snapshot parsing rejects malformed UTF-8 bytes without replacement decoding", () => {
+  const serialized = serializeSnapshot({ marker: "\uFFFD" });
+  const bytes = Buffer.from(serialized, "utf8");
+  const replacement = Buffer.from([0xef, 0xbf, 0xbd]);
+  const offset = bytes.indexOf(replacement);
+  assert.notEqual(offset, -1);
+  const malformed = Buffer.concat([
+    bytes.subarray(0, offset),
+    Buffer.from([0xff]),
+    bytes.subarray(offset + replacement.length)
+  ]);
+
+  assert.deepEqual(parseSnapshotBytes(bytes), { marker: "\uFFFD" });
+  assert.throws(() => parseSnapshotBytes(malformed), /not valid UTF-8/);
 });
 
 test("file root changes when one byte digest changes", () => {

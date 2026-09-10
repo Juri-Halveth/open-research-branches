@@ -102,6 +102,21 @@ node scripts/create-provenance-snapshot.mjs --verify $ProvenanceAsset
 git bundle verify $BundleAsset
 ```
 
+Die Verifikation bindet vor jeder inhaltlichen Prüfung die exakten UTF-8-Bytes
+der vom Generator geschriebenen `PRETTY_JSON_V1`-Darstellung. Ungültiges UTF-8,
+abweichende Formatierungen und doppelte JSON-Schlüssel werden abgewiesen, damit
+verschiedene Parser nicht aus derselben Datei widersprüchliche Werte lesen
+können.
+
+Auch Public-Manifest und Vorveröffentlichungsprüfung lesen Manifest,
+Identitätskonfiguration und Nutzdaten ausschließlich als Blobs desselben zuvor
+aufgelösten Git-Commit/Tree. Fehlt die Git-Verifikation, ist ein Manifestpfad
+nicht relativ und normalisiert oder sind deklarierte Textbytes kein gültiges
+UTF-8, stoppt das Release-Gate geschlossen.
+Die file-spezifischen Freigaben in `catalog/public-identities.json` werden
+zusätzlich nur in der exakten versionierten `PRETTY_JSON_V1`-Darstellung mit
+geschlossenem Schema und eindeutigen, kanonisch sortierten Scopes akzeptiert.
+
 Der im Release veröffentlichte JSON-Umschlag ist die maschinenlesbare Fassung.
 Das Git-Bundle trägt den vollständigen erreichbaren Tag- und Commitstand als
 eigenständiges Quellpaket; `SHA256SUMS` bindet beide Assets. Die

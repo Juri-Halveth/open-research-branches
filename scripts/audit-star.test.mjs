@@ -32,6 +32,10 @@ function parseTreePaths(raw) {
   return raw.split("\0").filter(Boolean).map((record) => record.slice(record.indexOf("\t") + 1)).sort();
 }
 
+function parseNullTerminatedPaths(raw) {
+  return raw.split("\0").filter(Boolean).sort();
+}
+
 function sortedNodeKeys(nodes) {
   return nodes.map((node) => `${node.path}\0${node.nodeKind}\0${node.id}`);
 }
@@ -94,7 +98,9 @@ test("coverage is finite and declares current, historical and cross-reference su
   assert.equal(star.coverage.state, "FINITE_SNAPSHOT");
   assert.equal(star.coverage.currentCatalogBranches.rule, "ALL_BRANCH_ENTRIES");
   assert.equal(star.coverage.currentReports.rule, "ALL_GIT_OBJECT_PATHS_UNDER_REPORTS");
-  assert.match(star.coverage.history.revisionExpression, /rev-list --all/u);
+  assert.equal(star.coverage.history.revisionExpression, "git rev-list <BOUND_COMMIT_ID>");
+  assert.equal(star.coverage.history.boundCommitId, star.source.commitId);
+  assert.equal(star.coverage.history.sideRefs, "EXCLUDED_UNLESS_REACHABLE_FROM_BOUND_COMMIT");
   assert.equal(star.coverage.history.renameInference, "DISABLED_PATH_IDENTITY_ONLY");
   assert.equal(star.coverage.explicitCrossReferences.historicalBlobBodies, "NOT_SCANNED");
   assert.ok(star.coverage.excluded.includes("UNTRACKED_WORKTREE_PATHS"));
@@ -120,6 +126,27 @@ test("every current catalog branch and report path at HEAD is indexed", () => {
   assert.deepEqual(actualBranches, expectedBranches);
   assert.deepEqual(actualReports, expectedReports);
   assert.equal(star.edges.filter((edge) => edge.relationType === "INDEXES").length, star.nodes.length - 1);
+});
+
+test("the checked-in artifact exactly rebuilds from its bound source commit", () => {
+  const headCommit = git(REPOSITORY_ROOT, ["rev-parse", "HEAD^{commit}"]).trim();
+  const storedText = git(REPOSITORY_ROOT, ["show", `${headCommit}:catalog/audit-star.json`]);
+  const stored = JSON.parse(storedText);
+  const sourceCommit = git(REPOSITORY_ROOT, ["rev-parse", `${stored.source.commitId}^{commit}`]).trim();
+  const sourceTree = git(REPOSITORY_ROOT, ["rev-parse", `${sourceCommit}^{tree}`]).trim();
+  const headParents = git(REPOSITORY_ROOT, ["show", "-s", "--format=%P", headCommit]).trim().split(/\s+/u).filter(Boolean);
+  const bindingChanges = parseNullTerminatedPaths(git(REPOSITORY_ROOT, [
+    "diff", "--name-only", "-z", sourceCommit, headCommit
+  ]));
+  const rebuilt = buildAuditStar({ cwd: REPOSITORY_ROOT, ref: sourceCommit });
+
+  assert.equal(stored.source.requestedRef, sourceCommit);
+  assert.equal(stored.source.commitId, sourceCommit);
+  assert.equal(stored.source.treeId, sourceTree);
+  assert.deepEqual(stored, rebuilt);
+  assert.equal(storedText, `${JSON.stringify(rebuilt, null, 2)}\n`);
+  assert.deepEqual(headParents, [sourceCommit]);
+  assert.deepEqual(bindingChanges, ["catalog/audit-star.json"]);
 });
 
 test("relations never derive causality, authorship, identity or artifact truth", () => {
@@ -161,4 +188,34 @@ test("deleted paths remain historical and cross-links require literal evidence",
     assert.ok(edge.evidence.length > 0);
     assert.ok(edge.evidence.every((item) => item.sourceBlobId && item.literal));
   }
+});
+
+test("an unrelated side ref cannot change a star bound to the same commit", (context) => {
+  const fixture = makeFixtureRepository();
+  context.after(() => fs.rmSync(fixture, { recursive: true, force: true }));
+  const boundCommit = git(fixture, ["rev-parse", "HEAD^{commit}"]).trim();
+  const before = buildAuditStar({ cwd: fixture, ref: boundCommit });
+
+  git(fixture, ["switch", "-c", "unrelated-private-draft"]);
+  fs.mkdirSync(path.join(fixture, "branches", "unrelated-private-draft"), { recursive: true });
+  fs.writeFileSync(path.join(fixture, "branches", "unrelated-private-draft", "README.md"), "# Unrelated draft\n");
+  fs.writeFileSync(path.join(fixture, "reports", "UNRELATED_PRIVATE.md"), "# Unrelated draft\n");
+  const catalogPath = path.join(fixture, "catalog", "branches.json");
+  const catalog = JSON.parse(fs.readFileSync(catalogPath, "utf8"));
+  catalog.branches.push({
+    id: "unrelated-private-draft",
+    path: "branches/unrelated-private-draft",
+    title: "Unrelated private draft"
+  });
+  fs.writeFileSync(catalogPath, JSON.stringify(catalog));
+  git(fixture, ["add", "."]);
+  git(fixture, ["commit", "-m", "unrelated side ref"], {
+    GIT_AUTHOR_DATE: "2026-01-03T00:00:00Z",
+    GIT_COMMITTER_DATE: "2026-01-03T00:00:00Z"
+  });
+  git(fixture, ["switch", "main"]);
+
+  const after = buildAuditStar({ cwd: fixture, ref: boundCommit });
+  assert.deepEqual(after, before);
+  assert.equal(after.nodes.some((node) => node.path.includes("unrelated-private")), false);
 });

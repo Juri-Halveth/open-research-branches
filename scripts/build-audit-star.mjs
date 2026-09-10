@@ -345,15 +345,13 @@ export function buildAuditStar({ cwd = process.cwd(), ref = "HEAD" } = {}) {
   const currentReportByPath = new Map(currentReports.map((entry) => [entry.path, entry]));
 
   const reachableCommits = [...new Set(
-    runGit(repositoryRoot, ["rev-list", "--all"]).split(/\r?\n/u).filter(Boolean)
+    runGit(repositoryRoot, ["rev-list", commitId]).split(/\r?\n/u).filter(Boolean)
   )].sort(compareUtf8);
-  const metadataByCommit = new Map();
   const branchHistory = new Map();
   const reportHistory = new Map();
 
   for (const historicalCommitId of reachableCommits) {
     const metadata = commitMetadata(repositoryRoot, historicalCommitId);
-    metadataByCommit.set(historicalCommitId, metadata);
     const historicalCatalogBytes = readBlobAtPath(
       repositoryRoot,
       historicalCommitId,
@@ -373,27 +371,6 @@ export function buildAuditStar({ cwd = process.cwd(), ref = "HEAD" } = {}) {
       addObservation(reportHistory, entry.path, {
         commitId: historicalCommitId,
         committedAt: metadata.committedAt,
-        catalogId: null
-      });
-    }
-  }
-
-  // HEAD can be a detached or otherwise unreferenced commit and therefore absent from --all.
-  if (!metadataByCommit.has(commitId)) {
-    reachableCommits.push(commitId);
-    reachableCommits.sort(compareUtf8);
-    metadataByCommit.set(commitId, currentCommit);
-    for (const entry of currentCatalog) {
-      addObservation(branchHistory, entry.path, {
-        commitId,
-        committedAt: currentCommit.committedAt,
-        catalogId: entry.catalogId
-      });
-    }
-    for (const entry of currentReports) {
-      addObservation(reportHistory, entry.path, {
-        commitId,
-        committedAt: currentCommit.committedAt,
         catalogId: null
       });
     }
@@ -515,10 +492,12 @@ export function buildAuditStar({ cwd = process.cwd(), ref = "HEAD" } = {}) {
         count: currentReports.length
       },
       history: {
-        revisionExpression: "git rev-list --all PLUS_BOUND_CURRENT_COMMIT_IF_UNREFERENCED",
+        revisionExpression: "git rev-list <BOUND_COMMIT_ID>",
+        boundCommitId: commitId,
+        sideRefs: "EXCLUDED_UNLESS_REACHABLE_FROM_BOUND_COMMIT",
         reachableCommitCount: reachableCommits.length,
-        branchRule: "ALL_PARSEABLE_CATALOG_BRANCH_ENTRIES_IN_REACHABLE_COMMITS",
-        reportRule: "ALL_GIT_OBJECT_PATHS_UNDER_REPORTS_IN_REACHABLE_COMMITS",
+        branchRule: "ALL_PARSEABLE_CATALOG_BRANCH_ENTRIES_IN_BOUND_COMMIT_ANCESTRY",
+        reportRule: "ALL_GIT_OBJECT_PATHS_UNDER_REPORTS_IN_BOUND_COMMIT_ANCESTRY",
         renameInference: "DISABLED_PATH_IDENTITY_ONLY"
       },
       explicitCrossReferences: {

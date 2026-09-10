@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.13.2 — 2026-09-10
+
+- bound Audit Star history to the recorded source commit ancestry and added exact verification of the checked-in binding artifact
+- made the release gates scan one immutable Git commit/tree, fail closed without Git, and reject unsafe manifest paths or non-UTF-8 text bytes
+- bound public identity authorization to exact versioned JSON with closed schemas, unique identities and canonical file scopes
+- bound provenance verification to the exact `PRETTY_JSON_V1` release serialization before interpreting or rebuilding a snapshot
+- rejected duplicate-key and alternate-serialization receipts that could present conflicting values to different JSON consumers while preserving the same parsed digest view
+- required fatal UTF-8 decoding before verification, preventing malformed bytes from being normalized to replacement characters while retaining the same parsed receipt
+- added regressions for a conflicting duplicate `subject.commitId` and malformed UTF-8 bytes
+- materialized one strict canonical JSON snapshot at every public room-policy engine entrypoint, closing accessor-based time-of-check/time-of-use paths that could emit values different from those validated
+- added regressions for compensation, repair-budget and room-design accessor inputs
+- removed stale hard-coded test and branch counts from public documentation
+
 ## 0.13.1 — 2026-09-10
 
 - bound the published authority-entry room contract to a versioned canonical JSON SHA-256 digest, so changes to its legal status, claim ceiling, privacy rules or any other field can no longer pass as the canonical contract

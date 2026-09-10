@@ -16,8 +16,8 @@ Für den in `source.commitId` genannten Commit erfasst der Generator:
 
 - alle Einträge aus `catalog/branches.json` am gebundenen Ref;
 - alle Git-Objektpfade unter `reports/` am gebundenen Ref;
-- dieselben beiden Pfadklassen in allen mit `git rev-list --all` erreichbaren
-  Commits;
+- dieselben beiden Pfadklassen in der mit `git rev-list <BOUND_COMMIT_ID>`
+  bestimmten Vorfahrenschaft des gebundenen Commits;
 - wörtliche Querverweise aus aktuellen Textblobs, die einem aktuellen Ast- oder
   Reportknoten gehören.
 
@@ -26,9 +26,10 @@ beobachteter Pfad bleibt als `HISTORICAL_ONLY` erhalten. Gleichnamige oder
 umbenannte Pfade werden nicht still als dasselbe Artefakt behandelt.
 
 Die JSON-Datei nennt den exakten Commit, Tree, Committer-Zeitstempel, Regeln,
-Zählwerte und ausgeschlossenen Flächen. Ungetrackte Arbeitsbaumdateien,
-unerreichbare Git-Objekte, externe Repositories, Remote-Publikationsstatus,
-Binärinhalt und historische Blobkörper liegen außerhalb dieser Coverage.
+Zählwerte und ausgeschlossenen Flächen. Ungetrackte Arbeitsbaumdateien, vom
+gebundenen Commit nicht erreichbare Side-Refs und Git-Objekte, externe
+Repositories, Remote-Publikationsstatus, Binärinhalt und historische
+Blobkörper liegen außerhalb dieser Coverage.
 
 ## Relationsgrenze
 
@@ -45,13 +46,15 @@ Publikationsnachweis.
 ## Reproduktion
 
 ```bash
-node scripts/build-audit-star.mjs --ref HEAD
+node scripts/build-audit-star.mjs --ref SOURCE_COMMIT_ID --stdout
 node --test scripts/audit-star.test.mjs
 ```
 
-Ein anderer Ref oder eine andere erreichbare Historie erzeugt einen neuen
-endlichen Snapshot. Die erzeugte JSON-Datei bleibt deshalb immer an den in ihr
-genannten Commit und Tree gebunden.
+`SOURCE_COMMIT_ID` wird durch den exakten Wert aus `source.commitId` ersetzt.
+Ein anderer gebundener Commit oder eine andere Vorfahrenschaft erzeugt einen
+neuen endlichen Snapshot. Side-Refs außerhalb dieser Vorfahrenschaft ändern
+ihn nicht. Die erzeugte JSON-Datei bleibt deshalb an den in ihr genannten
+Commit und Tree gebunden.
 
 ## Claim Ceiling
 

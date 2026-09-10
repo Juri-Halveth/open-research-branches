@@ -208,6 +208,76 @@ test("compensation below the configured floor is rejected", () => {
   assert.equal(result.status, "REJECTED_COMPENSATION_FLOOR");
 });
 
+test("compensation rejects accessor-backed values before validation or output", () => {
+  let reads = 0;
+  const compensationState = { policyVersion: "comp-v1" };
+  Object.defineProperty(compensationState, "currentBaseMonthlyCents", {
+    enumerable: true,
+    get() {
+      reads += 1;
+      return reads < 3 ? 500_000 : 0;
+    }
+  });
+  const result = evaluateCompensation({
+    policy: {
+      version: "comp-v1",
+      currency: "EUR",
+      basis: "ROLE_MONTHLY_GROSS_FTE",
+      floorMonthlyCents: 400_000,
+      satisfactionLink: "PROHIBITED"
+    },
+    state: compensationState
+  });
+  assert.equal(result.status, "REJECTED_INPUT");
+  assert.equal(result.nextCandidateState, null);
+  assert.equal(reads, 0);
+  assert.deepEqual(result.issues, [{ code: "CANONICAL_INPUT_SNAPSHOT_FAILED", path: "input" }]);
+});
+
+test("repair and room-design entrypoints reject accessor-backed nested values", () => {
+  let methodReads = 0;
+  const methods = [];
+  Object.defineProperty(methods, "0", {
+    enumerable: true,
+    get() {
+      methodReads += 1;
+      return "survey-v1";
+    }
+  });
+  const repair = calculateNextRepairState({
+    policy: { ...policy, allowedMethodVersions: methods },
+    state: state(),
+    measurement: measurement()
+  });
+  assert.equal(repair.status, "REJECTED_INPUT");
+  assert.equal(methodReads, 0);
+  assert.ok(repair.issues.some(issue => issue.code === "CANONICAL_INPUT_SNAPSHOT_FAILED"));
+
+  let designReads = 0;
+  const design = {
+    version: "room-v1",
+    unitType: "AUTHORITY_ENTRY_LISTENING_ROOM",
+    coverageWindow: "PUBLIC_OPENING_HOURS",
+    minimumListeningStaffOnDuty: 1,
+    backupCoverageDefined: true,
+    lowStimulusProtocolVersion: "low-stimulus-v1",
+    listeningRoleHasEnforcementPowers: false,
+    separateSafetyFunctionAvailable: true,
+    safetyEscalationProtocolVersion: "safety-v1"
+  };
+  Object.defineProperty(design, "qualificationPathways", {
+    enumerable: true,
+    get() {
+      designReads += 1;
+      return ["EQUIVALENT_EXPERIENCE"];
+    }
+  });
+  const room = validateListeningRoomDesign(design);
+  assert.equal(room.status, "REJECTED");
+  assert.equal(designReads, 0);
+  assert.deepEqual(room.issues, [{ code: "CANONICAL_INPUT_SNAPSHOT_FAILED", path: "design" }]);
+});
+
 test("listening role requires backup, separate safety, and an experience route", () => {
   const valid = validateListeningRoomDesign({
     version: "room-v1",

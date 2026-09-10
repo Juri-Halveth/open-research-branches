@@ -213,6 +213,9 @@ scripts/build-audit-star.mjs
 scripts/create-provenance-snapshot.mjs
 scripts/prepublish-check.mjs
 scripts/provenance-snapshot.test.mjs
+scripts/release-gate-lib.mjs
+scripts/release-gate.test.mjs
+scripts/run-release-gates.mjs
 scripts/run-tests.mjs
 scripts/validate-catalog.mjs
 scripts/validate-catalog.test.mjs

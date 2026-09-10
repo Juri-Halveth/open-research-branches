@@ -92,6 +92,35 @@ export function canonicalize(value) {
   return `{${Object.keys(value).sort().map((key) => `${JSON.stringify(key)}:${canonicalize(value[key])}`).join(",")}}`;
 }
 
+export function serializeSnapshot(snapshot) {
+  return `${JSON.stringify(snapshot, null, 2)}\n`;
+}
+
+export function parseSnapshotText(text) {
+  if (typeof text !== "string") throw new TypeError("snapshot input must be UTF-8 text");
+  let snapshot;
+  try {
+    snapshot = JSON.parse(text);
+  } catch {
+    throw new Error("snapshot input is not valid JSON");
+  }
+  if (serializeSnapshot(snapshot) !== text) {
+    throw new Error("snapshot input does not match PRETTY_JSON_V1 serialization");
+  }
+  return snapshot;
+}
+
+export function parseSnapshotBytes(bytes) {
+  if (!(bytes instanceof Uint8Array)) throw new TypeError("snapshot input must be bytes");
+  let text;
+  try {
+    text = new TextDecoder("utf-8", { fatal: true, ignoreBOM: true }).decode(bytes);
+  } catch {
+    throw new Error("snapshot input is not valid UTF-8");
+  }
+  return parseSnapshotText(text);
+}
+
 export function classifyLicense(relativePath) {
   const normalized = relativePath.replaceAll("\\", "/");
   if (CUSTOM_LICENSE_PATHS.has(normalized)) {
@@ -310,7 +339,7 @@ export async function createSnapshot({
 
 export async function verifySnapshot({ cwd, snapshotPath }) {
   const absolute = path.resolve(cwd, snapshotPath);
-  const stored = JSON.parse(await fs.readFile(absolute, "utf8"));
+  const stored = parseSnapshotBytes(await fs.readFile(absolute));
   const storedDigest = stored.snapshotDigest;
   delete stored.snapshotDigest;
   const computedDigest = `sha256:${sha256(Buffer.from(canonicalize(stored), "utf8"))}`;
@@ -379,7 +408,7 @@ async function main() {
   });
   const output = path.resolve(cwd, args.output);
   await fs.mkdir(path.dirname(output), { recursive: true });
-  await fs.writeFile(output, `${JSON.stringify(snapshot, null, 2)}\n`, "utf8");
+  await fs.writeFile(output, serializeSnapshot(snapshot), "utf8");
   console.log(JSON.stringify({
     state: "CREATED",
     output,

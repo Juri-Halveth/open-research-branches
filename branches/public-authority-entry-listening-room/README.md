@@ -245,7 +245,7 @@ Zufriedenheit beweist allein kein Fehlverhalten einer bestimmten Person.
 | [`budget-policy.example.json`](budget-policy.example.json) | synthetische Konfiguration ohne reale Haushaltszusage |
 | [`sources.json`](sources.json) | amtliche Rechts-, Verwaltungs-, Bau-, Arbeits- und Messquellen |
 | [`src/policy-engine.mjs`](src/policy-engine.mjs) | deterministische Struktur- und Budgetprüfung |
-| [`test/policy-engine.test.mjs`](test/policy-engine.test.mjs) | zwanzig Fail-closed-Regressionstests |
+| [`test/policy-engine.test.mjs`](test/policy-engine.test.mjs) | Fail-closed-Regressionstests für Struktur, Datenschutz und Zustandsübergänge |
 | [`reconstruction-cycle.json`](reconstruction-cycle.json) | vollständige Achsen- und Gegenmodellbindung |
 
 ```bash
