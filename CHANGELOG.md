@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.12.1 — 2026-09-10
+
+- made CI fetch complete Git history so the immutable `v0.5.0` receipt test can resolve its bound historical tag on GitHub runners
+- kept the already published `v0.12.0` tag as the exact failed-CI candidate and carried the same audited research content forward without rewriting that public tag
+
 ## 0.12.0 — 2026-09-10
 
 - added a report-first fingertip-spark audit that preserves Juris stated observation, compares six source-bound physical and imaging models, and keeps the event mechanism open
