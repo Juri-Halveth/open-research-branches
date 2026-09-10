@@ -212,6 +212,16 @@
       "claimCeiling": "SOURCE_BOUND_PRIORITY_CREDIT_PARTICIPATION_EVIDENCE_ACCESS_AND_REGRESS_ROUTE_MAP_NOT_AUTHORSHIP_INVENTORSHIP_ACCESS_DERIVATION_INFRINGEMENT_ENTITLEMENT_AMOUNT_OR_CASE_OUTCOME_FINDING",
       "dataClass": "PUBLIC_OFFICIAL_SOURCES_AND_SYNTHETIC_FIXTURES_ONLY",
       "activeMain": false
+    },
+    {
+      "id": "public-authority-entry-listening-room",
+      "title": "Public Authority Entry Listening Room and Satisfaction Repair Budget",
+      "kind": "source-bound-public-policy-and-governance-software-audit",
+      "state": "FINITE_SNAPSHOT",
+      "path": "branches/public-authority-entry-listening-room",
+      "claimCeiling": "SOURCE_BOUND_PUBLIC_AUTHORITY_ENTRY_LISTENING_ROOM_POLICY_AND_DETERMINISTIC_REPAIR_BUDGET_PROPOSAL_NOT_EXISTING_UNIVERSAL_ROOM_DUTY_JOB_APPOINTMENT_PAY_ENTITLEMENT_COST_ESTIMATE_EFFECTIVENESS_OR_CASE_OUTCOME_FINDING",
+      "dataClass": "PUBLIC_OFFICIAL_SOURCES_SYNTHETIC_FIXTURES_AND_AUTHORIZED_PUBLIC_AUTHOR_ATTRIBUTION_ONLY",
+      "activeMain": false
     }
   ]
 }

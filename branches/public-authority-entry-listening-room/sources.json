@@ -1,0 +1,323 @@
+{
+  "schema": "halveth.official-source-registry.v1",
+  "checkedAt": "2026-09-10",
+  "coverage": "Official German constitutional, social-administration, accessibility, work-safety, public-pay, budget and measurement sources for a public-authority entry listening-room proposal.",
+  "sources": [
+    {
+      "id": "SRC_GG_1",
+      "title": "Grundgesetz Artikel 1",
+      "institution": "Federal Republic of Germany",
+      "url": "https://www.gesetze-im-internet.de/gg/art_1.html",
+      "state": "LAW_ACTIVE",
+      "supports": ["State authority must respect and protect human dignity."],
+      "doesNotSupport": ["A named listening room or staffing level at every authority entrance"]
+    },
+    {
+      "id": "SRC_GG_2",
+      "title": "Grundgesetz Artikel 2",
+      "institution": "Federal Republic of Germany",
+      "url": "https://www.gesetze-im-internet.de/gg/art_2.html",
+      "state": "LAW_ACTIVE",
+      "supports": ["Free development of personality, life and physical integrity are protected within the constitutional rule."],
+      "doesNotSupport": ["A particular entrance-room design"]
+    },
+    {
+      "id": "SRC_GG_3",
+      "title": "Grundgesetz Artikel 3",
+      "institution": "Federal Republic of Germany",
+      "url": "https://www.gesetze-im-internet.de/gg/art_3.html",
+      "state": "LAW_ACTIVE",
+      "supports": ["Equality and non-discrimination on grounds of disability bind public authority."],
+      "doesNotSupport": ["One identical accommodation for every person and building"]
+    },
+    {
+      "id": "SRC_GG_17",
+      "title": "Grundgesetz Artikel 17",
+      "institution": "Federal Republic of Germany",
+      "url": "https://www.gesetze-im-internet.de/gg/art_17.html",
+      "state": "LAW_ACTIVE",
+      "supports": ["Everyone may address written requests or complaints to competent bodies and legislatures."],
+      "doesNotSupport": ["A general oral walk-in-room duty or success on the merits"]
+    },
+    {
+      "id": "SRC_GG_20",
+      "title": "Grundgesetz Artikel 20",
+      "institution": "Federal Republic of Germany",
+      "url": "https://www.gesetze-im-internet.de/gg/art_20.html",
+      "state": "LAW_ACTIVE",
+      "supports": ["Germany is a democratic and social federal state and administration is bound by law and justice."],
+      "doesNotSupport": ["A self-executing room, appointment or payment claim"]
+    },
+    {
+      "id": "SRC_BVERFG_PETITION",
+      "title": "BVerfG order of 8 June 2021, 2 BvR 1306/20",
+      "institution": "Federal Constitutional Court",
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2021/06/rk20210608_2bvr130620.html",
+      "state": "CASE_LAW",
+      "supports": ["Article 17 protects receipt, substantive examination and written notification of how a permissible petition was handled."],
+      "doesNotSupport": ["A right to the requested substantive result"]
+    },
+    {
+      "id": "SRC_SGB1_14",
+      "title": "Sozialgesetzbuch I section 14",
+      "institution": "Federal Republic of Germany",
+      "url": "https://www.gesetze-im-internet.de/sgb_1/__14.html",
+      "state": "LAW_ACTIVE",
+      "supports": ["Everyone has a right to advice about social-law rights and duties."],
+      "doesNotSupport": ["Advice outside the provision's subject-matter scope"]
+    },
+    {
+      "id": "SRC_SGB1_16",
+      "title": "Sozialgesetzbuch I section 16",
+      "institution": "Federal Republic of Germany",
+      "url": "https://www.gesetze-im-internet.de/sgb_1/__16.html",
+      "state": "LAW_ACTIVE",
+      "supports": ["Specified bodies accept applications, forward wrongly addressed applications without delay and assist with clear and complete applications."],
+      "doesNotSupport": ["Merits approval at the intake point"]
+    },
+    {
+      "id": "SRC_SGB1_17",
+      "title": "Sozialgesetzbuch I section 17",
+      "institution": "Federal Republic of Germany",
+      "url": "https://www.gesetze-im-internet.de/sgb_1/__17.html",
+      "state": "LAW_ACTIVE",
+      "supports": ["Service providers must work toward timely and comprehensive benefits, sufficient services, the simplest possible access and barrier-free buildings and service rooms."],
+      "doesNotSupport": ["A dedicated low-stimulus room with a fixed title at every entrance"]
+    },
+    {
+      "id": "SRC_SGB1_35",
+      "title": "Sozialgesetzbuch I section 35",
+      "institution": "Federal Republic of Germany",
+      "url": "https://www.gesetze-im-internet.de/sgb_1/__35.html",
+      "state": "LAW_ACTIVE",
+      "supports": ["The social secrecy right protects access to social data by unauthorized persons."],
+      "doesNotSupport": ["Automatic recording or public use of intake conversations"]
+    },
+    {
+      "id": "SRC_SGB10_9",
+      "title": "Sozialgesetzbuch X section 9",
+      "institution": "Federal Republic of Germany",
+      "url": "https://www.gesetze-im-internet.de/sgb_10/__9.html",
+      "state": "LAW_ACTIVE",
+      "supports": ["Social administrative procedure must be carried out simply, appropriately and swiftly."],
+      "doesNotSupport": ["A single mandatory organizational implementation"]
+    },
+    {
+      "id": "SRC_SGB10_13",
+      "title": "Sozialgesetzbuch X section 13",
+      "institution": "Federal Republic of Germany",
+      "url": "https://www.gesetze-im-internet.de/sgb_10/__13.html",
+      "state": "LAW_ACTIVE",
+      "supports": ["A participant may appear at negotiations and discussions with a support person within the statutory rules."],
+      "doesNotSupport": ["Unrestricted access for every third party to protected case data"]
+    },
+    {
+      "id": "SRC_SGB10_67A",
+      "title": "Sozialgesetzbuch X section 67a",
+      "institution": "Federal Republic of Germany",
+      "url": "https://www.gesetze-im-internet.de/sgb_10/__67a.html",
+      "state": "LAW_ACTIVE",
+      "supports": ["Social data collection requires a statutory task basis and generally takes place from the data subject."],
+      "doesNotSupport": ["A person-level satisfaction database"]
+    },
+    {
+      "id": "SRC_SGB2_14",
+      "title": "Sozialgesetzbuch II section 14",
+      "institution": "Federal Republic of Germany",
+      "url": "https://www.gesetze-im-internet.de/sgb_2/__14.html",
+      "state": "LAW_ACTIVE",
+      "supports": ["Jobcenter advice is oriented to individual need, a personal contact should be named, and advice can be outreach- and social-space-oriented."],
+      "doesNotSupport": ["A particular new job title or pay formula"]
+    },
+    {
+      "id": "SRC_SGB3_29",
+      "title": "Sozialgesetzbuch III section 29",
+      "institution": "Federal Republic of Germany",
+      "url": "https://www.gesetze-im-internet.de/sgb_3/__29.html",
+      "state": "LAW_ACTIVE",
+      "supports": ["The Federal Employment Agency must offer vocational and continuing-education advice according to advisory need."],
+      "doesNotSupport": ["A universal non-vocational ombuds mandate"]
+    },
+    {
+      "id": "SRC_SGB3_367",
+      "title": "Sozialgesetzbuch III section 367",
+      "institution": "Federal Republic of Germany",
+      "url": "https://www.gesetze-im-internet.de/sgb_3/__367.html",
+      "state": "LAW_ACTIVE",
+      "supports": ["The Federal Employment Agency is a direct federal public-law corporation."],
+      "doesNotSupport": ["Any particular disputed case fact"]
+    },
+    {
+      "id": "SRC_BGG_GENERAL",
+      "title": "Behindertengleichstellungsgesetz sections 1, 3, 4 and 7",
+      "institution": "Federal Republic of Germany",
+      "url": "https://www.gesetze-im-internet.de/bgg/BJNR146800002.html",
+      "state": "LAW_ACTIVE",
+      "supports": ["The Act covers federal public bodies including the BA, defines disability and accessibility, prohibits discrimination and recognizes proportionate reasonable accommodations in individual cases."],
+      "doesNotSupport": ["An identical dedicated room in every existing building regardless of circumstances"]
+    },
+    {
+      "id": "SRC_BGG_8",
+      "title": "Behindertengleichstellungsgesetz section 8",
+      "institution": "Federal Republic of Germany",
+      "url": "https://www.gesetze-im-internet.de/bgg/__8.html",
+      "state": "LAW_ACTIVE",
+      "supports": ["Federal new, conversion and extension construction and specified existing-building measures must or should account for barrier-free design under the statutory rules."],
+      "doesNotSupport": ["A named listening-room entitlement independent of the building measure"]
+    },
+    {
+      "id": "SRC_BGG_11",
+      "title": "Behindertengleichstellungsgesetz section 11",
+      "institution": "Federal Republic of Germany",
+      "url": "https://www.gesetze-im-internet.de/bgg/__11.html",
+      "state": "LAW_ACTIVE",
+      "supports": ["Federal public bodies should communicate in simple and understandable language and explain notices on request in the defined cases."],
+      "doesNotSupport": ["An unlimited rewriting duty or a new benefit entitlement"]
+    },
+    {
+      "id": "SRC_BGG_16",
+      "title": "Behindertengleichstellungsgesetz section 16",
+      "institution": "Federal Republic of Germany",
+      "url": "https://www.gesetze-im-internet.de/bgg/__16.html",
+      "state": "LAW_ACTIVE",
+      "supports": ["A neutral, independent, accessible and free out-of-court conciliation procedure exists for specified BGG disputes."],
+      "doesNotSupport": ["A replacement for every formal remedy"]
+    },
+    {
+      "id": "SRC_BA_KRM",
+      "title": "Kundenreaktionsmanagement der Bundesagentur fuer Arbeit",
+      "institution": "Bundesagentur fuer Arbeit",
+      "url": "https://www.arbeitsagentur.de/ueber-uns/kundenreaktionsmanagement",
+      "state": "POLICY_CURRENT",
+      "supports": ["The BA describes a nationwide neutral contact for praise, suggestions, criticism and complaints, including an anonymous route."],
+      "doesNotSupport": ["A physical low-stimulus room at every BA entrance", "Replacement of objection or court action"]
+    },
+    {
+      "id": "SRC_ARB_SCHG",
+      "title": "Arbeitsschutzgesetz sections 3 to 5",
+      "institution": "Federal Republic of Germany",
+      "url": "https://www.gesetze-im-internet.de/arbschg/BJNR124610996.html",
+      "state": "LAW_ACTIVE",
+      "supports": ["Employers must organize occupational safety and assess physical and psychological hazards."],
+      "doesNotSupport": ["One nationwide security staffing model without a site-specific assessment"]
+    },
+    {
+      "id": "SRC_DGUV_PUBLIC_SERVICE",
+      "title": "Gewaltpraevention fuer Beschaeftigte im oeffentlichen Dienst",
+      "institution": "Deutsche Gesetzliche Unfallversicherung",
+      "url": "https://www.dguv.de/gewalt-angehen/beschaeftigte/beschaeftigte-oeffentlicher-dienst/index.jsp",
+      "state": "OFFICIAL_PREVENTION_GUIDANCE",
+      "supports": ["Public-service customer contact benefits from spatial precautions, communication and de-escalation training, reporting and emergency planning."],
+      "doesNotSupport": ["A legal room duty or an identity-based risk classification"]
+    },
+    {
+      "id": "SRC_BAUA_INTERACTION",
+      "title": "Gefaehrdungsbeurteilung Interaktionsarbeit",
+      "institution": "Bundesanstalt fuer Arbeitsschutz und Arbeitsmedizin",
+      "url": "https://www.baua.de/DE/Themen/Arbeitsgestaltung/Gefaehrdungsbeurteilung/Handbuch-Gefaehrdungsbeurteilung/Expertenwissen/Psychische-Faktoren/Interaktionsarbeit/Interaktionsarbeit_dossier",
+      "state": "OFFICIAL_GUIDANCE",
+      "supports": ["Communication, de-escalation, complaint management and organizational or spatial measures are possible prevention elements."],
+      "doesNotSupport": ["A self-executing staffing or building rule"]
+    },
+    {
+      "id": "SRC_BUND_BARRIER_FREE_BUILDING",
+      "title": "Leitfaden Barrierefreies Bauen",
+      "institution": "Bundesministerium fuer Wohnen, Stadtentwicklung und Bauwesen",
+      "url": "https://www.bmwsb.bund.de/SharedDocs/downloads/DE/veroeffentlichungen/bauen/leitfaden-barrierefreies-bauen.pdf?__blob=publicationFile&v=2",
+      "state": "OFFICIAL_GUIDANCE",
+      "supports": ["Federal building guidance addresses public reception areas, seating and room acoustics as accessibility design subjects."],
+      "doesNotSupport": ["An independent statutory claim created by the guide"]
+    },
+    {
+      "id": "SRC_GG_33",
+      "title": "Grundgesetz Artikel 33 Absatz 2",
+      "institution": "Federal Republic of Germany",
+      "url": "https://www.gesetze-im-internet.de/gg/art_33.html",
+      "state": "LAW_ACTIVE",
+      "supports": ["Access to public office follows aptitude, qualifications and professional performance."],
+      "doesNotSupport": ["Selection solely by an unmeasured vibe"]
+    },
+    {
+      "id": "SRC_BAG_8_AZR_279_20",
+      "title": "BAG judgment 8 AZR 279/20",
+      "institution": "Federal Labour Court",
+      "url": "https://www.bundesarbeitsgericht.de/entscheidung/8-azr-279-20/",
+      "state": "CASE_LAW",
+      "supports": ["Article 33(2) also governs public-service employee posts; aptitude and qualification may include personality, general knowledge, life experience and training when objectively bound to the role."],
+      "doesNotSupport": ["Arbitrary appointment without a transparent profile"]
+    },
+    {
+      "id": "SRC_SGB3_387",
+      "title": "Sozialgesetzbuch III section 387",
+      "institution": "Federal Republic of Germany",
+      "url": "https://www.gesetze-im-internet.de/sgb_3/__387.html",
+      "state": "LAW_ACTIVE",
+      "supports": ["BA personnel are primarily employees; BA civil servants are federal civil servants."],
+      "doesNotSupport": ["A particular salary amount"]
+    },
+    {
+      "id": "SRC_TV_BA",
+      "title": "Tarifvertrag der Bundesagentur fuer Arbeit",
+      "institution": "Bundesagentur fuer Arbeit",
+      "url": "https://www.arbeitsagentur.de/bakarriere/tarifvertrag",
+      "state": "COLLECTIVE_PAY_CURRENT",
+      "supports": ["The BA employee pay system uses activity levels, experience stages and defined function supplements."],
+      "doesNotSupport": ["A 100,000-euro monthly standard role or an automatic public-satisfaction formula"]
+    },
+    {
+      "id": "SRC_SGB3_390",
+      "title": "Sozialgesetzbuch III section 390",
+      "institution": "Federal Republic of Germany",
+      "url": "https://www.gesetze-im-internet.de/sgb_3/__390.html",
+      "state": "LAW_ACTIVE",
+      "supports": ["A narrowly regulated performance and business-results component exists for upper BA managers and selected specialists with capped amounts, an agreed metric system and budget controls."],
+      "doesNotSupport": ["An unrestricted direct salary link to overall population satisfaction"]
+    },
+    {
+      "id": "SRC_BBESG_2_14_42A",
+      "title": "Bundesbesoldungsgesetz sections 2, 14 and 42a",
+      "institution": "Federal Republic of Germany",
+      "url": "https://www.gesetze-im-internet.de/bbesg/BJNR011740975.html",
+      "state": "LAW_ACTIVE",
+      "supports": ["Federal civil-service pay and adjustments require statutory bases; performance supplements operate within statutory limits."],
+      "doesNotSupport": ["Creation of civil-service pay by a software output or unilateral proposal"]
+    },
+    {
+      "id": "SRC_GG_110",
+      "title": "Grundgesetz Artikel 110",
+      "institution": "Federal Republic of Germany",
+      "url": "https://www.gesetze-im-internet.de/gg/art_110.html",
+      "state": "LAW_ACTIVE",
+      "supports": ["Federal expenditure and revenue belong in the budget plan established by budget law."],
+      "doesNotSupport": ["Automatic expenditure by a research calculator"]
+    },
+    {
+      "id": "SRC_BHO_7",
+      "title": "Bundeshaushaltsordnung section 7",
+      "institution": "Federal Republic of Germany",
+      "url": "https://www.gesetze-im-internet.de/bho/__7.html",
+      "state": "LAW_ACTIVE",
+      "supports": ["Financial measures must observe economy and efficiency and use an appropriate economic analysis."],
+      "doesNotSupport": ["That the synthetic fixture is a cost estimate"]
+    },
+    {
+      "id": "SRC_DESTATIS_SATISFACTION",
+      "title": "Lebenslagenbefragung 2023",
+      "institution": "Statistisches Bundesamt",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2024/09/PD24_368_p001.html",
+      "state": "OFFICIAL_DATA_LATEST_FOUND",
+      "supports": ["The 2023 life-events survey reports an overall authority-service satisfaction score and multiple life-event results."],
+      "doesNotSupport": ["A monthly live index of total population satisfaction", "A pay entitlement"]
+    },
+    {
+      "id": "SRC_DESTATIS_METHOD",
+      "title": "Buerokratiekosten und Lebenslagenbefragung",
+      "institution": "Statistisches Bundesamt",
+      "url": "https://www.destatis.de/DE/Themen/Staat/Buerokratiekosten/_inhalt.html",
+      "state": "OFFICIAL_METHOD",
+      "supports": ["Destatis conducts the life-events survey every two years and publishes its method and results as a public-administration satisfaction instrument."],
+      "doesNotSupport": ["Use of a small entrance kiosk sample as the whole population", "Direct comparison across changed methods without review"]
+    }
+  ],
+  "registryClaimCeiling": "OFFICIAL_SOURCE_PROPOSITIONS_WITHIN_THEIR_SCOPES_NOT_A_FINDING_OF_UNIVERSAL_ROOM_DUTY_APPOINTMENT_PAY_AMOUNT_BUDGET_EFFECTIVENESS_OR_INDIVIDUAL_CASE_MERITS"
+}

@@ -1,0 +1,76 @@
+{
+  "exampleState": "SYNTHETIC_CALCULATION_FIXTURE_NOT_BUDGET_OFFER_OR_COST_ESTIMATE",
+  "illustrativeUserReference": {
+    "referenceId": "USER_IDEA_OMEGA_VIBER_100K_MONTH",
+    "amountCents": 10000000,
+    "currency": "EUR",
+    "cadence": "MONTH",
+    "classification": "ILLUSTRATIVE_USER_PROPOSAL_ONLY",
+    "createsEmploymentOffer": false,
+    "createsEntitlement": false,
+    "isCostEstimate": false,
+    "usedByCalculator": false
+  },
+  "compensation": {
+    "policy": {
+      "version": "comp-v1",
+      "currency": "EUR",
+      "basis": "ROLE_MONTHLY_GROSS_FTE",
+      "floorMonthlyCents": 400000,
+      "satisfactionLink": "PROHIBITED"
+    },
+    "state": {
+      "policyVersion": "comp-v1",
+      "currentBaseMonthlyCents": 500000
+    }
+  },
+  "repairBudget": {
+    "policy": {
+      "version": "repair-v1",
+      "currency": "EUR",
+      "targetScoreBps": 7000,
+      "activationDeadbandBps": 200,
+      "releaseBandBps": 300,
+      "trendDeadbandBps": 100,
+      "baselineRepairBudgetCents": 1000000,
+      "minRepairBudgetCents": 500000,
+      "maxRepairBudgetCents": 3000000,
+      "structuralCentsPerScorePoint": 10000,
+      "trendCentsPerScorePoint": 5000,
+      "maxIncreaseCentsPerPeriod": 400000,
+      "maxDecreaseCentsPerPeriod": 200000,
+      "requiredHealthyPeriods": 2,
+      "minSampleSize": 100,
+      "minResponseRateBps": 1000,
+      "minCellSize": 10,
+      "maxMarginOfErrorBps": 400,
+      "allowedMethodVersions": ["survey-v1"],
+      "qualityProfileId": "MIN_PUBLIC_BUDGET_SIGNAL_V1",
+      "measurementGovernance": "INDEPENDENT_OR_EXTERNALLY_AUDITED",
+      "spendingEvidenceRequired": true,
+      "qualityHoldEscalationPeriods": 2
+    },
+    "state": {
+      "policyVersion": "repair-v1",
+      "period": "2026-08",
+      "repairBudgetCents": 1000000,
+      "lastValidScoreBps": 7200,
+      "healthyStreak": 0,
+      "consecutiveQualityHolds": 0
+    },
+    "measurement": {
+      "period": "2026-09",
+      "populationSatisfactionIndexBps": 6500,
+      "sampleSize": 200,
+      "eligiblePopulation": 1000,
+      "smallestPublishedCellSize": 20,
+      "marginOfErrorBps": 300,
+      "methodVersion": "survey-v1",
+      "sourceReceiptId": "synthetic-receipt-2026-09",
+      "dataClass": "EXTERNAL_MINIMIZED",
+      "aggregationOnly": true,
+      "containsDirectIdentifiers": false,
+      "containsFreeText": false
+    }
+  }
+}

@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.13.0 — 2026-09-10
+
+- published Juri Janovski's Geburtsraum principle for public-authority entrances as a low-stimulus, accessible and voluntary listening-and-orientation room directly reachable from reception
+- required both functions at the model level: a responsible listening steward without enforcement powers and a separately reachable safety and emergency function with a situation-bound handoff
+- mapped the existing constitutional, social-administration, accessibility, petition, work-safety, BA complaint, public-pay, budget and official satisfaction-measurement anchors while keeping the general room and staffing duty visibly classified as a policy proposal
+- retained `OMEGA VIBER` as the proposed public role label, opened qualification routes through formal credentials, equivalent practice and documented life experience, and kept public-service selection bound to objective aptitude, qualification and performance criteria
+- preserved the proposed 100,000-euro monthly reference as an excluded illustrative value; it creates no appointment, offer, cost estimate or entitlement and is never read by the calculator
+- added a countercyclical institutional repair-budget model that calculates increase candidates only after a valid aggregated satisfaction signal, holds poor-quality or privacy-unsafe measurements, requires independent or externally audited measurement and spending evidence, and permits a capped decrease candidate only after sustained recovery
+- added twenty regression tests covering the legal/proposal boundary, direct validation of the canonical room contract, role separation, privacy, closed input shape including non-enumerable fields, stable compensation, non-disableable measurement quality, repeated-quality-failure oversight, hysteresis and the absence of automatic real-world financial action
+- kept private case material, raw feedback, person-level satisfaction profiles, appointments, external contacts and actual expenditure outside the public package
+
 ## 0.12.1 — 2026-09-10
 
 - made CI fetch complete Git history so the immutable `v0.5.0` receipt test can resolve its bound historical tag on GitHub runners

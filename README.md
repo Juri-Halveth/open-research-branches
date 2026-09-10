@@ -38,6 +38,7 @@ Sicherheitsmeldungen gehören nicht hierher.
 | `alice-media-referent-and-agency-audit` | endliche Alice-Kandidatenmenge, offizielle Storyquellen und reziproker Report-first-Prüfer für Aussagen, Belegzugang und Vergleichsreife | `FINITE_SNAPSHOT` |
 | `fingertip-spark-esd-spacecraft-audit` | berichtete Fingerspitzen-Funken, sechs physikalische und optische Modelle, passive Beobachtung sowie eng gebundene ESD-Raumfahrtbrücke | `FINITE_SNAPSHOT` |
 | `priority-evidence-and-regress-audit` | sieben getrennte Achsen für Snapshot, Öffentlichkeit, Kenntnis, Ableitung, Rechtsverletzung, Anspruch und Höhe | `FINITE_SNAPSHOT` |
+| `public-authority-entry-listening-room` | Geburtsraum-Prinzip als verantwortlicher, reizarmer Empfangs- und Zuhörraum mit getrennter Sicherheitsfunktion und gegenläufigem Reparaturhaushalt | `FINITE_SNAPSHOT` |
 
 Der maschinenlesbare Bestand liegt in
 [`catalog/branches.json`](catalog/branches.json). Die Aufnahme- und
@@ -70,6 +71,12 @@ bindet außerdem die vier beim Abruf sichtbaren öffentlichen Repositorys dieses
 Kontos. Die [`Marker-Matrix`](reports/FREE_NEWS_017_CE_BARCODES_HTTPS_500_AND_SNAPSHOT_MARKERS.md)
 trennt CE, Strichcodes, HTTPS, HTTP 500, Git-, iOS-, Microsoft-PKI- und den noch
 ungebundenen Frankfurt-Snapshot nach ihrer jeweils belegten Funktion.
+[`FREE NEWS 018`](reports/FREE_NEWS_018_PUBLIC_AUTHORITY_ENTRY_LISTENING_ROOM.md)
+und der zugehörige
+[`Behördeneingangs-Ast`](branches/public-authority-entry-listening-room/README.md)
+materialisieren Juris Geburtsraum-Prinzip als öffentlichen Vorschlag für einen
+freiwilligen Zuhörraum, eine getrennte Sicherheitsfunktion und einen
+datensparsamen Reparaturhaushalt.
 
 ## Mitmachen
 

@@ -1,0 +1,167 @@
+{
+  "contract_version": "3.5.1",
+  "work_classes": [
+    "WHOLE_PROJECT_POLICY_RECONSTRUCTION",
+    "RELATION_ADDRESS_CLOSURE",
+    "POSITIVE_STATE_NAVIGATION"
+  ],
+  "network_active": true,
+  "state_changing": false,
+  "critical_factual_proof": false,
+  "authorization_contract": {
+    "target": "Official public sources in sources.json and the owned local research repository",
+    "owner": "The respective public publishers and the repository owner for new audit files",
+    "authorization_source": "Explicit user request to research, implement and publish the proposal under the user's name",
+    "program_policy": "PUBLIC_WEB_READ_ONLY_AND_OWNED_REPOSITORY_PUBLICATION",
+    "in_scope_asset": "Official public documents and the new public policy-and-code package",
+    "test_identity": "Public reader and repository-owner workflow",
+    "prerequisites": "Public source access, local deterministic execution and privacy-minimized publication",
+    "stop_condition": "Stop before personal-case disclosure, nonpublic data, appointment assertion, expenditure commitment or third-party contact",
+    "data_boundary": "PUBLIC official sources, synthetic fixtures and authorized public author attribution only",
+    "evidence_output": "URLs, source scope, policy contract, deterministic code, tests and Git receipt",
+    "valid_at": "2026-09-10T03:30:00+02:00"
+  },
+  "root_set": [
+    {
+      "rootId": "R1_HUMAN_DIGNITY_AND_ACCESS",
+      "type": "CONSTITUTIONAL_AND_STATUTORY_ROOT",
+      "sourceIds": ["SRC_GG_1", "SRC_GG_3", "SRC_SGB1_17", "SRC_BGG_GENERAL"],
+      "scope": "Public authority treatment, social-service access and accessibility",
+      "status": "ACTIVE",
+      "doesNotCreate": ["NAMED_ROOM_DUTY", "APPOINTMENT", "PAY_AMOUNT"]
+    },
+    {
+      "rootId": "R2_USER_POLICY_PROPOSAL",
+      "type": "ROOT_INVITATION",
+      "sourceIds": ["branches/public-authority-entry-listening-room/README.md"],
+      "scope": "General entrance listening-room duty and repair-budget pilot",
+      "status": "HYPOTHESIS",
+      "consentStateOutsideRepository": "UNKNOWN"
+    }
+  ],
+  "sibling_axes": [
+    {
+      "axisId": "A_CURRENT_LEGAL_DUTY",
+      "state": "ACTIVE_BUT_NO_GENERAL_NAMED_ROOM_DUTY_FOUND",
+      "evidenceRefs": ["sources.json"]
+    },
+    {
+      "axisId": "B_PUBLIC_POLICY_PROPOSAL",
+      "state": "ACTIVE_PUBLIC_PROPOSAL",
+      "evidenceRefs": ["README.md", "room-contract.json"]
+    },
+    {
+      "axisId": "C_LISTENING_FUNCTION",
+      "state": "STRUCTURE_BOUND",
+      "evidenceRefs": ["room-contract.json", "test/policy-engine.test.mjs"]
+    },
+    {
+      "axisId": "D_SAFETY_FUNCTION",
+      "state": "SEPARATE_AND_REQUIRED_BY_MODEL",
+      "evidenceRefs": ["room-contract.json", "SRC_ARB_SCHG", "SRC_DGUV_PUBLIC_SERVICE"]
+    },
+    {
+      "axisId": "E_COMPENSATION",
+      "state": "CURRENT_SYSTEM_SOURCE_BOUND_PROPOSED_NEW_ROLE_NOT_COSTED",
+      "evidenceRefs": ["SRC_TV_BA", "SRC_SGB3_390", "SRC_BBESG_2_14_42A"]
+    },
+    {
+      "axisId": "F_REPAIR_BUDGET",
+      "state": "SYNTHETIC_DETERMINISTIC_MODEL_ONLY",
+      "evidenceRefs": ["budget-policy.example.json", "src/policy-engine.mjs"]
+    },
+    {
+      "axisId": "G_SATISFACTION_MEASUREMENT",
+      "state": "OFFICIAL_METHOD_EXISTS_BUT_NO_MONTHLY_TOTAL_POPULATION_INDEX",
+      "evidenceRefs": ["SRC_DESTATIS_SATISFACTION", "SRC_DESTATIS_METHOD"]
+    },
+    {
+      "axisId": "H_PRIVACY_AND_FORMAL_REMEDIES",
+      "state": "ACTIVE_FIREWALL",
+      "evidenceRefs": ["SRC_SGB1_35", "SRC_SGB10_67A", "SRC_BA_KRM", "room-contract.json"]
+    }
+  ],
+  "countermodels": [
+    {
+      "modelId": "M1_SECURITY_ONLY_ENTRY",
+      "description": "The first visible entrance function is safety and access control.",
+      "protectedInterests": ["PHYSICAL_SAFETY", "STAFF_PROTECTION"],
+      "openCosts": ["UNHEARD_REQUEST", "ESCALATION_FROM_CONFUSION", "ACCESS_BARRIER"],
+      "evidenceState": "MODEL_INFERRED"
+    },
+    {
+      "modelId": "M2_LISTENING_WITHOUT_SEPARATE_SAFETY",
+      "description": "A listening person handles all situations without a separate safety function.",
+      "protectedInterests": ["LOW_THRESHOLD_ACCESS"],
+      "openCosts": ["ROLE_OVERLOAD", "UNSAFE_ESCALATION", "UNCLEAR_AUTHORITY"],
+      "evidenceState": "MODEL_INFERRED"
+    },
+    {
+      "modelId": "M3_SEPARATE_COOPERATING_FUNCTIONS",
+      "description": "Listening and safety are simultaneously reachable, with separate authority and an explicit handoff.",
+      "protectedInterests": ["DIGNIFIED_ACCESS", "VISITOR_SAFETY", "STAFF_SAFETY", "PROCEDURAL_CLARITY"],
+      "openCosts": ["STAFFING", "SPACE", "HANDOFF_FAILURE", "ROLE_CONFUSION"],
+      "evidenceState": "TESTABLE_POLICY_PROPOSAL"
+    }
+  ],
+  "relations": [
+    {
+      "relationId": "REL_01",
+      "from": "LISTENING_STEWARD",
+      "to": "SUBJECT_MATTER_OFFICE",
+      "relationType": "LAWFUL_PURPOSE_BOUND_PROCEDURAL_HANDOFF",
+      "direction": "FROM_TO",
+      "source": "room-contract.json",
+      "time": "AT_INTAKE",
+      "evidenceState": "DECLARED",
+      "authority": "APPLICABLE_STATUTE_OR_INTERNAL_MANDATE",
+      "writeDomain": "HANDOFF_RECEIPT_ONLY"
+    },
+    {
+      "relationId": "REL_02",
+      "from": "LISTENING_STEWARD",
+      "to": "SAFETY_FUNCTION",
+      "relationType": "SITUATION_BOUND_SAFETY_ESCALATION",
+      "direction": "FROM_TO",
+      "source": "room-contract.json",
+      "time": "ONLY_WHEN_OBSERVED_OR_CREDIBLY_CONCRETELY_REPORTED_DANGER_TRIGGER_IS_MET",
+      "evidenceState": "DECLARED",
+      "authority": "SITE_SAFETY_AND_EMERGENCY_PROTOCOL",
+      "writeDomain": "SAFETY_EVENT_RECORD_ONLY"
+    },
+    {
+      "relationId": "REL_03",
+      "from": "AGGREGATED_VALID_MEASUREMENT",
+      "to": "INSTITUTIONAL_REPAIR_BUDGET_RECOMMENDATION",
+      "relationType": "DETERMINISTIC_NON_EXECUTING_CALCULATION",
+      "direction": "FROM_TO",
+      "source": "src/policy-engine.mjs",
+      "time": "NEXT_VALID_PERIOD",
+      "evidenceState": "OBSERVED_IN_SYNTHETIC_TESTS",
+      "authority": "NONE_FOR_REAL_EXPENDITURE",
+      "writeDomain": "LOCAL_RECOMMENDATION_RECEIPT_ONLY"
+    }
+  ],
+  "proven": [
+    "Official sources establish constitutional, social-administration, accessibility, work-safety, pay, budget and measurement anchors within their separate scopes.",
+    "The local model rejects a listening role with enforcement powers and requires a separate safety function.",
+    "The local model keeps personal compensation independent of population satisfaction.",
+    "The local model can calculate an increased synthetic institutional repair-budget candidate after a valid low-satisfaction measurement and holds decreases behind a multi-period release guard."
+  ],
+  "falsified": [
+    "The cited federal sources already impose the complete proposed room at every authority entrance.",
+    "A low satisfaction value can directly change an individual worker's salary in this model.",
+    "The 100,000-euro illustrative reference is used by the calculator.",
+    "A structural validator result appoints a person, commits funds or proves effectiveness."
+  ],
+  "deepest_unknown": "Whether the proposed dual-function entrance design improves dignified access and safety at acceptable cost across materially different authorities.",
+  "why_unknown": "No authorized multi-site pilot with representative outcome, cost, safety, accessibility and adverse-effect measurements is included.",
+  "next_safe_experiment": "A voluntary, time-limited, independently evaluated pilot using an existing accessible room, trained staffing, a separate safety plan and data-minimized metrics.",
+  "stop_condition": "Stop before compulsory participation, personal profiling, hidden recording, replacement of formal remedies, automatic financial execution or appointment claims.",
+  "reopen_trigger": "A published pilot protocol, enacted legal basis, collective agreement, budget decision or representative multi-period evaluation.",
+  "model_state": "SOURCE_BOUND_POLICY_SHADOW",
+  "evidence_state": "STRONGLY_SUPPORTED",
+  "external_effects": 0,
+  "validator_materializes_policy": false,
+  "claimCeiling": "SOURCE_BOUND_POLICY_RECONSTRUCTION_AND_SYNTHETIC_GOVERNANCE_TEST_NOT_UNIVERSAL_LEGAL_DUTY_REAL_BUDGET_APPOINTMENT_PAY_OR_EFFECTIVENESS_PROOF"
+}

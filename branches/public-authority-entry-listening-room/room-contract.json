@@ -1,0 +1,152 @@
+{
+  "schemaVersion": "1.0.0",
+  "contractId": "JURI.PUBLIC_AUTHORITY_ENTRY_LISTENING_ROOM.V1",
+  "title": "Geburtsraum-Prinzip fuer Behoerdeneingaenge",
+  "proposer": "Juri Janovski",
+  "publishedAt": "2026-09-10",
+  "currentLegalState": "NO_GENERAL_FEDERAL_DUTY_FOUND_FOR_A_DEDICATED_ROOM_AT_EVERY_AUTHORITY_ENTRANCE",
+  "proposalState": "PUBLIC_POLICY_AND_PILOT_PROPOSAL",
+  "unit": {
+    "type": "AUTHORITY_ENTRY_LISTENING_ROOM",
+    "functionalName": "Verantwortlicher Empfangs- und Zuhoerraum",
+    "publicAlias": "OMEGA VIBER",
+    "birthRoomSemantics": "LOW_STIMULUS_AUTONOMOUS_AND_ACCOMPANIED_ENTRY_ANALOGY",
+    "lowStimulusProtocolVersion": "low-stimulus-v1",
+    "medicalFacility": false,
+    "therapyService": false,
+    "mandatoryPlacement": "DIRECTLY_DISCOVERABLE_FROM_PUBLIC_ENTRY_OR_RECEPTION",
+    "coverageWindow": "PUBLIC_OPENING_HOURS",
+    "voluntaryUse": true,
+    "appointmentRequiredForFirstContact": false,
+    "proofRequiredForIntake": false,
+    "jurisdictionRequiredForIntake": false
+  },
+  "roles": [
+    {
+      "roleId": "LISTENING_STEWARD",
+      "functionalLabel": "PUBLIC_ENTRY_LISTENING_AND_ACCOUNTABILITY_STEWARD",
+      "minimumOnDuty": 1,
+      "backupRequired": true,
+      "hasEnforcementPowers": false,
+      "powers": [
+        "LISTEN",
+        "EXPLAIN_PROCESS",
+        "IDENTIFY_CANDIDATE_AUTHORITY",
+        "ORGANIZE_ACCESSIBLE_COMMUNICATION",
+        "ACCEPT_OR_ROUTE_WITHIN_LEGAL_MANDATE",
+        "PROVIDE_HANDOFF_RECEIPT_ON_REQUEST",
+        "FOLLOW_AUTHORIZED_HANDOFF"
+      ],
+      "prohibitedPowers": [
+        "SEARCH_PERSON",
+        "COERCE_ENTRY",
+        "SANCTION",
+        "DIAGNOSE",
+        "DECIDE_BENEFIT",
+        "DECIDE_LEGAL_MERITS",
+        "PROFILE_DANGER_FROM_IDENTITY"
+      ],
+      "qualificationPathways": [
+        "FORMAL_QUALIFICATION",
+        "EQUIVALENT_EXPERIENCE",
+        "DOCUMENTED_LIFE_EXPERIENCE_PLUS_ROLE_TRAINING"
+      ],
+      "selectionRule": "OBJECTIVE_PROFILE_UNDER_ARTICLE_33_2_GG_WHERE_APPLICABLE"
+    },
+    {
+      "roleId": "SAFETY_FUNCTION",
+      "functionalLabel": "SEPARATE_SAFETY_AND_EMERGENCY_FUNCTION",
+      "availability": "REACHABLE_DURING_PUBLIC_OPENING_HOURS",
+      "protocolVersion": "safety-v1",
+      "activationBasis": "OBSERVED_OR_CREDIBLY_AND_CONCRETELY_REPORTED_DANGER_AND_PROPORTIONATE_RESPONSE",
+      "notActivationBasis": [
+        "IDENTITY",
+        "DISABILITY",
+        "DIAGNOSIS_ASSUMPTION",
+        "COMPLAINT_CONTENT_ALONE",
+        "MERE_DISTRESS_OR_UNUSUAL_EXPRESSION"
+      ],
+      "mayDecideComplaintMerits": false
+    },
+    {
+      "roleId": "SUBJECT_MATTER_OFFICE",
+      "functionalLabel": "COMPETENT_AUTHORITY_OR_SERVICE_UNIT",
+      "powers": ["PROCESS_APPLICATION", "PROVIDE_STATUTORY_ADVICE", "DECIDE_WITHIN_MANDATE"],
+      "mustNotTreatRoomAsReplacementForFormalProcedure": true
+    }
+  ],
+  "intakeSequence": [
+    "VISIBLE_ENTRY",
+    "VOLUNTARY_LOW_STIMULUS_OPTION",
+    "LISTEN_WITHOUT_FULL_MERITS_PROOF_GATE",
+    "CLARIFY_DESIRED_NEXT_STEP",
+    "MAKE_DEADLINE_AND_FORMAL_ROUTE_VISIBLE",
+    "BIND_LAWFUL_BASIS_PURPOSE_AND_REQUIRED_DATA_FOR_PERSONAL_DATA_OR_HANDOFF",
+    "ROUTE_TO_COMPETENT_FUNCTION",
+    "ISSUE_OPTIONAL_HANDOFF_RECEIPT"
+  ],
+  "accessibility": {
+    "discoverable": true,
+    "stepFreeOrEquivalentRoute": true,
+    "communicationAidsAvailable": true,
+    "plainLanguageAvailable": true,
+    "broughtSupportPersonPermittedWithinApplicableLaw": true,
+    "adjustableStimulusFeatures": ["LIGHT", "NOISE", "SEATING_POSITION", "CONVERSATION_DISTANCE"],
+    "forcedSegregation": false
+  },
+  "privacy": {
+    "acousticallyConfidential": true,
+    "recordingDefault": "OFF",
+    "recordingRequiresSpecificBasisAndTransparency": true,
+    "anonymousGeneralFeedbackRoute": true,
+    "caseAdviceDataRoute": "PURPOSE_BOUND_AND_MINIMIZED",
+    "satisfactionProfilingAtPersonLevel": false,
+    "rawFreeTextIntoBudgetCalculator": false,
+    "sourceIds": ["SRC_SGB1_35", "SRC_SGB10_67A", "SRC_SGB3_394"]
+  },
+  "formalProcedureFirewall": {
+    "replacesApplication": false,
+    "replacesObjection": false,
+    "replacesCourtAction": false,
+    "suspendsDeadline": false,
+    "createsNewStatutoryDeadline": false,
+    "deadlineInformationMustRemainVisible": true
+  },
+  "employmentAndMandateOptions": [
+    {
+      "optionId": "PUBLIC_SERVICE_POSITION",
+      "status": "POLICY_OPTION",
+      "bindings": ["LAW_OR_COLLECTIVE_AGREEMENT", "OBJECTIVE_ROLE_EVALUATION", "SUPERVISION", "INDEPENDENT_COMPLAINT_ROUTE"]
+    },
+    {
+      "optionId": "INDEPENDENT_OMBUDS_MANDATE",
+      "status": "POLICY_OPTION",
+      "bindings": ["LEGAL_OR_CONTRACTUAL_MANDATE", "CASE_INTAKE_INDEPENDENCE", "DATA_PROTECTION", "PUBLIC_ACCOUNTABILITY"]
+    }
+  ],
+  "proposerOffer": {
+    "person": "Juri Janovski",
+    "offeredRoles": ["INITIATOR", "PILOT_DESIGNER", "CANDIDATE_FOR_INDEPENDENT_STEWARD_ROLE"],
+    "createsAppointment": false,
+    "createsEmploymentContract": false,
+    "createsRepresentationAuthority": false,
+    "createsCompensationEntitlement": false
+  },
+  "evaluation": {
+    "requiredDimensions": [
+      "VOLUNTARY_USE",
+      "TIME_TO_COMPETENT_HUMAN",
+      "AUTHORIZED_HANDOFF_COMPLETION",
+      "ACCESSIBILITY",
+      "COMPREHENSIBILITY",
+      "SAFETY_FOR_VISITORS_AND_STAFF",
+      "REPEAT_VISITS",
+      "COST",
+      "REPRESENTATIVE_SATISFACTION_WITH_UNCERTAINTY",
+      "UNINTENDED_STIGMA_SURVEILLANCE_OR_COERCION"
+    ],
+    "satisfactionAloneProvesFairness": false,
+    "lowSatisfactionProvesIndividualFault": false
+  },
+  "claimCeiling": "SOURCE_BOUND_PUBLIC_AUTHORITY_ENTRY_LISTENING_ROOM_POLICY_PROPOSAL_NOT_EXISTING_UNIVERSAL_DUTY_APPOINTMENT_PAY_ENTITLEMENT_EFFECTIVENESS_OR_CASE_OUTCOME"
+}

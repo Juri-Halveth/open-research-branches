@@ -12,6 +12,8 @@
         "branches/aster-provenance-and-secret-garden/SOURCES.md",
         "branches/aster-provenance-and-secret-garden/provenance.json",
         "branches/aster-provenance-and-secret-garden/test/aster-lens.test.mjs",
+        "branches/public-authority-entry-listening-room/README.md",
+        "branches/public-authority-entry-listening-room/room-contract.json",
         "branches/historical-cipher-decoding-challenge/challenge.json",
         "branches/historical-cipher-decoding-challenge/README.md",
         "branches/alice-media-referent-and-agency-audit/README.md",
@@ -35,7 +37,8 @@
         "reports/FREE_NEWS_011_HISTORICAL_CIPHER_111_DECODING_CHALLENGE.md",
         "reports/FREE_NEWS_012_ALICE_MEDIA_REFERENT_AND_AGENCY_AUDIT.md",
         "reports/FREE_NEWS_013_RECIPROCAL_EVIDENCE_AND_INFORMATION_ASYMMETRY.md",
-        "reports/FREE_NEWS_014_FINGERTIP_SPARK_ESD_AND_SPACECRAFT_BRIDGE.md"
+        "reports/FREE_NEWS_014_FINGERTIP_SPARK_ESD_AND_SPACECRAFT_BRIDGE.md",
+        "reports/FREE_NEWS_018_PUBLIC_AUTHORITY_ENTRY_LISTENING_ROOM.md"
       ]
     },
     {
@@ -88,6 +91,7 @@
       "authorizationState": "EXPLICIT_USER_AUTHORIZATION_FOR_PUBLIC_PROJECT_NAME",
       "authorizedAt": "2026-09-10",
       "files": [
+        "branches/public-authority-entry-listening-room/README.md",
         "catalog/public-identities.json",
         "reports/FREE_NEWS_016_PUBLIC_GITHUB_PROJECT_CONSTELLATION.md"
       ]
@@ -97,6 +101,7 @@
       "authorizationState": "EXPLICIT_USER_AUTHORIZATION_FOR_PUBLIC_REPOSITORY_SLUG",
       "authorizedAt": "2026-09-10",
       "files": [
+        "branches/public-authority-entry-listening-room/README.md",
         "catalog/public-identities.json",
         "catalog/public-project-snapshot.json",
         "reports/FREE_NEWS_016_PUBLIC_GITHUB_PROJECT_CONSTELLATION.md"

@@ -26,6 +26,7 @@ any branch's claim ceiling.
 | `FREE_NEWS_016_PUBLIC_GITHUB_PROJECT_CONSTELLATION.md` | Time-bound inventory of all four public non-fork repositories visible on the project account, including heads, trees, files, releases and workflows |
 | `FREE_NEWS_017_CE_BARCODES_HTTPS_500_AND_SNAPSHOT_MARKERS.md` | Marker semantics for CE, GS1 barcodes, HTTPS, HTTP 500, Git, iOS, Microsoft PKI and an explicitly unbound Frankfurt snapshot |
 | `FREE_NEWS_017_MARKER_MATRIX.json` | Machine-readable marker definitions, official source references, non-conversions and reopen requirements |
+| `FREE_NEWS_018_PUBLIC_AUTHORITY_ENTRY_LISTENING_ROOM.md` | Public policy and software audit for a low-stimulus authority-entry listening room, separate safety function and countercyclical satisfaction repair budget |
 
 Local Office and PDF artifacts from an earlier ten-branch working snapshot are
 intentionally absent. They do not describe the current release,
