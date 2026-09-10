@@ -12,7 +12,7 @@
     "synthetic-data"
   ],
   "scripts": {
-    "test": "node scripts/validate-public-manifest.mjs && node scripts/run-tests.mjs && node --test scripts/provenance-snapshot.test.mjs && node --test scripts/audit-star.test.mjs && node scripts/validate-catalog.mjs && node scripts/prepublish-check.mjs"
+    "test": "node scripts/validate-public-manifest.mjs && node scripts/run-tests.mjs && node --test scripts/provenance-snapshot.test.mjs && node --test scripts/audit-star.test.mjs && node --test scripts/validate-catalog.test.mjs && node scripts/validate-catalog.mjs && node scripts/prepublish-check.mjs"
   },
   "engines": {
     "node": ">=20"

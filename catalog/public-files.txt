@@ -215,5 +215,6 @@ scripts/prepublish-check.mjs
 scripts/provenance-snapshot.test.mjs
 scripts/run-tests.mjs
 scripts/validate-catalog.mjs
+scripts/validate-catalog.test.mjs
 scripts/validate-public-manifest.mjs
 SECURITY.md
