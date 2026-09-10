@@ -3,6 +3,12 @@
 This repository uses more than one license. A linked or cited source is not
 relicensed by this repository.
 
+**This map documents permission grants, not an exhaustive inventory of all
+rights or potential claims.** The [rights clarification](RIGHTS-RESERVATION.md)
+preserves further existing rights beyond effective grants, waivers and other
+agreements. It adds no conditions and does not withdraw existing permissions,
+including historical MIT, ISC, CC BY and CC0 terms.
+
 | Paths or file classes | License |
 | --- | --- |
 | `reports/FREE_NEWS_005_HOW_TO_FISH_IDENTITY_AND_CREATION.md` from the first public commit containing this notice (first tagged release: `v0.6.0`) | [Juri Public-Interest Research Permission 1.0](LICENSE-JURI-PUBLIC-INTEREST.md) |
@@ -31,8 +37,9 @@ relicensed by this repository.
 
 Names, quotations, linked pages, public identifiers and factual source records
 remain subject to applicable law and the originating source's rights. The
-license on this repository covers the contributors' own selection,
-arrangement, code and prose only.
+licenses operate within the respective licensors' authority over the
+selection, arrangement, code and prose. Their stated scope does not by itself
+decide other ownership questions or constitute an additional rights waiver.
 
 Local Office, build and rendering artifacts excluded by `.gitignore` are
 outside this public license map and outside the release unless a tagged release

@@ -8,10 +8,15 @@ veröffentlicht.
 Namensnennung: `HALVETH Open Research contributors` mit Link auf dieses
 Repository.
 
-Diese Lizenz erfasst ausschließlich Material, an dem die Beitragenden die
-erforderlichen Rechte besitzen. Verlinkte Quellen, Zitate und fremde Werke
-bleiben unter ihren jeweiligen Bedingungen. Das Repository bündelt keine
-fremden Originaldateien.
+Die Beitragenden erteilen diese Freigabe im Umfang ihrer Verfügungsbefugnis.
+Verlinkte Quellen, Zitate und fremde Werke behalten ihre jeweiligen
+Bedingungen. Das Repository bündelt keine fremden Originaldateien.
+
+**Erläuterung:** Diese Dateizuordnung ist kein abschließendes Rechteinventar.
+Die [Rechteklarstellung](RIGHTS-RESERVATION.md) erläutert weitere bestehende
+Rechtspositionen jenseits wirksamer Freigaben und Verzichte. Sie fügt der
+CC-BY-Lizenz keine Bedingungen hinzu; deren vollständiger Text bleibt
+maßgeblich.
 
 Dateispezifische Ausnahmen stehen in [`LICENSES.md`](LICENSES.md) vor den
 allgemeinen Regeln. Insbesondere gilt für die dort bezeichneten neuen

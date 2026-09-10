@@ -5,6 +5,11 @@ Erklärungen sind willkommen. Der [Mitmach-Einstieg](wiki/Mitmachen.md) zeigt
 die passenden Wege; [Rechte & Nutzung](wiki/Rechte-und-Nutzung.md) erklärt
 Namensnennung und die bestehende Lizenzkarte.
 
+Die [Rechteklarstellung](RIGHTS-RESERVATION.md) erläutert, dass diese
+Dokumentation über wirksame Freigaben und Verzichte hinaus keinen zusätzlichen
+Rechteverzicht enthält. Konkrete weitere Beiträge und Rechtspositionen können
+gesondert geprüft und dokumentiert werden.
+
 ## Gespräch, Aufgabe oder Änderung?
 
 | Dein Vorhaben | Passender Ort |

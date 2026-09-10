@@ -240,6 +240,7 @@ reports/FREE_NEWS_020_STEAM_COINS_WALLET_AND_LEAK_AUDIT.md
 reports/MAC_OUI_REGISTRY_BOUNDARY.md
 reports/MICROSOFT_PKI_REPOSITORY_PATTERN.md
 reports/README.md
+RIGHTS-RESERVATION.md
 scripts/audit-star.test.mjs
 scripts/build-audit-star.mjs
 scripts/build-research-banner.py

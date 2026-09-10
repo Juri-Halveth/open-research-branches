@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.16.1 — 2026-09-10
+
+- clarified that the license map documents permission grants and is not an exhaustive inventory of all rights or potential claims
+- linked the explanatory reservation across license notices, README, contribution guidance, provenance and Wiki
+- included the scope-specific statutory authorship presumption under German law with official sources
+- preserved the complete custom license text and all existing grants and waivers, including CC0; added no payment term or blanket burden-of-proof reversal
+
 ## 0.16.0 — 2026-09-10
 
 - redesigned the HALVETH research-room entrance with original artwork, eight topic routes and direct ways to read, try and contribute

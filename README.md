@@ -66,6 +66,8 @@ Für konkrete Dateiänderungen gibt es [Issues mit Vorlagen](https://github.com/
 
 Eine zusätzliche Vergütung oder Erfolgsbeteiligung kann freiwillig für einen benannten Beitrag vereinbart werden. Die [Provenienz-Dokumentation](PROVENANCE.md) erklärt, wie Dateistände und Prüfsummen gebunden werden. [Belege & Zeitlinien](wiki/Belege-und-Zeitlinien.md) trennt Dokumentation, Prioritätsfrage und Rechtsanspruch.
 
+**Freigabenübersicht mit Vorbehalt weiterer bestehender Rechte:** Die [Rechteklarstellung](RIGHTS-RESERVATION.md) hält fest, dass die Lizenzkarte kein abschließendes Rechteinventar ist und über wirksame Freigaben und Verzichte hinaus keinen zusätzlichen Rechteverzicht enthält. Sie erklärt auch die gesetzliche Urhebervermutung am konkreten Werk. Bestehende Nutzungsbedingungen bleiben maßgeblich.
+
 ## Weitere öffentliche Projekte
 
 | Projekt | Einstieg |

@@ -1,5 +1,11 @@
 # 🗂️ Belege & Zeitlinien
 
+**Das Verzeichnis bleibt für Ergänzungen offen.** Es entscheidet nicht
+abschließend über sämtliche möglichen Rechte oder Beiträge. Die
+[Rechteklarstellung](https://github.com/Juri-Halveth/open-research-branches/blob/main/RIGHTS-RESERVATION.md)
+erläutert den Vorbehalt weiterer bestehender Rechtspositionen, die
+Urhebervermutung und fortgeltende Freigaben.
+
 [Start](Home.md) · [Alle Projekte](Projekte.md) · [Rechte & Nutzung](Rechte-und-Nutzung.md)
 
 Wer hat was beschrieben, in welcher Fassung und mit welchem Nachweis? Dieser Raum bündelt die Quellenpfade, mit denen sich ein konkreter Beitrag, seine Veröffentlichung und spätere Bezugnahmen untersuchen lassen.

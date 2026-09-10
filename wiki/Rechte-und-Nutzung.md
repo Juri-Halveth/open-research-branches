@@ -7,6 +7,13 @@ Code, Texte, Daten und Forschungsbeiträge mit unterschiedlichen Freigaben.
 Entscheidend sind die konkrete Datei und ihre Fassung. Diese Seite erklärt die
 bestehenden Regeln; die vollständigen Lizenztexte bleiben maßgeblich.
 
+**Die Lizenzkarte ist kein abschließendes Verzeichnis deiner Rechte.** Über
+wirksame Freigaben, Verzichtserklärungen und sonstige Vereinbarungen hinaus
+enthält diese Dokumentation keinen zusätzlichen Rechteverzicht. Weitere
+konkrete Rechtspositionen und Beiträge können gesondert geprüft werden.
+Die [Rechteklarstellung](https://github.com/Juri-Halveth/open-research-branches/blob/main/RIGHTS-RESERVATION.md)
+erläutert diesen Vorbehalt und die fortgeltenden Freigaben einschließlich CC0.
+
 ## Welche Nutzung ist erlaubt?
 
 | Du möchtest … | Schau zuerst hier | Was du dabei beachtest |
@@ -66,6 +73,12 @@ für Nutzungen außerhalb ihrer Freigabe den dort beschriebenen freiwilligen
 „X-Tausch“. Ein Vorschlag ist noch keine angenommene Vereinbarung.
 
 ## Woran sich ein Rechtevergleich festmachen lässt
+
+Auch gesetzliche Vermutungen gehören in die Prüfung. Unter den Voraussetzungen
+von [§ 10 UrhG](https://www.gesetze-im-internet.de/urhg/__10.html) kann eine
+Urheberbezeichnung am konkreten Werk die dort geregelte Vermutung tragen.
+Die [Rechteklarstellung](https://github.com/Juri-Halveth/open-research-branches/blob/main/RIGHTS-RESERVATION.md)
+erläutert ihre Reichweite. Das Repository legt keine eigene Beweislast fest.
 
 Eine Prüfung beginnt bei **konkretem Material, beanspruchtem Recht,
 Rechteinhaber, Fassung und konkreter Verwendung**. Bei Computerprogrammen

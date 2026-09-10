@@ -1,5 +1,11 @@
 # CODE ZEITWÄRTSZURÜCK — Rechte- und Provenienz-Nachweis
 
+Die [Rechteklarstellung](RIGHTS-RESERVATION.md) beschreibt den Vorbehalt
+weiterer bestehender Rechtspositionen. Das hier dokumentierte Inventar bindet
+Dateistände; es ist kein abschließendes Verzeichnis sämtlicher Rechte oder
+möglicher Ansprüche. Wirksame Freigaben und Verzichtserklärungen bleiben
+maßgeblich.
+
 `CODE ZEITWÄRTSZURÜCK` ist ein reproduzierbarer Rückwärtsblick auf einen
 konkreten Git-Stand:
 

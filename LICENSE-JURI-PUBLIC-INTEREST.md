@@ -1,3 +1,7 @@
+> **Redaktioneller Hinweis — außerhalb der Nutzungserlaubnis 1.0:** Die [Rechteklarstellung](RIGHTS-RESERVATION.md) erläutert weitere bestehende Rechtspositionen über wirksame Freigaben und Verzichte hinaus. Die Lizenzkarte ist kein abschließendes Rechteinventar. Dieser Hinweis ändert den nachfolgenden Lizenztext nicht und führt keine zusätzlichen Nutzungsbedingungen ein.
+
+---
+
 # Juri Public-Interest Research Permission 1.0
 
 **Rechtehinweis:** Copyright © 2026 Juri Janovski, veröffentlichend als
