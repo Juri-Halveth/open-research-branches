@@ -1,0 +1,90 @@
+{
+  "schemaVersion": "halveth.reciprocal-evidence-contract.v1",
+  "contractVersion": "1.0.0",
+  "patchTarget": {
+    "release": "v0.11.0",
+    "faultId": "ONE_SIDED_EVIDENCE_ACCESS_GATE",
+    "faultSummary": "The reporter's three comparison edges were incorrectly used as the gate for opening human review."
+  },
+  "rootRule": "A report bound to its own report ID, reporting actor and raw statement opens preservation and review before merits; no comparison evidence is required, and inability to access another actor's records does not falsify the reported event.",
+  "phaseOrder": [
+    "PRESERVE_REPORT",
+    "MAP_ACTOR_ASSERTIONS",
+    "MAP_EVIDENCE_ACCESS_AND_CONTROL",
+    "BIND_APPLICABLE_PROCEDURAL_BASIS",
+    "HUMAN_SOURCE_AND_MERITS_REVIEW"
+  ],
+  "orthogonalStates": {
+    "intake": "USER_REPORT_PRESERVED_REVIEW_OPEN",
+    "merits": "UNKNOWN",
+    "comparisonReadiness": [
+      "SOURCE_COMPARISON_EVIDENCE_INCOMPLETE",
+      "SOURCE_COMPARISON_READY_FOR_HUMAN_REVIEW_NOT_PROOF"
+    ],
+    "assertionEvidence": [
+      "UNKNOWN_NO_ACTOR_EVIDENCE_REFERENCED",
+      "ACTOR_EVIDENCE_REFERENCED_FOR_REVIEW_NOT_PROOF"
+    ],
+    "productionDuty": [
+      "NO_SOURCE_BOUND_PRODUCTION_DUTY_IDENTIFIED",
+      "PRODUCTION_DUTY_BASIS_BOUND_FOR_HUMAN_APPLICABILITY_REVIEW"
+    ]
+  },
+  "invariants": [
+    "REPORT_OPENING_DOES_NOT_REQUIRE_COMPARISON_EVIDENCE",
+    "REPORT_PRESERVATION_DOES_NOT_PROVE_THE_REPORT",
+    "REPORTER_NONACCESS_DOES_NOT_FALSIFY_THE_EVENT",
+    "EACH_ACTOR_RETAINS_RESPONSIBILITY_FOR_ITS_OWN_POSITIVE_ASSERTIONS",
+    "EVIDENCE_REFERENCES_DO_NOT_TRANSFER_BETWEEN_ACTORS",
+    "EVIDENCE_CONTROL_ALONE_DOES_NOT_CREATE_A_PRODUCTION_DUTY",
+    "NONPRODUCTION_ALONE_DOES_NOT_CREATE_AN_ADVERSE_INFERENCE",
+    "COMPARISON_READINESS_DOES_NOT_DECIDE_MERITS",
+    "LEGAL_OR_PROCEDURAL_EFFECTS_REQUIRE_A_TYPED_SOURCE_BOUND_BASIS",
+    "AUTOMATIC_PROOF_FAULT_REJECTION_OWNERSHIP_AND_ADVERSE_INFERENCE_REMAIN_FALSE"
+  ],
+  "compatibleProductionDutySources": {
+    "LAW": [
+      "LAW_OR_REGULATION",
+      "JUDICIAL_ORDER"
+    ],
+    "GOVERNING_PROCESS": [
+      "GOVERNING_PROCESS_RULE"
+    ],
+    "SOURCE_COMMITMENT": [
+      "SOURCE_DECLARED_PRODUCTION_COMMITMENT"
+    ]
+  },
+  "legalSourceRefs": [
+    "DE-ZPO-138",
+    "DE-ZPO-142",
+    "DE-ZPO-286",
+    "DE-AGG-22",
+    "DE-BVERFG-1BVR1067-12",
+    "DE-BAG-8AZR136-22",
+    "DE-BAG-8AZR297-20",
+    "DE-BAG-10AZR56-19",
+    "DE-BAG-5AZR177-23",
+    "DE-BAG-2AZR75-13",
+    "DE-BGH-IXZR209-23"
+  ],
+  "syntheticAntCrushingTest": {
+    "testId": "ANT_CRUSHING_OBSERVABILITY",
+    "reporterActorId": "ANT",
+    "controllerActorId": "SURFACE_OPERATOR",
+    "controlledEvidenceId": "SURFACE_CONTACT_RECORD",
+    "declaredAvailableToActorIds": [
+      "SURFACE_OPERATOR"
+    ],
+    "expected": {
+      "reportPreservationState": "PRESERVED",
+      "reviewState": "USER_REPORT_PRESERVED_REVIEW_OPEN",
+      "meritsState": "UNKNOWN",
+      "reporterAccessState": "OUTSIDE_DECLARED_AVAILABLE_ACTORS",
+      "productionDutyState": "NO_SOURCE_BOUND_PRODUCTION_DUTY_IDENTIFIED",
+      "automaticClaimRejection": false,
+      "automaticFaultFinding": false,
+      "automaticAdverseInference": false
+    }
+  },
+  "claimCeiling": "REPORT_PRESERVATION_AND_RECIPROCAL_EVIDENCE_ROUTING_ONLY_NOT_WRONGDOING_TRUTH_FAULT_ADVERSE_INFERENCE_PRODUCTION_DUTY_AUTHORSHIP_OWNERSHIP_OR_LEGAL_ENTITLEMENT_FINDING"
+}

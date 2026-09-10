@@ -1,0 +1,271 @@
+{
+  "schema": "halveth.status-quo-navigation-frame.v1",
+  "logicVersion": "3.5.1",
+  "entityVersion": "1.0.0",
+  "entityState": "STATUS_QUO_FROZEN",
+  "frameId": "RECIPROCAL.EVIDENCE.ASYMMETRY.20260910",
+  "project": {
+    "domainAdapter": "LAW_SELF_REPRESENTATION",
+    "objective": "Correct the one-sided evidence-access gate by separating report intake, evidence control, actor assertions, procedural duties, proof and merits.",
+    "objectOrReferent": "The v0.11.0 Alice derivation-review gate and its v0.11.1 reciprocal-evidence successor.",
+    "scope": "Public repository code and official German statutes and court decisions; no case adjudication or external communication.",
+    "deliverableType": "PUBLIC_CORRECTIVE_AUDIT",
+    "sourceRefs": [
+      "SRC.REPO.V0110",
+      "SRC.ZPO.138",
+      "SRC.ZPO.142",
+      "SRC.ZPO.286",
+      "SRC.AGG.22",
+      "SRC.BVERFG.1BVR1067.12",
+      "SRC.BAG.8AZR136.22",
+      "SRC.BAG.8AZR297.20",
+      "SRC.BAG.10AZR56.19",
+      "SRC.BAG.5AZR177.23",
+      "SRC.BAG.2AZR75.13",
+      "SRC.BGH.IXZR209.23"
+    ],
+    "acceptedBaselineRef": "OPEN.RESEARCH.V0.11.0.DD75D03"
+  },
+  "scanPolicy": {
+    "horizontalMode": "FULL_DECLARED_ADAPTER_APERTURE",
+    "verticalPreviewDepth": 4,
+    "diagonalMode": "COMPLETE_MATERIAL_CANDIDATE_PAIR_GRAPH",
+    "selectiveDrillDepth": 4,
+    "noSelectiveDrillBeforeDiagonal": true,
+    "freezeMode": "VERSIONED_IMMUTABLE_BASELINE"
+  },
+  "axisRegistry": [
+    {
+      "axisId": "FACTS",
+      "label": "Facts",
+      "definition": "Bind the exact old code, tests and prose that made claimant-side comparison material a condition for opening review.",
+      "layer": "LAW_SELF_REPRESENTATION",
+      "scope": "The public v0.11.0 repository state only.",
+      "sourceBasisRefs": ["SRC.REPO.V0110"],
+      "statusQuoRef": "STATUSQUO.FACTS.V1"
+    },
+    {
+      "axisId": "EVIDENCE",
+      "label": "Evidence",
+      "definition": "Separate existence, access, control, reference and evaluation of every evidence item for every actor.",
+      "layer": "LAW_SELF_REPRESENTATION",
+      "scope": "Public source records and synthetic test data only.",
+      "sourceBasisRefs": ["SRC.REPO.V0110", "SRC.BVERFG.1BVR1067.12", "SRC.BAG.8AZR136.22"],
+      "statusQuoRef": "STATUSQUO.EVIDENCE.V1"
+    },
+    {
+      "axisId": "CLAIM_ELEMENTS",
+      "label": "Claim elements",
+      "definition": "Keep report, positive assertion, comparison readiness, truth, fault, ownership and legal entitlement as different elements.",
+      "layer": "LAW_SELF_REPRESENTATION",
+      "scope": "The executable v2 receipt vocabulary.",
+      "sourceBasisRefs": ["SRC.REPO.V0110", "SRC.ZPO.286"],
+      "statusQuoRef": "STATUSQUO.CLAIMS.V1"
+    },
+    {
+      "axisId": "COUNTERPOSITION",
+      "label": "Counterposition",
+      "definition": "Bind every counterpart assertion to its own actor and sources without importing claimant evidence or automatic exoneration.",
+      "layer": "LAW_SELF_REPRESENTATION",
+      "scope": "Actor-specific positive assertions in the local audit receipt.",
+      "sourceBasisRefs": ["SRC.ZPO.138", "SRC.BAG.10AZR56.19"],
+      "statusQuoRef": "STATUSQUO.COUNTERPOSITION.V1"
+    },
+    {
+      "axisId": "PROCEDURE_JURISDICTION",
+      "label": "Procedure and jurisdiction",
+      "definition": "Bind the precise procedure and legal source before assigning explanation, production, burden or adverse-inference effects.",
+      "layer": "LAW_SELF_REPRESENTATION",
+      "scope": "German civil and labour procedure source aperture without case-specific application.",
+      "sourceBasisRefs": ["SRC.ZPO.138", "SRC.ZPO.142", "SRC.ZPO.286", "SRC.AGG.22"],
+      "statusQuoRef": "STATUSQUO.PROCEDURE.V1"
+    },
+    {
+      "axisId": "AUTHORITY_SOURCES",
+      "label": "Authority sources",
+      "definition": "Use official statutes and court decisions for each legal transition and preserve their case-specific limits.",
+      "layer": "LAW_SELF_REPRESENTATION",
+      "scope": "The eleven official German legal records registered in sources.json.",
+      "sourceBasisRefs": ["SRC.ZPO.138", "SRC.ZPO.142", "SRC.ZPO.286", "SRC.AGG.22", "SRC.BVERFG.1BVR1067.12", "SRC.BAG.8AZR136.22", "SRC.BGH.IXZR209.23"],
+      "statusQuoRef": "STATUSQUO.AUTHORITY.V1"
+    },
+    {
+      "axisId": "REMEDY",
+      "label": "Remedy",
+      "definition": "Apply the repository correction through report preservation, reciprocal routing, regression tests and an immutable successor release.",
+      "layer": "LAW_SELF_REPRESENTATION",
+      "scope": "Repository architecture only; no case-specific legal remedy finding.",
+      "sourceBasisRefs": ["SRC.REPO.V0110"],
+      "statusQuoRef": "STATUSQUO.REMEDY.V1"
+    },
+    {
+      "axisId": "COST_ACCESS",
+      "label": "Cost and access",
+      "definition": "Test whether an entrance requirement demands information the reporting side cannot realistically access.",
+      "layer": "LAW_SELF_REPRESENTATION",
+      "scope": "Observation and information asymmetry, including the synthetic ant-crushing model.",
+      "sourceBasisRefs": ["SRC.BVERFG.1BVR1067.12", "SRC.BAG.8AZR136.22", "SRC.BAG.8AZR297.20"],
+      "statusQuoRef": "STATUSQUO.ACCESS.V1"
+    }
+  ],
+  "axisEvaluations": [
+    {
+      "axisId": "FACTS",
+      "state": "STABLE_WITHIN_COVERAGE",
+      "evidenceState": "OBSERVED",
+      "horizontalReceiptRefs": ["RECEIPT.V0110.GATE.LOCATIONS"],
+      "exclusionReason": null,
+      "verticalProbe": {"state": "NOT_REQUIRED", "completedDepth": 0, "maximumDepth": 4, "layerReceiptRefs": [], "criticalUnknownCount": 0, "deepDivePurpose": null},
+      "priorityVector": {"objectiveRelevance": 4, "criticality": 4, "evidenceStrength": 4, "authorizedActionability": 4, "informationGain": 2, "repairValue": 4, "effortCost": 0, "actionRisk": 0},
+      "frontierRef": null
+    },
+    {
+      "axisId": "EVIDENCE",
+      "state": "FLAGGED_MATERIAL",
+      "evidenceState": "STRONGLY_SUPPORTED",
+      "horizontalReceiptRefs": ["RECEIPT.RECIPROCAL.EVIDENCE.MAP"],
+      "exclusionReason": null,
+      "verticalProbe": {"state": "COVERED", "completedDepth": 4, "maximumDepth": 4, "layerReceiptRefs": ["EVIDENCE.L1.EXISTENCE", "EVIDENCE.L2.ACCESS", "EVIDENCE.L3.CONTROL", "EVIDENCE.L4.EVALUATION"], "criticalUnknownCount": 1, "deepDivePurpose": "SEPARATE_EVIDENCE_EXISTENCE_ACCESS_CONTROL_AND_EFFECT"},
+      "priorityVector": {"objectiveRelevance": 4, "criticality": 4, "evidenceStrength": 4, "authorizedActionability": 4, "informationGain": 4, "repairValue": 4, "effortCost": 1, "actionRisk": 0},
+      "frontierRef": "FRONTIER.RECIPROCAL.EVIDENCE.ACCESS"
+    },
+    {
+      "axisId": "CLAIM_ELEMENTS",
+      "state": "STABLE_WITHIN_COVERAGE",
+      "evidenceState": "OBSERVED",
+      "horizontalReceiptRefs": ["RECEIPT.V2.ORTHOGONAL.STATES"],
+      "exclusionReason": null,
+      "verticalProbe": {"state": "NOT_REQUIRED", "completedDepth": 0, "maximumDepth": 4, "layerReceiptRefs": [], "criticalUnknownCount": 0, "deepDivePurpose": null},
+      "priorityVector": {"objectiveRelevance": 4, "criticality": 4, "evidenceStrength": 4, "authorizedActionability": 4, "informationGain": 3, "repairValue": 4, "effortCost": 0, "actionRisk": 0},
+      "frontierRef": null
+    },
+    {
+      "axisId": "COUNTERPOSITION",
+      "state": "STABLE_WITHIN_COVERAGE",
+      "evidenceState": "STRONGLY_SUPPORTED",
+      "horizontalReceiptRefs": ["RECEIPT.ACTOR.SPECIFIC.ASSERTIONS"],
+      "exclusionReason": null,
+      "verticalProbe": {"state": "NOT_REQUIRED", "completedDepth": 0, "maximumDepth": 4, "layerReceiptRefs": [], "criticalUnknownCount": 0, "deepDivePurpose": null},
+      "priorityVector": {"objectiveRelevance": 4, "criticality": 3, "evidenceStrength": 4, "authorizedActionability": 4, "informationGain": 3, "repairValue": 4, "effortCost": 0, "actionRisk": 0},
+      "frontierRef": null
+    },
+    {
+      "axisId": "PROCEDURE_JURISDICTION",
+      "state": "UNKNOWN_MATERIAL",
+      "evidenceState": "UNKNOWN",
+      "horizontalReceiptRefs": ["RECEIPT.PROCEDURAL.BASIS.TYPES"],
+      "exclusionReason": null,
+      "verticalProbe": {"state": "BOUNDARY", "completedDepth": 4, "maximumDepth": 4, "layerReceiptRefs": ["PROCEDURE.L1.EXTRAJUDICIAL", "PROCEDURE.L2.CIVIL", "PROCEDURE.L3.LABOUR", "PROCEDURE.L4.SPECIAL.STATUTE"], "criticalUnknownCount": 4, "deepDivePurpose": "BIND_EXACT_PROCEDURE_BEFORE_LEGAL_EFFECT"},
+      "priorityVector": {"objectiveRelevance": 4, "criticality": 4, "evidenceStrength": 4, "authorizedActionability": 3, "informationGain": 4, "repairValue": 4, "effortCost": 1, "actionRisk": 1},
+      "frontierRef": "FRONTIER.CASE.SPECIFIC.PROCEDURE"
+    },
+    {
+      "axisId": "AUTHORITY_SOURCES",
+      "state": "STABLE_WITHIN_COVERAGE",
+      "evidenceState": "OBSERVED",
+      "horizontalReceiptRefs": ["RECEIPT.OFFICIAL.SOURCES.11"],
+      "exclusionReason": null,
+      "verticalProbe": {"state": "NOT_REQUIRED", "completedDepth": 0, "maximumDepth": 4, "layerReceiptRefs": [], "criticalUnknownCount": 0, "deepDivePurpose": null},
+      "priorityVector": {"objectiveRelevance": 4, "criticality": 4, "evidenceStrength": 4, "authorizedActionability": 4, "informationGain": 3, "repairValue": 4, "effortCost": 0, "actionRisk": 0},
+      "frontierRef": null
+    },
+    {
+      "axisId": "REMEDY",
+      "state": "STABLE_WITHIN_COVERAGE",
+      "evidenceState": "OBSERVED",
+      "horizontalReceiptRefs": ["RECEIPT.V2.CODE.TEST.DOC.PATCH"],
+      "exclusionReason": null,
+      "verticalProbe": {"state": "NOT_REQUIRED", "completedDepth": 0, "maximumDepth": 4, "layerReceiptRefs": [], "criticalUnknownCount": 0, "deepDivePurpose": null},
+      "priorityVector": {"objectiveRelevance": 4, "criticality": 4, "evidenceStrength": 4, "authorizedActionability": 4, "informationGain": 3, "repairValue": 4, "effortCost": 0, "actionRisk": 0},
+      "frontierRef": null
+    },
+    {
+      "axisId": "COST_ACCESS",
+      "state": "FLAGGED_MATERIAL",
+      "evidenceState": "STRONGLY_SUPPORTED",
+      "horizontalReceiptRefs": ["RECEIPT.ANT.OBSERVABILITY.TEST"],
+      "exclusionReason": null,
+      "verticalProbe": {"state": "COVERED", "completedDepth": 4, "maximumDepth": 4, "layerReceiptRefs": ["ACCESS.L1.REPORTER", "ACCESS.L2.CONTROLLER", "ACCESS.L3.DUTY.BASIS", "ACCESS.L4.MERITS"], "criticalUnknownCount": 1, "deepDivePurpose": "PREVENT_FACTUALLY_IMPOSSIBLE_INTAKE_REQUIREMENTS"},
+      "priorityVector": {"objectiveRelevance": 4, "criticality": 3, "evidenceStrength": 3, "authorizedActionability": 3, "informationGain": 4, "repairValue": 4, "effortCost": 1, "actionRisk": 0},
+      "frontierRef": "FRONTIER.ACCESS.ASYMMETRY.REOPEN"
+    }
+  ],
+  "diagonalRegistry": [
+    {
+      "edgeId": "EDGE.EVIDENCE.PROCEDURE",
+      "leftAxisId": "EVIDENCE",
+      "rightAxisId": "PROCEDURE_JURISDICTION",
+      "comparisonQuestion": "Which bound procedural rule can affect explanation, production or proof for each controlled evidence item?",
+      "relationType": "COLLECTIVE_SEARCH_RELATION_CANDIDATE",
+      "sourceBasisRefs": ["SRC.ZPO.138", "SRC.ZPO.142", "SRC.ZPO.286", "SRC.AGG.22"]
+    },
+    {
+      "edgeId": "EDGE.COST.EVIDENCE",
+      "leftAxisId": "COST_ACCESS",
+      "rightAxisId": "EVIDENCE",
+      "comparisonQuestion": "Does the intake condition demand evidence that the reporter cannot access while another actor controls the relevant record?",
+      "relationType": "COLLECTIVE_SEARCH_RELATION_CANDIDATE",
+      "sourceBasisRefs": ["SRC.BVERFG.1BVR1067.12", "SRC.BAG.8AZR136.22", "SRC.REPO.V0110"]
+    },
+    {
+      "edgeId": "EDGE.COST.PROCEDURE",
+      "leftAxisId": "COST_ACCESS",
+      "rightAxisId": "PROCEDURE_JURISDICTION",
+      "comparisonQuestion": "When does the applicable procedure prevent or repair a factually impossible evidence-access requirement?",
+      "relationType": "COLLECTIVE_SEARCH_RELATION_CANDIDATE",
+      "sourceBasisRefs": ["SRC.BVERFG.1BVR1067.12", "SRC.BAG.8AZR136.22", "SRC.BGH.IXZR209.23"]
+    }
+  ],
+  "diagonalEvaluations": [
+    {
+      "edgeId": "EDGE.EVIDENCE.PROCEDURE",
+      "state": "EVALUATED",
+      "evidenceState": "STRONGLY_SUPPORTED",
+      "evidenceRefs": ["RECEIPT.PROCEDURAL.BASIS.TYPES", "RECEIPT.RECIPROCAL.EVIDENCE.MAP"],
+      "leftDelta": 0,
+      "rightDelta": 0,
+      "exclusionReason": null
+    },
+    {
+      "edgeId": "EDGE.COST.EVIDENCE",
+      "state": "EVALUATED",
+      "evidenceState": "STRONGLY_SUPPORTED",
+      "evidenceRefs": ["RECEIPT.ANT.OBSERVABILITY.TEST", "RECEIPT.V0110.GATE.LOCATIONS"],
+      "leftDelta": 0,
+      "rightDelta": 0,
+      "exclusionReason": null
+    },
+    {
+      "edgeId": "EDGE.COST.PROCEDURE",
+      "state": "EVALUATED",
+      "evidenceState": "STRONGLY_SUPPORTED",
+      "evidenceRefs": ["RECEIPT.OFFICIAL.SOURCES.11", "RECEIPT.PROCEDURAL.BASIS.TYPES"],
+      "leftDelta": 0,
+      "rightDelta": 0,
+      "exclusionReason": null
+    }
+  ],
+  "decision": {
+    "outcome": "SELECT_FRONTIER",
+    "selectedAxisId": "EVIDENCE",
+    "nextOperator": "EXTREMUM_NAVIGATION",
+    "preservedAxisIds": [
+      "FACTS",
+      "EVIDENCE",
+      "CLAIM_ELEMENTS",
+      "COUNTERPOSITION",
+      "PROCEDURE_JURISDICTION",
+      "AUTHORITY_SOURCES",
+      "REMEDY",
+      "COST_ACCESS"
+    ],
+    "rationale": "Evidence is selected because access, control, actor attribution and procedural effect must remain separate before any merits decision."
+  },
+  "authority": {
+    "mode": "LOCAL_READ_ONLY_ANALYSIS",
+    "sourceSystemEffects": 0,
+    "externalNetworkEffects": 0,
+    "mutationAuthorized": false
+  },
+  "recordedAt": "2026-09-10T00:07:17Z"
+}

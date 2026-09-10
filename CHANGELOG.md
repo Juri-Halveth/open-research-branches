@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.11.1 — 2026-09-10
+
+- replaced the Alice audit's one-sided three-evidence intake gate with a report-first reciprocal evidence contract: every bound report is preserved and opens review while merits remain `UNKNOWN`
+- separated intake, comparison readiness, actor-specific assertion support, evidence access and control, production-duty basis, proof burden and adverse inference into independent states
+- added eleven official German statute and court sources on fair burden allocation, secondary substantiation, employer-side internal knowledge, document production, proof evaluation and the narrow AGG burden rule
+- added `FREE NEWS 013`, a public audit of the audit architecture, plus a machine-readable reciprocal-evidence contract and a synthetic ant-crushing observability test
+- expanded the Alice regression suite from 17 to 24 tests; missing reporter access can no longer reject or close a report, evidence references cannot bleed between actors, and no data-controller label can auto-create fault, production duty or adverse inference
+- kept the historical `v0.11.0` tag and release assets immutable while correcting the active source, documentation, catalog and provenance snapshot in `v0.11.1`
+
 ## 0.11.0 — 2026-09-10
 
 - added `FREE NEWS 012`, a source-bound Alice media, story and agency audit that retains twelve candidates until an exact title, actor, clip or distinguishing scene marker is supplied

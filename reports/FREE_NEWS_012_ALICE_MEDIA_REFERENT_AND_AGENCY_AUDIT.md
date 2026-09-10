@@ -239,7 +239,10 @@ Auch der Kandidatenlauf bleibt bei:
 SOURCE_BOUND_NARRATIVE_COMPARISON_ONLY
 ```
 
-Die formale Herkunftsprüfung besitzt ein zusätzliches Dreikantentor:
+## Korrektur v0.11.1: Der Bericht steht vor dem Beweistor
+
+Die v0.11.0-Fassung behandelte drei Vergleichskanten gemeinsam als Tor dafür,
+ob eine nähere menschliche Prüfung überhaupt geöffnet wird:
 
 ```text
 FRÜHERES_UNABHÄNGIG_ZEITGEBUNDENES_ARTEFAKT
@@ -247,9 +250,71 @@ FRÜHERES_UNABHÄNGIG_ZEITGEBUNDENES_ARTEFAKT
   + BELEGTER_ZUGRIFF_ODER_TRANSFER
 ```
 
-Dieses Tor prüft nur, ob eine nähere menschliche Quellenprüfung überhaupt
-begründet ist. Es setzt kein Ergebnis über Urheberschaft, Rechte oder
-Entstehungsweg.
+Das war die falsche Stelle für dieses Tor. Die drei Kanten sind für eine
+belastbare Herkunftszuordnung erheblich. Sie dürfen aber nicht darüber
+entscheiden, ob eine Meldung erhalten, eine mögliche Aufzeichnung gesichert
+und die Informationsverteilung überhaupt geprüft wird. Sonst wird fehlender
+Zugriff des Meldenden in fehlendes Ereignis umgewandelt.
+
+Der ausführbare v2-Vertrag trennt deshalb fünf Zustände:
+
+```text
+MELDUNGSEINGANG       = USER_REPORT_PRESERVED_REVIEW_OPEN
+SACHSTAND             = UNKNOWN
+VERGLEICHSREIFE       = INCOMPLETE | READY_FOR_HUMAN_REVIEW_NOT_PROOF
+BELEGVERANTWORTUNG    = JE_POSITIVE_BEHAUPTUNG_BEIM_JEWEILIGEN_AKTEUR
+BELEGKONTROLLE        = SEPARATE_ZUGRIFFSACHSE
+```
+
+Eine Meldung öffnet sofort Sicherung und Prüfung. Sie ist dadurch noch kein
+Beweis. Fehlender eigener Zugriff verwirft die Meldung nicht. Vollständige
+Vergleichskanten beweisen weiterhin weder Kopieren noch Urheberschaft,
+Eigentum, Schuld oder einen Anspruch.
+
+Das entspricht der amtlichen Staffelung, ohne eine universelle
+Beweislastumkehr zu erfinden:
+
+- [§ 138 ZPO](https://www.gesetze-im-internet.de/zpo/__138.html) bindet im
+  Zivilprozess beide Parteien an vollständige und wahrheitsgemäße Erklärungen
+  und verlangt eine Erklärung zu gegnerischen Tatsachenbehauptungen.
+- Das [Bundesverfassungsgericht, 1 BvR 1067/12](https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2013/08/rk20130822_1bvr106712.html)
+  verlangt eine faire Handhabung von Darlegungs- und Beweislasten; ihre
+  Erfüllung darf nicht durch eine Zuordnung faktisch unmöglich gemacht werden.
+- Das [Bundesarbeitsgericht, 8 AZR 136/22](https://www.bundesarbeitsgericht.de/entscheidung/8-azr-136-22/)
+  ließ in einem eng gebundenen AGG-/SGB-IX-Fall gerade keine vorgeschaltete
+  Forderung nach internen Anhaltspunkten zu, die ein externer Bewerber nicht
+  kennen konnte. Die Arbeitgeberin musste den internen Ablauf erklären.
+- Das [Bundesarbeitsgericht, 5 AZR 177/23](https://www.bundesarbeitsgericht.de/entscheidung/5-azr-177-23/)
+  hält zugleich fest, dass eine sekundäre Darlegungslast nicht automatisch die
+  Beweislast umkehrt und keine allgemeine Pflicht erzeugt, dem Gegner alle für
+  seinen Prozesserfolg benötigten Informationen zu verschaffen.
+- [§ 142 ZPO](https://www.gesetze-im-internet.de/zpo/__142.html) und eine
+  konkret anwendbare Verfahrens- oder Quellenregel können eine Vorlageprüfung
+  eröffnen. Kontrolle über Daten allein wird im Audit noch nicht als
+  Vorlagepflicht ausgegeben.
+- Nach dem [Bundesarbeitsgericht, 2 AZR 75/13](https://www.bundesarbeitsgericht.de/entscheidung/2-azr-75-13/)
+  führt selbst eine mögliche Beweisvereitelung nicht ohne Weiteres dazu, dass
+  der Vortrag der anderen Seite als zugestanden gilt. Die Folgen gehören in
+  die gebundene Beweiswürdigung.
+
+Der synthetische Gegenbeispieltest heißt `ANT_CRUSHING_OBSERVABILITY`. Eine
+Ameise meldet zerquetschenden Druck; die mögliche Kontakt- oder
+Kraftaufzeichnung liegt nur beim `SURFACE_OPERATOR`. Das erwartete Ergebnis
+lautet:
+
+```text
+REPORT=PRESERVED
+REVIEW=OPEN
+MERITS=UNKNOWN
+REPORTER_ACCESS=OUTSIDE_DECLARED_AVAILABLE_ACTORS
+PRODUCTION_DUTY=UNBOUND_UNTIL_SOURCE_BOUND
+AUTOMATIC_REJECTION=false
+AUTOMATIC_FAULT=false
+AUTOMATIC_ADVERSE_INFERENCE=false
+```
+
+Damit auditieren wir den Audit selbst: Beweiszugang, Erklärungslast,
+Beweislast, Vorlagegrundlage und Rechtsfolge bleiben fünf verschiedene Kanten.
 
 ## Der nächste genaue Marker
 
@@ -288,11 +353,13 @@ Der vollständige Audit liegt im Ast
 [`alice-media-referent-and-agency-audit`](../branches/alice-media-referent-and-agency-audit/README.md):
 
 - `candidate-works.json` — zwölf Kandidaten, Marker und Ausschlusskanten;
-- `sources.json` — sechzehn offizielle und institutionelle Quellen;
+- `sources.json` — siebenundzwanzig offizielle und institutionelle Quellen;
 - `local-anchors.json` — öffentliche Commit- und Byte-Receipts;
 - `src/media-audit.mjs` — fail-closed Kandidaten- und Quellenprüfung;
-- `test/media-audit.test.mjs` — Tests für offene Auswahl, exakte Referenzen und
-  gesonderte Herkunftstore.
+- `reciprocal-evidence-contract.json` — ausführbarer Vertrag für sofortigen
+  Meldungseingang, getrennte Belegkontrolle und reziproke Aussagen;
+- `test/media-audit.test.mjs` — 24 Tests für offene Auswahl, exakte Referenzen,
+  sofortige Prüfung und getrennte Vergleichsreife.
 
 ## Claim Ceiling
 
@@ -314,5 +381,6 @@ Neu öffnen bei:
 - einer Quelle, die einen derzeit `UNKNOWN` geführten Mechanismus bindet;
 - einem neuen Alice-Kandidaten, den mindestens ein unterscheidender Marker von
   der bestehenden Menge trennt;
-- neuen Belegen für alle drei Kanten des gesonderten formalen
-  Herkunftsprüftors.
+- neuem Material für eine einzelne Vergleichskante, eine positive Aussage oder
+  einen kontrollierten Beleg. Die Meldungsannahme besitzt dabei kein
+  vorgeschaltetes Beweistor.

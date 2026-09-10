@@ -19,8 +19,13 @@ export const ALLOWED_MECHANISMS = Object.freeze([
 
 export const REFERENT_UNKNOWN_OUTCOME = "UNKNOWN_ALICE_REFERENT_CANDIDATE_SET_RETAINED";
 export const SOURCE_BOUND_OUTCOME = "SOURCE_BOUND_NARRATIVE_COMPARISON_ONLY";
-export const DERIVATION_OPEN_OUTCOME = "DERIVATION_OR_COPYING_NOT_PROVEN_REOPENABLE";
-export const DERIVATION_REVIEW_OUTCOME = "FORMAL_DERIVATION_OR_COPYING_REVIEW_ELIGIBLE_NOT_PROOF";
+export const REPORT_REVIEW_OPEN = "USER_REPORT_PRESERVED_REVIEW_OPEN";
+export const COMPARISON_EVIDENCE_INCOMPLETE = "SOURCE_COMPARISON_EVIDENCE_INCOMPLETE";
+export const COMPARISON_EVIDENCE_READY = "SOURCE_COMPARISON_READY_FOR_HUMAN_REVIEW_NOT_PROOF";
+export const ASSERTION_EVIDENCE_UNKNOWN = "UNKNOWN_NO_ACTOR_EVIDENCE_REFERENCED";
+export const ASSERTION_EVIDENCE_REFERENCED = "ACTOR_EVIDENCE_REFERENCED_FOR_REVIEW_NOT_PROOF";
+export const PRODUCTION_DUTY_UNBOUND = "NO_SOURCE_BOUND_PRODUCTION_DUTY_IDENTIFIED";
+export const PRODUCTION_DUTY_BASIS_BOUND = "PRODUCTION_DUTY_BASIS_BOUND_FOR_HUMAN_APPLICABILITY_REVIEW";
 
 const ID_PATTERN = /^[A-Za-z0-9][A-Za-z0-9._:-]{0,127}$/u;
 const SHA256_PATTERN = /^(?:sha256:)?[a-f0-9]{64}$/u;
@@ -43,6 +48,11 @@ const ACCESS_OR_TRANSFER_SOURCE_TYPES = new Set([
   "TRANSFER_RECEIPT",
   "SOURCE_ACCESS_TRACE"
 ]);
+const PRODUCTION_DUTY_SOURCE_TYPES = Object.freeze({
+  LAW: new Set(["LAW_OR_REGULATION", "JUDICIAL_ORDER"]),
+  GOVERNING_PROCESS: new Set(["GOVERNING_PROCESS_RULE"]),
+  SOURCE_COMMITMENT: new Set(["SOURCE_DECLARED_PRODUCTION_COMMITMENT"])
+});
 
 function isPlainObject(value) {
   if (value === null || typeof value !== "object" || Array.isArray(value)) return false;
@@ -420,31 +430,67 @@ export function auditAliceMedia({
   });
 }
 
-export function assessDerivationOrCopyingReview({
-  candidateWorksDocument,
-  sourcesDocument,
-  localAnchorsDocument,
-  candidateWorkId,
-  earlierLocalAnchorRefs = [],
-  distinctiveFunctionMatchSourceRefs = [],
-  accessOrTransferSourceRefs = []
-}) {
+export function assessDerivationOrCopyingReview(input) {
+  requirePlainObject(input, "reviewInput");
+  requireAllowedKeys(input, new Set([
+    "candidateWorksDocument",
+    "sourcesDocument",
+    "localAnchorsDocument",
+    "report",
+    "candidateWorkId",
+    "comparisonEvidence",
+    "positiveAssertions",
+    "controlledEvidence"
+  ]), "reviewInput");
+  const {
+    candidateWorksDocument,
+    sourcesDocument,
+    localAnchorsDocument,
+    report,
+    candidateWorkId = null,
+    comparisonEvidence = {
+      earlierLocalAnchorRefs: [],
+      distinctiveFunctionMatchSourceRefs: [],
+      accessOrTransferSourceRefs: []
+    },
+    positiveAssertions = [],
+    controlledEvidence = []
+  } = input;
   const dataset = normalizeDataset({ candidateWorksDocument, sourcesDocument, localAnchorsDocument });
-  const candidateId = requireId(candidateWorkId, "candidateWorkId");
-  const candidate = dataset.candidateMap.get(candidateId);
-  if (!candidate) throw new RangeError(`candidateWorkId is unknown: ${candidateId}`);
+  requirePlainObject(report, "report");
+  requireAllowedKeys(report, new Set(["id", "actorId", "statement"]), "report");
+  const boundReport = {
+    id: requireId(report.id, "report.id"),
+    actorId: requireId(report.actorId, "report.actorId"),
+    statement: requireText(report.statement, "report.statement"),
+    preservationState: "PRESERVED",
+    proofEffect: "NONE"
+  };
 
-  const anchorRefs = requireUniqueIds(earlierLocalAnchorRefs, "earlierLocalAnchorRefs");
-  const functionRefs = requireUniqueIds(distinctiveFunctionMatchSourceRefs, "distinctiveFunctionMatchSourceRefs");
-  const accessRefs = requireUniqueIds(accessOrTransferSourceRefs, "accessOrTransferSourceRefs");
-  resolveExactIds(anchorRefs, dataset.anchorMap, "earlierLocalAnchorRefs");
-  resolveExactIds(functionRefs, dataset.sourceMap, "distinctiveFunctionMatchSourceRefs");
-  resolveExactIds(accessRefs, dataset.sourceMap, "accessOrTransferSourceRefs");
+  let candidate = null;
+  if (candidateWorkId !== null) {
+    const candidateId = requireId(candidateWorkId, "candidateWorkId");
+    candidate = dataset.candidateMap.get(candidateId);
+    if (!candidate) throw new RangeError(`candidateWorkId is unknown: ${candidateId}`);
+  }
 
-  const candidateTimes = candidate.sourceRefs
+  requirePlainObject(comparisonEvidence, "comparisonEvidence");
+  requireAllowedKeys(comparisonEvidence, new Set([
+    "earlierLocalAnchorRefs",
+    "distinctiveFunctionMatchSourceRefs",
+    "accessOrTransferSourceRefs"
+  ]), "comparisonEvidence");
+  const anchorRefs = requireUniqueIds(comparisonEvidence.earlierLocalAnchorRefs, "comparisonEvidence.earlierLocalAnchorRefs");
+  const functionRefs = requireUniqueIds(comparisonEvidence.distinctiveFunctionMatchSourceRefs, "comparisonEvidence.distinctiveFunctionMatchSourceRefs");
+  const accessRefs = requireUniqueIds(comparisonEvidence.accessOrTransferSourceRefs, "comparisonEvidence.accessOrTransferSourceRefs");
+  resolveExactIds(anchorRefs, dataset.anchorMap, "comparisonEvidence.earlierLocalAnchorRefs");
+  resolveExactIds(functionRefs, dataset.sourceMap, "comparisonEvidence.distinctiveFunctionMatchSourceRefs");
+  resolveExactIds(accessRefs, dataset.sourceMap, "comparisonEvidence.accessOrTransferSourceRefs");
+
+  const candidateTimes = candidate?.sourceRefs
     .map((ref) => dataset.sourceMap.get(ref).publishedAt)
     .filter((value) => value !== undefined)
-    .map(instantValue);
+    .map(instantValue) ?? [];
   const candidateFirstPublication = candidateTimes.length ? Math.min(...candidateTimes) : null;
   const qualifyingAnchors = [];
 
@@ -470,45 +516,148 @@ export function assessDerivationOrCopyingReview({
   const anchorFunctionIds = new Set(
     qualifyingAnchors.flatMap((anchorId) => dataset.anchorMap.get(anchorId).distinctiveFunctionIds)
   );
-  const sharedDistinctiveFunctionIds = candidate.distinctiveFunctionIds
+  const sharedDistinctiveFunctionIds = (candidate?.distinctiveFunctionIds ?? [])
     .filter((id) => anchorFunctionIds.has(id))
     .sort();
 
-  const missing = [
-    ...(candidateFirstPublication === null ? ["CANDIDATE_PUBLICATION_TIME_SOURCE"] : []),
-    ...(qualifyingAnchors.length ? [] : ["EARLIER_INDEPENDENTLY_TIME_BOUND_LOCAL_ARTIFACT"]),
-    ...(qualifyingFunctionRefs.length && sharedDistinctiveFunctionIds.length
-      ? []
-      : ["DISTINCTIVE_FUNCTION_MATCH_EVIDENCE"]),
-    ...(qualifyingAccessRefs.length ? [] : ["ACCESS_OR_TRANSFER_EVIDENCE"])
-  ];
+  const evidenceGaps = candidate === null
+    ? ["EXACT_CANDIDATE_REFERENT"]
+    : [
+        ...(candidateFirstPublication === null ? ["CANDIDATE_PUBLICATION_TIME_SOURCE"] : []),
+        ...(qualifyingAnchors.length ? [] : ["EARLIER_INDEPENDENTLY_TIME_BOUND_LOCAL_ARTIFACT"]),
+        ...(qualifyingFunctionRefs.length && sharedDistinctiveFunctionIds.length
+          ? []
+          : ["DISTINCTIVE_FUNCTION_MATCH_EVIDENCE"]),
+        ...(qualifyingAccessRefs.length ? [] : ["ACCESS_OR_TRANSFER_EVIDENCE"])
+      ];
 
-  if (missing.length) {
-    return frozenReceipt("ALICE_DERIVATION_OR_COPYING_REVIEW", {
-      state: DERIVATION_OPEN_OUTCOME,
-      candidateWorkId: candidate.id,
-      missing,
+  if (!Array.isArray(positiveAssertions)) throw new TypeError("positiveAssertions must be an array");
+  const assertionIds = new Set();
+  const assertionAssessments = positiveAssertions.map((assertion, index) => {
+    const label = `positiveAssertions[${index}]`;
+    requirePlainObject(assertion, label);
+    requireAllowedKeys(assertion, new Set(["id", "actorId", "statement", "sourceRefs", "localAnchorRefs"]), label);
+    const id = requireId(assertion.id, `${label}.id`);
+    if (assertionIds.has(id)) throw new TypeError(`duplicate positive assertion id: ${id}`);
+    assertionIds.add(id);
+    const actorId = requireId(assertion.actorId, `${label}.actorId`);
+    const sourceRefs = requireUniqueIds(assertion.sourceRefs, `${label}.sourceRefs`);
+    const localAnchorRefs = requireUniqueIds(assertion.localAnchorRefs, `${label}.localAnchorRefs`);
+    resolveExactIds(sourceRefs, dataset.sourceMap, `${label}.sourceRefs`);
+    resolveExactIds(localAnchorRefs, dataset.anchorMap, `${label}.localAnchorRefs`);
+    return {
+      id,
+      actorId,
+      statement: requireText(assertion.statement, `${label}.statement`),
+      sourceRefs,
+      localAnchorRefs,
+      evidenceResponsibilityActorId: actorId,
+      evidenceReferenceState: sourceRefs.length || localAnchorRefs.length
+        ? ASSERTION_EVIDENCE_REFERENCED
+        : ASSERTION_EVIDENCE_UNKNOWN,
+      truthFinding: "NOT_EVALUATED"
+    };
+  });
+
+  if (!Array.isArray(controlledEvidence)) throw new TypeError("controlledEvidence must be an array");
+  const controlledEvidenceIds = new Set();
+  const controlledEvidenceAssessments = controlledEvidence.map((item, index) => {
+    const label = `controlledEvidence[${index}]`;
+    requirePlainObject(item, label);
+    requireAllowedKeys(item, new Set([
+      "id",
+      "controllerActorId",
+      "evidenceKind",
+      "declaredAvailableToActorIds",
+      "productionDutyBasis"
+    ]), label);
+    const id = requireId(item.id, `${label}.id`);
+    if (controlledEvidenceIds.has(id)) throw new TypeError(`duplicate controlled evidence id: ${id}`);
+    controlledEvidenceIds.add(id);
+    const controllerActorId = requireId(item.controllerActorId, `${label}.controllerActorId`);
+    const declaredAvailableToActorIds = requireUniqueIds(
+      item.declaredAvailableToActorIds,
+      `${label}.declaredAvailableToActorIds`
+    );
+    let productionDutyState = PRODUCTION_DUTY_UNBOUND;
+    let productionDutyBasis = null;
+    if (item.productionDutyBasis !== undefined && item.productionDutyBasis !== null) {
+      requirePlainObject(item.productionDutyBasis, `${label}.productionDutyBasis`);
+      requireAllowedKeys(item.productionDutyBasis, new Set(["type", "sourceRef", "scope"]), `${label}.productionDutyBasis`);
+      const type = requireText(item.productionDutyBasis.type, `${label}.productionDutyBasis.type`);
+      if (!Object.hasOwn(PRODUCTION_DUTY_SOURCE_TYPES, type)) {
+        throw new TypeError(`${label}.productionDutyBasis.type is unsupported`);
+      }
+      const sourceRef = requireId(item.productionDutyBasis.sourceRef, `${label}.productionDutyBasis.sourceRef`);
+      resolveExactIds([sourceRef], dataset.sourceMap, `${label}.productionDutyBasis.sourceRef`);
+      const sourceType = dataset.sourceMap.get(sourceRef).sourceType;
+      if (!PRODUCTION_DUTY_SOURCE_TYPES[type].has(sourceType)) {
+        throw new TypeError(`${label}.productionDutyBasis source type is incompatible with ${type}`);
+      }
+      productionDutyBasis = {
+        type,
+        sourceRef,
+        scope: requireText(item.productionDutyBasis.scope, `${label}.productionDutyBasis.scope`)
+      };
+      productionDutyState = PRODUCTION_DUTY_BASIS_BOUND;
+    }
+    return {
+      id,
+      controllerActorId,
+      evidenceKind: requireId(item.evidenceKind, `${label}.evidenceKind`),
+      declaredAvailableToActorIds,
+      reporterAccessState: declaredAvailableToActorIds.includes(boundReport.actorId)
+        ? "IN_DECLARED_AVAILABLE_ACTORS"
+        : "OUTSIDE_DECLARED_AVAILABLE_ACTORS",
+      productionDutyBasis,
+      productionDutyState,
+      productionDutyFinding: "NOT_EVALUATED",
+      nonProductionEffect: "NO_AUTOMATIC_ADVERSE_INFERENCE"
+    };
+  });
+
+  return frozenReceipt("ALICE_RECIPROCAL_DERIVATION_OR_COPYING_REVIEW_V2", {
+    receiptVersion: "2.0.0",
+    state: REPORT_REVIEW_OPEN,
+    report: boundReport,
+    candidateWorkId: candidate?.id ?? null,
+    meritsState: "UNKNOWN",
+    comparisonReadiness: evidenceGaps.length
+      ? COMPARISON_EVIDENCE_INCOMPLETE
+      : COMPARISON_EVIDENCE_READY,
+    evidenceGaps,
+    comparisonEvidenceAssessment: {
       qualifyingEarlierLocalAnchorRefs: qualifyingAnchors,
       sharedDistinctiveFunctionIds,
+      distinctiveFunctionMatchSourceRefs: qualifyingFunctionRefs,
+      accessOrTransferSourceRefs: qualifyingAccessRefs,
       nonQualifyingDistinctiveFunctionMatchSourceRefs: functionRefs.filter((ref) => !qualifyingFunctionRefs.includes(ref)),
-      nonQualifyingAccessOrTransferSourceRefs: accessRefs.filter((ref) => !qualifyingAccessRefs.includes(ref)),
-      automaticProof: false,
-      automaticOwnershipFinding: false,
-      reopenTrigger: "ADD_THE_MISSING_EXACT_SOURCE_BOUND_EVIDENCE_REFERENCES"
-    });
-  }
-
-  return frozenReceipt("ALICE_DERIVATION_OR_COPYING_REVIEW", {
-    state: DERIVATION_REVIEW_OUTCOME,
-    candidateWorkId: candidate.id,
-    qualifyingEarlierLocalAnchorRefs: qualifyingAnchors,
-    sharedDistinctiveFunctionIds,
-    distinctiveFunctionMatchSourceRefs: qualifyingFunctionRefs,
-    accessOrTransferSourceRefs: qualifyingAccessRefs,
+      nonQualifyingAccessOrTransferSourceRefs: accessRefs.filter((ref) => !qualifyingAccessRefs.includes(ref))
+    },
+    assertionAssessments,
+    controlledEvidenceAssessments,
     automaticProof: false,
+    automaticFaultFinding: false,
+    automaticAdverseInference: false,
+    automaticClaimRejection: false,
     automaticOwnershipFinding: false,
-    automaticFindingsExcluded: ["COPYING_PROVEN", "AUTHORSHIP_PROVEN", "OWNERSHIP", "LEGAL_ENTITLEMENT"],
-    claimCeiling: "FORMAL_REVIEW_GATE_ONLY_REQUIRES_HUMAN_SOURCE_AND_LEGAL_EVALUATION"
+    automaticFindingsExcluded: [
+      "COPYING_PROVEN",
+      "AUTHORSHIP_PROVEN",
+      "OWNERSHIP",
+      "LEGAL_ENTITLEMENT",
+      "FAULT",
+      "ADVERSE_INFERENCE",
+      "CLAIM_REJECTION"
+    ],
+    phaseOrder: [
+      "PRESERVE_REPORT",
+      "MAP_ACTOR_ASSERTIONS",
+      "MAP_EVIDENCE_ACCESS_AND_CONTROL",
+      "BIND_APPLICABLE_PROCEDURAL_BASIS",
+      "HUMAN_SOURCE_AND_MERITS_REVIEW"
+    ],
+    claimCeiling: "REPORT_PRESERVATION_AND_RECIPROCAL_EVIDENCE_ROUTING_ONLY_NOT_WRONGDOING_TRUTH_FAULT_ADVERSE_INFERENCE_PRODUCTION_DUTY_AUTHORSHIP_OWNERSHIP_OR_LEGAL_ENTITLEMENT_FINDING"
   });
 }
 

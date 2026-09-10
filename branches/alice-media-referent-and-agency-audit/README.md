@@ -118,7 +118,7 @@ Repositories, private Archive oder sämtliche Medien.
 
 [`candidate-works.json`](candidate-works.json) enthält die zwölf Kandidaten,
 ihre Marker, Ausschlusskanten und getrennten Mechanismen.
-[`sources.json`](sources.json) bindet sechzehn offizielle beziehungsweise
+[`sources.json`](sources.json) bindet siebenundzwanzig offizielle beziehungsweise
 institutionelle Quellen mit jeweils eigener Claim-Grenze.
 
 Neben den beiden Spitzentreffern umfasst der offene Satz unter anderem
@@ -143,11 +143,43 @@ node src/media-audit.mjs --candidate CHANNEL_ZERO_BUTCHERS_BLOCK_2018
 ```
 
 Der Lauf ohne Kandidaten-ID hält die gesamte Menge offen. Ein Lauf mit ID
-liefert höchstens `SOURCE_BOUND_NARRATIVE_COMPARISON_ONLY`. Die gesonderte
-Herkunftsprüfung öffnet erst bei einem früheren unabhängig zeitgebundenen
-Artefakt, einer charakteristischen Funktionsübereinstimmung und einem
-belegbaren Zugriffs- oder Transferweg eine formale Prüfung; auch dieses Tor ist
-noch kein Ergebnis über Entstehung oder Rechte.
+liefert höchstens `SOURCE_BOUND_NARRATIVE_COMPARISON_ONLY`.
+
+## Korrektur v0.11.1: Meldung, Vergleichsreife und Entscheidung trennen
+
+Die v0.11.0-Fassung machte ein früheres zeitgebundenes Artefakt, eine
+charakteristische Funktionsübereinstimmung und einen belegten Zugriffs- oder
+Transferweg gemeinsam zum Eingangstor der Herkunftsprüfung. Das war eine
+falsche Kopplung: Gerade ein äußerer oder schwächerer Akteur kann die
+entscheidenden internen Aufzeichnungen nicht besitzen.
+
+In v0.11.1 öffnet schon die nur an Meldungs-ID, meldenden Akteur und
+Rohwortlaut gebundene Meldung die Sicherung und Prüfung. Vergleichsbelege sind
+dafür keine Eintrittskarte:
+
+```text
+MELDUNG -> USER_REPORT_PRESERVED_REVIEW_OPEN
+
+MELDUNG != BEWEIS
+FEHLENDER_EIGENER_ZUGRIFF != EREIGNIS_FALSCH
+VOLLSTÄNDIGER_VERGLEICH != SCHULD_ODER_RECHT
+```
+
+Die drei bisherigen Kanten bestimmen nur noch die
+`comparisonReadiness`. Der Sachstand bleibt `UNKNOWN`, bis Quellen und
+Einzelfall menschlich geprüft wurden. Jede positive Tatsachenbehauptung bleibt
+dem behauptenden Akteur zugeordnet. Kontrolliert eine andere Seite mögliche
+Aufzeichnungen, wird diese Zugriffslage sichtbar, ohne allein daraus eine
+Vorlagepflicht, Schuld oder nachteilige Schlussfolgerung zu erzeugen. Eine
+Vorlagegrundlage muss separat und typkompatibel an Gesetz, gerichtliche
+Anordnung, Verfahrensregel oder eigene Quellenzusage gebunden werden.
+
+Der synthetische Ameisentest fixiert die Schutzkante: Eine Ameise meldet
+zerquetschenden Druck, besitzt aber keinen Zugriff auf die vom
+`SURFACE_OPERATOR` kontrollierte Kontaktaufzeichnung. Der Automat bewahrt die
+Meldung, öffnet die Prüfung und lässt die Sache `UNKNOWN`; er lehnt die Meldung
+nicht wegen des fehlenden Eigenbelegs ab und spricht auch keine automatische
+Schuld aus.
 
 ## Öffentlicher Prüfaufruf
 
@@ -161,4 +193,4 @@ Autor und Herausgeber dieses Audits: **Juri Janovski** (`@Juri-Halveth`).
 
 ## Claim Ceiling
 
-`SOURCE_BOUND_ALICE_CANDIDATE_AND_STORY_MECHANISM_AUDIT_WITH_EXECUTABLE_FAIL_CLOSED_REFERENT_SELECTION_NOT_COMPLETE_EPISODE_TRACE_EXTERNAL_CAUSALITY_DERIVATION_COPYING_IDENTITY_AUTHORSHIP_OWNERSHIP_OR_LEGAL_ENTITLEMENT`
+`SOURCE_BOUND_ALICE_CANDIDATE_AND_STORY_MECHANISM_AUDIT_WITH_REPORT_FIRST_RECIPROCAL_EVIDENCE_ROUTING_NOT_COMPLETE_EPISODE_TRACE_EXTERNAL_CAUSALITY_DERIVATION_COPYING_IDENTITY_AUTHORSHIP_OWNERSHIP_FAULT_ADVERSE_INFERENCE_PRODUCTION_DUTY_OR_LEGAL_ENTITLEMENT_FINDING`

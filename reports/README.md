@@ -20,6 +20,7 @@ any branch's claim ceiling.
 | `FREE_NEWS_010_MADE_IN_GERMANY_QUANTUM_INTERNET_ASTER_ASTAR_ASTRA.md` | International source-bound mirror audit separating quantum-network component demonstrations, global system maturity and the distinct ASTER, ASTAR and ASTRA referents |
 | `FREE_NEWS_011_HISTORICAL_CIPHER_111_DECODING_CHALLENGE.md` | Historical-cipher reproducibility challenge with exact-input requirements, a Rosetta control and no authorship, external-force or entitlement inference |
 | `FREE_NEWS_012_ALICE_MEDIA_REFERENT_AND_AGENCY_AUDIT.md` | Alice candidate, official-story and agency audit with exact-marker selection and no automatic identity, derivation, copying or ownership finding |
+| `FREE_NEWS_013_RECIPROCAL_EVIDENCE_AND_INFORMATION_ASYMMETRY.md` | Corrective audit separating report intake, evidence access, actor assertions, secondary substantiation, proof burden, production basis and merits |
 
 Local Office and PDF artifacts from an earlier ten-branch working snapshot are
 intentionally absent. They do not describe the current release,

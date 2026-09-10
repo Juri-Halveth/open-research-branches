@@ -8,28 +8,31 @@
   "state_changing": false,
   "critical_factual_proof": false,
   "authorization_contract": {
-    "target": "The already captured public Alice media source catalog, candidate-work registry, public local audit anchors and local fail-closed audit package",
+    "target": "The captured public Alice media catalog and the v0.11.1 report-first reciprocal-evidence correction to the local audit package",
     "owner": "Respective public publishers for linked source pages and repository owner for the local audit package",
     "authorization_source": "User request to compare media narratives against the public HALVETH and LUCINET audit system and publish the resulting source-bound package",
     "program_policy": "LOCAL_READ_ONLY_ANALYSIS_OF_CAPTURED_PUBLIC_REFERENCES_AND_OWNED_REPOSITORY_FILES; NO_EXTERNAL_TEST_PROGRAM",
-    "in_scope_asset": "Eight Alice audit package and report files bound by the candidate digest, excluding this self-referential cycle file",
+    "in_scope_asset": "Twelve Alice audit, reciprocal-evidence, navigation and report files bound by the candidate digest, excluding this self-referential cycle file",
     "test_identity": "Local repository-owner workflow using already recorded public references",
     "prerequisites": "No account login, no protected endpoint, no payload, no private media capture and no selection of one Alice referent without an exact marker",
-    "stop_condition": "Stop at nonpublic content, personal data, account action, external mutation, unbound attribution or any copying, ownership or causal-transfer conclusion without its required evidence",
+    "stop_condition": "Stop at nonpublic content, personal data, account action, external mutation, unbound attribution, automatic rejection from reporter nonaccess or any automatic copying, ownership, fault, adverse-inference or legal conclusion",
     "data_boundary": "PUBLIC source metadata, public synopsis-level facts and minimized public repository receipts only",
-    "evidence_output": "Typed source and candidate registries, public anchor receipts, deterministic local test output, report text and SHA-256 package receipt",
-    "valid_at": "2026-09-10T01:42:42+02:00"
+    "evidence_output": "Typed source and candidate registries, public anchor receipts, reciprocal-evidence contract, status-quo navigation frame and receipt, deterministic local tests, two report texts and SHA-256 package receipt",
+    "valid_at": "2026-09-10T02:07:17+02:00"
   },
   "proven": [
-    "The package contains 16 public or official source records, 12 distinct Alice work candidates and 9 public local audit anchors.",
+    "The package contains 27 public or official source records, 12 distinct Alice work candidates and 9 public local audit anchors.",
     "With no exact title, clip, actor or scene marker, the local audit retains the complete candidate set and emits UNKNOWN_ALICE_REFERENT_CANDIDATE_SET_RETAINED.",
     "The raw user expression 'schlecht gemacht' is preserved as USER_REPORTED_SOURCE_INPUT without an automatic narrative-mechanism classification.",
-    "Seventeen local Node.js tests passed for exact-ID resolution, fail-closed validation, candidate selection and the formal derivation-review gate."
+    "Twenty-four local Node.js tests passed for exact-ID resolution, candidate selection, report-first intake, actor-specific evidence references, controlled-evidence routing, source-bound duty bases and the synthetic ant-crushing observability model.",
+    "A bound report now opens preservation and review before candidate selection or comparison evidence; comparison readiness and merits remain separate."
   ],
   "falsified": [
     "A shared Alice name or dark story motif is sufficient for the local oracle to select one exact work.",
     "A case-insensitive or approximate candidate identifier is accepted as an exact referent.",
-    "Even a complete synthetic review-prerequisite triple automatically proves copying, ownership or a legal entitlement."
+    "Even a complete synthetic comparison triple automatically proves copying, ownership or a legal entitlement.",
+    "Missing reporter access can close or reject the report, or prove that the reported event did not occur.",
+    "Naming a controller or recording nonproduction automatically proves fault or authorizes an adverse inference."
   ],
   "deepest_unknown": "Which exact Alice screen work, episode or scene the user meant by 'diese Grusel Serie dieses Maedchen wurde schlecht gemacht' remains unknown.",
   "why_unknown": "No exact clip, title, actor, episode, scene, quoted line or other source-bound distinguishing marker was supplied, and several source-bound candidates fit different parts of the description.",
@@ -40,7 +43,10 @@
     "typed narrative-mechanism comparison",
     "source-to-claim provenance binding",
     "fail-closed identifier validation",
-    "formal derivation-review prerequisite gating"
+    "report-first reciprocal evidence routing",
+    "actor-specific assertion and source binding",
+    "controlled-evidence access mapping",
+    "typed production-duty basis binding"
   ],
   "historical_analogues": [
     "1862 oral Alice story and manuscript origin",
@@ -57,32 +63,32 @@
     "SHA-256 package receipts",
     "LUCINET Core 3.5 validator"
   ],
-  "missing_measurement_capability": "No exact-media marker, episode transcript or frame-level source is bound to the user's intended Alice referent, and no source-to-target access or transfer record exists for any external-derivation hypothesis.",
-  "custom_tool_needed": "The existing local audit is sufficient once an exact marker is supplied; a later influence audit would additionally require a consented, time-bound source-to-target provenance record and a version-bound function-level comparison oracle.",
+  "missing_measurement_capability": "No exact-media marker, episode transcript or frame-level source is bound to the user's intended Alice referent, and possible third-party internal access or transfer records are not available in the public source snapshot.",
+  "custom_tool_needed": "The v2 audit preserves and routes the report immediately; a later merits decision may additionally require an exact marker, a time-bound source-to-target provenance record, a function-level comparison oracle and the applicable procedural basis for controlled records.",
   "counterhypothesis": "The phrase describes a different Alice work, a specific episode absent from the finite catalog, or a combination of remembered motifs rather than any one currently listed candidate.",
   "next_w_question": "Which exact title, actor, scene image, quoted line or episode marker distinguishes the intended Alice work from the retained candidate set?",
   "next_recursive_level": "Bind one exact distinguishing marker to a registered source, select exactly one candidate if the marker resolves uniquely, and compare only that work's source-bound narrative mechanism.",
   "next_safe_experiment": "Add one public exact marker to the source registry and rerun the local CLI with the exact candidate ID; preserve all nonselected candidates and the previous unknown outcome.",
   "stop_condition": "Stop before guessing one Alice referent, treating fiction as an external fact, inferring copying or influence from motif similarity, assigning ownership or legal rights, exposing private material, contacting third parties or mutating an external system.",
-  "critical_proof_condition": "A formal derivation review requires an earlier independently time-bound local artifact, a distinctive function-level match and an access or transfer receipt; satisfying that gate still does not automatically prove copying, ownership or legal entitlement.",
-  "boundary": "Local execution over eight owned audit package and report files plus already captured public source references; zero external network activity and zero source-system effects during this cycle.",
-  "reopen_trigger": "An exact public title, clip, actor, episode, scene, quoted line, new official candidate source or a consented source-to-target provenance receipt.",
+  "critical_proof_condition": "Report preservation and review opening require only the bound report. A merits conclusion remains separate and may require exact referent, chronology, distinctive comparison, access or transfer evidence and a source-bound procedural rule. None of those edges auto-proves fault, copying, ownership or entitlement.",
+  "boundary": "Local execution over twelve owned audit, reciprocal-evidence, navigation and report files plus captured public and official legal source references; zero source-system effects during this cycle.",
+  "reopen_trigger": "An exact public title, clip, actor, episode, scene, quoted line, new official candidate source, a consented source-to-target provenance receipt or a case-specific procedural basis for a controlled record.",
   "claims": [
     {
       "term": "Alice media candidate set",
       "object_or_referent": "the 12 candidate works registered in candidate-works.json",
       "scope": "the finite official and public source snapshot recorded through 2026-09-10",
       "source": "candidate-works.json, sources.json and the default CLI receipt",
-      "version": "alice-media-referent-and-agency-audit 0.1.0",
+      "version": "alice-media-referent-and-agency-audit 0.2.0",
       "valid_at": "2026-09-10T01:42:42+02:00",
       "evidence_state": "OBSERVED"
     },
     {
       "term": "exact intended Alice referent",
       "object_or_referent": "the user's phrase about a horror series and a girl being made bad",
-      "scope": "the 12 registered candidates and 16 recorded sources",
+      "scope": "the 12 registered candidates and 27 recorded sources",
       "source": "candidate-works.json and reports/FREE_NEWS_012_ALICE_MEDIA_REFERENT_AND_AGENCY_AUDIT.md",
-      "version": "alice-media-referent-and-agency-audit 0.1.0",
+      "version": "alice-media-referent-and-agency-audit 0.2.0",
       "valid_at": "2026-09-10T01:42:42+02:00",
       "evidence_state": "UNKNOWN"
     },
@@ -91,9 +97,9 @@
       "object_or_referent": "the registered Alice works and the public local anchor set",
       "scope": "the captured public source and local receipt snapshot",
       "source": "local-anchors.json, candidate-works.json and src/media-audit.mjs",
-      "version": "alice-media-referent-and-agency-audit 0.1.0",
+      "version": "alice-media-referent-and-agency-audit 0.2.0",
       "valid_at": "2026-09-10T01:42:42+02:00",
-      "evidence_state": "NOT_PROVEN"
+      "evidence_state": "UNKNOWN"
     }
   ],
   "reconstruction_cycle": {
@@ -105,16 +111,20 @@
       "branches/alice-media-referent-and-agency-audit/candidate-works.json",
       "branches/alice-media-referent-and-agency-audit/local-anchors.json",
       "branches/alice-media-referent-and-agency-audit/package.json",
+      "branches/alice-media-referent-and-agency-audit/reciprocal-evidence-contract.json",
+      "branches/alice-media-referent-and-agency-audit/reciprocal-navigation-frame.json",
+      "branches/alice-media-referent-and-agency-audit/reciprocal-navigation-receipt.json",
       "branches/alice-media-referent-and-agency-audit/sources.json",
       "branches/alice-media-referent-and-agency-audit/src/media-audit.mjs",
       "branches/alice-media-referent-and-agency-audit/test/media-audit.test.mjs",
       "reports/FREE_NEWS_012_ALICE_MEDIA_REFERENT_AND_AGENCY_AUDIT.md",
-      "17 passing local Node.js tests and one default CLI receipt"
+      "reports/FREE_NEWS_013_RECIPROCAL_EVIDENCE_AND_INFORMATION_ASYMMETRY.md",
+      "24 passing local Node.js tests, one default CLI receipt and one canonical status-quo navigation receipt"
     ],
     "authority_source": "User request to search further media, compare the Alice story against the public system and publish the source-bound audit",
     "acquisition_mode": "PUBLIC_SOURCE",
     "isolation_boundary": "Owned local feature branch using already captured public source references; no external network or target-system write path during execution",
-    "model_scope": "Candidate identification, synopsis-level narrative mechanisms, public local anchor functions, formal derivation-review prerequisites and public claim ceiling",
+    "model_scope": "Candidate identification, synopsis-level narrative mechanisms, public local anchor functions, report-first reciprocal evidence routing, official German procedural source aperture and public claim ceiling",
     "declared_exclusions": [
       "private chats and private raw media",
       "unbound episode or frame claims",
@@ -130,7 +140,11 @@
       "story mechanism vocabulary",
       "exact distinguishing markers",
       "public local audit anchors",
-      "derivation-review evidence gate",
+      "report preservation and review intake",
+      "actor-specific positive assertions",
+      "evidence access and controller mapping",
+      "typed production-duty basis",
+      "comparison readiness separated from merits",
       "public claim ceiling"
     ],
     "interface_inventory": [
@@ -139,14 +153,18 @@
       "candidate work to bound source references",
       "source synopsis to narrative mechanism",
       "local anchor to distinctive function IDs",
-      "chronology and function match to access or transfer evidence",
+      "bound report to immediate preservation and open review",
+      "actor assertion to only that actor's evidence references",
+      "controlled record to reporter access and controller identity",
+      "typed legal or procedural source to human applicability review",
+      "chronology and function match to comparison readiness",
       "local audit receipt to public report conclusion"
     ],
     "countermodels": [
       {
         "model_id": "M1-MULTIPLE-SOURCE-BOUND-ALICE-REFERENTS",
         "role": "BEST_CONSISTENT",
-        "source_basis": "16 official and public source records plus the 12-work candidate registry",
+        "source_basis": "27 official and public source records plus the 12-work candidate registry",
         "controller": "local source-bound candidate model",
         "provenance_cluster": "official-and-public-media-source-catalog",
         "model_state": "SOURCE_BOUND_SHADOW",
@@ -168,25 +186,25 @@
         "controller": "local provenance hypothesis model",
         "provenance_cluster": "public-local-receipts-and-user-research-question",
         "model_state": "BOUNDED_COUNTERPART_MODEL",
-        "evidence_state": "NOT_PROVEN"
+        "evidence_state": "UNKNOWN"
       }
     ],
     "fidelity_dimensions": {
       "structure": {
-        "scope": "16 source records, 12 candidate works, 9 local anchors and 8 digest-bound package/report files",
+        "scope": "27 source records, 12 candidate works, 9 local anchors and 12 digest-bound audit, contract, navigation and report files",
         "method": "typed JSON registries, exact-reference validation and SHA-256 package receipt",
         "coverage_state": "BOUNDED",
         "evidence_state": "OBSERVED"
       },
       "state": {
-        "scope": "unknown referent, candidate retention, selected source-bound comparison and formal derivation-review states",
-        "method": "closed outcome vocabulary and evidence-state binding",
+        "scope": "unknown referent, candidate retention, report-first intake, actor assertions, controlled evidence, comparison readiness and merits",
+        "method": "orthogonal outcome vocabulary, exact actor binding and evidence-state separation",
         "coverage_state": "BOUNDED",
         "evidence_state": "OBSERVED"
       },
       "behavior": {
-        "scope": "dataset validation, candidate selection, mechanism preservation and derivation-review prerequisite evaluation",
-        "method": "17 passing Node.js tests plus direct default CLI execution",
+        "scope": "dataset validation, candidate selection, mechanism preservation, reciprocal review intake, evidence-control routing and typed duty-basis validation",
+        "method": "24 passing Node.js tests, direct default CLI execution and canonical status-quo frame validation",
         "coverage_state": "BOUNDED",
         "evidence_state": "OBSERVED"
       },
@@ -197,16 +215,16 @@
         "evidence_state": "OBSERVED"
       },
       "version_time": {
-        "scope": "1862 through 2026 source chronology, v0.10.0 base and 2026-09-10 local capture receipts",
+        "scope": "1862 through 2026 source chronology, original Alice inventory anchored at v0.10.0, reciprocal patch based on v0.11.0 and 2026-09-10 local capture receipts",
         "method": "publisher dates, public commit references, local file hashes and a package-level digest",
         "coverage_state": "PARTIAL",
         "evidence_state": "OBSERVED"
       }
     },
     "equivalence_relation": "Two references identify the same Alice work only when a source-bound title, character, production or distinguishing scene marker resolves to the same registered work ID; a shared name, genre, motif or narrative role is insufficient.",
-    "oracle": "alice-media-source-mirror-oracle-1.0.0",
+    "oracle": "alice-media-source-mirror-and-reciprocal-evidence-oracle-2.0.0",
     "forward_model": "The preserved expression opens the complete candidate set; exact registered markers may select one work; only that work's registered sources and mechanisms enter a source-bound narrative comparison.",
-    "backward_requirements": "Every selected-work conclusion must resolve to an exact candidate ID, registered source IDs, a distinguishing marker and the fixed claim ceiling; every derivation review additionally needs earlier independent time evidence, distinctive function evidence and access or transfer evidence.",
+    "backward_requirements": "Every report must be preserved and open review without a comparison gate. Every positive assertion stays bound to its own actor and sources. Every selected-work conclusion still resolves to an exact candidate and registered sources; chronology, distinctive function and access or transfer evidence determine comparison readiness only. Production or adverse-inference effects need their own source-bound procedural basis and human applicability review.",
     "invariants": [
       "defaultCandidateWorkId remains null until a distinguishing marker is bound",
       "the source expression remains preserved and receives no automatic mechanism classification",
@@ -214,21 +232,26 @@
       "Furious and Channel Zero remain separate candidate referents with different bound mechanisms",
       "X, O, Omega, HALVETH, LUCINET, ASTER, Secret Garden, RACHEL and Alice retain separate functions and namespaces",
       "story similarity does not become source provenance, causal transfer, copying, ownership or legal entitlement",
+      "reporter nonaccess never falsifies or automatically rejects the reported event",
+      "one actor's evidence references never support another actor's positive assertion",
+      "controller identity alone creates neither production duty nor adverse inference",
+      "comparison readiness never changes the merits state from UNKNOWN automatically",
       "validator output does not materialize an external claim or publication event"
     ],
     "unknown_frontier": [
       "the exact Alice work intended by the user",
       "episode-level or frame-level evidence for candidates whose official pages are only synopsis-level",
       "any source-to-target access or transfer trace",
-      "any function-level media derivation that survives independent chronology and access review"
+      "the case-specific applicability of any explanation, production or burden rule",
+      "any function-level media derivation that survives independent chronology, access and human merits review"
     ],
     "branch_selection_rule": "Retain every candidate until a registered source-bound marker uniquely distinguishes one exact work; rank no candidate as identity proof from tone, name or motif alone.",
     "closure_criteria": [
-      "all 16 source IDs, 12 candidate IDs and 9 local anchor IDs resolve exactly",
+      "all 27 source IDs, 12 candidate IDs and 9 local anchor IDs resolve exactly",
       "unknown default outcome retains all candidates",
       "selected outcome remains source-bound and excludes automatic ownership or causality",
-      "17 local tests pass",
-      "the eight-file candidate digest is reproducible with ordinal UTF-8 path ordering",
+      "24 local tests pass",
+      "the twelve-file candidate digest is reproducible with ordinal UTF-8 path ordering",
       "Core 3.5 validator passes"
     ],
     "application_tests": {
@@ -254,7 +277,7 @@
       "REPAIR_OR_FALSIFY": {
         "state": "OBSERVED",
         "evidence_refs": [
-          "case-mismatched and unknown IDs fail closed, while a complete synthetic review triple opens review without proving copying or ownership"
+          "a bare report opens preservation and review; missing access changes comparison readiness only; the synthetic ant model stays UNKNOWN without automatic rejection or blame; a complete comparison triple still proves neither copying nor ownership"
         ]
       },
       "TRANSFER": {
@@ -276,41 +299,43 @@
     "validator_proves_target_truth": false
   },
   "temporal_branch_cycle": {
-    "branch_id": "feature-alice-media-source-mirror-audit",
+    "branch_id": "feature-reciprocal-evidence-asymmetry-patch",
     "record_kind": "OBSERVED_RUN",
     "object_or_referent": "Alice media referent, narrative-agency and public local-anchor audit package",
-    "scope": "v0.10.0 accepted base to an eight-file Alice audit and report candidate on the feature branch; this cycle file is excluded from its own digest",
+    "scope": "v0.11.0 accepted base to a twelve-file reciprocal-evidence correction candidate on the feature branch; this cycle file is excluded from its own digest",
     "authority_source": "Explicit user request to research, compare and publish the Alice media audit",
     "base_state": {
-      "state_id": "open-research-branches-v0.10.0",
-      "content_digest": "sha256:db26a7e799926b20fe0efc67d52515bf1b3a9509f28af630cf328326ca11fa2d",
-      "current_digest": "sha256:db26a7e799926b20fe0efc67d52515bf1b3a9509f28af630cf328326ca11fa2d",
-      "captured_at": "2026-09-10T01:19:02+02:00",
+      "state_id": "open-research-branches-v0.11.0",
+      "content_digest": "sha256:cec418b80f5b9579890cec82c93d92b4fe1d2298d2390dce18d3ab78a9c10077",
+      "current_digest": "sha256:cec418b80f5b9579890cec82c93d92b4fe1d2298d2390dce18d3ab78a9c10077",
+      "captured_at": "2026-09-10T02:07:17+02:00",
       "immutable": true,
       "state": "STABLE",
       "evidence_state": "OBSERVED"
     },
     "becoming": {
-      "witness_id": "alice-media-audit-local-build-test-and-digest",
-      "transition_record_id": "v0.10.0-to-alice-media-audit-candidate",
+      "witness_id": "alice-reciprocal-evidence-patch-build-test-navigation-and-digest",
+      "transition_record_id": "v0.11.0-to-reciprocal-evidence-v0.11.1-candidate",
       "observation_started": true,
       "state_ids": [
-        "open-research-branches-v0.10.0",
-        "alice-media-referent-and-agency-audit-0.1.0-candidate"
+        "open-research-branches-v0.11.0",
+        "alice-media-referent-and-agency-audit-0.2.0-candidate"
       ],
       "edge_ids": [
-        "inventory-official-and-public-sources",
-        "retain-unselected-candidate-set",
-        "bind-public-local-audit-anchors",
-        "execute-fail-closed-audit-tests",
-        "compose-source-bound-public-report",
-        "compute-eight-file-candidate-digest"
+        "locate-one-sided-v0.11.0-evidence-gate",
+        "replace-gate-with-report-first-reciprocal-contract",
+        "bind-eleven-official-german-legal-sources",
+        "execute-twenty-four-regression-tests",
+        "validate-law-and-general-research-apertures",
+        "compose-corrective-free-news-013-report",
+        "compute-twelve-file-candidate-digest"
       ],
       "known_coverage_gaps": [
         "no exact title, clip, actor, episode or scene marker for the intended Alice referent",
         "no complete episode or frame trace for every candidate",
-        "no third-party internal production or source-selection record",
+        "no third-party internal production or source-selection record in the public snapshot",
         "no source-to-target access or transfer receipt",
+        "no automatic case-specific production-duty or adverse-inference finding",
         "finite public-source and repository snapshot"
       ],
       "claim_relevant_coverage_gaps": [],
@@ -318,43 +343,44 @@
       "evidence_state": "OBSERVED"
     },
     "candidate_state": {
-      "state_id": "alice-media-referent-and-agency-audit-0.1.0-candidate",
-      "produced_from_base_state_id": "open-research-branches-v0.10.0",
-      "content_digest": "sha256:b8636ec00a8a83ce75f39bc724d1743d57a5a5e1ef80c451adc4561f23679cce",
+      "state_id": "alice-media-referent-and-agency-audit-0.2.0-candidate",
+      "produced_from_base_state_id": "open-research-branches-v0.11.0",
+      "content_digest": "sha256:5ae1d6983621177d7633b6b0c41e9912bfe5cbec3409f2e697c5a512a05035e6",
       "state": "CANDIDATE_PENDING_MERGE",
       "evidence_state": "OBSERVED"
     },
     "acceptance_gate": {
-      "version_bound_oracle": "alice-media-source-mirror-oracle-1.0.0",
+      "version_bound_oracle": "alice-media-source-mirror-and-reciprocal-evidence-oracle-2.0.0",
       "same_oracle_used": true,
       "expected_invariants_hold": true,
       "forbidden_effects": [],
       "candidate_tests_pass": true,
       "human_intent_match": true,
       "evidence_refs": [
-        "17 passing Node.js tests",
+        "24 passing Node.js tests",
         "default CLI receipt retaining all 12 candidates",
-        "16-source catalog and 9-anchor registry",
-        "branch README and FREE NEWS 012 report",
-        "canonical digest input order is the first eight reconstruction_cycle.source_basis paths sorted by raw UTF-8 bytes in ascending ordinal order",
+        "27-source catalog and 9-anchor registry",
+        "branch README, reciprocal contract, status-quo navigation receipt, FREE NEWS 012 correction and FREE NEWS 013 report",
+        "canonical digest input order is the first twelve reconstruction_cycle.source_basis paths sorted by raw UTF-8 bytes in ascending ordinal order",
         "digest algorithm is SHA-256 over UTF-8 repo-relative path, NUL, ASCII decimal byte length, NUL, lowercase ASCII per-file SHA-256 hex, LF for each file",
-        "sha256:b8636ec00a8a83ce75f39bc724d1743d57a5a5e1ef80c451adc4561f23679cce over the eight declared package and report files"
+        "sha256:5ae1d6983621177d7633b6b0c41e9912bfe5cbec3409f2e697c5a512a05035e6 over the twelve declared audit, contract, navigation and report files"
       ]
     },
     "forward_port": {
       "mode": "FULL",
       "selected_units": [
         {
-          "unit_id": "alice-media-referent-and-agency-audit-eight-file-package",
-          "source_digest": "sha256:b8636ec00a8a83ce75f39bc724d1743d57a5a5e1ef80c451adc4561f23679cce",
+          "unit_id": "alice-media-referent-and-agency-audit-v2-twelve-file-package",
+          "source_digest": "sha256:5ae1d6983621177d7633b6b0c41e9912bfe5cbec3409f2e697c5a512a05035e6",
           "dependencies": [
-            "v0.10.0-base"
+            "v0.11.0-base"
           ],
           "evidence_refs": [
-            "candidate-works.json, local-anchors.json, package.json, README.md and sources.json",
+            "candidate-works.json, local-anchors.json, package.json, README.md, sources.json and reciprocal-evidence-contract.json",
+            "reciprocal-navigation-frame.json and reciprocal-navigation-receipt.json",
             "src/media-audit.mjs and test/media-audit.test.mjs",
-            "reports/FREE_NEWS_012_ALICE_MEDIA_REFERENT_AND_AGENCY_AUDIT.md",
-            "17 passing Node.js tests"
+            "reports/FREE_NEWS_012_ALICE_MEDIA_REFERENT_AND_AGENCY_AUDIT.md and reports/FREE_NEWS_013_RECIPROCAL_EVIDENCE_AND_INFORMATION_ASYMMETRY.md",
+            "24 passing Node.js tests"
           ]
         }
       ],
@@ -367,7 +393,7 @@
         "external contact, mass notification and external mutation"
       ],
       "base_satisfied_dependencies": [
-        "v0.10.0-base"
+        "v0.11.0-base"
       ],
       "dependency_closed": true,
       "applied_to_fresh_base": true

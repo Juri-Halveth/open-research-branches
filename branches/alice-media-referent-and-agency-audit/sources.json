@@ -146,6 +146,123 @@
       "sourceType": "PLATFORM_FILM_CATALOG",
       "evidenceState": "OBSERVED",
       "claimBound": "Binds the 1976 horror-film candidate in which suspicion falls on a young Alice; it is not a series."
+    },
+    {
+      "id": "DE-ZPO-138",
+      "publisher": "Bundesministerium der Justiz und Bundesamt für Justiz",
+      "title": "Zivilprozessordnung — § 138 Erklärungspflicht über Tatsachen; Wahrheitspflicht",
+      "url": "https://www.gesetze-im-internet.de/zpo/__138.html",
+      "sourceType": "LAW_OR_REGULATION",
+      "accessedAt": "2026-09-10",
+      "evidenceState": "OBSERVED",
+      "claimBound": "Binds the civil-procedure duties to explain factual allegations completely and truthfully, respond to opposing allegations, and limit declarations of no knowledge."
+    },
+    {
+      "id": "DE-ZPO-142",
+      "publisher": "Bundesministerium der Justiz und Bundesamt für Justiz",
+      "title": "Zivilprozessordnung — § 142 Anordnung der Urkundenvorlegung",
+      "url": "https://www.gesetze-im-internet.de/zpo/__142.html",
+      "sourceType": "LAW_OR_REGULATION",
+      "accessedAt": "2026-09-10",
+      "evidenceState": "OBSERVED",
+      "claimBound": "Binds the court's power to order production of identified documents or records in a party's or third party's possession within the statutory scope."
+    },
+    {
+      "id": "DE-ZPO-286",
+      "publisher": "Bundesministerium der Justiz und Bundesamt für Justiz",
+      "title": "Zivilprozessordnung — § 286 Freie Beweiswürdigung",
+      "url": "https://www.gesetze-im-internet.de/zpo/__286.html",
+      "sourceType": "LAW_OR_REGULATION",
+      "accessedAt": "2026-09-10",
+      "evidenceState": "OBSERVED",
+      "claimBound": "Binds judicial evaluation of the complete hearing record and any evidence; the audit itself does not perform that judicial function."
+    },
+    {
+      "id": "DE-AGG-22",
+      "publisher": "Bundesministerium der Justiz und Bundesamt für Justiz",
+      "title": "Allgemeines Gleichbehandlungsgesetz — § 22 Beweislast",
+      "url": "https://www.gesetze-im-internet.de/agg/__22.html",
+      "sourceType": "LAW_OR_REGULATION",
+      "accessedAt": "2026-09-10",
+      "evidenceState": "OBSERVED",
+      "claimBound": "Binds the statutory burden rule after a party proves indicia supporting a prohibited-discrimination inference; it is not a universal burden shift."
+    },
+    {
+      "id": "DE-BVERFG-1BVR1067-12",
+      "publisher": "Bundesverfassungsgericht",
+      "title": "Beschluss vom 22. August 2013 — 1 BvR 1067/12",
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2013/08/rk20130822_1bvr106712.html",
+      "sourceType": "OFFICIAL_COURT_DECISION",
+      "publishedAt": "2013-08-22",
+      "accessedAt": "2026-09-10",
+      "evidenceState": "OBSERVED",
+      "claimBound": "Binds fair handling of pleading and proof burdens and rejects requirements whose fulfilment is factually impossible where internal state processes are inaccessible."
+    },
+    {
+      "id": "DE-BAG-8AZR136-22",
+      "publisher": "Bundesarbeitsgericht",
+      "title": "Urteil vom 14. Juni 2023 — 8 AZR 136/22",
+      "url": "https://www.bundesarbeitsgericht.de/entscheidung/8-azr-136-22/",
+      "sourceType": "OFFICIAL_COURT_DECISION",
+      "publishedAt": "2023-06-14",
+      "accessedAt": "2026-09-10",
+      "evidenceState": "OBSERVED",
+      "claimBound": "Binds a narrow AGG and SGB IX case in which an external applicant did not need internal indicia inaccessible to him before the employer had to explain its internal compliance process."
+    },
+    {
+      "id": "DE-BAG-8AZR297-20",
+      "publisher": "Bundesarbeitsgericht",
+      "title": "Urteil vom 1. Juli 2021 — 8 AZR 297/20",
+      "url": "https://www.bundesarbeitsgericht.de/entscheidung/8-azr-297-20/",
+      "sourceType": "OFFICIAL_COURT_DECISION",
+      "publishedAt": "2021-07-01",
+      "accessedAt": "2026-09-10",
+      "evidenceState": "OBSERVED",
+      "claimBound": "Binds secondary substantiation where an external applicant lacked access to an employer's internal dispatch process while the employer could explain it."
+    },
+    {
+      "id": "DE-BAG-10AZR56-19",
+      "publisher": "Bundesarbeitsgericht",
+      "title": "Urteil vom 16. September 2020 — 10 AZR 56/19",
+      "url": "https://www.bundesarbeitsgericht.de/entscheidung/10-azr-56-19/",
+      "sourceType": "OFFICIAL_COURT_DECISION",
+      "publishedAt": "2020-09-16",
+      "accessedAt": "2026-09-10",
+      "evidenceState": "OBSERVED",
+      "claimBound": "Binds the general secondary-substantiation test based on lack of knowledge and investigative access on one side and knowledge plus reasonable explanatory ability on the other."
+    },
+    {
+      "id": "DE-BAG-5AZR177-23",
+      "publisher": "Bundesarbeitsgericht",
+      "title": "Urteil vom 7. Februar 2024 — 5 AZR 177/23",
+      "url": "https://www.bundesarbeitsgericht.de/entscheidung/5-azr-177-23/",
+      "sourceType": "OFFICIAL_COURT_DECISION",
+      "publishedAt": "2024-02-07",
+      "accessedAt": "2026-09-10",
+      "evidenceState": "OBSERVED",
+      "claimBound": "Binds that secondary substantiation does not by itself reverse the burden of proof or require a party to supply every fact needed for the opponent's success."
+    },
+    {
+      "id": "DE-BAG-2AZR75-13",
+      "publisher": "Bundesarbeitsgericht",
+      "title": "Urteil vom 20. März 2014 — 2 AZR 75/13",
+      "url": "https://www.bundesarbeitsgericht.de/entscheidung/2-azr-75-13/",
+      "sourceType": "OFFICIAL_COURT_DECISION",
+      "publishedAt": "2014-03-20",
+      "accessedAt": "2026-09-10",
+      "evidenceState": "OBSERVED",
+      "claimBound": "Binds that alleged evidence frustration does not automatically make the other party's allegations admitted; possible evidentiary consequences require case-specific evaluation."
+    },
+    {
+      "id": "DE-BGH-IXZR209-23",
+      "publisher": "Bundesgerichtshof",
+      "title": "Urteil vom 6. März 2025 — IX ZR 209/23",
+      "url": "https://juris.bundesgerichtshof.de/cgi-bin/bgh_notp/document.py?Art=en&Datum=2025-3-6&Gericht=bgh&Sort=3082&anz=19&pos=2",
+      "sourceType": "OFFICIAL_COURT_DECISION",
+      "publishedAt": "2025-03-06",
+      "accessedAt": "2026-09-10",
+      "evidenceState": "OBSERVED",
+      "claimBound": "Binds the distinction between secondary substantiation, proof burden and document-production duties under information asymmetry."
     }
   ],
   "claimCeiling": "SOURCE_CATALOG_AND_BOUND_SYNOPSIS_FACTS_NOT_COMPLETE_EPISODE_TRACE_OR_EXTERNAL_INFLUENCE"

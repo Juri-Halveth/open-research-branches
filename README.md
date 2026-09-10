@@ -35,7 +35,7 @@ Sicherheitsmeldungen gehören nicht hierher.
 | `wax-crayon-peace-helmet-audit` | Wachsmalstift-Friedenshelm, lokaler Belegstand, historischer Vergleich, iOS-Marker-Protokoll und sicherer Pilot | `FINITE_SNAPSHOT` |
 | `quantum-internet-aster-mirror-audit` | internationaler Quanteninternet- sowie ASTER-/ASTAR-/ASTRA-Spiegelaudit | `FINITE_SNAPSHOT` |
 | `historical-cipher-decoding-challenge` | historische Entschlüsselungs- und Reproduzierbarkeitsprüfung mit Rosetta-Kontrolle | `FINITE_SNAPSHOT` |
-| `alice-media-referent-and-agency-audit` | endliche Alice-Kandidatenmenge, offizielle Storyquellen und ausführbarer Agency-/Provenienz-Prüfer | `FINITE_SNAPSHOT` |
+| `alice-media-referent-and-agency-audit` | endliche Alice-Kandidatenmenge, offizielle Storyquellen und reziproker Report-first-Prüfer für Aussagen, Belegzugang und Vergleichsreife | `FINITE_SNAPSHOT` |
 
 Der maschinenlesbare Bestand liegt in
 [`catalog/branches.json`](catalog/branches.json). Die Aufnahme- und
