@@ -36,6 +36,8 @@ Sicherheitsmeldungen gehören nicht hierher.
 | `quantum-internet-aster-mirror-audit` | internationaler Quanteninternet- sowie ASTER-/ASTAR-/ASTRA-Spiegelaudit | `FINITE_SNAPSHOT` |
 | `historical-cipher-decoding-challenge` | historische Entschlüsselungs- und Reproduzierbarkeitsprüfung mit Rosetta-Kontrolle | `FINITE_SNAPSHOT` |
 | `alice-media-referent-and-agency-audit` | endliche Alice-Kandidatenmenge, offizielle Storyquellen und reziproker Report-first-Prüfer für Aussagen, Belegzugang und Vergleichsreife | `FINITE_SNAPSHOT` |
+| `fingertip-spark-esd-spacecraft-audit` | berichtete Fingerspitzen-Funken, sechs physikalische und optische Modelle, passive Beobachtung sowie eng gebundene ESD-Raumfahrtbrücke | `FINITE_SNAPSHOT` |
+| `priority-evidence-and-regress-audit` | sieben getrennte Achsen für Snapshot, Öffentlichkeit, Kenntnis, Ableitung, Rechtsverletzung, Anspruch und Höhe | `FINITE_SNAPSHOT` |
 
 Der maschinenlesbare Bestand liegt in
 [`catalog/branches.json`](catalog/branches.json). Die Aufnahme- und
@@ -62,6 +64,12 @@ Wachsmalstift-Friedenshelm enthält der Ast dagegen eigene reproduzierbare
 Buildquellen; die daraus erzeugten PDF- und Präsentationsdateien werden als
 separat geprüfte Release-Assets verteilt. Der aktuelle Quellstand liegt in den
 Astordnern und im maschinenlesbaren Katalog.
+
+Der [`öffentliche Projekt-Snapshot`](reports/FREE_NEWS_016_PUBLIC_GITHUB_PROJECT_CONSTELLATION.md)
+bindet außerdem die vier beim Abruf sichtbaren öffentlichen Repositorys dieses
+Kontos. Die [`Marker-Matrix`](reports/FREE_NEWS_017_CE_BARCODES_HTTPS_500_AND_SNAPSHOT_MARKERS.md)
+trennt CE, Strichcodes, HTTPS, HTTP 500, Git-, iOS-, Microsoft-PKI- und den noch
+ungebundenen Frankfurt-Snapshot nach ihrer jeweils belegten Funktion.
 
 ## Mitmachen
 

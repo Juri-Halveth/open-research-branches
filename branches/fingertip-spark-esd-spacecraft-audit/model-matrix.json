@@ -1,0 +1,140 @@
+{
+  "schemaVersion": "fingertip-spark-model-matrix.v1",
+  "asOf": "2026-09-10",
+  "sourceExpressionState": "USER_REPORTED_OBSERVATION",
+  "mechanismState": "UNKNOWN",
+  "models": [
+    {
+      "id": "ESD_CONTACT_DISCHARGE",
+      "label": "Electrostatic contact or small-gap discharge",
+      "role": "BEST_CONSISTENT_CANDIDATE",
+      "sourceIds": [
+        "NIST_TN_1314_ESD_FIELDS",
+        "NASA_ESD_COMPENDIUM_2018"
+      ],
+      "predictedObservableIds": [
+        "SHORT_TRANSIENT_NEAR_CONTACT_OR_SMALL_GAP",
+        "POSSIBLE_CLICK_OR_STING",
+        "CHARGE_EQUALIZATION_AFTER_EVENT"
+      ],
+      "distinguishingObservationIds": [
+        "CONTACT_DISTANCE_AND_TARGET_RECORDED",
+        "SYNCHRONIZED_AUDIO_RECORDED",
+        "EVENT_AFTER_SURFACE_MOTION_RECORDED"
+      ],
+      "safetyBoundary": "PASSIVE_OBSERVATION_ONLY_NO_INTENTIONAL_CHARGE_OR_HIGH_VOLTAGE",
+      "relationToReport": "UNKNOWN",
+      "evidenceState": "STRONGLY_SUPPORTED"
+    },
+    {
+      "id": "TRIBOELECTRIC_PRECHARGE",
+      "label": "Triboelectric charging before a later discharge",
+      "role": "MECHANISM_PRECONDITION_CANDIDATE",
+      "sourceIds": [
+        "NIST_TN_1314_ESD_FIELDS",
+        "NBS_CIRCULAR_438_STATIC_ELECTRICITY",
+        "OSHA_3075_STATIC_ELECTRICITY"
+      ],
+      "predictedObservableIds": [
+        "SURFACE_MOTION_PRECEDES_CHARGE_BUILDUP",
+        "MATERIAL_AND_HUMIDITY_DEPENDENCE",
+        "PRECHARGE_ITSELF_NEED_NOT_BE_VISIBLE"
+      ],
+      "distinguishingObservationIds": [
+        "HUMIDITY_RECORDED",
+        "FLOOR_AND_CLOTHING_MATERIALS_RECORDED",
+        "PRIOR_MOVEMENT_RECORDED"
+      ],
+      "safetyBoundary": "RECORD_NATURAL_CONTEXT_ONLY_NO_DELIBERATE_FRICTION_EXPERIMENT",
+      "relationToReport": "UNKNOWN",
+      "evidenceState": "STRONGLY_SUPPORTED"
+    },
+    {
+      "id": "CORONA_OR_BRUSH_DISCHARGE",
+      "label": "Corona or brush discharge around a pointed body region",
+      "role": "HIGH_FIELD_COUNTERMODEL",
+      "sourceIds": [
+        "NIST_TN_1314_ESD_FIELDS",
+        "CIESIELSKA_2010_FINGERTIP_CORONA"
+      ],
+      "predictedObservableIds": [
+        "REPEATED_OR_SUSTAINED_FAINT_GLOW",
+        "NO_METAL_CONTACT_REQUIRED",
+        "STRONG_EXTERNAL_ELECTRIC_FIELD_REQUIRED"
+      ],
+      "distinguishingObservationIds": [
+        "SUSTAINED_DURATION_RECORDED",
+        "CONTACT_ABSENCE_RECORDED",
+        "EXTERNAL_HIGH_FIELD_SOURCE_BOUND"
+      ],
+      "safetyBoundary": "DO_NOT_CREATE_OR_APPROACH_HIGH_VOLTAGE_FOR_THIS_AUDIT",
+      "relationToReport": "UNKNOWN",
+      "evidenceState": "STRONGLY_SUPPORTED"
+    },
+    {
+      "id": "ST_ELMO_ATMOSPHERIC_CORONA",
+      "label": "St. Elmo-like atmospheric corona",
+      "role": "ATMOSPHERIC_COUNTERMODEL",
+      "sourceIds": [
+        "NOAA_ST_ELMO_FIRE"
+      ],
+      "predictedObservableIds": [
+        "GLOW_AT_EXPOSED_OR_POINTED_REGION",
+        "STRONG_ATMOSPHERIC_ELECTRIC_FIELD_CONTEXT",
+        "POSSIBLE_THUNDERSTORM_PROXIMITY"
+      ],
+      "distinguishingObservationIds": [
+        "WEATHER_AND_LOCATION_CONTEXT_BOUND",
+        "ATMOSPHERIC_FIELD_SOURCE_BOUND",
+        "SIMULTANEOUS_EFFECTS_ON_OTHER_POINTS_RECORDED"
+      ],
+      "safetyBoundary": "NO_OUTDOOR_STORM_OR_EXPOSED_POINT_RECREATION",
+      "relationToReport": "UNKNOWN",
+      "evidenceState": "STRONGLY_SUPPORTED"
+    },
+    {
+      "id": "CAMERA_OR_LIGHT_ARTIFACT",
+      "label": "Lens, sensor, cosmic-ray or processing artifact",
+      "role": "OBSERVATION_CHANNEL_COUNTERMODEL",
+      "sourceIds": [
+        "SONY_FLARE_GHOST",
+        "NASA_WEBB_IMAGE_ARTIFACTS"
+      ],
+      "predictedObservableIds": [
+        "FEATURE_CAN_MOVE_WITH_CAMERA_ANGLE",
+        "FEATURE_CAN_REMAIN_AT_FIXED_SENSOR_COORDINATE",
+        "ONE_CAMERA_CAN_RECORD_A_FEATURE_THE_OTHER_DOES_NOT"
+      ],
+      "distinguishingObservationIds": [
+        "TWO_CAMERAS_DIFFERENT_ANGLES_SYNCHRONIZED",
+        "FIXED_BACKGROUND_RECORDED",
+        "ORIGINAL_FILES_AND_SENSOR_COORDINATES_PRESERVED_LOCALLY"
+      ],
+      "safetyBoundary": "PASSIVE_CAPTURE_WITH_OWNED_OR_CONSENTED_CAMERAS_ONLY",
+      "relationToReport": "UNKNOWN",
+      "evidenceState": "STRONGLY_SUPPORTED"
+    },
+    {
+      "id": "ULTRAWEAK_PHOTON_EMISSION",
+      "label": "Instrument-measured ultraweak photon emission from the body",
+      "role": "INTENSITY_COUNTERMODEL",
+      "sourceIds": [
+        "PLOS_ONE_2009_ULTRAWEAK_PHOTONS"
+      ],
+      "predictedObservableIds": [
+        "REQUIRES_HIGH_SENSITIVITY_LONG_EXPOSURE_IMAGING",
+        "INTENSITY_FAR_BELOW_UNAIDED_EYE_SENSITIVITY",
+        "DOES_NOT_PREDICT_A_NAKED_EYE_SPARK"
+      ],
+      "distinguishingObservationIds": [
+        "VISIBLE_WITHOUT_CAMERA_RECORDED",
+        "INSTRUMENT_SENSITIVITY_AND_EXPOSURE_BOUND",
+        "DARK_CONTROL_RECORDED"
+      ],
+      "safetyBoundary": "NO_BIOLOGICAL_OR_MEDICAL_INFERENCE_FROM_A_VISIBLE_POINT",
+      "relationToReport": "UNKNOWN",
+      "evidenceState": "STRONGLY_SUPPORTED"
+    }
+  ],
+  "claimCeiling": "COMPETING_SOURCE_BOUND_MODELS_RETAINED_WITH_REPORTED_EVENT_MECHANISM_UNKNOWN"
+}

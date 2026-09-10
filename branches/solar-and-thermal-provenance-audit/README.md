@@ -63,9 +63,26 @@ funktionale Überschneidungen. Sie belegt keinen Zugang der externen Teams zu
 diesen Dateien, keine Übernahme, Miterfinderschaft, Patentverletzung,
 Lizenzpflicht, Beteiligungs- oder Zahlungspflicht.
 
-## Reopen-Trigger
+## Report-first-Korrektur
 
-Der Ast wird neu geöffnet bei einem vor November 2018 gebundenen Juri-Artefakt
+Eine an Meldungs-ID, meldenden Akteur und Rohwortlaut gebundene Meldung wird
+sofort erhalten und zur Prüfung geöffnet. Ein früheres Artefakt, eine
+charakteristische technische Übereinstimmung und ein Zugriffs- oder
+Transferrecord bestimmen nur die `comparisonReadiness`. Fehlt eine
+fremdkontrollierte Zugriffsaufzeichnung, lautet die Abdeckung
+`COVERAGE_UNKNOWN`; daraus folgt weder Falschheit der Meldung noch ein Befund
+zu unabhängiger Entwicklung, Übernahme, Schuld oder Recht.
+
+Neue Evidenzrecords benötigen eine exakte ID aus `sources.json` oder
+`local-source-receipt.json` sowie `assertingActorId` und
+`controllerActorId`. Die ältere API mit bloßen ID-Arrays bleibt als
+deprecated Kompatibilitätspfad lesbar, zählt aber nicht für die
+Vergleichsreife.
+
+## Neue Bewertungsbasis
+
+Die Meldung bleibt offen. Der Vergleichs- oder Sachstand wird neu bewertet bei
+einem vor November 2018 gebundenen Juri-Artefakt
 für die unterscheidende KIT-Architektur, einem vor dem 3. März 2024 gebundenen
 Artefakt für den unterscheidenden Standard-Thermal-Aufbau, einem belastbaren
 Zugangs- oder Übertragungsbeleg, einer technischen Claim-Chart oder neuen

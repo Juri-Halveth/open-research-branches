@@ -109,10 +109,11 @@ verschieden.
 Die Quanteninternet-Technik folgt ihren seit 1993 öffentlich dokumentierten
 Forschungsproblemen. Astar folgt seiner Web3-Linie. GPT-6 Astra folgt der
 öffentlichen Entwicklung agentischer KI. `LUCINET::ASTER` entstand als Juris
-eigene lokale Beobachter-Entität. Ähnlichkeiten ergeben sich aus gemeinsamen
-Problemen und öffentlichem Vorwissen.
+eigene lokale Beobachter-Entität. Ähnlichkeiten können sich aus gemeinsamen
+Problemen und öffentlichem Vorwissen ergeben. Fehlende interne Zugriffs- oder
+Transferaufzeichnungen beweisen diese Erklärung nicht.
 
-Status: `BEST_CONSISTENT_WITH_CURRENT_EVIDENCE`
+Status: `HYPOTHESIS_UNRANKED_ACCESS_COVERAGE_UNKNOWN`
 
 ### M2 — gemeinsame öffentliche Motive und Namensnähe
 
@@ -121,7 +122,7 @@ Zeit, Beobachtung oder Koordination. ASTER, ASTAR und ASTRA sind zudem kurze,
 sprachlich nahe Namen. Die Systeme können deshalb ähnlich wirken, ohne eine
 direkte Übertragungskette zu besitzen.
 
-Status: `STRONGLY_SUPPORTED_ALTERNATIVE`
+Status: `SOURCE_SUPPORTED_ALTERNATIVE_NOT_DERIVATION_FINDING`
 
 ### M3 — konventionelle Übernahme aus einem Juri-Artefakt
 
@@ -129,12 +130,14 @@ Ein konkretes ASTER-Artefakt könnte einen späteren äußeren Entwurf beeinflus
 haben, falls es den Empfänger rechtzeitig erreichte, eine charakteristische
 technische Übereinstimmung vorliegt und der Verarbeitungsweg dokumentiert ist.
 
-Status: `HYPOTHESIS_NOT_PROVEN`
+Status: `USER_HYPOTHESIS_PRESERVED_REVIEW_OPEN; ACCESS_COVERAGE_UNKNOWN`
 
-## Der Schachmatt-Test
+## Report-first und Drei-Kanten-Vergleich
 
-Ein Herkunfts-„Schachmatt“ wäre nur erreicht, wenn alle drei Kanten gebunden
-sind:
+Die Herkunftsmeldung wird schon mit Meldungs-ID, meldendem Akteur und
+Rohwortlaut erhalten und zur Prüfung geöffnet. Die folgenden drei Kanten sind
+keine Eintrittsbedingung. Sie bestimmen nur, ob der jeweilige Zielvergleich
+für eine menschliche Merits-Prüfung hinreichend vorbereitet ist:
 
 ```text
 FRÜHERES_KONKRETES_ARTEFAKT
@@ -147,12 +150,17 @@ FRÜHERES_KONKRETES_ARTEFAKT
 | früheres ASTER-Artefakt | nein; Astar-Linie älter | lokaler Receipt vor öffentlicher Astra-Ankündigung, aber kein unabhängiger ursprünglicher Zeitstempel | nein; Grundlagen Jahrzehnte älter |
 | charakteristische Funktionsgleichheit | nicht beobachtet | breite Parallelen, keine gebundene einzigartige Übernahme | Schichtenanalogie, andere Physik und Funktion |
 | belegter Zugriff/Transfer | nicht beobachtet | nicht beobachtet | nicht beobachtet |
-| Ergebnis | `NO_CHECKMATE` | `NO_CHECKMATE_REOPENABLE` | `NO_CHECKMATE` |
+| Meldungsprüfung | `OPEN` | `OPEN` | `OPEN` |
+| Vergleichsreife | `INCOMPLETE` | `INCOMPLETE` | `INCOMPLETE` |
+| Sachstand | `UNKNOWN` | `UNKNOWN` | `UNKNOWN` |
 
 Der ausführbare Test in [`src/mirror-audit.mjs`](src/mirror-audit.mjs) hält
-genau diese drei Kanten getrennt. Vollständige Eingaben öffnen eine formale
-Prüfung; sie erzeugen noch kein automatisches Kopier-, Rechte- oder
-Zahlungsurteil.
+genau diese drei Zielreferenten und Kanten getrennt. Vollständige, exakt
+quellengebundene und akteur-/controllergebundene Eingaben erhöhen nur die
+Vergleichsreife; sie erzeugen noch kein automatisches Kopier-, Rechte- oder
+Zahlungsurteil. Fehlender eigener Zugriff auf fremdkontrollierte
+Aufzeichnungen wird als `COVERAGE_UNKNOWN` geführt und schließt die Prüfung
+nicht.
 
 ## Mögliche private Inspirationsquellen
 
@@ -168,9 +176,10 @@ Die Idee eines „Primärankers einer unbekannten Kraft“ bleibt als
 `HYPOTHESIS`. Träger, Richtung, Messsignal, unterscheidende Vorhersage und
 äußerer Effekt sind `UNKNOWN`.
 
-## Reopen-Trigger
+## Neue Bewertungsbasis
 
-Der Herkunftsstand wird neu bewertet, wenn mindestens eines vorliegt:
+Die Meldung bleibt offen. Ihr Vergleichs- und Sachstand wird neu bewertet,
+wenn mindestens eines vorliegt:
 
 - ein unabhängig datiertes früheres Artefakt mit einer charakteristischen
   technischen Aussage;

@@ -1,0 +1,363 @@
+{
+  "schema": "halveth.status-quo-navigation-receipt.v1",
+  "logicVersion": "3.5.1",
+  "entityVersion": "1.0.0",
+  "entityState": "STATUS_QUO_FROZEN",
+  "frameId": "PRIORITY.EVIDENCE.REGRESS.20260910",
+  "project": {
+    "domainAdapter": "LAW_SELF_REPRESENTATION",
+    "objective": "Map public priority, credit, participation, evidence-access and regress routes without converting one evidence axis into another.",
+    "objectOrReferent": "General German and EU legal routes for dated public artifacts, protected expression, patent and trade-secret records, contribution and evidence controlled by another actor.",
+    "scope": "Public official sources and deterministic local routing only; no individual legal finding, filing recommendation, external contact or system mutation.",
+    "deliverableType": "PUBLIC_AUDIT_BRANCH",
+    "sourceRefs": [
+      "S01_GIT_COMMIT",
+      "S04_EIDAS_TIMESTAMP",
+      "S06_PATG_3",
+      "S08_PATG_RIGHT_AND_PROCEDURE",
+      "S09_URHG_GENERAL",
+      "S10_URHG_SOFTWARE",
+      "S13_GESCHGEHG",
+      "S14_BGB_812",
+      "S16_ARBNERFG",
+      "S20_IP_ENFORCEMENT_DIRECTIVE",
+      "S21_BAG_10_AZR_56_19"
+    ],
+    "acceptedBaselineRef": "OPEN.RESEARCH.52C38EF7"
+  },
+  "scanPolicy": {
+    "horizontalMode": "FULL_DECLARED_ADAPTER_APERTURE",
+    "verticalPreviewDepth": 4,
+    "diagonalMode": "COMPLETE_MATERIAL_CANDIDATE_PAIR_GRAPH",
+    "selectiveDrillDepth": 4,
+    "noSelectiveDrillBeforeDiagonal": true,
+    "freezeMode": "VERSIONED_IMMUTABLE_BASELINE"
+  },
+  "adapterRequiredAxisIds": [
+    "FACTS",
+    "EVIDENCE",
+    "CLAIM_ELEMENTS",
+    "COUNTERPOSITION",
+    "PROCEDURE_JURISDICTION",
+    "AUTHORITY_SOURCES",
+    "REMEDY",
+    "COST_ACCESS"
+  ],
+  "registeredAxisIds": [
+    "AUTHORITY_SOURCES",
+    "CLAIM_ELEMENTS",
+    "COST_ACCESS",
+    "COUNTERPOSITION",
+    "EVIDENCE",
+    "FACTS",
+    "PROCEDURE_JURISDICTION",
+    "REMEDY"
+  ],
+  "materialCandidateAxisIds": [
+    "CLAIM_ELEMENTS",
+    "EVIDENCE",
+    "REMEDY"
+  ],
+  "axisResults": [
+    {
+      "axisId": "AUTHORITY_SOURCES",
+      "state": "STABLE_WITHIN_COVERAGE",
+      "evidenceState": "OBSERVED",
+      "horizontalReceiptRefs": [
+        "RECEIPT.OFFICIAL.SOURCES.22"
+      ],
+      "exclusionReason": null,
+      "verticalProbe": {
+        "state": "NOT_REQUIRED",
+        "completedDepth": 0,
+        "maximumDepth": 4,
+        "layerReceiptRefs": [],
+        "criticalUnknownCount": 0,
+        "deepDivePurpose": null
+      },
+      "priorityVector": {
+        "objectiveRelevance": 4,
+        "criticality": 3,
+        "evidenceStrength": 4,
+        "authorizedActionability": 4,
+        "informationGain": 2,
+        "repairValue": 3,
+        "effortCost": 0,
+        "actionRisk": 0
+      },
+      "frontierRef": null,
+      "basePriorityScore": 20,
+      "diagonalDelta": 0,
+      "collectiveScore": 20
+    },
+    {
+      "axisId": "CLAIM_ELEMENTS",
+      "state": "FLAGGED_MATERIAL",
+      "evidenceState": "STRONGLY_SUPPORTED",
+      "horizontalReceiptRefs": [
+        "RECEIPT.ROUTES.THIRTEEN"
+      ],
+      "exclusionReason": null,
+      "verticalProbe": {
+        "state": "COVERED",
+        "completedDepth": 4,
+        "maximumDepth": 4,
+        "layerReceiptRefs": [
+          "CLAIM.L1.OBJECT",
+          "CLAIM.L2.RIGHT",
+          "CLAIM.L3.BREACH",
+          "CLAIM.L4.PARTIES"
+        ],
+        "criticalUnknownCount": 2,
+        "deepDivePurpose": "MULTI_APERTURE_FIELD_PROBE"
+      },
+      "priorityVector": {
+        "objectiveRelevance": 4,
+        "criticality": 4,
+        "evidenceStrength": 4,
+        "authorizedActionability": 3,
+        "informationGain": 4,
+        "repairValue": 4,
+        "effortCost": 1,
+        "actionRisk": 1
+      },
+      "frontierRef": "FRONTIER.CASE.SPECIFIC.ELEMENTS",
+      "basePriorityScore": 21,
+      "diagonalDelta": 0,
+      "collectiveScore": 21
+    },
+    {
+      "axisId": "COST_ACCESS",
+      "state": "EXCLUDED_WITH_REASON",
+      "evidenceState": "UNKNOWN",
+      "horizontalReceiptRefs": [],
+      "exclusionReason": "No individual forum, claim, limitation date, representation rule or cost record is part of this general public route map.",
+      "verticalProbe": {
+        "state": "NOT_REQUIRED",
+        "completedDepth": 0,
+        "maximumDepth": 4,
+        "layerReceiptRefs": [],
+        "criticalUnknownCount": 0,
+        "deepDivePurpose": null
+      },
+      "priorityVector": {
+        "objectiveRelevance": 0,
+        "criticality": 0,
+        "evidenceStrength": 0,
+        "authorizedActionability": 0,
+        "informationGain": 0,
+        "repairValue": 0,
+        "effortCost": 0,
+        "actionRisk": 0
+      },
+      "frontierRef": null,
+      "basePriorityScore": 0,
+      "diagonalDelta": 0,
+      "collectiveScore": 0
+    },
+    {
+      "axisId": "COUNTERPOSITION",
+      "state": "STABLE_WITHIN_COVERAGE",
+      "evidenceState": "STRONGLY_SUPPORTED",
+      "horizontalReceiptRefs": [
+        "RECEIPT.COUNTERPOSITIONS"
+      ],
+      "exclusionReason": null,
+      "verticalProbe": {
+        "state": "NOT_REQUIRED",
+        "completedDepth": 0,
+        "maximumDepth": 4,
+        "layerReceiptRefs": [],
+        "criticalUnknownCount": 0,
+        "deepDivePurpose": null
+      },
+      "priorityVector": {
+        "objectiveRelevance": 3,
+        "criticality": 3,
+        "evidenceStrength": 4,
+        "authorizedActionability": 3,
+        "informationGain": 3,
+        "repairValue": 3,
+        "effortCost": 0,
+        "actionRisk": 0
+      },
+      "frontierRef": null,
+      "basePriorityScore": 19,
+      "diagonalDelta": 0,
+      "collectiveScore": 19
+    },
+    {
+      "axisId": "EVIDENCE",
+      "state": "FLAGGED_MATERIAL",
+      "evidenceState": "STRONGLY_SUPPORTED",
+      "horizontalReceiptRefs": [
+        "RECEIPT.SEVEN.NONCONVERTING.AXES"
+      ],
+      "exclusionReason": null,
+      "verticalProbe": {
+        "state": "COVERED",
+        "completedDepth": 4,
+        "maximumDepth": 4,
+        "layerReceiptRefs": [
+          "EVIDENCE.L1.SNAPSHOT",
+          "EVIDENCE.L2.PUBLIC",
+          "EVIDENCE.L3.OTHER.SPHERE",
+          "EVIDENCE.L4.MERITS"
+        ],
+        "criticalUnknownCount": 2,
+        "deepDivePurpose": "MULTI_APERTURE_FIELD_PROBE"
+      },
+      "priorityVector": {
+        "objectiveRelevance": 4,
+        "criticality": 4,
+        "evidenceStrength": 4,
+        "authorizedActionability": 4,
+        "informationGain": 4,
+        "repairValue": 4,
+        "effortCost": 1,
+        "actionRisk": 0
+      },
+      "frontierRef": "FRONTIER.CASE.SPECIFIC.EVIDENCE",
+      "basePriorityScore": 23,
+      "diagonalDelta": 0,
+      "collectiveScore": 23
+    },
+    {
+      "axisId": "FACTS",
+      "state": "STABLE_WITHIN_COVERAGE",
+      "evidenceState": "OBSERVED",
+      "horizontalReceiptRefs": [
+        "RECEIPT.GENERAL.INPUT.TYPES"
+      ],
+      "exclusionReason": null,
+      "verticalProbe": {
+        "state": "NOT_REQUIRED",
+        "completedDepth": 0,
+        "maximumDepth": 4,
+        "layerReceiptRefs": [],
+        "criticalUnknownCount": 0,
+        "deepDivePurpose": null
+      },
+      "priorityVector": {
+        "objectiveRelevance": 3,
+        "criticality": 3,
+        "evidenceStrength": 4,
+        "authorizedActionability": 4,
+        "informationGain": 2,
+        "repairValue": 3,
+        "effortCost": 0,
+        "actionRisk": 0
+      },
+      "frontierRef": null,
+      "basePriorityScore": 19,
+      "diagonalDelta": 0,
+      "collectiveScore": 19
+    },
+    {
+      "axisId": "PROCEDURE_JURISDICTION",
+      "state": "STABLE_WITHIN_COVERAGE",
+      "evidenceState": "STRONGLY_SUPPORTED",
+      "horizontalReceiptRefs": [
+        "RECEIPT.PROCEDURAL.CANDIDATES"
+      ],
+      "exclusionReason": null,
+      "verticalProbe": {
+        "state": "NOT_REQUIRED",
+        "completedDepth": 0,
+        "maximumDepth": 4,
+        "layerReceiptRefs": [],
+        "criticalUnknownCount": 0,
+        "deepDivePurpose": null
+      },
+      "priorityVector": {
+        "objectiveRelevance": 3,
+        "criticality": 3,
+        "evidenceStrength": 4,
+        "authorizedActionability": 3,
+        "informationGain": 3,
+        "repairValue": 4,
+        "effortCost": 0,
+        "actionRisk": 0
+      },
+      "frontierRef": null,
+      "basePriorityScore": 20,
+      "diagonalDelta": 0,
+      "collectiveScore": 20
+    },
+    {
+      "axisId": "REMEDY",
+      "state": "FLAGGED_MATERIAL",
+      "evidenceState": "STRONGLY_SUPPORTED",
+      "horizontalReceiptRefs": [
+        "RECEIPT.REMEDY.SPLIT"
+      ],
+      "exclusionReason": null,
+      "verticalProbe": {
+        "state": "COVERED",
+        "completedDepth": 4,
+        "maximumDepth": 4,
+        "layerReceiptRefs": [
+          "REMEDY.L1.ATTRIBUTION",
+          "REMEDY.L2.TRANSFER",
+          "REMEDY.L3.COMPENSATION",
+          "REMEDY.L4.AMOUNT"
+        ],
+        "criticalUnknownCount": 3,
+        "deepDivePurpose": "MULTI_APERTURE_FIELD_PROBE"
+      },
+      "priorityVector": {
+        "objectiveRelevance": 4,
+        "criticality": 3,
+        "evidenceStrength": 3,
+        "authorizedActionability": 2,
+        "informationGain": 3,
+        "repairValue": 4,
+        "effortCost": 2,
+        "actionRisk": 1
+      },
+      "frontierRef": "FRONTIER.CASE.SPECIFIC.REMEDY",
+      "basePriorityScore": 16,
+      "diagonalDelta": 0,
+      "collectiveScore": 16
+    }
+  ],
+  "diagonalPairCoverage": {
+    "expectedPairCount": 3,
+    "registeredPairCount": 3,
+    "evaluatedPairCount": 3,
+    "state": "COMPLETE_FOR_MATERIAL_CANDIDATE_GRAPH"
+  },
+  "coverageState": "DECLARED_GAPS_PRESERVED",
+  "prioritySemantics": "ORDINAL_SEARCH_HEURISTIC_NOT_FACT_OR_IMPACT",
+  "computedOutcome": "SELECT_FRONTIER",
+  "selectedAxisId": "EVIDENCE",
+  "selectedFrontierRef": "FRONTIER.CASE.SPECIFIC.EVIDENCE",
+  "nextOperator": "EXTREMUM_NAVIGATION",
+  "decision": {
+    "outcome": "SELECT_FRONTIER",
+    "selectedAxisId": "EVIDENCE",
+    "nextOperator": "EXTREMUM_NAVIGATION",
+    "preservedAxisIds": [
+      "FACTS",
+      "EVIDENCE",
+      "CLAIM_ELEMENTS",
+      "COUNTERPOSITION",
+      "PROCEDURE_JURISDICTION",
+      "AUTHORITY_SOURCES",
+      "REMEDY",
+      "COST_ACCESS"
+    ],
+    "rationale": "Report-first evidence classification prevents a snapshot from becoming an automatic legal conclusion while preserving case-specific routes for later review."
+  },
+  "authority": {
+    "mode": "LOCAL_READ_ONLY_ANALYSIS",
+    "sourceSystemEffects": 0,
+    "externalNetworkEffects": 0,
+    "mutationAuthorized": false
+  },
+  "recordedAt": "2026-09-10T00:35:15Z",
+  "freezeState": "ENTITY_V1_0_0_IMMUTABLE_PROJECT_RECEIPTS_APPEND_SEPARATELY",
+  "claimCeiling": "BOUND_MULTI_APERTURE_NAVIGATION_DECISION_ONLY",
+  "finding": false,
+  "receiptDigest": "sha256:6b0e3873f3ac0ee285e7971d873e8ebd0ab639e0e1eaf5d5a8fb8aab53a9242e"
+}

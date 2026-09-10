@@ -39,7 +39,7 @@ Produktbeschreibung. Ihre Verbindung zum Spiel beginnt hier als
 | `OBSERVATION` | `STABLE_WITHIN_COVERAGE` | Beobachtet ist die aktuelle öffentliche Produktdarstellung, nicht der interne Ideenweg. |
 | `MATERIALIZATION_BRIDGE` | `UNKNOWN_MATERIAL` | Für einen etwaigen früheren fremden Beitrag ist in den geprüften Quellen kein Zugangs- oder Übernahmeweg zu diesem Spiel belegt. |
 | `IMPACT` | `UNKNOWN_MATERIAL` | Eine Wirkung dieses Prüfimpulses auf Spiel, Studio oder Außenwelt ist nicht beobachtet. |
-| `UNKNOWN_FRONTIER` | `FLAGGED_MATERIAL` | Reopen erst mit datierter Vorquelle, unterscheidbarer Übereinstimmung und prüfbarem Zugangsweg. |
+| `UNKNOWN_FRONTIER` | `FLAGGED_MATERIAL` | Die Meldung bleibt erhalten und in Prüfung; datierte Vorquelle, unterscheidbare Übereinstimmung und prüfbarer Zugangsweg erhöhen nur Vergleichsreife und Sachgrundlage. Fehlender eigener Zugriff auf fremdkontrollierte Belege ist `COVERAGE_UNKNOWN`. |
 
 Die vollständige Apertur wählt `DEFINITION` als ersten Prüfpunkt. Diese Auswahl
 ist eine Suchreihenfolge und kein Wahrheits-, Rechts- oder Skandalwert. Der

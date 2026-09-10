@@ -54,8 +54,10 @@
     "linkedIncidentIds": []
   },
   "currentAssessment": {
+    "incidentReviewState": "OPEN",
+    "reportPreservationState": "USER_REPORT_PRESERVED_REVIEW_OPEN",
     "incidentStatus": "POSSIBLE_SCOPE_VIOLATION",
-    "secondDecisionLayerStatus": "SECOND_DECISION_LAYER_NOT_PROVEN",
+    "secondDecisionLayerStatus": "SECOND_DECISION_LAYER_COVERAGE_UNKNOWN",
     "scandalStatus": "SCANDAL_CLAIM_NOT_MATERIALIZED"
   },
   "edgeObservations": [

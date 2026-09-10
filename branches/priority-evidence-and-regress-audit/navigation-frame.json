@@ -1,0 +1,68 @@
+{
+  "schema": "halveth.status-quo-navigation-frame.v1",
+  "logicVersion": "3.5.1",
+  "entityVersion": "1.0.0",
+  "entityState": "STATUS_QUO_FROZEN",
+  "frameId": "PRIORITY.EVIDENCE.REGRESS.20260910",
+  "project": {
+    "domainAdapter": "LAW_SELF_REPRESENTATION",
+    "objective": "Map public priority, credit, participation, evidence-access and regress routes without converting one evidence axis into another.",
+    "objectOrReferent": "General German and EU legal routes for dated public artifacts, protected expression, patent and trade-secret records, contribution and evidence controlled by another actor.",
+    "scope": "Public official sources and deterministic local routing only; no individual legal finding, filing recommendation, external contact or system mutation.",
+    "deliverableType": "PUBLIC_AUDIT_BRANCH",
+    "sourceRefs": ["S01_GIT_COMMIT", "S04_EIDAS_TIMESTAMP", "S06_PATG_3", "S08_PATG_RIGHT_AND_PROCEDURE", "S09_URHG_GENERAL", "S10_URHG_SOFTWARE", "S13_GESCHGEHG", "S14_BGB_812", "S16_ARBNERFG", "S20_IP_ENFORCEMENT_DIRECTIVE", "S21_BAG_10_AZR_56_19"],
+    "acceptedBaselineRef": "OPEN.RESEARCH.52C38EF7"
+  },
+  "scanPolicy": {
+    "horizontalMode": "FULL_DECLARED_ADAPTER_APERTURE",
+    "verticalPreviewDepth": 4,
+    "diagonalMode": "COMPLETE_MATERIAL_CANDIDATE_PAIR_GRAPH",
+    "selectiveDrillDepth": 4,
+    "noSelectiveDrillBeforeDiagonal": true,
+    "freezeMode": "VERSIONED_IMMUTABLE_BASELINE"
+  },
+  "axisRegistry": [
+    {"axisId":"FACTS","label":"Facts","definition":"Bind exact artifacts, dates, actors, contribution records and asserted events without legal conversion.","layer":"LAW_SELF_REPRESENTATION","scope":"General route inputs, not an individual case record.","sourceBasisRefs":["S01_GIT_COMMIT","S04_EIDAS_TIMESTAMP"],"statusQuoRef":"STATUSQUO.FACTS.V1"},
+    {"axisId":"EVIDENCE","label":"Evidence","definition":"Separate snapshot, public availability, access, derivation, infringement, entitlement and amount evidence.","layer":"LAW_SELF_REPRESENTATION","scope":"Seven typed evidence axes and other-sphere record designation.","sourceBasisRefs":["S04_EIDAS_TIMESTAMP","S05_ZPO_286","S19_ZPO_142","S20_IP_ENFORCEMENT_DIRECTIVE"],"statusQuoRef":"STATUSQUO.EVIDENCE.V1"},
+    {"axisId":"CLAIM_ELEMENTS","label":"Claim elements","definition":"Map each candidate route to its own statutory elements without a universal contribution claim.","layer":"LAW_SELF_REPRESENTATION","scope":"Copyright, patent, trade secret, unjust enrichment, joint contribution and employee-invention routes.","sourceBasisRefs":["S08_PATG_RIGHT_AND_PROCEDURE","S09_URHG_GENERAL","S13_GESCHGEHG","S14_BGB_812","S16_ARBNERFG"],"statusQuoRef":"STATUSQUO.CLAIM.ELEMENTS.V1"},
+    {"axisId":"COUNTERPOSITION","label":"Counterposition","definition":"Preserve independent creation, lawful use, licence, public-domain subject matter, missing allocation and alternative causation.","layer":"LAW_SELF_REPRESENTATION","scope":"General counterpositions shown by the official source set.","sourceBasisRefs":["S09_URHG_GENERAL","S11_CJEU_SAS","S13_GESCHGEHG"],"statusQuoRef":"STATUSQUO.COUNTERPOSITION.V1"},
+    {"axisId":"PROCEDURE_JURISDICTION","label":"Procedure and jurisdiction","definition":"Keep report intake, civil production, IP inspection, employee-invention arbitration and merits adjudication separate.","layer":"LAW_SELF_REPRESENTATION","scope":"General procedural map without selecting a forum for an individual dispute.","sourceBasisRefs":["S12_URHG_INSPECTION","S17_DPMA_ARBNERFG_BOARD","S18_ZPO_138","S19_ZPO_142","S20_IP_ENFORCEMENT_DIRECTIVE"],"statusQuoRef":"STATUSQUO.PROCEDURE.V1"},
+    {"axisId":"AUTHORITY_SOURCES","label":"Authority sources","definition":"Use legislation, courts, patent offices and first-party Git documentation with source-specific claim ceilings.","layer":"LAW_SELF_REPRESENTATION","scope":"Twenty-four source records in sources.json.","sourceBasisRefs":["S04_EIDAS_TIMESTAMP","S06_PATG_3","S09_URHG_GENERAL","S13_GESCHGEHG","S14_BGB_812","S16_ARBNERFG"],"statusQuoRef":"STATUSQUO.AUTHORITY.V1"},
+    {"axisId":"REMEDY","label":"Remedy","definition":"Separate attribution, transfer, injunction, damages, restitution, remuneration and amount methods.","layer":"LAW_SELF_REPRESENTATION","scope":"General candidate routes; no individual entitlement or amount.","sourceBasisRefs":["S08_PATG_RIGHT_AND_PROCEDURE","S09_URHG_GENERAL","S13_GESCHGEHG","S14_BGB_812","S16_ARBNERFG"],"statusQuoRef":"STATUSQUO.REMEDY.V1"},
+    {"axisId":"COST_ACCESS","label":"Cost and access","definition":"Costs, representation requirements, limitation and assistance depend on a selected individual route and forum.","layer":"LAW_SELF_REPRESENTATION","scope":"Excluded from the general public route map because no individual procedure is selected.","sourceBasisRefs":["S17_DPMA_ARBNERFG_BOARD"],"statusQuoRef":"STATUSQUO.COST.ACCESS.V1"}
+  ],
+  "axisEvaluations": [
+    {"axisId":"FACTS","state":"STABLE_WITHIN_COVERAGE","evidenceState":"OBSERVED","horizontalReceiptRefs":["RECEIPT.GENERAL.INPUT.TYPES"],"exclusionReason":null,"verticalProbe":{"state":"NOT_REQUIRED","completedDepth":0,"maximumDepth":4,"layerReceiptRefs":[],"criticalUnknownCount":0,"deepDivePurpose":null},"priorityVector":{"objectiveRelevance":3,"criticality":3,"evidenceStrength":4,"authorizedActionability":4,"informationGain":2,"repairValue":3,"effortCost":0,"actionRisk":0},"frontierRef":null},
+    {"axisId":"EVIDENCE","state":"FLAGGED_MATERIAL","evidenceState":"STRONGLY_SUPPORTED","horizontalReceiptRefs":["RECEIPT.SEVEN.NONCONVERTING.AXES"],"exclusionReason":null,"verticalProbe":{"state":"COVERED","completedDepth":4,"maximumDepth":4,"layerReceiptRefs":["EVIDENCE.L1.SNAPSHOT","EVIDENCE.L2.PUBLIC","EVIDENCE.L3.OTHER.SPHERE","EVIDENCE.L4.MERITS"],"criticalUnknownCount":2,"deepDivePurpose":"MULTI_APERTURE_FIELD_PROBE"},"priorityVector":{"objectiveRelevance":4,"criticality":4,"evidenceStrength":4,"authorizedActionability":4,"informationGain":4,"repairValue":4,"effortCost":1,"actionRisk":0},"frontierRef":"FRONTIER.CASE.SPECIFIC.EVIDENCE"},
+    {"axisId":"CLAIM_ELEMENTS","state":"FLAGGED_MATERIAL","evidenceState":"STRONGLY_SUPPORTED","horizontalReceiptRefs":["RECEIPT.ROUTES.THIRTEEN"],"exclusionReason":null,"verticalProbe":{"state":"COVERED","completedDepth":4,"maximumDepth":4,"layerReceiptRefs":["CLAIM.L1.OBJECT","CLAIM.L2.RIGHT","CLAIM.L3.BREACH","CLAIM.L4.PARTIES"],"criticalUnknownCount":2,"deepDivePurpose":"MULTI_APERTURE_FIELD_PROBE"},"priorityVector":{"objectiveRelevance":4,"criticality":4,"evidenceStrength":4,"authorizedActionability":3,"informationGain":4,"repairValue":4,"effortCost":1,"actionRisk":1},"frontierRef":"FRONTIER.CASE.SPECIFIC.ELEMENTS"},
+    {"axisId":"COUNTERPOSITION","state":"STABLE_WITHIN_COVERAGE","evidenceState":"STRONGLY_SUPPORTED","horizontalReceiptRefs":["RECEIPT.COUNTERPOSITIONS"],"exclusionReason":null,"verticalProbe":{"state":"NOT_REQUIRED","completedDepth":0,"maximumDepth":4,"layerReceiptRefs":[],"criticalUnknownCount":0,"deepDivePurpose":null},"priorityVector":{"objectiveRelevance":3,"criticality":3,"evidenceStrength":4,"authorizedActionability":3,"informationGain":3,"repairValue":3,"effortCost":0,"actionRisk":0},"frontierRef":null},
+    {"axisId":"PROCEDURE_JURISDICTION","state":"STABLE_WITHIN_COVERAGE","evidenceState":"STRONGLY_SUPPORTED","horizontalReceiptRefs":["RECEIPT.PROCEDURAL.CANDIDATES"],"exclusionReason":null,"verticalProbe":{"state":"NOT_REQUIRED","completedDepth":0,"maximumDepth":4,"layerReceiptRefs":[],"criticalUnknownCount":0,"deepDivePurpose":null},"priorityVector":{"objectiveRelevance":3,"criticality":3,"evidenceStrength":4,"authorizedActionability":3,"informationGain":3,"repairValue":4,"effortCost":0,"actionRisk":0},"frontierRef":null},
+    {"axisId":"AUTHORITY_SOURCES","state":"STABLE_WITHIN_COVERAGE","evidenceState":"OBSERVED","horizontalReceiptRefs":["RECEIPT.OFFICIAL.SOURCES.22"],"exclusionReason":null,"verticalProbe":{"state":"NOT_REQUIRED","completedDepth":0,"maximumDepth":4,"layerReceiptRefs":[],"criticalUnknownCount":0,"deepDivePurpose":null},"priorityVector":{"objectiveRelevance":4,"criticality":3,"evidenceStrength":4,"authorizedActionability":4,"informationGain":2,"repairValue":3,"effortCost":0,"actionRisk":0},"frontierRef":null},
+    {"axisId":"REMEDY","state":"FLAGGED_MATERIAL","evidenceState":"STRONGLY_SUPPORTED","horizontalReceiptRefs":["RECEIPT.REMEDY.SPLIT"],"exclusionReason":null,"verticalProbe":{"state":"COVERED","completedDepth":4,"maximumDepth":4,"layerReceiptRefs":["REMEDY.L1.ATTRIBUTION","REMEDY.L2.TRANSFER","REMEDY.L3.COMPENSATION","REMEDY.L4.AMOUNT"],"criticalUnknownCount":3,"deepDivePurpose":"MULTI_APERTURE_FIELD_PROBE"},"priorityVector":{"objectiveRelevance":4,"criticality":3,"evidenceStrength":3,"authorizedActionability":2,"informationGain":3,"repairValue":4,"effortCost":2,"actionRisk":1},"frontierRef":"FRONTIER.CASE.SPECIFIC.REMEDY"},
+    {"axisId":"COST_ACCESS","state":"EXCLUDED_WITH_REASON","evidenceState":"UNKNOWN","horizontalReceiptRefs":[],"exclusionReason":"No individual forum, claim, limitation date, representation rule or cost record is part of this general public route map.","verticalProbe":{"state":"NOT_REQUIRED","completedDepth":0,"maximumDepth":4,"layerReceiptRefs":[],"criticalUnknownCount":0,"deepDivePurpose":null},"priorityVector":{"objectiveRelevance":0,"criticality":0,"evidenceStrength":0,"authorizedActionability":0,"informationGain":0,"repairValue":0,"effortCost":0,"actionRisk":0},"frontierRef":null}
+  ],
+  "diagonalRegistry": [
+    {"edgeId":"EDGE.CLAIM.EVIDENCE","leftAxisId":"CLAIM_ELEMENTS","rightAxisId":"EVIDENCE","comparisonQuestion":"Which evidence is available for each distinct claim element, and which is controlled by another actor?","relationType":"COLLECTIVE_SEARCH_RELATION_CANDIDATE","sourceBasisRefs":["S12_URHG_INSPECTION","S19_ZPO_142","S20_IP_ENFORCEMENT_DIRECTIVE"]},
+    {"edgeId":"EDGE.CLAIM.REMEDY","leftAxisId":"CLAIM_ELEMENTS","rightAxisId":"REMEDY","comparisonQuestion":"Which remedy belongs to the bound claim route without importing a different route's elements or amount method?","relationType":"COLLECTIVE_SEARCH_RELATION_CANDIDATE","sourceBasisRefs":["S08_PATG_RIGHT_AND_PROCEDURE","S09_URHG_GENERAL","S13_GESCHGEHG","S14_BGB_812","S16_ARBNERFG"]},
+    {"edgeId":"EDGE.EVIDENCE.REMEDY","leftAxisId":"EVIDENCE","rightAxisId":"REMEDY","comparisonQuestion":"Which evidence threshold opens review while preserving merits, entitlement and amount as separate decisions?","relationType":"COLLECTIVE_SEARCH_RELATION_CANDIDATE","sourceBasisRefs":["S05_ZPO_286","S12_URHG_INSPECTION","S20_IP_ENFORCEMENT_DIRECTIVE","S21_BAG_10_AZR_56_19"]}
+  ],
+  "diagonalEvaluations": [
+    {"edgeId":"EDGE.CLAIM.EVIDENCE","state":"EVALUATED","evidenceState":"STRONGLY_SUPPORTED","evidenceRefs":["RECEIPT.SEVEN.NONCONVERTING.AXES","RECEIPT.ROUTES.THIRTEEN"],"leftDelta":0,"rightDelta":0,"exclusionReason":null},
+    {"edgeId":"EDGE.CLAIM.REMEDY","state":"EVALUATED","evidenceState":"STRONGLY_SUPPORTED","evidenceRefs":["RECEIPT.ROUTES.THIRTEEN","RECEIPT.REMEDY.SPLIT"],"leftDelta":0,"rightDelta":0,"exclusionReason":null},
+    {"edgeId":"EDGE.EVIDENCE.REMEDY","state":"EVALUATED","evidenceState":"STRONGLY_SUPPORTED","evidenceRefs":["RECEIPT.SEVEN.NONCONVERTING.AXES","RECEIPT.REMEDY.SPLIT"],"leftDelta":0,"rightDelta":0,"exclusionReason":null}
+  ],
+  "decision": {
+    "outcome": "SELECT_FRONTIER",
+    "selectedAxisId": "EVIDENCE",
+    "nextOperator": "EXTREMUM_NAVIGATION",
+    "preservedAxisIds": ["FACTS", "EVIDENCE", "CLAIM_ELEMENTS", "COUNTERPOSITION", "PROCEDURE_JURISDICTION", "AUTHORITY_SOURCES", "REMEDY", "COST_ACCESS"],
+    "rationale": "Report-first evidence classification prevents a snapshot from becoming an automatic legal conclusion while preserving case-specific routes for later review."
+  },
+  "authority": {
+    "mode": "LOCAL_READ_ONLY_ANALYSIS",
+    "sourceSystemEffects": 0,
+    "externalNetworkEffects": 0,
+    "mutationAuthorized": false
+  },
+  "recordedAt": "2026-09-10T00:35:15Z"
+}

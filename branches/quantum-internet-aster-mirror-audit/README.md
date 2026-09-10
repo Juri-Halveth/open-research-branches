@@ -61,6 +61,26 @@ Der Standardlauf vergleicht `LUCINET::ASTER`, Astar Network und den
 internationalen Quanteninternet-Forschungsstrang. Er gibt alle drei
 ungeordneten Paare aus und hält fehlende Herkunftskanten sichtbar.
 
+## Report-first-Herkunftsprüfung
+
+Eine an Meldungs-ID, meldenden Akteur und Rohwortlaut gebundene Meldung wird
+sofort erhalten und zur menschlichen Prüfung geöffnet. Vergleichsbelege sind
+keine Eintrittskarte. Astar Network, OpenAI GPT-6 Astra und der internationale
+Quanteninternet-Forschungsstrang bleiben drei getrennte Zielreferenten mit je
+eigenem Evidenzstand.
+
+Frühere Artefakte, charakteristische Funktionsübereinstimmungen und
+Zugriffs- oder Transferaufzeichnungen bestimmen nur die
+`comparisonReadiness` des jeweiligen Zielreferenten. Fehlt eine von einem
+anderen Akteur kontrollierte Zugriffsaufzeichnung, lautet die Abdeckung
+`COVERAGE_UNKNOWN`; daraus folgt weder Falschheit der Meldung noch
+Unabhängigkeit, Schuld, Rechtsfolge oder nachteilige Schlussfolgerung.
+
+Die ältere API mit bloßen Evidence-ID-Arrays bleibt lesbar, ist aber als
+`DEPRECATED_UNBOUND_EVIDENCE_REFS_NOT_USED_FOR_READINESS` markiert. Neue
+Evidence-Records benötigen eine exakte ID aus `sources.json` sowie
+`assertingActorId` und `controllerActorId`.
+
 ## Öffentlicher Prüfaufruf
 
 Forschende, Astar, OpenAI und alle weiteren genannten Institutionen können die

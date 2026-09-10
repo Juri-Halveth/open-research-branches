@@ -1,0 +1,144 @@
+{
+  "schemaVersion": "1.0.0",
+  "snapshotId": "JURI-HALVETH-PUBLIC-GITHUB-PROJECTS-2026-09-10T023115+0200",
+  "generatedAt": "2026-09-10T02:31:15+02:00",
+  "account": "Juri-Halveth",
+  "collectionState": "FINITE_GITHUB_API_SNAPSHOT",
+  "selectionRule": "ALL_PUBLIC_NON_FORK_REPOSITORIES_RETURNED_BY_GITHUB_CLI_AT_CAPTURE",
+  "privateRepositories": "EXCLUDED_WITHOUT_NAME_OR_CONTENT_ENUMERATION_IN_THIS_PUBLIC_RECORD",
+  "projects": [
+    {
+      "id": "OPEN-RESEARCH-BRANCHES",
+      "repository": "Juri-Halveth/open-research-branches",
+      "url": "https://github.com/Juri-Halveth/open-research-branches",
+      "purpose": "Public-safe, source-bound research and software branches with reproducible tests",
+      "defaultBranch": "main",
+      "headCommit": "52c38ef7282a6df92108e59158b533cb3b636c99",
+      "gitTree": "71abcc1f9b313d1b8975c766975a5817fc7bd8c2",
+      "committedAt": "2026-09-10T00:20:39Z",
+      "blobCount": 187,
+      "directoryCount": 53,
+      "treeResponseTruncated": false,
+      "reachableMainHistory": {
+        "commitCount": 22,
+        "oldestCommit": "b9c0fad02996ea3406c77bdd2563baa8bd8f9bf9",
+        "tagCount": 19,
+        "releaseCount": 19
+      },
+      "licenseMetadata": "MIT",
+      "latestRelease": {
+        "tag": "v0.11.1",
+        "publishedAt": "2026-09-10T00:23:58Z",
+        "url": "https://github.com/Juri-Halveth/open-research-branches/releases/tag/v0.11.1"
+      },
+      "workflow": {
+        "name": "CI",
+        "path": ".github/workflows/ci.yml",
+        "headCommit": "52c38ef7282a6df92108e59158b533cb3b636c99",
+        "conclusion": "success",
+        "url": "https://github.com/Juri-Halveth/open-research-branches/actions/runs/34420921496"
+      },
+      "evidenceState": "OBSERVED_GITHUB_API_AND_ACTIONS_METADATA"
+    },
+    {
+      "id": "JURI-JANOVSKI-THESE-ZUR-GEBURT",
+      "repository": "Juri-Halveth/juri-janovski-these-zur-geburt",
+      "url": "https://github.com/Juri-Halveth/juri-janovski-these-zur-geburt",
+      "purpose": "Reproducible public thesis and PDF on a woman-controlled low-stimulus birth environment with immediately available clinical support",
+      "defaultBranch": "main",
+      "headCommit": "6b4f4be4aaedd019f50640d238505e9e48e573ec",
+      "gitTree": "dbf87e4a384a0af39200d159a471a33bfe8bab7c",
+      "committedAt": "2026-09-09T21:10:03Z",
+      "blobCount": 23,
+      "directoryCount": 7,
+      "treeResponseTruncated": false,
+      "reachableMainHistory": {
+        "commitCount": 4,
+        "oldestCommit": "b49f3236371b5099fd3d4ef92460d63783557995",
+        "tagCount": 4,
+        "releaseCount": 4
+      },
+      "licenseMetadata": "Other; exact path rules are defined inside the repository",
+      "latestRelease": {
+        "tag": "v1.2.1",
+        "publishedAt": "2026-09-09T21:10:47Z",
+        "url": "https://github.com/Juri-Halveth/juri-janovski-these-zur-geburt/releases/tag/v1.2.1"
+      },
+      "workflow": {
+        "name": "Build and verify PDF",
+        "path": ".github/workflows/build-pdf.yml",
+        "headCommit": "6b4f4be4aaedd019f50640d238505e9e48e573ec",
+        "conclusion": "success",
+        "url": "https://github.com/Juri-Halveth/juri-janovski-these-zur-geburt/actions/runs/34405370173"
+      },
+      "evidenceState": "OBSERVED_GITHUB_API_AND_ACTIONS_METADATA"
+    },
+    {
+      "id": "LERNSTUDIO",
+      "repository": "Juri-Halveth/lernstudio",
+      "url": "https://github.com/Juri-Halveth/lernstudio",
+      "purpose": "Free learning platform with browser-local progress and a separate local EVE research candidate",
+      "defaultBranch": "main",
+      "headCommit": "ff3208682bf61542fd9cc0c005d1f7a0879c8c45",
+      "gitTree": "8eeff1c89282206a4cac73607f1603c2f2fe3603",
+      "committedAt": "2026-09-08T10:53:56Z",
+      "blobCount": 92,
+      "directoryCount": 6,
+      "treeResponseTruncated": false,
+      "reachableMainHistory": {
+        "commitCount": 2,
+        "oldestCommit": "8faca07e1e1f7fc2e5e1921d34ffe6f89bf1bfc8",
+        "tagCount": 0,
+        "releaseCount": 0
+      },
+      "licenseMetadata": "Other; the README identifies ISC plus path-specific exceptions",
+      "latestRelease": null,
+      "workflow": {
+        "state": "NO_WORKFLOW_RETURNED_AT_CAPTURE",
+        "claimCeiling": "NO_WORKFLOW_OBSERVED_DOES_NOT_MEAN_NO_LOCAL_TESTS_OR_NO_PRIOR_TEST_EXECUTION"
+      },
+      "evidenceState": "OBSERVED_GITHUB_API_METADATA"
+    },
+    {
+      "id": "HALVETH-TRESOR",
+      "repository": "Juri-Halveth/halveth-tresor",
+      "url": "https://github.com/Juri-Halveth/halveth-tresor",
+      "purpose": "Local offline Windows credential vault with encrypted-file storage",
+      "defaultBranch": "main",
+      "headCommit": "36fbd59db828b99ad6b9c57a2c9f5b9d8a8180da",
+      "gitTree": "4e1478d35057773204861cd11b528bc2d3c8b111",
+      "committedAt": "2026-07-26T14:30:39Z",
+      "blobCount": 39,
+      "directoryCount": 13,
+      "treeResponseTruncated": false,
+      "reachableMainHistory": {
+        "commitCount": 17,
+        "oldestCommit": "1b288de6adc5eef9c8e1a747219e6e133e1b3128",
+        "tagCount": 16,
+        "releaseCount": 16
+      },
+      "licenseMetadata": "MIT",
+      "latestRelease": {
+        "tag": "v1.8.0",
+        "publishedAt": "2026-07-26T14:26:39Z",
+        "url": "https://github.com/Juri-Halveth/halveth-tresor/releases/tag/v1.8.0"
+      },
+      "workflow": {
+        "name": "CI",
+        "path": ".github/workflows/ci.yml",
+        "headCommit": "36fbd59db828b99ad6b9c57a2c9f5b9d8a8180da",
+        "conclusion": "success",
+        "url": "https://github.com/Juri-Halveth/halveth-tresor/actions/runs/30206227042",
+        "additionalActiveWorkflow": ".github/workflows/codeql.yml"
+      },
+      "evidenceState": "OBSERVED_GITHUB_API_AND_ACTIONS_METADATA"
+    }
+  ],
+  "invariants": [
+    "A COMMIT OR TREE ID BINDS GIT OBJECTS, NOT ORIGINAL AUTHORSHIP OR THIRD-PARTY ACCESS",
+    "A SUCCESSFUL WORKFLOW BINDS THE NAMED WORKFLOW RUN, NOT COMPLETE PRODUCT CORRECTNESS OR SECURITY",
+    "A RELEASE BINDS A PUBLISHED REPOSITORY EVENT, NOT PATENT PRIORITY OR EXCLUSIVE IDEA OWNERSHIP",
+    "PRIVATE REPOSITORIES AND PRIVATE ARCHIVES ARE OUTSIDE THIS PUBLIC SNAPSHOT"
+  ],
+  "claimCeiling": "PUBLIC_REPOSITORY_METADATA_TREE_COUNTS_RELEASES_AND_WORKFLOW_RESULTS_AT_CAPTURE_ONLY_NOT_WHOLE_ARCHIVE_COMPLETENESS_INDEPENDENT_SECURITY_AUDIT_AUTHORSHIP_PRIORITY_COPYING_OR_LEGAL_ENTITLEMENT_PROOF"
+}

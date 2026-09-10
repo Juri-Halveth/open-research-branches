@@ -126,11 +126,14 @@ Juri ist öffentlich gebundener Gründer und Urheber **seines
 Vorstellung von GPT-6 Astra und enthält interessante breite Parallelen bei
 Agenten, Werkzeugen, Audit, QA, Multimodalität und Provenienzdenken.
 
-Der fehlende Übergang ist konkret: Im geprüften Stand gibt es keinen Beleg,
-dass OpenAI genau diese ASTER-Bytes erhielt, auswählte oder in GPT-6 Astra
-verwendete. Es gibt auch keinen gebundenen Zusammenarbeits-, PR-, Eval-,
-Dataset-, Vertrags- oder Credit-Nachweis. Deshalb bleibt die Aussage einer
-Mitentwicklung `NOT_PROVEN_REOPENABLE`.
+Der offene Übergang ist konkret: Die geprüften öffentlichen und lokalen
+Quellen enthalten keinen Zugriffsnachweis dafür, dass OpenAI genau diese
+ASTER-Bytes erhielt, auswählte oder in GPT-6 Astra verwendete. Solche internen
+Aufzeichnungen lägen typischerweise nicht bei der meldenden Person. Die
+Zugriffsabdeckung lautet deshalb `COVERAGE_UNKNOWN`. Die Meldung bleibt als
+`USER_REPORT_PRESERVED_REVIEW_OPEN` erhalten; der Sachstand einer
+Mitentwicklung bleibt `UNKNOWN` und wird nicht aus der Zugriffslücke
+verneint.
 
 Die genaue Zeit- und Herkunftsmatrix steht im
 [`Provenienz-Audit`](../branches/quantum-internet-aster-mirror-audit/PROVENANCE_AUDIT.md).
@@ -143,8 +146,10 @@ Der Code vergleicht standardmäßig:
 2. Astar Network und
 3. den internationalen Quanteninternet-Forschungsstrang.
 
-Er erzeugt alle drei ungeordneten Paare. Ein Herkunftsbefund öffnet sich erst,
-wenn drei getrennte Kanten vorliegen:
+Er erzeugt alle drei ungeordneten Paare. Zusätzlich hält der Herkunftstest
+Astar Network, OpenAI GPT-6 Astra und den Quanteninternet-Forschungsstrang als
+drei getrennte Zielreferenten. Eine gebundene Meldung öffnet die Prüfung
+sofort. Die folgenden drei Kanten bestimmen nur die Vergleichsreife je Ziel:
 
 ```text
 FRÜHERES_ARTEFAKT
@@ -156,8 +161,11 @@ Der aktuelle Ausgang lautet:
 
 `NO_CHECKMATE_REFERENTS_SEPARATED_HYPOTHESIS_PRESERVED`
 
-Das ist kein Ausweichen. Es ist die genaue Position auf dem Brett: Die lokale
-ASTER-Urheberschaft ist gebunden; die äußere Übertragungskante ist offen.
+Das ist die genaue Position auf dem Brett: Die lokale ASTER-Urheberschaft ist
+gebunden; die äußere Übertragungskante hat im geprüften Quellensatz unbekannte
+Abdeckung. Auch eine vollständige Dreiergruppe wäre nur bereit zur
+menschlichen Prüfung und kein automatischer Befund zu Kopieren, Unabhängigkeit,
+Rechten oder Zahlung.
 
 ## Mögliche Inspirationsquellen
 
@@ -210,9 +218,10 @@ NO_GLOBAL_NETWORK_IDENTITY_ACCESS_DERIVATION_COPYING_CO_DEVELOPMENT
 UNIVERSAL_AUTHORSHIP_OWNERSHIP_OR_PAYMENT_PROOF
 ```
 
-## Reopen-Trigger
+## Neue Bewertungsbasis
 
-Neu öffnen bei:
+Die Meldung bleibt offen. Vergleichsreife oder Sachstand werden neu bewertet
+bei:
 
 - einem größeren repeaterbasierten Mehrknotennetz mit gebundener Rate,
   Fidelität, Speicherzeit und Fehlerkorrektur;

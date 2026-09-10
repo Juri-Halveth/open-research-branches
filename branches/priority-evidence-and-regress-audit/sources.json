@@ -1,0 +1,223 @@
+{
+  "schema": "halveth.official-source-registry.v1",
+  "checkedAt": "2026-09-10",
+  "coverage": "Official legislation, courts, patent offices and first-party Git/GitHub documentation relevant to priority, credit, participation, evidence access and monetary routes.",
+  "sources": [
+    {
+      "id": "S01_GIT_COMMIT",
+      "authority": "Git",
+      "title": "git-commit documentation",
+      "url": "https://git-scm.com/docs/git-commit",
+      "kind": "OFFICIAL_TECHNICAL_DOCUMENTATION",
+      "supports": ["A commit records a snapshot and declared author, committer and date metadata.", "Author and date metadata can be supplied by the caller."],
+      "doesNotSupport": ["Authenticated civil identity", "Qualified legal timestamp", "First creation or legal entitlement"]
+    },
+    {
+      "id": "S02_GIT_COMMIT_TREE",
+      "authority": "Git",
+      "title": "git-commit-tree documentation",
+      "url": "https://git-scm.com/docs/git-commit-tree",
+      "kind": "OFFICIAL_TECHNICAL_DOCUMENTATION",
+      "supports": ["The commit object binds a tree, parent relationship and commit metadata.", "GIT_AUTHOR_DATE and GIT_COMMITTER_DATE are caller-controlled inputs."],
+      "doesNotSupport": ["Independent verification of real-world event time", "Substantive authorship or inventorship"]
+    },
+    {
+      "id": "S03_GITHUB_SIGNATURE_VERIFICATION",
+      "authority": "GitHub",
+      "title": "About commit signature verification",
+      "url": "https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification",
+      "kind": "OFFICIAL_PLATFORM_DOCUMENTATION",
+      "supports": ["A verified GPG, SSH or S/MIME signature can bind a supported signing identity to the signed Git object under GitHub's verification rules."],
+      "doesNotSupport": ["First invention", "Truth of substantive claims", "Copying by a later actor"]
+    },
+    {
+      "id": "S04_EIDAS_TIMESTAMP",
+      "authority": "European Union",
+      "title": "Regulation (EU) No 910/2014, Articles 41 and 42",
+      "url": "https://eur-lex.europa.eu/eli/reg/2014/910/oj",
+      "kind": "EU_LEGISLATION",
+      "supports": ["An electronic timestamp may not be denied legal effect solely because it is electronic or non-qualified.", "A qualified electronic timestamp benefits from a presumption of accurate date and time and integrity of the bound data."],
+      "doesNotSupport": ["Identity of the creator", "Public availability", "Ownership, inventorship or infringement"]
+    },
+    {
+      "id": "S05_ZPO_286",
+      "authority": "Federal Republic of Germany",
+      "title": "Zivilprozessordnung, section 286",
+      "url": "https://www.gesetze-im-internet.de/zpo/__286.html",
+      "kind": "GERMAN_LEGISLATION",
+      "supports": ["The court evaluates the complete result of the proceedings and evidence according to free conviction, subject to statutory rules."],
+      "doesNotSupport": ["Automatic conclusive effect of an ordinary Git record"]
+    },
+    {
+      "id": "S06_PATG_3",
+      "authority": "Federal Republic of Germany",
+      "title": "Patentgesetz, section 3",
+      "url": "https://www.gesetze-im-internet.de/patg/__3.html",
+      "kind": "GERMAN_LEGISLATION",
+      "supports": ["State of the art includes knowledge made available to the public before the filing date by written or oral description, use or another method."],
+      "doesNotSupport": ["That a merely private timestamp was publicly accessible", "That the publisher is the sole inventor"]
+    },
+    {
+      "id": "S07_EPO_INTERNET_DISCLOSURE",
+      "authority": "European Patent Office",
+      "title": "EPO Guidelines for Examination G-IV 7.5, Internet disclosures",
+      "url": "https://www.epo.org/en/legal/guidelines-epc/2026/g_iv_7_5.html",
+      "kind": "OFFICIAL_PATENT_GUIDANCE",
+      "supports": ["Internet disclosures can form prior art when public availability and the relevant date are established.", "Content, date and actual public accessibility require source-bound assessment."],
+      "doesNotSupport": ["A general patent grace period", "Inventorship or ownership from publication alone"]
+    },
+    {
+      "id": "S08_PATG_RIGHT_AND_PROCEDURE",
+      "authority": "Federal Republic of Germany",
+      "title": "Patentgesetz, sections 6 to 8, 35, 37, 63, 139 and 140c",
+      "url": "https://www.gesetze-im-internet.de/patg/BJNR201170936.html",
+      "kind": "GERMAN_LEGISLATION",
+      "supports": ["The right to the patent belongs to the inventor or successor; joint inventors are jointly entitled.", "A filing date, applicant position, inventor designation, entitlement-transfer route, remedies and inspection are distinct legal objects."],
+      "doesNotSupport": ["Patent grant or validity from filing alone", "Truth of inventor designation merely because it was filed"]
+    },
+    {
+      "id": "S09_URHG_GENERAL",
+      "authority": "Federal Republic of Germany",
+      "title": "Urheberrechtsgesetz, sections 2, 7, 8, 10, 13, 31 and 97",
+      "url": "https://www.gesetze-im-internet.de/urhg/BJNR012730965.html",
+      "kind": "GERMAN_LEGISLATION",
+      "supports": ["Copyright protects personal intellectual creations; the author is the creator.", "Joint authorship, attribution, licence scope and infringement remedies have separate statutory conditions."],
+      "doesNotSupport": ["Exclusive control over every abstract idea", "A payment claim from resemblance alone"]
+    },
+    {
+      "id": "S10_URHG_SOFTWARE",
+      "authority": "Federal Republic of Germany",
+      "title": "Urheberrechtsgesetz, section 69a",
+      "url": "https://www.gesetze-im-internet.de/urhg/__69a.html",
+      "kind": "GERMAN_LEGISLATION",
+      "supports": ["Computer-program expression is protected when it is the author's own intellectual creation.", "Ideas and principles underlying a program or interface are not protected by program copyright.", "Sections 32 to 32g do not apply to computer programs under section 69a(5)."],
+      "doesNotSupport": ["Infringement from functional similarity alone", "Application of sections 32 to 32g to computer programs"]
+    },
+    {
+      "id": "S10B_URHG_EMPLOYEE_SOFTWARE",
+      "authority": "Federal Republic of Germany",
+      "title": "Urheberrechtsgesetz, section 69b",
+      "url": "https://www.gesetze-im-internet.de/urhg/__69b.html",
+      "kind": "GERMAN_LEGISLATION",
+      "supports": ["Where an employee creates a computer program in execution of duties or according to employer instructions, the employer alone is entitled to exercise all economic rights in the program unless otherwise agreed."],
+      "doesNotSupport": ["Coverage of programs created outside the statutory employment nexus", "Authorship, infringement or a payment amount from employment status alone"]
+    },
+    {
+      "id": "S11_CJEU_SAS",
+      "authority": "Court of Justice of the European Union",
+      "title": "Judgment of 2 May 2012, SAS Institute Inc. v World Programming Ltd, C-406/10",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62010CJ0406",
+      "kind": "EU_COURT_DECISION",
+      "supports": ["Program functionality, programming language and data-file formats are not forms of program expression protected by software copyright.", "Source and object code are protected forms of expression."],
+      "doesNotSupport": ["A licence to copy protected source code", "A conclusion that similar output proves derivation"]
+    },
+    {
+      "id": "S12_URHG_INSPECTION",
+      "authority": "Federal Republic of Germany",
+      "title": "Urheberrechtsgesetz, section 101a",
+      "url": "https://www.gesetze-im-internet.de/urhg/__101a.html",
+      "kind": "GERMAN_LEGISLATION",
+      "supports": ["Where infringement is sufficiently probable, production and inspection may be available under proportionality and confidentiality safeguards."],
+      "doesNotSupport": ["Automatic infringement finding", "Unlimited disclosure of an opponent's records"]
+    },
+    {
+      "id": "S13_GESCHGEHG",
+      "authority": "Federal Republic of Germany",
+      "title": "Gesetz zum Schutz von Geschäftsgeheimnissen, sections 2 to 5, 10, 13 and 16",
+      "url": "https://www.gesetze-im-internet.de/geschgehg/BJNR046610019.html",
+      "kind": "GERMAN_LEGISLATION",
+      "supports": ["Trade-secret protection requires secrecy, commercial value because of secrecy, reasonable secrecy measures and a legitimate interest in keeping the information secret.", "Independent creation and defined reverse engineering can be lawful; unauthorized acquisition, use or disclosure can trigger remedies.", "Section 5 permits acquisition, use or disclosure in specified public-interest situations, including freedom of expression and information, disclosure of misconduct in the general public interest, and protection of a legitimate interest.", "Litigation can use confidentiality measures."],
+      "doesNotSupport": ["Trade-secret status for information generally known or readily accessible", "A claim from public similarity alone"]
+    },
+    {
+      "id": "S14_BGB_812",
+      "authority": "Federal Republic of Germany",
+      "title": "Bürgerliches Gesetzbuch, section 812",
+      "url": "https://www.gesetze-im-internet.de/bgb/__812.html",
+      "kind": "GERMAN_LEGISLATION",
+      "supports": ["Restitution requires that the defendant obtained something through performance or otherwise at the claimant's expense and without legal ground."],
+      "doesNotSupport": ["A universal value-participation claim", "A claim amount from resemblance or usefulness alone"]
+    },
+    {
+      "id": "S15_BGH_IX_ZR_259_13",
+      "authority": "Bundesgerichtshof",
+      "title": "Judgment of 24 March 2016, IX ZR 259/13",
+      "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2016-3-24&Gericht=bgh&nr=74398",
+      "kind": "GERMAN_COURT_DECISION",
+      "supports": ["Intervention restitution requires a protected position allocated to the right holder for exclusive disposition and exploitation and a benefit contrary to that allocation.", "A mere impairment of an exploitation opportunity is insufficient."],
+      "doesNotSupport": ["Restitution for every lost commercial opportunity", "A generic ownership right in an unprotected idea"]
+    },
+    {
+      "id": "S16_ARBNERFG",
+      "authority": "Federal Republic of Germany",
+      "title": "Gesetz über Arbeitnehmererfindungen, sections 5 to 9, 12, 31 and 37",
+      "url": "https://www.gesetze-im-internet.de/arbnerfg/BJNR007560957.html",
+      "kind": "GERMAN_LEGISLATION",
+      "supports": ["A service-invention report, employer claim, transfer of economic rights, appropriate remuneration, co-inventor shares and the arbitration route are distinct steps.", "The employer must assist supplementation of an incomplete invention report and timely specify missing information."],
+      "doesNotSupport": ["Coverage of every idea or every software contribution", "A predetermined amount without the statutory valuation inputs"]
+    },
+    {
+      "id": "S17_DPMA_ARBNERFG_BOARD",
+      "authority": "German Patent and Trade Mark Office",
+      "title": "Arbitration Board under the Employee Inventions Act",
+      "url": "https://www.dpma.de/dpma/wir_ueber_uns/weitere_aufgaben/schiedsstelle_arbnerfg/index.html",
+      "kind": "OFFICIAL_AGENCY_GUIDANCE",
+      "supports": ["The confidential, generally fee-free Board seeks an amicable resolution of employee-invention disputes, especially appropriate remuneration."],
+      "doesNotSupport": ["That every employment dispute belongs before the Board", "A guaranteed settlement"]
+    },
+    {
+      "id": "S18_ZPO_138",
+      "authority": "Federal Republic of Germany",
+      "title": "Zivilprozessordnung, section 138",
+      "url": "https://www.gesetze-im-internet.de/zpo/__138.html",
+      "kind": "GERMAN_LEGISLATION",
+      "supports": ["Parties must make complete and truthful factual declarations and respond to the opposing factual assertions in civil litigation."],
+      "doesNotSupport": ["A universal pre-litigation disclosure duty", "Automatic truth from silence"]
+    },
+    {
+      "id": "S19_ZPO_142",
+      "authority": "Federal Republic of Germany",
+      "title": "Zivilprozessordnung, section 142",
+      "url": "https://www.gesetze-im-internet.de/zpo/__142.html",
+      "kind": "GERMAN_LEGISLATION",
+      "supports": ["A court may order a party or third party to produce documents and other records in its possession to which a party has referred, subject to the statutory conditions."],
+      "doesNotSupport": ["An automatic private right to all internal records", "Automatic fault from non-production"]
+    },
+    {
+      "id": "S19A_ARBGG_46",
+      "authority": "Federal Republic of Germany",
+      "title": "Arbeitsgerichtsgesetz, section 46",
+      "url": "https://www.gesetze-im-internet.de/arbgg/__46.html",
+      "kind": "GERMAN_LEGISLATION",
+      "supports": ["Section 46(2) makes the rules of the Code of Civil Procedure generally applicable to first-instance labor-court proceedings unless the Labor Courts Act provides otherwise."],
+      "doesNotSupport": ["Automatic applicability of every civil-procedure rule without checking Labor Courts Act exceptions", "A production order, burden reversal or merits finding in a particular case"]
+    },
+    {
+      "id": "S20_IP_ENFORCEMENT_DIRECTIVE",
+      "authority": "European Union",
+      "title": "Directive 2004/48/EC, Articles 6 and 7",
+      "url": "https://eur-lex.europa.eu/eli/dir/2004/48/oj",
+      "kind": "EU_LEGISLATION",
+      "supports": ["A party can rely on reasonably available evidence and specify relevant evidence controlled by the opposing party; courts may order production and evidence-preservation measures with confidentiality safeguards."],
+      "doesNotSupport": ["A merits finding from a report alone", "A general reversal of every burden of proof"]
+    },
+    {
+      "id": "S21_BAG_10_AZR_56_19",
+      "authority": "Bundesarbeitsgericht",
+      "title": "Judgment of 16 September 2020, 10 AZR 56/19",
+      "url": "https://www.bundesarbeitsgericht.de/entscheidung/10-azr-56-19/",
+      "kind": "GERMAN_COURT_DECISION",
+      "supports": ["In a labor-court dispute about social-fund contribution liability, secondary substantiation could require the knowledgeable opposing party to give a concrete response where the primarily responsible party lacked knowledge and reasonable means of investigation."],
+      "doesNotSupport": ["Automatic reversal of the ultimate burden of proof", "A duty to disclose every potentially useful fact"]
+    },
+    {
+      "id": "S22_BVERFG_1_BVR_1067_12",
+      "authority": "Bundesverfassungsgericht",
+      "title": "Order of 22 August 2013, 1 BvR 1067/12",
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2013/08/rk20130822_1bvr106712.html",
+      "kind": "GERMAN_CONSTITUTIONAL_COURT_DECISION",
+      "supports": ["Pleading requirements may not be handled so that effective legal protection is made factually impossible where decisive events lie in the opposing sphere."],
+      "doesNotSupport": ["A universal presumption in favour of every claimant", "An automatic liability finding"]
+    }
+  ]
+}

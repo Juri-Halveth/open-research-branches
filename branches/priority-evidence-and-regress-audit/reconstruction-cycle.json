@@ -1,0 +1,362 @@
+{
+  "contract_version": "3.5.0",
+  "work_classes": [
+    "SOURCE_AUDIT",
+    "TEMPORAL_BRANCHING"
+  ],
+  "network_active": true,
+  "state_changing": false,
+  "critical_factual_proof": false,
+  "authorization_contract": {
+    "target": "Official public legislation, court decisions, patent-office guidance and first-party Git/GitHub documentation listed in sources.json",
+    "owner": "The respective public authorities and documentation publishers; repository owner for the local audit package",
+    "authorization_source": "User-authorized public source research and local repository work; ordinary public read access",
+    "program_policy": "PUBLIC_WEB_READ_ONLY_AND_LOCAL_REPOSITORY_WORK; NO_EXTERNAL_TEST_PROGRAM",
+    "in_scope_asset": "Public source pages and the owned local open-research repository",
+    "test_identity": "Unauthenticated public reader and local repository-owner workflow",
+    "prerequisites": "Read-only source access and local deterministic tests without login, protected records or third-party data collection",
+    "stop_condition": "Stop at access controls, nonpublic case records, personal data, account actions, external mutation or case-specific legal conclusion",
+    "data_boundary": "PUBLIC official sources and synthetic local fixtures only",
+    "evidence_output": "URLs, bounded legal propositions, typed route records, deterministic receipts and local test output",
+    "valid_at": "2026-09-10T02:35:15+02:00"
+  },
+  "proven": [
+    "The official sources distinguish exact-content timing, public availability, authorship or inventorship, access, derivation, infringement, entitlement and amount.",
+    "The local router preserves a report with all merits axes unknown and does not promote a Git snapshot into later legal axes.",
+    "Fourteen deterministic Node.js tests pass and the status-quo frame selects EVIDENCE while preserving every legal-adapter axis."
+  ],
+  "falsified": [
+    "Within this route contract, a Git commit automatically proves a qualified timestamp, public access, copying, infringement or payment claim.",
+    "Within this route contract, functionality-only software overlap is sufficient to make a protected-expression claim review-ready.",
+    "Within this route contract, evidence controlled by another actor creates an automatic production duty, adverse inference or burden reversal."
+  ],
+  "deepest_unknown": "Every individual dispute's creator or inventor identity, external knowledge or access, derivation, protectability, authorization, infringement, procedural applicability, remedy, limitation position and amount remain unknown.",
+  "why_unknown": "The branch contains general official sources and synthetic tests, not the parties, complete artifact chain, internal records, licences, employment facts or procedural record of an individual case.",
+  "known_techniques_relevant": [
+    "Git object and release receipts",
+    "qualified electronic timestamps",
+    "public-availability and prior-art analysis",
+    "protected-expression comparison",
+    "patent entitlement and inventor naming",
+    "trade-secret timeline analysis",
+    "unjust-enrichment element mapping",
+    "joint-contribution and employee-invention routing",
+    "scoped production, inspection and secondary-substantiation review"
+  ],
+  "historical_analogues": [
+    "paper laboratory notebooks and witnessed disclosures",
+    "patent filing and publication records",
+    "source-code version-control histories",
+    "court-ordered document production and inspection",
+    "employee-invention reports and remuneration proceedings"
+  ],
+  "available_tools": [
+    "official public sources",
+    "Git object inspection",
+    "qualified timestamp verification as a future evidence input",
+    "deterministic Node.js route evaluator",
+    "node:test",
+    "HALVETH/LUCINET status-quo validator",
+    "LUCINET Core 3.5 validator"
+  ],
+  "missing_measurement_capability": "No third-party internal access log, development history, source-selection record, licence chain, confidential commercial data or court-ordered production is available in this general public branch.",
+  "custom_tool_needed": "A case-specific adapter could ingest minimized exact artifact receipts, party roles, licences, employment facts, designated controlled records and amount data without changing the seven-axis contract.",
+  "counterhypothesis": "The observed similarity or chronology may be explained by independent creation, common public sources, lawful use, an applicable licence, unprotected functionality or another non-infringing route.",
+  "next_w_question": "For one concrete dispute, which exact protected object and which single later axis can be strengthened by evidence reasonably available to the reporting party?",
+  "next_recursive_level": "Bind one case-specific artifact pair and actor relationship to the unchanged route contract, then identify the smallest missing evidence item capable of changing one axis.",
+  "next_safe_experiment": "Use only synthetic or expressly authorized minimized inputs to add one bound fact at a time and verify that no unrelated axis is promoted.",
+  "stop_condition": "Stop before naming private persons, publishing secrets, recommending a patent filing, asserting copying or wrongdoing, fixing an amount, contacting another actor or making an external legal claim.",
+  "critical_proof_condition": "A case-specific conclusion requires the exact protected object, applicable legal route, element-by-element facts, authorization or licence state, relevant counterpositions, procedural basis and evidence for the requested remedy and amount.",
+  "boundary": "Public official-source research and local deterministic repository work; no individual legal adjudication, external communication, filing, account action or third-party system effect.",
+  "reopen_trigger": "A minimized case-specific artifact record, a newly relevant official decision or legislation, a qualified timestamp receipt, or a consented internal evidence export.",
+  "claims": [
+    {
+      "term": "source-bound priority and regress route map",
+      "object_or_referent": "The seven evidence axes and thirteen candidate routes defined in route-contract.json",
+      "scope": "General German and EU public-source routing through 2026-09-10",
+      "source": "sources.json, route-contract.json, README.md and FREE NEWS 015",
+      "version": "priority-evidence-and-regress-audit 0.1.0",
+      "valid_at": "2026-09-10T02:35:15+02:00",
+      "evidence_state": "STRONGLY_SUPPORTED"
+    },
+    {
+      "term": "individual authorship, inventorship, access, derivation, infringement, entitlement, regress and amount",
+      "object_or_referent": "Any real person, organization, artifact or dispute",
+      "scope": "This general branch contains no case-specific merits record",
+      "source": "route-contract.json claim ceiling and deterministic test receipts",
+      "version": "priority-evidence-and-regress-audit 0.1.0",
+      "valid_at": "2026-09-10T02:35:15+02:00",
+      "evidence_state": "NOT_PROVEN"
+    }
+  ],
+  "reconstruction_cycle": {
+    "reconstruction_id": "priority-evidence-and-regress-audit-2026-09-10",
+    "record_kind": "OBSERVED_RUN",
+    "target_referent": "The general path from public artifact chronology to credit, participation, evidence-access and monetary-route review",
+    "source_basis": [
+      "twenty-four official source records in sources.json",
+      "route-contract.json",
+      "fourteen passing Node.js tests",
+      "status-quo navigation receipt sha256:6b0e3873f3ac0ee285e7971d873e8ebd0ab639e0e1eaf5d5a8fb8aab53a9242e"
+    ],
+    "authority_source": "Explicit user authorization for public research and local repository materialization, with no external contact or publication action in this cycle",
+    "acquisition_mode": "PUBLIC_SOURCE",
+    "isolation_boundary": "Local source branch and synthetic fixtures with public read-only source acquisition and no return path to an external system",
+    "model_scope": "Git and release records, qualified timestamps, public prior art, copyright and software expression, patents, trade secrets, unjust enrichment, joint contribution, employee invention and evidence in another actor's sphere",
+    "declared_exclusions": [
+      "private identity and case records",
+      "nonpublic business or trade-secret material",
+      "individual patent-filing recommendation",
+      "automatic authorship, inventorship, copying, infringement, entitlement or amount findings",
+      "external contact, filing, commit, push or publication"
+    ],
+    "layer_inventory": [
+      "artifact bytes and Git object",
+      "timestamp and integrity record",
+      "public-availability record",
+      "knowledge or access evidence",
+      "derivation evidence",
+      "protected right and authorization state",
+      "claim and remedy elements",
+      "amount method and data",
+      "procedural evidence-access route",
+      "public claim ceiling"
+    ],
+    "interface_inventory": [
+      "artifact to timestamp",
+      "artifact to public access",
+      "public access to actor knowledge",
+      "actor knowledge to derivation",
+      "derivation to protected-right infringement",
+      "infringement to entitlement or regress",
+      "entitlement to amount",
+      "controlled evidence to production or inspection review",
+      "route receipt to human merits decision"
+    ],
+    "countermodels": [
+      {
+        "model_id": "M1-SNAPSHOT-ONLY",
+        "role": "BEST_CONSISTENT",
+        "source_basis": "Git and eIDAS records with no imported later-axis facts",
+        "controller": "local source-bound model",
+        "provenance_cluster": "official-sources-and-synthetic-fixtures",
+        "model_state": "SOURCE_BOUND_SHADOW",
+        "evidence_state": "STRONGLY_SUPPORTED"
+      },
+      {
+        "model_id": "M2-SEVEN-AXIS-ROUTE-MAP",
+        "role": "OBSERVATION_BOUND",
+        "source_basis": "official substantive and procedural sources plus the route contract",
+        "controller": "local source-bound model",
+        "provenance_cluster": "official-sources-and-synthetic-fixtures",
+        "model_state": "SOURCE_BOUND_SHADOW",
+        "evidence_state": "STRONGLY_SUPPORTED"
+      },
+      {
+        "model_id": "M3-FIRST-MEANS-ALL-RIGHTS",
+        "role": "COUNTERHYPOTHESIS",
+        "source_basis": "the universal proposition tested and rejected by the non-conversion invariants",
+        "controller": "local hypothesis model",
+        "provenance_cluster": "synthetic-counterhypothesis",
+        "model_state": "FALSIFIED_MODEL",
+        "evidence_state": "FALSIFIED"
+      }
+    ],
+    "fidelity_dimensions": {
+      "structure": {
+        "scope": "seven evidence axes, thirty fact identifiers, thirteen route definitions and twenty-four sources",
+        "method": "closed JSON contracts and deterministic source-ID validation",
+        "coverage_state": "BOUNDED",
+        "evidence_state": "OBSERVED"
+      },
+      "state": {
+        "scope": "OBSERVED, STRONGLY_SUPPORTED, INFERRED, UNKNOWN and NOT_PROVEN without silent promotion",
+        "method": "explicit axis records and evidence-state validation",
+        "coverage_state": "BOUNDED",
+        "evidence_state": "OBSERVED"
+      },
+      "behavior": {
+        "scope": "report preservation, route readiness, missing elements, review flags and other-sphere evidence routing",
+        "method": "fourteen passing Node.js tests",
+        "coverage_state": "BOUNDED",
+        "evidence_state": "OBSERVED"
+      },
+      "security_semantics": {
+        "scope": "no external mutation, no private data and no automatic production, burden, adverse-inference or liability effect",
+        "method": "typed output booleans and public-source-only fixtures",
+        "coverage_state": "BOUNDED",
+        "evidence_state": "OBSERVED"
+      },
+      "version_time": {
+        "scope": "official source state checked on 2026-09-10 and local candidate against Git HEAD 52c38ef7282a6df92108e59158b533cb3b636c99",
+        "method": "source registry date, Git commit-object digest and nine-file canonical candidate digest",
+        "coverage_state": "PARTIAL",
+        "evidence_state": "OBSERVED"
+      }
+    },
+    "equivalence_relation": "The same exact artifact, timestamp type, publication state, actor, protected object, authorization scope, legal route, fact set, version and remedy element; chronology or resemblance alone is not equivalent.",
+    "oracle": "priority-evidence-route-oracle-1.0.0",
+    "forward_model": "Explicit facts strengthen only the matching route and evidence axis; every other axis remains at its declared state.",
+    "backward_requirements": "Every review-ready route lists the exact element facts and official source identifiers that opened review; every incomplete route lists its missing fact identifiers.",
+    "invariants": [
+      "a preserved report does not require merits proof",
+      "snapshot priority does not promote public availability or any later axis",
+      "public availability does not promote actor knowledge or access",
+      "knowledge or access does not promote derivation",
+      "derivation does not promote legal infringement",
+      "infringement does not promote entitlement or regress",
+      "entitlement does not promote amount",
+      "functionality-only software overlap is not protected expression",
+      "other-sphere evidence creates no automatic production duty or burden reversal",
+      "validator output does not create a legal finding"
+    ],
+    "unknown_frontier": [
+      "individual artifact and party chronology",
+      "third-party internal access and source-selection records",
+      "protected-expression or technical-contribution comparison",
+      "licence and authorization state",
+      "procedural applicability, limitation and costs",
+      "remedy causation and amount data"
+    ],
+    "branch_selection_rule": "Preserve the report first, then select the earliest evidence axis whose source-bound improvement could change a specific route without importing another axis.",
+    "closure_criteria": [
+      "twenty-four sources registered with first-party official hosts",
+      "seven evidence axes explicit",
+      "thirteen routes map elements and claim ceilings",
+      "fourteen local tests pass",
+      "status-quo navigation receipt generated",
+      "Core 3.5 validator passes",
+      "no private data or external effect"
+    ],
+    "application_tests": {
+      "PREDICT": {
+        "state": "OBSERVED",
+        "evidence_refs": ["the router deterministically returns each requested route's missing fact identifiers"]
+      },
+      "VARY_ONE": {
+        "state": "OBSERVED",
+        "evidence_refs": ["adding Git snapshot facts changes only the Git route and leaves six later axes unknown"]
+      },
+      "EXPLAIN": {
+        "state": "OBSERVED",
+        "evidence_refs": ["README.md and FREE NEWS 015 explain every route and claim ceiling"]
+      },
+      "REPAIR_OR_FALSIFY": {
+        "state": "OBSERVED",
+        "evidence_refs": ["a complete synthetic route fact set opens human review without a merits or amount finding"]
+      },
+      "TRANSFER": {
+        "state": "OBSERVED",
+        "evidence_refs": ["the same closed contract accepts another synthetic report while preserving all seven evidence axes"]
+      }
+    },
+    "model_state": "SOURCE_BOUND_SHADOW",
+    "evidence_state": "STRONGLY_SUPPORTED",
+    "source_system_effects": 0,
+    "return_path_to_source": false,
+    "external_network_during_execution": false,
+    "cross_model_inference_authority": false,
+    "full_clone_claim": false,
+    "model_complete_claim": false,
+    "production_equivalence_claim": false,
+    "validator_proves_target_truth": false
+  },
+  "temporal_branch_cycle": {
+    "branch_id": "workspace-priority-evidence-and-regress-audit",
+    "record_kind": "OBSERVED_RUN",
+    "object_or_referent": "Uncommitted priority-evidence-and-regress public audit package",
+    "scope": "Git HEAD 52c38ef7282a6df92108e59158b533cb3b636c99 to the local nine-file candidate, excluding this self-referential cycle record",
+    "authority_source": "Explicit user authorization for the local public audit branch; no authorization used for commit, push or external publication",
+    "base_state": {
+      "state_id": "open-research-branches-head-52c38ef7",
+      "content_digest": "sha256:54c89e04df74938f3ea2f71e8c0644adeed767d49f3eb9b57e70bbc42aacbb98",
+      "current_digest": "sha256:54c89e04df74938f3ea2f71e8c0644adeed767d49f3eb9b57e70bbc42aacbb98",
+      "captured_at": "2026-09-10T02:35:15+02:00",
+      "immutable": true,
+      "state": "STABLE",
+      "evidence_state": "OBSERVED"
+    },
+    "becoming": {
+      "witness_id": "priority-evidence-local-build-and-test",
+      "transition_record_id": "head-52c38ef7-to-priority-evidence-candidate",
+      "observation_started": true,
+      "state_ids": [
+        "open-research-branches-head-52c38ef7",
+        "priority-evidence-and-regress-audit-0.1.0-candidate"
+      ],
+      "edge_ids": [
+        "bind-official-sources",
+        "define-seven-evidence-axes",
+        "build-report-first-router",
+        "run-fourteen-tests",
+        "generate-status-quo-receipt"
+      ],
+      "known_coverage_gaps": [
+        "no individual dispute facts",
+        "no third-party internal evidence",
+        "finite official-source snapshot"
+      ],
+      "claim_relevant_coverage_gaps": [],
+      "provenance_valid": true,
+      "evidence_state": "OBSERVED"
+    },
+    "candidate_state": {
+      "state_id": "priority-evidence-and-regress-audit-0.1.0-candidate",
+      "produced_from_base_state_id": "open-research-branches-head-52c38ef7",
+      "content_digest": "sha256:d28ee14430dfbe61c2a9dc6f44be77c21599cf279a6f34dbb4d5607e35fc60f9",
+      "state": "CANDIDATE_PENDING_MERGE",
+      "evidence_state": "OBSERVED"
+    },
+    "acceptance_gate": {
+      "version_bound_oracle": "priority-evidence-route-oracle-1.0.0",
+      "same_oracle_used": true,
+      "expected_invariants_hold": true,
+      "forbidden_effects": [],
+      "candidate_tests_pass": true,
+      "human_intent_match": true,
+      "evidence_refs": [
+        "fourteen passing Node.js tests",
+        "twenty-four official source records",
+        "status-quo receipt sha256:6b0e3873f3ac0ee285e7971d873e8ebd0ab639e0e1eaf5d5a8fb8aab53a9242e",
+        "canonical digest input order is the nine declared paths sorted by raw UTF-8 bytes in ascending ordinal order",
+        "digest algorithm is SHA-256 over UTF-8 repo-relative path, NUL, ASCII decimal byte length, NUL, lowercase ASCII per-file SHA-256 hex, LF for each file",
+        "nine-file candidate digest sha256:d28ee14430dfbe61c2a9dc6f44be77c21599cf279a6f34dbb4d5607e35fc60f9"
+      ]
+    },
+    "forward_port": {
+      "mode": "FULL",
+      "selected_units": [
+        {
+          "unit_id": "priority-evidence-and-regress-audit-nine-file-package",
+          "source_digest": "sha256:d28ee14430dfbe61c2a9dc6f44be77c21599cf279a6f34dbb4d5607e35fc60f9",
+          "dependencies": ["open-research-branches-head-52c38ef7"],
+          "evidence_refs": [
+            "branch README, source registry, route contract, source module and tests",
+            "navigation frame and receipt",
+            "reports/FREE_NEWS_015_PRIORITY_EVIDENCE_AND_REGRESS_ROUTES.md"
+          ]
+        }
+      ],
+      "rejected_units": [
+        "private data and individual case records",
+        "patent-filing advice",
+        "unproved authorship, inventorship, access, derivation, infringement, entitlement and amount claims",
+        "global catalog, version, manifest and audit-star edits",
+        "commit, push and external publication"
+      ],
+      "base_satisfied_dependencies": ["open-research-branches-head-52c38ef7"],
+      "dependency_closed": true,
+      "applied_to_fresh_base": false
+    },
+    "decision_state": "CANDIDATE_PENDING_MERGE",
+    "evidence_state": "OBSERVED",
+    "source_effects": 0,
+    "external_effects": 0,
+    "base_mutated": false,
+    "hash_proves_semantic_compatibility": false,
+    "rollback_erases_global_history": false,
+    "all_intermediate_states_observed": false,
+    "candidate_accepted_without_merge": false,
+    "validator_materialized_merge": false
+  }
+}

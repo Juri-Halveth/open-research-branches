@@ -1,0 +1,9 @@
+{
+  "name": "priority-evidence-and-regress-audit",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/priority-evidence-router.test.mjs"
+  }
+}

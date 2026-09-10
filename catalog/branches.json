@@ -192,6 +192,26 @@
       "claimCeiling": "CANDIDATE_IDENTIFICATION_SOURCE_BOUND_STORY_COMPARISON_AND_REPORT_FIRST_RECIPROCAL_EVIDENCE_ROUTING_NOT_IDENTITY_DERIVATION_COPYING_INFLUENCE_AUTHORSHIP_OWNERSHIP_FAULT_ADVERSE_INFERENCE_PRODUCTION_DUTY_ENTITLEMENT_OR_EXTERNAL_CAUSALITY_PROOF",
       "dataClass": "PUBLIC_SOURCES_AND_MINIMIZED_PUBLIC_REPOSITORY_RECEIPTS_ONLY",
       "activeMain": false
+    },
+    {
+      "id": "fingertip-spark-esd-spacecraft-audit",
+      "title": "Fingertip Spark, ESD and Spacecraft Electronics Audit",
+      "kind": "source-bound-physical-observation-and-engineering-bridge-audit",
+      "state": "FINITE_SNAPSHOT",
+      "path": "branches/fingertip-spark-esd-spacecraft-audit",
+      "claimCeiling": "USER_REPORTED_OBSERVATION_PRESERVED_WITH_SOURCE_BOUND_COMPETING_MODELS_AND_ESD_SPACECRAFT_ELECTRONICS_ENGINEERING_BRIDGE_NOT_EVENT_MECHANISM_SPACECRAFT_TECHNOLOGY_OWNERSHIP_COPYING_EXTERNAL_CAUSAL_INFLUENCE_LEGAL_ENTITLEMENT_OR_PAYMENT_PROOF",
+      "dataClass": "PUBLIC_SOURCES_AND_SYNTHETIC_OR_CONSENTED_OBSERVATION_FIELDS_ONLY",
+      "activeMain": false
+    },
+    {
+      "id": "priority-evidence-and-regress-audit",
+      "title": "Priority, Evidence and Regress Audit",
+      "kind": "source-bound-legal-evidence-and-route-audit",
+      "state": "FINITE_SNAPSHOT",
+      "path": "branches/priority-evidence-and-regress-audit",
+      "claimCeiling": "SOURCE_BOUND_PRIORITY_CREDIT_PARTICIPATION_EVIDENCE_ACCESS_AND_REGRESS_ROUTE_MAP_NOT_AUTHORSHIP_INVENTORSHIP_ACCESS_DERIVATION_INFRINGEMENT_ENTITLEMENT_AMOUNT_OR_CASE_OUTCOME_FINDING",
+      "dataClass": "PUBLIC_OFFICIAL_SOURCES_AND_SYNTHETIC_FIXTURES_ONLY",
+      "activeMain": false
     }
   ]
 }

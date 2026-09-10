@@ -1,0 +1,242 @@
+{
+  "schema": "halveth.priority-evidence-route-contract.v1",
+  "logicVersion": "1.0.0",
+  "claimAxes": [
+    "SNAPSHOT_PRIORITY",
+    "PUBLIC_AVAILABILITY",
+    "KNOWLEDGE_ACCESS",
+    "DERIVATION",
+    "RIGHTS_INFRINGEMENT",
+    "ENTITLEMENT_REGRESS",
+    "AMOUNT"
+  ],
+  "evidenceStates": [
+    "OBSERVED",
+    "STRONGLY_SUPPORTED",
+    "INFERRED",
+    "UNKNOWN",
+    "NOT_PROVEN"
+  ],
+  "evidenceClasses": [
+    "REPORT_ARTIFACT",
+    "ARTIFACT_CONTENT_RECEIPT",
+    "GIT_OBJECT_RECEIPT",
+    "SIGNATURE_VERIFICATION_RECEIPT",
+    "QUALIFIED_TIMESTAMP_RECEIPT",
+    "PUBLIC_ACCESS_RECEIPT",
+    "EXPRESSION_RECEIPT",
+    "FUNCTIONALITY_COMPARISON_RECEIPT",
+    "ACTOR_ACCESS_RECEIPT",
+    "DERIVATION_ANALYSIS_RECEIPT",
+    "AUTHORIZATION_LICENSE_RECEIPT",
+    "PATENT_RECORD_RECEIPT",
+    "ENTITLEMENT_RECORD_RECEIPT",
+    "SECRECY_RECORD_RECEIPT",
+    "ACQUISITION_USE_DISCLOSURE_RECORD",
+    "TRADE_SECRET_EXCEPTION_REVIEW_RECEIPT",
+    "RESTITUTION_FACT_RECEIPT",
+    "CONTRIBUTION_RECORD_RECEIPT",
+    "EMPLOYMENT_RECORD_RECEIPT",
+    "SERVICE_INVENTION_REPORT_RECEIPT",
+    "EMPLOYER_ACTION_RECEIPT",
+    "AMOUNT_CALCULATION_RECEIPT",
+    "CONTROLLED_EVIDENCE_DESIGNATION"
+  ],
+  "routeStates": [
+    "ELEMENTS_INCOMPLETE",
+    "ELEMENTS_BOUND_FOR_HUMAN_REVIEW_NOT_MERITS"
+  ],
+  "intakeState": "REPORT_PRESERVED_REVIEW_OPEN",
+  "meritsState": "NOT_EVALUATED",
+  "factIds": [
+    "EXACT_CONTENT_BOUND",
+    "GIT_OBJECT_BOUND",
+    "SIGNED_GIT_OBJECT_BOUND",
+    "QUALIFIED_TIMESTAMP_BOUND",
+    "PUBLIC_ACCESS_DATE_BOUND",
+    "PROTECTED_EXPRESSION_BOUND",
+    "TARGET_EXPRESSION_BOUND",
+    "FUNCTIONALITY_ONLY_OVERLAP_REPORTED",
+    "KNOWLEDGE_OR_ACCESS_BOUND",
+    "DERIVATION_BOUND",
+    "NO_AUTHORIZATION_BOUND",
+    "PATENT_APPLICATION_BOUND",
+    "ENTITLEMENT_BASIS_BOUND",
+    "SECRECY_STATE_BOUND",
+    "REASONABLE_SECRECY_MEASURES_BOUND",
+    "LEGITIMATE_SECRECY_INTEREST_BOUND",
+    "ALLEGED_ACQUISITION_USE_OR_DISCLOSURE_ACT_BOUND",
+    "SECTION_5_EXCEPTION_SCOPE_BOUND",
+    "EXCLUSIVE_ALLOCATED_POSITION_BOUND",
+    "GAIN_BOUND",
+    "AT_CLAIMANT_EXPENSE_BOUND",
+    "NO_LEGAL_GROUND_BOUND",
+    "JOINT_CREATION_BOUND",
+    "INSEPARABLE_CONTRIBUTIONS_BOUND",
+    "JOINT_INVENTION_BOUND",
+    "EMPLOYMENT_RELATION_BOUND",
+    "SERVICE_INVENTION_REPORT_BOUND",
+    "EMPLOYER_CLAIM_OR_USE_BOUND",
+    "AMOUNT_METHOD_AND_DATA_BOUND",
+    "CONTROLLED_EVIDENCE_DESIGNATED"
+  ],
+  "factEvidenceClasses": {
+    "EXACT_CONTENT_BOUND": ["ARTIFACT_CONTENT_RECEIPT"],
+    "GIT_OBJECT_BOUND": ["GIT_OBJECT_RECEIPT"],
+    "SIGNED_GIT_OBJECT_BOUND": ["SIGNATURE_VERIFICATION_RECEIPT"],
+    "QUALIFIED_TIMESTAMP_BOUND": ["QUALIFIED_TIMESTAMP_RECEIPT"],
+    "PUBLIC_ACCESS_DATE_BOUND": ["PUBLIC_ACCESS_RECEIPT"],
+    "PROTECTED_EXPRESSION_BOUND": ["EXPRESSION_RECEIPT"],
+    "TARGET_EXPRESSION_BOUND": ["EXPRESSION_RECEIPT"],
+    "FUNCTIONALITY_ONLY_OVERLAP_REPORTED": ["FUNCTIONALITY_COMPARISON_RECEIPT"],
+    "KNOWLEDGE_OR_ACCESS_BOUND": ["ACTOR_ACCESS_RECEIPT"],
+    "DERIVATION_BOUND": ["DERIVATION_ANALYSIS_RECEIPT"],
+    "NO_AUTHORIZATION_BOUND": ["AUTHORIZATION_LICENSE_RECEIPT"],
+    "PATENT_APPLICATION_BOUND": ["PATENT_RECORD_RECEIPT"],
+    "ENTITLEMENT_BASIS_BOUND": ["ENTITLEMENT_RECORD_RECEIPT"],
+    "SECRECY_STATE_BOUND": ["SECRECY_RECORD_RECEIPT"],
+    "REASONABLE_SECRECY_MEASURES_BOUND": ["SECRECY_RECORD_RECEIPT"],
+    "LEGITIMATE_SECRECY_INTEREST_BOUND": ["SECRECY_RECORD_RECEIPT"],
+    "ALLEGED_ACQUISITION_USE_OR_DISCLOSURE_ACT_BOUND": ["ACQUISITION_USE_DISCLOSURE_RECORD"],
+    "SECTION_5_EXCEPTION_SCOPE_BOUND": ["TRADE_SECRET_EXCEPTION_REVIEW_RECEIPT"],
+    "EXCLUSIVE_ALLOCATED_POSITION_BOUND": ["ENTITLEMENT_RECORD_RECEIPT"],
+    "GAIN_BOUND": ["RESTITUTION_FACT_RECEIPT"],
+    "AT_CLAIMANT_EXPENSE_BOUND": ["RESTITUTION_FACT_RECEIPT"],
+    "NO_LEGAL_GROUND_BOUND": ["RESTITUTION_FACT_RECEIPT"],
+    "JOINT_CREATION_BOUND": ["CONTRIBUTION_RECORD_RECEIPT"],
+    "INSEPARABLE_CONTRIBUTIONS_BOUND": ["CONTRIBUTION_RECORD_RECEIPT"],
+    "JOINT_INVENTION_BOUND": ["CONTRIBUTION_RECORD_RECEIPT"],
+    "EMPLOYMENT_RELATION_BOUND": ["EMPLOYMENT_RECORD_RECEIPT"],
+    "SERVICE_INVENTION_REPORT_BOUND": ["SERVICE_INVENTION_REPORT_RECEIPT"],
+    "EMPLOYER_CLAIM_OR_USE_BOUND": ["EMPLOYER_ACTION_RECEIPT"],
+    "AMOUNT_METHOD_AND_DATA_BOUND": ["AMOUNT_CALCULATION_RECEIPT"],
+    "CONTROLLED_EVIDENCE_DESIGNATED": ["CONTROLLED_EVIDENCE_DESIGNATION"]
+  },
+  "axisEvidenceClasses": {
+    "SNAPSHOT_PRIORITY": ["ARTIFACT_CONTENT_RECEIPT", "GIT_OBJECT_RECEIPT", "SIGNATURE_VERIFICATION_RECEIPT", "QUALIFIED_TIMESTAMP_RECEIPT"],
+    "PUBLIC_AVAILABILITY": ["PUBLIC_ACCESS_RECEIPT"],
+    "KNOWLEDGE_ACCESS": ["ACTOR_ACCESS_RECEIPT"],
+    "DERIVATION": ["DERIVATION_ANALYSIS_RECEIPT", "FUNCTIONALITY_COMPARISON_RECEIPT"],
+    "RIGHTS_INFRINGEMENT": ["EXPRESSION_RECEIPT", "AUTHORIZATION_LICENSE_RECEIPT", "SECRECY_RECORD_RECEIPT", "ACQUISITION_USE_DISCLOSURE_RECORD", "TRADE_SECRET_EXCEPTION_REVIEW_RECEIPT"],
+    "ENTITLEMENT_REGRESS": ["ENTITLEMENT_RECORD_RECEIPT", "PATENT_RECORD_RECEIPT", "RESTITUTION_FACT_RECEIPT", "CONTRIBUTION_RECORD_RECEIPT", "EMPLOYMENT_RECORD_RECEIPT", "SERVICE_INVENTION_REPORT_RECEIPT", "EMPLOYER_ACTION_RECEIPT", "CONTROLLED_EVIDENCE_DESIGNATION"],
+    "AMOUNT": ["AMOUNT_CALCULATION_RECEIPT"]
+  },
+  "routes": [
+    {
+      "routeId": "GIT_RELEASE_SNAPSHOT",
+      "label": "Git object and release snapshot",
+      "elementFactIds": ["EXACT_CONTENT_BOUND", "GIT_OBJECT_BOUND"],
+      "officialSourceIds": ["S01_GIT_COMMIT", "S02_GIT_COMMIT_TREE", "S03_GITHUB_SIGNATURE_VERIFICATION", "S05_ZPO_286"],
+      "canEstablish": ["Exact repository content and object relationships within the bound Git history", "Declared Git metadata and, separately, verified signature status"],
+      "cannotEstablish": ["Qualified real-world event time", "First authorship, inventorship, third-party access, copying or legal entitlement"]
+    },
+    {
+      "routeId": "QUALIFIED_EIDAS_TIMESTAMP",
+      "label": "Qualified electronic timestamp",
+      "elementFactIds": ["EXACT_CONTENT_BOUND", "QUALIFIED_TIMESTAMP_BOUND"],
+      "officialSourceIds": ["S04_EIDAS_TIMESTAMP"],
+      "canEstablish": ["Statutory presumption for accurate date and time and integrity of the bound data"],
+      "cannotEstablish": ["Creator identity, public availability, ownership, inventorship, access or infringement"]
+    },
+    {
+      "routeId": "PUBLIC_DISCLOSURE_PRIOR_ART",
+      "label": "Public availability and patent prior-art review",
+      "elementFactIds": ["EXACT_CONTENT_BOUND", "PUBLIC_ACCESS_DATE_BOUND"],
+      "officialSourceIds": ["S06_PATG_3", "S07_EPO_INTERNET_DISCLOSURE"],
+      "canEstablish": ["Which exact content was publicly available no later than a supported date", "A prior-art candidate within the disclosed content and temporal scope"],
+      "cannotEstablish": ["Sole inventorship, patent grant, legal ownership, actual knowledge by a named actor or copying"]
+    },
+    {
+      "routeId": "COPYRIGHT_EXPRESSION_REVIEW",
+      "label": "Copyright-protected expression review",
+      "elementFactIds": ["PROTECTED_EXPRESSION_BOUND", "TARGET_EXPRESSION_BOUND", "DERIVATION_BOUND", "NO_AUTHORIZATION_BOUND"],
+      "officialSourceIds": ["S09_URHG_GENERAL"],
+      "canEstablish": ["A review-ready comparison of a protected expression, target expression, derivation evidence and authorization scope"],
+      "cannotEstablish": ["Exclusive ownership of an abstract idea", "Infringement or damages before the statutory elements and defences are evaluated"]
+    },
+    {
+      "routeId": "SOFTWARE_EXPRESSION_REVIEW",
+      "label": "Software expression review",
+      "elementFactIds": ["PROTECTED_EXPRESSION_BOUND", "TARGET_EXPRESSION_BOUND", "DERIVATION_BOUND", "NO_AUTHORIZATION_BOUND"],
+      "officialSourceIds": ["S10_URHG_SOFTWARE", "S10B_URHG_EMPLOYEE_SOFTWARE", "S11_CJEU_SAS", "S12_URHG_INSPECTION"],
+      "canEstablish": ["A review-ready comparison of protected source or object-code expression"],
+      "cannotEstablish": ["Infringement from functionality, programming language or data format alone", "Automatic access or copying from output similarity"]
+    },
+    {
+      "routeId": "PATENT_ENTITLEMENT_OR_TRANSFER_REVIEW",
+      "label": "Patent filing, inventorship and entitlement review",
+      "elementFactIds": ["PATENT_APPLICATION_BOUND", "ENTITLEMENT_BASIS_BOUND"],
+      "officialSourceIds": ["S08_PATG_RIGHT_AND_PROCEDURE"],
+      "canEstablish": ["Filing date and procedural applicant position", "A source-bound route to inventorship naming or transfer review where the statutory basis fits"],
+      "cannotEstablish": ["Patent grant, validity or truthful inventor designation from filing alone", "That publication proves sole inventorship"]
+    },
+    {
+      "routeId": "TRADE_SECRET_REVIEW",
+      "label": "Trade-secret acquisition, use or disclosure review",
+      "elementFactIds": ["SECRECY_STATE_BOUND", "REASONABLE_SECRECY_MEASURES_BOUND", "LEGITIMATE_SECRECY_INTEREST_BOUND", "ALLEGED_ACQUISITION_USE_OR_DISCLOSURE_ACT_BOUND", "SECTION_5_EXCEPTION_SCOPE_BOUND"],
+      "officialSourceIds": ["S13_GESCHGEHG"],
+      "canEstablish": ["A review-ready secrecy timeline, measures record, legitimate secrecy-interest basis, alleged act and section 5 exception-scope review"],
+      "cannotEstablish": ["Trade-secret status for generally known or readily accessible information", "Wrongdoing from independent creation, lawful reverse engineering or conduct covered by a section 5 exception"]
+    },
+    {
+      "routeId": "UNJUST_ENRICHMENT_REVIEW",
+      "label": "Unjust-enrichment and intervention-restitution review",
+      "elementFactIds": ["EXCLUSIVE_ALLOCATED_POSITION_BOUND", "GAIN_BOUND", "AT_CLAIMANT_EXPENSE_BOUND", "NO_LEGAL_GROUND_BOUND"],
+      "officialSourceIds": ["S14_BGB_812", "S15_BGH_IX_ZR_259_13"],
+      "canEstablish": ["A review-ready mapping of protected allocation, gain, claimant-side attribution and absence of legal ground"],
+      "cannotEstablish": ["A universal payment claim for resemblance, usefulness or a lost commercial opportunity"]
+    },
+    {
+      "routeId": "JOINT_AUTHORSHIP_REVIEW",
+      "label": "Joint-authorship review",
+      "elementFactIds": ["JOINT_CREATION_BOUND", "INSEPARABLE_CONTRIBUTIONS_BOUND"],
+      "officialSourceIds": ["S09_URHG_GENERAL"],
+      "canEstablish": ["A review-ready joint-creation and inseparable-contribution record"],
+      "cannotEstablish": ["Joint authorship from a similar idea, later encouragement or independent work alone"]
+    },
+    {
+      "routeId": "JOINT_INVENTORSHIP_REVIEW",
+      "label": "Joint-inventorship review",
+      "elementFactIds": ["JOINT_INVENTION_BOUND"],
+      "officialSourceIds": ["S08_PATG_RIGHT_AND_PROCEDURE"],
+      "canEstablish": ["A review-ready contribution record for the technical invention and joint entitlement"],
+      "cannotEstablish": ["Miterfindership from topic overlap, funding, title or administrative participation alone"]
+    },
+    {
+      "routeId": "EMPLOYEE_INVENTION_REVIEW",
+      "label": "Employee-invention reporting and remuneration review",
+      "elementFactIds": ["EMPLOYMENT_RELATION_BOUND", "SERVICE_INVENTION_REPORT_BOUND", "EMPLOYER_CLAIM_OR_USE_BOUND"],
+      "officialSourceIds": ["S16_ARBNERFG", "S17_DPMA_ARBNERFG_BOARD"],
+      "canEstablish": ["A statutory reporting, employer-claim, remuneration and arbitration route if the work qualifies as a service invention"],
+      "cannotEstablish": ["Coverage of every idea or software contribution", "A fixed amount without the statutory valuation inputs"]
+    },
+    {
+      "routeId": "EVIDENCE_IN_OTHER_SPHERE_REVIEW",
+      "label": "Report-first route for evidence controlled by another actor",
+      "elementFactIds": ["CONTROLLED_EVIDENCE_DESIGNATED"],
+      "officialSourceIds": ["S12_URHG_INSPECTION", "S18_ZPO_138", "S19_ZPO_142", "S19A_ARBGG_46", "S20_IP_ENFORCEMENT_DIRECTIVE", "S21_BAG_10_AZR_56_19", "S22_BVERFG_1_BVR_1067_12"],
+      "canEstablish": ["That a preserved report can identify a specific evidence category and controller for later production, inspection or secondary-substantiation review"],
+      "cannotEstablish": ["An automatic production duty, burden reversal, adverse inference, infringement or liability finding"]
+    },
+    {
+      "routeId": "AMOUNT_REVIEW",
+      "label": "Amount and valuation review",
+      "elementFactIds": ["AMOUNT_METHOD_AND_DATA_BOUND"],
+      "officialSourceIds": ["S08_PATG_RIGHT_AND_PROCEDURE", "S09_URHG_GENERAL", "S13_GESCHGEHG", "S16_ARBNERFG"],
+      "canEstablish": ["A separately reviewable amount method and its source data after a specific entitlement route is identified"],
+      "cannotEstablish": ["That timestamp priority, human worth, usefulness or a public similarity supplies a monetary amount"]
+    }
+  ],
+  "invariants": [
+    "REPORT_PRESERVATION_DOES_NOT_REQUIRE_MERITS_PROOF",
+    "SNAPSHOT_PRIORITY_DOES_NOT_PROMOTE_PUBLIC_AVAILABILITY_OR_LATER_AXES",
+    "PUBLIC_AVAILABILITY_DOES_NOT_PROMOTE_KNOWLEDGE_ACCESS",
+    "KNOWLEDGE_ACCESS_DOES_NOT_PROMOTE_DERIVATION",
+    "DERIVATION_DOES_NOT_PROMOTE_RIGHTS_INFRINGEMENT",
+    "RIGHTS_INFRINGEMENT_DOES_NOT_PROMOTE_ENTITLEMENT_REGRESS",
+    "ENTITLEMENT_REGRESS_DOES_NOT_PROMOTE_AMOUNT",
+    "VALIDATOR_PASS_IS_STRUCTURE_ONLY",
+    "NO_CASE_SPECIFIC_LEGAL_ENTITLEMENT_OR_PATENT_FILING_ADVICE"
+  ],
+  "claimCeiling": "SOURCE_BOUND_PRIORITY_CREDIT_PARTICIPATION_EVIDENCE_ACCESS_AND_REGRESS_ROUTE_MAP_NOT_AUTHORSHIP_INVENTORSHIP_ACCESS_DERIVATION_INFRINGEMENT_ENTITLEMENT_AMOUNT_OR_CASE_OUTCOME_FINDING"
+}

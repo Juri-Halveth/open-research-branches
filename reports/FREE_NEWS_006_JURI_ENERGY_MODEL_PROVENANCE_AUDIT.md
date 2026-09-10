@@ -131,12 +131,18 @@ Patentverletzungs- oder Zahlungsentscheidung.
 
 ## Prüfstand der Übernahmefrage
 
-`UNKNOWN`: Ob KIT oder Standard Thermal Juris Dateien jemals kannte oder darauf
-zugreifen konnte.
+`USER_REPORT_PRESERVED_REVIEW_OPEN`: Juris Herkunfts- und Beteiligungsmeldung
+bleibt erhalten und in Prüfung; Vergleichsbelege sind keine Eintrittskarte.
 
-`NOT_PROVEN`: Übernahme, Ableitung, Kopieren, Miturheberschaft,
+`COVERAGE_UNKNOWN`: Ob KIT oder Standard Thermal Juris Dateien jemals kannte
+oder darauf zugreifen konnte. Mögliche interne Zugriffs- und
+Entwicklungsaufzeichnungen werden nicht als Beweislast der meldenden Person
+behandelt.
+
+`UNKNOWN`: Übernahme, Ableitung, Kopieren, Miturheberschaft,
 Miterfinderschaft, Patentverletzung, Lizenzpflicht, Beteiligungsanspruch oder
-Zahlungspflicht.
+Zahlungspflicht. Die Zugriffslücke entscheidet diese Fragen weder positiv noch
+negativ.
 
 Die Aussage ist damit nicht „Juri hatte nichts“. Die belegbare Aussage ist:
 
@@ -145,9 +151,10 @@ Die Aussage ist damit nicht „Juri hatte nichts“. Die belegbare Aussage ist:
 > gebundenen Quellen zeigen zugleich, dass KIT und Standard Thermal andere,
 > bereits früher öffentlich dokumentierte technische Ketten verfolgen.**
 
-## Reopen-Trigger
+## Neue Bewertungsbasis
 
-Der Audit wird neu geöffnet, sobald mindestens eines vorliegt:
+Die Meldung bleibt offen. Vergleichsreife oder Sachstand werden neu bewertet,
+sobald mindestens eines vorliegt:
 
 - ein unveränderlich gebundenes Juri-Artefakt vor November 2018 mit der
   unterscheidenden KIT-Kette;
@@ -167,7 +174,9 @@ Quellen, Claims und Komponenten liegen in
 Der ausführbare Vergleich in
 [`audit-lens.mjs`](../branches/solar-and-thermal-provenance-audit/audit-lens.mjs)
 erzeugt aus bloßer Ähnlichkeit niemals automatisch einen Kopier- oder
-Zahlungsbefund.
+Zahlungsbefund. Er verlangt exakte Source-IDs und getrennte Akteur-/Controller-
+Bindung für unterstützende Evidenz; der Legacy-ID-Pfad bleibt deprecated und
+ändert keine Vergleichsreife.
 
 ## Claim Ceiling
 

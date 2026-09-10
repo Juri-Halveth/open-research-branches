@@ -1,0 +1,422 @@
+{
+  "contract_version": "3.5.0",
+  "work_classes": [
+    "COUNTERPART_RECONSTRUCTION",
+    "TEMPORAL_BRANCHING"
+  ],
+  "network_active": true,
+  "state_changing": false,
+  "critical_factual_proof": false,
+  "authorization_contract": {
+    "target": "Public technical, scientific, safety and imaging sources listed in sources.json plus the owned local research repository",
+    "owner": "Respective public publishers and the repository owner for the local audit files",
+    "authorization_source": "User request to research, model and publish a public-safe audit; ordinary public read access; repository-owner authorization for local files",
+    "program_policy": "PUBLIC_WEB_READ_ONLY_AND_LOCAL_REPOSITORY_WORK; NO_EXTERNAL_TEST_PROGRAM",
+    "in_scope_asset": "Public documents and the owned local audit package",
+    "test_identity": "Unauthenticated public reader and local repository-owner workflow",
+    "prerequisites": "Read-only public-source access, local deterministic execution and no deliberate electrical experiment",
+    "stop_condition": "Stop at access control, nonpublic content, personal data, active third-party testing, intentional high voltage, storm exposure or external mutation",
+    "data_boundary": "PUBLIC sources and a minimized public user-reported expression only; raw captures stay local",
+    "evidence_output": "URLs, bounded source claims, typed model matrix, passive observation plan, local test output and package digest",
+    "valid_at": "2026-09-10T02:30:39+02:00"
+  },
+  "proven": [
+    "The user-reported fingertip-light expression is preserved and opens review without comparison evidence.",
+    "Public sources bind electrostatic discharge, triboelectric charging, high-field corona, atmospheric St. Elmo effects, camera artifacts and ultraweak human photon emission within their separate scopes.",
+    "NASA binds human-generated electrostatic discharge to protection of sensitive aerospace electronics, creating a narrow engineering bridge to spacecraft electronics.",
+    "The local source-bound audit validates nine sources, six models, one unexecuted passive observation plan and seventeen passing Node.js tests."
+  ],
+  "falsified": [
+    "A report must include video or comparison evidence before it can be preserved or reviewed.",
+    "Ultraweak human photon emission at the published intensity explains a naked-eye-visible spark.",
+    "Two camera views automatically identify the physical mechanism.",
+    "A technical ESD analogy automatically proves a spacecraft, technology ownership, external copying, causal influence, legal entitlement or payment amount."
+  ],
+  "deepest_unknown": "The physical or observational mechanism of the single user-reported fingertip-light event remains unknown.",
+  "why_unknown": "No source-bound multi-view original, calibrated time and camera record, contact-distance record, synchronized audio or environmental context from the reported event is present in the public package.",
+  "known_techniques_relevant": [
+    "human-body electrostatic discharge modelling",
+    "triboelectric precharge context logging",
+    "corona and brush-discharge discrimination",
+    "atmospheric electric-field context binding",
+    "two-camera optical artifact discrimination",
+    "ultraweak photon-emission intensity comparison",
+    "source-bound spacecraft electronics ESD protection"
+  ],
+  "historical_analogues": [
+    "1942 National Bureau of Standards static-electricity circular",
+    "1988 National Bureau of Standards ESD radiated-field experiments",
+    "2009 instrument imaging of ultraweak human photon emission",
+    "2010 controlled high-voltage fingertip-corona imaging",
+    "2018 NASA ESD control compendium"
+  ],
+  "available_tools": [
+    "nine public primary or official source records",
+    "deterministic Node.js intake and model-state audit",
+    "node:test",
+    "two-camera passive observation plan",
+    "SHA-256 candidate package receipt",
+    "LUCINET Core 3.5 validator"
+  ],
+  "missing_measurement_capability": "No actual two-camera run, calibrated field measurement, bound humidity reading, synchronized audio trace or original-file receipt exists for the reported event.",
+  "custom_tool_needed": "No custom hardware is required for the next passive edge; a later field-strength claim would require an appropriate calibrated instrument and a separately safe protocol.",
+  "counterhypothesis": "The reported point was an imaging or lighting artifact rather than an electrical light event; the current report alone does not distinguish these models.",
+  "next_w_question": "If another event occurs naturally, is the same spatial feature recorded from two different fixed camera angles and is there a synchronized click near a contact or small air gap?",
+  "next_recursive_level": "Bind one naturally occurring event to separate camera, audio, environment and contact-distance observations, then compare all six models with the same oracle.",
+  "next_safe_experiment": "Run only the owned passive two-camera plan with fixed background and room audio, keep originals local and publish at most a minimized methods-and-hash receipt.",
+  "stop_condition": "Stop before deliberate static generation, intentional high voltage, electrical contact, outdoor storm recreation, private raw upload, external attribution or an automatic rights finding.",
+  "critical_proof_condition": "Mechanism identification requires a repeatable source-bound observation that at least two candidate models predict differently; ownership or legal claims require separate chronology, contribution, access, use, law and remedy evidence.",
+  "boundary": "Public-source read-only research and local deterministic code on the owned repository; no active electrical experiment, third-party account access, private capture publication, contact or external system mutation.",
+  "reopen_trigger": "A naturally occurring event with two fixed-angle originals and synchronized context, a calibrated field record, or a new primary source that predicts a materially different observation.",
+  "claims": [
+    {
+      "term": "user-reported fingertip-light observation",
+      "object_or_referent": "the minimized source expression preserved by the public audit",
+      "scope": "report intake and local audit receipt",
+      "source": "README.md, src/spark-audit.mjs and the default CLI receipt",
+      "version": "fingertip-spark-esd-spacecraft-audit 0.1.0",
+      "valid_at": "2026-09-10T02:30:39+02:00",
+      "evidence_state": "OBSERVED"
+    },
+    {
+      "term": "physical or observational mechanism",
+      "object_or_referent": "the single user-reported fingertip-light event",
+      "scope": "the six-model public-source matrix without an event capture",
+      "source": "model-matrix.json, sources.json and observation-protocol.json",
+      "version": "fingertip-spark-esd-spacecraft-audit 0.1.0",
+      "valid_at": "2026-09-10T02:30:39+02:00",
+      "evidence_state": "UNKNOWN"
+    },
+    {
+      "term": "ESD spacecraft-electronics bridge",
+      "object_or_referent": "human-generated electrostatic discharge as a protection and interference concern for sensitive aerospace electronics",
+      "scope": "the NIST and NASA source claims registered in sources.json",
+      "source": "NIST_TN_1314_ESD_FIELDS and NASA_ESD_COMPENDIUM_2018",
+      "version": "fingertip-spark-esd-spacecraft-audit 0.1.0",
+      "valid_at": "2026-09-10T02:30:39+02:00",
+      "evidence_state": "STRONGLY_SUPPORTED"
+    },
+    {
+      "term": "spacecraft, ownership, copying, external causal influence, legal entitlement and payment",
+      "object_or_referent": "any external or legal consequence proposed from the reported observation or engineering analogy",
+      "scope": "the current public-source and local-code snapshot",
+      "source": "automaticFindings in src/spark-audit.mjs and the package Claim Ceiling",
+      "version": "fingertip-spark-esd-spacecraft-audit 0.1.0",
+      "valid_at": "2026-09-10T02:30:39+02:00",
+      "evidence_state": "NOT_PROVEN"
+    }
+  ],
+  "reconstruction_cycle": {
+    "reconstruction_id": "fingertip-spark-esd-spacecraft-audit-2026-09-10",
+    "record_kind": "OBSERVED_RUN",
+    "target_referent": "The user-reported fingertip-light event, six competing mechanisms and the narrow ESD spacecraft-electronics engineering bridge",
+    "source_basis": [
+      "branches/fingertip-spark-esd-spacecraft-audit/README.md",
+      "branches/fingertip-spark-esd-spacecraft-audit/model-matrix.json",
+      "branches/fingertip-spark-esd-spacecraft-audit/observation-protocol.json",
+      "branches/fingertip-spark-esd-spacecraft-audit/package.json",
+      "branches/fingertip-spark-esd-spacecraft-audit/sources.json",
+      "branches/fingertip-spark-esd-spacecraft-audit/src/spark-audit.mjs",
+      "branches/fingertip-spark-esd-spacecraft-audit/test/spark-audit.test.mjs",
+      "reports/FREE_NEWS_014_FINGERTIP_SPARK_ESD_AND_SPACECRAFT_BRIDGE.md",
+      "17 passing local Node.js tests and one deterministic default CLI receipt"
+    ],
+    "authority_source": "Explicit user request to research, model and publish the observation and possible technology bridge using a public-safe audit",
+    "acquisition_mode": "PUBLIC_SOURCE",
+    "isolation_boundary": "Owned local feature branch plus public-source read access; no electrical apparatus, capture execution, external target mutation or source return path",
+    "model_scope": "Report-first intake, six mechanism candidates, passive optical and audio discrimination, ESD spacecraft-electronics engineering analogy and exact public claim ceiling",
+    "declared_exclusions": [
+      "private raw captures and private chats",
+      "intentional high voltage or deliberate static generation",
+      "third-party devices or persons without consent",
+      "automatic event-mechanism selection",
+      "spacecraft existence or technology ownership finding",
+      "external copying, causal influence, legal entitlement or payment finding"
+    ],
+    "layer_inventory": [
+      "SOURCE_EXPRESSION",
+      "HALVETH_PROJECTION",
+      "CANDIDATE_FUTURE",
+      "BOUND_OBSERVATION",
+      "LUCINET_EVALUATION",
+      "AUTHORITY_RECORD",
+      "CORRELATION_DEBT",
+      "CORRELATION_REENTRY",
+      "NAVIGATION_TRANSITION",
+      "ACTION_DECISION",
+      "EXTERNAL_CLAIM",
+      "public source registry",
+      "physical and observational model matrix",
+      "passive two-camera plan",
+      "spacecraft-electronics ESD bridge",
+      "claim ceiling"
+    ],
+    "interface_inventory": [
+      "source expression to preserved report",
+      "report to immediate open review",
+      "optional comparison evidence to model-specific candidate states",
+      "surface motion and materials to triboelectric precharge context",
+      "endpoint field to threshold discharge candidate",
+      "optical event to two camera views and room audio",
+      "camera geometry to imaging-artifact discriminator",
+      "public NASA and NIST sources to ESD spacecraft-electronics engineering bridge",
+      "audit output to public Claim Ceiling"
+    ],
+    "countermodels": [
+      {
+        "model_id": "M1-ESD-AND-TRIBOELECTRIC-PRECHARGE",
+        "role": "BEST_CONSISTENT",
+        "source_basis": "NIST, NBS, NASA and OSHA source records plus contact, click, movement, material and humidity predictions",
+        "controller": "local source-bound model",
+        "provenance_cluster": "public-electrostatic-sources",
+        "model_state": "SOURCE_BOUND_SHADOW",
+        "evidence_state": "STRONGLY_SUPPORTED"
+      },
+      {
+        "model_id": "M2-CAMERA-OR-LIGHT-ARTIFACT",
+        "role": "COUNTERHYPOTHESIS",
+        "source_basis": "Sony and NASA imaging explanations plus the absent multi-view event record",
+        "controller": "local source-bound model",
+        "provenance_cluster": "public-imaging-sources-and-user-report",
+        "model_state": "SOURCE_BOUND_SHADOW",
+        "evidence_state": "UNKNOWN"
+      },
+      {
+        "model_id": "M3-HIGH-FIELD-CORONA-OR-ATMOSPHERIC-EFFECT",
+        "role": "COUNTERHYPOTHESIS",
+        "source_basis": "NIST, peer-reviewed controlled fingertip-corona and National Weather Service sources without a bound event field source",
+        "controller": "local source-bound model",
+        "provenance_cluster": "public-high-field-sources-and-user-report",
+        "model_state": "SOURCE_BOUND_SHADOW",
+        "evidence_state": "UNKNOWN"
+      },
+      {
+        "model_id": "M4-ULTRAWEAK-PHOTON-EMISSION",
+        "role": "COUNTERHYPOTHESIS",
+        "source_basis": "PLOS ONE instrument-imaging source and its intensity ceiling",
+        "controller": "local source-bound model",
+        "provenance_cluster": "public-biophoton-source-and-user-report",
+        "model_state": "SOURCE_BOUND_SHADOW",
+        "evidence_state": "STRONGLY_SUPPORTED"
+      }
+    ],
+    "fidelity_dimensions": {
+      "structure": {
+        "scope": "nine source records, six models, one passive observation plan and eight digest-bound package and report files",
+        "method": "closed JSON schemas, exact source-reference resolution, fail-closed unknown keys and SHA-256 package receipt",
+        "coverage_state": "BOUNDED",
+        "evidence_state": "OBSERVED"
+      },
+      "state": {
+        "scope": "reported observation, optional comparison evidence, model-specific candidate states, unknown mechanism and claim ceiling",
+        "method": "orthogonal output vocabulary and deterministic immutable receipts",
+        "coverage_state": "BOUNDED",
+        "evidence_state": "OBSERVED"
+      },
+      "behavior": {
+        "scope": "bare-report intake, model discrimination, source validation, protocol validation and automatic-finding exclusions",
+        "method": "17 passing Node.js tests and direct CLI execution",
+        "coverage_state": "BOUNDED",
+        "evidence_state": "OBSERVED"
+      },
+      "security_semantics": {
+        "scope": "ESD interference, high-field safety, owned capture boundary and private-original handling",
+        "method": "official technical and safety sources plus passive-only protocol invariants",
+        "coverage_state": "PARTIAL",
+        "evidence_state": "STRONGLY_SUPPORTED"
+      },
+      "version_time": {
+        "scope": "1942 through 2026 source chronology and the 2026-09-10 local candidate",
+        "method": "publication dates, base Git state, source URLs and package SHA-256",
+        "coverage_state": "PARTIAL",
+        "evidence_state": "OBSERVED"
+      }
+    },
+    "equivalence_relation": "Two observation records concern the same optical event only when their time and scene correspondence is bound; model similarity, an event-root ID or a shared fingertip referent is insufficient.",
+    "oracle": "fingertip-spark-source-model-and-esd-spacecraft-bridge-oracle-1.0.0",
+    "forward_model": "A bare report is preserved immediately; optional bound features update only the compatible candidate states; no path automatically selects the mechanism or creates an external or legal finding.",
+    "backward_requirements": "Any selected mechanism must be supported by a repeatable observation that at least two models predict differently, with camera, audio, environment, field and contact context bound as required by that model.",
+    "invariants": [
+      "a report opens review without comparison evidence",
+      "the source expression remains USER_REPORTED_OBSERVATION",
+      "the event mechanism remains UNKNOWN in the current snapshot",
+      "every model reference resolves to an exact registered source ID",
+      "two-camera visibility is not mechanism proof",
+      "event-root identity is not Same-Event proof",
+      "the passive plan contains no intentional high voltage or deliberate static generation",
+      "raw private captures remain local",
+      "the spacecraft link remains an ESD engineering analogy and research route",
+      "no input path automatically proves a spacecraft, ownership, copying, external causality, legal entitlement or payment",
+      "validator output does not materialize a public release or external claim"
+    ],
+    "unknown_frontier": [
+      "exact event mechanism",
+      "repeatability under naturally occurring conditions",
+      "two-view optical and synchronized audio record",
+      "actual field strength, contact distance, humidity and material state at event time",
+      "any separate technology-provenance or legal-entitlement chain"
+    ],
+    "branch_selection_rule": "Prefer the smallest passive observation that gives different predictions for at least two models, preserves privacy and introduces no electrical stimulus.",
+    "closure_criteria": [
+      "all nine source IDs and six model IDs resolve exactly",
+      "bare report opens review",
+      "unknown fields fail closed",
+      "the passive plan remains unexecuted and prohibits deliberate high voltage",
+      "17 local tests pass",
+      "the eight-file candidate digest is reproducible with ordinal UTF-8 path ordering",
+      "Core 3.5 validator passes"
+    ],
+    "application_tests": {
+      "PREDICT": {
+        "state": "OBSERVED",
+        "evidence_refs": [
+          "the default CLI predicts six retained candidate states and an UNKNOWN mechanism"
+        ]
+      },
+      "VARY_ONE": {
+        "state": "OBSERVED",
+        "evidence_refs": [
+          "contact, field, atmosphere, camera and naked-eye inputs change only their model-specific candidate states"
+        ]
+      },
+      "EXPLAIN": {
+        "state": "OBSERVED",
+        "evidence_refs": [
+          "README.md, model-matrix.json and FREE NEWS 014 explain the separate mechanisms and the ESD spacecraft-electronics bridge"
+        ]
+      },
+      "REPAIR_OR_FALSIFY": {
+        "state": "OBSERVED",
+        "evidence_refs": [
+          "the PLOS intensity ceiling rejects ultraweak emission as an explanation for a naked-eye spark while leaving other mechanisms open"
+        ]
+      },
+      "TRANSFER": {
+        "state": "OBSERVED",
+        "evidence_refs": [
+          "the same report-first, source-reference and claim-ceiling oracle validates bare, contact, corona, atmosphere, one-camera, two-camera and maximal synthetic inputs"
+        ]
+      }
+    },
+    "model_state": "SOURCE_BOUND_SHADOW",
+    "evidence_state": "STRONGLY_SUPPORTED",
+    "source_system_effects": 0,
+    "return_path_to_source": false,
+    "external_network_during_execution": false,
+    "cross_model_inference_authority": false,
+    "full_clone_claim": false,
+    "model_complete_claim": false,
+    "production_equivalence_claim": false,
+    "validator_proves_target_truth": false
+  },
+  "temporal_branch_cycle": {
+    "branch_id": "feature-public-safe-physics-and-reciprocity-012-fingertip-package",
+    "record_kind": "OBSERVED_RUN",
+    "object_or_referent": "Public fingertip-spark, ESD and spacecraft-electronics bridge audit package",
+    "scope": "v0.11.1 accepted base to an eight-file uncommitted source-only candidate; this cycle file is excluded from its own digest",
+    "authority_source": "Explicit user request to continue the public-safe GitHub research and publish the source-bound technical audit",
+    "base_state": {
+      "state_id": "open-research-branches-v0.11.1",
+      "content_digest": "sha256:952ef727602c81824355b867c5d5d7f6d86a50fb7009e8911612579bed18c54d",
+      "current_digest": "sha256:952ef727602c81824355b867c5d5d7f6d86a50fb7009e8911612579bed18c54d",
+      "captured_at": "2026-09-10T02:30:39+02:00",
+      "immutable": true,
+      "state": "STABLE",
+      "evidence_state": "OBSERVED"
+    },
+    "becoming": {
+      "witness_id": "fingertip-spark-package-build-test-cli-and-digest",
+      "transition_record_id": "v0.11.1-to-fingertip-spark-audit-candidate",
+      "observation_started": true,
+      "state_ids": [
+        "open-research-branches-v0.11.1",
+        "fingertip-spark-esd-spacecraft-audit-0.1.0-candidate"
+      ],
+      "edge_ids": [
+        "bind-nine-public-sources",
+        "construct-six-model-matrix",
+        "build-passive-two-camera-plan",
+        "implement-report-first-fail-closed-audit",
+        "execute-seventeen-regression-tests",
+        "execute-default-cli-receipt",
+        "compose-free-news-014",
+        "compute-eight-file-candidate-digest"
+      ],
+      "known_coverage_gaps": [
+        "no actual event capture",
+        "no calibrated electrical-field record",
+        "no bound event-time humidity, materials, contact distance or audio",
+        "no third-party internal technology or provenance records",
+        "finite public-source snapshot"
+      ],
+      "claim_relevant_coverage_gaps": [],
+      "provenance_valid": true,
+      "evidence_state": "OBSERVED"
+    },
+    "candidate_state": {
+      "state_id": "fingertip-spark-esd-spacecraft-audit-0.1.0-candidate",
+      "produced_from_base_state_id": "open-research-branches-v0.11.1",
+      "content_digest": "sha256:c6dcc5fbad57eded0b9324e4a8adb5494184020fa6bd91e52ae60b90738d70ac",
+      "state": "CANDIDATE_PENDING_MERGE",
+      "evidence_state": "OBSERVED"
+    },
+    "acceptance_gate": {
+      "version_bound_oracle": "fingertip-spark-source-model-and-esd-spacecraft-bridge-oracle-1.0.0",
+      "same_oracle_used": true,
+      "expected_invariants_hold": true,
+      "forbidden_effects": [],
+      "candidate_tests_pass": true,
+      "human_intent_match": true,
+      "evidence_refs": [
+        "17 passing Node.js tests",
+        "deterministic default CLI receipt sha256:d3b314c4aa37f6b52bef2fb870352de97dad23f1ed86fd7f3cdd14e892776d3b",
+        "nine-source registry, six-model matrix and passive plan",
+        "README.md and FREE NEWS 014",
+        "canonical digest input order is the eight declared source_basis paths sorted by raw UTF-8 bytes in ascending ordinal order",
+        "digest algorithm is SHA-256 over UTF-8 repo-relative path, NUL, ASCII decimal byte length, NUL, lowercase ASCII per-file SHA-256 hex, LF for each file",
+        "sha256:c6dcc5fbad57eded0b9324e4a8adb5494184020fa6bd91e52ae60b90738d70ac over the eight declared package and report files"
+      ]
+    },
+    "forward_port": {
+      "mode": "FULL",
+      "selected_units": [
+        {
+          "unit_id": "fingertip-spark-esd-spacecraft-audit-eight-file-package",
+          "source_digest": "sha256:c6dcc5fbad57eded0b9324e4a8adb5494184020fa6bd91e52ae60b90738d70ac",
+          "dependencies": [
+            "v0.11.1-base"
+          ],
+          "evidence_refs": [
+            "README.md, model-matrix.json, observation-protocol.json, package.json and sources.json",
+            "src/spark-audit.mjs and test/spark-audit.test.mjs",
+            "reports/FREE_NEWS_014_FINGERTIP_SPARK_ESD_AND_SPACECRAFT_BRIDGE.md",
+            "17 passing Node.js tests"
+          ]
+        }
+      ],
+      "rejected_units": [
+        "private raw captures or chats",
+        "deliberate high voltage or static-generation instructions",
+        "guessed event mechanism",
+        "spacecraft or technology-ownership assertion",
+        "unproved copying, external causality, legal entitlement or payment claim",
+        "external contact or system mutation"
+      ],
+      "base_satisfied_dependencies": [
+        "v0.11.1-base"
+      ],
+      "dependency_closed": true,
+      "applied_to_fresh_base": true
+    },
+    "decision_state": "ELIGIBLE_FOR_MERGE",
+    "evidence_state": "OBSERVED",
+    "source_effects": 0,
+    "external_effects": 0,
+    "base_mutated": false,
+    "hash_proves_semantic_compatibility": false,
+    "rollback_erases_global_history": false,
+    "all_intermediate_states_observed": false,
+    "candidate_accepted_without_merge": false,
+    "validator_materialized_merge": false
+  }
+}

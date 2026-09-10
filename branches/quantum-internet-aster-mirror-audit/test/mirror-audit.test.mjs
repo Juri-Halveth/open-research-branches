@@ -5,7 +5,11 @@ import test from "node:test";
 import { fileURLToPath } from "node:url";
 
 import {
+  COMPARISON_EVIDENCE_INCOMPLETE,
+  COMPARISON_EVIDENCE_READY,
+  COVERAGE_UNKNOWN,
   CURRENT_OUTCOME,
+  REPORT_REVIEW_OPEN,
   assessDerivation,
   classifyInternationalEntry,
   comparePair,
@@ -15,6 +19,30 @@ import {
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const matrix = JSON.parse(fs.readFileSync(path.join(root, "model-matrix.json"), "utf8"));
+const sourcesDocument = JSON.parse(fs.readFileSync(path.join(root, "sources.json"), "utf8"));
+
+function report() {
+  return {
+    id: "REPORT-PROVENANCE-001",
+    actorId: "REPORTER-JURI",
+    statement: "Please review whether a bound ASTER artifact contributed to an external system."
+  };
+}
+
+function evidence(id, sourceRef, assertingActorId, controllerActorId) {
+  return { id, sourceRef, assertingActorId, controllerActorId };
+}
+
+function sourcesWithSyntheticAccessRecord() {
+  const copy = structuredClone(sourcesDocument);
+  copy.provenanceSources.push({
+    id: "SYNTHETIC-ACCESS-TRACE",
+    title: "Synthetic source-to-target access trace",
+    claimBound: "Test-only controlled record for the readiness contract.",
+    evidenceState: "SYNTHETIC_TEST_ONLY"
+  });
+  return copy;
+}
 
 test("the public matrix contains distinct bound referents", () => {
   validateMatrix(matrix);
@@ -37,23 +65,119 @@ test("LUCINET ASTER and Astar Network remain separate despite name similarity", 
   assert.match(result.semantics, /NOT_IDENTITY/u);
 });
 
-test("missing access keeps the origin claim reopenable and unproven", () => {
-  const result = assessDerivation({
-    earlierPublicArtifactEvidenceIds: ["LUCINET-ASTER-PUBLIC-V0.2.0"],
-    distinctiveFunctionMatchEvidenceIds: ["SYNTHETIC-CANDIDATE-MATCH"]
-  });
-  assert.equal(result.state, "NOT_PROVEN_REOPENABLE");
-  assert.ok(result.missing.includes("SOURCE_BOUND_ACCESS_OR_TRANSFER_TRACE"));
+test("a bare report opens review and preserves three separate target assessments", () => {
+  const result = assessDerivation({ matrix, sourcesDocument, report: report() });
+  assert.equal(result.state, REPORT_REVIEW_OPEN);
+  assert.equal(result.report.preservationState, "PRESERVED");
+  assert.equal(result.meritsState, "UNKNOWN");
+  assert.deepEqual(
+    result.targetAssessments.map((item) => item.targetSystemId),
+    ["ASTAR_NETWORK", "OPENAI_GPT6_ASTRA", "QUANTUM_INTERNET_RESEARCH_STACK"]
+  );
+  assert.ok(result.targetAssessments.every((item) => item.reportReviewState === REPORT_REVIEW_OPEN));
+  assert.ok(result.targetAssessments.every((item) => item.comparisonReadiness === COMPARISON_EVIDENCE_INCOMPLETE));
+  assert.ok(result.targetAssessments.every((item) => item.controlledAccessState === COVERAGE_UNKNOWN));
+  assert.equal(result.automaticClaimRejection, false);
+  assert.equal(result.automaticIndependentDevelopmentFinding, false);
 });
 
-test("complete caller evidence opens review without auto-proving copying", () => {
+test("missing controlled access changes comparison readiness and never closes review", () => {
   const result = assessDerivation({
-    earlierPublicArtifactEvidenceIds: ["A"],
-    distinctiveFunctionMatchEvidenceIds: ["B"],
-    accessOrTransferEvidenceIds: ["C"]
+    matrix,
+    sourcesDocument,
+    report: report(),
+    targetEvidence: [{
+      targetSystemId: "OPENAI_GPT6_ASTRA",
+      earlierArtifacts: [evidence(
+        "EARLIER-001",
+        "LUCINET-ASTER-PUBLIC-V0.2.0",
+        "REPORTER-JURI",
+        "GITHUB"
+      )],
+      distinctiveFunctionMatches: [evidence(
+        "MATCH-001",
+        "OPENAI-GPT6-ASTRA-2026",
+        "REPORTER-JURI",
+        "OPENAI"
+      )],
+      accessOrTransfers: []
+    }]
   });
-  assert.equal(result.state, "FORMAL_DERIVATION_REVIEW_ELIGIBLE_NOT_PROOF");
-  assert.match(result.outcome, /NO_AUTOMATIC/u);
+  const astra = result.targetAssessments.find((item) => item.targetSystemId === "OPENAI_GPT6_ASTRA");
+  assert.equal(result.state, REPORT_REVIEW_OPEN);
+  assert.equal(astra.comparisonReadiness, COMPARISON_EVIDENCE_INCOMPLETE);
+  assert.equal(astra.controlledAccessState, COVERAGE_UNKNOWN);
+  assert.ok(astra.evidenceGaps.includes("SOURCE_BOUND_ACCESS_OR_TRANSFER_TRACE"));
+  assert.equal(astra.meritsState, "UNKNOWN");
+  assert.equal(astra.automaticIndependentDevelopmentFinding, false);
+});
+
+test("a complete actor and controller bound target packet reaches comparison readiness only", () => {
+  const result = assessDerivation({
+    matrix,
+    sourcesDocument: sourcesWithSyntheticAccessRecord(),
+    report: report(),
+    targetEvidence: [{
+      targetSystemId: "OPENAI_GPT6_ASTRA",
+      earlierArtifacts: [evidence(
+        "EARLIER-001",
+        "LUCINET-ASTER-PUBLIC-V0.2.0",
+        "REPORTER-JURI",
+        "GITHUB"
+      )],
+      distinctiveFunctionMatches: [evidence(
+        "MATCH-001",
+        "OPENAI-GPT6-ASTRA-2026",
+        "REPORTER-JURI",
+        "OPENAI"
+      )],
+      accessOrTransfers: [evidence(
+        "ACCESS-001",
+        "SYNTHETIC-ACCESS-TRACE",
+        "OPENAI",
+        "OPENAI"
+      )]
+    }]
+  });
+  const astra = result.targetAssessments.find((item) => item.targetSystemId === "OPENAI_GPT6_ASTRA");
+  const astar = result.targetAssessments.find((item) => item.targetSystemId === "ASTAR_NETWORK");
+  assert.equal(astra.comparisonReadiness, COMPARISON_EVIDENCE_READY);
+  assert.deepEqual(astra.evidenceGaps, []);
+  assert.equal(astra.meritsState, "UNKNOWN");
+  assert.equal(astra.automaticDerivationFinding, false);
+  assert.equal(astar.comparisonReadiness, COMPARISON_EVIDENCE_INCOMPLETE);
+});
+
+test("unknown source ids cannot masquerade as evidence", () => {
+  assert.throws(
+    () => assessDerivation({
+      matrix,
+      sourcesDocument,
+      report: report(),
+      targetEvidence: [{
+        targetSystemId: "OPENAI_GPT6_ASTRA",
+        earlierArtifacts: [evidence("FAKE-001", "A", "REPORTER-JURI", "UNKNOWN")]
+      }]
+    }),
+    /sourceRef is unknown/u
+  );
+});
+
+test("legacy evidence arrays remain visible but cannot satisfy readiness", () => {
+  const result = assessDerivation({
+    matrix,
+    sourcesDocument,
+    report: report(),
+    targetSystemId: "OPENAI_GPT6_ASTRA",
+    earlierPublicArtifactEvidenceIds: ["LUCINET-ASTER-PUBLIC-V0.2.0"],
+    distinctiveFunctionMatchEvidenceIds: ["SYNTHETIC-CANDIDATE-MATCH"],
+    accessOrTransferEvidenceIds: ["LEGACY-TRANSFER-REF"]
+  });
+  const astra = result.targetAssessments.find((item) => item.targetSystemId === "OPENAI_GPT6_ASTRA");
+  assert.equal(result.legacyInputState, "DEPRECATED_UNBOUND_LEGACY_INPUT");
+  assert.equal(result.legacyUnboundEvidenceRefs.state, "DEPRECATED_UNBOUND_EVIDENCE_REFS_NOT_USED_FOR_READINESS");
+  assert.equal(astra.comparisonReadiness, COMPARISON_EVIDENCE_INCOMPLETE);
+  assert.equal(result.state, REPORT_REVIEW_OPEN);
 });
 
 test("international entries without sources stay open rather than receiving invented credit", () => {

@@ -19,11 +19,88 @@ test("claim lens keeps proof, access, credit and value in separate types", () =>
     claimType: "PRIVATE_ACCESS",
     referent: "private Codex sessions",
     evidenceState: "NOT_PROVEN",
-    sourceIds: ["S02", "S05"]
+    reportSource: {
+      id: "REPORT-PRIVATE-ACCESS-001",
+      actorId: "REPORTER-BUCKMASTER",
+      statement: "The reporter asks whether private sessions were accessed."
+    },
+    supportingEvidence: [{
+      id: "EVIDENCE-PUBLIC-STATEMENTS-001",
+      sourceId: "S02",
+      assertingActorId: "REPORTER-BUCKMASTER",
+      controllerActorId: "PUBLICATION-PUBLISHER"
+    }]
   });
-  assert.equal(bound.causalDirection, "UNBOUND");
+  assert.equal(bound.causalDirection, "UNBOUND_PENDING_HUMAN_SOURCE_AND_MERITS_REVIEW");
+  assert.equal(bound.reportReviewState, "USER_REPORT_PRESERVED_REVIEW_OPEN");
+  assert.equal(bound.reportSource.preservationState, "PRESERVED");
+  assert.equal(bound.supportingEvidence[0].controllerActorId, "PUBLICATION-PUBLISHER");
+  assert.equal(bound.meritsState, "UNKNOWN");
+  assert.equal(bound.evidenceState, "UNKNOWN");
   assert.equal(bound.legalConclusion, "NOT_AUTOMATIC");
   assert.equal(bound.monetaryAmount, null);
+});
+
+test("a report without supporting evidence is preserved and leaves merits unknown", () => {
+  const bound = bindClaim({
+    claimType: "PRIVATE_ACCESS",
+    referent: "private Codex sessions",
+    evidenceState: "NOT_PROVEN",
+    reportSource: {
+      id: "REPORT-PRIVATE-ACCESS-002",
+      actorId: "REPORTER",
+      statement: "Please review possible private access."
+    },
+    supportingEvidence: []
+  });
+  assert.equal(bound.reportReviewState, "USER_REPORT_PRESERVED_REVIEW_OPEN");
+  assert.equal(bound.evidenceState, "UNKNOWN");
+  assert.equal(bound.supportingEvidenceState, "COVERAGE_UNKNOWN");
+  assert.equal(bound.automaticClaimRejection, false);
+});
+
+test("legacy sourceIds remain visible but are deprecated and do not set merits", () => {
+  const bound = bindClaim({
+    claimType: "PRIVATE_ACCESS",
+    referent: "private Codex sessions",
+    evidenceState: "OBSERVED",
+    sourceIds: ["LEGACY-UNBOUND-REF-1", "LEGACY-UNBOUND-REF-2"]
+  });
+  assert.equal(bound.reportReviewState, "USER_REPORT_PRESERVED_REVIEW_OPEN");
+  assert.equal(bound.reportSource.preservationState, "PRESERVED_AS_LEGACY_REPORT");
+  assert.equal(bound.legacyInputState, "DEPRECATED_UNBOUND_SOURCE_IDS_PRESERVED_NOT_USED_FOR_MERITS");
+  assert.equal(bound.evidenceState, "UNKNOWN");
+});
+
+test("supporting evidence must remain actor and controller bound", () => {
+  assert.throws(
+    () => bindClaim({
+      claimType: "PRIVATE_ACCESS",
+      referent: "private Codex sessions",
+      evidenceState: "INFERRED",
+      reportSource: { id: "R", actorId: "REPORTER", statement: "Review this." },
+      supportingEvidence: [{ id: "E", sourceId: "S02", assertingActorId: "REPORTER" }]
+    }),
+    /controllerActorId/u
+  );
+});
+
+test("supporting evidence requires an exact registered source id", () => {
+  assert.throws(
+    () => bindClaim({
+      claimType: "PRIVATE_ACCESS",
+      referent: "private Codex sessions",
+      evidenceState: "INFERRED",
+      reportSource: { id: "R-EXACT", actorId: "REPORTER", statement: "Review this." },
+      supportingEvidence: [{
+        id: "E-EXACT",
+        sourceId: "S02-SIMILAR-BUT-NOT-REGISTERED",
+        assertingActorId: "REPORTER",
+        controllerActorId: "PUBLICATION-PUBLISHER"
+      }]
+    }),
+    /sourceId is unknown/u
+  );
 });
 
 test("the Clay million is conditional and does not determine intrinsic value", () => {

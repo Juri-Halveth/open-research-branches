@@ -21,6 +21,11 @@ any branch's claim ceiling.
 | `FREE_NEWS_011_HISTORICAL_CIPHER_111_DECODING_CHALLENGE.md` | Historical-cipher reproducibility challenge with exact-input requirements, a Rosetta control and no authorship, external-force or entitlement inference |
 | `FREE_NEWS_012_ALICE_MEDIA_REFERENT_AND_AGENCY_AUDIT.md` | Alice candidate, official-story and agency audit with exact-marker selection and no automatic identity, derivation, copying or ownership finding |
 | `FREE_NEWS_013_RECIPROCAL_EVIDENCE_AND_INFORMATION_ASYMMETRY.md` | Corrective audit separating report intake, evidence access, actor assertions, secondary substantiation, proof burden, production basis and merits |
+| `FREE_NEWS_014_FINGERTIP_SPARK_ESD_AND_SPACECRAFT_BRIDGE.md` | Six-model audit of Juris reported fingertip sparks with a passive observation plan and a source-bound ESD risk bridge to spacecraft electronics |
+| `FREE_NEWS_015_PRIORITY_EVIDENCE_AND_REGRESS_ROUTES.md` | Official-source route map separating snapshot priority, public availability, knowledge, derivation, infringement, entitlement and amount |
+| `FREE_NEWS_016_PUBLIC_GITHUB_PROJECT_CONSTELLATION.md` | Time-bound inventory of all four public non-fork repositories visible on the project account, including heads, trees, files, releases and workflows |
+| `FREE_NEWS_017_CE_BARCODES_HTTPS_500_AND_SNAPSHOT_MARKERS.md` | Marker semantics for CE, GS1 barcodes, HTTPS, HTTP 500, Git, iOS, Microsoft PKI and an explicitly unbound Frankfurt snapshot |
+| `FREE_NEWS_017_MARKER_MATRIX.json` | Machine-readable marker definitions, official source references, non-conversions and reopen requirements |
 
 Local Office and PDF artifacts from an earlier ten-branch working snapshot are
 intentionally absent. They do not describe the current release,

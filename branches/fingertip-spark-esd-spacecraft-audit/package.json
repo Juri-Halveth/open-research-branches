@@ -1,0 +1,10 @@
+{
+  "name": "fingertip-spark-esd-spacecraft-audit",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/spark-audit.test.mjs",
+    "audit": "node src/spark-audit.mjs"
+  }
+}

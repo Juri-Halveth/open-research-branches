@@ -1,0 +1,75 @@
+{
+  "schemaVersion": "fingertip-spark-passive-observation-plan.v1",
+  "protocolId": "FINGERTIP_SPARK_TWO_CAMERA_PASSIVE_PLAN_1",
+  "recordKind": "PLAN",
+  "state": "CAPABILITY_PRESENT_DISABLED_UNTIL_USER_RUNS_OWNED_PASSIVE_CAPTURE",
+  "scope": "A naturally occurring user-reported fingertip light event on owned or consented equipment",
+  "authoritySource": "User controls their own body, room and cameras; every other person or device requires separate consent",
+  "riskClass": "PASSIVE_OBSERVATION_ONLY",
+  "capturePlan": {
+    "eventRootId": "FINGERTIP_LIGHT_EVENT_CANDIDATE",
+    "observationPlans": [
+      {
+        "observationId": "CAMERA_A_VIEW",
+        "kind": "VIDEO",
+        "position": "FIXED_FIRST_ANGLE",
+        "startAt": null,
+        "stopAt": null
+      },
+      {
+        "observationId": "CAMERA_B_VIEW",
+        "kind": "VIDEO",
+        "position": "FIXED_DIFFERENT_ANGLE",
+        "startAt": null,
+        "stopAt": null
+      },
+      {
+        "observationId": "ROOM_AUDIO_VIEW",
+        "kind": "AUDIO",
+        "position": "FIXED_WITHIN_OWNED_ROOM",
+        "startAt": null,
+        "stopAt": null
+      }
+    ],
+    "sameEventRule": "EVENT_ROOT_ID_IS_GROUPING_ONLY_EACH_PAIR_NEEDS_TIME_AND_SCENE_CORRESPONDENCE",
+    "fixedBackgroundRequired": true,
+    "originalFilesStayLocal": true,
+    "publicDerivative": "MINIMIZED_HASH_AND_METHOD_RECEIPT_ONLY"
+  },
+  "contextFields": [
+    "LOCAL_TIME_WITH_TIMEZONE",
+    "CAMERA_CLOCK_SOURCE_AND_UNCERTAINTY",
+    "FRAME_RATE_EXPOSURE_FOCUS_AND_STABILIZATION",
+    "ROOM_HUMIDITY_IF_AN_OWNED_METER_IS_ALREADY_AVAILABLE",
+    "FLOOR_AND_CLOTHING_MATERIAL_DESCRIPTIONS",
+    "PRIOR_NATURAL_MOVEMENT",
+    "DISTANCE_TO_ANY_CONTACT_TARGET",
+    "CLICK_STING_DURATION_AND_REPETITION",
+    "VISIBLE_WITHOUT_CAMERA",
+    "WEATHER_CONTEXT_WITHOUT_OUTDOOR_STORM_RECREATION"
+  ],
+  "coverage": {
+    "temporal": "PLANNED",
+    "object": "BOUNDED_TO_REPORTED_FINGERTIP_REGION",
+    "layer": "OPTICAL_AND_ROOM_AUDIO_ONLY",
+    "privilege": "OWNED_USER_LEVEL_DEVICES_ONLY",
+    "sensor": "TWO_VIDEO_VIEWS_AND_ONE_AUDIO_VIEW_PLANNED",
+    "captureReliability": "UNKNOWN_UNTIL_A_RUN_BINDS_CLOCKS_DROPS_AND_ORIGINAL_FILES",
+    "noEventClaimCeiling": "NO_EVENT_OBSERVED_WITHIN_DECLARED_COVERAGE_ONLY"
+  },
+  "stopConditions": [
+    "ANY_REQUEST_TO_CREATE_OR_APPROACH_HIGH_VOLTAGE",
+    "THUNDERSTORM_OR_EXPOSED_OUTDOOR_POINT_CONTEXT",
+    "HEAT_SMOKE_PAIN_OR_EQUIPMENT_DAMAGE",
+    "UNCONSENTED_PERSON_OR_DEVICE_ENTERS_CAPTURE_SCOPE",
+    "RAW_FILE_WOULD_EXPOSE_PRIVATE_OR_IDENTIFYING_CONTENT"
+  ],
+  "prohibitedActions": [
+    "INTENTIONAL_HIGH_VOLTAGE_GENERATION",
+    "DELIBERATE_STATIC_CHARGE_BUILDUP",
+    "CONTACT_WITH_MAINS_OR_UNKNOWN_ELECTRICAL_EQUIPMENT",
+    "OUTDOOR_STORM_RECREATION",
+    "PUBLIC_UPLOAD_OF_RAW_PRIVATE_CAPTURE"
+  ],
+  "claimCeiling": "PASSIVE_OBSERVATION_PLAN_NOT_EXECUTED_NOT_CONTINUOUS_NOT_LOSSLESS_NOT_MECHANISM_PROOF"
+}

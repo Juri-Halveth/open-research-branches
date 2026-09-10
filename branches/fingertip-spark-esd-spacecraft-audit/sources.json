@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "fingertip-spark-sources.v1",
+  "accessedAt": "2026-09-10",
+  "collectionState": "PUBLIC_PRIMARY_AND_OFFICIAL_SOURCES_BOUND",
+  "sources": [
+    {
+      "id": "NIST_TN_1314_ESD_FIELDS",
+      "title": "Electromagnetic Fields Radiated From Electrostatic Discharges: Theory and Experiment",
+      "publisher": "National Bureau of Standards",
+      "sourceType": "OFFICIAL_TECHNICAL_NOTE",
+      "url": "https://nvlpubs.nist.gov/nistpubs/Legacy/TN/nbstechnicalnote1314.pdf",
+      "publishedAt": "1988-02-01",
+      "claimBound": "Binds electrostatic charge buildup, rapid discharge through air, human-body discharge models and radiated-field interference with electronics.",
+      "evidenceState": "OBSERVED"
+    },
+    {
+      "id": "NBS_CIRCULAR_438_STATIC_ELECTRICITY",
+      "title": "Static Electricity",
+      "publisher": "National Bureau of Standards",
+      "sourceType": "OFFICIAL_TECHNICAL_CIRCULAR",
+      "url": "https://nvlpubs.nist.gov/nistpubs/Legacy/circ/nbscircular438.pdf",
+      "publishedAt": "1942-06-13",
+      "claimBound": "Binds established static-electricity mechanisms and control considerations; it does not identify the mechanism of the reported event.",
+      "evidenceState": "OBSERVED"
+    },
+    {
+      "id": "NASA_ESD_COMPENDIUM_2018",
+      "title": "NASA EEE Parts Assurance: Electrostatic Discharge Control Compendium",
+      "publisher": "National Aeronautics and Space Administration",
+      "sourceType": "OFFICIAL_SPACECRAFT_ELECTRONICS_GUIDANCE",
+      "url": "https://sma.nasa.gov/docs/default-source/sma-disciplines-and-programs/quality/qlf/nasa-eee-parts_esd_compendium_june-2018-sept-18.pdf",
+      "publishedAt": "2018-09-01",
+      "claimBound": "Binds human-generated electrostatic discharge as an engineering risk for sensitive electronic parts used in aerospace work and binds humidity-dependent human charging examples.",
+      "evidenceState": "OBSERVED"
+    },
+    {
+      "id": "OSHA_3075_STATIC_ELECTRICITY",
+      "title": "Controlling Electrical Hazards",
+      "publisher": "Occupational Safety and Health Administration",
+      "sourceType": "OFFICIAL_SAFETY_GUIDANCE",
+      "url": "https://www.osha.gov/sites/default/files/publications/OSHA3075.pdf",
+      "claimBound": "Binds static electricity and discharge as recognized electrical-hazard concepts within the publication scope.",
+      "evidenceState": "OBSERVED"
+    },
+    {
+      "id": "NOAA_ST_ELMO_FIRE",
+      "title": "Lightning Facts: St. Elmo's Fire",
+      "publisher": "National Weather Service",
+      "sourceType": "OFFICIAL_ATMOSPHERIC_SCIENCE_GUIDANCE",
+      "url": "https://www.weather.gov/media/zhu/ZHU_Training_Page/lightning_stuff/lightning/lightning_facts2.pdf",
+      "claimBound": "Binds St. Elmo's fire to atmospheric electric fields and pointed or exposed objects; ordinary indoor context is not established by this source.",
+      "evidenceState": "OBSERVED"
+    },
+    {
+      "id": "CIESIELSKA_2010_FINGERTIP_CORONA",
+      "title": "The Precursory Analysis of the Influence of Garments on Corona Discharge Created Around a Human Fingertip",
+      "publisher": "Textile Research Journal",
+      "sourceType": "PEER_REVIEWED_EXPERIMENT",
+      "url": "https://journals.sagepub.com/doi/10.1177/0040517509105599",
+      "publishedAt": "2010-02-01",
+      "claimBound": "Binds photographed fingertip corona in a controlled high-voltage apparatus; it does not show spontaneous ordinary-room fingertip light.",
+      "evidenceState": "OBSERVED"
+    },
+    {
+      "id": "SONY_FLARE_GHOST",
+      "title": "The photographs I take with my Xperia have circular lights or appear whitish (Flare, Ghost)",
+      "publisher": "Sony",
+      "sourceType": "OFFICIAL_CAMERA_SUPPORT",
+      "url": "https://www.sony.com/electronics/support/articles/00344523",
+      "claimBound": "Binds lens flare and ghosting as camera-image explanations that can vary with light source and shooting angle.",
+      "evidenceState": "OBSERVED"
+    },
+    {
+      "id": "NASA_WEBB_IMAGE_ARTIFACTS",
+      "title": "How Are Webb's Full-Color Images Made?",
+      "publisher": "National Aeronautics and Space Administration",
+      "sourceType": "OFFICIAL_IMAGING_EXPLANATION",
+      "url": "https://science.nasa.gov/mission/webb/science-overview/science-explainers/how-are-webbs-full-color-images-made/",
+      "claimBound": "Binds detector artifacts, cosmic-ray effects and image processing as separate parts of interpreting bright points in digital imagery.",
+      "evidenceState": "OBSERVED"
+    },
+    {
+      "id": "PLOS_ONE_2009_ULTRAWEAK_PHOTONS",
+      "title": "Imaging of Ultraweak Spontaneous Photon Emission from Human Body Displaying Diurnal Rhythm",
+      "publisher": "PLOS ONE",
+      "sourceType": "PEER_REVIEWED_EXPERIMENT",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0006256",
+      "publishedAt": "2009-07-16",
+      "claimBound": "Binds instrument-measured ultraweak human photon emission at intensity far below unaided-eye sensitivity; it does not explain a naked-eye-visible spark.",
+      "evidenceState": "OBSERVED"
+    }
+  ],
+  "claimCeiling": "PUBLIC_SOURCE_REGISTRY_FOR_COMPETING_FINGERTIP_LIGHT_MODELS_NOT_IDENTIFICATION_OF_THE_REPORTED_EVENT"
+}

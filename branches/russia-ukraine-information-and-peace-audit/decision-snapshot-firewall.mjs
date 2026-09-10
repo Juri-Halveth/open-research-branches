@@ -4,6 +4,12 @@ const ISO_WITH_ZONE = /(?:Z|[+-]\d{2}:\d{2})$/u;
 
 const MATCH_STATES = new Set(["MATCH", "POSSIBLE_MATCH", "NO_MATCH", "UNKNOWN"]);
 
+export const INCIDENT_REVIEW_OPEN = "OPEN";
+export const REPORT_PRESERVATION_STATE = "USER_REPORT_PRESERVED_REVIEW_OPEN";
+export const COMMAND_CONTROL_PACKET_READY = "COMMAND_CONTROL_MERITS_PACKET_READY_FOR_HUMAN_REVIEW_NOT_PROOF";
+export const COMMAND_CONTROL_PACKET_INCOMPLETE = "COMMAND_CONTROL_MERITS_PACKET_INCOMPLETE";
+export const COVERAGE_UNKNOWN = "COVERAGE_UNKNOWN";
+
 function requireObject(value, label) {
   if (!value || typeof value !== "object" || Array.isArray(value)) {
     throw new TypeError(`${label} must be an object`);
@@ -122,9 +128,71 @@ export function assessSecondDecisionLayer(input, incidentAssessment) {
     && decision.supersedingOrderStatus === "NONE_FOUND_WITHIN_COVERAGE"
     && linked;
 
-  return completeCounterOrder
-    ? "SECOND_DECISION_LAYER_REVIEW_ELIGIBLE_STRUCTURE_ONLY"
-    : "SECOND_DECISION_LAYER_NOT_PROVEN";
+  if (completeCounterOrder) return "SECOND_DECISION_LAYER_PACKET_READY_STRUCTURE_ONLY";
+  if (decision.status === "OBSERVED" && decision.supersedingOrderStatus === "OBSERVED_VALID_LATER_ORDER") {
+    return "SECOND_DECISION_LAYER_VALID_LATER_ORDER_BOUND";
+  }
+  return "SECOND_DECISION_LAYER_COVERAGE_UNKNOWN";
+}
+
+function controlledEvidenceLedger(input, incidentAssessment, secondDecisionLayerStatus) {
+  const chain = input.commandChain ?? {};
+  const records = [
+    {
+      id: "CONTROLLED-OPERATIONAL-ORDER",
+      controllerActorId: "ORDER_ISSUER_OR_COMMAND_ARCHIVE",
+      evidenceKind: "AUTHENTICATED_OPERATIONAL_ORDER",
+      availabilityState: input.order.operationalOrderStatus === "OBSERVED"
+        ? "SOURCE_BOUND_IN_INPUT"
+        : COVERAGE_UNKNOWN
+    },
+    {
+      id: "CONTROLLED-ORDER-RECEIPT",
+      controllerActorId: "RESPONSIBLE_UNIT_OR_COMMAND_ARCHIVE",
+      evidenceKind: "ORDER_RECEIPT_OR_READBACK",
+      availabilityState: chain.orderReceiptStatus === "OBSERVED"
+        ? "SOURCE_BOUND_IN_INPUT"
+        : COVERAGE_UNKNOWN
+    },
+    {
+      id: "CONTROLLED-INCIDENT-EFFECT",
+      controllerActorId: "SENSOR_OPERATOR_OR_INCIDENT_ARCHIVE",
+      evidenceKind: "STRIKE_TARGET_AND_SCOPE_MATCH",
+      availabilityState: incidentAssessment.status === "SCOPE_VIOLATION_REVIEW_ELIGIBLE_STRUCTURE_ONLY"
+        ? "SOURCE_BOUND_IN_INPUT"
+        : COVERAGE_UNKNOWN
+    },
+    {
+      id: "CONTROLLED-ATTRIBUTION",
+      controllerActorId: "INVESTIGATOR_OR_OPERATIONAL_ARCHIVE",
+      evidenceKind: "RESPONSIBLE_ACTOR_ATTRIBUTION",
+      availabilityState: chain.attributionStatus === "OBSERVED"
+        ? "SOURCE_BOUND_IN_INPUT"
+        : COVERAGE_UNKNOWN
+    },
+    {
+      id: "CONTROLLED-SECOND-DECISION",
+      controllerActorId: "DECISION_ACTOR_OR_COMMAND_ARCHIVE",
+      evidenceKind: "COUNTER_ORDER_OR_OUTSIDE_AUTHORITY_DECISION",
+      availabilityState: secondDecisionLayerStatus === "SECOND_DECISION_LAYER_PACKET_READY_STRUCTURE_ONLY"
+        ? "SOURCE_BOUND_IN_INPUT"
+        : COVERAGE_UNKNOWN
+    },
+    {
+      id: "CONTROLLED-EXCEPTION-AND-INTENT",
+      controllerActorId: "ORDER_ISSUER_INVESTIGATOR_OR_COMMAND_ARCHIVE",
+      evidenceKind: "EXCEPTION_LATER_ORDER_KNOWLEDGE_OR_INTENT",
+      availabilityState: chain.exceptionStatus === "EXCLUDED" && chain.knowledgeOrIntentStatus === "OBSERVED"
+        ? "SOURCE_BOUND_IN_INPUT"
+        : COVERAGE_UNKNOWN
+    }
+  ];
+  return records.map((record) => ({
+    ...record,
+    reporterAccessEffect: "NONE_MISSING_ACCESS_DOES_NOT_CLOSE_REVIEW",
+    productionDutyState: "UNBOUND_NO_AUTOMATIC_PRODUCTION_DUTY",
+    nonProductionEffect: "NO_AUTOMATIC_ADVERSE_INFERENCE_FAULT_OR_CLAIM_REJECTION"
+  }));
 }
 
 function canonicalize(value) {
@@ -255,7 +323,7 @@ export function evaluateSnapshotProposal({ snapshot, proposal }) {
     ? "SNAPSHOT_PRESERVED"
     : proposal.operator === "REGISTER_SEPARATE_EDGE"
       ? "EDGE_RECORDED_UNRESOLVED"
-      : "ELIGIBLE_FOR_REVIEW";
+      : "NEW_EVALUATION_BASIS_ACCEPTED";
   return proposalReceipt(snapshot, proposal, "ACCEPTED", [], result);
 }
 
@@ -264,8 +332,12 @@ export function evaluateDecisionSnapshot(input) {
   if (input.mode === "COUNTERFACTUAL_NO_EVENT") {
     return {
       mode: input.mode,
+      incidentReviewState: "NO_REPORT_IN_COUNTERFACTUAL",
+      reportPreservationState: "NOT_APPLICABLE_COUNTERFACTUAL",
       incidentStatus: "NO_EVENT_IN_COUNTERFACTUAL",
-      secondDecisionLayerStatus: "SECOND_DECISION_LAYER_NOT_PROVEN",
+      secondDecisionLayerStatus: "NO_SECOND_DECISION_IN_COUNTERFACTUAL",
+      commandControlMeritsPacketReadiness: "NOT_APPLICABLE_COUNTERFACTUAL",
+      controlledEvidenceLedger: [],
       scandalStatus: "SCANDAL_THRESHOLD_NOT_MET",
       publicClaimCeiling: "COUNTERFACTUAL_MODEL_ONLY"
     };
@@ -274,32 +346,43 @@ export function evaluateDecisionSnapshot(input) {
   const incidentAssessment = assessIncident(input.order, input.incident);
   const secondDecisionLayerStatus = assessSecondDecisionLayer(input, incidentAssessment);
   const chain = input.commandChain ?? {};
-  const reviewReady = incidentAssessment.status === "SCOPE_VIOLATION_REVIEW_ELIGIBLE_STRUCTURE_ONLY"
+  const meritsPacketReady = incidentAssessment.status === "SCOPE_VIOLATION_REVIEW_ELIGIBLE_STRUCTURE_ONLY"
     && input.order.operationalOrderStatus === "OBSERVED"
     && chain.orderReceiptStatus === "OBSERVED"
-    && secondDecisionLayerStatus === "SECOND_DECISION_LAYER_REVIEW_ELIGIBLE_STRUCTURE_ONLY"
+    && secondDecisionLayerStatus === "SECOND_DECISION_LAYER_PACKET_READY_STRUCTURE_ONLY"
     && chain.exceptionStatus === "EXCLUDED"
     && chain.attributionStatus === "OBSERVED"
     && chain.knowledgeOrIntentStatus === "OBSERVED";
+  const evidenceControlLedger = controlledEvidenceLedger(input, incidentAssessment, secondDecisionLayerStatus);
 
   return {
     mode: "SOURCE_BOUND_REALITY",
+    incidentReviewState: INCIDENT_REVIEW_OPEN,
+    reportPreservationState: REPORT_PRESERVATION_STATE,
     incidentStatus: incidentAssessment.status,
     secondDecisionLayerStatus,
-    reviewEligibility: reviewReady
-      ? "ELIGIBLE_FOR_COMMAND_CONTROL_REVIEW"
-      : "NOT_YET_ELIGIBLE_FOR_COMMAND_CONTROL_REVIEW",
+    commandControlMeritsPacketReadiness: meritsPacketReady
+      ? COMMAND_CONTROL_PACKET_READY
+      : COMMAND_CONTROL_PACKET_INCOMPLETE,
+    controlledEvidenceLedger: evidenceControlLedger,
     scandalStatus: "SCANDAL_CLAIM_NOT_MATERIALIZED",
-    publicClaimCeiling: reviewReady
-      ? "STRUCTURE_BOUND_REVIEW_ONLY"
+    publicClaimCeiling: meritsPacketReady
+      ? "STRUCTURE_BOUND_MERITS_PACKET_READY_FOR_HUMAN_REVIEW_ONLY"
       : "FINITE_SNAPSHOT_WITH_OPEN_COMMAND_LINK",
-    missingForEscalation: reviewReady ? [] : [
-      "authenticated operational order and exact addressees",
-      "receipt or readback by the responsible unit",
-      "strike and target match inside the bound window",
-      "attribution to the responsible actor",
-      "counter-order or deliberate action outside bound authority",
-      "exclusion of exceptions and a valid later order"
-    ]
+    missingForMeritsAssessment: evidenceControlLedger
+      .filter((record) => record.availabilityState === COVERAGE_UNKNOWN)
+      .map((record) => ({
+        evidenceId: record.id,
+        controllerActorId: record.controllerActorId,
+        evidenceKind: record.evidenceKind,
+        availabilityState: record.availabilityState
+      })),
+    legacyFieldDeprecations: {
+      reviewEligibility: "RENAMED_TO_COMMAND_CONTROL_MERITS_PACKET_READINESS",
+      missingForEscalation: "RENAMED_TO_MISSING_FOR_MERITS_ASSESSMENT_WITH_CONTROLLER_AND_AVAILABILITY"
+    },
+    automaticClaimRejection: false,
+    automaticFaultFinding: false,
+    automaticAdverseInference: false
   };
 }

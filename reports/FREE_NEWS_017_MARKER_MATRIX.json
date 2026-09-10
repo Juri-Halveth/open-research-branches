@@ -1,0 +1,156 @@
+{
+  "schemaVersion": "1.0.0",
+  "auditId": "FREE-NEWS-017-MARKER-SEMANTICS",
+  "generatedAt": "2026-09-10T02:34:00+02:00",
+  "sourceExpressionState": "USER_REPORTED_RESEARCH_QUESTION_PRESERVED",
+  "question": "Which exact functions do CE marks, barcodes, HTTPS, HTTP 500, repository anchors, iOS markers, Microsoft PKI records and a reported Frankfurt snapshot carry?",
+  "markers": [
+    {
+      "id": "CE-MARKING",
+      "definitionId": "EU-765-2008-ARTICLE-30",
+      "markerClass": "REGULATED_CONFORMITY_MARK",
+      "boundMeaning": "The manufacturer indicates responsibility for conformity with applicable EU harmonisation requirements that provide for CE marking.",
+      "sourceRefs": [
+        "https://eur-lex.europa.eu/eli/reg/2008/765/oj",
+        "https://single-market-economy.ec.europa.eu/single-market/goods/ce-marking/manufacturers_en"
+      ],
+      "doesNotEstablish": [
+        "UNIVERSAL_PRODUCT_QUALITY",
+        "RESEARCH_AUTHORSHIP",
+        "PATENT_PRIORITY",
+        "IDENTITY_OF_EVERY_CONTRIBUTOR"
+      ],
+      "evidenceState": "SOURCE_BOUND"
+    },
+    {
+      "id": "GS1-BARCODE",
+      "definitionId": "GS1-GENERAL-SPECIFICATIONS-26.0.0",
+      "markerClass": "MACHINE_READABLE_DATA_CARRIER",
+      "boundMeaning": "A barcode encodes identifiers and attributes using a defined symbology and allocation context.",
+      "sourceRefs": [
+        "https://www.gs1.org/standards/barcodes",
+        "https://ref.gs1.org/standards/genspecs/"
+      ],
+      "doesNotEstablish": [
+        "CREATOR_IDENTITY_FROM_BAR_PATTERN_ALONE",
+        "LEGAL_OWNERSHIP_OF_THE_MARKED_OBJECT",
+        "PRODUCT_ORIGIN_WITHOUT_DECODING_AND_REGISTRY_CONTEXT",
+        "CAUSAL_CONNECTION_TO_AN_UNRELATED_PROJECT"
+      ],
+      "evidenceState": "SOURCE_BOUND"
+    },
+    {
+      "id": "HTTPS-URI",
+      "definitionId": "RFC-9110-SECTION-4.2.2",
+      "markerClass": "SECURED_HTTP_ORIGIN_IDENTIFIER",
+      "boundMeaning": "An HTTPS URI identifies an origin and requires a TLS-secured HTTP connection with origin authentication plus negotiated confidentiality and integrity protection.",
+      "sourceRefs": [
+        "https://www.rfc-editor.org/rfc/rfc9110.html#name-https-uri-scheme",
+        "https://www.rfc-editor.org/rfc/rfc8446.html"
+      ],
+      "doesNotEstablish": [
+        "CONTENT_TRUTH",
+        "CONTENT_AUTHORSHIP",
+        "BENIGN_CONTENT",
+        "OWNERSHIP_OF_LINKED_FACTS_OR_IDEAS"
+      ],
+      "evidenceState": "SOURCE_BOUND"
+    },
+    {
+      "id": "HTTP-500",
+      "definitionId": "RFC-9110-SECTION-15.6.1",
+      "markerClass": "SERVER_ERROR_STATUS",
+      "boundMeaning": "The server encountered an unexpected condition that prevented it from fulfilling the request.",
+      "sourceRefs": [
+        "https://www.rfc-editor.org/rfc/rfc9110.html#name-500-internal-server-error"
+      ],
+      "doesNotEstablish": [
+        "WHICH_INTERNAL_COMPONENT_FAILED",
+        "INTENTIONAL_BLOCKING",
+        "REQUESTER_CAUSATION",
+        "GLOBAL_SERVICE_STATE",
+        "A_SPECIFIC_COMPANY_CAUSE_WITHOUT_BOUND_HOST_AND_RESPONSE"
+      ],
+      "evidenceState": "SOURCE_BOUND_GENERIC_SEMANTICS"
+    },
+    {
+      "id": "GIT-SNAPSHOT-ANCHOR",
+      "definitionId": "OPEN-RESEARCH-CODE-ZEITWAERTSZURUECK-1.0",
+      "markerClass": "REPOSITORY_OBJECT_AND_RELEASE_PROVENANCE",
+      "boundMeaning": "Commit, tree, tag, release asset and digest can bind one exact repository version and its visible repository history.",
+      "sourceRefs": [
+        "../PROVENANCE.md",
+        "FREE_NEWS_009_GITHUB_CONTRIBUTION_GRAPH_AND_PRIORITY.md"
+      ],
+      "doesNotEstablish": [
+        "PRE_REPOSITORY_CREATION_TIME",
+        "SOLE_AUTHORSHIP",
+        "THIRD_PARTY_ACCESS_OR_COPYING",
+        "PATENT_PRIORITY_BY_ITSELF"
+      ],
+      "evidenceState": "LOCAL_PUBLIC_SOURCE_BOUND"
+    },
+    {
+      "id": "IOS-SOURCE-MARKER",
+      "definitionId": "FREE-NEWS-001-IOS-SOURCE-SPAN",
+      "markerClass": "SOURCE_SPAN_AND_RESEARCH_MARKER",
+      "boundMeaning": "The current public receipt binds an exact source span and its bytes; the intended UI element and external effect remain separate questions.",
+      "sourceRefs": [
+        "FREE_NEWS_001_IOS_MARKER_AND_401_EDGE.md"
+      ],
+      "doesNotEstablish": [
+        "APPLE_PARTICIPATION",
+        "OPERATING_SYSTEM_EFFECT",
+        "EXTERNAL_CAUSATION",
+        "OWNERSHIP"
+      ],
+      "evidenceState": "LOCAL_PUBLIC_SOURCE_BOUND"
+    },
+    {
+      "id": "MICROSOFT-PKI-PUBLIC-RECORD",
+      "definitionId": "FREE-NEWS-MICROSOFT-PKI-REPOSITORY-PATTERN",
+      "markerClass": "PUBLIC_POLICY_CERTIFICATE_STATUS_AND_AUDIT_RECORD",
+      "boundMeaning": "The public repository documents named Microsoft PKI policies, certificates, status and bounded audit opinions.",
+      "sourceRefs": [
+        "MICROSOFT_PKI_REPOSITORY_PATTERN.md"
+      ],
+      "doesNotEstablish": [
+        "PUBLIC_WRITE_AUTHORITY",
+        "CONTROL_OF_ALL_MICROSOFT_SYSTEMS",
+        "UNIVERSAL_TRUST",
+        "RESEARCH_DERIVATION"
+      ],
+      "evidenceState": "LOCAL_PUBLIC_SOURCE_BOUND"
+    },
+    {
+      "id": "FRANKFURT-SNAPSHOT",
+      "definitionId": "UNBOUND-USER-REFERENCE-2026-09-10",
+      "markerClass": "UNKNOWN_REFERENT",
+      "boundMeaning": null,
+      "sourceRefs": [],
+      "requiredReceipt": [
+        "EXACT_PUBLIC_FILE_OR_URL",
+        "CAPTURE_TIME_AND_TIMEZONE",
+        "BYTE_OR_IMAGE_DIGEST",
+        "VISIBLE_SOURCE_CONTEXT",
+        "DECLARED_RELATION_QUESTION"
+      ],
+      "doesNotEstablish": [
+        "IDENTITY",
+        "LOCATION",
+        "AUTHORSHIP",
+        "CAUSALITY",
+        "OWNERSHIP"
+      ],
+      "evidenceState": "UNKNOWN_REOPENABLE"
+    }
+  ],
+  "invariants": [
+    "MARKER_FORM_DOES_NOT_INHERIT_UNRELATED_SEMANTICS",
+    "A DECODED IDENTIFIER STILL REQUIRES ITS REGISTRY_AND_SCOPE",
+    "A TRANSPORT_SECURITY PROPERTY IS NOT A CONTENT_TRUTH PROPERTY",
+    "A SERVER_ERROR STATUS IS NOT AN ATTRIBUTION_OR_INTENT_FINDING",
+    "AN UNKNOWN SNAPSHOT REFERENT REMAINS OPEN_WITH_AN_EXACT_REOPEN_TRIGGER"
+  ],
+  "claimCeiling": "SOURCE_BOUND_MARKER_FUNCTIONS_AND_EXPLICIT_UNKNOWN_REFERENT_ONLY_NOT_IDENTITY_AUTHORSHIP_CAUSALITY_COPYING_CONTROL_OWNERSHIP_OR_LEGAL_ENTITLEMENT_PROOF"
+}

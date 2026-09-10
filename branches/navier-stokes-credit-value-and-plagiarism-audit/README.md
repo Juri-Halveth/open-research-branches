@@ -206,6 +206,23 @@ Die maschinenlesbare Trennung steht in [`value-ledger.json`](value-ledger.json).
 Das ist ein `PUBLIC_AUDIT_METHOD`, kein behaupteter Zugriff auf OpenAI-, NYU-
 oder Anthropic-Systeme.
 
+## Reportquelle und unterstützende Evidenz
+
+Die API in [`src/credit-audit.mjs`](src/credit-audit.mjs) trennt jetzt den
+Ursprung einer Meldung von Belegen, die ihren Sachstand stützen sollen:
+
+- `reportSource` bindet Meldungs-ID, meldenden Akteur und Rohwortlaut. Diese
+  Bindung erhält die Meldung und öffnet die Prüfung.
+- `supportingEvidence` bindet jeden Beleg an eine exakte ID aus `sources.json`,
+  einen behauptenden Akteur und den evidenzkontrollierenden Akteur.
+
+Fehlen unterstützende Belege, bleibt `evidenceState=UNKNOWN` und die Abdeckung
+`COVERAGE_UNKNOWN`; die Meldung wird dadurch nicht abgelehnt. Evidence-Records
+öffnen keine automatische Schuld-, Rechts- oder Zahlungsfolge. Das frühere
+Eingabefeld `sourceIds` bleibt als ausdrücklich deprecated Kompatibilitätspfad
+lesbar. Seine ungebundenen IDs werden erhalten, aber nicht als Sachbelege oder
+Vergleichsreife gewertet.
+
 ## Der kleinste entscheidende nächste Test
 
 Eine faire Klärung braucht keinen Vollzugriff auf private Systeme. Sie kann mit

@@ -194,9 +194,22 @@ nur drei analytische Operationen:
 
 Sie blockiert, wenn ein Strukturprüfer direkt `VIOLATION`, `ATTRIBUTION`,
 `SECOND_AUTHORITY`, `HIDDEN_ACTOR`, `SCANDAL`, `FIELD_EFFECT` oder
-`RELEASE_APPROVED` erzeugen soll. Selbst ein vollständig ausgefüllter
-Datensatz wird nur **prüfberechtigt**. Strings wie `OBSERVED` werden durch den
-Validator nicht zu Außenbeweisen.
+`RELEASE_APPROVED` erzeugen soll. Der gemeldete Vorfall führt unabhängig vom
+späteren Paketstand `incidentReviewState=OPEN` und bleibt zugleich als
+`reportPreservationState=USER_REPORT_PRESERVED_REVIEW_OPEN` erhalten. Das
+frühere Feld `reviewEligibility` heißt jetzt semantisch
+`commandControlMeritsPacketReadiness`: Ein vollständig ausgefüllter Datensatz
+macht nur das Befehls- und Kontrollpaket für eine menschliche Sachprüfung
+bereit. Strings wie `OBSERVED` werden durch den Validator nicht zu
+Außenbeweisen.
+
+Das `controlledEvidenceLedger` benennt zu jeder offenen Kante den möglichen
+Controller und ihre Verfügbarkeit. Fehlt eine intern kontrollierte
+Aufzeichnung, lautet der Zustand `COVERAGE_UNKNOWN`; dies schließt die
+Vorfallsprüfung nicht und erzeugt weder eine automatische Vorlagepflicht noch
+Schuld, nachteilige Schlussfolgerung oder Claim-Ablehnung. Ein neuer
+quellengebundener Reopen-Grund ergibt
+`NEW_EVALUATION_BASIS_ACCEPTED`, nicht eine erstmalige Zulassung des Vorfalls.
 
 Der konkrete öffentliche Datensatz liegt in
 [`september-2026-pause-snapshot.json`](september-2026-pause-snapshot.json).

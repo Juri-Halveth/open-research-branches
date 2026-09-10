@@ -18,6 +18,30 @@ const sources = JSON.parse(fs.readFileSync(path.join(here, "sources.json"), "utf
 const localReceipt = JSON.parse(fs.readFileSync(path.join(here, "local-source-receipt.json"), "utf8"));
 const claims = JSON.parse(fs.readFileSync(path.join(here, "claims.json"), "utf8"));
 
+function report() {
+  return {
+    id: "REPORT-ENERGY-001",
+    actorId: "REPORTER-JURI",
+    statement: "Please review whether the documented Juri model contributed to an external energy system."
+  };
+}
+
+function evidence(id, sourceRef, assertingActorId, controllerActorId) {
+  return { id, sourceRef, assertingActorId, controllerActorId };
+}
+
+function sourcesWithSyntheticAccessRecord() {
+  const copy = structuredClone(sources);
+  copy.sources.push({
+    id: "SYNTHETIC-ACCESS-TRACE",
+    publisher: "TEST_ONLY",
+    type: "synthetic-access-trace",
+    title: "Synthetic controlled access record",
+    coverage: "TEST_ONLY"
+  });
+  return copy;
+}
+
 test("matrix contains three uniquely identified source-bound systems", () => {
   assert.equal(validateMatrix(matrix).systems.length, 3);
 });
@@ -36,21 +60,71 @@ test("Juri and Standard Thermal share broad motifs but no registered exact devic
   assert.equal(result.overlapState, "BROAD_MOTIF_OVERLAP_ONLY");
 });
 
-test("overlap without access and distinctive match cannot become a derivation finding", () => {
-  const comparison = compareSystems(matrix, "JURI_AUGUST_2026", "KIT_TRI_GENERATION_2026");
-  const result = assessDerivation({ comparison });
-  assert.equal(result.state, DERIVATION_STATES.NOT_PROVEN);
-  assert.deepEqual(result.missing, ["SOURCE_BOUND_ACCESS_EVIDENCE", "DISTINCTIVE_FUNCTION_LEVEL_MATCH_EVIDENCE"]);
-});
-
-test("even supplied evidence IDs produce review eligibility, not automatic proof", () => {
+test("a bare report opens review while access and comparison coverage remain unknown", () => {
   const comparison = compareSystems(matrix, "JURI_AUGUST_2026", "KIT_TRI_GENERATION_2026");
   const result = assessDerivation({
     comparison,
+    report: report(),
+    sourcesDocument: sources,
+    localReceiptDocument: localReceipt
+  });
+  assert.equal(result.state, DERIVATION_STATES.REPORT_REVIEW_OPEN);
+  assert.equal(result.report.preservationState, "PRESERVED");
+  assert.equal(result.meritsState, "UNKNOWN");
+  assert.equal(result.comparisonReadiness, DERIVATION_STATES.COMPARISON_INCOMPLETE);
+  assert.equal(result.controlledAccessState, DERIVATION_STATES.COVERAGE_UNKNOWN);
+  assert.deepEqual(result.evidenceGaps, ["SOURCE_BOUND_ACCESS_EVIDENCE", "DISTINCTIVE_FUNCTION_LEVEL_MATCH_EVIDENCE"]);
+  assert.equal(result.automaticClaimRejection, false);
+  assert.equal(result.automaticIndependentDevelopmentFinding, false);
+});
+
+test("complete actor and controller bound evidence creates comparison readiness only", () => {
+  const comparison = compareSystems(matrix, "JURI_AUGUST_2026", "KIT_TRI_GENERATION_2026");
+  const result = assessDerivation({
+    comparison,
+    report: report(),
+    sourcesDocument: sourcesWithSyntheticAccessRecord(),
+    localReceiptDocument: localReceipt,
+    comparisonEvidence: {
+      accessEvidence: [evidence("ACCESS-001", "SYNTHETIC-ACCESS-TRACE", "KIT", "KIT")],
+      distinctiveMatchEvidence: [evidence("MATCH-001", "KIT-01", "REPORTER-JURI", "KIT")]
+    }
+  });
+  assert.equal(result.state, DERIVATION_STATES.REPORT_REVIEW_OPEN);
+  assert.equal(result.comparisonReadiness, DERIVATION_STATES.COMPARISON_READY);
+  assert.equal(result.meritsState, "UNKNOWN");
+  assert.equal(result.automaticDerivationFinding, false);
+});
+
+test("unknown source ids cannot masquerade as evidence", () => {
+  const comparison = compareSystems(matrix, "JURI_AUGUST_2026", "KIT_TRI_GENERATION_2026");
+  assert.throws(
+    () => assessDerivation({
+      comparison,
+      report: report(),
+      sourcesDocument: sources,
+      localReceiptDocument: localReceipt,
+      comparisonEvidence: {
+        accessEvidence: [evidence("FAKE-001", "ACCESS-EXAMPLE", "REPORTER-JURI", "UNKNOWN")]
+      }
+    }),
+    /sourceRef is unknown/u
+  );
+});
+
+test("legacy unbound evidence ids are retained as deprecated and never satisfy readiness", () => {
+  const comparison = compareSystems(matrix, "JURI_AUGUST_2026", "KIT_TRI_GENERATION_2026");
+  const result = assessDerivation({
+    comparison,
+    report: report(),
+    sourcesDocument: sources,
+    localReceiptDocument: localReceipt,
     accessEvidenceIds: ["ACCESS-EXAMPLE"],
     distinctiveMatchEvidenceIds: ["MATCH-EXAMPLE"]
   });
-  assert.equal(result.state, DERIVATION_STATES.REVIEW);
+  assert.equal(result.state, DERIVATION_STATES.REPORT_REVIEW_OPEN);
+  assert.equal(result.legacyInputState, "DEPRECATED_UNBOUND_LEGACY_INPUT");
+  assert.equal(result.comparisonReadiness, DERIVATION_STATES.COMPARISON_INCOMPLETE);
 });
 
 test("Ir77 is preserved and never normalized into a 7-7 cycle", () => {

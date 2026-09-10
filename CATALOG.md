@@ -30,6 +30,8 @@ Collection state: `FINITE_SNAPSHOT`
 | `quantum-internet-aster-mirror-audit` | Welche Quanteninternet-Bauteile sind demonstriert, und was tragen Funktion und Zeitlinie für den getrennten ASTER-/ASTAR-/ASTRA-Vergleich | `FINITE_SNAPSHOT` | neuer Primärbeleg für eine längere Repeaterkette, eine Anwendung oder eine konkrete, quellengebundene Provenienzbrücke |
 | `historical-cipher-decoding-challenge` | Welche vollständige, versionsgebundene Beweiskette macht eine behauptete historische Entschlüsselung unabhängig wiederholbar? | `FINITE_SNAPSHOT` | Exakte Ciphertextbytes, Transkriptions- und Segmentierungsvertrag, Schlüssel- oder Modellversion, Code-, Korpus- und Umgebungs-Snapshot, Seeds sowie unabhängige Gold- oder Held-out-Auswertung werden gemeinsam veröffentlicht. |
 | `alice-media-referent-and-agency-audit` | Welche Alice-Geschichte ist gemeint, durch welchen Storymechanismus wird ihre Agency verändert, und wie werden Meldung, Belegzugang und Vergleichsreife reziprok getrennt? | `FINITE_SNAPSHOT` | Jeder Bericht öffnet Sicherung und Prüfung; ein exakter Titel, Clip, Schauspieler oder Szenenmarker erhöht anschließend nur die Vergleichsreife. |
+| `fingertip-spark-esd-spacecraft-audit` | Welche physikalischen oder optischen Modelle passen zu Juris berichteten sichtbaren Fünktchen an den Fingerspitzen, und welche ESD-Brücke zur Raumfahrtelektronik ist tatsächlich belegt? | `FINITE_SNAPSHOT` | Passive Zwei-Kamera-Aufnahme mit festem Hintergrund, Raumton und lokal erhaltenen Originalen; keine absichtliche Aufladung, Hochspannung oder Gewitterrekonstruktion. |
+| `priority-evidence-and-regress-audit` | Was belegen Snapshot, öffentliche Zugänglichkeit, Kenntnis, Ableitung, Rechtsverletzung, Anspruch und Höhe jeweils getrennt, und wie bleibt eine Meldung bei Beweisen in der Gegnersphäre prüfbar? | `FINITE_SNAPSHOT` | Ein minimierter konkreter Artefaktvergleich, eine neue amtliche Quelle oder ein autorisiert exportierter interner Beleg stärkt jeweils nur die dazugehörige Achse. |
 
 ## Audit Star
 
@@ -44,6 +46,11 @@ Bereits öffentliche Hauptprojekte werden nur verlinkt:
 
 - [Lernstudio](https://github.com/Juri-Halveth/lernstudio)
 - [HALVETH Tresor](https://github.com/Juri-Halveth/halveth-tresor)
+
+Der zeitgebundene Vollständigkeitsstand aller vier beim Abruf sichtbaren
+öffentlichen, nicht geforkten Repositorys liegt in
+[`catalog/public-project-snapshot.json`](catalog/public-project-snapshot.json)
+und [`FREE NEWS 016`](reports/FREE_NEWS_016_PUBLIC_GITHUB_PROJECT_CONSTELLATION.md).
 
 Themen, die im aktuellen Auftrag genannt, aber noch nicht an einen geprüften
 öffentlichen Ursprung gebunden wurden, stehen getrennt im

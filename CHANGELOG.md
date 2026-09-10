@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.12.0 — 2026-09-10
+
+- added a report-first fingertip-spark audit that preserves Juris stated observation, compares six source-bound physical and imaging models, and keeps the event mechanism open
+- connected electrostatic discharge to spacecraft engineering only through documented human-charge and sensitive-electronics risk, then supplied a passive two-camera and room-audio observation plan with explicit high-voltage and storm-recreation stops
+- added a source-bound priority, credit, participation, evidence-access and regress router with seven non-converting axes, twenty-four official sources and thirteen separately reviewable routes
+- preserved reports even when decisive records are controlled by another actor; production, inspection, secondary-substantiation and amount routes remain conditional and never become automatic findings
+- corrected one-sided evidence gates in the quantum, solar, Russia-Ukraine and Navier-Stokes audits so intake stays open while controller-bound evidence affects only comparison or merits readiness
+- inventoried all four public non-fork repositories visible on the project account at the captured time, including bound heads, trees, file counts, tags, releases and workflow states
+- added a marker matrix for CE, GS1 barcodes, HTTPS, HTTP 500, Git snapshots, the existing iOS source marker and Microsoft PKI records; the unbound Frankfurt snapshot remains explicitly reopenable
+- retained private repositories, raw chats, screenshots, account data, device traces, secrets and unrelated local archives outside the public release
+
 ## 0.11.1 — 2026-09-10
 
 - replaced the Alice audit's one-sided three-evidence intake gate with a report-first reciprocal evidence contract: every bound report is preserved and opens review while merits remain `UNKNOWN`
