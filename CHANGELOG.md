@@ -1,5 +1,12 @@
 # Changelog
 
+## Unreleased
+
+- added Square Relations: a bilingual local prototype with four visual sectors, all undirected pairs and a complete selectable matrix including self cells
+- retained literal words, emojis, hearts, symbols, numbers, duplicate labels and empty or whitespace lines as separate input occurrences
+- exposed the 64-block and 8,192-UTF-8-byte input limits as errors without truncation; bound the accepted editor input to a SHA-256 digest
+- linked the 27th branch from the research-room entrance, project catalog and code Wiki; retained the existing MIT and CC BY license grants
+
 ## 0.18.0 — 2026-09-10
 
 - added a 43-source report on nuclear power, military finance, currency reserves, historical fallout, compensation and disarmament

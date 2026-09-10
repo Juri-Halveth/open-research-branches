@@ -21,7 +21,7 @@ Hier treffen Software, Naturbeobachtung, Sprache und gesellschaftliche Fragen au
 | **🌱 [Natur & Beobachtung](wiki/Natur-und-Beobachtung.md)**<br>Pflanzen, Wahrnehmung, Protokolle und die Frage, was eine Beobachtung trägt. | **🎮 [Digitale Plattformen](wiki/Digitale-Plattformen.md)**<br>Steam, Wallets, Browser-Erweiterungen und transparente Produktfunktionen. |
 | **🔭 [Thesen & Forschungsfragen](wiki/Thesen-und-Forschungsfragen.md)**<br>Offene Gedanken, Gegenmodelle und konkrete nächste Untersuchungen. | **🗂️ [Belege & Zeitlinien](wiki/Belege-und-Zeitlinien.md)**<br>Quellen, veröffentlichte Fassungen, Prioritätsfragen und nachvollziehbare Herkunft. |
 
-**26 Forschungsäste** sind im [Projektverzeichnis](wiki/Projekte.md) einzeln beschrieben. Das [Glossar](wiki/Glossar.md) erklärt die Begriffe; der [Berichtsindex](reports/README.md) führt zu den öffentlichen Audits.
+**27 Forschungsäste** sind im [Projektverzeichnis](wiki/Projekte.md) einzeln beschrieben. Das [Glossar](wiki/Glossar.md) erklärt die Begriffe; der [Berichtsindex](reports/README.md) führt zu den öffentlichen Audits.
 
 ## Drei Wege zum Einstieg
 
@@ -32,6 +32,10 @@ Hier treffen Software, Naturbeobachtung, Sprache und gesellschaftliche Fragen au
 | **mitdenken und beitragen** | [Mitmachen](wiki/Mitmachen.md) | Fragen, Quellenkorrekturen, eigene Ergebnisse und freiwillige Zusammenarbeit. |
 
 ## Einblicke in die Sammlung
+
+**Alles zueinander im Quadrat**
+
+Wörter, Emojis, Herzen, Striche und Zahlen als einzelne Blöcke in vier Sektoren: alle Paare bleiben verbunden und in einer vollständigen Matrix auffindbar. [Prototyp und Startbefehle](branches/square-relations/README.md) · [English documentation](branches/square-relations/README.en.md)
 
 **Atomwaffen, Macht und Geld**
 
@@ -116,6 +120,7 @@ Sicherheitsmeldungen gehören nicht hierher.
 | Ast | Form | Stand |
 | --- | --- | --- |
 | `focus-kernel` | lokaler Entscheidungsprototyp | reproduzierbarer M1-Stand, M2 offen |
+| `square-relations` | vier Sektoren, vollständiger Paargraph und auswählbare Matrix für Textblöcke | `PUBLIC_DERIVATIVE` |
 | `document-issue-reference-verifier` | synthetischer Referenzprüfer | reproduzierbarer Ableger |
 | `bounded-knowledge-reuse-inventory` | begrenztes Inventarverfahren | reproduzierbarer Ableger |
 | `pixel-region-change-observer` | Offline-Vergleich synthetischer Pixelmatrizen | reproduzierbarer Ableger |

@@ -1,6 +1,6 @@
 # Branch Catalog
 
-Stand: 2026-09-10
+Stand: 2026-09-11
 Collection state: `FINITE_SNAPSHOT`
 
 ## Reproduzierbare Ableger
@@ -12,6 +12,7 @@ Collection state: `FINITE_SNAPSHOT`
 | `bounded-knowledge-reuse-inventory` | Wie inventarisiert man wiederverwendbares Wissen ohne Quellarchive zu kopieren | begrenzte Metadatenansicht | Lizenz- und Provenienzadapter |
 | `pixel-region-change-observer` | Wie meldet man eine Renderänderung ohne ihre Ursache zu erfinden | Offline-Pixeldifferenz | robuste Bildformate und Messunsicherheit |
 | `aster-provenance-and-secret-garden` | Wie bindet man Juris ASTER-Urheberschaft, Namensresonanz und eine offene Erzählwelt ohne das private Gesamtsystem offenzulegen | `LUCINET::ASTER`-Provenienz; keine globale Namens- oder Übertragungsbehauptung | unabhängiger Zeitanker, messbarer Resonanztest oder ein fortgesetzter Projektkeim |
+| [`square-relations`](branches/square-relations/README.md) | Wie stehen Wörter, Emojis, Herzen, Zahlen und Zeichen in vier Sektoren mit allen Paarbezügen zusammen | lokales Vergleichsmodell mit vollständiger Matrix | weitere synthetische Eingaben und zugängliche Darstellungsvarianten |
 
 ## Offene Forschungsäste
 

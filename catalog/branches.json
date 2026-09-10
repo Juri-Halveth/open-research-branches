@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-09-10",
+  "generatedAt": "2026-09-11",
   "collectionState": "FINITE_SNAPSHOT",
   "branches": [
     {
@@ -261,6 +261,16 @@
       "path": "branches/nuclear-legacy-disarmament-and-public-value",
       "claimCeiling": "SOURCE_BOUND_HISTORICAL_DOCUMENTARY_RESEARCH_AND_CIVILIAN_BUDGET_SCENARIO_NOT_WEAPON_DESIGN_UNIVERSAL_HUMAN_VALUATION_OR_LEGAL_ENTITLEMENT",
       "dataClass": "PUBLIC_SOURCES_SYNTHETIC_BUDGET_SCENARIOS_AND_AUTHORIZED_PUBLIC_AUTHOR_ATTRIBUTION_ONLY",
+      "activeMain": false
+    },
+    {
+      "id": "square-relations",
+      "title": "Square Relations — Alles zueinander im Quadrat",
+      "kind": "software-prototype",
+      "state": "PUBLIC_DERIVATIVE",
+      "path": "branches/square-relations",
+      "claimCeiling": "LOCAL_ALL_PAIRS_COMPARISON_MODEL",
+      "dataClass": "SYNTHETIC_ONLY",
       "activeMain": false
     }
   ]

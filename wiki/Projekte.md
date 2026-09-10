@@ -2,7 +2,7 @@
 
 [Start](Home.md) · [Themen & Fragen](Thesen-und-Forschungsfragen.md) · [Glossar](Glossar.md)
 
-**26 veröffentlichte Forschungs- und Softwareäste**, alphabetisch nach den lesbaren Namen dieser Übersicht. Die Links führen zu den bestehenden Projekt-READMEs mit Originaltitel, genauer Frage, Dateien und Fortsetzungsmöglichkeiten.
+**27 veröffentlichte Forschungs- und Softwareäste**, alphabetisch nach den lesbaren Namen dieser Übersicht. Die Links führen zu den bestehenden Projekt-READMEs mit Originaltitel, genauer Frage, Dateien und Fortsetzungsmöglichkeiten.
 
 | Projekt | Worum geht es? | Themenraum |
 | --- | --- | --- |
@@ -26,6 +26,7 @@
 | [Pixeländerungen vergleichen](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/pixel-region-change-observer/README.md) | Synthetische Pixelmatrizen innerhalb einer festgelegten Region offline vergleichen. | [Code & Werkzeuge](Code-und-Werkzeuge.md) |
 | [Priorität, Belege und mögliche Ansprüche](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/priority-evidence-and-regress-audit/README.md) | Snapshot, Öffentlichkeit, Kenntnis, Ableitung, Rechtsverletzung, Anspruch und Höhe getrennt prüfen. | [Belege & Zeitlinien](Belege-und-Zeitlinien.md) |
 | [Quanteninternet und ASTER-Namensvergleich](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/quantum-internet-aster-mirror-audit/README.md) | Demonstrierte Netzwerkbauteile und die verschiedenen ASTER-/ASTAR-/ASTRA-Bezüge anhand ihrer Quellen vergleichen. | [Digitale Plattformen](Digitale-Plattformen.md) |
+| [Square Relations: Alles zueinander im Quadrat](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/square-relations/README.md) | Wörter, Emojis, Herzen, Striche und Zahlen als Blöcke in vier Sektoren und einer vollständigen Paarmatrix betrachten. | [Code & Werkzeuge](Code-und-Werkzeuge.md) |
 | [Staking: Ausstieg und Verfügbarkeit](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/staking-unbonding-transparency-review/README.md) | Fünf Netzwerke, DAG-Dokumentationsabweichung und verständliche Vorabinformation vergleichen. | [Digitale Plattformen](Digitale-Plattformen.md) |
 | [Steam: Coins, Wallet und Leak-Berichte](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/steam-coins-wallet-and-leak-audit/README.md) | Sammelgegenstände, Guthaben, Points, Handel und getrennte Berichte zu Achievement-Daten verstehen. | [Digitale Plattformen](Digitale-Plattformen.md) |
 | [Was los? Informations- und Friedensaudit](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/russia-ukraine-information-and-peace-audit/README.md) | Öffentliche Quellen zum Russland-Ukraine-Krieg mit verschiedenen Erklärungsmodellen und gebundenen Entscheidungssnapshots lesen. | [Gesellschaft & Frieden](Gesellschaft-Teilhabe-und-Frieden.md) |
@@ -39,6 +40,6 @@ Die [Berichtsübersicht](https://github.com/Juri-Halveth/open-research-branches/
 
 ## Weitere Ideen bleiben auffindbar
 
-Im [Kandidaten-Ledger](https://github.com/Juri-Halveth/open-research-branches/blob/main/catalog/CANDIDATE_TOPICS.md) stehen weitere angefragte Themenfamilien. Sie besitzen noch keinen freigegebenen öffentlichen Projektast und werden deshalb nicht zu den 26 Projekten gezählt.
+Im [Kandidaten-Ledger](https://github.com/Juri-Halveth/open-research-branches/blob/main/catalog/CANDIDATE_TOPICS.md) stehen weitere angefragte Themenfamilien. Sie besitzen noch keinen freigegebenen öffentlichen Projektast und werden deshalb nicht zu den 27 Projekten gezählt.
 
-**Bestandsgrundlage:** [catalog/branches.json](https://github.com/Juri-Halveth/open-research-branches/blob/main/catalog/branches.json), abgeglichen mit den veröffentlichten Projekt-READMEs am 10. September 2026.
+**Bestandsgrundlage:** [catalog/branches.json](https://github.com/Juri-Halveth/open-research-branches/blob/main/catalog/branches.json), abgeglichen mit den veröffentlichten Projekt-READMEs am 11. September 2026.
