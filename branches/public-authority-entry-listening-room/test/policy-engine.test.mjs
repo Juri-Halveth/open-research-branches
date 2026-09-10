@@ -297,6 +297,48 @@ test("canonical room validation rejects material changes to the real contract", 
   }
 });
 
+test("canonical room validation rejects accessor-backed array elements", () => {
+  const accessorContract = structuredClone(roomContract);
+  const roles = [];
+  for (const [index, role] of accessorContract.roles.entries()) {
+    Object.defineProperty(roles, String(index), {
+      enumerable: true,
+      configurable: true,
+      get: () => role
+    });
+  }
+  accessorContract.roles = roles;
+
+  const result = validatePublishedRoomContract(accessorContract);
+  assert.equal(result.status, "REJECTED");
+  assert.equal(result.structureBound, false);
+  assert.equal(result.canonicalContractBound, false);
+  assert.equal(result.actualContractDigest, null);
+  assert.ok(result.issues.some(issue => issue.code === "CANONICAL_CONTRACT_SERIALIZATION_FAILED"));
+});
+
+test("contract structure is evaluated from the same canonical snapshot as its digest", () => {
+  const canonicalContract = structuredClone(roomContract);
+  const changedRoles = structuredClone(roomContract.roles);
+  changedRoles.find(role => role.roleId === "LISTENING_STEWARD").minimumOnDuty = 0;
+  let directRolesReads = 0;
+  const changingView = new Proxy(canonicalContract, {
+    get(target, property, receiver) {
+      if (property === "roles") {
+        directRolesReads += 1;
+        return changedRoles;
+      }
+      return Reflect.get(target, property, receiver);
+    }
+  });
+
+  const result = validatePublishedRoomContract(changingView);
+  assert.equal(result.status, "STRUCTURE_BOUND");
+  assert.equal(result.canonicalContractBound, true);
+  assert.equal(result.actualContractDigest, result.expectedContractDigest);
+  assert.equal(directRolesReads, 0);
+});
+
 test("the published contract separates current law from the proposed duty", () => {
   assert.equal(
     roomContract.currentLegalState,

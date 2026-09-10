@@ -3,7 +3,7 @@
 ## 0.13.1 — 2026-09-10
 
 - bound the published authority-entry room contract to a versioned canonical JSON SHA-256 digest, so changes to its legal status, claim ceiling, privacy rules or any other field can no longer pass as the canonical contract
-- made canonical contract validation invariant to object-key insertion order while preserving array order and rejecting non-JSON structures
+- made canonical contract validation use one materialized snapshot for both digest and structure checks, preserve array order, ignore object-key insertion order, and reject accessor-backed, sparse or symbol-bearing structures
 - closed the catalog-completeness gate by requiring a one-to-one match between every first-level `branches/` directory and `catalog/branches.json`, including unique canonical paths and a branch README
 - added six offline catalog regression tests for omitted, duplicate, escaping and missing branch paths with deterministic privacy-safe errors
 - corrected the provenance guide to describe current-path history without rename inference and to verify the exact release asset names plus `SHA256SUMS`

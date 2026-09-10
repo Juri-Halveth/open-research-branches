@@ -151,7 +151,11 @@ function canonicalJsonV1(value, ancestors = new Set()) {
           expectedKeys.some(key => !Object.hasOwn(value, key))) {
         throw new TypeError("canonical JSON arrays must be dense and contain no extra properties");
       }
-      return `[${expectedKeys.map(key => canonicalJsonV1(value[key], ancestors)).join(",")}]`;
+      const descriptors = Object.getOwnPropertyDescriptors(value);
+      if (expectedKeys.some(key => !descriptors[key]?.enumerable || !("value" in descriptors[key]))) {
+        throw new TypeError("canonical JSON array elements must be enumerable data properties");
+      }
+      return `[${expectedKeys.map(key => canonicalJsonV1(descriptors[key].value, ancestors)).join(",")}]`;
     }
     if (!isPlainObject(value)) throw new TypeError("canonical JSON objects must be plain objects");
     const descriptors = Object.getOwnPropertyDescriptors(value);
@@ -171,10 +175,6 @@ function canonicalJsonV1(value, ancestors = new Set()) {
   } finally {
     ancestors.delete(value);
   }
-}
-
-function canonicalContractDigest(contract) {
-  return createHash("sha256").update(canonicalJsonV1(contract), "utf8").digest("hex");
 }
 
 function addIssue(issues, code, path) {
@@ -554,8 +554,11 @@ export function validateListeningRoomDesign(design) {
 export function validatePublishedRoomContract(contract) {
   const issues = [];
   let actualContractDigest = null;
+  let validationSnapshot = null;
   try {
-    actualContractDigest = canonicalContractDigest(contract);
+    const canonicalContract = canonicalJsonV1(contract);
+    actualContractDigest = createHash("sha256").update(canonicalContract, "utf8").digest("hex");
+    validationSnapshot = JSON.parse(canonicalContract);
   } catch {
     addIssue(issues, "CANONICAL_CONTRACT_SERIALIZATION_FAILED", "contract");
   }
@@ -577,29 +580,29 @@ export function validatePublishedRoomContract(contract) {
       canonicalizationVersion: ROOM_CONTRACT_CANONICAL_BINDING.canonicalizationVersion,
       expectedContractDigest: ROOM_CONTRACT_CANONICAL_BINDING.expectedSha256,
       actualContractDigest,
-      contractId: isPlainObject(contract) && typeof contract.contractId === "string"
-        ? contract.contractId
+      contractId: isPlainObject(validationSnapshot) && typeof validationSnapshot.contractId === "string"
+        ? validationSnapshot.contractId
         : null
     };
   };
-  if (!isPlainObject(contract)) {
+  if (!isPlainObject(validationSnapshot)) {
     addIssue(issues, "EXPECTED_PLAIN_OBJECT", "contract");
     return finish();
   }
-  if (!isPlainObject(contract.unit)) {
+  if (!isPlainObject(validationSnapshot.unit)) {
     addIssue(issues, "EXPECTED_PLAIN_OBJECT", "contract.unit");
   }
-  if (!Array.isArray(contract.roles)) {
+  if (!Array.isArray(validationSnapshot.roles)) {
     addIssue(issues, "EXPECTED_ARRAY", "contract.roles");
   }
   if (issues.length > 0) {
     return finish();
   }
 
-  const listeningRoles = contract.roles.filter(
+  const listeningRoles = validationSnapshot.roles.filter(
     role => isPlainObject(role) && role.roleId === "LISTENING_STEWARD"
   );
-  const safetyRoles = contract.roles.filter(
+  const safetyRoles = validationSnapshot.roles.filter(
     role => isPlainObject(role) && role.roleId === "SAFETY_FUNCTION"
   );
   if (listeningRoles.length !== 1) {
@@ -634,12 +637,12 @@ export function validatePublishedRoomContract(contract) {
     );
   }
   const result = validateListeningRoomDesign({
-    version: contract.schemaVersion,
-    unitType: contract.unit.type,
-    coverageWindow: contract.unit.coverageWindow,
+    version: validationSnapshot.schemaVersion,
+    unitType: validationSnapshot.unit.type,
+    coverageWindow: validationSnapshot.unit.coverageWindow,
     minimumListeningStaffOnDuty: listeningRole.minimumOnDuty,
     backupCoverageDefined: listeningRole.backupRequired,
-    lowStimulusProtocolVersion: contract.unit.lowStimulusProtocolVersion,
+    lowStimulusProtocolVersion: validationSnapshot.unit.lowStimulusProtocolVersion,
     listeningRoleHasEnforcementPowers: listeningRole.hasEnforcementPowers,
     separateSafetyFunctionAvailable:
       safetyRole.availability === "REACHABLE_DURING_PUBLIC_OPENING_HOURS",
