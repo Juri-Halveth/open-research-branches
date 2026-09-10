@@ -21,6 +21,7 @@
         "branches/solar-and-thermal-provenance-audit/component-matrix.json",
         "branches/solar-and-thermal-provenance-audit/local-source-receipt.json",
         "branches/solar-and-thermal-provenance-audit/README.md",
+        "branches/staking-unbonding-transparency-review/README.md",
         "branches/steam-coins-wallet-and-leak-audit/build_pdf.py",
         "branches/steam-coins-wallet-and-leak-audit/README.md",
         "branches/wax-crayon-peace-helmet-audit/ARTIFACTS.md",
@@ -46,6 +47,7 @@
         "reports/FREE_NEWS_018_PUBLIC_AUTHORITY_ENTRY_LISTENING_ROOM.md",
         "reports/FREE_NEWS_019_XXXLUTZ_PORTA_TAKEOVER_AND_EMPLOYEE_PARTICIPATION.md",
         "reports/FREE_NEWS_020_STEAM_COINS_WALLET_AND_LEAK_AUDIT.md",
+        "reports/FREE_NEWS_021_STAKING_UNBONDING_AND_TRANSPARENCY.md",
         "wiki/Home.md",
         "wiki/Rechte-und-Nutzung.md"
       ]
@@ -130,6 +132,15 @@
       "files": [
         "catalog/public-identities.json",
         "catalog/public-project-snapshot.json"
+      ]
+    },
+    {
+      "exactText": "info@constellationnetwork.io",
+      "authorizationState": "PUBLIC_CORPORATE_CONTACT_VERIFIED_IN_OFFICIAL_TERMS_FOR_USER_REQUESTED_COMPLAINT_TOPIC",
+      "authorizedAt": "2026-09-10",
+      "files": [
+        "catalog/public-identities.json",
+        "reports/FREE_NEWS_021_STAKING_UNBONDING_AND_TRANSPARENCY.md"
       ]
     }
   ]
