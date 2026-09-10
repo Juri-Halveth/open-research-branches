@@ -1,5 +1,7 @@
 # Fünkchen an den Fingerspitzen × ESD × Raumfahrtelektronik
 
+[Forschungsraum](../../README.md) · [Themenwiki](../../wiki/Home.md) · [Diskussion](https://github.com/Juri-Halveth/open-research-branches/discussions)
+
 ## Ein offener, ausführbarer Mechanismen-Audit
 
 Juri berichtet: **„Fünktchen wie Thor an meinen Fingern.“** Dieser Ast erhält

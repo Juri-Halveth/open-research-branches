@@ -1,5 +1,7 @@
 # De-identified Self-Observation Protocol
 
+[Forschungsraum](../../README.md) · [Themenwiki](../../wiki/Home.md) · [Diskussion](https://github.com/Juri-Halveth/open-research-branches/discussions)
+
 ## Öffentliche Forschungsfrage
 
 Wie kann ein leeres Eigenbeobachtungsschema Messbedingungen und Unsicherheit

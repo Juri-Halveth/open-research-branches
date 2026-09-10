@@ -1,5 +1,7 @@
 # Visual Interpretation Boundary
 
+[Forschungsraum](../../README.md) · [Themenwiki](../../wiki/Home.md) · [Diskussion](https://github.com/Juri-Halveth/open-research-branches/discussions)
+
 ## Öffentliche Forschungsfrage
 
 Wie bleibt eine Bildbeschreibung reproduzierbar, ohne sichtbare Merkmale

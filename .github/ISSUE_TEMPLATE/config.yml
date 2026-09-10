@@ -1,6 +1,11 @@
 blank_issues_enabled: true
 contact_links:
+  - name: Themen und Projekte entdecken
+    url: https://github.com/Juri-Halveth/open-research-branches/blob/main/wiki/Home.md
+    about: Im Wiki nach Thema einsteigen und passende Forschungsäste finden.
+  - name: Offener Diskussionsraum
+    url: https://github.com/Juri-Halveth/open-research-branches/discussions
+    about: Fragen, Forschungsbeiträge, Quellenkorrekturen und Zusammenarbeit besprechen.
   - name: Private security report
     url: https://github.com/Juri-Halveth/open-research-branches/security/advisories/new
     about: Report security issues privately; do not post secrets or exploit details in an issue.
-

@@ -1,0 +1,48 @@
+name: "Zusammenarbeit vorschlagen"
+description: "Wissen, Entwicklung, Gestaltung oder eine gesonderte Zusammenarbeit anbieten."
+title: "[Zusammenarbeit] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Willkommen im HALVETH Forschungsraum. Ein klarer Bezug und ein kleiner nächster Schritt helfen beim gemeinsamen Weiterdenken.
+        [Mitmachen](https://github.com/Juri-Halveth/open-research-branches/blob/main/wiki/Mitmachen.md) · [Rechte & Nutzung](https://github.com/Juri-Halveth/open-research-branches/blob/main/wiki/Rechte-und-Nutzung.md)
+  - type: input
+    id: project
+    attributes:
+      label: "Projekt oder Material"
+      description: "Worauf bezieht sich der Vorschlag? Bei Nutzung bitte Datei und Fassung nennen."
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: "Gemeinsames Ziel und möglicher Beitrag"
+      description: "Was möchtest du erreichen, was kannst du beitragen und was erhoffst du dir vom Projekt?"
+    validations:
+      required: true
+  - type: textarea
+    id: next_step
+    attributes:
+      label: "Kleinster nächster Schritt"
+      description: "Zum Beispiel ein öffentliches Fachgespräch, ein begrenzter Prototyp oder die Klärung eines geeigneten privaten Kanals."
+    validations:
+      required: true
+  - type: textarea
+    id: agreement
+    attributes:
+      label: "Was wäre gesondert zu vereinbaren?"
+      description: "Optional: Leistung, Nutzung, Namensnennung, Finanzierung oder Beteiligung. Keine vertraulichen Beträge, Vertragsdaten oder fremden Namen veröffentlichen."
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
+        Ein Gespräch eröffnet eine Möglichkeit zur Zusammenarbeit. Rechte, Vergütung oder Beteiligung werden erst in einer gesonderten angenommenen Vereinbarung festgelegt; dieser Beitrag ist keine solche Zusage.
+  - type: checkboxes
+    id: public_material
+    attributes:
+      label: "Öffentlicher Beitrag"
+      options:
+        - label: "Ich teile nur Material, das öffentlich sein darf, und keine privaten Daten oder Zugangsdaten."
+          required: true

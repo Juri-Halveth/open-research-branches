@@ -1,5 +1,7 @@
 # XXXLutz, porta und die Beschäftigten
 
+[Forschungsraum](../../README.md) · [Themenwiki](../../wiki/Home.md) · [Diskussion](https://github.com/Juri-Halveth/open-research-branches/discussions)
+
 ## Öffentlicher Übernahme-, Rechte- und Beteiligungsaudit
 
 **Stand:** 10. September 2026

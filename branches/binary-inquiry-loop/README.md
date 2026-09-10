@@ -1,5 +1,7 @@
 # Binary Inquiry Loop
 
+[Forschungsraum](../../README.md) · [Themenwiki](../../wiki/Home.md) · [Diskussion](https://github.com/Juri-Halveth/open-research-branches/discussions)
+
 Öffentliche Fassung von [@Juri-Halveth](https://github.com/Juri-Halveth)
 
 Stand: `2026-09-09` · Zustand: `PUBLIC_DERIVATIVE` · Datenklasse:

@@ -1,5 +1,7 @@
 # Browser Extension Claim Reassessment
 
+[Forschungsraum](../../README.md) · [Themenwiki](../../wiki/Home.md) · [Diskussion](https://github.com/Juri-Halveth/open-research-branches/discussions)
+
 ## Result
 
 The article's binary framing is too coarse, but the opposite conclusion would

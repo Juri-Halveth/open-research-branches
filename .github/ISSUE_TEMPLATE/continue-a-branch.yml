@@ -1,49 +1,51 @@
-name: Continue an open branch
-description: Propose a bounded test, source, counterhypothesis, or synthetic fixture.
-title: "[branch] "
-labels: ["continuation"]
+name: "Forschungsbeitrag"
+description: "Eine These, Quelle, Methode, Gegenhypothese oder einen überprüfbaren Prototyp beitragen."
+title: "[Forschung] "
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Willkommen im HALVETH Forschungsraum. Ein klarer Bezug und ein kleiner nächster Schritt helfen beim gemeinsamen Weiterdenken.
+        [Mitmachen](https://github.com/Juri-Halveth/open-research-branches/blob/main/wiki/Mitmachen.md) · [Rechte & Nutzung](https://github.com/Juri-Halveth/open-research-branches/blob/main/wiki/Rechte-und-Nutzung.md)
   - type: input
     id: branch
     attributes:
-      label: Branch ID
-      placeholder: water-photonic-open-questions
-    validations:
-      required: true
-  - type: dropdown
-    id: contribution
-    attributes:
-      label: Contribution type
-      options:
-        - Synthetic fixture
-        - Reproduction step
-        - Counterhypothesis
-        - Primary source
-        - Measurement or calibration method
-        - Documentation correction
+      label: "Projekt oder Ast"
+      description: "Nenne einen bestehenden Ast oder einen Vorschlag für ein neues Thema."
     validations:
       required: true
   - type: textarea
-    id: claim
+    id: contribution
     attributes:
-      label: Exact claim or question affected
-      description: Keep observation, inference, unknowns, and non-proof separate.
+      label: "Was bringst du ein?"
+      description: "Beschreibe Frage, These oder Änderung. Trenne dabei Beobachtung und mögliche Erklärung."
     validations:
       required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: "Quellen und vorhandener Stand"
+      description: "Öffentliche Links, Versionen und konkrete Fundstellen; eigene Beobachtungen als solche benennen."
+    validations:
+      required: false
   - type: textarea
     id: method
     attributes:
-      label: Proposed bounded method
-      description: Include inputs, expected outputs, coverage, and a falsifier.
+      label: "Nächster unterscheidender Schritt"
+      description: "Welche Beobachtung, Gegenhypothese oder welches synthetische Beispiel hilft weiter? Nenne bei Tests Eingaben, erwartete Ergebnisse und Grenzen."
     validations:
       required: true
-  - type: checkboxes
-    id: safety
+  - type: input
+    id: credit
     attributes:
-      label: Public-data check
+      label: "Gewünschte Zuschreibung deines Beitrags"
+      description: "Optional: eigener GitHub-Name, Pseudonym oder vorerst keine zusätzliche Namensnennung."
+    validations:
+      required: false
+  - type: checkboxes
+    id: public_material
+    attributes:
+      label: "Öffentlicher Beitrag"
       options:
-        - label: I will not attach personal, client, wallet, browser, health, controlled-genomic, credential, or private disclosure data.
+        - label: "Ich teile nur Material, das öffentlich sein darf, und keine privaten Daten oder Zugangsdaten."
           required: true
-        - label: I have read the branch claim ceiling and `PUBLICATION_POLICY.md`.
-          required: true
-

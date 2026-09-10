@@ -1,5 +1,7 @@
 # Geburtsraum-Prinzip für Behördeneingänge
 
+[Forschungsraum](../../README.md) · [Themenwiki](../../wiki/Home.md) · [Diskussion](https://github.com/Juri-Halveth/open-research-branches/discussions)
+
 **Öffentlicher Systementwurf von Juri Janovski · 10. September 2026**
 
 Dieser Forschungsast überträgt ein Kernelement der öffentlichen

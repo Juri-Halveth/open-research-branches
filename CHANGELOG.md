@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.16.0 — 2026-09-10
+
+- redesigned the HALVETH research-room entrance with original artwork, eight topic routes and direct ways to read, try and contribute
+- added a versioned Wiki with all 24 catalogued research branches, a glossary, source timelines and a readable rights-and-use guide
+- connected all research branches back to the common entrance without moving historical source files
+- added German question, research, source-correction and cooperation forms for Issues and Discussions
+- added a local link and project-coverage check and a source-version-bound native Wiki preparation command
+- retained existing licenses and clarified attribution and separately agreed voluntary participation
+- added no blanket ownership claim, retroactive timestamp or scientific effect claim
+
 ## 0.15.0 — 2026-09-10
 
 - added a dated public-source review of Coins/App 3083090, Wallet, Points and item-market liquidity

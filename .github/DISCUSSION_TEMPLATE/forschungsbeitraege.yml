@@ -1,0 +1,49 @@
+title: "[Forschung] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Willkommen im HALVETH Forschungsraum. Ein klarer Bezug und ein kleiner nächster Schritt helfen beim gemeinsamen Weiterdenken.
+        [Mitmachen](https://github.com/Juri-Halveth/open-research-branches/blob/main/wiki/Mitmachen.md) · [Rechte & Nutzung](https://github.com/Juri-Halveth/open-research-branches/blob/main/wiki/Rechte-und-Nutzung.md)
+  - type: input
+    id: branch
+    attributes:
+      label: "Projekt oder Ast"
+      description: "Nenne einen bestehenden Ast oder einen Vorschlag für ein neues Thema."
+    validations:
+      required: true
+  - type: textarea
+    id: contribution
+    attributes:
+      label: "Was bringst du ein?"
+      description: "Beschreibe Frage, These oder Änderung. Trenne dabei Beobachtung und mögliche Erklärung."
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: "Quellen und vorhandener Stand"
+      description: "Öffentliche Links, Versionen und konkrete Fundstellen; eigene Beobachtungen als solche benennen."
+    validations:
+      required: false
+  - type: textarea
+    id: method
+    attributes:
+      label: "Nächster unterscheidender Schritt"
+      description: "Welche Beobachtung, Gegenhypothese oder welches synthetische Beispiel hilft weiter? Nenne bei Tests Eingaben, erwartete Ergebnisse und Grenzen."
+    validations:
+      required: true
+  - type: input
+    id: credit
+    attributes:
+      label: "Gewünschte Zuschreibung deines Beitrags"
+      description: "Optional: eigener GitHub-Name, Pseudonym oder vorerst keine zusätzliche Namensnennung."
+    validations:
+      required: false
+  - type: checkboxes
+    id: public_material
+    attributes:
+      label: "Öffentlicher Beitrag"
+      options:
+        - label: "Ich teile nur Material, das öffentlich sein darf, und keine privaten Daten oder Zugangsdaten."
+          required: true

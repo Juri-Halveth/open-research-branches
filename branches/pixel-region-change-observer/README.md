@@ -1,5 +1,7 @@
 # Pixel Region Change Observer
 
+[Forschungsraum](../../README.md) · [Themenwiki](../../wiki/Home.md) · [Diskussion](https://github.com/Juri-Halveth/open-research-branches/discussions)
+
 This branch is a pure offline comparator for caller-supplied RGBA frame arrays.
 It does not capture a screen, enumerate windows, inspect foreground
 applications, read session logs, identify a person, access a camera, or use the

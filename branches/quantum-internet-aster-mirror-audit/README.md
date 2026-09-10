@@ -1,5 +1,7 @@
 # MADE IN GERMANY · 2026
 
+[Forschungsraum](../../README.md) · [Themenwiki](../../wiki/Home.md) · [Diskussion](https://github.com/Juri-Halveth/open-research-branches/discussions)
+
 ## Internationaler Quanteninternet-, ASTER-, ASTAR- und ASTRA-Spiegelaudit
 
 Dieser Ast veröffentlicht Juris neuen Spiegel- und Herkunftstest als

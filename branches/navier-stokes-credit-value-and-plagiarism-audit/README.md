@@ -1,5 +1,7 @@
 # Navier–Stokes: Beweis, Priorität, Plagiat und die Million
 
+[Forschungsraum](../../README.md) · [Themenwiki](../../wiki/Home.md) · [Diskussion](https://github.com/Juri-Halveth/open-research-branches/discussions)
+
 ## Ein ASTER-Audit der Meldung vom 9. September 2026
 
 **Direkt lesbar:** [`Lies mich zuerst`](LIES_MICH_ZUERST.md) — sieben kurze

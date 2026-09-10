@@ -1,5 +1,7 @@
 # Juri 111 · Historical Cipher Decoding Challenge
 
+[Forschungsraum](../../README.md) · [Themenwiki](../../wiki/Home.md) · [Diskussion](https://github.com/Juri-Halveth/open-research-branches/discussions)
+
 Stand: `2026-09-10`<br>
 Initiator: **Juri Janovski** (`@Juri-Halveth`)<br>
 Status: `OPEN_DECODING_HYPOTHESIS`

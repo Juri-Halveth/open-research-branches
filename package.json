@@ -1,6 +1,6 @@
 {
   "name": "open-research-branches",
-  "version": "0.15.0",
+  "version": "0.16.0",
   "description": "Public-safe, independently continuable research and software branches.",
   "private": true,
   "type": "module",
@@ -12,7 +12,8 @@
     "synthetic-data"
   ],
   "scripts": {
-    "test": "node scripts/run-release-gates.mjs && node --test scripts/release-gate.test.mjs && node scripts/run-tests.mjs && node --test scripts/provenance-snapshot.test.mjs && node --test scripts/audit-star.test.mjs && node --test scripts/validate-catalog.test.mjs && node scripts/validate-catalog.mjs"
+    "test": "node scripts/run-release-gates.mjs && node --test scripts/release-gate.test.mjs && node scripts/run-tests.mjs && node --test scripts/provenance-snapshot.test.mjs && node --test scripts/audit-star.test.mjs && node --test scripts/validate-catalog.test.mjs && node scripts/validate-catalog.mjs && node --test scripts/validate-navigation.test.mjs && node scripts/validate-navigation.mjs",
+    "check:navigation": "node scripts/validate-navigation.mjs"
   },
   "engines": {
     "node": ">=20"

@@ -1,0 +1,37 @@
+name: "Frage stellen"
+description: "Ein Thema verstehen, einen Begriff klären oder einen Zusammenhang diskutieren."
+title: "[Frage] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Willkommen im HALVETH Forschungsraum. Ein klarer Bezug und ein kleiner nächster Schritt helfen beim gemeinsamen Weiterdenken.
+        [Mitmachen](https://github.com/Juri-Halveth/open-research-branches/blob/main/wiki/Mitmachen.md) · [Rechte & Nutzung](https://github.com/Juri-Halveth/open-research-branches/blob/main/wiki/Rechte-und-Nutzung.md)
+  - type: input
+    id: topic
+    attributes:
+      label: "Thema oder Projekt"
+      description: "Link zu einem Ast, Wiki-Artikel oder Absatz; bei einem neuen Thema genügt ein kurzer Name."
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: "Deine Frage"
+      description: "Was möchtest du verstehen oder gemeinsam klären?"
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: "Was hast du schon gefunden?"
+      description: "Optional: Quelle, eigene Überlegung oder eine alternative Erklärung."
+    validations:
+      required: false
+  - type: checkboxes
+    id: public_material
+    attributes:
+      label: "Öffentlicher Beitrag"
+      options:
+        - label: "Ich teile nur Material, das öffentlich sein darf, und keine privaten Daten oder Zugangsdaten."
+          required: true

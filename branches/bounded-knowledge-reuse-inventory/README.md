@@ -1,5 +1,7 @@
 # Bounded Knowledge Reuse Inventory
 
+[Forschungsraum](../../README.md) · [Themenwiki](../../wiki/Home.md) · [Diskussion](https://github.com/Juri-Halveth/open-research-branches/discussions)
+
 This branch provides a small, deterministic metadata gate for deciding whether
 a knowledge item may proceed to a separate public-release review. It does not
 read source documents, inspect repositories, copy files, publish anything, or

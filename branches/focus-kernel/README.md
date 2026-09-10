@@ -1,5 +1,7 @@
 # Focus Kernel Research
 
+[Forschungsraum](../../README.md) · [Themenwiki](../../wiki/Home.md) · [Diskussion](https://github.com/Juri-Halveth/open-research-branches/discussions)
+
 Focus Kernel Research is a small, local-first reference implementation for one
 question: how can software keep a user-confirmed goal visible while still
 showing missing context, disagreement and uncertainty?

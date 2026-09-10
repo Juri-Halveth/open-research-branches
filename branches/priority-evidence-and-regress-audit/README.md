@@ -1,5 +1,7 @@
 # Priority, evidence and regress audit
 
+[Forschungsraum](../../README.md) · [Themenwiki](../../wiki/Home.md) · [Diskussion](https://github.com/Juri-Halveth/open-research-branches/discussions)
+
 This public branch turns priority, credit, participation and monetary questions
 into separate, source-bound routes. It is a reusable intake and review model. It
 does not decide a real dispute.

@@ -1,5 +1,7 @@
 # Steam Coins, Wallet und der gemeldete Achievement-Leak
 
+[Forschungsraum](../../README.md) · [Themenwiki](../../wiki/Home.md) · [Diskussion](https://github.com/Juri-Halveth/open-research-branches/discussions)
+
 Juri Janovski · HALVETH · Öffentlicher Quellenaudit · 10. September 2026
 
 ## Ergebnis

@@ -1,5 +1,7 @@
 # Document Scanner Cryptography Modernization
 
+[Forschungsraum](../../README.md) · [Themenwiki](../../wiki/Home.md) · [Diskussion](https://github.com/Juri-Halveth/open-research-branches/discussions)
+
 ## Öffentliche Forschungsfrage
 
 Welche überprüfbaren Anforderungen muss ein lokaler Dokumentenscanner erfüllen,

@@ -1,5 +1,7 @@
 # Juri-Modell, KIT-Tri-Generation und Standard Thermal
 
+[Forschungsraum](../../README.md) · [Themenwiki](../../wiki/Home.md) · [Diskussion](https://github.com/Juri-Halveth/open-research-branches/discussions)
+
 Stand: `2026-09-09`
 
 Initiator, Autor und Herausgeber dieser Fassung: **Juri Janovski**

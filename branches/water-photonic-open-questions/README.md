@@ -1,5 +1,7 @@
 # Water and Photonics Open Questions
 
+[Forschungsraum](../../README.md) · [Themenwiki](../../wiki/Home.md) · [Diskussion](https://github.com/Juri-Halveth/open-research-branches/discussions)
+
 ## Öffentliche Forschungsfrage
 
 Welche gebundenen Messungen unterscheiden Änderungen einer Wasserprobe von

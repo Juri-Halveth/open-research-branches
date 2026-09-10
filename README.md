@@ -1,4 +1,92 @@
-# Open Research Branches
+<p align="center">
+  <img src="assets/research-room.png" alt="HALVETH Open Research — Wissen teilen. Fragen verfolgen. Code, Thesen, Quellen und Dialog." width="100%">
+</p>
+
+# HALVETH · Open Research
+
+**Ein offener Forschungsraum von Juri Janovski und den HALVETH Open Research contributors.**
+
+Hier treffen Software, Naturbeobachtung, Sprache und gesellschaftliche Fragen aufeinander. Du kannst ein Modell ausprobieren, einen Bericht lesen, eine Quelle ergänzen oder mit einer eigenen Frage einsteigen. Die Sammlung wächst mit nachvollziehbaren Beiträgen.
+
+**[Im Wiki starten](https://github.com/Juri-Halveth/open-research-branches/wiki)** · **[Alle Projekte](wiki/Projekte.md)** · **[Diskutieren](https://github.com/Juri-Halveth/open-research-branches/discussions)** · **[Nutzung & Credit](wiki/Rechte-und-Nutzung.md)**
+
+---
+
+## Finde dein Thema
+
+| | |
+| :--- | :--- |
+| **💻 [Code & Werkzeuge](wiki/Code-und-Werkzeuge.md)**<br>Focus Kernel, Ja/Nein-Klärung, Referenzprüfung und wiederverwendbare Methoden. | **💧 [Licht, Wasser & Energie](wiki/Licht-Wasser-und-Energie.md)**<br>Optik, thermische Systeme, Quanteninternet und unterscheidbare Modelle. |
+| **🧭 [Identität, Sprache & Medien](wiki/Identitaet-Sprache-und-Medien.md)**<br>ASTER, Secret Garden, Alice, Zeichen und die Bedeutung von Referenzen. | **🤝 [Gesellschaft, Teilhabe & Frieden](wiki/Gesellschaft-Teilhabe-und-Frieden.md)**<br>Zuhörräume, Beschäftigtenbeteiligung, Friedenskunst und öffentliche Informationen. |
+| **🌱 [Natur & Beobachtung](wiki/Natur-und-Beobachtung.md)**<br>Pflanzen, Wahrnehmung, Protokolle und die Frage, was eine Beobachtung trägt. | **🎮 [Digitale Plattformen](wiki/Digitale-Plattformen.md)**<br>Steam, Wallets, Browser-Erweiterungen und transparente Produktfunktionen. |
+| **🔭 [Thesen & Forschungsfragen](wiki/Thesen-und-Forschungsfragen.md)**<br>Offene Gedanken, Gegenmodelle und konkrete nächste Untersuchungen. | **🗂️ [Belege & Zeitlinien](wiki/Belege-und-Zeitlinien.md)**<br>Quellen, veröffentlichte Fassungen, Prioritätsfragen und nachvollziehbare Herkunft. |
+
+**24 Forschungsäste** sind im [Projektverzeichnis](wiki/Projekte.md) einzeln beschrieben. Das [Glossar](wiki/Glossar.md) erklärt die Begriffe; der [Berichtsindex](reports/README.md) führt zu den öffentlichen Audits.
+
+## Drei Wege zum Einstieg
+
+| Ich möchte … | Starte hier | Was du findest |
+| :--- | :--- | :--- |
+| **lesen und verstehen** | [Wiki-Start](wiki/Home.md) | Kurze Themenübersichten mit Wegen zu Originaldateien und Quellen. |
+| **etwas ausprobieren** | [Code & Werkzeuge](wiki/Code-und-Werkzeuge.md) | Kleine Prototypen, synthetische Beispiele und ausführbare Tests. |
+| **mitdenken und beitragen** | [Mitmachen](wiki/Mitmachen.md) | Fragen, Quellenkorrekturen, eigene Ergebnisse und freiwillige Zusammenarbeit. |
+
+## Einblicke in die Sammlung
+
+**Steam: Coins, Wallet & Markt**
+
+Was sind Spielgegenstände, was ist Guthaben und was bedeutet Handelbarkeit? [Zum Audit](branches/steam-coins-wallet-and-leak-audit/README.md) · [Zum Bericht](reports/FREE_NEWS_020_STEAM_COINS_WALLET_AND_LEAK_AUDIT.md)
+
+**Ein Empfang, der zuhört**
+
+Ein Vorschlag für verantwortliche, zugängliche Zuhörräume in öffentlichen Einrichtungen. [Zum Projekt](branches/public-authority-entry-listening-room/README.md) · [Zum Bericht](reports/FREE_NEWS_018_PUBLIC_AUTHORITY_ENTRY_LISTENING_ROOM.md)
+
+**Licht, Wasser und Wärme**
+
+Dokumentierte Modellideen im Vergleich mit veröffentlichten technischen Komponenten. [Zum Audit](branches/solar-and-thermal-provenance-audit/README.md) · [Zu offenen Wasserfragen](branches/water-photonic-open-questions/README.md)
+
+**ASTER & Secret Garden**
+
+Eine offene Erzählwelt mit klar bezeichneten Projektkeimen und Quellenbezügen. [Die Sammlung erkunden](branches/aster-provenance-and-secret-garden/README.md)
+
+## Ein Raum für offene Diskussion
+
+Eine gute Frage ist ein Beitrag. Du brauchst keine fertige Theorie, um einzusteigen. Beschreibe, was dich interessiert, und verlinke das passende Projekt. Auch eine andere Erklärung oder eine kleine Korrektur kann weiterhelfen.
+
+- **[Fragen stellen](https://github.com/Juri-Halveth/open-research-branches/discussions/categories/fragen)** — Verständnis, Begriffe und offene Verbindungen.
+- **[Forschungsbeiträge teilen](https://github.com/Juri-Halveth/open-research-branches/discussions/categories/forschungsbeitraege)** — Modelle, Beobachtungen und nachvollziehbare Ergebnisse.
+- **[Quellen korrigieren](https://github.com/Juri-Halveth/open-research-branches/discussions/categories/quellenkorrekturen)** — Ergänzungen, bessere Fundstellen und Gegenbelege.
+- **[Zusammenarbeit vorschlagen](https://github.com/Juri-Halveth/open-research-branches/discussions/categories/zusammenarbeit)** — Gemeinsame Entwicklung und ausdrücklich vereinbarte Beteiligung.
+
+Für konkrete Dateiänderungen gibt es [Issues mit Vorlagen](https://github.com/Juri-Halveth/open-research-branches/issues/new/choose) und [Pull Requests](https://github.com/Juri-Halveth/open-research-branches/pulls). Beiträge dürfen Deutsch oder Englisch sein. Respektiere Personen, formuliere Kritik am Inhalt und veröffentliche nur Daten, die du teilen darfst.
+
+## Nutzung, Namen und Herkunft
+
+**Du sollst erkennen können, was du verwenden darfst und wem du Credit gibst.** Die [leicht lesbare Nutzungsübersicht](wiki/Rechte-und-Nutzung.md) erklärt die bestehende [Lizenzkarte](LICENSES.md). Nenne beim Zitieren das konkrete Projekt, die verwendete Fassung und die dortige Urheberangabe. [CITATION.cff](CITATION.cff), [Git-Historie](https://github.com/Juri-Halveth/open-research-branches/commits/main/) und [Releases](https://github.com/Juri-Halveth/open-research-branches/releases) helfen dabei.
+
+Eine zusätzliche Vergütung oder Erfolgsbeteiligung kann freiwillig für einen benannten Beitrag vereinbart werden. Die [Provenienz-Dokumentation](PROVENANCE.md) erklärt, wie Dateistände und Prüfsummen gebunden werden. [Belege & Zeitlinien](wiki/Belege-und-Zeitlinien.md) trennt Dokumentation, Prioritätsfrage und Rechtsanspruch.
+
+## Weitere öffentliche Projekte
+
+| Projekt | Einstieg |
+| :--- | :--- |
+| **Lernstudio** | [Offene Lernplattform und Lernprojekte](https://github.com/Juri-Halveth/lernstudio) |
+| **HALVETH Tresor** | [Eigenständiges öffentliches Repository](https://github.com/Juri-Halveth/halveth-tresor) |
+| **These zur Geburt** | [Forschungsfrage zur Geburtsumgebung](https://github.com/Juri-Halveth/juri-janovski-these-zur-geburt) |
+
+Die Projekte haben eigene Fassungen und Lizenzangaben. Der [datierte Projekt-Snapshot](catalog/public-project-snapshot.json) dokumentiert die damalige Bestandsaufnahme.
+
+<details>
+<summary><strong>Technischer Bestandsindex, Tests und Veröffentlichungsumfang</strong></summary>
+
+Mit Node.js ab Version 20:
+
+```sh
+npm test
+npm run check:navigation
+```
+
+### Open Research Branches · Bestandsübersicht
 
 Dieses Repository veröffentlicht kleine, eigenständig fortsetzbare
 Forschungs- und Softwareäste. Jeder Ast enthält eine eng gebundene Frage,
@@ -117,3 +205,10 @@ Dateipfaden, Byteanzahlen, SHA-256-Digests und deklarierter Pfadlizenz. Damit
 kann der veröffentlichte Code- und Textstand später bytegenau geprüft werden.
 Der Nachweis ändert keine historischen Lizenzen und beansprucht keine Rechte
 an fremden Quellen, Tatsachen oder allgemeinen Ideen.
+
+</details>
+
+---
+
+**HALVETH Open Research** · Initiator: **Juri Janovski** · [Öffentlicher Kontakt](mailto:juri@halveth.de)
+*Lesen. Nachfragen. Weiterdenken. Etwas beitragen.*

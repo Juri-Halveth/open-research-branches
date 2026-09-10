@@ -1,5 +1,7 @@
 # Wax-Crayon Peace Helmet
 
+[Forschungsraum](../../README.md) · [Themenwiki](../../wiki/Home.md) · [Diskussion](https://github.com/Juri-Halveth/open-research-branches/discussions)
+
 ## Ein Schutzobjekt wird zur sichtbaren Friedensfrage
 
 Stand: `2026-09-09`

@@ -1,5 +1,7 @@
 # Synthetic Document-Issue Reference Verifier
 
+[Forschungsraum](../../README.md) · [Themenwiki](../../wiki/Home.md) · [Diskussion](https://github.com/Juri-Halveth/open-research-branches/discussions)
+
 This small, dependency-free Node.js project demonstrates one narrow design rule:
 
 > A reference that looks structurally related to another reference is not authentication, currentness, ownership, or authorization.

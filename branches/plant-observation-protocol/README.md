@@ -1,5 +1,7 @@
 # Plant Observation Protocol
 
+[Forschungsraum](../../README.md) · [Themenwiki](../../wiki/Home.md) · [Diskussion](https://github.com/Juri-Halveth/open-research-branches/discussions)
+
 ## Öffentliche Forschungsfrage
 
 Wie dokumentiert man eine Pflanzenbeobachtung so, dass sichtbare Veränderung,

@@ -1,0 +1,37 @@
+name: "Quellenkorrektur"
+description: "Einen Fehler, eine ungenaue Zuschreibung oder eine bessere Quelle melden."
+title: "[Quelle] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Willkommen im HALVETH Forschungsraum. Ein klarer Bezug und ein kleiner nächster Schritt helfen beim gemeinsamen Weiterdenken.
+        [Mitmachen](https://github.com/Juri-Halveth/open-research-branches/blob/main/wiki/Mitmachen.md) · [Rechte & Nutzung](https://github.com/Juri-Halveth/open-research-branches/blob/main/wiki/Rechte-und-Nutzung.md)
+  - type: input
+    id: location
+    attributes:
+      label: "Betroffene Fundstelle"
+      description: "Link zur Datei und Fassung, möglichst mit Zeilennummer oder Abschnitt."
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: "Was soll verbessert werden?"
+      description: "Beschreibe die konkrete Korrektur und welche Aussage davon betroffen ist."
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: "Passende Quelle oder Nachprüfung"
+      description: "Öffentliche Primärquelle, genaue Passage und Datum oder nachvollziehbare Prüfung. Falls nur der Fehler feststeht, benenne den offenen Ersatz."
+    validations:
+      required: true
+  - type: checkboxes
+    id: public_material
+    attributes:
+      label: "Öffentlicher Beitrag"
+      options:
+        - label: "Ich teile nur Material, das öffentlich sein darf, und keine privaten Daten oder Zugangsdaten."
+          required: true

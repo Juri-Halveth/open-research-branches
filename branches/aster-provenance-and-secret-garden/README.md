@@ -1,5 +1,7 @@
 # ASTER ist nicht ASTAR
 
+[Forschungsraum](../../README.md) · [Themenwiki](../../wiki/Home.md) · [Diskussion](https://github.com/Juri-Halveth/open-research-branches/discussions)
+
 ## Provenienz, Resonanz und der Geheime Garten zwischen Raum und Zeit
 
 **Öffentliche Erklärung:** Juri Janovski ist Gründer und Urheber von
