@@ -3,29 +3,29 @@
   "catalogKind": "AUDIT_REPORT_PATH_STAR",
   "indexNodeId": "audit-star:index",
   "source": {
-    "requestedRef": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
-    "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
-    "treeId": "4c740f337ed8a2682d4093c4077f2539173385fe",
-    "committedAt": "2026-09-10T10:47:39+02:00",
+    "requestedRef": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
+    "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
+    "treeId": "223dc323a797d7b7b143aab3664cca0104926f6a",
+    "committedAt": "2026-09-10T11:15:31+02:00",
     "timeSemantics": "GIT_COMMITTER_TIMESTAMP_NOT_INDEPENDENT_CREATION_OR_PUBLICATION_TIME"
   },
   "coverage": {
     "state": "FINITE_SNAPSHOT",
     "currentCatalogBranches": {
-      "source": "catalog/branches.json@d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
+      "source": "catalog/branches.json@8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
       "rule": "ALL_BRANCH_ENTRIES",
-      "count": 23
+      "count": 24
     },
     "currentReports": {
-      "source": "git ls-tree -r --full-tree d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3 -- reports",
+      "source": "git ls-tree -r --full-tree 8c2b39b830b4d392e42c5f3c449d959c12a99b3c -- reports",
       "rule": "ALL_GIT_OBJECT_PATHS_UNDER_REPORTS",
-      "count": 25
+      "count": 26
     },
     "history": {
       "revisionExpression": "git rev-list <BOUND_COMMIT_ID>",
-      "boundCommitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
+      "boundCommitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
       "sideRefs": "EXCLUDED_UNLESS_REACHABLE_FROM_BOUND_COMMIT",
-      "reachableCommitCount": 41,
+      "reachableCommitCount": 43,
       "branchRule": "ALL_PARSEABLE_CATALOG_BRANCH_ENTRIES_IN_BOUND_COMMIT_ANCESTRY",
       "reportRule": "ALL_GIT_OBJECT_PATHS_UNDER_REPORTS_IN_BOUND_COMMIT_ANCESTRY",
       "renameInference": "DISABLED_PATH_IDENTITY_ONLY"
@@ -51,13 +51,13 @@
       "INFERRED_CAUSAL_AUTHORSHIP_DERIVATION_OR_IDENTITY_RELATIONS"
     ],
     "counts": {
-      "nodes": 49,
-      "currentCatalogBranches": 23,
+      "nodes": 51,
+      "currentCatalogBranches": 24,
       "historicalOnlyCatalogBranches": 0,
-      "currentReports": 25,
+      "currentReports": 26,
       "historicalOnlyReports": 0,
-      "indexEdges": 48,
-      "explicitReferenceEdges": 55
+      "indexEdges": 50,
+      "explicitReferenceEdges": 58
     }
   },
   "relationDefinitions": {
@@ -85,7 +85,7 @@
       "treePresenceAtRef": true,
       "catalogEntry": {
         "sourcePath": "catalog/branches.json",
-        "sourceCommitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
+        "sourceCommitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
         "catalogId": "alice-media-referent-and-agency-audit",
         "title": "Alice Media Referent and Agency Audit",
         "kind": "source-bound-media-story-agency-and-provenance-audit",
@@ -98,14 +98,14 @@
         "objectType": "tree"
       },
       "history": {
-        "observedCommitCount": 23,
+        "observedCommitCount": 25,
         "earliestByCommitterTimestamp": {
           "commitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
           "committedAt": "2026-09-10T01:46:24+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
-          "committedAt": "2026-09-10T10:47:39+02:00"
+          "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
+          "committedAt": "2026-09-10T11:15:31+02:00"
         },
         "catalogIds": [
           "alice-media-referent-and-agency-audit"
@@ -123,7 +123,7 @@
       "treePresenceAtRef": true,
       "catalogEntry": {
         "sourcePath": "catalog/branches.json",
-        "sourceCommitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
+        "sourceCommitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
         "catalogId": "aster-provenance-and-secret-garden",
         "title": "ASTER Provenance and the Secret Garden Between Space and Time",
         "kind": "provenance-audit-and-clean-room-method",
@@ -136,14 +136,14 @@
         "objectType": "tree"
       },
       "history": {
-        "observedCommitCount": 40,
+        "observedCommitCount": 42,
         "earliestByCommitterTimestamp": {
           "commitId": "a0a5c9082e6ccf6e9e150d5fafd5e1176caf2f2a",
           "committedAt": "2026-09-09T18:53:54+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
-          "committedAt": "2026-09-10T10:47:39+02:00"
+          "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
+          "committedAt": "2026-09-10T11:15:31+02:00"
         },
         "catalogIds": [
           "aster-provenance-and-secret-garden"
@@ -161,7 +161,7 @@
       "treePresenceAtRef": true,
       "catalogEntry": {
         "sourcePath": "catalog/branches.json",
-        "sourceCommitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
+        "sourceCommitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
         "catalogId": "binary-inquiry-loop",
         "title": "Binary Inquiry Loop",
         "kind": "deterministic-dialogue-protocol",
@@ -174,14 +174,14 @@
         "objectType": "tree"
       },
       "history": {
-        "observedCommitCount": 34,
+        "observedCommitCount": 36,
         "earliestByCommitterTimestamp": {
           "commitId": "4a5d99c5d36cb63076a73ebddba9ba3a406e6833",
           "committedAt": "2026-09-09T21:05:15+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
-          "committedAt": "2026-09-10T10:47:39+02:00"
+          "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
+          "committedAt": "2026-09-10T11:15:31+02:00"
         },
         "catalogIds": [
           "binary-inquiry-loop"
@@ -199,7 +199,7 @@
       "treePresenceAtRef": true,
       "catalogEntry": {
         "sourcePath": "catalog/branches.json",
-        "sourceCommitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
+        "sourceCommitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
         "catalogId": "bounded-knowledge-reuse-inventory",
         "title": "Bounded Knowledge Reuse Inventory",
         "kind": "software-method",
@@ -212,14 +212,14 @@
         "objectType": "tree"
       },
       "history": {
-        "observedCommitCount": 41,
+        "observedCommitCount": 43,
         "earliestByCommitterTimestamp": {
           "commitId": "b9c0fad02996ea3406c77bdd2563baa8bd8f9bf9",
           "committedAt": "2026-09-09T16:54:20+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
-          "committedAt": "2026-09-10T10:47:39+02:00"
+          "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
+          "committedAt": "2026-09-10T11:15:31+02:00"
         },
         "catalogIds": [
           "bounded-knowledge-reuse-inventory"
@@ -237,7 +237,7 @@
       "treePresenceAtRef": true,
       "catalogEntry": {
         "sourcePath": "catalog/branches.json",
-        "sourceCommitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
+        "sourceCommitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
         "catalogId": "browser-extension-claim-reassessment",
         "title": "Browser Extension Claim Reassessment",
         "kind": "security-reassessment",
@@ -250,14 +250,14 @@
         "objectType": "tree"
       },
       "history": {
-        "observedCommitCount": 41,
+        "observedCommitCount": 43,
         "earliestByCommitterTimestamp": {
           "commitId": "b9c0fad02996ea3406c77bdd2563baa8bd8f9bf9",
           "committedAt": "2026-09-09T16:54:20+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
-          "committedAt": "2026-09-10T10:47:39+02:00"
+          "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
+          "committedAt": "2026-09-10T11:15:31+02:00"
         },
         "catalogIds": [
           "browser-extension-claim-reassessment"
@@ -275,7 +275,7 @@
       "treePresenceAtRef": true,
       "catalogEntry": {
         "sourcePath": "catalog/branches.json",
-        "sourceCommitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
+        "sourceCommitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
         "catalogId": "deidentified-self-observation-protocol",
         "title": "De-identified Self-Observation Protocol",
         "kind": "research-protocol",
@@ -288,14 +288,14 @@
         "objectType": "tree"
       },
       "history": {
-        "observedCommitCount": 41,
+        "observedCommitCount": 43,
         "earliestByCommitterTimestamp": {
           "commitId": "b9c0fad02996ea3406c77bdd2563baa8bd8f9bf9",
           "committedAt": "2026-09-09T16:54:20+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
-          "committedAt": "2026-09-10T10:47:39+02:00"
+          "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
+          "committedAt": "2026-09-10T11:15:31+02:00"
         },
         "catalogIds": [
           "deidentified-self-observation-protocol"
@@ -313,7 +313,7 @@
       "treePresenceAtRef": true,
       "catalogEntry": {
         "sourcePath": "catalog/branches.json",
-        "sourceCommitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
+        "sourceCommitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
         "catalogId": "document-issue-reference-verifier",
         "title": "Document Issue Reference Verifier",
         "kind": "software-method",
@@ -326,14 +326,14 @@
         "objectType": "tree"
       },
       "history": {
-        "observedCommitCount": 41,
+        "observedCommitCount": 43,
         "earliestByCommitterTimestamp": {
           "commitId": "b9c0fad02996ea3406c77bdd2563baa8bd8f9bf9",
           "committedAt": "2026-09-09T16:54:20+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
-          "committedAt": "2026-09-10T10:47:39+02:00"
+          "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
+          "committedAt": "2026-09-10T11:15:31+02:00"
         },
         "catalogIds": [
           "document-issue-reference-verifier"
@@ -351,7 +351,7 @@
       "treePresenceAtRef": true,
       "catalogEntry": {
         "sourcePath": "catalog/branches.json",
-        "sourceCommitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
+        "sourceCommitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
         "catalogId": "document-scanner-crypto-modernization",
         "title": "Document Scanner Cryptography Modernization",
         "kind": "modernization-plan",
@@ -364,14 +364,14 @@
         "objectType": "tree"
       },
       "history": {
-        "observedCommitCount": 41,
+        "observedCommitCount": 43,
         "earliestByCommitterTimestamp": {
           "commitId": "b9c0fad02996ea3406c77bdd2563baa8bd8f9bf9",
           "committedAt": "2026-09-09T16:54:20+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
-          "committedAt": "2026-09-10T10:47:39+02:00"
+          "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
+          "committedAt": "2026-09-10T11:15:31+02:00"
         },
         "catalogIds": [
           "document-scanner-crypto-modernization"
@@ -389,7 +389,7 @@
       "treePresenceAtRef": true,
       "catalogEntry": {
         "sourcePath": "catalog/branches.json",
-        "sourceCommitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
+        "sourceCommitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
         "catalogId": "fingertip-spark-esd-spacecraft-audit",
         "title": "Fingertip Spark, ESD and Spacecraft Electronics Audit",
         "kind": "source-bound-physical-observation-and-engineering-bridge-audit",
@@ -402,14 +402,14 @@
         "objectType": "tree"
       },
       "history": {
-        "observedCommitCount": 19,
+        "observedCommitCount": 21,
         "earliestByCommitterTimestamp": {
           "commitId": "3a6f0ebe1352ae1c19bd681cb0b2d1be51fb6833",
           "committedAt": "2026-09-10T03:05:31+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
-          "committedAt": "2026-09-10T10:47:39+02:00"
+          "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
+          "committedAt": "2026-09-10T11:15:31+02:00"
         },
         "catalogIds": [
           "fingertip-spark-esd-spacecraft-audit"
@@ -427,7 +427,7 @@
       "treePresenceAtRef": true,
       "catalogEntry": {
         "sourcePath": "catalog/branches.json",
-        "sourceCommitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
+        "sourceCommitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
         "catalogId": "focus-kernel",
         "title": "Focus Kernel",
         "kind": "software-prototype",
@@ -440,14 +440,14 @@
         "objectType": "tree"
       },
       "history": {
-        "observedCommitCount": 41,
+        "observedCommitCount": 43,
         "earliestByCommitterTimestamp": {
           "commitId": "b9c0fad02996ea3406c77bdd2563baa8bd8f9bf9",
           "committedAt": "2026-09-09T16:54:20+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
-          "committedAt": "2026-09-10T10:47:39+02:00"
+          "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
+          "committedAt": "2026-09-10T11:15:31+02:00"
         },
         "catalogIds": [
           "focus-kernel"
@@ -465,7 +465,7 @@
       "treePresenceAtRef": true,
       "catalogEntry": {
         "sourcePath": "catalog/branches.json",
-        "sourceCommitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
+        "sourceCommitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
         "catalogId": "historical-cipher-decoding-challenge",
         "title": "Historical Cipher Decoding Challenge",
         "kind": "source-bound-historical-cipher-reproducibility-audit",
@@ -478,14 +478,14 @@
         "objectType": "tree"
       },
       "history": {
-        "observedCommitCount": 25,
+        "observedCommitCount": 27,
         "earliestByCommitterTimestamp": {
           "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
           "committedAt": "2026-09-10T01:17:17+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
-          "committedAt": "2026-09-10T10:47:39+02:00"
+          "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
+          "committedAt": "2026-09-10T11:15:31+02:00"
         },
         "catalogIds": [
           "historical-cipher-decoding-challenge"
@@ -503,7 +503,7 @@
       "treePresenceAtRef": true,
       "catalogEntry": {
         "sourcePath": "catalog/branches.json",
-        "sourceCommitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
+        "sourceCommitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
         "catalogId": "navier-stokes-credit-value-and-plagiarism-audit",
         "title": "Navier-Stokes Proof, Credit, Plagiarism and Value Audit",
         "kind": "source-bound-research-integrity-and-value-audit",
@@ -516,14 +516,14 @@
         "objectType": "tree"
       },
       "history": {
-        "observedCommitCount": 39,
+        "observedCommitCount": 41,
         "earliestByCommitterTimestamp": {
           "commitId": "345b60bdd19da315c46cf335ad9396085a4b4e28",
           "committedAt": "2026-09-09T19:45:41+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
-          "committedAt": "2026-09-10T10:47:39+02:00"
+          "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
+          "committedAt": "2026-09-10T11:15:31+02:00"
         },
         "catalogIds": [
           "navier-stokes-credit-value-and-plagiarism-audit"
@@ -541,7 +541,7 @@
       "treePresenceAtRef": true,
       "catalogEntry": {
         "sourcePath": "catalog/branches.json",
-        "sourceCommitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
+        "sourceCommitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
         "catalogId": "pixel-region-change-observer",
         "title": "Pixel Region Change Observer",
         "kind": "software-method",
@@ -554,14 +554,14 @@
         "objectType": "tree"
       },
       "history": {
-        "observedCommitCount": 41,
+        "observedCommitCount": 43,
         "earliestByCommitterTimestamp": {
           "commitId": "b9c0fad02996ea3406c77bdd2563baa8bd8f9bf9",
           "committedAt": "2026-09-09T16:54:20+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
-          "committedAt": "2026-09-10T10:47:39+02:00"
+          "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
+          "committedAt": "2026-09-10T11:15:31+02:00"
         },
         "catalogIds": [
           "pixel-region-change-observer"
@@ -579,7 +579,7 @@
       "treePresenceAtRef": true,
       "catalogEntry": {
         "sourcePath": "catalog/branches.json",
-        "sourceCommitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
+        "sourceCommitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
         "catalogId": "plant-observation-protocol",
         "title": "Plant Observation Protocol",
         "kind": "research-protocol",
@@ -592,14 +592,14 @@
         "objectType": "tree"
       },
       "history": {
-        "observedCommitCount": 41,
+        "observedCommitCount": 43,
         "earliestByCommitterTimestamp": {
           "commitId": "b9c0fad02996ea3406c77bdd2563baa8bd8f9bf9",
           "committedAt": "2026-09-09T16:54:20+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
-          "committedAt": "2026-09-10T10:47:39+02:00"
+          "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
+          "committedAt": "2026-09-10T11:15:31+02:00"
         },
         "catalogIds": [
           "plant-observation-protocol"
@@ -617,7 +617,7 @@
       "treePresenceAtRef": true,
       "catalogEntry": {
         "sourcePath": "catalog/branches.json",
-        "sourceCommitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
+        "sourceCommitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
         "catalogId": "priority-evidence-and-regress-audit",
         "title": "Priority, Evidence and Regress Audit",
         "kind": "source-bound-legal-evidence-and-route-audit",
@@ -630,14 +630,14 @@
         "objectType": "tree"
       },
       "history": {
-        "observedCommitCount": 19,
+        "observedCommitCount": 21,
         "earliestByCommitterTimestamp": {
           "commitId": "3a6f0ebe1352ae1c19bd681cb0b2d1be51fb6833",
           "committedAt": "2026-09-10T03:05:31+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
-          "committedAt": "2026-09-10T10:47:39+02:00"
+          "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
+          "committedAt": "2026-09-10T11:15:31+02:00"
         },
         "catalogIds": [
           "priority-evidence-and-regress-audit"
@@ -655,7 +655,7 @@
       "treePresenceAtRef": true,
       "catalogEntry": {
         "sourcePath": "catalog/branches.json",
-        "sourceCommitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
+        "sourceCommitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
         "catalogId": "public-authority-entry-listening-room",
         "title": "Public Authority Entry Listening Room and Satisfaction Repair Budget",
         "kind": "source-bound-public-policy-and-governance-software-audit",
@@ -668,14 +668,14 @@
         "objectType": "tree"
       },
       "history": {
-        "observedCommitCount": 15,
+        "observedCommitCount": 17,
         "earliestByCommitterTimestamp": {
           "commitId": "4b183bba275ba4ebae9c219c35192f0043beb22b",
           "committedAt": "2026-09-10T03:42:44+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
-          "committedAt": "2026-09-10T10:47:39+02:00"
+          "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
+          "committedAt": "2026-09-10T11:15:31+02:00"
         },
         "catalogIds": [
           "public-authority-entry-listening-room"
@@ -693,7 +693,7 @@
       "treePresenceAtRef": true,
       "catalogEntry": {
         "sourcePath": "catalog/branches.json",
-        "sourceCommitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
+        "sourceCommitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
         "catalogId": "quantum-internet-aster-mirror-audit",
         "title": "Quantum Internet, ASTER, ASTAR and ASTRA Mirror Audit",
         "kind": "source-bound-quantum-network-and-provenance-audit",
@@ -706,14 +706,14 @@
         "objectType": "tree"
       },
       "history": {
-        "observedCommitCount": 25,
+        "observedCommitCount": 27,
         "earliestByCommitterTimestamp": {
           "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
           "committedAt": "2026-09-10T01:17:17+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
-          "committedAt": "2026-09-10T10:47:39+02:00"
+          "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
+          "committedAt": "2026-09-10T11:15:31+02:00"
         },
         "catalogIds": [
           "quantum-internet-aster-mirror-audit"
@@ -731,7 +731,7 @@
       "treePresenceAtRef": true,
       "catalogEntry": {
         "sourcePath": "catalog/branches.json",
-        "sourceCommitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
+        "sourceCommitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
         "catalogId": "russia-ukraine-information-and-peace-audit",
         "title": "Was los?. Russia-Ukraine Information, Peace and Decision-Snapshot Audit",
         "kind": "source-bound-peace-audit",
@@ -744,14 +744,14 @@
         "objectType": "tree"
       },
       "history": {
-        "observedCommitCount": 41,
+        "observedCommitCount": 43,
         "earliestByCommitterTimestamp": {
           "commitId": "b9c0fad02996ea3406c77bdd2563baa8bd8f9bf9",
           "committedAt": "2026-09-09T16:54:20+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
-          "committedAt": "2026-09-10T10:47:39+02:00"
+          "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
+          "committedAt": "2026-09-10T11:15:31+02:00"
         },
         "catalogIds": [
           "russia-ukraine-information-and-peace-audit"
@@ -769,7 +769,7 @@
       "treePresenceAtRef": true,
       "catalogEntry": {
         "sourcePath": "catalog/branches.json",
-        "sourceCommitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
+        "sourceCommitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
         "catalogId": "solar-and-thermal-provenance-audit",
         "title": "Juri Energy Model, KIT and Standard Thermal Provenance Audit",
         "kind": "source-bound-technology-provenance-audit",
@@ -782,17 +782,55 @@
         "objectType": "tree"
       },
       "history": {
-        "observedCommitCount": 30,
+        "observedCommitCount": 32,
         "earliestByCommitterTimestamp": {
           "commitId": "5e5a8d219352f3403bf41dbd44b199fe5b5e90dd",
           "committedAt": "2026-09-09T23:00:00+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
-          "committedAt": "2026-09-10T10:47:39+02:00"
+          "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
+          "committedAt": "2026-09-10T11:15:31+02:00"
         },
         "catalogIds": [
           "solar-and-thermal-provenance-audit"
+        ],
+        "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
+      }
+    },
+    {
+      "id": "branch:7ccaf6849253a81a0d0d",
+      "nodeKind": "CATALOG_BRANCH",
+      "path": "branches/steam-coins-wallet-and-leak-audit",
+      "lifecycle": "CURRENT_AT_REF",
+      "currentAtRef": true,
+      "currentClassification": "CURRENT_CATALOG_ENTRY",
+      "treePresenceAtRef": true,
+      "catalogEntry": {
+        "sourcePath": "catalog/branches.json",
+        "sourceCommitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
+        "catalogId": "steam-coins-wallet-and-leak-audit",
+        "title": "Steam Coins, Wallet and Reported Achievement Leak Audit",
+        "kind": "source-bound-digital-item-economy-and-news-audit",
+        "state": "FINITE_SNAPSHOT",
+        "claimCeiling": "PUBLIC_SOURCE_DESCRIPTIONS_MINIMIZED_IMAGE_OBSERVATIONS_AND_TRANSPARENCY_PROPOSALS_ONLY_NOT_LEAK_ATTRIBUTION_HIDDEN_CRYPTOCURRENCY_INVESTMENT_RETURN_OR_PAYMENT_ENTITLEMENT",
+        "dataClass": "PUBLIC_SOURCES_AND_EXPLICITLY_AUTHORIZED_MINIMIZED_IMAGE_DERIVATIVE"
+      },
+      "currentObject": {
+        "objectId": "d22b75b2361bca80bb427c292f0ca97c94f5645c",
+        "objectType": "tree"
+      },
+      "history": {
+        "observedCommitCount": 1,
+        "earliestByCommitterTimestamp": {
+          "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
+          "committedAt": "2026-09-10T11:15:31+02:00"
+        },
+        "latestByCommitterTimestamp": {
+          "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
+          "committedAt": "2026-09-10T11:15:31+02:00"
+        },
+        "catalogIds": [
+          "steam-coins-wallet-and-leak-audit"
         ],
         "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
       }
@@ -807,7 +845,7 @@
       "treePresenceAtRef": true,
       "catalogEntry": {
         "sourcePath": "catalog/branches.json",
-        "sourceCommitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
+        "sourceCommitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
         "catalogId": "visual-interpretation-boundary",
         "title": "Visual Interpretation Boundary",
         "kind": "research-method",
@@ -820,14 +858,14 @@
         "objectType": "tree"
       },
       "history": {
-        "observedCommitCount": 41,
+        "observedCommitCount": 43,
         "earliestByCommitterTimestamp": {
           "commitId": "b9c0fad02996ea3406c77bdd2563baa8bd8f9bf9",
           "committedAt": "2026-09-09T16:54:20+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
-          "committedAt": "2026-09-10T10:47:39+02:00"
+          "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
+          "committedAt": "2026-09-10T11:15:31+02:00"
         },
         "catalogIds": [
           "visual-interpretation-boundary"
@@ -845,7 +883,7 @@
       "treePresenceAtRef": true,
       "catalogEntry": {
         "sourcePath": "catalog/branches.json",
-        "sourceCommitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
+        "sourceCommitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
         "catalogId": "water-photonic-open-questions",
         "title": "Water and Photonics Open Questions",
         "kind": "research-questions",
@@ -858,14 +896,14 @@
         "objectType": "tree"
       },
       "history": {
-        "observedCommitCount": 41,
+        "observedCommitCount": 43,
         "earliestByCommitterTimestamp": {
           "commitId": "b9c0fad02996ea3406c77bdd2563baa8bd8f9bf9",
           "committedAt": "2026-09-09T16:54:20+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
-          "committedAt": "2026-09-10T10:47:39+02:00"
+          "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
+          "committedAt": "2026-09-10T11:15:31+02:00"
         },
         "catalogIds": [
           "water-photonic-open-questions"
@@ -883,7 +921,7 @@
       "treePresenceAtRef": true,
       "catalogEntry": {
         "sourcePath": "catalog/branches.json",
-        "sourceCommitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
+        "sourceCommitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
         "catalogId": "wax-crayon-peace-helmet-audit",
         "title": "Wax-Crayon Peace Helmet and iOS Marker Audit",
         "kind": "source-bound-art-provenance-rights-and-safety-audit",
@@ -896,14 +934,14 @@
         "objectType": "tree"
       },
       "history": {
-        "observedCommitCount": 27,
+        "observedCommitCount": 29,
         "earliestByCommitterTimestamp": {
           "commitId": "feb340f5de46e4354cde81703b30cf9f8899e8cd",
           "committedAt": "2026-09-09T23:52:54+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
-          "committedAt": "2026-09-10T10:47:39+02:00"
+          "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
+          "committedAt": "2026-09-10T11:15:31+02:00"
         },
         "catalogIds": [
           "wax-crayon-peace-helmet-audit"
@@ -921,7 +959,7 @@
       "treePresenceAtRef": true,
       "catalogEntry": {
         "sourcePath": "catalog/branches.json",
-        "sourceCommitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
+        "sourceCommitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
         "catalogId": "xxxlutz-porta-takeover-and-employee-participation-audit",
         "title": "XXXLutz, porta Takeover and Employee Participation Audit",
         "kind": "source-bound-corporate-transaction-and-employee-participation-audit",
@@ -934,14 +972,14 @@
         "objectType": "tree"
       },
       "history": {
-        "observedCommitCount": 3,
+        "observedCommitCount": 5,
         "earliestByCommitterTimestamp": {
           "commitId": "c0270895827ebfe8d27d2a03d6e92c0a1009c400",
           "committedAt": "2026-09-10T10:39:45+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
-          "committedAt": "2026-09-10T10:47:39+02:00"
+          "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
+          "committedAt": "2026-09-10T11:15:31+02:00"
         },
         "catalogIds": [
           "xxxlutz-porta-takeover-and-employee-participation-audit"
@@ -966,20 +1004,20 @@
       "currentAtRef": true,
       "currentClassification": "CURRENT_GIT_TREE_PATH",
       "currentObject": {
-        "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
+        "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
         "mode": "100644",
         "objectType": "blob",
         "objectId": "ac527d09343ae3b2d2226ed0baa560bf54c44a70"
       },
       "history": {
-        "observedCommitCount": 38,
+        "observedCommitCount": 40,
         "earliestByCommitterTimestamp": {
           "commitId": "9c9334b512798bcc785284c3f1f6c3fd9721ea3f",
           "committedAt": "2026-09-09T20:34:03+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
-          "committedAt": "2026-09-10T10:47:39+02:00"
+          "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
+          "committedAt": "2026-09-10T11:15:31+02:00"
         },
         "catalogIds": [],
         "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
@@ -994,20 +1032,20 @@
       "currentAtRef": true,
       "currentClassification": "CURRENT_GIT_TREE_PATH",
       "currentObject": {
-        "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
+        "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
         "mode": "100644",
         "objectType": "blob",
         "objectId": "87ffa6b276cd6e45c8c610401c48b0a1d86e5093"
       },
       "history": {
-        "observedCommitCount": 37,
+        "observedCommitCount": 39,
         "earliestByCommitterTimestamp": {
           "commitId": "b7226c131c88ccfd8294558e869a6121acb11c12",
           "committedAt": "2026-09-09T20:40:30+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
-          "committedAt": "2026-09-10T10:47:39+02:00"
+          "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
+          "committedAt": "2026-09-10T11:15:31+02:00"
         },
         "catalogIds": [],
         "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
@@ -1022,20 +1060,20 @@
       "currentAtRef": true,
       "currentClassification": "CURRENT_GIT_TREE_PATH",
       "currentObject": {
-        "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
+        "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
         "mode": "100644",
         "objectType": "blob",
         "objectId": "d2125e714465f4ea6eb3b63a8847b2ff0f60c2d8"
       },
       "history": {
-        "observedCommitCount": 36,
+        "observedCommitCount": 38,
         "earliestByCommitterTimestamp": {
           "commitId": "37a32f6e20298a838e64bdb43e6c8921a9109821",
           "committedAt": "2026-09-09T20:53:17+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
-          "committedAt": "2026-09-10T10:47:39+02:00"
+          "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
+          "committedAt": "2026-09-10T11:15:31+02:00"
         },
         "catalogIds": [],
         "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
@@ -1050,20 +1088,20 @@
       "currentAtRef": true,
       "currentClassification": "CURRENT_GIT_TREE_PATH",
       "currentObject": {
-        "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
+        "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
         "mode": "100644",
         "objectType": "blob",
         "objectId": "91092f69d7f78601cbe79adfdaae058c950b0b6b"
       },
       "history": {
-        "observedCommitCount": 35,
+        "observedCommitCount": 37,
         "earliestByCommitterTimestamp": {
           "commitId": "8ae1bfa81225f1343811ffc168b17969ef00dec6",
           "committedAt": "2026-09-09T21:01:18+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
-          "committedAt": "2026-09-10T10:47:39+02:00"
+          "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
+          "committedAt": "2026-09-10T11:15:31+02:00"
         },
         "catalogIds": [],
         "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
@@ -1078,20 +1116,20 @@
       "currentAtRef": true,
       "currentClassification": "CURRENT_GIT_TREE_PATH",
       "currentObject": {
-        "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
+        "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
         "mode": "100644",
         "objectType": "blob",
         "objectId": "6c32d8de5bf943af75df6c1ae0915b8a18c5be79"
       },
       "history": {
-        "observedCommitCount": 32,
+        "observedCommitCount": 34,
         "earliestByCommitterTimestamp": {
           "commitId": "5d26c932ccac72b07574cd8d62446ce332db8e13",
           "committedAt": "2026-09-09T21:52:57+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
-          "committedAt": "2026-09-10T10:47:39+02:00"
+          "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
+          "committedAt": "2026-09-10T11:15:31+02:00"
         },
         "catalogIds": [],
         "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
@@ -1106,20 +1144,20 @@
       "currentAtRef": true,
       "currentClassification": "CURRENT_GIT_TREE_PATH",
       "currentObject": {
-        "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
+        "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
         "mode": "100644",
         "objectType": "blob",
         "objectId": "02ba5f6f137c22c5c7f353d4e8e88c74d2f4dffb"
       },
       "history": {
-        "observedCommitCount": 32,
+        "observedCommitCount": 34,
         "earliestByCommitterTimestamp": {
           "commitId": "5d26c932ccac72b07574cd8d62446ce332db8e13",
           "committedAt": "2026-09-09T21:52:57+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
-          "committedAt": "2026-09-10T10:47:39+02:00"
+          "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
+          "committedAt": "2026-09-10T11:15:31+02:00"
         },
         "catalogIds": [],
         "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
@@ -1134,20 +1172,20 @@
       "currentAtRef": true,
       "currentClassification": "CURRENT_GIT_TREE_PATH",
       "currentObject": {
-        "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
+        "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
         "mode": "100644",
         "objectType": "blob",
         "objectId": "5363c4a6039c6f5dbd0a07dfd567c1ed34c9ce35"
       },
       "history": {
-        "observedCommitCount": 31,
+        "observedCommitCount": 33,
         "earliestByCommitterTimestamp": {
           "commitId": "21374b0da2517c04fb8ef10e33c0e5d05fad86e9",
           "committedAt": "2026-09-09T22:21:45+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
-          "committedAt": "2026-09-10T10:47:39+02:00"
+          "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
+          "committedAt": "2026-09-10T11:15:31+02:00"
         },
         "catalogIds": [],
         "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
@@ -1162,20 +1200,20 @@
       "currentAtRef": true,
       "currentClassification": "CURRENT_GIT_TREE_PATH",
       "currentObject": {
-        "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
+        "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
         "mode": "100644",
         "objectType": "blob",
         "objectId": "9c3bad720ae5d7d2364319f852b1774eeca94c60"
       },
       "history": {
-        "observedCommitCount": 30,
+        "observedCommitCount": 32,
         "earliestByCommitterTimestamp": {
           "commitId": "5e5a8d219352f3403bf41dbd44b199fe5b5e90dd",
           "committedAt": "2026-09-09T23:00:00+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
-          "committedAt": "2026-09-10T10:47:39+02:00"
+          "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
+          "committedAt": "2026-09-10T11:15:31+02:00"
         },
         "catalogIds": [],
         "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
@@ -1190,20 +1228,20 @@
       "currentAtRef": true,
       "currentClassification": "CURRENT_GIT_TREE_PATH",
       "currentObject": {
-        "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
+        "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
         "mode": "100644",
         "objectType": "blob",
         "objectId": "0cc278c65f84e50906acd3d36d549489d67fe471"
       },
       "history": {
-        "observedCommitCount": 28,
+        "observedCommitCount": 30,
         "earliestByCommitterTimestamp": {
           "commitId": "50f011523068e72b763eb5ab542c9aac4492153b",
           "committedAt": "2026-09-09T23:12:34+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
-          "committedAt": "2026-09-10T10:47:39+02:00"
+          "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
+          "committedAt": "2026-09-10T11:15:31+02:00"
         },
         "catalogIds": [],
         "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
@@ -1218,20 +1256,20 @@
       "currentAtRef": true,
       "currentClassification": "CURRENT_GIT_TREE_PATH",
       "currentObject": {
-        "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
+        "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
         "mode": "100644",
         "objectType": "blob",
         "objectId": "e20be7355331e164ef23b88595bb86cfde83604e"
       },
       "history": {
-        "observedCommitCount": 27,
+        "observedCommitCount": 29,
         "earliestByCommitterTimestamp": {
           "commitId": "feb340f5de46e4354cde81703b30cf9f8899e8cd",
           "committedAt": "2026-09-09T23:52:54+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
-          "committedAt": "2026-09-10T10:47:39+02:00"
+          "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
+          "committedAt": "2026-09-10T11:15:31+02:00"
         },
         "catalogIds": [],
         "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
@@ -1246,20 +1284,20 @@
       "currentAtRef": true,
       "currentClassification": "CURRENT_GIT_TREE_PATH",
       "currentObject": {
-        "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
+        "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
         "mode": "100644",
         "objectType": "blob",
         "objectId": "6611df901255b489242774b3d2e87ea81785e76d"
       },
       "history": {
-        "observedCommitCount": 26,
+        "observedCommitCount": 28,
         "earliestByCommitterTimestamp": {
           "commitId": "a151097150430f328d76386b517d2f783b9056d9",
           "committedAt": "2026-09-10T00:28:50+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
-          "committedAt": "2026-09-10T10:47:39+02:00"
+          "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
+          "committedAt": "2026-09-10T11:15:31+02:00"
         },
         "catalogIds": [],
         "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
@@ -1274,20 +1312,20 @@
       "currentAtRef": true,
       "currentClassification": "CURRENT_GIT_TREE_PATH",
       "currentObject": {
-        "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
+        "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
         "mode": "100644",
         "objectType": "blob",
         "objectId": "196325824fdec4cb52fd71cac88db0f5b7085d7d"
       },
       "history": {
-        "observedCommitCount": 25,
+        "observedCommitCount": 27,
         "earliestByCommitterTimestamp": {
           "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
           "committedAt": "2026-09-10T01:17:17+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
-          "committedAt": "2026-09-10T10:47:39+02:00"
+          "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
+          "committedAt": "2026-09-10T11:15:31+02:00"
         },
         "catalogIds": [],
         "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
@@ -1302,20 +1340,20 @@
       "currentAtRef": true,
       "currentClassification": "CURRENT_GIT_TREE_PATH",
       "currentObject": {
-        "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
+        "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
         "mode": "100644",
         "objectType": "blob",
         "objectId": "ac91220d7e30c26648a7fbbf65c16c5bd7a7c39b"
       },
       "history": {
-        "observedCommitCount": 25,
+        "observedCommitCount": 27,
         "earliestByCommitterTimestamp": {
           "commitId": "85d5dae7e928ff642f2fea6407a9191134e02887",
           "committedAt": "2026-09-10T01:17:17+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
-          "committedAt": "2026-09-10T10:47:39+02:00"
+          "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
+          "committedAt": "2026-09-10T11:15:31+02:00"
         },
         "catalogIds": [],
         "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
@@ -1330,20 +1368,20 @@
       "currentAtRef": true,
       "currentClassification": "CURRENT_GIT_TREE_PATH",
       "currentObject": {
-        "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
+        "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
         "mode": "100644",
         "objectType": "blob",
         "objectId": "9894538d8484423c8e0171935566d514103ff5f6"
       },
       "history": {
-        "observedCommitCount": 23,
+        "observedCommitCount": 25,
         "earliestByCommitterTimestamp": {
           "commitId": "5c285215f08b6928e9bbb4b19c056f70d081a6aa",
           "committedAt": "2026-09-10T01:46:24+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
-          "committedAt": "2026-09-10T10:47:39+02:00"
+          "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
+          "committedAt": "2026-09-10T11:15:31+02:00"
         },
         "catalogIds": [],
         "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
@@ -1358,20 +1396,20 @@
       "currentAtRef": true,
       "currentClassification": "CURRENT_GIT_TREE_PATH",
       "currentObject": {
-        "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
+        "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
         "mode": "100644",
         "objectType": "blob",
         "objectId": "57322fc5124e28ee832e58fb03826674cf9405e9"
       },
       "history": {
-        "observedCommitCount": 21,
+        "observedCommitCount": 23,
         "earliestByCommitterTimestamp": {
           "commitId": "f1e719a82e3c022d8b8be3052f866972d1bc3c43",
           "committedAt": "2026-09-10T02:19:42+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
-          "committedAt": "2026-09-10T10:47:39+02:00"
+          "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
+          "committedAt": "2026-09-10T11:15:31+02:00"
         },
         "catalogIds": [],
         "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
@@ -1386,20 +1424,20 @@
       "currentAtRef": true,
       "currentClassification": "CURRENT_GIT_TREE_PATH",
       "currentObject": {
-        "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
+        "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
         "mode": "100644",
         "objectType": "blob",
         "objectId": "fd3e4e001f0c240ac84dff372c4a68719d9a3fe5"
       },
       "history": {
-        "observedCommitCount": 19,
+        "observedCommitCount": 21,
         "earliestByCommitterTimestamp": {
           "commitId": "3a6f0ebe1352ae1c19bd681cb0b2d1be51fb6833",
           "committedAt": "2026-09-10T03:05:31+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
-          "committedAt": "2026-09-10T10:47:39+02:00"
+          "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
+          "committedAt": "2026-09-10T11:15:31+02:00"
         },
         "catalogIds": [],
         "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
@@ -1414,20 +1452,20 @@
       "currentAtRef": true,
       "currentClassification": "CURRENT_GIT_TREE_PATH",
       "currentObject": {
-        "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
+        "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
         "mode": "100644",
         "objectType": "blob",
         "objectId": "e71add6c846d096c7fc293812a273f6fd790e9b4"
       },
       "history": {
-        "observedCommitCount": 19,
+        "observedCommitCount": 21,
         "earliestByCommitterTimestamp": {
           "commitId": "3a6f0ebe1352ae1c19bd681cb0b2d1be51fb6833",
           "committedAt": "2026-09-10T03:05:31+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
-          "committedAt": "2026-09-10T10:47:39+02:00"
+          "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
+          "committedAt": "2026-09-10T11:15:31+02:00"
         },
         "catalogIds": [],
         "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
@@ -1442,20 +1480,20 @@
       "currentAtRef": true,
       "currentClassification": "CURRENT_GIT_TREE_PATH",
       "currentObject": {
-        "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
+        "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
         "mode": "100644",
         "objectType": "blob",
         "objectId": "be1834a01c12cd215cab2dd6fee197e8c3270086"
       },
       "history": {
-        "observedCommitCount": 19,
+        "observedCommitCount": 21,
         "earliestByCommitterTimestamp": {
           "commitId": "3a6f0ebe1352ae1c19bd681cb0b2d1be51fb6833",
           "committedAt": "2026-09-10T03:05:31+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
-          "committedAt": "2026-09-10T10:47:39+02:00"
+          "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
+          "committedAt": "2026-09-10T11:15:31+02:00"
         },
         "catalogIds": [],
         "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
@@ -1470,20 +1508,20 @@
       "currentAtRef": true,
       "currentClassification": "CURRENT_GIT_TREE_PATH",
       "currentObject": {
-        "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
+        "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
         "mode": "100644",
         "objectType": "blob",
         "objectId": "84911e9127688447836eeddff6e9974b4e362b96"
       },
       "history": {
-        "observedCommitCount": 19,
+        "observedCommitCount": 21,
         "earliestByCommitterTimestamp": {
           "commitId": "3a6f0ebe1352ae1c19bd681cb0b2d1be51fb6833",
           "committedAt": "2026-09-10T03:05:31+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
-          "committedAt": "2026-09-10T10:47:39+02:00"
+          "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
+          "committedAt": "2026-09-10T11:15:31+02:00"
         },
         "catalogIds": [],
         "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
@@ -1498,20 +1536,20 @@
       "currentAtRef": true,
       "currentClassification": "CURRENT_GIT_TREE_PATH",
       "currentObject": {
-        "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
+        "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
         "mode": "100644",
         "objectType": "blob",
         "objectId": "a7ff61e52ffd5b17952462eebc0175170bbeba93"
       },
       "history": {
-        "observedCommitCount": 19,
+        "observedCommitCount": 21,
         "earliestByCommitterTimestamp": {
           "commitId": "3a6f0ebe1352ae1c19bd681cb0b2d1be51fb6833",
           "committedAt": "2026-09-10T03:05:31+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
-          "committedAt": "2026-09-10T10:47:39+02:00"
+          "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
+          "committedAt": "2026-09-10T11:15:31+02:00"
         },
         "catalogIds": [],
         "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
@@ -1526,20 +1564,20 @@
       "currentAtRef": true,
       "currentClassification": "CURRENT_GIT_TREE_PATH",
       "currentObject": {
-        "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
+        "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
         "mode": "100644",
         "objectType": "blob",
         "objectId": "96bc8a67157e00d0f213652400c8a99c7a226426"
       },
       "history": {
-        "observedCommitCount": 15,
+        "observedCommitCount": 17,
         "earliestByCommitterTimestamp": {
           "commitId": "4b183bba275ba4ebae9c219c35192f0043beb22b",
           "committedAt": "2026-09-10T03:42:44+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
-          "committedAt": "2026-09-10T10:47:39+02:00"
+          "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
+          "committedAt": "2026-09-10T11:15:31+02:00"
         },
         "catalogIds": [],
         "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
@@ -1554,20 +1592,48 @@
       "currentAtRef": true,
       "currentClassification": "CURRENT_GIT_TREE_PATH",
       "currentObject": {
-        "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
+        "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
         "mode": "100644",
         "objectType": "blob",
         "objectId": "c368199db1e7cd963cf7680a0fd6bee5411dc932"
       },
       "history": {
-        "observedCommitCount": 3,
+        "observedCommitCount": 5,
         "earliestByCommitterTimestamp": {
           "commitId": "c0270895827ebfe8d27d2a03d6e92c0a1009c400",
           "committedAt": "2026-09-10T10:39:45+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
-          "committedAt": "2026-09-10T10:47:39+02:00"
+          "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
+          "committedAt": "2026-09-10T11:15:31+02:00"
+        },
+        "catalogIds": [],
+        "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
+      }
+    },
+    {
+      "id": "report:5fe154eeca009f8b6710",
+      "nodeKind": "REPORT_PATH",
+      "reportRole": "REPORT_ARTIFACT",
+      "path": "reports/FREE_NEWS_020_STEAM_COINS_WALLET_AND_LEAK_AUDIT.md",
+      "lifecycle": "CURRENT_AT_REF",
+      "currentAtRef": true,
+      "currentClassification": "CURRENT_GIT_TREE_PATH",
+      "currentObject": {
+        "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
+        "mode": "100644",
+        "objectType": "blob",
+        "objectId": "c01525c745ba93006fb461895f2ddd14c98ef8dc"
+      },
+      "history": {
+        "observedCommitCount": 1,
+        "earliestByCommitterTimestamp": {
+          "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
+          "committedAt": "2026-09-10T11:15:31+02:00"
+        },
+        "latestByCommitterTimestamp": {
+          "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
+          "committedAt": "2026-09-10T11:15:31+02:00"
         },
         "catalogIds": [],
         "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
@@ -1582,20 +1648,20 @@
       "currentAtRef": true,
       "currentClassification": "CURRENT_GIT_TREE_PATH",
       "currentObject": {
-        "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
+        "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
         "mode": "100644",
         "objectType": "blob",
         "objectId": "ff9a6c78234316720bd1df035c6795764f9eb299"
       },
       "history": {
-        "observedCommitCount": 41,
+        "observedCommitCount": 43,
         "earliestByCommitterTimestamp": {
           "commitId": "b9c0fad02996ea3406c77bdd2563baa8bd8f9bf9",
           "committedAt": "2026-09-09T16:54:20+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
-          "committedAt": "2026-09-10T10:47:39+02:00"
+          "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
+          "committedAt": "2026-09-10T11:15:31+02:00"
         },
         "catalogIds": [],
         "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
@@ -1610,20 +1676,20 @@
       "currentAtRef": true,
       "currentClassification": "CURRENT_GIT_TREE_PATH",
       "currentObject": {
-        "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
+        "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
         "mode": "100644",
         "objectType": "blob",
         "objectId": "4942f62d0b3cb6d8ac1740744f71e0653b5cbef1"
       },
       "history": {
-        "observedCommitCount": 41,
+        "observedCommitCount": 43,
         "earliestByCommitterTimestamp": {
           "commitId": "b9c0fad02996ea3406c77bdd2563baa8bd8f9bf9",
           "committedAt": "2026-09-09T16:54:20+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
-          "committedAt": "2026-09-10T10:47:39+02:00"
+          "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
+          "committedAt": "2026-09-10T11:15:31+02:00"
         },
         "catalogIds": [],
         "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
@@ -1638,20 +1704,20 @@
       "currentAtRef": true,
       "currentClassification": "CURRENT_GIT_TREE_PATH",
       "currentObject": {
-        "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
+        "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
         "mode": "100644",
         "objectType": "blob",
-        "objectId": "0a2e1290970ed1d44163891db6c7d62c1ddbcb99"
+        "objectId": "eba56a1cbb5c2509ae30f06e8a816ebb90d14402"
       },
       "history": {
-        "observedCommitCount": 41,
+        "observedCommitCount": 43,
         "earliestByCommitterTimestamp": {
           "commitId": "b9c0fad02996ea3406c77bdd2563baa8bd8f9bf9",
           "committedAt": "2026-09-09T16:54:20+02:00"
         },
         "latestByCommitterTimestamp": {
-          "commitId": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3",
-          "committedAt": "2026-09-10T10:47:39+02:00"
+          "commitId": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c",
+          "committedAt": "2026-09-10T11:15:31+02:00"
         },
         "catalogIds": [],
         "orderingSemantics": "COMMITTER_TIMESTAMP_THEN_COMMIT_ID_ONLY_NO_CAUSAL_OR_AUTHORSHIP_ORDER"
@@ -1711,6 +1777,47 @@
           "sourceBlobId": "98f4b6ef7419ebae99d746d03373d298e521c34d",
           "line": 392,
           "literal": "reports/FREE_NEWS_014_FINGERTIP_SPARK_ESD_AND_SPACECRAFT_BRIDGE.md",
+          "syntax": "EXACT_REPOSITORY_PATH",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        }
+      ],
+      "semantics": "TEXTUAL_PATH_REFERENCE_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-reference:e1ad2f5e45ac4090eac1",
+      "relationType": "EXPLICITLY_REFERENCES",
+      "from": "branch:7ccaf6849253a81a0d0d",
+      "to": "report:40511c7662379b5b3b30",
+      "evidence": [
+        {
+          "sourcePath": "branches/steam-coins-wallet-and-leak-audit/README.md",
+          "sourceBlobId": "f4b549e9c4c97145da91cb97a7f4f808abd6e9de",
+          "line": 111,
+          "literal": "../../reports/FREE_NEWS_005_HOW_TO_FISH_IDENTITY_AND_CREATION.md",
+          "syntax": "MARKDOWN_LINK",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        },
+        {
+          "sourcePath": "branches/steam-coins-wallet-and-leak-audit/README.md",
+          "sourceBlobId": "f4b549e9c4c97145da91cb97a7f4f808abd6e9de",
+          "line": 111,
+          "literal": "reports/FREE_NEWS_005_HOW_TO_FISH_IDENTITY_AND_CREATION.md",
+          "syntax": "EXACT_REPOSITORY_PATH",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        },
+        {
+          "sourcePath": "branches/steam-coins-wallet-and-leak-audit/public-observation.json",
+          "sourceBlobId": "aeb63170c8cd49b4907e4e19545c1f51e7e90c04",
+          "line": 42,
+          "literal": "../../reports/FREE_NEWS_005_HOW_TO_FISH_IDENTITY_AND_CREATION.md",
+          "syntax": "JSON_STRING",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        },
+        {
+          "sourcePath": "branches/steam-coins-wallet-and-leak-audit/public-observation.json",
+          "sourceBlobId": "aeb63170c8cd49b4907e4e19545c1f51e7e90c04",
+          "line": 42,
+          "literal": "reports/FREE_NEWS_005_HOW_TO_FISH_IDENTITY_AND_CREATION.md",
           "syntax": "EXACT_REPOSITORY_PATH",
           "resolution": "EXACT_REPOSITORY_PATH"
         }
@@ -2142,6 +2249,71 @@
       "semantics": "TEXTUAL_PATH_REFERENCE_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
     },
     {
+      "id": "edge-reference:3afe5ac8bbe8ba0f8002",
+      "relationType": "EXPLICITLY_REFERENCES",
+      "from": "report:5fe154eeca009f8b6710",
+      "to": "branch:7ccaf6849253a81a0d0d",
+      "evidence": [
+        {
+          "sourcePath": "reports/FREE_NEWS_020_STEAM_COINS_WALLET_AND_LEAK_AUDIT.md",
+          "sourceBlobId": "c01525c745ba93006fb461895f2ddd14c98ef8dc",
+          "line": 7,
+          "literal": "branches/steam-coins-wallet-and-leak-audit",
+          "syntax": "EXACT_REPOSITORY_PATH",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        },
+        {
+          "sourcePath": "reports/FREE_NEWS_020_STEAM_COINS_WALLET_AND_LEAK_AUDIT.md",
+          "sourceBlobId": "c01525c745ba93006fb461895f2ddd14c98ef8dc",
+          "line": 13,
+          "literal": "branches/steam-coins-wallet-and-leak-audit",
+          "syntax": "EXACT_REPOSITORY_PATH",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        },
+        {
+          "sourcePath": "reports/FREE_NEWS_020_STEAM_COINS_WALLET_AND_LEAK_AUDIT.md",
+          "sourceBlobId": "c01525c745ba93006fb461895f2ddd14c98ef8dc",
+          "line": 14,
+          "literal": "branches/steam-coins-wallet-and-leak-audit",
+          "syntax": "EXACT_REPOSITORY_PATH",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        },
+        {
+          "sourcePath": "reports/FREE_NEWS_020_STEAM_COINS_WALLET_AND_LEAK_AUDIT.md",
+          "sourceBlobId": "c01525c745ba93006fb461895f2ddd14c98ef8dc",
+          "line": 15,
+          "literal": "branches/steam-coins-wallet-and-leak-audit",
+          "syntax": "EXACT_REPOSITORY_PATH",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        },
+        {
+          "sourcePath": "reports/FREE_NEWS_020_STEAM_COINS_WALLET_AND_LEAK_AUDIT.md",
+          "sourceBlobId": "c01525c745ba93006fb461895f2ddd14c98ef8dc",
+          "line": 16,
+          "literal": "branches/steam-coins-wallet-and-leak-audit",
+          "syntax": "EXACT_REPOSITORY_PATH",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        },
+        {
+          "sourcePath": "reports/FREE_NEWS_020_STEAM_COINS_WALLET_AND_LEAK_AUDIT.md",
+          "sourceBlobId": "c01525c745ba93006fb461895f2ddd14c98ef8dc",
+          "line": 17,
+          "literal": "branches/steam-coins-wallet-and-leak-audit",
+          "syntax": "EXACT_REPOSITORY_PATH",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        },
+        {
+          "sourcePath": "reports/FREE_NEWS_020_STEAM_COINS_WALLET_AND_LEAK_AUDIT.md",
+          "sourceBlobId": "c01525c745ba93006fb461895f2ddd14c98ef8dc",
+          "line": 18,
+          "literal": "branches/steam-coins-wallet-and-leak-audit",
+          "syntax": "EXACT_REPOSITORY_PATH",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        }
+      ],
+      "semantics": "TEXTUAL_PATH_REFERENCE_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
       "id": "edge-reference:7507a3931bb76734cf30",
       "relationType": "EXPLICITLY_REFERENCES",
       "from": "report:6cb5744513e1696c21f1",
@@ -2149,7 +2321,7 @@
       "evidence": [
         {
           "sourcePath": "reports/README.md",
-          "sourceBlobId": "0a2e1290970ed1d44163891db6c7d62c1ddbcb99",
+          "sourceBlobId": "eba56a1cbb5c2509ae30f06e8a816ebb90d14402",
           "line": 23,
           "literal": "FREE_NEWS_013_RECIPROCAL_EVIDENCE_AND_INFORMATION_ASYMMETRY.md",
           "syntax": "INLINE_CODE",
@@ -2166,7 +2338,7 @@
       "evidence": [
         {
           "sourcePath": "reports/README.md",
-          "sourceBlobId": "0a2e1290970ed1d44163891db6c7d62c1ddbcb99",
+          "sourceBlobId": "eba56a1cbb5c2509ae30f06e8a816ebb90d14402",
           "line": 25,
           "literal": "FREE_NEWS_015_PRIORITY_EVIDENCE_AND_REGRESS_ROUTES.md",
           "syntax": "INLINE_CODE",
@@ -2183,7 +2355,7 @@
       "evidence": [
         {
           "sourcePath": "reports/README.md",
-          "sourceBlobId": "0a2e1290970ed1d44163891db6c7d62c1ddbcb99",
+          "sourceBlobId": "eba56a1cbb5c2509ae30f06e8a816ebb90d14402",
           "line": 9,
           "literal": "MAC_OUI_REGISTRY_BOUNDARY.md",
           "syntax": "INLINE_CODE",
@@ -2200,7 +2372,7 @@
       "evidence": [
         {
           "sourcePath": "reports/README.md",
-          "sourceBlobId": "0a2e1290970ed1d44163891db6c7d62c1ddbcb99",
+          "sourceBlobId": "eba56a1cbb5c2509ae30f06e8a816ebb90d14402",
           "line": 24,
           "literal": "FREE_NEWS_014_FINGERTIP_SPARK_ESD_AND_SPACECRAFT_BRIDGE.md",
           "syntax": "INLINE_CODE",
@@ -2217,7 +2389,7 @@
       "evidence": [
         {
           "sourcePath": "reports/README.md",
-          "sourceBlobId": "0a2e1290970ed1d44163891db6c7d62c1ddbcb99",
+          "sourceBlobId": "eba56a1cbb5c2509ae30f06e8a816ebb90d14402",
           "line": 15,
           "literal": "FREE_NEWS_005_RIGHTS_AND_SEMANTICS_PATCH.json",
           "syntax": "INLINE_CODE",
@@ -2234,7 +2406,7 @@
       "evidence": [
         {
           "sourcePath": "reports/README.md",
-          "sourceBlobId": "0a2e1290970ed1d44163891db6c7d62c1ddbcb99",
+          "sourceBlobId": "eba56a1cbb5c2509ae30f06e8a816ebb90d14402",
           "line": 22,
           "literal": "FREE_NEWS_012_ALICE_MEDIA_REFERENT_AND_AGENCY_AUDIT.md",
           "syntax": "INLINE_CODE",
@@ -2251,7 +2423,7 @@
       "evidence": [
         {
           "sourcePath": "reports/README.md",
-          "sourceBlobId": "0a2e1290970ed1d44163891db6c7d62c1ddbcb99",
+          "sourceBlobId": "eba56a1cbb5c2509ae30f06e8a816ebb90d14402",
           "line": 14,
           "literal": "FREE_NEWS_005_HOW_TO_FISH_IDENTITY_AND_CREATION.md",
           "syntax": "INLINE_CODE",
@@ -2268,9 +2440,26 @@
       "evidence": [
         {
           "sourcePath": "reports/README.md",
-          "sourceBlobId": "0a2e1290970ed1d44163891db6c7d62c1ddbcb99",
+          "sourceBlobId": "eba56a1cbb5c2509ae30f06e8a816ebb90d14402",
           "line": 21,
           "literal": "FREE_NEWS_011_HISTORICAL_CIPHER_111_DECODING_CHALLENGE.md",
+          "syntax": "INLINE_CODE",
+          "resolution": "EXACT_REPOSITORY_PATH"
+        }
+      ],
+      "semantics": "TEXTUAL_PATH_REFERENCE_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-reference:60ed4b9bab955d124201",
+      "relationType": "EXPLICITLY_REFERENCES",
+      "from": "report:6cb5744513e1696c21f1",
+      "to": "report:5fe154eeca009f8b6710",
+      "evidence": [
+        {
+          "sourcePath": "reports/README.md",
+          "sourceBlobId": "eba56a1cbb5c2509ae30f06e8a816ebb90d14402",
+          "line": 31,
+          "literal": "FREE_NEWS_020_STEAM_COINS_WALLET_AND_LEAK_AUDIT.md",
           "syntax": "INLINE_CODE",
           "resolution": "EXACT_REPOSITORY_PATH"
         }
@@ -2285,7 +2474,7 @@
       "evidence": [
         {
           "sourcePath": "reports/README.md",
-          "sourceBlobId": "0a2e1290970ed1d44163891db6c7d62c1ddbcb99",
+          "sourceBlobId": "eba56a1cbb5c2509ae30f06e8a816ebb90d14402",
           "line": 26,
           "literal": "FREE_NEWS_016_PUBLIC_GITHUB_PROJECT_CONSTELLATION.md",
           "syntax": "INLINE_CODE",
@@ -2302,7 +2491,7 @@
       "evidence": [
         {
           "sourcePath": "reports/README.md",
-          "sourceBlobId": "0a2e1290970ed1d44163891db6c7d62c1ddbcb99",
+          "sourceBlobId": "eba56a1cbb5c2509ae30f06e8a816ebb90d14402",
           "line": 16,
           "literal": "FREE_NEWS_006_JURI_ENERGY_MODEL_PROVENANCE_AUDIT.md",
           "syntax": "INLINE_CODE",
@@ -2319,7 +2508,7 @@
       "evidence": [
         {
           "sourcePath": "reports/README.md",
-          "sourceBlobId": "0a2e1290970ed1d44163891db6c7d62c1ddbcb99",
+          "sourceBlobId": "eba56a1cbb5c2509ae30f06e8a816ebb90d14402",
           "line": 28,
           "literal": "FREE_NEWS_017_MARKER_MATRIX.json",
           "syntax": "INLINE_CODE",
@@ -2336,7 +2525,7 @@
       "evidence": [
         {
           "sourcePath": "reports/README.md",
-          "sourceBlobId": "0a2e1290970ed1d44163891db6c7d62c1ddbcb99",
+          "sourceBlobId": "eba56a1cbb5c2509ae30f06e8a816ebb90d14402",
           "line": 12,
           "literal": "FREE_NEWS_003_CHILD_CONSENT_AND_IRREVERSIBLE_INTERVENTION.md",
           "syntax": "INLINE_CODE",
@@ -2353,7 +2542,7 @@
       "evidence": [
         {
           "sourcePath": "reports/README.md",
-          "sourceBlobId": "0a2e1290970ed1d44163891db6c7d62c1ddbcb99",
+          "sourceBlobId": "eba56a1cbb5c2509ae30f06e8a816ebb90d14402",
           "line": 19,
           "literal": "FREE_NEWS_009_GITHUB_CONTRIBUTION_GRAPH_AND_PRIORITY.md",
           "syntax": "INLINE_CODE",
@@ -2370,7 +2559,7 @@
       "evidence": [
         {
           "sourcePath": "reports/README.md",
-          "sourceBlobId": "0a2e1290970ed1d44163891db6c7d62c1ddbcb99",
+          "sourceBlobId": "eba56a1cbb5c2509ae30f06e8a816ebb90d14402",
           "line": 8,
           "literal": "MICROSOFT_PKI_REPOSITORY_PATTERN.md",
           "syntax": "INLINE_CODE",
@@ -2387,7 +2576,7 @@
       "evidence": [
         {
           "sourcePath": "reports/README.md",
-          "sourceBlobId": "0a2e1290970ed1d44163891db6c7d62c1ddbcb99",
+          "sourceBlobId": "eba56a1cbb5c2509ae30f06e8a816ebb90d14402",
           "line": 29,
           "literal": "FREE_NEWS_018_PUBLIC_AUTHORITY_ENTRY_LISTENING_ROOM.md",
           "syntax": "INLINE_CODE",
@@ -2404,7 +2593,7 @@
       "evidence": [
         {
           "sourcePath": "reports/README.md",
-          "sourceBlobId": "0a2e1290970ed1d44163891db6c7d62c1ddbcb99",
+          "sourceBlobId": "eba56a1cbb5c2509ae30f06e8a816ebb90d14402",
           "line": 13,
           "literal": "FREE_NEWS_004_CONSENT_COCKPIT_234_INACTIVE_VENDORS.md",
           "syntax": "INLINE_CODE",
@@ -2421,7 +2610,7 @@
       "evidence": [
         {
           "sourcePath": "reports/README.md",
-          "sourceBlobId": "0a2e1290970ed1d44163891db6c7d62c1ddbcb99",
+          "sourceBlobId": "eba56a1cbb5c2509ae30f06e8a816ebb90d14402",
           "line": 20,
           "literal": "FREE_NEWS_010_MADE_IN_GERMANY_QUANTUM_INTERNET_ASTER_ASTAR_ASTRA.md",
           "syntax": "INLINE_CODE",
@@ -2438,7 +2627,7 @@
       "evidence": [
         {
           "sourcePath": "reports/README.md",
-          "sourceBlobId": "0a2e1290970ed1d44163891db6c7d62c1ddbcb99",
+          "sourceBlobId": "eba56a1cbb5c2509ae30f06e8a816ebb90d14402",
           "line": 11,
           "literal": "FREE_NEWS_002_REACHER_S4E7_DIGITAL_REFOCUS.md",
           "syntax": "INLINE_CODE",
@@ -2455,7 +2644,7 @@
       "evidence": [
         {
           "sourcePath": "reports/README.md",
-          "sourceBlobId": "0a2e1290970ed1d44163891db6c7d62c1ddbcb99",
+          "sourceBlobId": "eba56a1cbb5c2509ae30f06e8a816ebb90d14402",
           "line": 30,
           "literal": "FREE_NEWS_019_XXXLUTZ_PORTA_TAKEOVER_AND_EMPLOYEE_PARTICIPATION.md",
           "syntax": "INLINE_CODE",
@@ -2472,7 +2661,7 @@
       "evidence": [
         {
           "sourcePath": "reports/README.md",
-          "sourceBlobId": "0a2e1290970ed1d44163891db6c7d62c1ddbcb99",
+          "sourceBlobId": "eba56a1cbb5c2509ae30f06e8a816ebb90d14402",
           "line": 17,
           "literal": "FREE_NEWS_007_RAVE_GROUP_RULE_AND_CANNABIS_SCOPE.md",
           "syntax": "INLINE_CODE",
@@ -2489,7 +2678,7 @@
       "evidence": [
         {
           "sourcePath": "reports/README.md",
-          "sourceBlobId": "0a2e1290970ed1d44163891db6c7d62c1ddbcb99",
+          "sourceBlobId": "eba56a1cbb5c2509ae30f06e8a816ebb90d14402",
           "line": 10,
           "literal": "FREE_NEWS_001_IOS_MARKER_AND_401_EDGE.md",
           "syntax": "INLINE_CODE",
@@ -2506,7 +2695,7 @@
       "evidence": [
         {
           "sourcePath": "reports/README.md",
-          "sourceBlobId": "0a2e1290970ed1d44163891db6c7d62c1ddbcb99",
+          "sourceBlobId": "eba56a1cbb5c2509ae30f06e8a816ebb90d14402",
           "line": 27,
           "literal": "FREE_NEWS_017_CE_BARCODES_HTTPS_500_AND_SNAPSHOT_MARKERS.md",
           "syntax": "INLINE_CODE",
@@ -2523,7 +2712,7 @@
       "evidence": [
         {
           "sourcePath": "reports/README.md",
-          "sourceBlobId": "0a2e1290970ed1d44163891db6c7d62c1ddbcb99",
+          "sourceBlobId": "eba56a1cbb5c2509ae30f06e8a816ebb90d14402",
           "line": 18,
           "literal": "FREE_NEWS_008_WAX_CRAYON_PEACE_HELMET_AND_IOS_MARKER.md",
           "syntax": "INLINE_CODE",
@@ -2858,7 +3047,7 @@
       "evidence": [
         {
           "source": "CATALOG_ENTRY_HISTORY",
-          "coverageRef": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3"
+          "coverageRef": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -2871,7 +3060,7 @@
       "evidence": [
         {
           "source": "CATALOG_ENTRY_HISTORY",
-          "coverageRef": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3"
+          "coverageRef": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -2884,7 +3073,7 @@
       "evidence": [
         {
           "source": "CATALOG_ENTRY_HISTORY",
-          "coverageRef": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3"
+          "coverageRef": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -2897,7 +3086,7 @@
       "evidence": [
         {
           "source": "CATALOG_ENTRY_HISTORY",
-          "coverageRef": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3"
+          "coverageRef": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -2910,7 +3099,7 @@
       "evidence": [
         {
           "source": "CATALOG_ENTRY_HISTORY",
-          "coverageRef": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3"
+          "coverageRef": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -2923,7 +3112,7 @@
       "evidence": [
         {
           "source": "CATALOG_ENTRY_HISTORY",
-          "coverageRef": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3"
+          "coverageRef": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -2936,7 +3125,7 @@
       "evidence": [
         {
           "source": "CATALOG_ENTRY_HISTORY",
-          "coverageRef": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3"
+          "coverageRef": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -2949,7 +3138,7 @@
       "evidence": [
         {
           "source": "CATALOG_ENTRY_HISTORY",
-          "coverageRef": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3"
+          "coverageRef": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -2962,7 +3151,7 @@
       "evidence": [
         {
           "source": "CATALOG_ENTRY_HISTORY",
-          "coverageRef": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3"
+          "coverageRef": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -2975,7 +3164,20 @@
       "evidence": [
         {
           "source": "CATALOG_ENTRY_HISTORY",
-          "coverageRef": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3"
+          "coverageRef": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c"
+        }
+      ],
+      "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-indexes:9ba7fa5ddd578ebbe770",
+      "relationType": "INDEXES",
+      "from": "audit-star:index",
+      "to": "branch:7ccaf6849253a81a0d0d",
+      "evidence": [
+        {
+          "source": "CATALOG_ENTRY_HISTORY",
+          "coverageRef": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -2988,7 +3190,7 @@
       "evidence": [
         {
           "source": "CATALOG_ENTRY_HISTORY",
-          "coverageRef": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3"
+          "coverageRef": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -3001,7 +3203,7 @@
       "evidence": [
         {
           "source": "CATALOG_ENTRY_HISTORY",
-          "coverageRef": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3"
+          "coverageRef": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -3014,7 +3216,7 @@
       "evidence": [
         {
           "source": "CATALOG_ENTRY_HISTORY",
-          "coverageRef": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3"
+          "coverageRef": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -3027,7 +3229,7 @@
       "evidence": [
         {
           "source": "CATALOG_ENTRY_HISTORY",
-          "coverageRef": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3"
+          "coverageRef": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -3040,7 +3242,7 @@
       "evidence": [
         {
           "source": "CATALOG_ENTRY_HISTORY",
-          "coverageRef": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3"
+          "coverageRef": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -3053,7 +3255,7 @@
       "evidence": [
         {
           "source": "CATALOG_ENTRY_HISTORY",
-          "coverageRef": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3"
+          "coverageRef": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -3066,7 +3268,7 @@
       "evidence": [
         {
           "source": "CATALOG_ENTRY_HISTORY",
-          "coverageRef": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3"
+          "coverageRef": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -3079,7 +3281,7 @@
       "evidence": [
         {
           "source": "CATALOG_ENTRY_HISTORY",
-          "coverageRef": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3"
+          "coverageRef": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -3092,7 +3294,7 @@
       "evidence": [
         {
           "source": "CATALOG_ENTRY_HISTORY",
-          "coverageRef": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3"
+          "coverageRef": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -3105,7 +3307,7 @@
       "evidence": [
         {
           "source": "CATALOG_ENTRY_HISTORY",
-          "coverageRef": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3"
+          "coverageRef": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -3118,7 +3320,7 @@
       "evidence": [
         {
           "source": "CATALOG_ENTRY_HISTORY",
-          "coverageRef": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3"
+          "coverageRef": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -3131,7 +3333,7 @@
       "evidence": [
         {
           "source": "CATALOG_ENTRY_HISTORY",
-          "coverageRef": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3"
+          "coverageRef": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -3144,7 +3346,7 @@
       "evidence": [
         {
           "source": "CATALOG_ENTRY_HISTORY",
-          "coverageRef": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3"
+          "coverageRef": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -3157,7 +3359,7 @@
       "evidence": [
         {
           "source": "REPORT_GIT_TREE_HISTORY",
-          "coverageRef": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3"
+          "coverageRef": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -3170,7 +3372,7 @@
       "evidence": [
         {
           "source": "REPORT_GIT_TREE_HISTORY",
-          "coverageRef": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3"
+          "coverageRef": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -3183,7 +3385,7 @@
       "evidence": [
         {
           "source": "REPORT_GIT_TREE_HISTORY",
-          "coverageRef": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3"
+          "coverageRef": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -3196,7 +3398,7 @@
       "evidence": [
         {
           "source": "REPORT_GIT_TREE_HISTORY",
-          "coverageRef": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3"
+          "coverageRef": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -3209,7 +3411,7 @@
       "evidence": [
         {
           "source": "REPORT_GIT_TREE_HISTORY",
-          "coverageRef": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3"
+          "coverageRef": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -3222,7 +3424,7 @@
       "evidence": [
         {
           "source": "REPORT_GIT_TREE_HISTORY",
-          "coverageRef": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3"
+          "coverageRef": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -3235,7 +3437,7 @@
       "evidence": [
         {
           "source": "REPORT_GIT_TREE_HISTORY",
-          "coverageRef": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3"
+          "coverageRef": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -3248,7 +3450,20 @@
       "evidence": [
         {
           "source": "REPORT_GIT_TREE_HISTORY",
-          "coverageRef": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3"
+          "coverageRef": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c"
+        }
+      ],
+      "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
+    },
+    {
+      "id": "edge-indexes:0e482b12e15b1f902c67",
+      "relationType": "INDEXES",
+      "from": "audit-star:index",
+      "to": "report:5fe154eeca009f8b6710",
+      "evidence": [
+        {
+          "source": "REPORT_GIT_TREE_HISTORY",
+          "coverageRef": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -3261,7 +3476,7 @@
       "evidence": [
         {
           "source": "REPORT_GIT_TREE_HISTORY",
-          "coverageRef": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3"
+          "coverageRef": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -3274,7 +3489,7 @@
       "evidence": [
         {
           "source": "REPORT_GIT_TREE_HISTORY",
-          "coverageRef": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3"
+          "coverageRef": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -3287,7 +3502,7 @@
       "evidence": [
         {
           "source": "REPORT_GIT_TREE_HISTORY",
-          "coverageRef": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3"
+          "coverageRef": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -3300,7 +3515,7 @@
       "evidence": [
         {
           "source": "REPORT_GIT_TREE_HISTORY",
-          "coverageRef": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3"
+          "coverageRef": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -3313,7 +3528,7 @@
       "evidence": [
         {
           "source": "REPORT_GIT_TREE_HISTORY",
-          "coverageRef": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3"
+          "coverageRef": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -3326,7 +3541,7 @@
       "evidence": [
         {
           "source": "REPORT_GIT_TREE_HISTORY",
-          "coverageRef": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3"
+          "coverageRef": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -3339,7 +3554,7 @@
       "evidence": [
         {
           "source": "REPORT_GIT_TREE_HISTORY",
-          "coverageRef": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3"
+          "coverageRef": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -3352,7 +3567,7 @@
       "evidence": [
         {
           "source": "REPORT_GIT_TREE_HISTORY",
-          "coverageRef": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3"
+          "coverageRef": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -3365,7 +3580,7 @@
       "evidence": [
         {
           "source": "REPORT_GIT_TREE_HISTORY",
-          "coverageRef": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3"
+          "coverageRef": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -3378,7 +3593,7 @@
       "evidence": [
         {
           "source": "REPORT_GIT_TREE_HISTORY",
-          "coverageRef": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3"
+          "coverageRef": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -3391,7 +3606,7 @@
       "evidence": [
         {
           "source": "REPORT_GIT_TREE_HISTORY",
-          "coverageRef": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3"
+          "coverageRef": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -3404,7 +3619,7 @@
       "evidence": [
         {
           "source": "REPORT_GIT_TREE_HISTORY",
-          "coverageRef": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3"
+          "coverageRef": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -3417,7 +3632,7 @@
       "evidence": [
         {
           "source": "REPORT_GIT_TREE_HISTORY",
-          "coverageRef": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3"
+          "coverageRef": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -3430,7 +3645,7 @@
       "evidence": [
         {
           "source": "REPORT_GIT_TREE_HISTORY",
-          "coverageRef": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3"
+          "coverageRef": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -3443,7 +3658,7 @@
       "evidence": [
         {
           "source": "REPORT_GIT_TREE_HISTORY",
-          "coverageRef": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3"
+          "coverageRef": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -3456,7 +3671,7 @@
       "evidence": [
         {
           "source": "REPORT_GIT_TREE_HISTORY",
-          "coverageRef": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3"
+          "coverageRef": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
@@ -3469,7 +3684,7 @@
       "evidence": [
         {
           "source": "REPORT_GIT_TREE_HISTORY",
-          "coverageRef": "d83a424b5e7f3b1cd34e84ef69a04a724d68ddd3"
+          "coverageRef": "8c2b39b830b4d392e42c5f3c449d959c12a99b3c"
         }
       ],
       "semantics": "CATALOG_MEMBERSHIP_ONLY_NO_CAUSALITY_AUTHORSHIP_DERIVATION_OR_IDENTITY"
