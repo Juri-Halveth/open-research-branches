@@ -9,8 +9,9 @@ Der zu einem Tag oder Ref erzeugte Provenienzumschlag listet jede Datei und
 jedes Blob-Objekt im Ziel-Tree, seine Byteanzahl und seinen SHA-256-Digest.
 Zusätzlich bindet er das konkrete Ref- oder annotierte Tag-Objekt, den Commit,
 den Git-Tree, die sichtbare First-Parent-Historie und für jede Datei den ersten
-und letzten im Repository sichtbaren Commit. Damit lässt sich später prüfen,
-ob eine Datei genau dem veröffentlichten Snapshot entspricht.
+und letzten am aktuellen Repositorypfad sichtbaren Commit. Umbenennungen werden
+nicht über den früheren Pfad zurückverfolgt. Damit lässt sich später prüfen, ob
+eine Datei genau dem veröffentlichten Snapshot entspricht.
 
 ## Was der Nachweis trägt
 
@@ -73,17 +74,37 @@ das Material; er ersetzt die Zustimmung nicht.
 
 ## Reproduktion
 
-Nach dem Checkout eines Tags erzeugt das Programm den Umschlag:
+Nach dem Checkout eines Tags erzeugt das Programm einen lokalen
+Vergleichsumschlag:
 
 ```powershell
-node scripts/create-provenance-snapshot.mjs --ref v0.7.0 --output open-research-branches-v0.7.0-provenance.json
-node scripts/create-provenance-snapshot.mjs --verify open-research-branches-v0.7.0-provenance.json
-git bundle verify open-research-branches-v0.7.0-source.bundle
+$ReleaseTag = "v0.13.0"
+$LocalProvenance = "open-research-branches-$ReleaseTag.local.provenance.json"
+
+node scripts/create-provenance-snapshot.mjs --ref $ReleaseTag --output $LocalProvenance
+node scripts/create-provenance-snapshot.mjs --verify $LocalProvenance
+```
+
+Nach dem Download der drei Assets aus demselben Release werden die tatsächlich
+veröffentlichten Dateinamen so geprüft:
+
+```powershell
+$ReleaseTag = "v0.13.0"
+$ProvenanceAsset = "open-research-branches-$ReleaseTag.provenance.json"
+$BundleAsset = "open-research-branches-$ReleaseTag.bundle"
+
+Get-Content -LiteralPath "SHA256SUMS" | ForEach-Object {
+    $ExpectedDigest, $Asset = $_.Trim() -split '\s+', 2
+    $ActualDigest = (Get-FileHash -LiteralPath $Asset -Algorithm SHA256).Hash.ToLowerInvariant()
+    if ($ActualDigest -ne $ExpectedDigest) { throw "SHA-256 mismatch: $Asset" }
+}
+node scripts/create-provenance-snapshot.mjs --verify $ProvenanceAsset
+git bundle verify $BundleAsset
 ```
 
 Der im Release veröffentlichte JSON-Umschlag ist die maschinenlesbare Fassung.
 Das Git-Bundle trägt den vollständigen erreichbaren Tag- und Commitstand als
-eigenständiges Quellpaket; `SHA256SUMS.txt` bindet beide Assets. Die
+eigenständiges Quellpaket; `SHA256SUMS` bindet beide Assets. Die
 `claimCeiling` begrenzt exakt, was die Hashes beweisen.
 
 `fileSet.sha256Root` ist für denselben Git-Tree deterministisch reproduzierbar.
