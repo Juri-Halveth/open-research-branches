@@ -1,0 +1,62 @@
+{
+  "schemaVersion": "1.0.0",
+  "scope": "PUBLIC_DOCUMENTATION_COMPARISON",
+  "sourceTime": "2026-09-10",
+  "rows": [
+    {
+      "id": "COINS_ITEM",
+      "sourceIds": [
+        "S01",
+        "S07",
+        "S08"
+      ],
+      "controller": "Developer configuration within Steam platform rules",
+      "transfer": "Conditional item trade or Community Market sale",
+      "supply": "Current app-wide supply and future issue policy UNKNOWN",
+      "blockchainProtocol": "NOT_ESTABLISHED_IN_SOURCES"
+    },
+    {
+      "id": "STEAM_WALLET",
+      "sourceIds": [
+        "S05",
+        "S09",
+        "S10"
+      ],
+      "controller": "Steam contractual account balance",
+      "transfer": "Market proceeds remain Wallet credit; separate direct-funding refund rule",
+      "supply": "Not treated as a scarce investment asset",
+      "blockchainProtocol": "NOT_THE_DOCUMENTED_FUNCTION"
+    },
+    {
+      "id": "STEAM_POINTS",
+      "sourceIds": [
+        "S06"
+      ],
+      "controller": "Steam rewards system",
+      "transfer": "Points-Shop items nontrade/nonmarket",
+      "supply": "Reward rules, not a verified investment-supply model",
+      "blockchainProtocol": "NOT_THE_DOCUMENTED_FUNCTION"
+    },
+    {
+      "id": "BITCOIN",
+      "sourceIds": [
+        "S12"
+      ],
+      "controller": "Network consensus and private-key transaction authorization",
+      "transfer": "Protocol transactions",
+      "supply": "Not evaluated as an investment in this audit",
+      "blockchainProtocol": "DOCUMENTED_BY_PROJECT_SOURCE"
+    }
+  ],
+  "syntheticLiquidityExample": {
+    "kind": "SYNTHETIC_ARITHMETIC_ONLY",
+    "inventoryUnits": 100,
+    "executableBidUnitsAssumed": 10,
+    "buyerPricePerUnitEUR": 0.05,
+    "totalBuyerPriceEUR": 0.5,
+    "remainingUnitsWithoutPriceBasis": 90,
+    "sellerNetWalletCredit": "UNKNOWN_UNTIL_FEES_BOUND",
+    "liveOrder": false,
+    "forecast": false
+  }
+}

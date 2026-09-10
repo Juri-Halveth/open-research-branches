@@ -9,6 +9,7 @@
 *.html text eol=lf
 *.css text eol=lf
 *.csv text eol=lf
+branches/steam-coins-wallet-and-leak-audit/build_pdf.py text eol=lf
 
 *.docx binary
 *.pdf binary

@@ -1,0 +1,177 @@
+{
+  "contract_version": "3.3.0",
+  "work_classes": [
+    "SOURCE_AUDIT",
+    "RETROSPECTIVE_REVIEW"
+  ],
+  "review_kind": "PUBLIC_SOURCE_REVIEW",
+  "recorded_at": "2026-09-10T09:11:08.573Z",
+  "record_state": "FINITE_SNAPSHOT_WITH_REOPEN_TRIGGER",
+  "profile_meaning": "Minimum source-review contract accepted by validate_cycle.py; no transition, temporal-branch, capture, shadow-replica or production-runtime completion is asserted.",
+  "network_active": true,
+  "state_changing": true,
+  "critical_factual_proof": false,
+  "activity_scope": {
+    "network": "PUBLIC_SOURCE_READS_ONLY",
+    "local": "NEW_REPORT_SOURCE_AND_PDF_PREPARATION",
+    "third_party_mutation": "NONE",
+    "active_platform_testing": false,
+    "leak_reproduction": false,
+    "trade_or_purchase": false,
+    "vendor_contact": false,
+    "public_publication_authorized": true,
+    "public_publication_state_at_record": "NOT_YET_OBSERVED_IN_THIS_CYCLE"
+  },
+  "research_scope": "Coins App 3083090, Steam inventory items, Wallet, Points, Community Market, public news about achievement exposure, attribution hypotheses and transparent consumer-facing design proposals.",
+  "evidence_scope": "Public pages and their limited source summaries in sources.json; one user-supplied static screenshot represented only by minimized product metadata; bounded prior local document search. No full account export, raw session, leaked achievement lists, private API traffic, developer configuration or execution trace.",
+  "action_scope": "Read public sources and supplied local material, author this audit and its local PDF, perform static consistency/privacy checks and publish the approved minimized package in the owner repository. No active Steam testing, exploitation, control changes, trade, purchase, wallet action, vendor message or publication of private records.",
+  "claim_scope": "Source-bound product descriptions, visible screenshot labels, precise uncertainty, independent proposed improvements and authorship of this new audit. No leak attribution, platform invention, enforceable compensation, undisclosed cryptocurrency, expected return or proven runtime vulnerability is established.",
+  "authorization_contract": {
+    "target": "Public source pages identified in sources.json; the supplied screenshot as static input; the owner-controlled steam-coins-wallet-and-leak-audit package.",
+    "owner": "Each publisher controls its public page; the repository owner controls the new audit artifacts. No ownership of Steam infrastructure is asserted.",
+    "authorization_source": "Current explicit user instruction to research Steam Coins/Wallet and the linked news, check prior material, and publish the resulting audit under the user name in the owner GitHub project.",
+    "program_policy": "PUBLIC_READ_AND_OWNED_ARTIFACT_PUBLICATION; no active vulnerability program or target-test authorization used.",
+    "in_scope_asset": "Public pages listed in sources.json, supplied screenshot metadata, and the new report/PDF/source files of this branch.",
+    "test_identity": "Public reader and authorized local artifact author; no Steam account identity or credential bound to active testing.",
+    "prerequisites": "Publicly accessible sources, retained source distinctions, private raw-data exclusion, minimized report, explicit user publication authority and verification of each actual external publication event.",
+    "stop_condition": "Stop before bypassing access controls, retrieving leaked data, accessing nonpublic records, running target tests, trading, signing, contacting a vendor or publishing private identifiers; continue only through public or lawfully supplied material.",
+    "data_boundary": "PUBLIC source facts and EXTERNAL_MINIMIZED screenshot descriptions; original account-linked screenshot and private local records remain outside public artifacts.",
+    "evidence_output": "sources.json, README.md, minimized observations, individual claim states, this finite review contract and separately verified release assets.",
+    "valid_at": "2026-09-10T11:08:43.0030757+02:00"
+  },
+  "source_bindings": {
+    "registry": "sources.json",
+    "registry_sha256": "6ff51f93ec505bd98500f7969f739e83b1697d7ff4dfe095b128eeecf457eb73",
+    "source_ids": [
+      "S01",
+      "S02",
+      "S03",
+      "S04",
+      "S05",
+      "S06",
+      "S07",
+      "S08",
+      "S09",
+      "S10",
+      "S11",
+      "S12",
+      "S13",
+      "S14",
+      "S15",
+      "S16",
+      "S17",
+      "S18"
+    ],
+    "source_fetch_time_precision": "DAY_UNLESS_SOURCE_PROVIDES_MORE; recorded_at is contract creation time, not a fabricated retrieval time",
+    "binding_scope": "The exact registry snapshot read during preparation; sources retain their independent trust and access limits."
+  },
+  "proven": [
+    "Publicly documented source history includes the Valve Steam Wallet announcement of 30 September 2010 (S03) and Community Market beta announcement of 12 December 2012 (S04). This is publication history, not hidden implementation coverage.",
+    "The public Coins Store page identifies App 3083090 and CoinsDev (S01); its item-store description describes two random items from eleven variants (S02). Full item supply and variant probabilities are not established.",
+    "The supplied screenshot contains the selected Arsenic Alchemy Coin title and an Antimony description, plus a displayed future trade/market date and restricted tags. This binds displayed text only; the time zone and later live permission are not established.",
+    "The public Steam documentation separates inventory, Wallet, Points, market and achievement features. Shared platform membership does not establish a causal link between them.",
+    "A bounded document search found a prior public How to Fish audit for App 4001890, a distinct subject; no matching earlier Coins/Wallet research report was found within that declared coverage."
+  ],
+  "falsified": [
+    "No experimental falsification or platform exploit test was performed.",
+    "The broad claim that Valve never publicly announced Wallet is incompatible with the identified public 2010 Valve announcement S03. This does not establish what any particular person knew."
+  ],
+  "deepest_unknown": [
+    "Exact technical root cause and complete provenance of the reported achievement exposure.",
+    "Current global Coins supply, distribution, executable market demand and app-specific net fees.",
+    "An attributable earlier user source and an independently supported connection to the reported leak or third-party implementation."
+  ],
+  "why_unknown": "The exact submitted MSN article body was not reliably retrieved; secondary reporting and a limited operator self-report do not expose the full underlying event trace. Public product documents do not disclose complete app configuration or market depth. The local search was bounded and no relevant dated original was located.",
+  "known_techniques_relevant": [
+    "Primary-source attribution and public release-history comparison.",
+    "Separation of contract claims, product descriptions, static labels and observed operations.",
+    "Distinguishing list/offer price from executable demand, gross proceeds, fees and usable target balance.",
+    "Privacy-minimized screenshot transcription and local content/format validation."
+  ],
+  "historical_analogues": [
+    "Public platform-wallet launch and centralized in-platform item markets, using S03 and S04 only within their historical announcement scope.",
+    "Product metadata mismatch between a displayed title and description; similarity does not identify a responsible person or a root cause.",
+    "Reported public visibility of achievement metadata as a separate feature-domain issue; no reproduction method is supplied."
+  ],
+  "available_tools": [
+    "Public web/source retrieval with source-attribution output.",
+    "Static reading of the supplied image and owner-provided text artifacts.",
+    "Local text search and version-history inspection in declared document scopes.",
+    "Local JSON parsing, digest computation, report/PDF generation and the minimum cycle validator."
+  ],
+  "missing_measurement_capability": "No independent authorized Steam server trace, Coins issuer inventory configuration, current executable order-depth observation, verified leaked-data event lineage, exact MSN fulltext or matching historical user-original source was bound to this review.",
+  "custom_tool_needed": "No active target tool is needed for this source-review snapshot. A future valuation model would require lawfully obtained, time-bound public market inputs; a future attribution comparison would require a concrete original source rather than invented observations.",
+  "counterhypothesis": [
+    "Coins are developer-issued Steam inventory items using publicly documented inventory/market services, while Wallet is platform credit and Points are a separate reward system.",
+    "Achievement exposure described by public reporting has an independently generated platform/visibility cause; the current screenshot and thematic similarity do not bind the user to that event.",
+    "An earlier user idea may exist outside searched material; finding a concrete original would reopen comparison without establishing external adoption by itself."
+  ],
+  "next_w_question": "Which public issuer statement or lawfully supplied original would discriminate between the remaining Coins-issuance, value and attribution hypotheses for the exact same app or reported event?",
+  "next_recursive_level": "Public source correction or exact dated-original comparison only; no active security recursion or unbounded media search.",
+  "next_safe_experiment": "Compare a newly supplied public issuer clarification, public Valve/Exophase technical statement or specific dated user-original against the currently bound claims. For the Arsenic/Antimony discrepancy, compare lawfully accessible public item descriptions without account access or state change.",
+  "stop_condition": "End this pass as a finite source-review snapshot after source, privacy, content and artifact checks; stop earlier at access restriction, nonpublic/leaked material, target execution, speculative monetary attribution or private-person identification.",
+  "critical_proof_condition": "A separate security claim would require current explicit target authorization and a source-bound, independently reviewable observed authority difference and bounded impact. This cycle supplies none and does not request or describe reproduction.",
+  "boundary": "Public reporting and static artifact analysis only. A source-registry entry is a research reference, not a runtime observation; a local validator pass does not prove source truth, authorship of a third-party system, economic value or an external effect.",
+  "reopen_trigger": [
+    "Public technical correction or signed statement from Valve, the Coins developer or the reporting operator.",
+    "A concrete lawfully supplied dated original or prior published commit concerning the same app or event.",
+    "A material change in official Wallet, Market, Points or Coins issuance/fee documentation.",
+    "A newly verified artifact publication receipt or a substantive correction to this research snapshot."
+  ],
+  "claims": [
+    {
+      "term": "PUBLIC_WALLET_HISTORY",
+      "object_or_referent": "Valve Steam Wallet announcement",
+      "scope": "Historical public announcement only",
+      "source": "S03 in sources.json",
+      "version": "Bound source registry snapshot",
+      "valid_at": "2026-09-10",
+      "evidence_state": "OBSERVED"
+    },
+    {
+      "term": "COINS_PRODUCT",
+      "object_or_referent": "Coins App 3083090 and described item pack",
+      "scope": "Public product description, not full issuer implementation",
+      "source": "S01 and S02 in sources.json",
+      "version": "Bound source registry snapshot",
+      "valid_at": "2026-09-10",
+      "evidence_state": "OBSERVED"
+    },
+    {
+      "term": "WALLET_MARKET_SEPARATION",
+      "object_or_referent": "Steam Wallet credit, inventory items, Points and Market proceeds",
+      "scope": "Published feature and contractual descriptions",
+      "source": "S05-S11 and S17 in sources.json",
+      "version": "Bound source registry snapshot",
+      "valid_at": "2026-09-10",
+      "evidence_state": "STRONGLY_SUPPORTED"
+    },
+    {
+      "term": "LEAK_CAUSE",
+      "object_or_referent": "Reported Steam achievement exposure",
+      "scope": "Public reports and limited operator self-report; no target reproduction",
+      "source": "S13-S16 and S18 in sources.json",
+      "version": "Bound source registry snapshot",
+      "valid_at": "2026-09-10",
+      "evidence_state": "UNKNOWN"
+    },
+    {
+      "term": "USER_EVENT_ATTRIBUTION",
+      "object_or_referent": "Claim that the audit requester caused the reported exposure",
+      "scope": "Current supplied screenshot, bounded history search and public reports",
+      "source": "Current supplied material; sources.json S13-S18; prior How to Fish audit is a distinct app",
+      "version": "This finite source-review snapshot",
+      "valid_at": "2026-09-10",
+      "evidence_state": "NOT_PROVEN"
+    },
+    {
+      "term": "BITCOIN_LIKE_COINS_PROTOCOL",
+      "object_or_referent": "Claimed decentralized Coins network",
+      "scope": "Public Coins and Steam documentation compared with Bitcoin protocol description",
+      "source": "S01, S07, S08 and S12 in sources.json",
+      "version": "Bound source registry snapshot",
+      "valid_at": "2026-09-10",
+      "evidence_state": "NOT_PROVEN"
+    }
+  ]
+}

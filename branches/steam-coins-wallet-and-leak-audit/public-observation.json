@@ -1,0 +1,48 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "O01",
+  "dataClass": "EXTERNAL_MINIMIZED",
+  "evidenceState": "OBSERVED",
+  "acquisition": "USER_SUPPLIED_IMAGE_STATIC_READING",
+  "sourceSha256": "22d2eed7fd704cbf9bac2026e14107352da913bbff4ad46cd8fc5cd28eaac720",
+  "observedDate": "2026-09-10",
+  "eventTime": "UNKNOWN",
+  "sourceNotPublished": true,
+  "fields": {
+    "appId": "3083090",
+    "gameTitle": "Coins",
+    "itemTitle": "Arsenic Alchemy Coin",
+    "descriptionToken": "Antimony",
+    "collectionLabel": "10/11 Alchemy Collection",
+    "availabilityAsDisplayed": "11.9.2026, 02:00:00",
+    "availabilityTimeZone": "UNKNOWN",
+    "tagsAsDisplayed": [
+      "Nicht handelbar",
+      "Nicht marktfähig"
+    ],
+    "stackedItemsVisible": true
+  },
+  "excluded": [
+    "ACCOUNT_IDENTIFIER",
+    "RAW_IMAGE",
+    "HOLDING_QUANTITIES",
+    "PRIVATE_PATHS"
+  ],
+  "notObserved": [
+    "CURRENT_LIVE_ELIGIBILITY",
+    "EXECUTED_SALE",
+    "ITEM_ORDER_BOOK",
+    "CHAIN_IDENTIFIER",
+    "GLOBAL_SUPPLY_CAP"
+  ],
+  "historicalSearch": {
+    "id": "L01",
+    "coverage": "Selected document text paths, public repository files and available Git path history; not all local media or all historical sessions.",
+    "matchingPriorCoinsAudit": "NOT_FOUND_WITHIN_COVERAGE",
+    "relatedReport": "../../reports/FREE_NEWS_005_HOW_TO_FISH_IDENTITY_AND_CREATION.md",
+    "relatedAppId": "4001890",
+    "relationType": "PRIOR_REPORT_ON_SAME_PLATFORM_DIFFERENT_APP",
+    "causalDirection": null,
+    "reopenTrigger": "Specific earlier file, commit or public report."
+  }
+}

@@ -54,6 +54,13 @@ test("file root changes when one byte digest changes", () => {
 
 test("every file-specific public-interest path takes precedence over generic classes", () => {
   const customPaths = [
+    "reports/FREE_NEWS_020_STEAM_COINS_WALLET_AND_LEAK_AUDIT.md",
+    "branches/steam-coins-wallet-and-leak-audit/README.md",
+    "branches/steam-coins-wallet-and-leak-audit/sources.json",
+    "branches/steam-coins-wallet-and-leak-audit/claims.json",
+    "branches/steam-coins-wallet-and-leak-audit/comparison.json",
+    "branches/steam-coins-wallet-and-leak-audit/public-observation.json",
+    "branches/steam-coins-wallet-and-leak-audit/reconstruction-cycle.json",
     "PROVENANCE.md",
     "provenance-policy.json",
     "reports/FREE_NEWS_005_HOW_TO_FISH_IDENTITY_AND_CREATION.md",

@@ -1,0 +1,208 @@
+{
+  "schemaVersion": "1.0.0",
+  "collectionState": "FINITE_SNAPSHOT",
+  "recordedAt": "2026-09-10T09:09:16.975Z",
+  "retrievalDate": "2026-09-10",
+  "retrievalTimePrecision": "DAY_UNLESS_ORIGINAL_SOURCE_PROVIDES_MORE",
+  "coverage": "Public pages and an explicitly limited search-index excerpt; exact MSN body unavailable. No leaked files, private API, account or inventory export accessed.",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "Coins — Steam Store",
+      "publisher": "CoinsDev / Steam",
+      "url": "https://store.steampowered.com/app/3083090/Coins/",
+      "publishedAt": "2024-08-02",
+      "accessedAt": "2026-09-10",
+      "sourceRole": "PRIMARY_PRODUCT_PAGE",
+      "accessMethod": "PUBLIC_WEB_TEXT",
+      "scope": "Developer/publisher, release date and stated collecting/market gameplay; no global supply or blockchain finding."
+    },
+    {
+      "id": "S02",
+      "title": "2x Alchemy Coins — Item Store",
+      "publisher": "CoinsDev / Steam",
+      "url": "https://store.steampowered.com/itemstore/3083090/detail/206/",
+      "publishedAt": null,
+      "accessedAt": "2026-09-10",
+      "sourceRole": "PRIMARY_PRODUCT_PAGE",
+      "accessMethod": "PUBLIC_WEB_TEXT",
+      "scope": "Two random items from eleven variants; no individual probabilities located in the fetched short description."
+    },
+    {
+      "id": "S03",
+      "title": "Steam Wallet and in-game transactions are here!",
+      "publisher": "Valve",
+      "url": "https://store.steampowered.com/news/4406/",
+      "publishedAt": "2010-09-30",
+      "accessedAt": "2026-09-10",
+      "sourceRole": "PRIMARY_ANNOUNCEMENT",
+      "accessMethod": "PUBLIC_WEB_TEXT",
+      "scope": "Public announcement of Steam Wallet. Historical date, not current payment-feature completeness."
+    },
+    {
+      "id": "S04",
+      "title": "Steam Community Market Now In Beta",
+      "publisher": "Valve",
+      "url": "https://store.steampowered.com/oldnews/9594",
+      "publishedAt": "2012-12-12",
+      "accessedAt": "2026-09-10",
+      "sourceRole": "PRIMARY_ANNOUNCEMENT",
+      "accessMethod": "PUBLIC_WEB_TEXT",
+      "scope": "Public Market launch and sale proceeds in Wallet funds."
+    },
+    {
+      "id": "S05",
+      "title": "Steam Subscriber Agreement",
+      "publisher": "Valve",
+      "url": "https://store.steampowered.com/subscriber_agreement/",
+      "publishedAt": null,
+      "accessedAt": "2026-09-10",
+      "sourceRole": "PRIMARY_CONTRACT",
+      "accessMethod": "PUBLIC_WEB_TEXT",
+      "scope": "Sections 3.C-D describe Wallet and marketplace rights; not adjudication of a particular claim."
+    },
+    {
+      "id": "S06",
+      "title": "Steam Points — How It Works",
+      "publisher": "Valve",
+      "url": "https://store.steampowered.com/points/howitworks/?l=english",
+      "publishedAt": null,
+      "accessedAt": "2026-09-10",
+      "sourceRole": "PRIMARY_HELP",
+      "accessMethod": "SIGNED_OUT_BROWSER_RENDER",
+      "scope": "Points rewards and nontrade/nonmarket status; page shell alone was insufficient and rendered text was read."
+    },
+    {
+      "id": "S07",
+      "title": "Steam Inventory Service",
+      "publisher": "Valve",
+      "url": "https://partner.steamgames.com/doc/features/inventory",
+      "publishedAt": null,
+      "accessedAt": "2026-09-10",
+      "sourceRole": "PRIMARY_TECHNICAL_DOCUMENTATION",
+      "accessMethod": "PUBLIC_WEB_TEXT",
+      "scope": "Developer inventory architecture, not this app's complete configuration."
+    },
+    {
+      "id": "S08",
+      "title": "Steam Inventory Schema",
+      "publisher": "Valve",
+      "url": "https://partner.steamgames.com/doc/features/inventory/schema",
+      "publishedAt": null,
+      "accessedAt": "2026-09-10",
+      "sourceRole": "PRIMARY_TECHNICAL_DOCUMENTATION",
+      "accessMethod": "PUBLIC_WEB_TEXT",
+      "scope": "Separate tradable and marketable fields, definitions and issuance controls. No active API calls."
+    },
+    {
+      "id": "S09",
+      "title": "Community Market FAQ",
+      "publisher": "Valve",
+      "url": "https://help.steampowered.com/en/faqs/view/61F0-72B7-9A18-C70B",
+      "publishedAt": null,
+      "accessedAt": "2026-09-10",
+      "sourceRole": "PRIMARY_HELP",
+      "accessMethod": "PUBLIC_WEB_TEXT",
+      "scope": "Wallet-only proceeds, trading conditions and fee categories. Coins-specific extra fee unknown."
+    },
+    {
+      "id": "S10",
+      "title": "Steam Refunds",
+      "publisher": "Valve",
+      "url": "https://store.steampowered.com/steam_refunds/",
+      "publishedAt": "2024-04-23",
+      "accessedAt": "2026-09-10",
+      "sourceRole": "PRIMARY_POLICY",
+      "accessMethod": "PUBLIC_WEB_TEXT",
+      "scope": "Displayed update date; refund request for unused directly purchased Wallet funds within fourteen days."
+    },
+    {
+      "id": "S11",
+      "title": "Steam Trade and Market Holds",
+      "publisher": "Valve",
+      "url": "https://help.steampowered.com/en/faqs/view/34A1-EA3F-83ED-54AB",
+      "publishedAt": null,
+      "accessedAt": "2026-09-10",
+      "sourceRole": "PRIMARY_HELP",
+      "accessMethod": "PUBLIC_WEB_TEXT",
+      "scope": "General holds; no diagnosis of the screenshot's actual restriction."
+    },
+    {
+      "id": "S12",
+      "title": "How does Bitcoin work?",
+      "publisher": "Bitcoin.org",
+      "url": "https://bitcoin.org/en/how-it-works",
+      "publishedAt": null,
+      "accessedAt": "2026-09-10",
+      "sourceRole": "PROJECT_TECHNICAL_EXPLANATION",
+      "accessMethod": "PUBLIC_WEB_TEXT",
+      "scope": "Network ledger, signatures and confirmation; no investment-return claim."
+    },
+    {
+      "id": "S13",
+      "title": "Persona 6, Kingdom Hearts IV, and other Steam achievements surface in large-scale leak",
+      "publisher": "Gematsu / Sal Romano",
+      "url": "https://www.gematsu.com/2026/09/persona-6-kingdom-hearts-iv-and-other-steam-achievements-surface-in-large-scale-leak",
+      "publishedAt": "2026-09-08T21:18:00-04:00",
+      "accessedAt": "2026-09-10",
+      "sourceRole": "SECONDARY_NEWS",
+      "accessMethod": "PUBLIC_WEB_TEXT",
+      "scope": "Reports Exophase achievement visibility and an operator hypothesis; root cause and relation to exact MSN page not established."
+    },
+    {
+      "id": "S14",
+      "title": "Exophase operator statement in achievement discussion",
+      "publisher": "ResetEra / account x3sphere",
+      "url": "https://www.resetera.com/threads/persona-6-and-other-unrevealed-achievement-lists-are-leaking-via-steam-walking-dead-tomb-raider-shrek-kh4-more.1627462/page-4?post=160223521",
+      "publishedAt": null,
+      "accessedAt": "2026-09-10",
+      "sourceRole": "ATTRIBUTED_OPERATOR_STATEMENT",
+      "accessMethod": "SEARCH_INDEX_EXCERPT_ONLY",
+      "scope": "Self-described operator account. Absolute post time and original technical trace unavailable; not independent cause verification."
+    },
+    {
+      "id": "S15",
+      "title": "Steam may have leaked achievements for countless forthcoming PC games via a third-party site",
+      "publisher": "PC Gamer / Shaun Prescott",
+      "url": "https://www.pcgamer.com/gaming-industry/steam-may-have-leaked-achievements-for-countless-forthcoming-pc-games-via-a-third-party-site-including-persona-6-ace-combat-8-and-even-some-unannounced-games/",
+      "publishedAt": "2026-09-09",
+      "accessedAt": "2026-09-10",
+      "sourceRole": "SECONDARY_NEWS",
+      "accessMethod": "PUBLIC_WEB_TEXT",
+      "scope": "Displayed last-update date; report and corrected attribution. No leaked achievement list reproduced."
+    },
+    {
+      "id": "S16",
+      "title": "Stats and Achievements",
+      "publisher": "Valve",
+      "url": "https://partner.steamgames.com/doc/features/achievements",
+      "publishedAt": null,
+      "accessedAt": "2026-09-10",
+      "sourceRole": "PRIMARY_TECHNICAL_DOCUMENTATION",
+      "accessMethod": "PUBLIC_WEB_TEXT",
+      "scope": "Public feature distinction from inventories; no active endpoint or vulnerability reproduction."
+    },
+    {
+      "id": "S17",
+      "title": "Trading and Market Restrictions",
+      "publisher": "Valve",
+      "url": "https://help.steampowered.com/en/faqs/view/451E-96B3-D194-50FC",
+      "publishedAt": null,
+      "accessedAt": "2026-09-10",
+      "sourceRole": "PRIMARY_HELP",
+      "accessMethod": "PUBLIC_WEB_TEXT",
+      "scope": "Account conditions may coexist with item-specific availability; exact user state unknown."
+    },
+    {
+      "id": "S18",
+      "title": "Steam: Riesiger Leak enthüllt wichtige Details zu unveröffentlichten Spielen",
+      "publisher": "MSN / original publisher unresolved",
+      "url": "https://www.msn.com/de-de/gaming/gaming-plattformen/steam-riesiger-leak-enth%C3%BCllt-wichtige-details-zu-unver%C3%B6ffentlichten-spielen/ar-AA2bRQIk",
+      "publishedAt": null,
+      "accessedAt": "2026-09-10",
+      "sourceRole": "USER_SUPPLIED_NEWS_POINTER",
+      "accessMethod": "BODY_UNAVAILABLE",
+      "scope": "Exact source body, original publisher and date could not be reliably retrieved; excluded from factual substantiation."
+    }
+  ]
+}

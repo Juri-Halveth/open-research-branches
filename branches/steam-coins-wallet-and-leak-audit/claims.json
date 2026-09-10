@@ -1,0 +1,172 @@
+{
+  "schemaVersion": "1.0.0",
+  "collectionState": "FINITE_SNAPSHOT",
+  "recordedAt": "2026-09-10T09:09:16Z",
+  "claims": [
+    {
+      "id": "C01",
+      "statement": "Coins App 3083090 is attributed by its public store to CoinsDev, released 2024-08-02.",
+      "evidenceState": "OBSERVED",
+      "sourceIds": [
+        "S01"
+      ],
+      "claimCeiling": "Product description, not corporate identity due diligence.",
+      "reopenTrigger": "Changed official app listing."
+    },
+    {
+      "id": "C02",
+      "statement": "The supplied image labels Arsenic while its item description begins Antimony.",
+      "evidenceState": "OBSERVED",
+      "sourceIds": [
+        "O01"
+      ],
+      "claimCeiling": "Visual wording only; no cause or author attribution.",
+      "reopenTrigger": "Developer correction or exact current public item metadata."
+    },
+    {
+      "id": "C03",
+      "statement": "Steam Wallet and Market were publicly announced in 2010 and 2012.",
+      "evidenceState": "OBSERVED",
+      "sourceIds": [
+        "S03",
+        "S04"
+      ],
+      "claimCeiling": "Existence of announcements, not all users' awareness.",
+      "reopenTrigger": "Earlier primary announcements or corrections."
+    },
+    {
+      "id": "C04",
+      "statement": "Public documentation supports a platform-managed item economy.",
+      "evidenceState": "STRONGLY_SUPPORTED",
+      "sourceIds": [
+        "S01",
+        "S07",
+        "S08"
+      ],
+      "claimCeiling": "Generic architecture and this app's public description, not full private app configuration.",
+      "reopenTrigger": "Developer-published current issue and configuration policy."
+    },
+    {
+      "id": "C05",
+      "statement": "A secret Bitcoin-like Coins protocol is not established in this source set.",
+      "evidenceState": "NOT_PROVEN",
+      "sourceIds": [
+        "S01",
+        "S07",
+        "S08",
+        "S12"
+      ],
+      "claimCeiling": "No global impossibility claim; coin imagery does not bind a network protocol.",
+      "reopenTrigger": "Public protocol, independently inspectable ledger and consensus specifications."
+    },
+    {
+      "id": "C06",
+      "statement": "Market proceeds are Steam Wallet credit and the documented Market does not cash them out to a bank.",
+      "evidenceState": "OBSERVED",
+      "sourceIds": [
+        "S09"
+      ],
+      "claimCeiling": "Documented platform function; not a finding about every third-party market or statutory remedy.",
+      "reopenTrigger": "Changed official Market policy."
+    },
+    {
+      "id": "C07",
+      "statement": "Unused Wallet credit purchased directly on Steam has a separate fourteen-day refund-request rule.",
+      "evidenceState": "OBSERVED",
+      "sourceIds": [
+        "S10"
+      ],
+      "claimCeiling": "Qualification in official refund policy, not market-profit cash-out.",
+      "reopenTrigger": "Changed refund policy or case-specific legally established exception."
+    },
+    {
+      "id": "C08",
+      "statement": "The Alchemy product describes two random items from eleven variants; individual odds were not located in the short page.",
+      "evidenceState": "OBSERVED",
+      "sourceIds": [
+        "S02"
+      ],
+      "claimCeiling": "Limited page coverage; not proof that no odds are disclosed elsewhere.",
+      "reopenTrigger": "Published odds, all sales terms or developer clarification."
+    },
+    {
+      "id": "C09",
+      "statement": "News and an indexed operator statement report achievement visibility on Exophase.",
+      "evidenceState": "STRONGLY_SUPPORTED",
+      "sourceIds": [
+        "S13",
+        "S14",
+        "S15"
+      ],
+      "claimCeiling": "Reported occurrence; no direct technical root-cause test.",
+      "reopenTrigger": "Public operator or Valve technical incident statement."
+    },
+    {
+      "id": "C10",
+      "statement": "Exact MSN body, publisher match and date remain unresolved.",
+      "evidenceState": "UNKNOWN",
+      "sourceIds": [
+        "S18"
+      ],
+      "claimCeiling": "Link and title are available; full body retrieval was unsuccessful.",
+      "reopenTrigger": "Readably retrieved canonical article with byline and timestamp."
+    },
+    {
+      "id": "C11",
+      "statement": "The requester's claim to causing the leak is not established by the supplied image or investigated sources.",
+      "evidenceState": "NOT_PROVEN",
+      "sourceIds": [
+        "O01",
+        "S13",
+        "S14",
+        "S15"
+      ],
+      "claimCeiling": "Attribution ceiling for this finite inquiry, not a universal negative claim.",
+      "reopenTrigger": "Earlier lawfully supplied original record tied to the same specific incident."
+    },
+    {
+      "id": "C12",
+      "statement": "A full present Coins portfolio value or future appreciation was not computed.",
+      "evidenceState": "UNKNOWN",
+      "sourceIds": [
+        "O01"
+      ],
+      "claimCeiling": "No current exact item orderbook, executed sale, issue cap or fee schedule was obtained.",
+      "reopenTrigger": "Bounded public market snapshot with executable depth and app-specific fees."
+    },
+    {
+      "id": "C13",
+      "statement": "The given display date does not prove the account will be eligible for every trade then.",
+      "evidenceState": "UNKNOWN",
+      "sourceIds": [
+        "O01",
+        "S11",
+        "S17"
+      ],
+      "claimCeiling": "Displayed date retained with timezone UNKNOWN; no account access.",
+      "reopenTrigger": "User-authorized current eligibility evidence or relevant public restriction."
+    },
+    {
+      "id": "C14",
+      "statement": "Clear odds, issuance policies, net proceeds and metadata correction would improve the proposed transparency design.",
+      "evidenceState": "INFERRED",
+      "sourceIds": [
+        "S02",
+        "S08",
+        "S09"
+      ],
+      "claimCeiling": "Author's design proposal, not demonstrated outcome or existing legal obligation.",
+      "reopenTrigger": "User testing, voluntary implementation and measured comprehension."
+    },
+    {
+      "id": "C15",
+      "statement": "Selected local text and public Git history searches found no earlier matching Coins audit.",
+      "evidenceState": "OBSERVED",
+      "sourceIds": [
+        "L01"
+      ],
+      "claimCeiling": "Finite selected coverage; the different How to Fish report is not a Coins precursor proof.",
+      "reopenTrigger": "Concrete older file, commit or public source supplied for comparison."
+    }
+  ]
+}

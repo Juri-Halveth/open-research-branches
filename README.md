@@ -40,6 +40,7 @@ Sicherheitsmeldungen gehören nicht hierher.
 | `priority-evidence-and-regress-audit` | sieben getrennte Achsen für Snapshot, Öffentlichkeit, Kenntnis, Ableitung, Rechtsverletzung, Anspruch und Höhe | `FINITE_SNAPSHOT` |
 | `public-authority-entry-listening-room` | Geburtsraum-Prinzip als verantwortlicher, reizarmer Empfangs- und Zuhörraum mit getrennter Sicherheitsfunktion und gegenläufigem Reparaturhaushalt | `FINITE_SNAPSHOT` |
 | `xxxlutz-porta-takeover-and-employee-participation-audit` | angemeldete XXXLutz/porta-Übernahme, EU-Verfahrensstand, NRW-Standorte, Beschäftigtenrechte und freiwillige Beteiligungswege | `FINITE_SNAPSHOT` |
+| `steam-coins-wallet-and-leak-audit` | Coins-Inventar, Wallet, Points, Bitcoin-Vergleich und getrennte Achievement-Leak-Quellenprüfung | `FINITE_SNAPSHOT` |
 
 Der maschinenlesbare Bestand liegt in
 [`catalog/branches.json`](catalog/branches.json). Die Aufnahme- und
@@ -83,6 +84,11 @@ und der zugehörige
 [`XXXLutz/porta-Ast`](branches/xxxlutz-porta-takeover-and-employee-participation-audit/README.md)
 binden den aktuellen EU-Verfahrensstand an eine konkrete Beschäftigten-,
 Informations-, Mitbestimmungs- und Beteiligungsroute.
+
+[`FREE NEWS 020`](reports/FREE_NEWS_020_STEAM_COINS_WALLET_AND_LEAK_AUDIT.md)
+und der [Steam-Coins-Ast](branches/steam-coins-wallet-and-leak-audit/README.md)
+untersuchen digitale Sammelgegenstände, Guthaben, Liquidität und eine
+verbraucherfreundliche Darstellung von Zufallskäufen.
 
 ## Mitmachen
 

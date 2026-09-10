@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.15.0 — 2026-09-10
+
+- added a dated public-source review of Coins/App 3083090, Wallet, Points and item-market liquidity
+- bound Wallet and Community Market to their public 2010 and 2012 announcements and retained the separate direct-funding refund rule
+- documented the Arsenic/Antimony metadata mismatch as a minimized image observation without exposing account identifiers or holdings
+- proposed clear random-item probabilities, issue policies, eligibility and net Wallet proceeds
+- separately reviewed reported achievement visibility on Exophase; exact MSN fulltext, root cause and requester attribution remain unresolved
+- supplied an eight-page reproducible PDF, source registry, claim ledger, finite research cycle and synthetic liquidity example
+
+
 ## 0.14.0 — 2026-09-10
 
 - published a source-bound XXXLutz/porta transaction timeline that separates the 2025 announcement, the 2026 formal notification, Phase I, the separate gun-jumping investigation, clearance, closing or control transfer and a violation finding
