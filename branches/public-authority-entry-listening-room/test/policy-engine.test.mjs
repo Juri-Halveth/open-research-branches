@@ -5,6 +5,7 @@ import { readFileSync } from "node:fs";
 import {
   ILLUSTRATIVE_USER_REFERENCE,
   MINIMUM_QUALITY_PROFILE,
+  ROOM_CONTRACT_CANONICAL_BINDING,
   calculateNextRepairState,
   evaluateCompensation,
   validateListeningRoomDesign,
@@ -13,6 +14,18 @@ import {
 
 const roomContract = JSON.parse(readFileSync(new URL("../room-contract.json", import.meta.url), "utf8"));
 const budgetExample = JSON.parse(readFileSync(new URL("../budget-policy.example.json", import.meta.url), "utf8"));
+
+function reverseObjectKeyOrder(value) {
+  if (Array.isArray(value)) return value.map(reverseObjectKeyOrder);
+  if (value && typeof value === "object") {
+    return Object.fromEntries(
+      Object.entries(value)
+        .reverse()
+        .map(([key, nested]) => [key, reverseObjectKeyOrder(nested)])
+    );
+  }
+  return value;
+}
 
 const policy = Object.freeze({
   version: "repair-v1",
@@ -226,36 +239,61 @@ test("listening role requires backup, separate safety, and an experience route",
   assert.ok(invalid.issues.some(issue => issue.code === "EXPERIENCE_BASED_PATHWAY_REQUIRED"));
 });
 
-test("the published room contract itself passes canonical structure validation", () => {
+test("the published room contract itself passes canonical digest binding", () => {
   const result = validatePublishedRoomContract(roomContract);
   assert.equal(result.status, "STRUCTURE_BOUND");
   assert.equal(result.structureBound, true);
   assert.equal(result.canonicalContractBound, true);
+  assert.equal(result.canonicalizationVersion, "HALVETH_CANONICAL_JSON_V1");
+  assert.equal(result.expectedContractDigest, ROOM_CONTRACT_CANONICAL_BINDING.expectedSha256);
+  assert.equal(result.actualContractDigest, ROOM_CONTRACT_CANONICAL_BINDING.expectedSha256);
   assert.deepEqual(result.issues, []);
+  const reordered = validatePublishedRoomContract(reverseObjectKeyOrder(roomContract));
+  assert.equal(reordered.status, "STRUCTURE_BOUND");
+  assert.equal(reordered.canonicalContractBound, true);
+  assert.equal(reordered.actualContractDigest, ROOM_CONTRACT_CANONICAL_BINDING.expectedSha256);
+  assert.deepEqual(reordered.issues, []);
 });
 
 test("canonical room validation rejects material changes to the real contract", () => {
   const mutations = [
-    contract => {
+    ["minimumOnDuty", contract => {
       contract.roles.find(role => role.roleId === "LISTENING_STEWARD").minimumOnDuty = 0;
-    },
-    contract => {
+    }],
+    ["listening powers", contract => {
       contract.roles.find(role => role.roleId === "LISTENING_STEWARD").powers.push("SEARCH_PERSON");
-    },
-    contract => {
+    }],
+    ["prohibited powers", contract => {
       contract.roles.find(role => role.roleId === "LISTENING_STEWARD").prohibitedPowers = [];
-    },
-    contract => {
+    }],
+    ["safety merits", contract => {
       contract.roles.find(role => role.roleId === "SAFETY_FUNCTION").mayDecideComplaintMerits = true;
-    }
+    }],
+    ["currentLegalState", contract => {
+      contract.currentLegalState = "UNIVERSAL_DUTY_ALREADY_EXISTS";
+    }],
+    ["claimCeiling", contract => {
+      contract.claimCeiling = "UNBOUNDED_EFFECT_AND_ENTITLEMENT_PROVEN";
+    }],
+    ["privacy", contract => {
+      contract.privacy.satisfactionProfilingAtPersonLevel = true;
+    }],
+    ["missing unit", contract => {
+      delete contract.unit;
+    }]
   ];
-  for (const mutate of mutations) {
+  for (const [label, mutate] of mutations) {
     const altered = structuredClone(roomContract);
     mutate(altered);
     const result = validatePublishedRoomContract(altered);
-    assert.equal(result.status, "REJECTED");
-    assert.equal(result.canonicalContractBound, false);
-    assert.ok(result.issues.length > 0);
+    assert.equal(result.status, "REJECTED", label);
+    assert.equal(result.structureBound, false, label);
+    assert.equal(result.canonicalContractBound, false, label);
+    assert.notEqual(result.actualContractDigest, result.expectedContractDigest, label);
+    assert.ok(
+      result.issues.some(issue => issue.code === "CANONICAL_CONTRACT_DIGEST_MISMATCH"),
+      label
+    );
   }
 });
 

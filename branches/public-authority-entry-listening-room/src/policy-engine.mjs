@@ -1,3 +1,10 @@
+import { createHash } from "node:crypto";
+
+export const ROOM_CONTRACT_CANONICAL_BINDING = Object.freeze({
+  canonicalizationVersion: "HALVETH_CANONICAL_JSON_V1",
+  expectedSha256: "4b62318c168251ea483a66ff63faeac45f6e27a82dd6f9cfb9c11032197c1164"
+});
+
 export const ILLUSTRATIVE_USER_REFERENCE = Object.freeze({
   referenceId: "USER_IDEA_OMEGA_VIBER_100K_MONTH",
   amountCents: 10_000_000,
@@ -118,6 +125,56 @@ function isPlainObject(value) {
   if (value === null || typeof value !== "object" || Array.isArray(value)) return false;
   const prototype = Object.getPrototypeOf(value);
   return prototype === Object.prototype || prototype === null;
+}
+
+// HALVETH_CANONICAL_JSON_V1 sorts object keys by UTF-16 code unit, preserves
+// array order, rejects non-JSON values and hashes the resulting UTF-8 bytes.
+function canonicalJsonV1(value, ancestors = new Set()) {
+  if (value === null || typeof value === "string" || typeof value === "boolean") {
+    return JSON.stringify(value);
+  }
+  if (typeof value === "number") {
+    if (!Number.isFinite(value)) throw new TypeError("canonical JSON numbers must be finite");
+    return JSON.stringify(value);
+  }
+  if (typeof value !== "object") {
+    throw new TypeError("canonical JSON values must be JSON-compatible");
+  }
+  if (ancestors.has(value)) throw new TypeError("canonical JSON values must be acyclic");
+  ancestors.add(value);
+  try {
+    if (Array.isArray(value)) {
+      const ownKeys = Reflect.ownKeys(value).filter(key => key !== "length");
+      const expectedKeys = Array.from({ length: value.length }, (_, index) => String(index));
+      if (ownKeys.some(key => typeof key !== "string") ||
+          ownKeys.length !== expectedKeys.length ||
+          expectedKeys.some(key => !Object.hasOwn(value, key))) {
+        throw new TypeError("canonical JSON arrays must be dense and contain no extra properties");
+      }
+      return `[${expectedKeys.map(key => canonicalJsonV1(value[key], ancestors)).join(",")}]`;
+    }
+    if (!isPlainObject(value)) throw new TypeError("canonical JSON objects must be plain objects");
+    const descriptors = Object.getOwnPropertyDescriptors(value);
+    const ownKeys = Reflect.ownKeys(value);
+    if (ownKeys.some(key => typeof key !== "string")) {
+      throw new TypeError("canonical JSON object keys must be strings");
+    }
+    const keys = ownKeys.sort();
+    const members = keys.map(key => {
+      const descriptor = descriptors[key];
+      if (!descriptor?.enumerable || !("value" in descriptor)) {
+        throw new TypeError("canonical JSON object properties must be enumerable data properties");
+      }
+      return `${JSON.stringify(key)}:${canonicalJsonV1(descriptor.value, ancestors)}`;
+    });
+    return `{${members.join(",")}}`;
+  } finally {
+    ancestors.delete(value);
+  }
+}
+
+function canonicalContractDigest(contract) {
+  return createHash("sha256").update(canonicalJsonV1(contract), "utf8").digest("hex");
 }
 
 function addIssue(issues, code, path) {
@@ -496,12 +553,38 @@ export function validateListeningRoomDesign(design) {
 
 export function validatePublishedRoomContract(contract) {
   const issues = [];
-  if (!isPlainObject(contract)) {
+  let actualContractDigest = null;
+  try {
+    actualContractDigest = canonicalContractDigest(contract);
+  } catch {
+    addIssue(issues, "CANONICAL_CONTRACT_SERIALIZATION_FAILED", "contract");
+  }
+  const canonicalContractBound =
+    actualContractDigest === ROOM_CONTRACT_CANONICAL_BINDING.expectedSha256;
+  if (!canonicalContractBound) {
+    addIssue(issues, "CANONICAL_CONTRACT_DIGEST_MISMATCH", "contract");
+  }
+  const finish = (baseResult = {}, criticalStructureBound = false) => {
+    const combinedIssues = sortIssues([...issues, ...(baseResult.issues ?? [])]);
+    const structureBound =
+      combinedIssues.length === 0 && criticalStructureBound && canonicalContractBound;
     return {
-      status: "REJECTED",
-      structureBound: false,
-      issues: [{ code: "EXPECTED_PLAIN_OBJECT", path: "contract" }]
+      ...baseResult,
+      status: structureBound ? "STRUCTURE_BOUND" : "REJECTED",
+      structureBound,
+      issues: combinedIssues,
+      canonicalContractBound,
+      canonicalizationVersion: ROOM_CONTRACT_CANONICAL_BINDING.canonicalizationVersion,
+      expectedContractDigest: ROOM_CONTRACT_CANONICAL_BINDING.expectedSha256,
+      actualContractDigest,
+      contractId: isPlainObject(contract) && typeof contract.contractId === "string"
+        ? contract.contractId
+        : null
     };
+  };
+  if (!isPlainObject(contract)) {
+    addIssue(issues, "EXPECTED_PLAIN_OBJECT", "contract");
+    return finish();
   }
   if (!isPlainObject(contract.unit)) {
     addIssue(issues, "EXPECTED_PLAIN_OBJECT", "contract.unit");
@@ -510,7 +593,7 @@ export function validatePublishedRoomContract(contract) {
     addIssue(issues, "EXPECTED_ARRAY", "contract.roles");
   }
   if (issues.length > 0) {
-    return { status: "REJECTED", structureBound: false, issues: sortIssues(issues) };
+    return finish();
   }
 
   const listeningRoles = contract.roles.filter(
@@ -526,7 +609,7 @@ export function validatePublishedRoomContract(contract) {
     addIssue(issues, "EXACTLY_ONE_SAFETY_ROLE_REQUIRED", "contract.roles");
   }
   if (issues.length > 0) {
-    return { status: "REJECTED", structureBound: false, issues: sortIssues(issues) };
+    return finish();
   }
 
   const listeningRole = listeningRoles[0];
@@ -563,14 +646,5 @@ export function validatePublishedRoomContract(contract) {
     safetyEscalationProtocolVersion: safetyRole.protocolVersion,
     qualificationPathways: listeningRole.qualificationPathways
   });
-  const combinedIssues = sortIssues([...issues, ...result.issues]);
-  const structureBound = combinedIssues.length === 0 && result.structureBound;
-  return {
-    ...result,
-    status: structureBound ? "STRUCTURE_BOUND" : "REJECTED",
-    structureBound,
-    issues: combinedIssues,
-    canonicalContractBound: structureBound,
-    contractId: typeof contract.contractId === "string" ? contract.contractId : null
-  };
+  return finish(result, result.structureBound);
 }
