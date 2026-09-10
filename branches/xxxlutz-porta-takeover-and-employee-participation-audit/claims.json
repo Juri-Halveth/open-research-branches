@@ -1,0 +1,84 @@
+{
+  "schema": "halveth.xxxlutz-porta-claims.v1",
+  "asOf": "2026-09-10",
+  "claims": [
+    {
+      "claimId": "C01_TRANSACTION_REAL",
+      "statement": "There is a real announced and notified XXXLutz-Porta acquisition project.",
+      "status": "OBSERVED",
+      "sourceIds": [
+        "S01_XXXLUTZ_ANNOUNCEMENT",
+        "S03_EC_CASE_M11895",
+        "S05_EC_M11895_NOTICE"
+      ]
+    },
+    {
+      "claimId": "C02_CLEARANCE",
+      "statement": "The European Commission has cleared the transaction.",
+      "status": "NOT_PROVEN",
+      "sourceIds": [
+        "S03_EC_CASE_M11895"
+      ]
+    },
+    {
+      "claimId": "C03_CLOSING_OR_CONTROL_TRANSFER",
+      "statement": "The acquisition has closed or control has transferred.",
+      "status": "NOT_PROVEN",
+      "sourceIds": [
+        "S03_EC_CASE_M11895",
+        "S05_EC_M11895_NOTICE"
+      ]
+    },
+    {
+      "claimId": "C04_GUN_JUMPING_BREACH",
+      "statement": "XXXLutz or Porta committed a gun-jumping violation.",
+      "status": "NOT_PROVEN",
+      "sourceIds": [
+        "S02_EC_GUN_JUMPING_2026",
+        "S04_EC_CASE_M11895_AP"
+      ]
+    },
+    {
+      "claimId": "C05_JOB_GUARANTEE",
+      "statement": "All jobs, contracts and sites are protected by a binding long-term guarantee.",
+      "status": "NOT_PROVEN",
+      "sourceIds": [
+        "S01_XXXLUTZ_ANNOUNCEMENT",
+        "S33_HANDELSBLATT_DPA_EMPLOYEE_INTENTIONS",
+        "S34_TONLINE_EMPLOYEE_INTENTIONS"
+      ]
+    },
+    {
+      "claimId": "C06_AUTOMATIC_TRANSFER",
+      "statement": "Every Porta employment relationship automatically transfers to a new employer under section 613a BGB merely because the group is acquired.",
+      "status": "NOT_PROVEN",
+      "sourceIds": [
+        "S15_BGB_613A",
+        "S16_BAG_8_AZR_91_15"
+      ]
+    },
+    {
+      "claimId": "C07_AUTOMATIC_PARTICIPATION",
+      "statement": "Every employee automatically receives ownership, shares or an unlimited payout because the company is acquired or because their human value is immeasurable.",
+      "status": "NOT_PROVEN",
+      "sourceIds": [
+        "S13_GG_1",
+        "S19_BETRVG_111",
+        "S20_BETRVG_112",
+        "S21_BETRVG_113",
+        "S27_BETRVG_88"
+      ]
+    },
+    {
+      "claimId": "C08_NEGOTIABLE_VALUE",
+      "statement": "Employees and their representatives can formulate concrete, voluntary proposals for employment security, participation, profit sharing and paid future cooperation.",
+      "status": "STRONGLY_SUPPORTED",
+      "sourceIds": [
+        "S25_BETRVG_86A",
+        "S26_BETRVG_92A",
+        "S27_BETRVG_88"
+      ]
+    }
+  ],
+  "claimCeiling": "PUBLIC_SOURCE_CLAIM_MATRIX_NOT_INDIVIDUAL_LEGAL_ADVICE_OR_CASE_OUTCOME"
+}

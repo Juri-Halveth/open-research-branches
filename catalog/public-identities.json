@@ -25,6 +25,8 @@
         "branches/wax-crayon-peace-helmet-audit/build_pdf.py",
         "branches/wax-crayon-peace-helmet-audit/build_presentations.mjs",
         "branches/wax-crayon-peace-helmet-audit/README.md",
+        "branches/xxxlutz-porta-takeover-and-employee-participation-audit/build_pdf.py",
+        "branches/xxxlutz-porta-takeover-and-employee-participation-audit/README.md",
         "catalog/public-identities.json",
         "CHANGELOG.md",
         "CITATION.cff",
@@ -38,7 +40,8 @@
         "reports/FREE_NEWS_012_ALICE_MEDIA_REFERENT_AND_AGENCY_AUDIT.md",
         "reports/FREE_NEWS_013_RECIPROCAL_EVIDENCE_AND_INFORMATION_ASYMMETRY.md",
         "reports/FREE_NEWS_014_FINGERTIP_SPARK_ESD_AND_SPACECRAFT_BRIDGE.md",
-        "reports/FREE_NEWS_018_PUBLIC_AUTHORITY_ENTRY_LISTENING_ROOM.md"
+        "reports/FREE_NEWS_018_PUBLIC_AUTHORITY_ENTRY_LISTENING_ROOM.md",
+        "reports/FREE_NEWS_019_XXXLUTZ_PORTA_TAKEOVER_AND_EMPLOYEE_PARTICIPATION.md"
       ]
     },
     {
@@ -80,6 +83,8 @@
         "branches/wax-crayon-peace-helmet-audit/build_pdf.py",
         "branches/wax-crayon-peace-helmet-audit/build_presentations.mjs",
         "branches/wax-crayon-peace-helmet-audit/README.md",
+        "branches/xxxlutz-porta-takeover-and-employee-participation-audit/build_pdf.py",
+        "branches/xxxlutz-porta-takeover-and-employee-participation-audit/README.md",
         "catalog/public-identities.json",
         "CITATION.cff",
         "README.md",

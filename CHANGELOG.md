@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.14.0 — 2026-09-10
+
+- published a source-bound XXXLutz/porta transaction timeline that separates the 2025 announcement, the 2026 formal notification, Phase I, the separate gun-jumping investigation, clearance, closing or control transfer and a violation finding
+- bound the current EU case-register snapshot to notification on 7 September 2026, a provisional Phase-I deadline of 12 October 2026 and no public clearance decision at the captured time
+- mapped the current porta, Möbel BOSS, administration and logistics footprint in Nordrhein-Westfalen without inventing an NRW employee count
+- added a deterministic employee-rights router for share-deal versus business-transfer facts, economic-committee and works-council information, operational changes, dismissal deadlines and employment-data review
+- opened six separate value ledgers for human dignity, wages and benefits, concrete economic disadvantage, protected IP contributions, voluntary participation and future paid cooperation
+- proposed a voluntary Porta Participation and Employment-Security Compact with site protection, integration transparency, qualification, profit or capital participation and a specific contribution-review route
+- retained `RACHEL` only as Juris proposed public source/correction/counter-reading role; no private-person identity, consent, appointment, ownership, representation or payment is inferred
+- produced a reproducible newspaper-style PDF release asset and preserved every legal and factual claim ceiling in the source package
+
 ## 0.13.2 — 2026-09-10
 
 - bound Audit Star history to the recorded source commit ancestry and added exact verification of the checked-in binding artifact

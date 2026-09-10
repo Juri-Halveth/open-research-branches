@@ -27,6 +27,7 @@ any branch's claim ceiling.
 | `FREE_NEWS_017_CE_BARCODES_HTTPS_500_AND_SNAPSHOT_MARKERS.md` | Marker semantics for CE, GS1 barcodes, HTTPS, HTTP 500, Git, iOS, Microsoft PKI and an explicitly unbound Frankfurt snapshot |
 | `FREE_NEWS_017_MARKER_MATRIX.json` | Machine-readable marker definitions, official source references, non-conversions and reopen requirements |
 | `FREE_NEWS_018_PUBLIC_AUTHORITY_ENTRY_LISTENING_ROOM.md` | Public policy and software audit for a low-stimulus authority-entry listening room, separate safety function and countercyclical satisfaction repair budget |
+| `FREE_NEWS_019_XXXLUTZ_PORTA_TAKEOVER_AND_EMPLOYEE_PARTICIPATION.md` | Current EU transaction status, NRW footprint, employee-rights triggers and a voluntary participation and employment-security proposal for XXXLutz/porta |
 
 Local Office and PDF artifacts from an earlier ten-branch working snapshot are
 intentionally absent. They do not describe the current release,

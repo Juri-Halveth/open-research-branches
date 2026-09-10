@@ -39,6 +39,7 @@ Sicherheitsmeldungen gehören nicht hierher.
 | `fingertip-spark-esd-spacecraft-audit` | berichtete Fingerspitzen-Funken, sechs physikalische und optische Modelle, passive Beobachtung sowie eng gebundene ESD-Raumfahrtbrücke | `FINITE_SNAPSHOT` |
 | `priority-evidence-and-regress-audit` | sieben getrennte Achsen für Snapshot, Öffentlichkeit, Kenntnis, Ableitung, Rechtsverletzung, Anspruch und Höhe | `FINITE_SNAPSHOT` |
 | `public-authority-entry-listening-room` | Geburtsraum-Prinzip als verantwortlicher, reizarmer Empfangs- und Zuhörraum mit getrennter Sicherheitsfunktion und gegenläufigem Reparaturhaushalt | `FINITE_SNAPSHOT` |
+| `xxxlutz-porta-takeover-and-employee-participation-audit` | angemeldete XXXLutz/porta-Übernahme, EU-Verfahrensstand, NRW-Standorte, Beschäftigtenrechte und freiwillige Beteiligungswege | `FINITE_SNAPSHOT` |
 
 Der maschinenlesbare Bestand liegt in
 [`catalog/branches.json`](catalog/branches.json). Die Aufnahme- und
@@ -77,6 +78,11 @@ und der zugehörige
 materialisieren Juris Geburtsraum-Prinzip als öffentlichen Vorschlag für einen
 freiwilligen Zuhörraum, eine getrennte Sicherheitsfunktion und einen
 datensparsamen Reparaturhaushalt.
+[`FREE NEWS 019`](reports/FREE_NEWS_019_XXXLUTZ_PORTA_TAKEOVER_AND_EMPLOYEE_PARTICIPATION.md)
+und der zugehörige
+[`XXXLutz/porta-Ast`](branches/xxxlutz-porta-takeover-and-employee-participation-audit/README.md)
+binden den aktuellen EU-Verfahrensstand an eine konkrete Beschäftigten-,
+Informations-, Mitbestimmungs- und Beteiligungsroute.
 
 ## Mitmachen
 

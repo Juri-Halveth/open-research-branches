@@ -1,0 +1,283 @@
+{
+  "contract_version": "3.5.1",
+  "work_classes": [
+    "LAW_SELF_REPRESENTATION",
+    "PUBLIC_SOURCE_RECONSTRUCTION",
+    "EMPLOYEE_PARTICIPATION_ROUTE_MAP"
+  ],
+  "network_active": true,
+  "state_changing": false,
+  "critical_factual_proof": false,
+  "authorization_contract": {
+    "target": "Official public transaction, merger-control, labour-law and company-footprint sources listed by ID in navigation-frame.json",
+    "owner": "The respective public publishers for source material and the repository owner for the local audit package",
+    "authorization_source": "User request for public research, a GitHub audit and employee self-representation support",
+    "program_policy": "PUBLIC_WEB_READ_ONLY_AND_OWNED_LOCAL_REPOSITORY_WORK; NO_EXTERNAL_TEST_PROGRAM",
+    "in_scope_asset": "Public source pages and the local XXXLutz-porta employee-participation audit branch",
+    "test_identity": "Unauthenticated public reader and local repository-owner workflow",
+    "prerequisites": "Public read access, exact source binding, local deterministic validation and no private employee or company records",
+    "stop_condition": "Stop at access controls, nonpublic records, personal data, private-person attribution, third-party representation, external filing, contact or mutation",
+    "data_boundary": "PUBLIC official and first-party material plus local typed receipts only",
+    "evidence_output": "Source IDs, separated transaction states, employee-route records, a complete eight-axis navigation frame and its deterministic receipt",
+    "valid_at": "2026-09-10T09:57:12+02:00"
+  },
+  "root_set": [
+    {
+      "rootId": "R1_HUMAN_DIGNITY",
+      "type": "CONSTITUTIONAL_ROOT",
+      "sourceIds": [
+        "S13_GG_1"
+      ],
+      "scope": "Human dignity as a nonpriced legal root",
+      "status": "ACTIVE",
+      "doesNotCreate": [
+        "OWNERSHIP_SHARE",
+        "PAYMENT_AMOUNT",
+        "TRANSACTION_CONTROL",
+        "CASE_OUTCOME"
+      ]
+    },
+    {
+      "rootId": "R2_EMPLOYEE_PARTICIPATION",
+      "type": "STATUTORY_AND_NEGOTIATED_ROUTE_SET",
+      "sourceIds": [
+        "S17_BETRVG_106",
+        "S18_BETRVG_109A",
+        "S19_BETRVG_111",
+        "S20_BETRVG_112",
+        "S21_BETRVG_113",
+        "S25_BETRVG_86A",
+        "S26_BETRVG_92A",
+        "S27_BETRVG_88"
+      ],
+      "scope": "Information, consultation, operational-change, proposal and voluntary participation routes",
+      "status": "ACTIVE",
+      "doesNotCreate": [
+        "AUTOMATIC_EQUITY",
+        "AUTOMATIC_PAYMENT",
+        "UNLIMITED_AMOUNT"
+      ]
+    }
+  ],
+  "transaction_state": [
+    {
+      "stateId": "ANNOUNCEMENT",
+      "evidenceState": "OBSERVED",
+      "sourceIds": [
+        "S01_XXXLUTZ_ANNOUNCEMENT"
+      ]
+    },
+    {
+      "stateId": "FORMAL_NOTIFICATION",
+      "evidenceState": "OBSERVED",
+      "sourceIds": [
+        "S03_EC_CASE_M11895",
+        "S05_EC_M11895_NOTICE"
+      ]
+    },
+    {
+      "stateId": "MERGER_CLEARANCE",
+      "evidenceState": "NOT_PROVEN",
+      "sourceIds": [
+        "S03_EC_CASE_M11895"
+      ]
+    },
+    {
+      "stateId": "CLOSING_OR_CONTROL_TRANSFER",
+      "evidenceState": "NOT_PROVEN",
+      "sourceIds": [
+        "S01_XXXLUTZ_ANNOUNCEMENT",
+        "S03_EC_CASE_M11895"
+      ]
+    },
+    {
+      "stateId": "GUN_JUMPING_INVESTIGATION",
+      "evidenceState": "OBSERVED",
+      "sourceIds": [
+        "S02_EC_GUN_JUMPING_2026",
+        "S04_EC_CASE_M11895_AP"
+      ]
+    },
+    {
+      "stateId": "GUN_JUMPING_VIOLATION_FINDING",
+      "evidenceState": "NOT_PROVEN",
+      "sourceIds": [
+        "S02_EC_GUN_JUMPING_2026",
+        "S04_EC_CASE_M11895_AP"
+      ]
+    }
+  ],
+  "employee_route_state": [
+    {
+      "routeId": "ECONOMIC_COMMITTEE_INFORMATION",
+      "evidenceState": "OBSERVED",
+      "sourceIds": [
+        "S17_BETRVG_106"
+      ]
+    },
+    {
+      "routeId": "WORKS_COUNCIL_TAKEOVER_INFORMATION_WITHOUT_ECONOMIC_COMMITTEE",
+      "evidenceState": "OBSERVED",
+      "sourceIds": [
+        "S18_BETRVG_109A"
+      ]
+    },
+    {
+      "routeId": "OPERATIONAL_CHANGE_INFORMATION_AND_CONSULTATION",
+      "evidenceState": "UNKNOWN",
+      "sourceIds": [
+        "S19_BETRVG_111",
+        "S20_BETRVG_112",
+        "S21_BETRVG_113"
+      ]
+    },
+    {
+      "routeId": "BUSINESS_TRANSFER_PROTECTION",
+      "evidenceState": "UNKNOWN",
+      "sourceIds": [
+        "S15_BGB_613A",
+        "S16_BAG_8_AZR_91_15"
+      ]
+    },
+    {
+      "routeId": "DISMISSAL_REVIEW_THREE_WEEK_DEADLINE",
+      "evidenceState": "OBSERVED",
+      "sourceIds": [
+        "S23_BETRVG_102",
+        "S28_KSCHG_4"
+      ]
+    },
+    {
+      "routeId": "COMPLAINT_AND_EMPLOYEE_PROPOSAL",
+      "evidenceState": "OBSERVED",
+      "sourceIds": [
+        "S24_BETRVG_84",
+        "S25_BETRVG_86A"
+      ]
+    },
+    {
+      "routeId": "EMPLOYMENT_SECURITY_AND_VOLUNTARY_PARTICIPATION",
+      "evidenceState": "OBSERVED",
+      "sourceIds": [
+        "S26_BETRVG_92A",
+        "S27_BETRVG_88"
+      ]
+    },
+    {
+      "routeId": "EMPLOYEE_DATA_REVIEW",
+      "evidenceState": "OBSERVED",
+      "sourceIds": [
+        "S29_BDSG_26"
+      ]
+    },
+    {
+      "routeId": "SPECIFIC_PROTECTED_CONTRIBUTION_OR_SERVICE_INVENTION",
+      "evidenceState": "UNKNOWN",
+      "sourceIds": [
+        "S30_ARBNERFG_9",
+        "S31_URHG_69A",
+        "S32_URHG_69B"
+      ]
+    }
+  ],
+  "value_ledger": [
+    {
+      "ledgerId": "HUMAN_DIGNITY",
+      "valuationMode": "NONPRICED_ROOT",
+      "evidenceState": "OBSERVED"
+    },
+    {
+      "ledgerId": "WAGE_BENEFITS_AND_WORKING_CONDITIONS",
+      "valuationMode": "CONTRACT_COLLECTIVE_AGREEMENT_OR_STATUTE",
+      "evidenceState": "UNKNOWN"
+    },
+    {
+      "ledgerId": "CONCRETE_ECONOMIC_DISADVANTAGE",
+      "valuationMode": "CASE_SPECIFIC_EVIDENCE_AND_CAUSATION",
+      "evidenceState": "UNKNOWN"
+    },
+    {
+      "ledgerId": "SPECIFIC_PROTECTED_CONTRIBUTION",
+      "valuationMode": "APPLICABLE_IP_OR_EMPLOYEE_INVENTION_ROUTE",
+      "evidenceState": "UNKNOWN"
+    },
+    {
+      "ledgerId": "VOLUNTARY_FUTURE_PARTICIPATION",
+      "valuationMode": "NEGOTIATED_AGREEMENT",
+      "evidenceState": "HYPOTHESIS"
+    }
+  ],
+  "public_reference_roles": [
+    {
+      "roleId": "RACHEL",
+      "type": "USER_PROPOSED_PUBLIC_SYSTEM_ROLE",
+      "function": "Hold source wording, corrections and an open counter-reading visibly together.",
+      "consentStateForAnyPrivatePerson": "UNKNOWN",
+      "identityBinding": "NONE",
+      "representationAuthority": "NONE",
+      "ownershipEffect": false,
+      "paymentEffect": false,
+      "note": "RACHEL is used only as Juri's proposed public reference role. It does not assert that any private person named Rachel owns, participates in, represents, consents to or is appointed by this audit."
+    }
+  ],
+  "countermodels": [
+    {
+      "modelId": "M1_ANNOUNCED_AND_NOTIFIED_PENDING_REVIEW",
+      "description": "The transaction was announced and notified, while clearance and legal closing remain open in this source snapshot.",
+      "evidenceState": "STRONGLY_SUPPORTED",
+      "sourceIds": [
+        "S01_XXXLUTZ_ANNOUNCEMENT",
+        "S03_EC_CASE_M11895",
+        "S05_EC_M11895_NOTICE"
+      ]
+    },
+    {
+      "modelId": "M2_SHARE_ACQUISITION_WITH_EMPLOYER_CONTINUITY",
+      "description": "A control acquisition may leave the direct employer unchanged and therefore does not by itself establish a business transfer under section 613a BGB.",
+      "evidenceState": "STRONGLY_SUPPORTED",
+      "sourceIds": [
+        "S15_BGB_613A",
+        "S16_BAG_8_AZR_91_15"
+      ]
+    },
+    {
+      "modelId": "M3_LATER_OPERATIONAL_CHANGE_WITH_EMPLOYEE_EFFECTS",
+      "description": "Later implementation measures may create information, consultation, co-determination, social-plan, dismissal or data routes if their distinct triggers are evidenced.",
+      "evidenceState": "HYPOTHESIS",
+      "sourceIds": [
+        "S19_BETRVG_111",
+        "S20_BETRVG_112",
+        "S21_BETRVG_113",
+        "S22_BETRVG_87",
+        "S23_BETRVG_102",
+        "S29_BDSG_26"
+      ]
+    }
+  ],
+  "proven": [
+    "The public source set separates transaction announcement, formal notification, merger clearance, closing or control transfer, investigation and violation finding.",
+    "The frozen law adapter contains all eight mandatory axes and all twenty-eight unordered pairs among the eight material candidates.",
+    "Official German sources provide distinct information, consultation, complaint, proposal, dismissal, data and protected-contribution routes."
+  ],
+  "deepest_unknown": "Whether and how the proposed acquisition will be cleared, whether or when it will close or transfer control, how it may be implemented at a particular entity, workplace or employment relationship, and whether any individual route elements, disadvantage or protected contribution are present.",
+  "why_unknown": "The branch contains public transaction and legal sources, not a final Commission decision, closing or control-transfer evidence, company-internal implementation plan, exact employer identity for each worker, individual notice, works-council record, contract, disadvantage calculation or protected-contribution file.",
+  "next_safe_experiment": "For one expressly authorized employee case, build a minimized record containing the exact employer, workplace, contract, received notices, dated implementation event and selected route, then rerun the same eight-axis frame without publishing private data.",
+  "stop_condition": "Stop before publishing private records, asserting a violation, closing or control transfer, converting a share acquisition into an automatic business transfer, acting for another person, fixing an automatic payment or predicting a case outcome.",
+  "reopen_trigger": "A final Commission decision, verified closing or control-transfer record, official implementation notice, works-council material, dismissal letter, data-processing notice, agreement, or minimized individual evidence package supplied with authority.",
+  "model_state": "SOURCE_BOUND_LAW_SELF_REPRESENTATION_SHADOW",
+  "evidence_state": "STRONGLY_SUPPORTED",
+  "external_effects": 0,
+  "validator_materializes_transaction_or_legal_effect": false,
+  "claimCeiling": "SOURCE_BOUND_XXXLUTZ_PORTA_TRANSACTION_TIMELINE_AND_EMPLOYEE_PARTICIPATION_ROUTE_MAP_WITH_USER_PROPOSED_PUBLIC_RACHEL_REFERENCE_ROLE_NOT_CLOSING_CONTROL_TRANSFER_UNLAWFUL_EXCLUSION_JOB_OR_SITE_OUTCOME_PRIVATE_PERSON_IDENTITY_CONSENT_OWNERSHIP_REPRESENTATION_FINANCIAL_PARTICIPATION_ENTITLEMENT_AUTOMATIC_PAYMENT_AMOUNT_VIOLATION_OR_CASE_OUTCOME_FINDING",
+  "navigation_receipt": {
+    "frameId": "XXXLUTZ.PORTA.EMPLOYEE.PARTICIPATION.20260910",
+    "registeredAxisCount": 8,
+    "materialCandidateAxisCount": 8,
+    "expectedDiagonalPairCount": 28,
+    "registeredDiagonalPairCount": 28,
+    "evaluatedDiagonalPairCount": 28,
+    "coverageState": "DECLARED_GAPS_PRESERVED",
+    "selectedAxisId": "EVIDENCE",
+    "receiptDigest": "sha256:63a9a8a21d825f326673ea70713cc6d6701dc72efbe9b17398937cfb14168a92"
+  }
+}

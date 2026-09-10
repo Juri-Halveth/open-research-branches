@@ -1,0 +1,71 @@
+{
+  "observedAt": "2026-09-10T07:57:12Z",
+  "dealAxes": [
+    {
+      "axisId": "ANNOUNCEMENT",
+      "state": "OBSERVED",
+      "sourceIds": [
+        "S01_XXXLUTZ_ANNOUNCEMENT"
+      ]
+    },
+    {
+      "axisId": "FORMAL_NOTIFICATION",
+      "state": "OBSERVED",
+      "sourceIds": [
+        "S03_EC_CASE_M11895",
+        "S05_EC_M11895_NOTICE"
+      ]
+    },
+    {
+      "axisId": "MERGER_CLEARANCE",
+      "state": "NOT_PROVEN",
+      "sourceIds": [
+        "S03_EC_CASE_M11895"
+      ]
+    },
+    {
+      "axisId": "CLOSING_OR_CONTROL_TRANSFER",
+      "state": "NOT_PROVEN",
+      "sourceIds": [
+        "S03_EC_CASE_M11895",
+        "S05_EC_M11895_NOTICE"
+      ]
+    },
+    {
+      "axisId": "GUN_JUMPING_INVESTIGATION",
+      "state": "OBSERVED",
+      "sourceIds": [
+        "S02_EC_GUN_JUMPING_2026",
+        "S04_EC_CASE_M11895_AP"
+      ]
+    },
+    {
+      "axisId": "GUN_JUMPING_VIOLATION_FINDING",
+      "state": "NOT_PROVEN",
+      "sourceIds": [
+        "S02_EC_GUN_JUMPING_2026",
+        "S04_EC_CASE_M11895_AP"
+      ]
+    }
+  ],
+  "employment": {
+    "directEmployerChanged": "UNKNOWN",
+    "economicUnitIdentityPreserved": "UNKNOWN",
+    "employeeBand": "UNKNOWN",
+    "worksCouncil": "UNKNOWN",
+    "economicCommittee": "UNKNOWN",
+    "operationalChangeMayCauseMaterialDisadvantage": "UNKNOWN",
+    "individualEvent": "NONE"
+  },
+  "participation": {
+    "rachelReferenceState": "USER_PROPOSED_PUBLIC_SYSTEM_ROLE",
+    "naturalPersonConsent": "UNBOUND",
+    "requestedPaths": [
+      "VOLUNTARY_EMPLOYEE_PARTICIPATION_PLAN",
+      "PROFIT_SHARING_OR_BONUS_AGREEMENT",
+      "COLLECTIVE_EMPLOYMENT_SECURITY_AGREEMENT",
+      "SPECIFIC_IP_CONTRIBUTION_REVIEW",
+      "FUTURE_PAID_COOPERATION"
+    ]
+  }
+}

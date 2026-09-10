@@ -1,0 +1,411 @@
+{
+  "schema": "halveth.public-source-registry.v1",
+  "retrievedAt": "2026-09-10",
+  "collectionState": "FINITE_SNAPSHOT",
+  "sources": [
+    {
+      "id": "S01_XXXLUTZ_ANNOUNCEMENT",
+      "title": "XXXLutz übernimmt Porta Gruppe in Deutschland, Tschechien und der Slowakei",
+      "publisher": "XXXLutz Pressecenter",
+      "publishedAt": "2025-01-07",
+      "url": "https://pr.xxxlutz.de/articles/2025/01/07/xxxlutz-uebernimmt-porta-gruppe-in-deutschland--tschechien-und-der-slowakei/",
+      "sourceType": "FIRST_PARTY_COMPANY_STATEMENT",
+      "evidenceState": "OBSERVED",
+      "claimCeiling": "ANNOUNCEMENT_PARTIES_BRANDS_APPROXIMATE_SCOPE_APPROVAL_CONDITION_AND_ATTRIBUTED_INTENTIONS_ONLY"
+    },
+    {
+      "id": "S02_EC_GUN_JUMPING_2026",
+      "title": "Commission opens formal investigation into possible gun jumping in XXXLutz's acquisition of Porta",
+      "publisher": "European Commission, Directorate-General for Competition",
+      "publishedAt": "2026-07-10",
+      "url": "https://competition-policy.ec.europa.eu/about/news/commission-opens-formal-investigation-possible-gun-jumping-xxxlutzs-acquisition-porta-2026-07-10_en",
+      "sourceType": "OFFICIAL_AUTHORITY_STATEMENT",
+      "evidenceState": "OBSERVED",
+      "claimCeiling": "FORMAL_INVESTIGATION_AND_COMMISSION_DESCRIPTION_ONLY_NOT_VIOLATION_FINDING"
+    },
+    {
+      "id": "S03_EC_CASE_M11895",
+      "title": "M.11895 — XXXLUTZ / PORTA",
+      "publisher": "European Commission Competition Case Search",
+      "publishedAt": "2026-09-07",
+      "url": "https://competition-cases.ec.europa.eu/cases/M.11895",
+      "sourceType": "OFFICIAL_LIVE_CASE_REGISTER",
+      "evidenceState": "OBSERVED",
+      "claimCeiling": "LIVE_REGISTER_FIELDS_AT_RETRIEVAL_TIME_NOTIFICATION_PHASE_PROVISIONAL_DEADLINE_AND_DECISION_FIELD_ONLY",
+      "observedFields": {
+        "notificationDate": "2026-09-07",
+        "caseStatus": "ONGOING",
+        "phase": "PHASE_1",
+        "provisionalDeadline": "2026-10-12",
+        "lastDecisionDate": null,
+        "capturedAt": "2026-09-10"
+      }
+    },
+    {
+      "id": "S04_EC_CASE_M11895_AP",
+      "title": "M.11895.AP — XXXLUTZ / PORTA (Art. 14.2)",
+      "publisher": "European Commission Competition Case Search",
+      "publishedAt": "2026-07-10",
+      "url": "https://competition-cases.ec.europa.eu/cases/M.11895.AP",
+      "sourceType": "OFFICIAL_LIVE_CASE_REGISTER",
+      "evidenceState": "OBSERVED",
+      "claimCeiling": "EXISTENCE_AND_STATUS_OF_ADDITIONAL_PROCEDURE_ONLY_NOT_VIOLATION_FINDING",
+      "observedFields": {
+        "procedureType": "ADDITIONAL_PROCEDURE",
+        "title": "XXXLUTZ / PORTA (Art. 14.2)",
+        "lastDecisionDate": null,
+        "capturedAt": "2026-09-10"
+      }
+    },
+    {
+      "id": "S05_EC_M11895_NOTICE",
+      "title": "M.11895 — Beschreibung des Zusammenschlusses, Abschnitt 1.2",
+      "publisher": "European Commission, submitted by the notifying parties",
+      "publishedAt": "2026-09-09",
+      "url": "https://ec.europa.eu/competition/mergers/cases1/202637/M_11895_1307.pdf",
+      "sourceType": "OFFICIAL_CASE_DOCUMENT_PARTY_SUBMISSION",
+      "evidenceState": "OBSERVED",
+      "claimCeiling": "PARTY_SUBMITTED_DESCRIPTION_OF_INTENDED_SOLE_CONTROL_ACQUISITION_NOT_COMMISSION_FINDING"
+    },
+    {
+      "id": "S06_EUMR",
+      "title": "Council Regulation (EC) No 139/2004 on the control of concentrations between undertakings",
+      "publisher": "EUR-Lex",
+      "publishedAt": "2004-01-20",
+      "url": "https://eur-lex.europa.eu/eli/reg/2004/139/oj?locale=de",
+      "sourceType": "OFFICIAL_LEGISLATION",
+      "evidenceState": "OBSERVED",
+      "claimCeiling": "EU_MERGER_NOTIFICATION_AND_STANDSTILL_RULES_WITHIN_REGULATION_SCOPE"
+    },
+    {
+      "id": "S07_EC_MERGER_PROCEDURE",
+      "title": "Merger procedures",
+      "publisher": "European Commission, Competition Policy",
+      "publishedAt": null,
+      "url": "https://competition-policy.ec.europa.eu/mergers/procedures_en",
+      "sourceType": "OFFICIAL_PROCEDURAL_GUIDANCE",
+      "evidenceState": "OBSERVED",
+      "claimCeiling": "GENERAL_EU_MERGER_PROCEDURE_GUIDANCE"
+    },
+    {
+      "id": "S08_PORTA_GROUP",
+      "title": "Wir bei porta — die porta-Unternehmensgruppe",
+      "publisher": "porta Möbel",
+      "publishedAt": null,
+      "url": "https://porta.de/karriere/die-porta-unternehmensgruppe",
+      "sourceType": "FIRST_PARTY_CURRENT_COMPANY_PROFILE",
+      "evidenceState": "OBSERVED",
+      "claimCeiling": "CURRENT_SELF_REPORTED_GROUP_SCALE_AT_RETRIEVAL_TIME"
+    },
+    {
+      "id": "S09_PORTA_STORES",
+      "title": "porta Möbelhäuser in Ihrer Nähe",
+      "publisher": "porta Möbel",
+      "publishedAt": null,
+      "url": "https://porta.de/einrichtungshaeuser",
+      "sourceType": "FIRST_PARTY_CURRENT_LOCATION_DIRECTORY",
+      "evidenceState": "OBSERVED",
+      "claimCeiling": "CURRENT_PUBLIC_STORE_DIRECTORY_AT_RETRIEVAL_TIME"
+    },
+    {
+      "id": "S10_BOSS_STORES",
+      "title": "Möbel BOSS Storefinder",
+      "publisher": "Möbel BOSS",
+      "publishedAt": null,
+      "url": "https://moebel-boss.de/storefinder",
+      "sourceType": "FIRST_PARTY_CURRENT_LOCATION_DIRECTORY",
+      "evidenceState": "OBSERVED",
+      "claimCeiling": "CURRENT_PUBLIC_STORE_DIRECTORY_AT_RETRIEVAL_TIME"
+    },
+    {
+      "id": "S11_PORTA_CONTACT",
+      "title": "Kontakt zur porta-Unternehmensgruppe",
+      "publisher": "porta Möbel",
+      "publishedAt": null,
+      "url": "https://porta.de/karriere/kontakt",
+      "sourceType": "FIRST_PARTY_CURRENT_CONTACT_DIRECTORY",
+      "evidenceState": "OBSERVED",
+      "claimCeiling": "PUBLIC_ADMINISTRATION_LOCATION_ONLY"
+    },
+    {
+      "id": "S12_PORTA_LOGISTICS",
+      "title": "Karriere im Bereich Logistik",
+      "publisher": "porta Möbel",
+      "publishedAt": null,
+      "url": "https://porta.de/karriere/bereich/logistik",
+      "sourceType": "FIRST_PARTY_CURRENT_COMPANY_PROFILE",
+      "evidenceState": "OBSERVED",
+      "claimCeiling": "CURRENT_SELF_REPORTED_LOGISTICS_SCALE_AND_LOCATIONS_AT_RETRIEVAL_TIME"
+    },
+    {
+      "id": "S13_GG_1",
+      "title": "Artikel 1 Grundgesetz",
+      "publisher": "Gesetze im Internet",
+      "publishedAt": null,
+      "url": "https://www.gesetze-im-internet.de/gg/art_1.html",
+      "sourceType": "OFFICIAL_LEGISLATION",
+      "evidenceState": "OBSERVED",
+      "claimCeiling": "TEXT_AND_DIRECT_STATE_BINDING_OF_ARTICLE_1_ONLY"
+    },
+    {
+      "id": "S14_BVERFG_THIRD_PARTY_EFFECT",
+      "title": "BVerfG, Beschluss des Ersten Senats vom 09.07.2020 — 1 BvR 719/19",
+      "publisher": "Bundesverfassungsgericht",
+      "publishedAt": "2020-07-09",
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2020/07/rk20200709_1bvr071919.html",
+      "sourceType": "OFFICIAL_COURT_DECISION",
+      "evidenceState": "OBSERVED",
+      "claimCeiling": "INDIRECT_HORIZONTAL_EFFECT_PRINCIPLES_WITHIN_DECISION_SCOPE"
+    },
+    {
+      "id": "S15_BGB_613A",
+      "title": "§ 613a BGB — Rechte und Pflichten bei Betriebsübergang",
+      "publisher": "Gesetze im Internet",
+      "publishedAt": null,
+      "url": "https://www.gesetze-im-internet.de/bgb/__613a.html",
+      "sourceType": "OFFICIAL_LEGISLATION",
+      "evidenceState": "OBSERVED",
+      "claimCeiling": "STATUTORY_TRANSFER_RULES_WHEN_A_BUSINESS_OR_PART_TRANSFERS_TO_A_NEW_OWNER"
+    },
+    {
+      "id": "S16_BAG_8_AZR_91_15",
+      "title": "BAG, Urteil vom 23.03.2017 — 8 AZR 91/15",
+      "publisher": "Bundesarbeitsgericht",
+      "publishedAt": "2017-03-23",
+      "url": "https://www.bundesarbeitsgericht.de/wp-content/uploads/2021/01/8-AZR-91-15.pdf",
+      "sourceType": "OFFICIAL_COURT_DECISION",
+      "evidenceState": "OBSERVED",
+      "claimCeiling": "SECTION_613A_DISTINCTION_BETWEEN_ENTITY_SHAREHOLDER_CHANGE_AND_TRANSFER_WITHIN_DECISION_SCOPE"
+    },
+    {
+      "id": "S17_BETRVG_106",
+      "title": "§ 106 BetrVG — Wirtschaftsausschuss",
+      "publisher": "Gesetze im Internet",
+      "publishedAt": null,
+      "url": "https://www.gesetze-im-internet.de/betrvg/__106.html",
+      "sourceType": "OFFICIAL_LEGISLATION",
+      "evidenceState": "OBSERVED",
+      "claimCeiling": "ECONOMIC_COMMITTEE_INFORMATION_AND_CONSULTATION_RULES_WITHIN_STATUTORY_SCOPE"
+    },
+    {
+      "id": "S18_BETRVG_109A",
+      "title": "§ 109a BetrVG — Unternehmensübernahme",
+      "publisher": "Gesetze im Internet",
+      "publishedAt": null,
+      "url": "https://www.gesetze-im-internet.de/betrvg/__109a.html",
+      "sourceType": "OFFICIAL_LEGISLATION",
+      "evidenceState": "OBSERVED",
+      "claimCeiling": "TAKEOVER_INFORMATION_ROUTE_TO_WORKS_COUNCIL_WHERE_NO_ECONOMIC_COMMITTEE_EXISTS"
+    },
+    {
+      "id": "S19_BETRVG_111",
+      "title": "§ 111 BetrVG — Betriebsänderungen",
+      "publisher": "Gesetze im Internet",
+      "publishedAt": null,
+      "url": "https://www.gesetze-im-internet.de/betrvg/__111.html",
+      "sourceType": "OFFICIAL_LEGISLATION",
+      "evidenceState": "OBSERVED",
+      "claimCeiling": "INFORMATION_AND_CONSULTATION_ON_PLANNED_OPERATIONAL_CHANGES_WITH_POTENTIAL_MATERIAL_DISADVANTAGE"
+    },
+    {
+      "id": "S20_BETRVG_112",
+      "title": "§ 112 BetrVG — Interessenausgleich und Sozialplan",
+      "publisher": "Gesetze im Internet",
+      "publishedAt": null,
+      "url": "https://www.gesetze-im-internet.de/betrvg/__112.html",
+      "sourceType": "OFFICIAL_LEGISLATION",
+      "evidenceState": "OBSERVED",
+      "claimCeiling": "INTEREST_RECONCILIATION_AND_SOCIAL_PLAN_WHERE_SECTION_111_ROUTE_APPLIES"
+    },
+    {
+      "id": "S21_BETRVG_113",
+      "title": "§ 113 BetrVG — Nachteilsausgleich",
+      "publisher": "Gesetze im Internet",
+      "publishedAt": null,
+      "url": "https://www.gesetze-im-internet.de/betrvg/__113.html",
+      "sourceType": "OFFICIAL_LEGISLATION",
+      "evidenceState": "OBSERVED",
+      "claimCeiling": "SPECIFIC_DISADVANTAGE_COMPENSATION_ELEMENTS_NOT_AUTOMATIC_SEVERANCE"
+    },
+    {
+      "id": "S22_BETRVG_87",
+      "title": "§ 87 BetrVG — Mitbestimmungsrechte",
+      "publisher": "Gesetze im Internet",
+      "publishedAt": null,
+      "url": "https://www.gesetze-im-internet.de/betrvg/__87.html",
+      "sourceType": "OFFICIAL_LEGISLATION",
+      "evidenceState": "OBSERVED",
+      "claimCeiling": "CO_DETERMINATION_SUBJECTS_WITHIN_STATUTORY_SCOPE"
+    },
+    {
+      "id": "S23_BETRVG_102",
+      "title": "§ 102 BetrVG — Mitbestimmung bei Kündigungen",
+      "publisher": "Gesetze im Internet",
+      "publishedAt": null,
+      "url": "https://www.gesetze-im-internet.de/betrvg/__102.html",
+      "sourceType": "OFFICIAL_LEGISLATION",
+      "evidenceState": "OBSERVED",
+      "claimCeiling": "WORKS_COUNCIL_HEARING_REQUIREMENT_BEFORE_DISMISSAL"
+    },
+    {
+      "id": "S24_BETRVG_84",
+      "title": "§ 84 BetrVG — Beschwerderecht",
+      "publisher": "Gesetze im Internet",
+      "publishedAt": null,
+      "url": "https://www.gesetze-im-internet.de/betrvg/__84.html",
+      "sourceType": "OFFICIAL_LEGISLATION",
+      "evidenceState": "OBSERVED",
+      "claimCeiling": "INDIVIDUAL_EMPLOYEE_COMPLAINT_ROUTE_AND_NON_RETALIATION_RULE_WITHIN_STATUTORY_SCOPE"
+    },
+    {
+      "id": "S25_BETRVG_86A",
+      "title": "§ 86a BetrVG — Vorschlagsrecht der Arbeitnehmer",
+      "publisher": "Gesetze im Internet",
+      "publishedAt": null,
+      "url": "https://www.gesetze-im-internet.de/betrvg/__86a.html",
+      "sourceType": "OFFICIAL_LEGISLATION",
+      "evidenceState": "OBSERVED",
+      "claimCeiling": "EMPLOYEE_PROPOSAL_ROUTE_AND_FIVE_PERCENT_THRESHOLD_WITHIN_STATUTORY_SCOPE"
+    },
+    {
+      "id": "S26_BETRVG_92A",
+      "title": "§ 92a BetrVG — Beschäftigungssicherung",
+      "publisher": "Gesetze im Internet",
+      "publishedAt": null,
+      "url": "https://www.gesetze-im-internet.de/betrvg/__92a.html",
+      "sourceType": "OFFICIAL_LEGISLATION",
+      "evidenceState": "OBSERVED",
+      "claimCeiling": "WORKS_COUNCIL_EMPLOYMENT_SECURITY_PROPOSAL_AND_DISCUSSION_ROUTE"
+    },
+    {
+      "id": "S27_BETRVG_88",
+      "title": "§ 88 BetrVG — Freiwillige Betriebsvereinbarungen",
+      "publisher": "Gesetze im Internet",
+      "publishedAt": null,
+      "url": "https://www.gesetze-im-internet.de/betrvg/__88.html",
+      "sourceType": "OFFICIAL_LEGISLATION",
+      "evidenceState": "OBSERVED",
+      "claimCeiling": "VOLUNTARY_WORKS_AGREEMENT_SUBJECTS_WITHIN_STATUTORY_SCOPE"
+    },
+    {
+      "id": "S28_KSCHG_4",
+      "title": "§ 4 KSchG — Anrufung des Arbeitsgerichts",
+      "publisher": "Gesetze im Internet",
+      "publishedAt": null,
+      "url": "https://www.gesetze-im-internet.de/kschg/__4.html",
+      "sourceType": "OFFICIAL_LEGISLATION",
+      "evidenceState": "OBSERVED",
+      "claimCeiling": "THREE_WEEK_COURT_DEADLINE_AFTER_RECEIPT_OF_WRITTEN_DISMISSAL"
+    },
+    {
+      "id": "S29_BDSG_26",
+      "title": "§ 26 BDSG — Datenverarbeitung für Zwecke des Beschäftigungsverhältnisses",
+      "publisher": "Gesetze im Internet",
+      "publishedAt": null,
+      "url": "https://www.gesetze-im-internet.de/bdsg_2018/__26.html",
+      "sourceType": "OFFICIAL_LEGISLATION",
+      "evidenceState": "OBSERVED",
+      "claimCeiling": "EMPLOYMENT_DATA_NECESSITY_CONSENT_AND_REPRESENTATION_RIGHTS_WITHIN_STATUTORY_SCOPE"
+    },
+    {
+      "id": "S30_ARBNERFG_9",
+      "title": "§ 9 ArbnErfG — Vergütung bei Inanspruchnahme",
+      "publisher": "Gesetze im Internet",
+      "publishedAt": null,
+      "url": "https://www.gesetze-im-internet.de/arbnerfg/__9.html",
+      "sourceType": "OFFICIAL_LEGISLATION",
+      "evidenceState": "OBSERVED",
+      "claimCeiling": "APPROPRIATE_REMUNERATION_FOR_A_LEGALLY_QUALIFYING_CLAIMED_SERVICE_INVENTION"
+    },
+    {
+      "id": "S31_URHG_69A",
+      "title": "§ 69a UrhG — Gegenstand des Schutzes für Computerprogramme",
+      "publisher": "Gesetze im Internet",
+      "publishedAt": null,
+      "url": "https://www.gesetze-im-internet.de/urhg/__69a.html",
+      "sourceType": "OFFICIAL_LEGISLATION",
+      "evidenceState": "OBSERVED",
+      "claimCeiling": "SOFTWARE_EXPRESSION_PROTECTION_AND_IDEA_PRINCIPLE_EXCLUSION"
+    },
+    {
+      "id": "S32_URHG_69B",
+      "title": "§ 69b UrhG — Urheber in Arbeits- und Dienstverhältnissen",
+      "publisher": "Gesetze im Internet",
+      "publishedAt": null,
+      "url": "https://www.gesetze-im-internet.de/urhg/__69b.html",
+      "sourceType": "OFFICIAL_LEGISLATION",
+      "evidenceState": "OBSERVED",
+      "claimCeiling": "EMPLOYER_ECONOMIC_RIGHTS_IN_EMPLOYEE_CREATED_SOFTWARE_WITHIN_STATUTORY_SCOPE"
+    },
+    {
+      "id": "S33_HANDELSBLATT_DPA_EMPLOYEE_INTENTIONS",
+      "title": "XXXLutz will Konkurrenten Porta übernehmen",
+      "publisher": "Handelsblatt / dpa",
+      "publishedAt": "2025-01-07",
+      "url": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/moebelhandel-xxxlutz-will-konkurrenten-porta-uebernehmen/100099170.html",
+      "sourceType": "SECONDARY_NEWS_WITH_ATTRIBUTED_COMPANY_STATEMENTS",
+      "evidenceState": "STRONGLY_SUPPORTED",
+      "claimCeiling": "ATTRIBUTED_INTENTION_STATEMENTS_ON_CONTRACTS_AND_DISMISSALS_NOT_BINDING_GUARANTEE"
+    },
+    {
+      "id": "S34_TONLINE_EMPLOYEE_INTENTIONS",
+      "title": "XXXLutz will Porta übernehmen — auch die Mitarbeiter?",
+      "publisher": "t-online",
+      "publishedAt": "2025-01-08",
+      "url": "https://hannover.t-online.de/region/hannover/id_100569750/region-hannover-xxxlutz-will-porta-uebernehmen-auch-die-mitarbeiter-.html",
+      "sourceType": "SECONDARY_NEWS_WITH_ATTRIBUTED_COMPANY_STATEMENTS",
+      "evidenceState": "STRONGLY_SUPPORTED",
+      "claimCeiling": "ATTRIBUTED_INTENTION_STATEMENTS_ON_STORE_STRUCTURE_NOT_BINDING_GUARANTEE"
+    },
+    {
+      "id": "S35_ARBGG_2",
+      "title": "§ 2 ArbGG — Zuständigkeit im Urteilsverfahren",
+      "publisher": "Gesetze im Internet",
+      "publishedAt": null,
+      "url": "https://www.gesetze-im-internet.de/arbgg/__2.html",
+      "sourceType": "OFFICIAL_LEGISLATION",
+      "evidenceState": "OBSERVED",
+      "claimCeiling": "LABOUR_COURT_JURISDICTION_WITHIN_STATUTORY_SCOPE"
+    },
+    {
+      "id": "S36_ARBGG_11",
+      "title": "§ 11 ArbGG — Prozessvertretung",
+      "publisher": "Gesetze im Internet",
+      "publishedAt": null,
+      "url": "https://www.gesetze-im-internet.de/arbgg/__11.html",
+      "sourceType": "OFFICIAL_LEGISLATION",
+      "evidenceState": "OBSERVED",
+      "claimCeiling": "SELF_REPRESENTATION_AND_REPRESENTATION_RULES_BY_INSTANCE"
+    },
+    {
+      "id": "S37_ARBGG_12A",
+      "title": "§ 12a ArbGG — Kostentragungspflicht",
+      "publisher": "Gesetze im Internet",
+      "publishedAt": null,
+      "url": "https://www.gesetze-im-internet.de/arbgg/__12a.html",
+      "sourceType": "OFFICIAL_LEGISLATION",
+      "evidenceState": "OBSERVED",
+      "claimCeiling": "FIRST_INSTANCE_ATTORNEY_COST_REIMBURSEMENT_RULE_WITHIN_STATUTORY_SCOPE"
+    },
+    {
+      "id": "S38_ARBGG_11A",
+      "title": "§ 11a ArbGG — Prozesskostenhilfe",
+      "publisher": "Gesetze im Internet",
+      "publishedAt": null,
+      "url": "https://www.gesetze-im-internet.de/arbgg/__11a.html",
+      "sourceType": "OFFICIAL_LEGISLATION",
+      "evidenceState": "OBSERVED",
+      "claimCeiling": "LEGAL_AID_AND_COUNSEL_APPOINTMENT_RULES_WITHIN_STATUTORY_SCOPE"
+    },
+    {
+      "id": "S39_BERHG_1",
+      "title": "§ 1 BerHG — Beratungshilfe",
+      "publisher": "Gesetze im Internet",
+      "publishedAt": null,
+      "url": "https://www.gesetze-im-internet.de/berathig/__1.html",
+      "sourceType": "OFFICIAL_LEGISLATION",
+      "evidenceState": "OBSERVED",
+      "claimCeiling": "EXTRAJUDICIAL_LEGAL_ADVICE_AID_ELIGIBILITY_RULES_WITHIN_STATUTORY_SCOPE"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "halveth.public-reference-roles.v1",
+  "roles": [
+    {
+      "roleId": "RACHEL",
+      "state": "USER_PROPOSED_PUBLIC_SYSTEM_ROLE",
+      "meaning": "RACHEL keeps source wording, correction, employee perspective and an open counter-reading visible together.",
+      "exactPublicNotice": "RACHEL wird hier ausschließlich als von Juri vorgeschlagene öffentliche Referenzrolle verwendet: Sie hält Quellfassung, Korrektur und offene Gegenlesart gemeinsam sichtbar. Daraus folgt keine Behauptung, dass eine private Person namens Rachel Eigentümerin, Beteiligte, Vertreterin oder Zustimmende dieses Audits ist.",
+      "naturalPersonIdentityFinding": false,
+      "naturalPersonConsentFinding": false,
+      "naturalPersonOwnershipFinding": false,
+      "naturalPersonRepresentationFinding": false,
+      "automaticPaymentFinding": false
+    }
+  ],
+  "claimCeiling": "PUBLIC_SYSTEM_ROLE_ONLY_NOT_PRIVATE_PERSON_IDENTITY_CONSENT_OWNERSHIP_REPRESENTATION_OR_PAYMENT"
+}

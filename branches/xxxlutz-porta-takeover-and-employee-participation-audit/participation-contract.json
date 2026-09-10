@@ -1,0 +1,61 @@
+{
+  "schema": "halveth.employee-participation-contract.v1",
+  "purpose": "Keep human dignity, economic value, legal rights and negotiated participation visible without converting one into an automatic price or ownership result.",
+  "valueLedgers": [
+    {
+      "ledgerId": "HUMAN_DIGNITY",
+      "valuationRule": "UNPRICED_AND_NOT_EXCHANGED",
+      "route": "Respect, non-discrimination, safe and lawful treatment; no sale price for a person."
+    },
+    {
+      "ledgerId": "WAGE_AND_BENEFITS",
+      "valuationRule": "CONTRACT_TARIFF_WORKS_AGREEMENT_OR_NEGOTIATION",
+      "route": "Pay, hours, bonuses, pension, classification and benefits."
+    },
+    {
+      "ledgerId": "CONCRETE_ECONOMIC_DISADVANTAGE",
+      "valuationRule": "FACT_AND_CAUSATION_BOUND",
+      "route": "Where statutory conditions apply: social plan, disadvantage compensation, damages or another specific remedy."
+    },
+    {
+      "ledgerId": "SPECIFIC_PROTECTED_IP_CONTRIBUTION",
+      "valuationRule": "OBJECT_RIGHT_ALLOCATION_USE_AND_EVIDENCE_BOUND",
+      "route": "Review the exact invention, protected expression, contractual allocation and use; section 9 ArbnErfG is one specific route for qualifying claimed service inventions."
+    },
+    {
+      "ledgerId": "VOLUNTARY_PARTICIPATION",
+      "valuationRule": "NEGOTIATED_AND_CONSENT_BASED",
+      "route": "Employee shares, profit sharing, bonus, employment-security pact, voluntary works agreement or collective agreement."
+    },
+    {
+      "ledgerId": "FUTURE_PAID_COOPERATION",
+      "valuationRule": "SEPARATE_SCOPE_DELIVERABLE_ACCEPTANCE_AND_PRICE",
+      "route": "A new research, audit, innovation or advisory engagement with written scope and payment."
+    }
+  ],
+  "employeeProposal": {
+    "title": "Porta Participation and Employment-Security Compact",
+    "requestedDiscussionItems": [
+      "A time-bound site and employment-security commitment",
+      "Transparent integration milestones and employee impact reports",
+      "A profit-sharing or transaction-success bonus model",
+      "A voluntary employee equity or participation option",
+      "Qualification, redeployment and internal-vacancy priority before redundancy",
+      "Works-council participation in monitoring technology, pay principles, working time and health measures",
+      "A documented channel for individual complaints and collective proposals",
+      "A specific review route for evidenced inventions, software or other protected contributions"
+    ],
+    "legalAnchors": [
+      "S17_BETRVG_106",
+      "S18_BETRVG_109A",
+      "S22_BETRVG_87",
+      "S25_BETRVG_86A",
+      "S26_BETRVG_92A",
+      "S27_BETRVG_88"
+    ],
+    "automaticAcceptance": false,
+    "automaticPayment": false,
+    "rightsWaiver": false
+  },
+  "claimCeiling": "NEGOTIATION_AND_REVIEW_DESIGN_NOT_AUTOMATIC_COMPANY_SHARE_PAYMENT_OR_INDIVIDUAL_ENTITLEMENT"
+}

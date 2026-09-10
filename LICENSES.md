@@ -18,6 +18,8 @@ relicensed by this repository.
 | `reports/FREE_NEWS_015_PRIORITY_EVIDENCE_AND_REGRESS_ROUTES.md` and the research records `README.md`, `sources.json`, `route-contract.json`, `navigation-frame.json`, `navigation-receipt.json`, and `reconstruction-cycle.json` under `branches/priority-evidence-and-regress-audit/` from their first public commit | [Juri Public-Interest Research Permission 1.0](LICENSE-JURI-PUBLIC-INTEREST.md) |
 | `reports/FREE_NEWS_016_PUBLIC_GITHUB_PROJECT_CONSTELLATION.md`, `catalog/public-project-snapshot.json`, `reports/FREE_NEWS_017_CE_BARCODES_HTTPS_500_AND_SNAPSHOT_MARKERS.md`, and `reports/FREE_NEWS_017_MARKER_MATRIX.json` from their first public commit | [Juri Public-Interest Research Permission 1.0](LICENSE-JURI-PUBLIC-INTEREST.md) |
 | `reports/FREE_NEWS_018_PUBLIC_AUTHORITY_ENTRY_LISTENING_ROOM.md` and the research records `README.md`, `room-contract.json`, `budget-policy.example.json`, `sources.json`, and `reconstruction-cycle.json` under `branches/public-authority-entry-listening-room/` from their first public commit | [Juri Public-Interest Research Permission 1.0](LICENSE-JURI-PUBLIC-INTEREST.md) |
+| `reports/FREE_NEWS_019_XXXLUTZ_PORTA_TAKEOVER_AND_EMPLOYEE_PARTICIPATION.md` and the research records `README.md`, `ARTIFACTS.md`, `sources.json`, `timeline.json`, `claims.json`, `participation-contract.json`, `public-reference-roles.json`, `current-audit-input.json`, `navigation-frame.json`, `navigation-receipt.json`, and `reconstruction-cycle.json` under `branches/xxxlutz-porta-takeover-and-employee-participation-audit/` from their first public commit | [Juri Public-Interest Research Permission 1.0](LICENSE-JURI-PUBLIC-INTEREST.md) |
+| The release asset `JURI_XXXLUTZ_PORTA_UEBERNAHME_BESCHAEFTIGTENBETEILIGUNG_AUDIT.pdf` beginning with release `v0.14.0` | [Juri Public-Interest Research Permission 1.0](LICENSE-JURI-PUBLIC-INTEREST.md) |
 | `catalog/AUDIT_STAR.md`, `catalog/audit-star.json`, `scripts/build-audit-star.mjs`, and `scripts/audit-star.test.mjs` from their first public commit | [Juri Public-Interest Research Permission 1.0](LICENSE-JURI-PUBLIC-INTEREST.md) |
 | Source code, tests, HTML and CSS under `branches/` and `scripts/` | [MIT](LICENSE) |
 | Repository configuration in `.gitattributes`, every `.gitignore` file and `.github/**/*.yml` | [MIT](LICENSE) |
@@ -30,8 +32,10 @@ remain subject to applicable law and the originating source's rights. The
 license on this repository covers the contributors' own selection,
 arrangement, code and prose only.
 
-Local Office, PDF, build and rendering artifacts excluded by `.gitignore` are
-outside this public license map and outside the release.
+Local Office, build and rendering artifacts excluded by `.gitignore` are
+outside this public license map and outside the release unless a tagged release
+names them as assets. The PDF named in the table above is such a release asset
+and follows its file-specific permission.
 
 ## Historical boundary
 

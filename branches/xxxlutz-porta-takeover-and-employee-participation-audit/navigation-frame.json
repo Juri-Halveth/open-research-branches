@@ -1,0 +1,1170 @@
+{
+  "schema": "halveth.status-quo-navigation-frame.v1",
+  "logicVersion": "3.5.1",
+  "entityVersion": "1.0.0",
+  "entityState": "STATUS_QUO_FROZEN",
+  "frameId": "XXXLUTZ.PORTA.EMPLOYEE.PARTICIPATION.20260910",
+  "project": {
+    "domainAdapter": "LAW_SELF_REPRESENTATION",
+    "objective": "Separate the public XXXLutz and porta transaction timeline from employee information, consultation, protection, participation and individual-remedy routes.",
+    "objectOrReferent": "The announced acquisition of the porta group by XXXLutz, EU merger procedure M.11895 and M.11895.AP, and general German employee participation routes.",
+    "scope": "Public official sources and a deterministic local legal self-representation map through 2026-09-10; no individual merits finding, third-party representation, filing or external contact.",
+    "deliverableType": "PUBLIC_AUDIT_BRANCH",
+    "sourceRefs": [
+      "S01_XXXLUTZ_ANNOUNCEMENT",
+      "S02_EC_GUN_JUMPING_2026",
+      "S03_EC_CASE_M11895",
+      "S04_EC_CASE_M11895_AP",
+      "S05_EC_M11895_NOTICE",
+      "S06_EUMR",
+      "S07_EC_MERGER_PROCEDURE",
+      "S08_PORTA_GROUP",
+      "S09_PORTA_STORES",
+      "S10_BOSS_STORES",
+      "S12_PORTA_LOGISTICS",
+      "S13_GG_1",
+      "S15_BGB_613A",
+      "S16_BAG_8_AZR_91_15",
+      "S17_BETRVG_106",
+      "S18_BETRVG_109A",
+      "S19_BETRVG_111",
+      "S20_BETRVG_112",
+      "S21_BETRVG_113",
+      "S22_BETRVG_87",
+      "S23_BETRVG_102",
+      "S24_BETRVG_84",
+      "S25_BETRVG_86A",
+      "S26_BETRVG_92A",
+      "S27_BETRVG_88",
+      "S28_KSCHG_4",
+      "S29_BDSG_26",
+      "S30_ARBNERFG_9",
+      "S31_URHG_69A",
+      "S32_URHG_69B",
+      "S11_PORTA_CONTACT",
+      "S35_ARBGG_2",
+      "S36_ARBGG_11",
+      "S37_ARBGG_12A",
+      "S38_ARBGG_11A",
+      "S39_BERHG_1"
+    ],
+    "acceptedBaselineRef": "OPEN.RESEARCH.0688BF88"
+  },
+  "scanPolicy": {
+    "horizontalMode": "FULL_DECLARED_ADAPTER_APERTURE",
+    "verticalPreviewDepth": 4,
+    "diagonalMode": "COMPLETE_MATERIAL_CANDIDATE_PAIR_GRAPH",
+    "selectiveDrillDepth": 4,
+    "noSelectiveDrillBeforeDiagonal": true,
+    "freezeMode": "VERSIONED_IMMUTABLE_BASELINE"
+  },
+  "axisRegistry": [
+    {
+      "axisId": "FACTS",
+      "label": "Facts",
+      "definition": "Bind announcement, notification, investigation, parties, locations and dated transaction states without converting them into clearance, closing or employee impact.",
+      "layer": "LAW_SELF_REPRESENTATION",
+      "scope": "Public transaction and group-footprint facts through the finite source snapshot.",
+      "sourceBasisRefs": [
+        "S01_XXXLUTZ_ANNOUNCEMENT",
+        "S02_EC_GUN_JUMPING_2026",
+        "S03_EC_CASE_M11895",
+        "S04_EC_CASE_M11895_AP",
+        "S05_EC_M11895_NOTICE",
+        "S08_PORTA_GROUP",
+        "S09_PORTA_STORES",
+        "S10_BOSS_STORES",
+        "S12_PORTA_LOGISTICS"
+      ],
+      "statusQuoRef": "STATUSQUO.FACTS.V1"
+    },
+    {
+      "axisId": "EVIDENCE",
+      "label": "Evidence",
+      "definition": "Separate public source records from company-internal implementation records, employee-specific notices, contracts, disadvantages and contribution records.",
+      "layer": "LAW_SELF_REPRESENTATION",
+      "scope": "Public-source evidence and explicitly retained private-record gaps.",
+      "sourceBasisRefs": [
+        "S01_XXXLUTZ_ANNOUNCEMENT",
+        "S03_EC_CASE_M11895",
+        "S04_EC_CASE_M11895_AP",
+        "S05_EC_M11895_NOTICE",
+        "S15_BGB_613A",
+        "S17_BETRVG_106"
+      ],
+      "statusQuoRef": "STATUSQUO.EVIDENCE.V1"
+    },
+    {
+      "axisId": "CLAIM_ELEMENTS",
+      "label": "Claim elements",
+      "definition": "Map each employee, works-council, dismissal, data, remuneration or protected-contribution route to its own elements.",
+      "layer": "LAW_SELF_REPRESENTATION",
+      "scope": "General statutory elements only; no individual entitlement or merits conclusion.",
+      "sourceBasisRefs": [
+        "S15_BGB_613A",
+        "S16_BAG_8_AZR_91_15",
+        "S17_BETRVG_106",
+        "S18_BETRVG_109A",
+        "S19_BETRVG_111",
+        "S20_BETRVG_112",
+        "S21_BETRVG_113",
+        "S22_BETRVG_87",
+        "S23_BETRVG_102",
+        "S24_BETRVG_84",
+        "S25_BETRVG_86A",
+        "S26_BETRVG_92A",
+        "S27_BETRVG_88",
+        "S28_KSCHG_4",
+        "S29_BDSG_26",
+        "S30_ARBNERFG_9",
+        "S31_URHG_69A",
+        "S32_URHG_69B"
+      ],
+      "statusQuoRef": "STATUSQUO.CLAIM.ELEMENTS.V1"
+    },
+    {
+      "axisId": "COUNTERPOSITION",
+      "label": "Counterposition",
+      "definition": "Preserve that an investigation is not a violation finding, notification is not clearance, announcement is not closing, and a share acquisition is not automatically a business transfer under section 613a BGB.",
+      "layer": "LAW_SELF_REPRESENTATION",
+      "scope": "Independent counterpositions necessary to prevent premature transaction and employee-rights conclusions.",
+      "sourceBasisRefs": [
+        "S02_EC_GUN_JUMPING_2026",
+        "S03_EC_CASE_M11895",
+        "S06_EUMR",
+        "S15_BGB_613A",
+        "S16_BAG_8_AZR_91_15"
+      ],
+      "statusQuoRef": "STATUSQUO.COUNTERPOSITION.V1"
+    },
+    {
+      "axisId": "PROCEDURE_JURISDICTION",
+      "label": "Procedure and jurisdiction",
+      "definition": "Keep EU merger control, standstill investigation, works-council procedures, individual labour-court deadlines and voluntary negotiation routes separate.",
+      "layer": "LAW_SELF_REPRESENTATION",
+      "scope": "General procedure map without selecting a forum or filing for an individual case.",
+      "sourceBasisRefs": [
+        "S03_EC_CASE_M11895",
+        "S04_EC_CASE_M11895_AP",
+        "S06_EUMR",
+        "S07_EC_MERGER_PROCEDURE",
+        "S17_BETRVG_106",
+        "S18_BETRVG_109A",
+        "S19_BETRVG_111",
+        "S20_BETRVG_112",
+        "S21_BETRVG_113",
+        "S23_BETRVG_102",
+        "S28_KSCHG_4",
+        "S35_ARBGG_2",
+        "S36_ARBGG_11",
+        "S37_ARBGG_12A",
+        "S38_ARBGG_11A",
+        "S39_BERHG_1"
+      ],
+      "statusQuoRef": "STATUSQUO.PROCEDURE.V1"
+    },
+    {
+      "axisId": "AUTHORITY_SOURCES",
+      "label": "Authority sources",
+      "definition": "Bind each proposition to the EU Commission, German legislation, the Federal Labour Court or dated first-party company material within its own source scope.",
+      "layer": "LAW_SELF_REPRESENTATION",
+      "scope": "Official and first-party public source hierarchy; no source receives universal truth or merits authority.",
+      "sourceBasisRefs": [
+        "S01_XXXLUTZ_ANNOUNCEMENT",
+        "S02_EC_GUN_JUMPING_2026",
+        "S03_EC_CASE_M11895",
+        "S05_EC_M11895_NOTICE",
+        "S06_EUMR",
+        "S13_GG_1",
+        "S16_BAG_8_AZR_91_15",
+        "S17_BETRVG_106",
+        "S28_KSCHG_4",
+        "S11_PORTA_CONTACT",
+        "S35_ARBGG_2",
+        "S36_ARBGG_11",
+        "S37_ARBGG_12A",
+        "S38_ARBGG_11A",
+        "S39_BERHG_1"
+      ],
+      "statusQuoRef": "STATUSQUO.AUTHORITY.V1"
+    },
+    {
+      "axisId": "REMEDY",
+      "label": "Remedy",
+      "definition": "Separate information, consultation, complaint, proposal, employment-security, social-plan, dismissal-review, concrete remuneration and voluntary participation routes.",
+      "layer": "LAW_SELF_REPRESENTATION",
+      "scope": "General positive route map; no automatic ownership, payment, amount, transfer or remedy finding.",
+      "sourceBasisRefs": [
+        "S15_BGB_613A",
+        "S17_BETRVG_106",
+        "S18_BETRVG_109A",
+        "S19_BETRVG_111",
+        "S20_BETRVG_112",
+        "S21_BETRVG_113",
+        "S24_BETRVG_84",
+        "S25_BETRVG_86A",
+        "S26_BETRVG_92A",
+        "S27_BETRVG_88",
+        "S28_KSCHG_4",
+        "S30_ARBNERFG_9"
+      ],
+      "statusQuoRef": "STATUSQUO.REMEDY.V1"
+    },
+    {
+      "axisId": "COST_ACCESS",
+      "label": "Cost and access",
+      "definition": "Keep urgent deadlines, representation, court route, legal-aid eligibility, evidence access and financial exposure tied to the selected individual procedure.",
+      "layer": "LAW_SELF_REPRESENTATION",
+      "scope": "The three-week dismissal deadline, labour-court route, first-instance representation and cost rule, and general legal-aid routes are source-bound; individual eligibility and actual costs remain open.",
+      "sourceBasisRefs": [
+        "S23_BETRVG_102",
+        "S24_BETRVG_84",
+        "S28_KSCHG_4",
+        "S35_ARBGG_2",
+        "S36_ARBGG_11",
+        "S37_ARBGG_12A",
+        "S38_ARBGG_11A",
+        "S39_BERHG_1"
+      ],
+      "statusQuoRef": "STATUSQUO.COST.ACCESS.V1"
+    }
+  ],
+  "axisEvaluations": [
+    {
+      "axisId": "FACTS",
+      "state": "FLAGGED_MATERIAL",
+      "evidenceState": "OBSERVED",
+      "horizontalReceiptRefs": [
+        "RECEIPT.TRANSACTION.PUBLIC.TIMELINE"
+      ],
+      "exclusionReason": null,
+      "verticalProbe": {
+        "state": "COVERED",
+        "completedDepth": 4,
+        "maximumDepth": 4,
+        "layerReceiptRefs": [
+          "FACTS.L1.ANNOUNCEMENT",
+          "FACTS.L2.NOTIFICATION",
+          "FACTS.L3.CLEARANCE",
+          "FACTS.L4.CLOSING"
+        ],
+        "criticalUnknownCount": 2,
+        "deepDivePurpose": "TRANSACTION_STATE_SEPARATION"
+      },
+      "priorityVector": {
+        "objectiveRelevance": 4,
+        "criticality": 4,
+        "evidenceStrength": 4,
+        "authorizedActionability": 4,
+        "informationGain": 3,
+        "repairValue": 3,
+        "effortCost": 1,
+        "actionRisk": 0
+      },
+      "frontierRef": "FRONTIER.CLEARANCE.AND.CLOSING"
+    },
+    {
+      "axisId": "EVIDENCE",
+      "state": "UNKNOWN_MATERIAL",
+      "evidenceState": "UNKNOWN",
+      "horizontalReceiptRefs": [
+        "RECEIPT.PUBLIC.VERSUS.CASE.RECORDS"
+      ],
+      "exclusionReason": null,
+      "verticalProbe": {
+        "state": "BOUNDARY",
+        "completedDepth": 4,
+        "maximumDepth": 4,
+        "layerReceiptRefs": [
+          "EVIDENCE.L1.PUBLIC.SOURCES",
+          "EVIDENCE.L2.EMPLOYER.NOTICES",
+          "EVIDENCE.L3.EMPLOYEE.IMPACT",
+          "EVIDENCE.L4.CONTRIBUTION.AND.AMOUNT"
+        ],
+        "criticalUnknownCount": 6,
+        "deepDivePurpose": "CASE_RECORD_GAP_PRESERVATION"
+      },
+      "priorityVector": {
+        "objectiveRelevance": 4,
+        "criticality": 4,
+        "evidenceStrength": 4,
+        "authorizedActionability": 4,
+        "informationGain": 4,
+        "repairValue": 4,
+        "effortCost": 1,
+        "actionRisk": 0
+      },
+      "frontierRef": "FRONTIER.CASE.SPECIFIC.EVIDENCE"
+    },
+    {
+      "axisId": "CLAIM_ELEMENTS",
+      "state": "FLAGGED_MATERIAL",
+      "evidenceState": "OBSERVED",
+      "horizontalReceiptRefs": [
+        "RECEIPT.STATUTORY.ROUTE.ELEMENTS"
+      ],
+      "exclusionReason": null,
+      "verticalProbe": {
+        "state": "COVERED",
+        "completedDepth": 4,
+        "maximumDepth": 4,
+        "layerReceiptRefs": [
+          "CLAIM.L1.SUBJECT.AND.OBJECT",
+          "CLAIM.L2.TRIGGER",
+          "CLAIM.L3.EVIDENCE",
+          "CLAIM.L4.REQUESTED.CONSEQUENCE"
+        ],
+        "criticalUnknownCount": 5,
+        "deepDivePurpose": "ROUTE_ELEMENT_NONCONVERSION"
+      },
+      "priorityVector": {
+        "objectiveRelevance": 4,
+        "criticality": 4,
+        "evidenceStrength": 4,
+        "authorizedActionability": 3,
+        "informationGain": 4,
+        "repairValue": 4,
+        "effortCost": 1,
+        "actionRisk": 1
+      },
+      "frontierRef": "FRONTIER.INDIVIDUAL.ROUTE.ELEMENTS"
+    },
+    {
+      "axisId": "COUNTERPOSITION",
+      "state": "FLAGGED_MATERIAL",
+      "evidenceState": "OBSERVED",
+      "horizontalReceiptRefs": [
+        "RECEIPT.NONCONVERSION.COUNTERPOSITIONS"
+      ],
+      "exclusionReason": null,
+      "verticalProbe": {
+        "state": "COVERED",
+        "completedDepth": 4,
+        "maximumDepth": 4,
+        "layerReceiptRefs": [
+          "COUNTER.L1.INVESTIGATION",
+          "COUNTER.L2.NOTIFICATION",
+          "COUNTER.L3.SHARE.DEAL",
+          "COUNTER.L4.INTENTION.STATEMENT"
+        ],
+        "criticalUnknownCount": 3,
+        "deepDivePurpose": "PREMATURE_CONCLUSION_FIREWALL"
+      },
+      "priorityVector": {
+        "objectiveRelevance": 3,
+        "criticality": 3,
+        "evidenceStrength": 4,
+        "authorizedActionability": 3,
+        "informationGain": 3,
+        "repairValue": 3,
+        "effortCost": 1,
+        "actionRisk": 0
+      },
+      "frontierRef": "FRONTIER.COUNTERPOSITION.APPLICABILITY"
+    },
+    {
+      "axisId": "PROCEDURE_JURISDICTION",
+      "state": "FLAGGED_MATERIAL",
+      "evidenceState": "OBSERVED",
+      "horizontalReceiptRefs": [
+        "RECEIPT.SEPARATE.PROCEDURES"
+      ],
+      "exclusionReason": null,
+      "verticalProbe": {
+        "state": "COVERED",
+        "completedDepth": 4,
+        "maximumDepth": 4,
+        "layerReceiptRefs": [
+          "PROCEDURE.L1.EU.MERGER",
+          "PROCEDURE.L2.WORKS.COUNCIL",
+          "PROCEDURE.L3.INDIVIDUAL.LABOUR",
+          "PROCEDURE.L4.VOLUNTARY.NEGOTIATION"
+        ],
+        "criticalUnknownCount": 4,
+        "deepDivePurpose": "PROCEDURAL_ROUTE_SEPARATION"
+      },
+      "priorityVector": {
+        "objectiveRelevance": 4,
+        "criticality": 4,
+        "evidenceStrength": 4,
+        "authorizedActionability": 3,
+        "informationGain": 3,
+        "repairValue": 4,
+        "effortCost": 1,
+        "actionRisk": 1
+      },
+      "frontierRef": "FRONTIER.INDIVIDUAL.FORUM.AND.PROCEDURE"
+    },
+    {
+      "axisId": "AUTHORITY_SOURCES",
+      "state": "FLAGGED_MATERIAL",
+      "evidenceState": "OBSERVED",
+      "horizontalReceiptRefs": [
+        "RECEIPT.SOURCE.HIERARCHY.AND.SCOPE"
+      ],
+      "exclusionReason": null,
+      "verticalProbe": {
+        "state": "COVERED",
+        "completedDepth": 4,
+        "maximumDepth": 4,
+        "layerReceiptRefs": [
+          "AUTHORITY.L1.EU.COMMISSION",
+          "AUTHORITY.L2.LEGISLATION",
+          "AUTHORITY.L3.COURT",
+          "AUTHORITY.L4.COMPANY.STATEMENT"
+        ],
+        "criticalUnknownCount": 2,
+        "deepDivePurpose": "SOURCE_SCOPE_AND_FRESHNESS_BINDING"
+      },
+      "priorityVector": {
+        "objectiveRelevance": 4,
+        "criticality": 3,
+        "evidenceStrength": 4,
+        "authorizedActionability": 4,
+        "informationGain": 3,
+        "repairValue": 3,
+        "effortCost": 1,
+        "actionRisk": 0
+      },
+      "frontierRef": "FRONTIER.SOURCE.FRESHNESS"
+    },
+    {
+      "axisId": "REMEDY",
+      "state": "UNKNOWN_MATERIAL",
+      "evidenceState": "UNKNOWN",
+      "horizontalReceiptRefs": [
+        "RECEIPT.POSITIVE.ROUTES.WITHOUT.AUTOMATIC.RESULT"
+      ],
+      "exclusionReason": null,
+      "verticalProbe": {
+        "state": "BOUNDARY",
+        "completedDepth": 4,
+        "maximumDepth": 4,
+        "layerReceiptRefs": [
+          "REMEDY.L1.INFORMATION",
+          "REMEDY.L2.CONSULTATION",
+          "REMEDY.L3.INDIVIDUAL.PROTECTION",
+          "REMEDY.L4.COMPENSATION.OR.PARTICIPATION"
+        ],
+        "criticalUnknownCount": 6,
+        "deepDivePurpose": "CASE_SPECIFIC_REMEDY_AND_VALUE_BINDING"
+      },
+      "priorityVector": {
+        "objectiveRelevance": 4,
+        "criticality": 4,
+        "evidenceStrength": 3,
+        "authorizedActionability": 3,
+        "informationGain": 4,
+        "repairValue": 4,
+        "effortCost": 2,
+        "actionRisk": 1
+      },
+      "frontierRef": "FRONTIER.CASE.SPECIFIC.REMEDY"
+    },
+    {
+      "axisId": "COST_ACCESS",
+      "state": "UNKNOWN_MATERIAL",
+      "evidenceState": "UNKNOWN",
+      "horizontalReceiptRefs": [
+        "RECEIPT.DEADLINE.OBSERVED.COSTS.OPEN"
+      ],
+      "exclusionReason": null,
+      "verticalProbe": {
+        "state": "BOUNDARY",
+        "completedDepth": 4,
+        "maximumDepth": 4,
+        "layerReceiptRefs": [
+          "COST.L1.DEADLINE",
+          "COST.L2.FORUM",
+          "COST.L3.REPRESENTATION",
+          "COST.L4.ASSISTANCE.AND.EXPOSURE"
+        ],
+        "criticalUnknownCount": 5,
+        "deepDivePurpose": "INDIVIDUAL_ACCESS_AND_COST_REVIEW"
+      },
+      "priorityVector": {
+        "objectiveRelevance": 3,
+        "criticality": 3,
+        "evidenceStrength": 2,
+        "authorizedActionability": 2,
+        "informationGain": 3,
+        "repairValue": 3,
+        "effortCost": 2,
+        "actionRisk": 1
+      },
+      "frontierRef": "FRONTIER.INDIVIDUAL.COST.AND.ACCESS"
+    }
+  ],
+  "diagonalRegistry": [
+    {
+      "edgeId": "EDGE.FACTS.EVIDENCE",
+      "leftAxisId": "FACTS",
+      "rightAxisId": "EVIDENCE",
+      "comparisonQuestion": "Which public transaction facts have exact source support, and which case-specific implementation facts remain unavailable?",
+      "relationType": "COLLECTIVE_SEARCH_RELATION_CANDIDATE",
+      "sourceBasisRefs": [
+        "S03_EC_CASE_M11895",
+        "S15_BGB_613A"
+      ]
+    },
+    {
+      "edgeId": "EDGE.FACTS.CLAIM_ELEMENTS",
+      "leftAxisId": "FACTS",
+      "rightAxisId": "CLAIM_ELEMENTS",
+      "comparisonQuestion": "Which observed event, if any, satisfies a distinct employee-rights trigger without importing an unobserved closing or business transfer?",
+      "relationType": "COLLECTIVE_SEARCH_RELATION_CANDIDATE",
+      "sourceBasisRefs": [
+        "S03_EC_CASE_M11895",
+        "S15_BGB_613A",
+        "S17_BETRVG_106"
+      ]
+    },
+    {
+      "edgeId": "EDGE.FACTS.COUNTERPOSITION",
+      "leftAxisId": "FACTS",
+      "rightAxisId": "COUNTERPOSITION",
+      "comparisonQuestion": "Which observed facts survive the investigation-is-not-violation, notification-is-not-clearance and announcement-is-not-closing firewalls?",
+      "relationType": "COLLECTIVE_SEARCH_RELATION_CANDIDATE",
+      "sourceBasisRefs": [
+        "S02_EC_GUN_JUMPING_2026",
+        "S03_EC_CASE_M11895",
+        "S06_EUMR"
+      ]
+    },
+    {
+      "edgeId": "EDGE.FACTS.PROCEDURE_JURISDICTION",
+      "leftAxisId": "FACTS",
+      "rightAxisId": "PROCEDURE_JURISDICTION",
+      "comparisonQuestion": "Which observed event belongs to EU merger review, works-council procedure or an individual labour route?",
+      "relationType": "COLLECTIVE_SEARCH_RELATION_CANDIDATE",
+      "sourceBasisRefs": [
+        "S03_EC_CASE_M11895",
+        "S07_EC_MERGER_PROCEDURE",
+        "S19_BETRVG_111",
+        "S28_KSCHG_4"
+      ]
+    },
+    {
+      "edgeId": "EDGE.FACTS.AUTHORITY_SOURCES",
+      "leftAxisId": "FACTS",
+      "rightAxisId": "AUTHORITY_SOURCES",
+      "comparisonQuestion": "Which source has authority for each date, transaction state, group scope and employee-law proposition?",
+      "relationType": "COLLECTIVE_SEARCH_RELATION_CANDIDATE",
+      "sourceBasisRefs": [
+        "S01_XXXLUTZ_ANNOUNCEMENT",
+        "S03_EC_CASE_M11895",
+        "S16_BAG_8_AZR_91_15"
+      ]
+    },
+    {
+      "edgeId": "EDGE.FACTS.REMEDY",
+      "leftAxisId": "FACTS",
+      "rightAxisId": "REMEDY",
+      "comparisonQuestion": "Which observed facts open information, consultation, protection or negotiation routes without fixing an outcome?",
+      "relationType": "COLLECTIVE_SEARCH_RELATION_CANDIDATE",
+      "sourceBasisRefs": [
+        "S17_BETRVG_106",
+        "S19_BETRVG_111",
+        "S26_BETRVG_92A"
+      ]
+    },
+    {
+      "edgeId": "EDGE.FACTS.COST_ACCESS",
+      "leftAxisId": "FACTS",
+      "rightAxisId": "COST_ACCESS",
+      "comparisonQuestion": "Which dated individual event would start a deadline or require a forum and cost review?",
+      "relationType": "COLLECTIVE_SEARCH_RELATION_CANDIDATE",
+      "sourceBasisRefs": [
+        "S23_BETRVG_102",
+        "S28_KSCHG_4"
+      ]
+    },
+    {
+      "edgeId": "EDGE.EVIDENCE.CLAIM_ELEMENTS",
+      "leftAxisId": "EVIDENCE",
+      "rightAxisId": "CLAIM_ELEMENTS",
+      "comparisonQuestion": "Which exact record is required for each distinct route element, and who lawfully controls that record?",
+      "relationType": "COLLECTIVE_SEARCH_RELATION_CANDIDATE",
+      "sourceBasisRefs": [
+        "S15_BGB_613A",
+        "S17_BETRVG_106",
+        "S29_BDSG_26"
+      ]
+    },
+    {
+      "edgeId": "EDGE.EVIDENCE.COUNTERPOSITION",
+      "leftAxisId": "EVIDENCE",
+      "rightAxisId": "COUNTERPOSITION",
+      "comparisonQuestion": "Which missing records leave lawful alternative explanations or nonapplicability positions open?",
+      "relationType": "COLLECTIVE_SEARCH_RELATION_CANDIDATE",
+      "sourceBasisRefs": [
+        "S02_EC_GUN_JUMPING_2026",
+        "S16_BAG_8_AZR_91_15"
+      ]
+    },
+    {
+      "edgeId": "EDGE.EVIDENCE.PROCEDURE_JURISDICTION",
+      "leftAxisId": "EVIDENCE",
+      "rightAxisId": "PROCEDURE_JURISDICTION",
+      "comparisonQuestion": "Which procedure can lawfully request, receive or evaluate each missing record?",
+      "relationType": "COLLECTIVE_SEARCH_RELATION_CANDIDATE",
+      "sourceBasisRefs": [
+        "S17_BETRVG_106",
+        "S18_BETRVG_109A",
+        "S28_KSCHG_4"
+      ]
+    },
+    {
+      "edgeId": "EDGE.EVIDENCE.AUTHORITY_SOURCES",
+      "leftAxisId": "EVIDENCE",
+      "rightAxisId": "AUTHORITY_SOURCES",
+      "comparisonQuestion": "Which record is direct evidence, which is a first-party intention statement, and which is an authoritative legal source?",
+      "relationType": "COLLECTIVE_SEARCH_RELATION_CANDIDATE",
+      "sourceBasisRefs": [
+        "S01_XXXLUTZ_ANNOUNCEMENT",
+        "S03_EC_CASE_M11895",
+        "S16_BAG_8_AZR_91_15"
+      ]
+    },
+    {
+      "edgeId": "EDGE.EVIDENCE.REMEDY",
+      "leftAxisId": "EVIDENCE",
+      "rightAxisId": "REMEDY",
+      "comparisonQuestion": "Which smallest lawful evidence item could change one remedy route while leaving unrelated remedies open?",
+      "relationType": "COLLECTIVE_SEARCH_RELATION_CANDIDATE",
+      "sourceBasisRefs": [
+        "S19_BETRVG_111",
+        "S20_BETRVG_112",
+        "S21_BETRVG_113",
+        "S28_KSCHG_4"
+      ]
+    },
+    {
+      "edgeId": "EDGE.EVIDENCE.COST_ACCESS",
+      "leftAxisId": "EVIDENCE",
+      "rightAxisId": "COST_ACCESS",
+      "comparisonQuestion": "Which documents and dates must be preserved promptly to protect access before cost and forum review?",
+      "relationType": "COLLECTIVE_SEARCH_RELATION_CANDIDATE",
+      "sourceBasisRefs": [
+        "S23_BETRVG_102",
+        "S24_BETRVG_84",
+        "S28_KSCHG_4"
+      ]
+    },
+    {
+      "edgeId": "EDGE.CLAIM_ELEMENTS.COUNTERPOSITION",
+      "leftAxisId": "CLAIM_ELEMENTS",
+      "rightAxisId": "COUNTERPOSITION",
+      "comparisonQuestion": "Which counterposition negates or limits a particular element without closing other routes?",
+      "relationType": "COLLECTIVE_SEARCH_RELATION_CANDIDATE",
+      "sourceBasisRefs": [
+        "S15_BGB_613A",
+        "S16_BAG_8_AZR_91_15",
+        "S31_URHG_69A",
+        "S32_URHG_69B"
+      ]
+    },
+    {
+      "edgeId": "EDGE.CLAIM_ELEMENTS.PROCEDURE_JURISDICTION",
+      "leftAxisId": "CLAIM_ELEMENTS",
+      "rightAxisId": "PROCEDURE_JURISDICTION",
+      "comparisonQuestion": "Which institution or procedure is competent to examine the bound element set?",
+      "relationType": "COLLECTIVE_SEARCH_RELATION_CANDIDATE",
+      "sourceBasisRefs": [
+        "S06_EUMR",
+        "S19_BETRVG_111",
+        "S28_KSCHG_4"
+      ]
+    },
+    {
+      "edgeId": "EDGE.CLAIM_ELEMENTS.AUTHORITY_SOURCES",
+      "leftAxisId": "CLAIM_ELEMENTS",
+      "rightAxisId": "AUTHORITY_SOURCES",
+      "comparisonQuestion": "Which authoritative source defines each element, exception and claim ceiling?",
+      "relationType": "COLLECTIVE_SEARCH_RELATION_CANDIDATE",
+      "sourceBasisRefs": [
+        "S15_BGB_613A",
+        "S16_BAG_8_AZR_91_15",
+        "S17_BETRVG_106",
+        "S30_ARBNERFG_9"
+      ]
+    },
+    {
+      "edgeId": "EDGE.CLAIM_ELEMENTS.REMEDY",
+      "leftAxisId": "CLAIM_ELEMENTS",
+      "rightAxisId": "REMEDY",
+      "comparisonQuestion": "Which positive remedy belongs to the bound element set without importing ownership, automatic payment or an unlimited amount?",
+      "relationType": "COLLECTIVE_SEARCH_RELATION_CANDIDATE",
+      "sourceBasisRefs": [
+        "S20_BETRVG_112",
+        "S21_BETRVG_113",
+        "S27_BETRVG_88",
+        "S30_ARBNERFG_9"
+      ]
+    },
+    {
+      "edgeId": "EDGE.CLAIM_ELEMENTS.COST_ACCESS",
+      "leftAxisId": "CLAIM_ELEMENTS",
+      "rightAxisId": "COST_ACCESS",
+      "comparisonQuestion": "Which selected route determines deadline, forum, representation and cost questions?",
+      "relationType": "COLLECTIVE_SEARCH_RELATION_CANDIDATE",
+      "sourceBasisRefs": [
+        "S23_BETRVG_102",
+        "S28_KSCHG_4"
+      ]
+    },
+    {
+      "edgeId": "EDGE.COUNTERPOSITION.PROCEDURE_JURISDICTION",
+      "leftAxisId": "COUNTERPOSITION",
+      "rightAxisId": "PROCEDURE_JURISDICTION",
+      "comparisonQuestion": "Where is each counterposition decided and which procedure leaves it unresolved?",
+      "relationType": "COLLECTIVE_SEARCH_RELATION_CANDIDATE",
+      "sourceBasisRefs": [
+        "S02_EC_GUN_JUMPING_2026",
+        "S07_EC_MERGER_PROCEDURE",
+        "S16_BAG_8_AZR_91_15"
+      ]
+    },
+    {
+      "edgeId": "EDGE.COUNTERPOSITION.AUTHORITY_SOURCES",
+      "leftAxisId": "COUNTERPOSITION",
+      "rightAxisId": "AUTHORITY_SOURCES",
+      "comparisonQuestion": "Which source supports the limiting counterposition and what remains merely possible?",
+      "relationType": "COLLECTIVE_SEARCH_RELATION_CANDIDATE",
+      "sourceBasisRefs": [
+        "S02_EC_GUN_JUMPING_2026",
+        "S06_EUMR",
+        "S16_BAG_8_AZR_91_15"
+      ]
+    },
+    {
+      "edgeId": "EDGE.COUNTERPOSITION.REMEDY",
+      "leftAxisId": "COUNTERPOSITION",
+      "rightAxisId": "REMEDY",
+      "comparisonQuestion": "Which constructive route remains available even when an asserted automatic entitlement does not follow?",
+      "relationType": "COLLECTIVE_SEARCH_RELATION_CANDIDATE",
+      "sourceBasisRefs": [
+        "S24_BETRVG_84",
+        "S25_BETRVG_86A",
+        "S26_BETRVG_92A",
+        "S27_BETRVG_88"
+      ]
+    },
+    {
+      "edgeId": "EDGE.COUNTERPOSITION.COST_ACCESS",
+      "leftAxisId": "COUNTERPOSITION",
+      "rightAxisId": "COST_ACCESS",
+      "comparisonQuestion": "Which limiting position changes expected cost or access without erasing an urgent deadline?",
+      "relationType": "COLLECTIVE_SEARCH_RELATION_CANDIDATE",
+      "sourceBasisRefs": [
+        "S16_BAG_8_AZR_91_15",
+        "S28_KSCHG_4"
+      ]
+    },
+    {
+      "edgeId": "EDGE.PROCEDURE_JURISDICTION.AUTHORITY_SOURCES",
+      "leftAxisId": "PROCEDURE_JURISDICTION",
+      "rightAxisId": "AUTHORITY_SOURCES",
+      "comparisonQuestion": "Which authority defines the procedure, jurisdiction, timing and decision state?",
+      "relationType": "COLLECTIVE_SEARCH_RELATION_CANDIDATE",
+      "sourceBasisRefs": [
+        "S03_EC_CASE_M11895",
+        "S06_EUMR",
+        "S17_BETRVG_106",
+        "S28_KSCHG_4"
+      ]
+    },
+    {
+      "edgeId": "EDGE.PROCEDURE_JURISDICTION.REMEDY",
+      "leftAxisId": "PROCEDURE_JURISDICTION",
+      "rightAxisId": "REMEDY",
+      "comparisonQuestion": "Which procedure can produce which remedy, and which routes remain voluntary or consultative?",
+      "relationType": "COLLECTIVE_SEARCH_RELATION_CANDIDATE",
+      "sourceBasisRefs": [
+        "S19_BETRVG_111",
+        "S20_BETRVG_112",
+        "S21_BETRVG_113",
+        "S27_BETRVG_88"
+      ]
+    },
+    {
+      "edgeId": "EDGE.PROCEDURE_JURISDICTION.COST_ACCESS",
+      "leftAxisId": "PROCEDURE_JURISDICTION",
+      "rightAxisId": "COST_ACCESS",
+      "comparisonQuestion": "Which forum selection controls time limits, standing, representation and cost exposure?",
+      "relationType": "COLLECTIVE_SEARCH_RELATION_CANDIDATE",
+      "sourceBasisRefs": [
+        "S28_KSCHG_4"
+      ]
+    },
+    {
+      "edgeId": "EDGE.AUTHORITY_SOURCES.REMEDY",
+      "leftAxisId": "AUTHORITY_SOURCES",
+      "rightAxisId": "REMEDY",
+      "comparisonQuestion": "Which source authorizes each remedy type and which company statement remains nonbinding?",
+      "relationType": "COLLECTIVE_SEARCH_RELATION_CANDIDATE",
+      "sourceBasisRefs": [
+        "S01_XXXLUTZ_ANNOUNCEMENT",
+        "S20_BETRVG_112",
+        "S26_BETRVG_92A",
+        "S30_ARBNERFG_9"
+      ]
+    },
+    {
+      "edgeId": "EDGE.AUTHORITY_SOURCES.COST_ACCESS",
+      "leftAxisId": "AUTHORITY_SOURCES",
+      "rightAxisId": "COST_ACCESS",
+      "comparisonQuestion": "Which official source fixes an urgent access condition, and which cost questions need a selected individual route?",
+      "relationType": "COLLECTIVE_SEARCH_RELATION_CANDIDATE",
+      "sourceBasisRefs": [
+        "S28_KSCHG_4"
+      ]
+    },
+    {
+      "edgeId": "EDGE.REMEDY.COST_ACCESS",
+      "leftAxisId": "REMEDY",
+      "rightAxisId": "COST_ACCESS",
+      "comparisonQuestion": "Which remedy preserves rights at the lowest lawful burden while keeping individual advice, costs and deadlines visible?",
+      "relationType": "COLLECTIVE_SEARCH_RELATION_CANDIDATE",
+      "sourceBasisRefs": [
+        "S24_BETRVG_84",
+        "S25_BETRVG_86A",
+        "S26_BETRVG_92A",
+        "S28_KSCHG_4"
+      ]
+    }
+  ],
+  "diagonalEvaluations": [
+    {
+      "edgeId": "EDGE.FACTS.EVIDENCE",
+      "state": "UNKNOWN_WITH_RECEIPT",
+      "evidenceState": "UNKNOWN",
+      "evidenceRefs": [
+        "RECEIPT.EDGE.FACTS.EVIDENCE"
+      ],
+      "leftDelta": 0,
+      "rightDelta": 0,
+      "exclusionReason": null
+    },
+    {
+      "edgeId": "EDGE.FACTS.CLAIM_ELEMENTS",
+      "state": "UNKNOWN_WITH_RECEIPT",
+      "evidenceState": "UNKNOWN",
+      "evidenceRefs": [
+        "RECEIPT.EDGE.FACTS.CLAIM"
+      ],
+      "leftDelta": 0,
+      "rightDelta": 0,
+      "exclusionReason": null
+    },
+    {
+      "edgeId": "EDGE.FACTS.COUNTERPOSITION",
+      "state": "EVALUATED",
+      "evidenceState": "OBSERVED",
+      "evidenceRefs": [
+        "RECEIPT.EDGE.FACTS.COUNTER"
+      ],
+      "leftDelta": 0,
+      "rightDelta": 0,
+      "exclusionReason": null
+    },
+    {
+      "edgeId": "EDGE.FACTS.PROCEDURE_JURISDICTION",
+      "state": "UNKNOWN_WITH_RECEIPT",
+      "evidenceState": "UNKNOWN",
+      "evidenceRefs": [
+        "RECEIPT.EDGE.FACTS.PROCEDURE"
+      ],
+      "leftDelta": 0,
+      "rightDelta": 0,
+      "exclusionReason": null
+    },
+    {
+      "edgeId": "EDGE.FACTS.AUTHORITY_SOURCES",
+      "state": "EVALUATED",
+      "evidenceState": "OBSERVED",
+      "evidenceRefs": [
+        "RECEIPT.EDGE.FACTS.AUTHORITY"
+      ],
+      "leftDelta": 0,
+      "rightDelta": 0,
+      "exclusionReason": null
+    },
+    {
+      "edgeId": "EDGE.FACTS.REMEDY",
+      "state": "UNKNOWN_WITH_RECEIPT",
+      "evidenceState": "UNKNOWN",
+      "evidenceRefs": [
+        "RECEIPT.EDGE.FACTS.REMEDY"
+      ],
+      "leftDelta": 0,
+      "rightDelta": 0,
+      "exclusionReason": null
+    },
+    {
+      "edgeId": "EDGE.FACTS.COST_ACCESS",
+      "state": "UNKNOWN_WITH_RECEIPT",
+      "evidenceState": "UNKNOWN",
+      "evidenceRefs": [
+        "RECEIPT.EDGE.FACTS.COST"
+      ],
+      "leftDelta": 0,
+      "rightDelta": 0,
+      "exclusionReason": null
+    },
+    {
+      "edgeId": "EDGE.EVIDENCE.CLAIM_ELEMENTS",
+      "state": "UNKNOWN_WITH_RECEIPT",
+      "evidenceState": "UNKNOWN",
+      "evidenceRefs": [
+        "RECEIPT.EDGE.EVIDENCE.CLAIM"
+      ],
+      "leftDelta": 0,
+      "rightDelta": 0,
+      "exclusionReason": null
+    },
+    {
+      "edgeId": "EDGE.EVIDENCE.COUNTERPOSITION",
+      "state": "UNKNOWN_WITH_RECEIPT",
+      "evidenceState": "UNKNOWN",
+      "evidenceRefs": [
+        "RECEIPT.EDGE.EVIDENCE.COUNTER"
+      ],
+      "leftDelta": 0,
+      "rightDelta": 0,
+      "exclusionReason": null
+    },
+    {
+      "edgeId": "EDGE.EVIDENCE.PROCEDURE_JURISDICTION",
+      "state": "UNKNOWN_WITH_RECEIPT",
+      "evidenceState": "UNKNOWN",
+      "evidenceRefs": [
+        "RECEIPT.EDGE.EVIDENCE.PROCEDURE"
+      ],
+      "leftDelta": 0,
+      "rightDelta": 0,
+      "exclusionReason": null
+    },
+    {
+      "edgeId": "EDGE.EVIDENCE.AUTHORITY_SOURCES",
+      "state": "EVALUATED",
+      "evidenceState": "OBSERVED",
+      "evidenceRefs": [
+        "RECEIPT.EDGE.EVIDENCE.AUTHORITY"
+      ],
+      "leftDelta": 0,
+      "rightDelta": 0,
+      "exclusionReason": null
+    },
+    {
+      "edgeId": "EDGE.EVIDENCE.REMEDY",
+      "state": "UNKNOWN_WITH_RECEIPT",
+      "evidenceState": "UNKNOWN",
+      "evidenceRefs": [
+        "RECEIPT.EDGE.EVIDENCE.REMEDY"
+      ],
+      "leftDelta": 0,
+      "rightDelta": 0,
+      "exclusionReason": null
+    },
+    {
+      "edgeId": "EDGE.EVIDENCE.COST_ACCESS",
+      "state": "UNKNOWN_WITH_RECEIPT",
+      "evidenceState": "UNKNOWN",
+      "evidenceRefs": [
+        "RECEIPT.EDGE.EVIDENCE.COST"
+      ],
+      "leftDelta": 0,
+      "rightDelta": 0,
+      "exclusionReason": null
+    },
+    {
+      "edgeId": "EDGE.CLAIM_ELEMENTS.COUNTERPOSITION",
+      "state": "EVALUATED",
+      "evidenceState": "OBSERVED",
+      "evidenceRefs": [
+        "RECEIPT.EDGE.CLAIM.COUNTER"
+      ],
+      "leftDelta": 0,
+      "rightDelta": 0,
+      "exclusionReason": null
+    },
+    {
+      "edgeId": "EDGE.CLAIM_ELEMENTS.PROCEDURE_JURISDICTION",
+      "state": "UNKNOWN_WITH_RECEIPT",
+      "evidenceState": "UNKNOWN",
+      "evidenceRefs": [
+        "RECEIPT.EDGE.CLAIM.PROCEDURE"
+      ],
+      "leftDelta": 0,
+      "rightDelta": 0,
+      "exclusionReason": null
+    },
+    {
+      "edgeId": "EDGE.CLAIM_ELEMENTS.AUTHORITY_SOURCES",
+      "state": "EVALUATED",
+      "evidenceState": "OBSERVED",
+      "evidenceRefs": [
+        "RECEIPT.EDGE.CLAIM.AUTHORITY"
+      ],
+      "leftDelta": 0,
+      "rightDelta": 0,
+      "exclusionReason": null
+    },
+    {
+      "edgeId": "EDGE.CLAIM_ELEMENTS.REMEDY",
+      "state": "UNKNOWN_WITH_RECEIPT",
+      "evidenceState": "UNKNOWN",
+      "evidenceRefs": [
+        "RECEIPT.EDGE.CLAIM.REMEDY"
+      ],
+      "leftDelta": 0,
+      "rightDelta": 0,
+      "exclusionReason": null
+    },
+    {
+      "edgeId": "EDGE.CLAIM_ELEMENTS.COST_ACCESS",
+      "state": "UNKNOWN_WITH_RECEIPT",
+      "evidenceState": "UNKNOWN",
+      "evidenceRefs": [
+        "RECEIPT.EDGE.CLAIM.COST"
+      ],
+      "leftDelta": 0,
+      "rightDelta": 0,
+      "exclusionReason": null
+    },
+    {
+      "edgeId": "EDGE.COUNTERPOSITION.PROCEDURE_JURISDICTION",
+      "state": "UNKNOWN_WITH_RECEIPT",
+      "evidenceState": "UNKNOWN",
+      "evidenceRefs": [
+        "RECEIPT.EDGE.COUNTER.PROCEDURE"
+      ],
+      "leftDelta": 0,
+      "rightDelta": 0,
+      "exclusionReason": null
+    },
+    {
+      "edgeId": "EDGE.COUNTERPOSITION.AUTHORITY_SOURCES",
+      "state": "EVALUATED",
+      "evidenceState": "OBSERVED",
+      "evidenceRefs": [
+        "RECEIPT.EDGE.COUNTER.AUTHORITY"
+      ],
+      "leftDelta": 0,
+      "rightDelta": 0,
+      "exclusionReason": null
+    },
+    {
+      "edgeId": "EDGE.COUNTERPOSITION.REMEDY",
+      "state": "UNKNOWN_WITH_RECEIPT",
+      "evidenceState": "UNKNOWN",
+      "evidenceRefs": [
+        "RECEIPT.EDGE.COUNTER.REMEDY"
+      ],
+      "leftDelta": 0,
+      "rightDelta": 0,
+      "exclusionReason": null
+    },
+    {
+      "edgeId": "EDGE.COUNTERPOSITION.COST_ACCESS",
+      "state": "UNKNOWN_WITH_RECEIPT",
+      "evidenceState": "UNKNOWN",
+      "evidenceRefs": [
+        "RECEIPT.EDGE.COUNTER.COST"
+      ],
+      "leftDelta": 0,
+      "rightDelta": 0,
+      "exclusionReason": null
+    },
+    {
+      "edgeId": "EDGE.PROCEDURE_JURISDICTION.AUTHORITY_SOURCES",
+      "state": "EVALUATED",
+      "evidenceState": "OBSERVED",
+      "evidenceRefs": [
+        "RECEIPT.EDGE.PROCEDURE.AUTHORITY"
+      ],
+      "leftDelta": 0,
+      "rightDelta": 0,
+      "exclusionReason": null
+    },
+    {
+      "edgeId": "EDGE.PROCEDURE_JURISDICTION.REMEDY",
+      "state": "UNKNOWN_WITH_RECEIPT",
+      "evidenceState": "UNKNOWN",
+      "evidenceRefs": [
+        "RECEIPT.EDGE.PROCEDURE.REMEDY"
+      ],
+      "leftDelta": 0,
+      "rightDelta": 0,
+      "exclusionReason": null
+    },
+    {
+      "edgeId": "EDGE.PROCEDURE_JURISDICTION.COST_ACCESS",
+      "state": "UNKNOWN_WITH_RECEIPT",
+      "evidenceState": "UNKNOWN",
+      "evidenceRefs": [
+        "RECEIPT.EDGE.PROCEDURE.COST"
+      ],
+      "leftDelta": 0,
+      "rightDelta": 0,
+      "exclusionReason": null
+    },
+    {
+      "edgeId": "EDGE.AUTHORITY_SOURCES.REMEDY",
+      "state": "UNKNOWN_WITH_RECEIPT",
+      "evidenceState": "UNKNOWN",
+      "evidenceRefs": [
+        "RECEIPT.EDGE.AUTHORITY.REMEDY"
+      ],
+      "leftDelta": 0,
+      "rightDelta": 0,
+      "exclusionReason": null
+    },
+    {
+      "edgeId": "EDGE.AUTHORITY_SOURCES.COST_ACCESS",
+      "state": "UNKNOWN_WITH_RECEIPT",
+      "evidenceState": "UNKNOWN",
+      "evidenceRefs": [
+        "RECEIPT.EDGE.AUTHORITY.COST"
+      ],
+      "leftDelta": 0,
+      "rightDelta": 0,
+      "exclusionReason": null
+    },
+    {
+      "edgeId": "EDGE.REMEDY.COST_ACCESS",
+      "state": "UNKNOWN_WITH_RECEIPT",
+      "evidenceState": "UNKNOWN",
+      "evidenceRefs": [
+        "RECEIPT.EDGE.REMEDY.COST"
+      ],
+      "leftDelta": 0,
+      "rightDelta": 0,
+      "exclusionReason": null
+    }
+  ],
+  "decision": {
+    "outcome": "SELECT_FRONTIER",
+    "selectedAxisId": "EVIDENCE",
+    "nextOperator": "EXTREMUM_NAVIGATION",
+    "preservedAxisIds": [
+      "FACTS",
+      "EVIDENCE",
+      "CLAIM_ELEMENTS",
+      "COUNTERPOSITION",
+      "PROCEDURE_JURISDICTION",
+      "AUTHORITY_SOURCES",
+      "REMEDY",
+      "COST_ACCESS"
+    ],
+    "rationale": "The decisive next improvement is a case-specific evidence inventory: it can distinguish notification from closing, share acquisition from business transfer, general participation routes from individual claims, and concrete economic or contribution value from unpriced human dignity."
+  },
+  "authority": {
+    "mode": "LOCAL_READ_ONLY_ANALYSIS",
+    "sourceSystemEffects": 0,
+    "externalNetworkEffects": 0,
+    "mutationAuthorized": false
+  },
+  "recordedAt": "2026-09-10T07:57:12Z"
+}

@@ -1,0 +1,50 @@
+{
+  "schema": "halveth.xxxlutz-porta-timeline.v1",
+  "asOf": "2026-09-10",
+  "events": [
+    {
+      "date": "2025-01-07",
+      "event": "XXXLutz and Porta publicly announce the agreed sale, expressly subject to competition approval.",
+      "status": "OBSERVED",
+      "sourceIds": [
+        "S01_XXXLUTZ_ANNOUNCEMENT"
+      ]
+    },
+    {
+      "date": "2026-07-10",
+      "event": "The European Commission opens a formal investigation into possible gun jumping; the opening does not prejudge the outcome.",
+      "status": "OBSERVED",
+      "sourceIds": [
+        "S02_EC_GUN_JUMPING_2026",
+        "S04_EC_CASE_M11895_AP"
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "event": "The concentration is formally notified as case M.11895; Phase I is ongoing and the provisional deadline is 2026-10-12.",
+      "status": "OBSERVED",
+      "sourceIds": [
+        "S03_EC_CASE_M11895"
+      ]
+    },
+    {
+      "date": "2026-09-09",
+      "event": "The published party submission states that XXXLutz KG intends to acquire sole control over the Porta group.",
+      "status": "OBSERVED",
+      "sourceIds": [
+        "S05_EC_M11895_NOTICE"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "event": "No clearance decision, closing or control transfer is bound in the public source set.",
+      "status": "NOT_PROVEN",
+      "sourceIds": [
+        "S03_EC_CASE_M11895",
+        "S05_EC_M11895_NOTICE"
+      ]
+    }
+  ],
+  "currentStatus": "ANNOUNCED_AND_NOTIFIED_PHASE_I_ONGOING_CLEARANCE_CLOSING_AND_CONTROL_TRANSFER_NOT_BOUND",
+  "claimCeiling": "SOURCE_BOUND_PUBLIC_TRANSACTION_TIMELINE_NOT_VIOLATION_CLEARANCE_OR_CLOSING_FINDING"
+}
