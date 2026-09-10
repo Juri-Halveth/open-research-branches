@@ -3,7 +3,7 @@
   "catalogKind": "AUDIT_REPORT_PATH_STAR",
   "indexNodeId": "audit-star:index",
   "source": {
-    "requestedRef": "HEAD",
+    "requestedRef": "a02346472ad861db0f6d1e6ebca0003b1936a72f",
     "commitId": "a02346472ad861db0f6d1e6ebca0003b1936a72f",
     "treeId": "393c35179f454f92d7a136374dfba5b7e68a722d",
     "committedAt": "2026-09-10T12:10:17+02:00",
