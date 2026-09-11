@@ -105,7 +105,7 @@ Forschungs- und Softwareäste. Jeder Ast enthält eine eng gebundene Frage,
 synthetische oder öffentliche Beispiele, überprüfbare Tests und sichtbare
 Unbekannte.
 
-Öffentlicher Kontakt: [juri@halveth.de](mailto:juri@halveth.de)
+Öffentliche Projektfragen: [GitHub Discussions](https://github.com/Juri-Halveth/open-research-branches/discussions)
 
 Die Sammlung ist kein Abbild privater Archive. Sie besitzt eine neue
 Git-Historie und enthält ausschließlich einzeln freigegebene Ableitungen.

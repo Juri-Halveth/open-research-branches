@@ -56,7 +56,7 @@ Die Sammlung unterscheidet Beobachtung, Hypothese, Modell, Test und Anspruch. Da
 | Projekt | Einstieg |
 | --- | --- |
 | [Lernstudio](https://github.com/Juri-Halveth/lernstudio) | Offene Lernplattform und zugehörige Forschung |
-| [Juri-Janovski-These zur Geburt](https://github.com/Juri-Halveth/juri-janovski-these-zur-geburt) | Öffentliche These zu einer selbstbestimmten, reizarmen Geburtsumgebung |
+| [These zur Geburt](https://github.com/Juri-Halveth/juri-janovski-these-zur-geburt) | Öffentliche These zu einer selbstbestimmten, reizarmen Geburtsumgebung |
 | [HALVETH Tresor](https://github.com/Juri-Halveth/halveth-tresor) | Lokaler Windows-Tresor und seine veröffentlichten Quellen |
 
 Diese Verweise stammen aus dem [öffentlichen Projekt-Snapshot vom 10. September 2026](https://github.com/Juri-Halveth/open-research-branches/blob/main/catalog/public-project-snapshot.json). Jedes Repository führt seine eigenen aktuellen Stände und Nutzungsregeln.

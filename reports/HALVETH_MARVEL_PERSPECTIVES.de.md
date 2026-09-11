@@ -33,6 +33,10 @@ Mit der roten Magie ist im hier besprochenen Zusammenhang **Wanda Maximoff, die 
 
 Die Comicreihe *Scarlet Witch* von 2023 liefert eine andere Perspektive: Wanda eröffnet einen Ort für Menschen in Not und setzt ihre Chaosmagie gegen eine Bedrohung ein. Das widerspricht einer pauschalen Lesart, nach der diese Figur oder ihre Fähigkeit ausschließlich als feindlich dargestellt würde. Film und Comic werden dabei nicht zu einer einzigen Biografie zusammengefügt. [Marvel, Scarlet Witch 2023](https://www.marvel.com/comics/series/33277/scarlet_witch_%282023_-_present%29)
 
+## Quake: die gesuchte Figur mit den Wellen
+
+In *Agents of S.H.I.E.L.D.* spielt **Chloe Bennet** die Figur **Skye / Daisy Johnson / Quake**. Marvel beschreibt ihre Fähigkeit als Kontrolle von Vibrationen, mit denen sie unter anderem Erdbeben erzeugt. Das ordnet die erinnerte Szene einer konkreten Serienfigur zu. „Quantenwellen“ ist in dieser Figurenbeschreibung keine ausgewiesene Erklärung der Fähigkeit. [Disney D23, Agents of S.H.I.E.L.D. Spring Preview](https://d23.com/marvels-agents-shield-spring-preview/), [Marvel, The Many Identities of Daisy Johnson, 20. August 2020](https://www.marvel.com/articles/tv-shows/ydk-agents-of-shield-the-many-identities-of-daisy-johnson?linkId=97933204)
+
 ## Was ein mathematisches Modell leisten könnte
 
 Eine HALVETH-Modellidee kann Zustände, Übergänge, Rückkopplungen, Belastungen und Ausstiegsmöglichkeiten definieren. Dafür braucht sie benannte Variablen, einen Operator, Parameter, Ausgangswerte und beobachtbare Ergebnisse. Der Begriff „Chaosmagie“ wäre dann ein ausdrücklich gewählter Modellname. Seine Verwendung beweist weder Marvel-Kräfte noch eine physische Wirkung.

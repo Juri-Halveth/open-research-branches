@@ -33,6 +33,10 @@ The red magic discussed here refers to **Wanda Maximoff, the Scarlet Witch**. *W
 
 The 2023 *Scarlet Witch* comic offers another perspective: Wanda provides help to people in need and uses chaos magic against a threat. It is therefore inaccurate to describe the character or ability as exclusively hostile across all stories. The screen and comic versions remain different continuities. [Marvel, Scarlet Witch 2023](https://www.marvel.com/comics/series/33277/scarlet_witch_%282023_-_present%29)
 
+## Quake: identifying the character with the waves
+
+In *Agents of S.H.I.E.L.D.*, **Chloe Bennet** plays **Skye / Daisy Johnson / Quake**. Marvel describes her power as manipulating vibrations, including creating earthquakes. This identifies a specific character matching the remembered ability. “Quantum waves” is not the explanation given in that character description. [Disney D23, Agents of S.H.I.E.L.D. Spring Preview](https://d23.com/marvels-agents-shield-spring-preview/), [Marvel, The Many Identities of Daisy Johnson, 20 August 2020](https://www.marvel.com/articles/tv-shows/ydk-agents-of-shield-the-many-identities-of-daisy-johnson?linkId=97933204)
+
 ## What a mathematical model could do
 
 A HALVETH model proposal can define states, transitions, feedback, burdens and exit options. It needs named variables, an operator, parameters, initial values and observable outcomes. “Chaos magic” would then be an explicitly chosen model name, not proof of Marvel powers or a physical effect.
