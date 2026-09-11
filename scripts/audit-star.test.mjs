@@ -36,6 +36,33 @@ function parseNullTerminatedPaths(raw) {
   return raw.split("\0").filter(Boolean).sort();
 }
 
+function assertHistoricalArtifactBinding(cwd, headCommit, sourceCommit) {
+  const artifactPath = "catalog/audit-star.json";
+  const headArtifact = git(cwd, ["ls-tree", "-z", headCommit, "--", artifactPath]);
+  assert.ok(headArtifact, "HEAD must contain the bound artifact");
+  const candidates = git(cwd, [
+    "rev-list", "--parents", "--ancestry-path", `${sourceCommit}..${headCommit}`
+  ]).trim().split(/\r?\n/u).filter(Boolean)
+    .map((record) => record.split(/\s+/u))
+    .filter(([, ...parents]) => parents.length === 1 && parents[0] === sourceCommit)
+    .map(([commitId]) => commitId)
+    .filter((commitId) => git(cwd, ["ls-tree", "-z", commitId, "--", artifactPath]) === headArtifact);
+  assert.equal(candidates.length, 1, "the artifact must have one source-bound ancestor binding commit");
+  const [bindingCommit] = candidates;
+  const bindingParents = git(cwd, ["show", "-s", "--format=%P", bindingCommit]).trim().split(/\s+/u).filter(Boolean);
+  const bindingChanges = parseNullTerminatedPaths(git(cwd, [
+    "diff", "--name-only", "-z", sourceCommit, bindingCommit
+  ]));
+  assert.deepEqual(bindingParents, [sourceCommit]);
+  assert.deepEqual(bindingChanges, [artifactPath]);
+  git(cwd, ["merge-base", "--is-ancestor", bindingCommit, headCommit]);
+  assert.equal(
+    git(cwd, ["rev-parse", `${bindingCommit}:${artifactPath}`]).trim(),
+    git(cwd, ["rev-parse", `${headCommit}:${artifactPath}`]).trim()
+  );
+  return bindingCommit;
+}
+
 function sortedNodeKeys(nodes) {
   return nodes.map((node) => `${node.path}\0${node.nodeKind}\0${node.id}`);
 }
@@ -134,10 +161,6 @@ test("the checked-in artifact exactly rebuilds from its bound source commit", ()
   const stored = JSON.parse(storedText);
   const sourceCommit = git(REPOSITORY_ROOT, ["rev-parse", `${stored.source.commitId}^{commit}`]).trim();
   const sourceTree = git(REPOSITORY_ROOT, ["rev-parse", `${sourceCommit}^{tree}`]).trim();
-  const headParents = git(REPOSITORY_ROOT, ["show", "-s", "--format=%P", headCommit]).trim().split(/\s+/u).filter(Boolean);
-  const bindingChanges = parseNullTerminatedPaths(git(REPOSITORY_ROOT, [
-    "diff", "--name-only", "-z", sourceCommit, headCommit
-  ]));
   const rebuilt = buildAuditStar({ cwd: REPOSITORY_ROOT, ref: sourceCommit });
 
   assert.equal(stored.source.requestedRef, sourceCommit);
@@ -145,8 +168,46 @@ test("the checked-in artifact exactly rebuilds from its bound source commit", ()
   assert.equal(stored.source.treeId, sourceTree);
   assert.deepEqual(stored, rebuilt);
   assert.equal(storedText, `${JSON.stringify(rebuilt, null, 2)}\n`);
-  assert.deepEqual(headParents, [sourceCommit]);
-  assert.deepEqual(bindingChanges, ["catalog/audit-star.json"]);
+  assertHistoricalArtifactBinding(REPOSITORY_ROOT, headCommit, sourceCommit);
+});
+
+test("historical binding survives later content commits and rejects changed artifacts", (context) => {
+  const fixture = makeFixtureRepository();
+  context.after(() => fs.rmSync(fixture, { recursive: true, force: true }));
+  const sourceCommit = git(fixture, ["rev-parse", "HEAD^{commit}"]).trim();
+  const artifactPath = path.join(fixture, "catalog", "audit-star.json");
+  fs.writeFileSync(artifactPath, `${JSON.stringify(buildAuditStar({ cwd: fixture, ref: sourceCommit }), null, 2)}\n`);
+  git(fixture, ["add", "catalog/audit-star.json"]);
+  git(fixture, ["commit", "-m", "bind the source artifact"]);
+  const bindingCommit = git(fixture, ["rev-parse", "HEAD^{commit}"]).trim();
+  assert.equal(assertHistoricalArtifactBinding(fixture, bindingCommit, sourceCommit), bindingCommit);
+
+  fs.writeFileSync(path.join(fixture, "reports", "LATER.md"), "# Later report\n");
+  git(fixture, ["add", "reports/LATER.md"]);
+  git(fixture, ["commit", "-m", "later content"]);
+  const laterCommit = git(fixture, ["rev-parse", "HEAD^{commit}"]).trim();
+  assert.equal(assertHistoricalArtifactBinding(fixture, laterCommit, sourceCommit), bindingCommit);
+
+  fs.appendFileSync(artifactPath, "\n");
+  git(fixture, ["add", "catalog/audit-star.json"]);
+  git(fixture, ["commit", "-m", "change artifact bytes"]);
+  const changedCommit = git(fixture, ["rev-parse", "HEAD^{commit}"]).trim();
+  assert.throws(() => assertHistoricalArtifactBinding(fixture, changedCommit, sourceCommit));
+});
+
+test("a binding commit cannot include unrelated content changes", (context) => {
+  const fixture = makeFixtureRepository();
+  context.after(() => fs.rmSync(fixture, { recursive: true, force: true }));
+  const sourceCommit = git(fixture, ["rev-parse", "HEAD^{commit}"]).trim();
+  fs.writeFileSync(
+    path.join(fixture, "catalog", "audit-star.json"),
+    `${JSON.stringify(buildAuditStar({ cwd: fixture, ref: sourceCommit }), null, 2)}\n`
+  );
+  fs.writeFileSync(path.join(fixture, "reports", "EXTRA.md"), "# Extra report\n");
+  git(fixture, ["add", "."]);
+  git(fixture, ["commit", "-m", "mix binding with content"]);
+  const mixedCommit = git(fixture, ["rev-parse", "HEAD^{commit}"]).trim();
+  assert.throws(() => assertHistoricalArtifactBinding(fixture, mixedCommit, sourceCommit));
 });
 
 test("relations never derive causality, authorship, identity or artifact truth", () => {
