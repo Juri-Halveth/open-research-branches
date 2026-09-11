@@ -2,7 +2,9 @@
 
 [Forschungsraum](../../README.md) · [Themenwiki](../../wiki/Home.md) · [Diskussion](https://github.com/Juri-Halveth/open-research-branches/discussions)
 
-Juri Janovski · HALVETH · Öffentlicher Quellenaudit · 10. September 2026
+**Alias-Redaktion: 11.09.2026.** Aktuelle Namensführung: [HALVETH!!!](../../PUBLIC-NAME.md). Der bisherige Quellenstand bleibt erhalten.
+
+HALVETH!!! · Öffentlicher Quellenaudit · 10. September 2026
 
 ## Ergebnis
 
@@ -116,7 +118,7 @@ Die Quellenarbeiten mehrerer Assistenten sind eine gemeinsame Recherche unter de
 
 ## 8. Veröffentlichung, Nachnutzung und Reproduktion
 
-**Juri Janovski ist der benannte Autor und Herausgeber dieses neuen Audits unter HALVETH.** Diese Zuordnung bezieht sich auf den vorliegenden Bericht und seine eigenen Ableitungen. Rechte an Steam, Coins, fremden Texten oder allgemeinem Wissen werden dadurch nicht übertragen. Die neue Veröffentlichung begründet auch keine rückwirkende Beteiligung an fremden Entwicklungen.
+**HALVETH!!! ist der benannte Autor und Herausgeber dieses neuen Audits.** Diese Zuordnung bezieht sich auf den vorliegenden Bericht und seine eigenen Ableitungen. Rechte an Steam, Coins, fremden Texten oder allgemeinem Wissen werden dadurch nicht übertragen. Die neue Veröffentlichung begründet auch keine rückwirkende Beteiligung an fremden Entwicklungen.
 
 Für die ausdrücklich bezeichneten neuen Dateien gilt die [Juri Public-Interest Research Permission 1.0](../../LICENSE-JURI-PUBLIC-INTEREST.md). Die genaue Pfadzuordnung steht in [LICENSES.md](../../LICENSES.md). Die Erlaubnis gilt für eigene Inhalte innerhalb dieser Zuordnung; verlinkte Quellen behalten ihre jeweiligen Rechte. Der öffentliche Kontakt des Projekts steht im [Repository-README](../../README.md).
 

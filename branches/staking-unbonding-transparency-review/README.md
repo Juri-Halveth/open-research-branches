@@ -1,6 +1,8 @@
 # Staking verstehen: Bindung, Ausstieg und Transparenz
 
-HALVETH Open Research · Juri Janovski · Quellenstand: 10. September 2026
+**Alias-Redaktion: 11.09.2026.** Aktuelle Namensführung: [HALVETH!!!](../../PUBLIC-NAME.md). Der bisherige Quellenstand bleibt erhalten.
+
+HALVETH Open Research · HALVETH!!! · Quellenstand: 10. September 2026
 
 **Wie lange bleiben Token beim Ausstieg gebunden, wann beginnt die Wartezeit und was sollte bereits vor dem Staking klar sein?** Dieser Quellenvergleich behandelt Constellation DAG, native FET, Cosmos Hub ATOM, Ethereum und Solana.
 

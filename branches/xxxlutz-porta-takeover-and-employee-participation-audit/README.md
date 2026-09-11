@@ -2,13 +2,15 @@
 
 [Forschungsraum](../../README.md) · [Themenwiki](../../wiki/Home.md) · [Diskussion](https://github.com/Juri-Halveth/open-research-branches/discussions)
 
+**Alias-Redaktion: 11.09.2026.** Aktuelle Namensführung: [HALVETH!!!](../../PUBLIC-NAME.md). Der bisherige Quellenstand bleibt erhalten.
+
 ## Öffentlicher Übernahme-, Rechte- und Beteiligungsaudit
 
 **Stand:** 10. September 2026
 
-**Autor und öffentlicher Herausgeber:** Juri Janovski
+**Autor und öffentlicher Herausgeber:** HALVETH!!!
 
-**Kontakt:** juri@halveth.de
+**Kontakt:** [GitHub Discussions](https://github.com/Juri-Halveth/open-research-branches/discussions)
 
 **Zustand:** `FINITE_SNAPSHOT`
 **Fallnummern:** `M.11895` und `M.11895.AP`
@@ -134,7 +136,7 @@ Ein Aufhebungsvertrag soll dagegen ein konkretes Arbeitsverhältnis einvernehmli
 
 ## 11. Die öffentliche Referenzrolle RACHEL
 
-`RACHEL` wird hier ausschließlich als von Juri vorgeschlagene öffentliche Referenzrolle verwendet: Sie hält Quellfassung, Korrektur und offene Gegenlesart gemeinsam sichtbar. Daraus folgt keine Behauptung, dass eine private Person namens Rachel Eigentümerin, Beteiligte, Vertreterin oder Zustimmende dieses Audits ist.
+`RACHEL` wird hier ausschließlich als von HALVETH!!! vorgeschlagene öffentliche Referenzrolle verwendet: Sie hält Quellfassung, Korrektur und offene Gegenlesart gemeinsam sichtbar. Daraus folgt keine Behauptung, dass eine private Person namens Rachel Eigentümerin, Beteiligte, Vertreterin oder Zustimmende dieses Audits ist.
 
 Die Rolle erzwingt im Audit vier Fragen:
 

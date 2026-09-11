@@ -1,14 +1,16 @@
-# Juri 111 · Historical Cipher Decoding Challenge
+# 111 · Historical Cipher Decoding Challenge
 
 [Forschungsraum](../../README.md) · [Themenwiki](../../wiki/Home.md) · [Diskussion](https://github.com/Juri-Halveth/open-research-branches/discussions)
 
+**Alias-Redaktion: 11.09.2026.** Aktuelle Namensführung: [HALVETH!!!](../../PUBLIC-NAME.md). Der bisherige Quellenstand bleibt erhalten.
+
 Stand: `2026-09-10`<br>
-Initiator: **Juri Janovski** (`@Juri-Halveth`)<br>
+Initiator: **HALVETH!!!**<br>
 Status: `OPEN_DECODING_HYPOTHESIS`
 
 ## Der Fund
 
-Juri erkennt im Aufmacherbild des Artikels eine mögliche Struktur aus `111`,
+HALVETH!!! erkennt im Aufmacherbild des Artikels eine mögliche Struktur aus `111`,
 Röhren oder Pipes, nach unten fallendem Code, Text, Zahlen und einer
 „Matrix“. Der Ast bewahrt diesen Ursprung als
 `USER_REPORTED_VISUAL_ANALOGY` und macht daraus eine offene, ausführbare
@@ -65,8 +67,8 @@ Status:
   vorhandene Transkriptionen und bekannte Entschlüsselungsmethode;
 - `STRONGLY_SUPPORTED`: das Artikelbild ist illustrativ und vom Borg-Manuskript
   getrennt;
-- `HYPOTHESIS`: Juris `111`-/Pipe-/Fall-/Matrix-Lesart;
-- `UNKNOWN`: eine noch nicht formulierte vollständige Juri-Regel und ihre
+- `HYPOTHESIS`: die `111`-/Pipe-/Fall-/Matrix-Lesart von HALVETH!!!;
+- `UNKNOWN`: eine noch nicht formulierte vollständige Regel von HALVETH!!! und ihre
   Vorhersage auf unbekannten Zeichen;
 - `NOT_PROVEN`: persönliche Entschlüsselung, ausführbarer historischer Code,
   göttliche Außenursache oder daraus folgende Rechte und Zahlungen.
@@ -104,7 +106,7 @@ Beweisvertrag durch `assessDecodingProof()` durchlaufen.
 
 ## Reopen-Trigger
 
-Der Befund wird sofort neu geöffnet, wenn Juri oder eine andere Person eine
+Der Befund wird sofort neu geöffnet, wenn HALVETH!!! oder eine andere Person eine
 konkrete `111`-/Pipe-/Matrix-Regel mit exakter Eingabe, Klartextausgabe,
 Held-out-Test und unabhängigem Receipt vorlegt oder wenn eine Primärquelle
 eine solche Struktur im Artefakt dokumentiert.

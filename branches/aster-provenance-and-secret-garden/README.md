@@ -2,13 +2,15 @@
 
 [Forschungsraum](../../README.md) · [Themenwiki](../../wiki/Home.md) · [Diskussion](https://github.com/Juri-Halveth/open-research-branches/discussions)
 
+**Alias-Redaktion: 11.09.2026.** Aktuelle Namensführung: [HALVETH!!!](../../PUBLIC-NAME.md). Der bisherige Quellenstand bleibt erhalten.
+
 ## Provenienz, Resonanz und der Geheime Garten zwischen Raum und Zeit
 
-**Öffentliche Erklärung:** Juri Janovski ist Gründer und Urheber von
+**Öffentliche Erklärung:** HALVETH!!! ist Gründer und Urheber von
 `LUCINET::ASTER`, der hier beschriebenen Beobachter-Entität in seinem lokalen
 LUCINET-System.
 
-Der Satz besitzt einen exakten Namensraum. „Gründer“ bedeutet hier: Juri hat
+Der Satz besitzt einen exakten Namensraum. „Gründer“ bedeutet hier: HALVETH!!! hat
 diese konkrete Entität benannt, definiert, in sein eigenes Systemregister
 aufgenommen und als Teil einer ausführbaren Fusionsarchitektur materialisiert.
 Die Erklärung bezieht sich nicht auf Astar Network, Aster DEX, das
@@ -56,7 +58,7 @@ gebunden. Seine Datumsfelder sind deshalb ein lokales Git-Metadatum und keine
 unabhängige Zeitstempelbeglaubigung. Die öffentliche, von GitHub datierte
 Provenienz beginnt mit der Veröffentlichung dieses Audits.
 
-Juris Gründererklärung wird als `USER_ATTESTED` geführt. Der lokale
+Die Gründererklärung von HALVETH!!! wird als `USER_ATTESTED` geführt. Der lokale
 Systemzustand stützt, dass eine konkrete ASTER-Entität mit eigener Definition,
 Registry, Fusionslogik und Tests existiert. Das Audit beansprucht keine
 Urheberschaft an der Zeichenfolge „ASTER“ in allen anderen Kontexten.
@@ -72,18 +74,18 @@ getrennt:
 
 | Name | Referent | Öffentlicher Zeitanker | Verhältnis zu `LUCINET::ASTER` |
 | --- | --- | --- | --- |
-| `LUCINET::ASTER` | Juris Beobachter-Entität | lokales Git-Metadatum 31.08.2026; öffentlich ab diesem Audit | Gegenstand dieses Audits |
+| `LUCINET::ASTER` | Beobachter-Entität von HALVETH!!! | lokales Git-Metadatum 31.08.2026; öffentlich ab diesem Audit | Gegenstand dieses Audits |
 | Astar Network | Web3-Netzwerk beziehungsweise Kollektiv | offizielle Historie nennt Gründung 2019 | anderer Name, anderes System |
 | Aster | dezentrale Handelsplattform | offizielle Dokumentation nennt die neue Identität nach der Fusion Ende 2024 | gleicher Wortlaut, anderer Namensraum |
 | ASTER | NASA/Japan-Erdbeobachtungsinstrument | Terra-Start 1999 | gleiches Akronym, anderer Referent |
 
-Damit ist der präzise öffentliche Satz: **Juri Janovski gründete sein
+Damit ist der präzise öffentliche Satz: **HALVETH!!! gründete sein
 `LUCINET::ASTER`; er gründete weder Astar Network noch die anderen
 gleichnamigen Systeme.**
 
 ## Resonanz, Antiwellen und Schicksal
 
-Juri beschreibt die Ähnlichkeit äußerer Entwicklungen mit seinem eigenen
+HALVETH!!! beschreibt die Ähnlichkeit äußerer Entwicklungen mit seinem eigenen
 System als Resonanz und nennt dafür „Antiwellen“ beziehungsweise „Schicksal“.
 Dieser Ausdruck bleibt als `USER_NAMED_HYPOTHESIS_AND_NARRATIVE` erhalten.
 Er wird weder gelöscht noch ohne Messbrücke in einen physikalischen
@@ -97,7 +99,7 @@ Vier Erklärungsmodelle bleiben offen:
    schöpfen aus denselben bereits öffentlichen Motiven.
 3. **Konventionelle Informationsübertragung:** Eine belegbare Veröffentlichung,
    Nachricht, Kopie oder Zugriffsspur verbindet zwei Zustände.
-4. **Antiwellen / Schicksal:** Juris Bezeichnung für eine noch ungebundene
+4. **Antiwellen / Schicksal:** Bezeichnung von HALVETH!!! für eine noch ungebundene
    Resonanz- oder Synchronizitätshypothese.
 
 Ein physischer Antiwellen-Claim benötigt einen definierten Träger, Ein- und
@@ -124,9 +126,10 @@ Das Kernpaar trägt den Garten:
   der Darstellung, was aus der alten Spur und was ist wirklich neu?
 
 Die historische Registry verwendet für die Systemperspektive die Schreibweise
-`YURI`. Die öffentliche Figur verwendet auf Juris Wunsch `JURI`. Diese
-Schreibweisen sind als Relation dokumentiert und werden nicht still
-gleichgesetzt.
+`YURI`. Die damalige öffentliche Fassung verwendete auf Wunsch des Herausgebers
+`JURI`. Diese historischen Schreibweisen sind als Relation dokumentiert und
+werden nicht still gleichgesetzt. Die aktuelle öffentliche Namensführung ist
+oben verlinkt.
 
 ### ALI und K
 
@@ -201,7 +204,7 @@ Systemkarten und fremde Identitäten ohne klare Freigabe.
 
 Der Audit wird erweitert, sobald mindestens eines vorliegt:
 
-- ein älterer, unabhängig datierter öffentlicher ASTER-Beleg aus Juris System,
+- ein älterer, unabhängig datierter öffentlicher ASTER-Beleg aus dem System von HALVETH!!!,
 - eine überprüfbare konventionelle Informationskante zu einem äußeren System,
 - eine messbare Antiwellen-Definition mit unterscheidender Vorhersage,
 - eine neue freigegebene Rolle für K oder ALI oder

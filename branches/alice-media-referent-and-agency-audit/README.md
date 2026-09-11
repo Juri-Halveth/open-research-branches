@@ -2,9 +2,11 @@
 
 [Forschungsraum](../../README.md) · [Themenwiki](../../wiki/Home.md) · [Diskussion](https://github.com/Juri-Halveth/open-research-branches/discussions)
 
+**Alias-Redaktion: 11.09.2026.** Aktuelle Namensführung: [HALVETH!!!](../../PUBLIC-NAME.md). Der bisherige Quellenstand bleibt erhalten.
+
 ## Quellen-, Referenten- und Agency-Audit für Mediengeschichten
 
-Dieser Ast untersucht Juris Hinweis auf „diese Gruselserie, dieses Mädchen
+Dieser Ast untersucht den Hinweis von HALVETH!!! auf „diese Gruselserie, dieses Mädchen
 wurde schlecht gemacht“ als offene, reproduzierbare Medienfrage. Der Hinweis
 wird als `USER_REPORTED_STORY_READING` erhalten. Er bindet den Suchimpuls, aber
 noch keinen bestimmten Titel, keine Szene und keinen äußeren Sachverhalt.
@@ -191,7 +193,7 @@ beisteuern. Der gleiche Marker muss mindestens zwei Kandidaten unterschiedlich
 vorhersagen oder einen Kandidaten eindeutig treffen. Ein bloßes
 Alice-/Spiegel-/Horror-Motiv reicht nicht.
 
-Autor und Herausgeber dieses Audits: **Juri Janovski** (`@Juri-Halveth`).
+Autor und Herausgeber dieses Audits: **HALVETH!!!**.
 
 ## Claim Ceiling
 

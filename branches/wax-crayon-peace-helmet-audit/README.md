@@ -2,6 +2,8 @@
 
 [Forschungsraum](../../README.md) · [Themenwiki](../../wiki/Home.md) · [Diskussion](https://github.com/Juri-Halveth/open-research-branches/discussions)
 
+**Alias-Redaktion: 11.09.2026.** Aktuelle Namensführung: [HALVETH!!!](../../PUBLIC-NAME.md). Der bisherige Quellenstand bleibt erhalten.
+
 ## Ein Schutzobjekt wird zur sichtbaren Friedensfrage
 
 Stand: `2026-09-09`
@@ -10,8 +12,8 @@ Zustand: `FINITE_SNAPSHOT`
 
 Datenklasse: `PUBLIC_MINIMIZED_DERIVATIVE`
 
-Initiator und Herausgeber: **Juri Janovski**
-Kontakt: [juri@halveth.de](mailto:juri@halveth.de)
+Initiator und Herausgeber: **HALVETH!!!**
+Kontakt: [GitHub Discussions](https://github.com/Juri-Halveth/open-research-branches/discussions)
 
 ## Ergebnis
 
@@ -155,7 +157,7 @@ in Odesa verwendete 118 Panzersperren, umgedrehte Soldatenhelme mit Blumen und
 von Kindern gemeinsam mit Kunstschaffenden hinzugefügte Farben. Dieser belegte
 Vorgänger liegt dem hier beschriebenen Friedensmotiv besonders nahe: Das
 militärische Objekt wird Träger von Erinnerung, Farbe und neuem Leben. Die
-Quelle belegt keine Wachsmalstift-Technik und keine Identität mit Juris Entwurf.
+Quelle belegt keine Wachsmalstift-Technik und keine Identität mit dem Entwurf von HALVETH!!!.
 
 Das ukrainische Nationalmuseum dokumentiert mit
 [*ArtArmor Children UA*](https://warmuseum.kyiv.ua/en/exhibitions/archive/show/artarmor-children-ua),

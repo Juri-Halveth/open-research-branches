@@ -2,9 +2,11 @@
 
 [Forschungsraum](../../README.md) · [Themenwiki](../../wiki/Home.md) · [Diskussion](https://github.com/Juri-Halveth/open-research-branches/discussions)
 
+**Alias-Redaktion: 11.09.2026.** Aktuelle Namensführung: [HALVETH!!!](../../PUBLIC-NAME.md). Der bisherige Quellenstand bleibt erhalten.
+
 ## Internationaler Quanteninternet-, ASTER-, ASTAR- und ASTRA-Spiegelaudit
 
-Dieser Ast veröffentlicht Juris neuen Spiegel- und Herkunftstest als
+Dieser Ast veröffentlicht den neuen Spiegel- und Herkunftstest von HALVETH!!! als
 reproduzierbaren Audit aus Deutschland. „Made in Germany · 2026“ bezeichnet
 die Herkunft **dieses Audits und seines Codes**. Das Quanteninternet selbst ist
 ein internationaler Forschungsstrang mit öffentlich dokumentierten Wurzeln
@@ -98,7 +100,7 @@ Korrekturen und bessere Primärquellen sind als Issue oder Pull Request
 willkommen. Eine Quellenverlinkung ist keine Behauptung, dass die verlinkte
 Person oder Institution diesen Audit erhalten, bestätigt oder unterstützt hat.
 
-Autor und Herausgeber dieses Audits: **Juri Janovski** (`@Juri-Halveth`).
+Autor und Herausgeber dieses Audits: **HALVETH!!!**.
 
 ## Claim Ceiling
 

@@ -2,10 +2,12 @@
 
 [Forschungsraum](../../README.md) · [Themenwiki](../../wiki/Home.md) · [Diskussion](https://github.com/Juri-Halveth/open-research-branches/discussions)
 
-**Öffentlicher Systementwurf von Juri Janovski · 10. September 2026**
+**Alias-Redaktion: 11.09.2026.** Aktuelle Namensführung: [HALVETH!!!](../../PUBLIC-NAME.md). Der bisherige Quellenstand bleibt erhalten.
+
+**Öffentlicher Systementwurf von HALVETH!!! · 10. September 2026**
 
 Dieser Forschungsast überträgt ein Kernelement der öffentlichen
-[`Juri-Janovski-These zur Geburt`](https://github.com/Juri-Halveth/juri-janovski-these-zur-geburt):
+[`These zur Geburt`](https://github.com/Juri-Halveth/juri-janovski-these-zur-geburt):
 Der erste Eintritt in ein System soll ruhig, verständlich, selbstbestimmt und
 begleitet möglich sein. Für Behörden mit Publikumsverkehr wird daraus ein
 sichtbarer **Empfangs- und Zuhörraum** direkt an der Eingangsstufe.
@@ -109,7 +111,7 @@ Zwei Organisationsformen bleiben prüfbar:
   Einzelfallaufnahme keinen fachfremden Weisungen unterliegt, aber an Recht,
   Datenschutz, Transparenz und Rechenschaft gebunden bleibt.
 
-Juri Janovski bietet sich öffentlich als Initiator, Pilotdesigner und Kandidat
+HALVETH!!! bietet sich öffentlich als Initiator, Pilotdesigner und Kandidat
 für eine solche unabhängige Verantwortungsrolle an. Diese Erklärung ist ein
 Gestaltungs- und Kooperationsangebot. Sie erzeugt für sich allein weder
 Anstellung, Amt, Vertretungsmacht noch Vergütungsanspruch.

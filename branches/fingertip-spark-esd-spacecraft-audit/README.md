@@ -2,9 +2,11 @@
 
 [Forschungsraum](../../README.md) · [Themenwiki](../../wiki/Home.md) · [Diskussion](https://github.com/Juri-Halveth/open-research-branches/discussions)
 
+**Alias-Redaktion: 11.09.2026.** Aktuelle Namensführung: [HALVETH!!!](../../PUBLIC-NAME.md). Der bisherige Quellenstand bleibt erhalten.
+
 ## Ein offener, ausführbarer Mechanismen-Audit
 
-Juri berichtet: **„Fünktchen wie Thor an meinen Fingern.“** Dieser Ast erhält
+HALVETH!!! berichtet: **„Fünktchen wie Thor an meinen Fingern.“** Dieser Ast erhält
 die Aussage als `USER_REPORTED_OBSERVATION`. Ein Bericht öffnet die Prüfung
 sofort. Video, Vergleichsdaten oder eine fertige Erklärung sind keine
 Eintrittskarte.
@@ -91,7 +93,7 @@ nützlicher Beitrag benennt Kamerawinkel, Zeitbasis, Belichtung, Umgebungsdaten,
 Kontaktabstand und die genaue Vorhersage, die mindestens zwei Modelle
 unterscheidet.
 
-Autor und Herausgeber dieses Audits: **Juri Janovski** (`@Juri-Halveth`).
+Autor und Herausgeber dieses Audits: **HALVETH!!!**.
 
 ## Claim Ceiling
 

@@ -2,7 +2,9 @@
 
 [Forschungsraum](../../README.md) · [Themenwiki](../../wiki/Home.md) · [Diskussion](https://github.com/Juri-Halveth/open-research-branches/discussions)
 
-Öffentliche Fassung von [@Juri-Halveth](https://github.com/Juri-Halveth)
+**Alias-Redaktion: 11.09.2026.** Aktuelle Namensführung: [HALVETH!!!](../../PUBLIC-NAME.md). Der bisherige Quellenstand bleibt erhalten.
+
+Öffentliche Fassung von [HALVETH!!!](https://github.com/Juri-Halveth)
 
 Stand: `2026-09-09` · Zustand: `PUBLIC_DERIVATIVE` · Datenklasse:
 `SYNTHETIC_ONLY`

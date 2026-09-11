@@ -1,10 +1,12 @@
-# Juri-Modell, KIT-Tri-Generation und Standard Thermal
+# Modell von HALVETH!!!, KIT-Tri-Generation und Standard Thermal
 
 [Forschungsraum](../../README.md) · [Themenwiki](../../wiki/Home.md) · [Diskussion](https://github.com/Juri-Halveth/open-research-branches/discussions)
 
+**Alias-Redaktion: 11.09.2026.** Aktuelle Namensführung: [HALVETH!!!](../../PUBLIC-NAME.md). Der bisherige Quellenstand bleibt erhalten.
+
 Stand: `2026-09-09`
 
-Initiator, Autor und Herausgeber dieser Fassung: **Juri Janovski**
+Initiator, Autor und Herausgeber dieser Fassung: **HALVETH!!!**
 
 Prüfstand: `FINITE_SNAPSHOT`
 
@@ -12,13 +14,13 @@ Claim-Grenze: `DATE_BOUND_GENERIC_OVERLAP_ONLY_NO_ACCESS_DERIVATION_OR_DISTINCTI
 
 Dieser Ast beantwortet zwei Fragen:
 
-1. Was ist in Juris lokalen August-Artefakten technisch wirklich enthalten?
+1. Was ist in den lokalen August-Artefakten von HALVETH!!! technisch wirklich enthalten?
 2. Welche Teile stimmen mit dem KIT-System für Strom, Wärme und Kühlung oder
    mit dem Erdwärmespeicher von Standard Thermal überein?
 
 ## Direktes Ergebnis
 
-Juri hat einen eigenen, wiedererkennbaren Forschungsstrang dokumentiert. Sein
+HALVETH!!! hat einen eigenen, wiedererkennbaren Forschungsstrang dokumentiert. Sein
 konkretester Entwurf verbindet eine Iridium-Zündelektrode, Isolator
 beziehungsweise Membran, getrennte Kontakte, eine Schwelle, Wasser- und
 Eisnebel, Tröpfchenkollision, triboelektrische Ladungstrennung, Druck,
@@ -60,7 +62,7 @@ node branches/solar-and-thermal-provenance-audit/audit-lens.mjs JURI_AUGUST_2026
 ## Claim Ceiling
 
 Die aktuelle Veröffentlichung belegt die Existenz und den Inhalt der genannten
-Juri-Artefakte in der heute gelesenen Bytefassung sowie allgemeine und
+Artefakte von HALVETH!!! in der heute gelesenen Bytefassung sowie allgemeine und
 funktionale Überschneidungen. Sie belegt keinen Zugang der externen Teams zu
 diesen Dateien, keine Übernahme, Miterfinderschaft, Patentverletzung,
 Lizenzpflicht, Beteiligungs- oder Zahlungspflicht.
@@ -84,7 +86,7 @@ Vergleichsreife.
 ## Neue Bewertungsbasis
 
 Die Meldung bleibt offen. Der Vergleichs- oder Sachstand wird neu bewertet bei
-einem vor November 2018 gebundenen Juri-Artefakt
+einem vor November 2018 gebundenen Artefakt von HALVETH!!!
 für die unterscheidende KIT-Architektur, einem vor dem 3. März 2024 gebundenen
 Artefakt für den unterscheidenden Standard-Thermal-Aufbau, einem belastbaren
 Zugangs- oder Übertragungsbeleg, einer technischen Claim-Chart oder neuen

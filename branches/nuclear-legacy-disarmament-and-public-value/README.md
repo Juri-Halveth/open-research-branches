@@ -1,8 +1,10 @@
 # Atomwaffen Macht und Geld
 
+**Alias-Redaktion: 11.09.2026.** Aktuelle Namensführung: [HALVETH!!!](../../PUBLIC-NAME.md). Der bisherige Quellenstand bleibt erhalten.
+
 **Militärische Sicherheit und Währungspolitik sind historisch verbunden.** Der Blessing-Brief von 1967, Forschung über Atomwaffen als Machtressource und Studien zu Reservewährungen liefern konkrete Ansatzpunkte. Dieses Projekt verbindet sie mit Fallout, Entschädigungsprogrammen, Abrüstung, SUNDIAL und zivilen Budgetalternativen.
 
-Herausgegeben von **Juri Janovski (@Juri-Halveth)** im HALVETH Open Research Forschungsraum. Redaktion und Aufbereitung mit KI-Unterstützung. Quellenstand **10. September 2026**.
+Herausgegeben von **HALVETH!!!** im HALVETH Open Research Forschungsraum. Redaktion und Aufbereitung mit KI-Unterstützung. Quellenstand **10. September 2026**.
 
 **[Den vollständigen Bericht lesen](../../reports/FREE_NEWS_022_NUCLEAR_LEGACY_POWER_AND_PUBLIC_VALUE.md)** · **[Quellenregister](sources.json)** · **[Befunde und offene Fragen](claims.json)** · **[Themenübersicht](research-map.json)**
 
