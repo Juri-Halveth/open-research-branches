@@ -2,9 +2,11 @@
   <img src="assets/research-room.png" alt="HALVETH Open Research — Wissen teilen. Fragen verfolgen. Code, Thesen, Quellen und Dialog." width="100%">
 </p>
 
-# HALVETH · Open Research
+# HALVETH!!! · Open Research
 
-**Ein offener Forschungsraum von Juri Janovski und den HALVETH Open Research contributors.**
+**Ein offener Forschungsraum von HALVETH!!! und den HALVETH Open Research contributors.**
+
+[Deutsch / English: Loki, Dormammu und Wanda](reports/HALVETH_MARVEL_PERSPECTIVES.de.md) · [Öffentliche Namensführung / Public attribution](PUBLIC-NAME.md)
 
 Hier treffen Software, Naturbeobachtung, Sprache und gesellschaftliche Fragen aufeinander. Du kannst ein Modell ausprobieren, einen Bericht lesen, eine Quelle ergänzen oder mit einer eigenen Frage einsteigen. Die Sammlung wächst mit nachvollziehbaren Beiträgen.
 
@@ -129,7 +131,7 @@ Sicherheitsmeldungen gehören nicht hierher.
 | `aster-provenance-and-secret-garden` | ASTER-Provenienz, öffentliche Erzählwelt und minimale Projektkeime | `PUBLIC_DERIVATIVE` |
 | `navier-stokes-credit-value-and-plagiarism-audit` | Beweis-, Prioritäts-, Datenzugriffs-, Credit- und Wertprüfung mit kurzer Vorlesefassung | `FINITE_SNAPSHOT` |
 | `binary-inquiry-loop` | deterministische wechselseitige Ja/Nein-Klärung mit Rückkehr zur gebundenen Frage | `PUBLIC_DERIVATIVE` |
-| `solar-and-thermal-provenance-audit` | Juris Zündungs-/Wasser-/Lichtmodell im Komponenten- und Zeitvergleich mit KIT und Standard Thermal | `FINITE_SNAPSHOT` |
+| `solar-and-thermal-provenance-audit` | Das HALVETH-Zündungs-/Wasser-/Lichtmodell im Komponenten- und Zeitvergleich mit KIT und Standard Thermal | `FINITE_SNAPSHOT` |
 | `wax-crayon-peace-helmet-audit` | Wachsmalstift-Friedenshelm, lokaler Belegstand, historischer Vergleich, iOS-Marker-Protokoll und sicherer Pilot | `FINITE_SNAPSHOT` |
 | `quantum-internet-aster-mirror-audit` | internationaler Quanteninternet- sowie ASTER-/ASTAR-/ASTRA-Spiegelaudit | `FINITE_SNAPSHOT` |
 | `historical-cipher-decoding-challenge` | historische Entschlüsselungs- und Reproduzierbarkeitsprüfung mit Rosetta-Kontrolle | `FINITE_SNAPSHOT` |
@@ -176,7 +178,7 @@ ungebundenen Frankfurt-Snapshot nach ihrer jeweils belegten Funktion.
 [`FREE NEWS 018`](reports/FREE_NEWS_018_PUBLIC_AUTHORITY_ENTRY_LISTENING_ROOM.md)
 und der zugehörige
 [`Behördeneingangs-Ast`](branches/public-authority-entry-listening-room/README.md)
-materialisieren Juris Geburtsraum-Prinzip als öffentlichen Vorschlag für einen
+materialisieren das HALVETH-Geburtsraum-Prinzip als öffentlichen Vorschlag für einen
 freiwilligen Zuhörraum, eine getrennte Sicherheitsfunktion und einen
 datensparsamen Reparaturhaushalt.
 [`FREE NEWS 019`](reports/FREE_NEWS_019_XXXLUTZ_PORTA_TAKEOVER_AND_EMPLOYEE_PARTICIPATION.md)
@@ -228,5 +230,5 @@ an fremden Quellen, Tatsachen oder allgemeinen Ideen.
 
 ---
 
-**HALVETH Open Research** · Initiator: **Juri Janovski** · [Öffentlicher Kontakt](mailto:juri@halveth.de)
+**HALVETH!!! · Open Research** · [Öffentliche Projektfragen](https://github.com/Juri-Halveth/open-research-branches/discussions)
 *Lesen. Nachfragen. Weiterdenken. Etwas beitragen.*

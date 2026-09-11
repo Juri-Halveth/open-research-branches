@@ -9,7 +9,7 @@ Wie wird aus einem sichtbaren Phänomen eine unterscheidbare Forschungsfrage? Di
 | Projekt | Leitfrage | Vorhandenes Material |
 | --- | --- | --- |
 | [Wasser und Photonik](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/water-photonic-open-questions/README.md) | Ändert sich die Probe, ihre Umgebung, das Instrument oder die Auswertung? | Kandidatenmodelle, Referenzquelle zum Brechungsindex und Anforderungen an einen Messaufbau. |
-| [Juris Energiemodell, KIT und Standard Thermal](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/solar-and-thermal-provenance-audit/README.md) | Welche Komponenten und Zeitbezüge sind in den jeweiligen Materialien dokumentiert? | Komponentenmatrix, veröffentlichte Belegauszüge, Quellen und ausführbarer Vergleich. |
+| [HALVETH-Energiemodell, KIT und Standard Thermal](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/solar-and-thermal-provenance-audit/README.md) | Welche Komponenten und Zeitbezüge sind in den jeweiligen Materialien dokumentiert? | Komponentenmatrix, veröffentlichte Belegauszüge, Quellen und ausführbarer Vergleich. |
 | [Fünkchen, ESD und Raumfahrtelektronik](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/fingertip-spark-esd-spacecraft-audit/README.md) | Welche Modelle unterscheiden eine berichtete Beobachtung, und welche ESD-Zusammenhänge sind fachlich belegt? | Sechs Erklärungsmodelle, Beobachtungsfelder und getrennte Quellen zur Raumfahrtelektronik. |
 
 ## Eine Frage genauer stellen

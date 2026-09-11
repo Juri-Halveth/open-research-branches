@@ -42,9 +42,9 @@ Für einen CC-BY-Inhalt kannst du dieses Muster ausfüllen:
 > Open Research Branches, Link zur konkreten Datei und Fassung,
 > CC BY 4.0. Änderungen: kurze Beschreibung oder „unverändert“.
 
-Für Material unter der besonderen Forschungserlaubnis lautet die dort
-festgelegte Namensnennung **Juri Janovski (@Juri-Halveth)**; hinzu kommen die
-übrigen Bedingungen dieser Erlaubnis. Für MIT-Code genügt das Muster oben
+Für die persönliche Namensnennung wird aktuell **HALVETH!!!** akzeptiert;
+siehe [öffentliche Namensführung](https://github.com/Juri-Halveth/open-research-branches/blob/main/PUBLIC-NAME.md).
+Die übrigen Bedingungen der jeweiligen Erlaubnis gelten weiter. Für MIT-Code genügt das Muster oben
 nicht: Der vollständige Copyright- und Erlaubnishinweis muss erhalten bleiben.
 
 Verwende möglichst einen Commit-Link statt nur `main`, damit Leser dieselbe
