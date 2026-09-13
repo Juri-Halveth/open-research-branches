@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="HALVETH: Worte, Herzen, Emojis, Zeichen und Zahlen in einem Quadrat mit vollständiger Beziehungsmatrix.">
+<title>HALVETH · Alles im Quadrat</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main>
+<header class="topbar"><a class="brand" href="https://github.com/Juri-Halveth/open-research-branches"><span aria-hidden="true">▦</span> HALVETH <span class="brand-sub">/ RELATIONS</span></a><div class="language" aria-label="Language"><button id="lang-de" type="button" aria-pressed="true">DE</button><button id="lang-en" type="button" aria-pressed="false">EN</button></div></header>
+<section class="intro"><p class="eyebrow" data-i18n="eyebrow">ALLE BAUSTEINE · ALLE PAARE</p><h1 data-i18n="title">Alles im Quadrat<span class="heart">♥</span></h1><p class="lede" data-i18n="lede">Herzen, Smileys, Wörter, Striche und Zahlen. Jeder Baustein steht mit jedem anderen im selben Beziehungsraum.</p></section>
+<div class="workspace-head"><p id="counts" class="counts" aria-live="polite"></p><button id="show-all" type="button" class="quiet" data-i18n="showAll">Alle Verbindungen</button></div>
+<section class="workspace" aria-label="Square and relationship matrix">
+<div class="square-panel"><div class="panel-heading"><h2 data-i18n="square">Das Quadrat</h2><span data-i18n="sectors">4 visuelle Sektoren</span></div><div class="board-viewport"><div id="board" class="board"><div class="sector sector-0"><span>I</span></div><div class="sector sector-1"><span>II</span></div><div class="sector sector-2"><span>III</span></div><div class="sector sector-3"><span>IV</span></div><svg id="connections" role="img" aria-label="All unordered pairs" preserveAspectRatio="none"><title data-i18n="graphTitle">Alle Vergleichspaare zwischen den Bausteinen</title></svg><div id="blocks" class="blocks"></div></div></div><p class="hint" data-i18n="squareHint">Wähle einen Baustein, dann einen zweiten. Alle anderen bleiben sichtbar.</p></div>
+<div class="matrix-panel"><div class="panel-heading"><h2 data-i18n="matrix">Jedes mit jedem</h2><span id="matrix-size"></span></div><div class="matrix-viewport" id="matrix-viewport"><table id="matrix"><caption class="sr-only" data-i18n="matrixCaption">Vollständige Beziehungsmatrix einschließlich Selbstbezug</caption></table></div><div class="legend"><span><i class="dot"></i><span data-i18n="pairLegend">Vergleichspaar</span></span><span><i class="self-mark">↺</i><span data-i18n="selfLegend">Selbstbezug</span></span><span><i class="chosen-mark"></i><span data-i18n="chosenLegend">Auswahl</span></span></div></div>
+</section>
+<section class="selection" aria-label="Selection"><div class="selected-summary"><span class="eyebrow" data-i18n="selectionLabel">IM FOKUS</span><p id="selection-summary" aria-live="polite"></p></div><form id="meaning-form"><label for="meaning" data-i18n="meaningLabel">Eigene Bezeichnung für dieses Paar</label><div class="meaning-row"><input id="meaning" maxlength="160" autocomplete="off" disabled><button id="save-meaning" type="submit" disabled data-i18n="remember">Merken</button></div><p id="meaning-state" class="hint"></p></form></section>
+<details class="editor"><summary data-i18n="edit">Bausteine bearbeiten</summary><form id="source-form"><label for="source" data-i18n="sourceLabel">Eine Zeile = ein Baustein. Auch doppelte, leere und reine Leerzeichen-Zeilen bleiben erhalten.</label><textarea id="source" rows="8" spellcheck="false"></textarea><div class="editor-footer"><span data-i18n="limits">Bis 64 Bausteine · 8.192 UTF-8-Bytes</span><button id="apply" type="submit" data-i18n="apply">Quadrat aufbauen</button></div><p id="error" role="alert" hidden></p></form></details>
+<details class="source-record"><summary data-i18n="sourceRecord">Quellstand</summary><p data-i18n="hashMeaning">SHA-256 bezieht sich auf die exakten übernommenen Textbytes.</p><code id="source-hash"></code><p data-i18n="local">Eingaben und Bezeichnungen bleiben in dieser geöffneten Seite. Nach dem Neuladen beginnt eine neue Sitzung.</p></details>
+<footer><p data-i18n="footer">Die Linien zeigen vollständige Vergleichspaare. Eine Bedeutung ergibt sich aus deiner ausdrücklich eingetragenen Bezeichnung.</p><nav aria-label="Documentation"><a href="README.md">Deutsch</a><a href="README.en.md">English</a></nav></footer>
+</main>
+<script type="module" src="app.mjs"></script>
+</body></html>

@@ -8,6 +8,7 @@ Kleine Programme machen eine Idee greifbar. Dieser Raum führt zu lokalen Protot
 
 | Werkzeug | Was du damit untersuchen kannst | Sinnvolle Fortsetzung |
 | --- | --- | --- |
+| [Square Relations](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/square-relations/README.md) · [English](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/square-relations/README.en.md) | Alle eingegebenen Textblöcke in vier Sektoren, einem vollständigen Paargraphen und einer Matrix miteinander betrachten. | Eigene synthetische Eingaben, Paarvergleiche und zugängliche Darstellungsvarianten. |
 | [Focus Kernel](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/focus-kernel/README.md) | Ein bestätigtes Ziel mit Analyseebenen, unterschiedlichen Bewertungen und offenen Fragen zusammenhalten. | Import/Export und versionierte lokale Speicherung aus den offenen M2-Aufgaben. |
 | [Ja/Nein-Dialogautomat](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/binary-inquiry-loop/README.md) | Zwei Seiten antworten abwechselnd auf dieselbe Frage; der Zustand bleibt nachvollziehbar. | Eigene Dialogbeispiele und zusätzliche Zustandsfolgen testen. |
 | [Dokumentreferenz-Prüfer](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/document-issue-reference-verifier/README.md) | Referenz, Ausgabeversion und synthetische Rolle getrennt prüfen. | Weitere synthetische Fehlermodelle oder Formatadapter. |

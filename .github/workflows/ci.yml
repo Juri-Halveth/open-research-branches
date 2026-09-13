@@ -13,6 +13,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
+          # Audit receipts bind the submitted commit, not a synthetic PR merge.
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
           fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
