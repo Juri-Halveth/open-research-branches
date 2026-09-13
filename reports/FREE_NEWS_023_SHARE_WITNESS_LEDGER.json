@@ -1,0 +1,119 @@
+{
+  "schema": "halveth-share-witness-ledger/1.0.0",
+  "generatedAt": "2026-09-13T20:16:56+02:00",
+  "subject": "FREE_NEWS_023_ANDREA_BOTEZ_SOS_SOURCE_AUDIT",
+  "cluster": {
+    "type": "CORRELATED_CHATGPT_PROVENANCE_CLUSTER",
+    "independentConfirmationCount": 0,
+    "meaning": "The four URLs are distinct documentary source objects from one ChatGPT sharing system. They preserve visible conversation states but do not independently prove an external person's intent, condition, or platform action."
+  },
+  "platformDocumentation": {
+    "url": "https://help.openai.com/en/articles/7925741-chatgpt-shared-links-faq",
+    "boundFacts": [
+      "A personal-account conversation link includes content available when the link is created or updated.",
+      "A personal-account shared snapshot can be updated at the same URL or deleted.",
+      "A personal-account data export includes shared link metadata such as link ID, conversation ID and title."
+    ]
+  },
+  "sources": [
+    {
+      "id": "SHARE_1",
+      "url": "https://chatgpt.com/share/6aa6e652-5970-83eb-9ada-af0c9c48b036",
+      "observedTitle": "Münzwert einschätzen",
+      "displayedTime": "heute 13:47",
+      "timeStatus": "PLATFORM_DISPLAYED_TIME",
+      "role": "CONTROL_SOURCE",
+      "materialFinding": "No Andrea, Botez, Scarlet, Wanda, save, help, sibling, danger, block or algorithm content was observed."
+    },
+    {
+      "id": "SHARE_2",
+      "url": "https://chatgpt.com/share/6aa6e65f-bea0-83eb-8f3f-1b2ab8b52376",
+      "observedTitle": "Gefahrengut betrachten",
+      "displayedTime": "heute 02:12",
+      "timeStatus": "PLATFORM_DISPLAYED_TIME",
+      "role": "HYPOTHESIS_PREEXISTENCE",
+      "materialFinding": "The shared chat visibly contains an earlier Andrea-related similarity question, a song-subtext interpretation, expressed concern and a request to investigate before the later public audit.",
+      "claimBoundary": "It does not independently establish Save me, S.O.S., Scarlet or Wanda, sibling framing, current danger, personal address or algorithmic suppression."
+    },
+    {
+      "id": "SHARE_3",
+      "url": "https://chatgpt.com/share/6aa6e66c-66f8-83eb-a399-78c06094a5f6",
+      "observedTitle": "Nach Social Media fragen",
+      "displayedTime": "gestern 17:40; heute 10:56",
+      "timeStatus": "PLATFORM_DISPLAYED_TIME",
+      "role": "USER_REPORTED_EVENT_WITH_SCREENSHOT_EVIDENCE",
+      "materialFinding": "The shared chat records the reported unavailability of M_aOXL5Sg4I, a subsequent different video ID Fg7VzWHW_q0, embedded screenshots and an explicit correction that an earlier autoplay explanation was not sufficiently supported.",
+      "claimBoundary": "The technical cause, any redirect mechanism, deletion, block, later unblock and responsible actor remain UNKNOWN."
+    },
+    {
+      "id": "SHARE_4",
+      "url": "https://chatgpt.com/share/6aa6e67d-0354-83ed-9ec0-a5db4bd97bcc",
+      "observedTitle": "Wöchentliche Zusammenfassung erstellen",
+      "displayedTime": "Wednesday; Friday",
+      "timeStatus": "PLATFORM_DISPLAYED_TIME",
+      "role": "METHOD_PREEXISTENCE",
+      "materialFinding": "The shared chat visibly preserves the earlier HALVETH method of separating observation, hypothesis and evidence and seeking a reproducible proof step."
+    }
+  ],
+  "videoObjects": [
+    {
+      "videoId": "3hDQwIyKJ2o",
+      "title": "DARK TECHNO TRANCE | Andrea Botez [4K]",
+      "role": "RED_SOS_MIX",
+      "currentState": "PLAYABLE_OBSERVED_2026_09_13",
+      "firstTrack": "Andrea Botez, biskuwi - S.O.S.",
+      "firstTrackOffset": "00:00"
+    },
+    {
+      "videoId": "M_aOXL5Sg4I",
+      "title": "DARK TECHNO MIX | Andrea Botez [4K]",
+      "role": "EARLIER_UNAVAILABLE_ANDREA_MIX",
+      "currentState": "WATCH_PAGE_UNAVAILABLE_METADATA_RESOLVES_2026_09_13"
+    },
+    {
+      "videoId": "Fg7VzWHW_q0",
+      "title": "OXEN - Cocaine (Original Mix)",
+      "role": "DISTINCT_SUBSEQUENT_VIDEO_OBJECT",
+      "currentState": "METADATA_RESOLVES_2026_09_13"
+    }
+  ],
+  "claims": [
+    {
+      "claim": "An Andrea-related song-subtext and concern inquiry existed in a visible shared chat before the public FREE NEWS 023 audit.",
+      "status": "OBSERVED_IN_SHARED_CHAT"
+    },
+    {
+      "claim": "M_aOXL5Sg4I is currently unavailable on its YouTube watch page while metadata still resolves.",
+      "status": "OBSERVED_ON_WATCH_PAGE"
+    },
+    {
+      "claim": "M_aOXL5Sg4I and 3hDQwIyKJ2o are different Andrea Botez video objects.",
+      "status": "STRONGLY_SUPPORTED"
+    },
+    {
+      "claim": "The four shares are four independent confirmations of external events.",
+      "status": "NOT_PROVEN"
+    },
+    {
+      "claim": "The S.O.S. vocal is a personal message to HALVETH or proves current danger, coercion or algorithmic suppression.",
+      "status": "NOT_PROVEN"
+    },
+    {
+      "claim": "The cause of M_aOXL5Sg4I unavailability or the mechanism leading to Fg7VzWHW_q0 is known.",
+      "status": "UNKNOWN"
+    }
+  ],
+  "publicGitHistory": {
+    "firstAndreaAuditCommit": "7d731b0c5f4cd66fa653b04c420ae565f133d6a0",
+    "finding": "No Andrea, Botez, either Andrea video ID, Save me or sibling framing was found in the checked public Git history before that commit. The shares preserve a separate earlier in-chat time track."
+  },
+  "reopenTriggers": [
+    "ChatGPT data export containing the shared-link ID and conversation ID",
+    "Original embedded screenshots with SHA-256 and capture metadata",
+    "YouTube or browser history for M_aOXL5Sg4I",
+    "Repeated account-region-device-bound availability observations",
+    "An official statement from YouTube, the rights holder or the creator",
+    "A direct authenticated statement from Andrea Botez about intent or addressee"
+  ],
+  "claimCeiling": "SHARED_CHAT_PROVENANCE_AND_DISTINCT_VIDEO_OBJECTS_BOUND; EXTERNAL_INTENT_DANGER_AND_PLATFORM_CAUSE_UNPROVEN"
+}

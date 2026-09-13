@@ -33,8 +33,9 @@ any branch's claim ceiling.
 | `FREE_NEWS_020_STEAM_COINS_WALLET_AND_LEAK_AUDIT.md` | Steam item, Wallet, Points, liquidity and separate reported achievement-exposure audit |
 | [FREE NEWS 021 · Staking und Unbonding](FREE_NEWS_021_STAKING_UNBONDING_AND_TRANSPARENCY.md) | Five-network exit comparison, DAG 21-/30-day documentation discrepancy and pre-delegation transparency proposals |
 | [FREE NEWS 022 · Atomwaffen, Macht und Geld](FREE_NEWS_022_NUCLEAR_LEGACY_POWER_AND_PUBLIC_VALUE.md) | Historical-source research on the Blessing letter, military financing, dollar reserves and power-currency questions; fallout, compensation, disarmament, SUNDIAL archival history and a civilian budget scenario |
-| [FREE NEWS 023 · Andrea Botez, S.O.S. und die ersten 20 Sekunden](FREE_NEWS_023_ANDREA_BOTEZ_SOS_SOURCE_AUDIT.md) | Source-bound audiovisual check separating the audible 2024 song vocal, current availability, earlier HALVETH themes and unproven personal-message, danger and unblock claims |
+| [FREE NEWS 023 · Andrea Botez, S.O.S. und die ersten 20 Sekunden](FREE_NEWS_023_ANDREA_BOTEZ_SOS_SOURCE_AUDIT.md) | Source-bound audiovisual and share-provenance audit separating the audible 2024 song vocal, two Andrea video objects, the earlier unavailable upload and external-intent claim boundaries |
 | `FREE_NEWS_023_ANDREA_BOTEZ_SOS_SOURCE_AUDIT.receipt.json` | Machine-readable source, timing, audio-comparison and claim-ceiling receipt for FREE NEWS 023 |
+| `FREE_NEWS_023_SHARE_WITNESS_LEDGER.json` | Machine-readable provenance ledger for four ChatGPT shares, two distinct Andrea video IDs, the separate OXEN video and the bounded claim states |
 
 Local Office and PDF artifacts from an earlier ten-branch working snapshot are
 intentionally absent. They do not describe the current release,
