@@ -1,0 +1,73 @@
+{
+  "generated_at": "2026-09-13T19:55:13.6889910+02:00",
+  "source_video": {
+    "availability": "public",
+    "track_at_zero": "Andrea Botez, biskuwi - S.O.S.",
+    "title": "DARK TECHNO TRANCE | Andrea Botez [4K]",
+    "channel": "Andrea Botez",
+    "upload_date": "2024-10-05",
+    "id": "3hDQwIyKJ2o",
+    "url": "https://www.youtube.com/watch?v=3hDQwIyKJ2o",
+    "duration_seconds": 2998
+  },
+  "official_song_video": {
+    "id": "3VqTJq8GZ2k",
+    "title": "S.O.S - Andrea Botez, biskuwi [4K]",
+    "url": "https://www.youtube.com/watch?v=3VqTJq8GZ2k"
+  },
+  "pcm_comparison": {
+    "official_window_seconds": 40.008,
+    "best_offset_seconds": 14.2265,
+    "normalized_correlation": 0.4669472873210907,
+    "mix_window_seconds": 25.007875,
+    "sample_rate_hz": 8000
+  },
+  "synced_lyrics_reference": {
+    "record_id": 34921269,
+    "artist": "Andrea Botez, biskuwi",
+    "timeline": [
+      {
+        "content": "I needed someone (repeated)",
+        "start": 2.3,
+        "end": 3.82
+      },
+      {
+        "content": "unresolved by lyric source",
+        "start": 3.82,
+        "end": 6.99
+      },
+      {
+        "content": "Save me (repeated)",
+        "start": 6.99,
+        "end": 17.87
+      },
+      {
+        "content": "unresolved by lyric source",
+        "start": 17.87,
+        "end": 19.34
+      },
+      {
+        "content": "no lyric marked",
+        "start": 19.34,
+        "end": 20.0
+      }
+    ],
+    "track": "S.O.S",
+    "duration_seconds": 210,
+    "service": "LRCLIB"
+  },
+  "asr": {
+    "variants": [
+      "original",
+      "center",
+      "side",
+      "voiceband"
+    ],
+    "result": "no reliable word-level transcription of quiet processed vocal",
+    "models": [
+      "faster-whisper-small",
+      "faster-whisper-large-v3"
+    ]
+  },
+  "claim_ceiling": "Song lyric in S.O.S; no evidence of a private message, current danger, or personal addressee."
+}
