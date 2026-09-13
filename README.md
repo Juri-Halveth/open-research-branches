@@ -4,6 +4,8 @@
 
 # HALVETH!!! · Open Research
 
+**HALVETH authorship and participation:** Juri Halveth (Juri Janovski) claims the rights in the collection's original theses, selection, structure, prose, models, diagrams and code contributions. Evidence status is separate and never operates as a rights waiver. Protected new HALVETH contributions require a written commercial license and participation agreement; historical permissions remain attached to their earlier files and versions. See [HALVETH-RIGHTS.md](HALVETH-RIGHTS.md), [HALVETH-RIGHTS.json](HALVETH-RIGHTS.json) and [LICENSES.md](LICENSES.md).
+
 **Ein offener Forschungsraum von HALVETH!!! und den HALVETH Open Research contributors.**
 
 [Deutsch / English: Loki, Dormammu und Wanda](reports/HALVETH_MARVEL_PERSPECTIVES.de.md) · [Öffentliche Namensführung / Public attribution](PUBLIC-NAME.md)
@@ -208,12 +210,12 @@ Reproduktionsschritten oder besseren Quellen sind willkommen.
 
 ## Lizenzen
 
-- Code: generally [MIT](LICENSE), with the exact new provenance-tool exceptions listed in [`LICENSES.md`](LICENSES.md)
-- neu verfasste Texte und eigene Abbildungen: [CC BY 4.0](LICENSE-CONTENT.md)
-- selbst erstellte Daten und Metadaten gemäß Pfadkarte: [CC0 1.0](LICENSE-DATA.md)
-- bezeichnete neue Forschungs- und Provenienzdateien: [Juri Public-Interest Research Permission 1.0](LICENSE-JURI-PUBLIC-INTEREST.md)
+- historische Codefassungen: [MIT](LICENSE), mit den Ausnahmen in [`LICENSES.md`](LICENSES.md)
+- historische Text-, Bild-, Daten- und Metadatenfassungen: die dort zugeordneten [CC BY](LICENSE-CONTENT.md)-, [CC0](LICENSE-DATA.md)- oder Juri-Public-Interest-1.0-Bedingungen
+- unterscheidbare neue originale HALVETH-Beiträge nach dem in der Lizenzkarte gebundenen Parent: [HALVETH Public-Interest Research License 2.0](LICENSE-HALVETH-PIRL-2.0.md)
+- kommerzielle Nutzung der geschützten neuen HALVETH-Beiträge: nur mit vorheriger schriftlicher Lizenz und Beteiligungsvereinbarung
 
-Die vollständige pfadbezogene Zuordnung steht in [`LICENSES.md`](LICENSES.md).
+Die vollständige pfad- und versionsbezogene Zuordnung steht in [`LICENSES.md`](LICENSES.md).
 
 Diese Zuordnung erteilt keine Rechte an verlinkten oder zitierten Quellen.
 

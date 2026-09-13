@@ -1,5 +1,6 @@
 import assert from "node:assert/strict";
 import { spawnSync } from "node:child_process";
+import { createHash } from "node:crypto";
 import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
@@ -26,6 +27,10 @@ function prettyJson(value) {
   return `${JSON.stringify(value, null, 2)}\n`;
 }
 
+function sha256(value) {
+  return createHash("sha256").update(value).digest("hex");
+}
+
 function identity(exactText, files, overrides = {}) {
   return {
     exactText,
@@ -44,8 +49,14 @@ function createRepository(context, files = {}, omitted = []) {
   git(root, "config", "user.email", "release-gate@" + "example.invalid");
   git(root, "config", "core.autocrlf", "false");
   write(root, "catalog/public-identities.json", prettyJson({ schemaVersion: "1.0.0", identities: [] }));
+  write(root, "catalog/public-binary-documents.json", prettyJson({ schemaVersion: "1.0.0", documents: [] }));
   for (const [relative, contents] of Object.entries(files)) write(root, relative, contents);
-  const manifestFiles = [...new Set(["catalog/public-files.txt", "catalog/public-identities.json", ...Object.keys(files)])]
+  const manifestFiles = [...new Set([
+    "catalog/public-binary-documents.json",
+    "catalog/public-files.txt",
+    "catalog/public-identities.json",
+    ...Object.keys(files)
+  ])]
     .filter((relative) => !omitted.includes(relative))
     .sort((left, right) => left.localeCompare(right, "en"));
   write(root, "catalog/public-files.txt", `${manifestFiles.join("\n")}\n`);
@@ -103,7 +114,46 @@ test("an untracked worktree file is outside the bound tree", (context) => {
   const snapshot = resolveGitSnapshot({ root });
   const manifest = validatePublicManifest(snapshot);
   const receipt = runPrepublishCheck(snapshot, manifest.publicFiles);
-  assert.equal(receipt.fileCount, 3);
+  assert.equal(receipt.fileCount, 4);
+});
+
+test("prepublish accepts an exact reviewed binary with a bound extracted-text scan", (context) => {
+  const pdf = Buffer.from("%PDF-1.4\nreviewed fixture\n%%EOF\n", "ascii");
+  const extracted = Buffer.from("public extracted text\n", "utf8");
+  const documents = [{
+    path: "report.pdf",
+    sha256: sha256(pdf),
+    extractedTextPath: "report.extracted.txt",
+    extractedTextSha256: sha256(extracted),
+    extractor: "test extractor 1.0",
+    manualReviewReceipt: "test fixture reviewed"
+  }];
+  const root = createRepository(context, {
+    "catalog/public-binary-documents.json": prettyJson({ schemaVersion: "1.0.0", documents }),
+    "report.extracted.txt": extracted,
+    "report.pdf": pdf
+  });
+  assert.equal(runFixtureGate(root).fileCount, 5);
+});
+
+test("prepublish rejects a reviewed binary when its committed bytes change", (context) => {
+  const approved = Buffer.from("%PDF-1.4\napproved\n%%EOF\n", "ascii");
+  const changed = Buffer.from("%PDF-1.4\nchanged\n%%EOF\n", "ascii");
+  const extracted = Buffer.from("public extracted text\n", "utf8");
+  const documents = [{
+    path: "report.pdf",
+    sha256: sha256(approved),
+    extractedTextPath: "report.extracted.txt",
+    extractedTextSha256: sha256(extracted),
+    extractor: "test extractor 1.0",
+    manualReviewReceipt: "test fixture reviewed"
+  }];
+  const root = createRepository(context, {
+    "catalog/public-binary-documents.json": prettyJson({ schemaVersion: "1.0.0", documents }),
+    "report.extracted.txt": extracted,
+    "report.pdf": changed
+  });
+  assert.throws(() => runFixtureGate(root), /report\.pdf: binary SHA-256 mismatch/u);
 });
 
 test("manifest rejects absolute, traversal, backslash and non-normalized paths", () => {

@@ -34,6 +34,9 @@
         "catalog/public-identities.json",
         "CHANGELOG.md",
         "CITATION.cff",
+        "HALVETH-RIGHTS.json",
+        "HALVETH-RIGHTS.md",
+        "LICENSE-HALVETH-PIRL-2.0.md",
         "LICENSE-JURI-PUBLIC-INTEREST.md",
         "provenance-policy.json",
         "README.md",
@@ -50,6 +53,8 @@
         "reports/FREE_NEWS_020_STEAM_COINS_WALLET_AND_LEAK_AUDIT.md",
         "reports/FREE_NEWS_021_STAKING_UNBONDING_AND_TRANSPARENCY.md",
         "reports/FREE_NEWS_022_NUCLEAR_LEGACY_POWER_AND_PUBLIC_VALUE.md",
+        "reports/HALVETH_300KB_DEEP_RESEARCH_RIGHTS.md",
+        "reports/HALVETH_300KB_DEEP_RESEARCH.pdf",
         "wiki/Home.md",
         "wiki/Rechte-und-Nutzung.md"
       ]
@@ -68,6 +73,8 @@
         "branches/russia-ukraine-information-and-peace-audit/DECISION_SNAPSHOT_AUDIT.md",
         "catalog/public-identities.json",
         "CHANGELOG.md",
+        "HALVETH-RIGHTS.md",
+        "LICENSE-HALVETH-PIRL-2.0.md",
         "LICENSE-JURI-PUBLIC-INTEREST.md",
         "provenance-policy.json",
         "reports/FREE_NEWS_001_IOS_MARKER_AND_401_EDGE.md",
@@ -143,6 +150,26 @@
       "files": [
         "catalog/public-identities.json",
         "reports/FREE_NEWS_021_STAKING_UNBONDING_AND_TRANSPARENCY.md"
+      ]
+    },
+    {
+      "exactText": "Janovski",
+      "authorizationState": "EXPLICIT_USER_AUTHORIZATION_FOR_PUBLIC_SURNAME_IN_REVIEWED_REPORT",
+      "authorizedAt": "2026-09-14",
+      "files": [
+        "catalog/public-identities.json",
+        "reports/HALVETH_300KB_DEEP_RESEARCH.extracted.txt",
+        "reports/HALVETH_300KB_DEEP_RESEARCH.pdf"
+      ]
+    },
+    {
+      "exactText": "Janovskyi",
+      "authorizationState": "EXPLICIT_USER_AUTHORIZATION_FOR_PUBLIC_SURNAME_VARIANT_IN_REVIEWED_REPORT",
+      "authorizedAt": "2026-09-14",
+      "files": [
+        "catalog/public-identities.json",
+        "reports/HALVETH_300KB_DEEP_RESEARCH.extracted.txt",
+        "reports/HALVETH_300KB_DEEP_RESEARCH.pdf"
       ]
     }
   ]

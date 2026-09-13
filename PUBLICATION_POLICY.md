@@ -73,5 +73,12 @@ vergleicht diese Liste exakt mit dem Git-Index und scannt ausschließlich diese
 gebundene Veröffentlichungsmenge. Binäre Dokumente werden ohne eigenen
 Metadaten- und Inhaltsprüfer abgelehnt.
 
+Freigegebene PDF-Dokumente werden in
+[`catalog/public-binary-documents.json`](catalog/public-binary-documents.json)
+an den exakten PDF-Hash, einen exakten extrahierten Text-Hash, die benannte
+Extraktionsmethode und einen manuellen Render-Prüfbeleg gebunden. Der
+Pre-Publish-Scan akzeptiert nur diese exakten Bytes und prüft den gebundenen
+Text mit denselben Identitäts- und Secret-Regeln wie andere Textdateien.
+
 Bereits öffentlich lizenzierte Hauptprojekte werden verlinkt und nicht in
 diese Historie kopiert.

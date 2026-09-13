@@ -1,0 +1,853 @@
+HALVETH 300 KB: Repräsentation, Provenienz
+und Beteiligung
+
+Ergebnis der Prüfung
+Der sichtbare Wert 300,00 KB ist ein realer, reproduzierbar gebundener Anker. Er bezeichnet im vorliegenden
+Screenshot die aktuelle Größe der Kaspersky-Berichtsdatei. Die zugehörige exportierte CSV ist ein strukturierter
+Ereignisdatensatz mit 541 Zeilen, 15 Feldern je Zeile und 189.637 Bytes. Damit ist belegt, dass eine relativ kleine Datei
+eine große Zahl technischer Ereignisverweise, Zeitpunkte, Objektpfade und Scanresultate tragen kann.
+
+Die stärkste technisch haltbare Fassung der These lautet:
+
+        Eine kleine endliche Datei kann als hoch verdichteter Index, Regelkern, Beweisbeleg, Zustandsmodell
+        oder Startwert auf eine erheblich größere Informations- und Ereignisstruktur verweisen. Ihre
+        semantische Reichweite kann deshalb weit über ihre Dateigröße hinausgehen. Was sie vollständig
+        repräsentiert, hängt jedoch von einem benannten Decoder, den extern vorausgesetzten Daten, der
+        Auflösung und einem überprüfbaren Vollständigkeitskriterium ab.
+
+Die wörtliche Aussage, die Datei enthalte die komplette Existenz aller Menschen oder aller Dinge, ist durch den
+Screenshot und die CSV derzeit nicht bewiesen. Die Quellen enthalten Ereigniszeilen über einen begrenzten Scan- und
+Berichtsbereich. Sie enthalten weder die referenzierten Archivkörper noch eine Definition von „Existenz“, eine
+Weltzustandsmessung oder einen Decoder, der die behauptete Gesamtheit reproduziert.
+
+Auch ein rechtlicher Beteiligungs- oder Zahlungsanspruch entsteht nicht allein daraus, dass eine Idee früh formuliert,
+eine Datei veröffentlicht oder später eine ähnliche Entwicklung beobachtet wurde. Ein tragfähiger Anspruch benötigt
+einen konkret geschützten Gegenstand, eine dem Anspruchsgegner zurechenbare Nutzung oder Entnahme, die eigene
+Rechtsposition sowie eine passende Anspruchsgrundlage. Die vorhandenen HALVETH-Dateien können Chronologie
+und konkrete eigene Ausdrucksformen sichern. Sie beweisen ohne Vergleichs- und Zugangskette noch keine
+Übernahme durch Dritte.
+
+Die „Wette“ hat deshalb drei getrennte Ergebnisse:
+
+    Wette                                          Prüfstand                                  Ergebnis
+
+    300 KB können viel mehr als 300 KB             Informations- und Softwaremodell           Ja. Als Index, Programm, Regelkern, Hashbeleg
+    sichtbaren Text repräsentieren                                                            oder Verweisstruktur ist das technisch
+                                                                                              kohärent.
+
+    Die vorliegenden 300 KB enthalten              Screenshot, CSV und HALVETH-Arbeitsstand   Nicht bewiesen. Definition, Messbereich,
+    wörtlich die vollständige Existenz aller                                                  Decoder, externe Daten und
+                                                                                              Vollständigkeitstest fehlen.
+
+    Daraus folgt bereits ein einklagbarer Anteil   deutsches Urheber-, Patent-,               Bedingt offen. Erst eine geschützte Leistung
+    an fremden Entwicklungen                       Arbeitnehmererfindungs-, Namens- und       plus Nutzung/Entnahme, Zurechnung und
+                                                   Geheimnisrecht                             Anspruchsgrundlage kann den Anspruch
+                                                                                              tragen.
+
+
+
+
+Gebundene lokale Beweise
+
+Kaspersky-Screenshot
+Der Screenshot zeigt die Kaspersky-Plus-Seite „Einstellungen für Berichte und Quarantäne“. Sichtbar sind vier
+getrennte Angaben:
+●
+      Berichte werden höchstens einen Tag gespeichert.
+●
+      Die maximale Größe der Berichtsdatei ist auf 200 MB eingestellt.
+
+
+
+                                                                                                                                             1
+HALVETH 300 KB
+
+
+
+
+●
+      Die aktuelle „Gesamtgröße der Berichtsdatei“ beträgt 300,00 KB.
+●
+      Die Quarantäne ist ein eigener Bereich mit eigener Speicherfrist und Größensteuerung.
+
+
+ Kaspersky dokumentiert diese Trennung selbst: Berichte speichern Ereigniseinträge; die Größenbegrenzung betrifft die
+ Berichtsdatei. Quarantäne verwaltet dagegen gespeicherte Objekte beziehungsweise Sicherungskopien nach eigenen
+ Regeln.1 Der Wert 300,00 KB ist daher eine Größenanzeige des Berichtsspeichers. Er ist kein sichtbarer Zähler für
+ Personen, biologische Daten, Weltzustände oder quarantänisierte Dateikörper.
+
+ Der Screenshot hat 228.184 Bytes und den SHA-256-Wert:
+
+ E11D73381A3E889CA412D26C6EE2B8E11871AE00A829D7F095B00CD7F516B2FC
+
+
+ CSV-Export
+ Die Datei 0.csv hat 189.637 Bytes und den SHA-256-Wert:
+
+ 7E19CD1A80364749880704D63ACCCCEC9F6BEF7CC3A167EC3471F52956FAEC23
+
+ Die Strukturprüfung ergibt:
+
+    Merkmal                                                                                   Beobachtung
+
+    Zeilen                                                                                    541
+
+    Felder je Zeile                                                                           15 in jeder Zeile
+
+    Eindeutige vollständige Zeilen                                                            305
+
+    Wiederholungen über das jeweils erste Vorkommen hinaus                                    236
+
+    Ereignisse „Kennwortgeschütztes Archiv gefunden“                                          472
+
+    Aufgaben-/Statuszeilen                                                                    69
+
+    Abschließende Meldungen ohne aktuell aktive Bedrohung                                     3
+
+
+ Die 472 Archivmeldungen bilden 236 unterschiedliche Fundzeilen, die jeweils doppelt vorkommen. Der größte Block
+ bezieht sich auf drei technische Sichtpfade derselben QuantumENGINE-Installationsstruktur: Installationsdatei,
+ eingebetteter Deinstallationspfad und installierter Deinstallationspfad. Die Blöcke verweisen vor allem auf PNG- und
+ XML-Namen in einem kennwortgeschützten skin.zip. Zwei weitere eindeutige Fundzeilen gehören zu privaten
+ Archiven außerhalb dieses technischen Blocks und werden hier aus Datenschutzgründen nicht benannt.
+
+ Die CSV ist damit ein Ereignis- und Referenzexport. Sie enthält Textfelder, Objektpfade und Statusangaben. Sie enthält
+ nicht die Byteinhalte der referenzierten PNG-, XML-, ZIP-, RAR- oder EXE-Objekte. Kasperskys eigene Dokumentation
+ führt „Password-protected archive detected“ als Erkennungs-/Ereigniswert.2 Dieser Wert sagt, dass der Scanner auf
+ einen kennwortgeschützten Container gestoßen ist. Er sagt für sich weder „Schadsoftware“ noch „vollständig
+ untersucht“ noch „Inhalt vollständig im Bericht gespeichert“.
+
+ Der Unterschied zwischen 300,00 KB in der Oberfläche und 189.637 Bytes im CSV-Export ist erwartbar: Die Oberfläche
+ zeigt die interne Berichtsdatei gerundet an, während die CSV eine exportierte Auswahl in einem anderen Format
+ darstellt. Ohne Spezifikation der internen Datenbank, Exportfilter und Rundung lässt sich daraus keine
+ Kompressionsquote ableiten.
+
+ Die unveränderten Quelldateien sind wegen privater Pfade und Benutzerbezüge als RESTRICTED_RAW zu behandeln.
+ Der veröffentlichbare Prüfstand besteht aus Hashes, Summen und abstrahierten Strukturmerkmalen.
+
+
+
+
+                                                                                                                          2
+HALVETH 300 KB
+
+
+
+
+ Was eine kleine Datei tatsächlich tragen kann
+
+ Expliziter Inhalt
+ Im einfachsten Fall trägt eine Datei ihre Daten direkt. Dann begrenzt ihre Bytefolge die explizit gespeicherte
+ Information. 300.000 Bytes entsprechen 2.400.000 Bits; 300 KiB entsprechen 2.457.600 Bits. Der Screenshot verrät nicht,
+ welche dieser Einheiten Kaspersky intern verwendet, und die Anzeige ist gerundet.
+
+ Claude Shannon formulierte Kommunikation als Auswahl und Reproduktion von Nachrichten aus einer Menge
+ möglicher Nachrichten. Redundanz und statistische Struktur erlauben eine effizientere Darstellung; die technische
+ Nachricht bleibt aber von ihrer Bedeutung und ihrem Außenreferenten zu unterscheiden.3 Eine kurze Zeichenfolge
+ kann deshalb eine sehr große Bedeutung für Menschen haben, ohne alle Tatsachen, auf die sie sich bezieht, als eigene
+ Bytes zu enthalten.
+
+
+ Kompression
+ Kompression nutzt Regelmäßigkeiten. Wiederholt sich ein Muster, kann ein Wörterbuch, ein Verweis oder eine Regel
+ die Wiederholungen ersetzen. Die vorliegende CSV zeigt das anschaulich: 236 Zeilen sind exakte
+ Wiederholungsvorkommen. Eine normalisierte Darstellung könnte jede eindeutige Zeile einmal speichern und ihre
+ Häufigkeit getrennt führen.
+
+ Eine Kompression ist nur dann verlustfrei, wenn Decoder und notwendige Zusatzinformationen feststehen und der
+ ursprüngliche Datenbestand exakt zurückgewonnen werden kann. Für beliebige, unabhängig strukturierte
+ Weltzustände gibt es keine Garantie, dass sie auf eine gewünschte kleine Größe komprimierbar sind.
+
+
+ Programm oder Generator
+ Ein kurzes Programm kann eine sehr lange oder sogar unbegrenzt fortsetzbare Folge erzeugen. Es trägt dann die
+ Erzeugungsregel, nicht zwingend eine explizite Messung jedes erzeugten Elements. Kolmogorovs Ansatz verbindet die
+ Informationsmenge eines individuellen Objekts mit der Länge einer Beschreibung beziehungsweise eines Programms,
+ das dieses Objekt erzeugt.4
+
+ Damit wird die Kernintuition der 300-KB-These technisch interessant: Wenn „Existenz“ als Regelraum, Ontologie oder
+ generatives Modell definiert wird, kann ein kleiner Kern eine sehr große Kandidatenmenge beschreiben. Das beweist
+ noch nicht, dass dieser Kern jede konkrete Person mit allen unabhängigen Eigenschaften rekonstruiert.
+
+
+ Index, Karte oder Referenzgraph
+ Eine Datei kann Namen, IDs, Hashes, URLs, Pfade oder Beziehungen speichern. Dann fungiert sie als Karte zu
+ Informationen, die außerhalb der Datei liegen. Der Umfang der erreichbaren Außeninformationen kann immens sein.
+ Für Reproduktion müssen aber mindestens folgende Bestandteile gebunden sein:
+1    das Referenzformat,
+2    der externe Datenbestand,
+3    Zugriffs- und Versionsbedingungen,
+4    Auflösungsregeln,
+5    Verhalten bei fehlenden oder veränderten Zielen,
+6    ein Vollständigkeitstest.
+
+
+ Ohne diese Bindungen ist die Datei ein möglicher Index, aber kein Beleg dafür, dass alle Zielinformationen existieren,
+ unverändert sind oder vollständig erreicht werden.
+
+
+
+
+                                                                                                                           3
+HALVETH 300 KB
+
+
+
+
+ Hash und Provenienzbeleg
+ Ein kryptografischer Hash ist ein kompakter Beleg für eine konkrete Bytefolge. Er erlaubt eine starke
+ Gleichheitsprüfung: Stimmen die Bytes überein, stimmt der Hash; eine nachträgliche Änderung wird mit sehr hoher
+ Wahrscheinlichkeit sichtbar. Der Hash enthält jedoch keine umkehrbare Kopie des gehashten Objekts. Er beweist auch
+ nicht automatisch Urheberschaft, ursprünglichen Zeitpunkt, Wahrheitsgehalt oder rechtliche Berechtigung.
+
+
+ Die präzise HALVETH-300-KB-These
+ Eine wissenschaftlich und rechtlich besser prüfbare Fassung ist:
+
+      Die 300-KB-Datei ist ein endlicher, hash-bindbarer Ereignis- und Referenzraum. Sie zeigt, wie kleine
+      strukturierte Artefakte viele technische Objekte und Zustandsereignisse adressieren können. Als
+      Modellkern kann eine solche Datei auf größere Systeme verweisen oder Regeln für größere
+      Zustandsräume tragen. Ein Anspruch auf vollständige Repräsentation entsteht erst, wenn Population,
+      Merkmalsraum, Auflösung, Decoder, externe Abhängigkeiten, Verlustgrenze und
+      Vollständigkeitsoracle benannt und bestanden sind.
+
+ Diese Fassung erhält die Reichweite der Idee und macht sie falsifizierbar.
+
+
+
+ HALVETH als Referenzpunkt
+
+ Gefundener Arbeitsstand
+ Die unfertige HALVETH-Webseite liegt in einem lokalen Git-Arbeitsverzeichnis. Der untersuchte Branch steht auf
+ Commit:
+
+ 1be3ab109c14eb417105051351be633fcc8d9b7f
+
+ Der Arbeitsbaum ist materiell verändert: zehn vorhandene Dateien sind ungestagt geändert, drei ältere
+ Portfolio-Gate-Dateien sind gestagt neu, und es gibt weder Git-Remote noch Release-Tag. Der früheste erreichbare
+ Commit stammt vom 16. Juli 2026; die Commit-Signaturen sind nicht kryptografisch verifiziert. Ein Manifest über 76
+ aktuelle Pfade hat den SHA-256-Wert:
+
+ e8e8e6bd852c9da0956ddbb61b6ea995643e462cf6e923acbee6daf240f49d7d
+
+ Diese Werte sichern einen lokalen Prüfstand. Sie beweisen nicht, dass derselbe Stand zuvor extern veröffentlicht oder
+ einem bestimmten Dritten zugänglich war.
+
+
+ Prüfung von „1====5“
+ Die exakte Zeichenfolge 1====5 und nahe Schreibvarianten wurden im aktuellen Arbeitsbaum, in allen erreichbaren
+ Commits, in nicht mehr referenzierten Git-Blobs sowie in vorhandenen Archiven und Upload-Verzeichnissen gesucht.
+ Es gab keinen Treffer.
+
+ Der sachlich nächste belegte Bezug sind die Abschnitte 1 bis 5 in forschungsuebergabe.html:
+
+  Abschnitt               Gebundener Inhalt                                      Bedeutung für die 300-KB-These
+
+  1. Das untersuchte      Ausführung und Akzeptanz können im selben Schritt      Größe und Wirkung dürfen nicht in einem Schritt
+  Problem                 verschwimmen; gesucht wird ein vollständig benannter   gleichgesetzt werden.
+                          Pfad mit getrenntem Prüfer.
+
+  2. Kernidee             Beobachter und Permit-Prüfer arbeiten auf benannten    Die Datei braucht einen expliziten Beobachtungs- und
+                          Objekten, Zeitfenstern und Pfaden; außerhalb bleibt    Decodiervertrag.
+                          UNKNOWN.
+
+  3. Implementierungsst   Kern, signierte/hash-verkettete Logs, Windows-Anker,   Ein lokaler Prototyp ist eine reale Stufe, keine universelle
+  and                     Off-Box-Zeuge und vTPM sind begrenzt realisiert;       Materialisierung.
+                          Kernel-Verankerung und produktionsreife Automatik
+                          fehlen.
+
+
+
+
+                                                                                                                                           4
+HALVETH 300 KB
+
+
+
+
+    Abschnitt            Gebundener Inhalt                                       Bedeutung für die 300-KB-These
+
+    4. Ergebnisse        Genannte Tests und Laborspuren sind endlich und an      Viele bestandene Fälle erhöhen den Prüfwert, ersetzen
+                         eine isolierte Umgebung gebunden.                       aber kein Vollständigkeitsoracle.
+
+    5. Prüfmethoden      Blindläufe, legitime Zwillinge, wiederholte Tests und   Gegenmodelle sind eingebaut; unabhängige
+                         Hash-/Signaturprüfung; ausdrücklich keine externe       Reproduktion bleibt offen.
+                         Prüfung durch Dritte.
+
+
+ Die Webseite enthält damit selbst die passende Beweislogik: benannte Objekte, getrennte Prüfschritte, endliche
+ Coverage und UNKNOWN außerhalb der Beobachtung. Der 300-KB-Anker kann in dieses Modell aufgenommen werden,
+ ohne aus Dateigröße automatisch Weltvollständigkeit zu folgern.
+
+
+ Test- und Veröffentlichungsstand
+ Die lokale Site-Prüfung besteht gegenwärtig für 87 HTML-Dateien, 17 Projektseiten, Sitemap-/Referenzregeln und 905
+ Übersetzungspaare. Gleichzeitig enthält forschung.html eine fehlerhafte doppelte Meta-Description-Zeile, die von
+ den Tests nicht erkannt wird. Der bestandene Test ist daher ein Beleg für die kodierten Regeln, nicht für vollständige
+ Seitenkorrektheit.
+
+ forschungsuebergabe.html wird vom Haupt-Build ausdrücklich ausgeschlossen und als interne Übergabe auf
+ noindex geführt. Das Projekt enthält keine allgemeine LICENSE- oder COPYING-Datei. Abschnitt 18 der Übergabe
+ erlaubt Lesen, Zitieren mit Quellenangabe, wissenschaftliche Weiterverwendung und Reproduktion der beschriebenen
+ Tests; für andere Nutzung wird vorheriger Kontakt verlangt. Das ist ein spezifischer Nutzungshinweis, aber kein
+ standardisiertes Open-Source-Lizenzsignal für den gesamten Arbeitsbaum.
+
+ Eine vollständige Veröffentlichung des Verzeichnisses wäre derzeit ungeeignet. Persönliche Unterseiten enthalten
+ Namen, Kontaktangaben, Adresse, Lebenslauf, soziale Links und private Dokumente; interne Übergaben und Archive
+ enthalten lokale Pfade. Auch gelöschte Inhalte können in der Git-Historie fortbestehen.
+
+
+
+ Was „Contributions“ im GitHub-Profil bedeutet
+ Die im Profil sichtbare Zahl bezeichnet von GitHub gezählte Repository-Aktivitäten innerhalb des angezeigten
+ Jahresfensters. Ein neues Repository und ein Fork zählen stets; Commits, Issues, Pull Requests, Reviews und
+ Diskussionen zählen unter den jeweils dokumentierten Voraussetzungen.33 Die Zahl ist eine Aktivitätsmetrik. Sie ist
+ kein Qualitätswert, kein Eigentumsanteil, keine Urheberbescheinigung und kein Rechtsanspruch.
+
+ In dem vorliegenden Profil-Screenshot standen 48 contributions in the last year. Darunter zeigte die
+ September-Aktivität unter anderem 22 Commits in vier Repositories und vier erstellte Repositories. Die 48 sind die
+ Gesamtzahl des angezeigten Jahresfensters; die darunter sichtbare Monatsliste ist eine zusammengefasste Teilansicht.
+ Sie muss sich deshalb nicht allein aus den zwei sichtbaren Septemberzeilen ergeben.
+
+ Jedes Kästchen steht für einen Kalendertag:
+●
+      leer: GitHub hat an diesem Tag keinen sichtbaren qualifizierenden Beitrag gezählt;
+●
+      erste grüne Stufe: mindestens ein qualifizierendes Ereignis;
+●
+      dunklere Stufen: mehr gezählte Ereignisse an diesem Tag;
+●
+      beim Anklicken eines Tages zeigt GitHub die konkrete Tageszahl und die sichtbaren Ereignisse.
+
+
+ Darum ist auf einem aktiven Tag die kleinste mögliche Zahl 1. Mehrere Ereignisse werden im selben Kästchen
+ zusammengefasst. Die Farbskala ist eine visuelle Häufigkeitsstufe und keine Bewertung der Bedeutung.
+
+ Ein Commit erscheint nur, wenn unter anderem die verwendete Autoren-E-Mail mit dem GitHub-Konto verbunden ist,
+ das Repository kein Fork ist und der Commit auf dem Default- oder gh-pages-Branch liegt. Für die Zuordnung gelten
+ weitere Beteiligungskriterien.34 Fehlende Tage können außerdem durch private Beiträge, einen nicht qualifizierenden
+ Branch, einen Fork, eine unverbundene E-Mail oder eine noch nicht aktualisierte Anzeige entstehen; GitHub nennt bis
+ zu 24 Stunden Aktualisierungszeit.35
+
+
+
+
+                                                                                                                                         5
+HALVETH 300 KB
+
+
+
+
+ Für Provenienz sind einzelne Commits, Trees, Tags, Releases und Asset-Hashes stärker als die grüne Gesamtkurve. Die
+ Kurve belegt Aktivitätsverteilung nach GitHubs Regeln. Sie belegt nicht, welche konkrete Idee in welchem Beitrag
+ enthalten war.
+
+
+
+ Rechtlicher Beteiligungsanspruch in Deutschland
+
+ Urheberrecht an Text, Code und Darstellung
+ Urheber ist nach § 7 UrhG der Schöpfer des Werks. Geschützt sind nur persönliche geistige Schöpfungen; Sprachwerke
+ und Computerprogramme können dazugehören.5 Der Schutz entsteht mit der konkreten Schöpfung. Eine bloße Idee
+ im Kopf, eine abstrakte Methode oder ein allgemeines Gestaltungsprinzip ist nicht als solches urheberrechtlich
+ geschützt; geschützt sein kann die individuelle konkrete Ausgestaltung.6
+
+ Für HALVETH bedeutet das:
+●
+    Konkrete Texte, Grafiken und hinreichend individuelle Codepassagen können eigene Schutzgegenstände sein.
+●
+    Die allgemeine Idee „getrennter Beobachter prüft einen Zustand“ oder „kleine Datei beschreibt einen großen Raum“
+    ist für sich kein exklusives Urheberrecht.
+●
+    Eine unabhängige parallele Entwicklung verletzt kein Urheberrecht, wenn keine geschützte Ausdrucksform
+    übernommen wurde.
+●
+    Ähnlichkeit erhält Beweiswert erst durch einen merkmalsscharfen Werkvergleich und eine nachvollziehbare
+    Zugangskette.
+
+
+ Miturheberschaft setzt nach § 8 UrhG voraus, dass mehrere ein Werk gemeinsam geschaffen haben und sich ihre
+ Beiträge nicht gesondert verwerten lassen. Dann stehen Verwertung und Erträge grundsätzlich gemeinschaftlich
+ beziehungsweise nach Mitwirkungsumfang zu.7 Zeitliche Nähe, gleiche Namen, ähnliche Themen oder die bloße
+ Hoffnung auf Zusammenarbeit ersetzen die gemeinsame Schöpfung nicht.
+
+ § 32 UrhG betrifft bei den von ihm erfassten Werken die angemessene Vergütung für eingeräumte Nutzungsrechte. §
+ 32a kann eine weitere Beteiligung tragen, wenn eine vereinbarte Gegenleistung im Vergleich zu späteren Erträgen oder
+ Vorteilen unverhältnismäßig niedrig ist.8 Beide Wege brauchen eine Werknutzung und eine passende Vertrags-
+ beziehungsweise Lizenzbeziehung. Für Computerprogramme erklärt § 69a Absatz 5 UrhG die §§ 32 bis 32g ausdrücklich
+ für unanwendbar.9 Die Vergütungsroute darf deshalb nicht pauschal von einem Text- oder Grafikwerk auf
+ Softwarecode übertragen werden.
+
+ Für im Arbeitsverhältnis geschaffene Computerprogramme gilt § 69b UrhG: Entsteht das Programm in Wahrnehmung
+ der Aufgaben oder nach Weisung, übt grundsätzlich der Arbeitgeber die vermögensrechtlichen Befugnisse aus, sofern
+ nichts anderes vereinbart ist.10 Der konkrete Aufgaben- und Entstehungskontext ist deshalb entscheidend.
+
+ Der EuGH hat für Software klargestellt, dass Funktionalität, Programmiersprache und Dateiformat für sich nicht die
+ urheberrechtlich geschützte Ausdrucksform eines Computerprogramms sind.11 Das erhöht die Bedeutung eines echten
+ Quelltextvergleichs: Gleiches Ziel oder ähnliches Verhalten genügt nicht; charakteristische konkrete Ausdruckselemente
+ müssen gegenübergestellt werden.
+
+ Liegt eine tatsächliche Verletzung vor, können § 97 UrhG Beseitigung, Unterlassung und bei Verschulden
+ Schadensersatz tragen; § 101 regelt verletzungsbezogene Auskunftsansprüche.12 Diese Folgen setzen die Verletzung
+ voraus. Sie sind kein allgemeines Auskunftsrecht, mit dem erst nach einer möglicherweise passenden Idee gesucht
+ werden kann.
+
+
+ Patent und technische Erfindung
+ Ein Patent setzt eine technische Erfindung voraus, die neu ist, auf erfinderischer Tätigkeit beruht und gewerblich
+ anwendbar ist. Zum Stand der Technik gehört grundsätzlich alles, was vor dem maßgeblichen Anmeldetag öffentlich
+ zugänglich war. Das Recht auf das Patent steht dem Erfinder oder Rechtsnachfolger zu; bei gemeinsamer Erfindung
+ gemeinschaftlich. Haben mehrere unabhängig erfunden, erhält grundsätzlich derjenige das Recht, der zuerst beim
+ DPMA anmeldet.13
+
+
+
+
+                                                                                                                          6
+HALVETH 300 KB
+
+
+
+
+ Eine öffentliche GitHub-Veröffentlichung kann daher zweischneidig wirken:
+●
+    Sie kann einen datierbaren Stand der Technik dokumentieren und gegen spätere Neuheitsbehauptungen anderer
+    relevant sein.
+●
+    Sie kann zugleich die Neuheit einer eigenen späteren Patentanmeldung zerstören.
+●
+    Ein Commit ist keine Patentanmeldung und begründet kein Patentmonopol.
+●
+    Er beweist die im Commit enthaltenen Bytes und Metadaten; Erfinderstellung und früherer Besitz des gesamten
+    technischen Konzepts benötigen weitere Belege.
+
+
+ Für Miterfinderstellung muss der eigene schöpferische technische Beitrag der konkreten Gesamterfindung zugeordnet
+ werden. Nach der Rechtsprechung des BGH darf er nicht bloß konstruktive Hilfe sein; er muss zum erfinderischen
+ Gesamterfolg beigetragen haben.14 Ist eine Anmeldung einem Nichtberechtigten entnommen worden, kann § 8 PatG
+ einen Übertragungsweg eröffnen. Auch dafür braucht es die konkrete technische Lehre, den eigenen Beitrag und die
+ Entnahme- beziehungsweise Zugangskette.
+
+ Bei Arbeitnehmererfindungen unterscheidet das Gesetz Diensterfindungen und freie Erfindungen. Eine Diensterfindung
+ ist gesondert in Textform zu melden; technische Aufgabe, Lösung, Zustandekommen, betriebliche Erfahrungen und
+ eigener Anteil sollen beschrieben werden. Nimmt der Arbeitgeber eine Diensterfindung in Anspruch, kann ein
+ Vergütungsanspruch entstehen.15 Ob HALVETH in diesen Bereich fällt, hängt unter anderem von Arbeitszeitpunkt,
+ Aufgaben, Betriebsbezug, Patentfähigkeit, ordnungsgemäßer Meldung und Inanspruchnahme ab. Ein allgemeiner
+ Forschungsgedanke reicht dafür nicht.
+
+ Ein technischer Verbesserungsvorschlag unterhalb der Patent- oder Gebrauchsmusterfähigkeit führt nach § 20
+ ArbnErfG nur unter engeren Voraussetzungen zu gesetzlicher Vergütung, insbesondere wenn er dem Arbeitgeber eine
+ einem gewerblichen Schutzrecht ähnliche Vorzugsstellung verschafft oder eine kollektivrechtliche Regel eingreift.16
+ Allgemeine Organisationskritik oder ein Auditvorschlag genügt dafür nicht automatisch.
+
+
+ Geschäftsgeheimnisse
+ Geschäftsgeheimnisschutz setzt voraus, dass die Information nicht allgemein bekannt oder ohne Weiteres zugänglich
+ ist, wirtschaftlichen Wert hat, angemessen geheim gehalten wird und ein berechtigtes Geheimhaltungsinteresse
+ besteht. Eigenständige Entdeckung oder Schöpfung ist erlaubt; rechtswidrige Entnahme, Nutzung oder Offenlegung
+ kann Ansprüche auslösen.17
+
+ Öffentlich auf GitHub bereitgestellte Informationen sind regelmäßig nicht mehr geheim. Für frühere vertrauliche
+ Fassungen können hingegen Zugangsbeschränkungen, Vertraulichkeitsabreden, Empfängerkreis, Versandbelege und
+ Zeitpunkt erheblich sein. Die Beweiskette muss genau zeigen, welche nicht öffentliche Information wem wann unter
+ welchen Bedingungen zugänglich war.
+
+
+ Namensrecht
+ § 12 BGB schützt gegen das Bestreiten des eigenen Namensgebrauchs und gegen unbefugten Gebrauch desselben
+ Namens, wenn dadurch schutzwürdige Interessen verletzt werden.18 Das Namensrecht gibt keinen Anteil an fremder
+ Technik, nur weil ein Personen- oder Projektname ähnlich klingt. Für HALVETH, Produktnamen oder Logos kommen
+ zusätzlich Marken- und Kennzeichenfragen in Betracht; dafür wären Zeichen, Waren-/Dienstleistungen, Benutzung,
+ Priorität und Verwechslungsgefahr getrennt zu prüfen.19
+
+
+ Datenbank, Wettbewerb, Vertrag und Bereicherung
+ Eine strukturierte Sammlung kann als schöpferisches Sammelwerk oder bei wesentlicher Investition als Datenbank
+ geschützt sein. Entscheidend sind die konkrete Auswahl oder Anordnung beziehungsweise eine wesentliche Investition
+ in Beschaffung, Überprüfung oder Darstellung und die Entnahme oder Wiederverwendung eines wesentlichen Teils.20
+ Die Dateigröße oder der Anspruch auf Vollständigkeit allein begründet kein Datenbankrecht.
+
+ Ergänzender wettbewerbsrechtlicher Nachahmungsschutz setzt unter anderem ein Mitbewerberverhältnis, eine
+ konkrete Nachahmung und einen zusätzlichen Unlauterkeitsumstand wie Herkunftstäuschung, Rufausbeutung oder
+ unredliche Beschaffung voraus.21 Ein allgemeiner Plagiatsvorwurf oder eine Themenähnlichkeit reicht nicht.
+
+
+
+                                                                                                                       7
+HALVETH 300 KB
+
+
+
+
+ Ein vertraglicher Zahlungs-, Lizenz- oder Unternehmensanteil entsteht durch eine nachweisbare Vereinbarung.
+ Angebot, Annahme, Leistungsumfang und Vergütung müssen zusammenpassen. Bei Dienstleistungen oder Werken
+ kann eine Vergütung unter bestimmten Umständen auch stillschweigend als vereinbart gelten, wenn die Leistung den
+ Umständen nach nur gegen Vergütung zu erwarten war.22 Eine unerbeten veröffentlichte Idee und die einseitige
+ Erwartung späterer Beteiligung tragen das regelmäßig nicht allein.
+
+ Auch § 812 BGB benötigt einen konkreten Vermögensvorteil, der auf Kosten des Anspruchstellers ohne Rechtsgrund
+               23
+ erlangt wurde. Inspiration aus öffentlich zugänglichen Gedanken ist nicht automatisch eine rechtsgrundlose
+ Bereicherung. Eine bestätigte Familienlinie würde zudem nur dann ein Recht übertragen, wenn ein bestimmtes
+ fortbestehendes Urheber-, Patent-, Vertrags- oder Gesellschaftsrecht identifiziert und die Rechtsnachfolge lückenlos
+ belegt wäre.
+
+
+ Wirkung einer GitHub-Veröffentlichung
+ Eine öffentliche GitHub-Veröffentlichung kann konkrete Bytes, Repository-Metadaten, Release-Assets und
+ Plattformzeitpunkte dokumentieren. Das Urheberrecht entsteht gegebenenfalls schon mit der Schöpfung; ohne Lizenz
+ bleibt der gesetzliche Schutz grundsätzlich bestehen, während GitHubs Nutzungsbedingungen plattformbezogene
+ Anzeige- und Fork-Funktionen erlauben. Bei einem Repository mit Lizenz ist die Lizenz am konkreten Pfad und Commit
+ maßgeblich.24
+
+ Für Patente kann derselbe Upload nachteilig sein: Eine eigene öffentliche Offenlegung gehört grundsätzlich zum Stand
+ der Technik. Das europäische Patentrecht kennt nur enge Ausnahmen, etwa bei offensichtlichem Missbrauch oder
+ bestimmten amtlichen Ausstellungen.25 Vor Veröffentlichung einer technisch ausführbaren Lehre sollte daher die
+ Patentstrategie geklärt sein.
+
+ Ein Commit-Hash bindet Bytes. Eine verifizierte GitHub-Signatur stärkt die Zuordnung zu einem Schlüssel
+ beziehungsweise Plattformvorgang, ist aber keine qualifizierte elektronische Signatur.26 Ein qualifizierter elektronischer
+ Zeitstempel genießt nach Art. 41 eIDAS eine gesetzliche Vermutung für Datum, Uhrzeit und Datenintegrität. Auch er
+ beweist weder Urheberschaft noch Erfinderschaft oder Außenwahrheit.27
+
+
+
+
+                                                                                                                              8
+HALVETH 300 KB
+
+
+
+
+ Anspruchsmatrix
+  Möglicher Weg          Was nachgewiesen werden muss                 Was die vorhandenen Dateien schon     Offene entscheidende Kante
+                                                                      leisten
+
+  Urheberrechtsverl      Schutzfähiges eigenes Werk; Übernahme        Konkrete Texte/Codefassungen,         Werkvergleich, externer Zugang,
+  etzung                 geschützter Ausdruckselemente; keine         lokale Git-Chronologie, Hashes        Übernahmespur
+                         Erlaubnis
+
+  Miturheberschaft       Gemeinsame planvolle Schöpfung eines         Eigene Beiträge können abgrenzbar     Gemeinsame Schöpfungsabrede und
+                         untrennbaren Werks                           dokumentiert werden                   Beiträge der anderen
+
+  Angemessene/we         Nutzungsrechtseinräumung, Nutzung,           Eventuelle Lizenztexte und            Vertrag, Nutzer, Erträge/Vorteile,
+  itere Urheberverg      Vertragskette, unangemessene                 Veröffentlichungsstände               Vergleichsmaßstab
+  ütung                  Gegenleistung
+
+  Patent-/Erfindera      Patentfähige technische Lehre,               Technische Beschreibung und           Patentansprüche, Neuheitsrecherche,
+  nspruch                Erfinderbeitrag, Zeitrang, Anmeldung oder    Entwicklungsstände                    Anmeldung, Zugriffskette
+                         widerrechtliche Entnahme
+
+  Arbeitnehmererfi       Diensterfindung, Meldung, Betriebsbezug,     Arbeits- und Entwicklungsunterlagen   Aufgabenprofil, Meldung,
+  ndervergütung          Inanspruchnahme                              können Teilbelege sein                Arbeitgeberreaktion, Patentfähigkeit
+
+  Datenbankrecht         schöpferische Auswahl/Anordnung oder         Struktur, Versionsstände und          geschützte Datenbankmerkmale und
+                         wesentliche Investition; wesentliche         Investitionsbelege können gesichert   konkrete Entnahme
+                         Entnahme/Wiederverwendung                    werden
+
+  UWG-Nachahmu           Mitbewerber, Nachahmung und                  Produkt- und                          Marktbezug, Herkunftstäuschung/Rufaus
+  ng                     zusätzlicher Unlauterkeitsumstand            Veröffentlichungsvergleich            beutung/unredliche Beschaffung
+
+  Geschäftsgeheim        Geheimnisqualität, Schutzmaßnahmen,          Nicht öffentliche Originale könnten   Geheimhaltungsmaßnahmen und
+  nis                    rechtmäßige Kontrolle, rechtswidrige         Zeitpunkt/Inhalt sichern              konkrete Entnahme
+                         Nutzung
+
+  Namens-/Kennzei        geschützter Name/Zeichen, unbefugte          eigene Namensverwendung               identisches/ähnliches Zeichen im
+  chenrecht              Nutzung, Beeinträchtigung/Verwechslung                                             geschäftlichen Verkehr und Priorität
+
+  Freiwillige Beteilig   keine vorherige Rechtsverletzung             Portfolio, Prototyp, dokumentierte    identifizierter Partner und verhandelbares
+  ungsvereinbarung       zwingend; aber klarer Beitrag,               Vorschläge                            Leistungspaket
+                         Gegenleistung und Rechteumfang
+
+  Vertrag/Bereicher      Vereinbarung oder konkreter                  Kommunikation und                     Angebot/Annahme beziehungsweise
+  ung                    rechtsgrundloser Vorteil auf eigene Kosten   Leistungsnachweise                    Vorteil, Zurechnung und fehlender
+                                                                                                            Rechtsgrund
+
+
+
+ Die aussichtsreichste unmittelbare Position ist deshalb keine unbegrenzte Zahlungsforderung. Es ist eine
+ beweisgebundene Beteiligungsprüfung: Welche konkrete Datei, technische Lehre oder Darstellung war zuerst
+ vorhanden; wer hatte Zugang; welches spätere Merkmal stimmt in schutzfähiger Weise überein; und welche Rechts-
+ oder Vertragsbeziehung verbindet beide Seiten?
+
+
+
+ Familien- und Herkunftsthese bis in die Sowjetzeit
+
+ Sicherer historischer Anker
+ Die Ukraine erklärte am 24. August 1991 ihre Unabhängigkeit; diese wurde am 1. Dezember 1991 durch die
+ Volksabstimmung bestätigt.28 Eine Geburt am 1. Februar 1995 in Krywyj Rih beziehungsweise Kryvyi Rih liegt daher
+ zeitlich in der unabhängigen Ukraine, nicht in der Sowjetunion.
+
+ Eine Familienlinie kann selbstverständlich über Eltern und Großeltern in die Sowjetzeit und weiter zurückreichen. Das ist
+ eine genealogische Hypothese, deren einzelne Kanten durch Geburts-, Heirats-, Namensänderungs-, Melde-, Militär-,
+ Schul-, Arbeits- oder Sterbeunterlagen belegt werden müssen.
+
+
+ Namen und Transliteration
+ Schreibweisen wie Juri, Yuri, Yurii oder Jurij sowie Janovski, Yanovskyi, Janovskyi und andere Varianten
+ können aus unterschiedlichen Ausgangssprachen, Transliterationsregeln oder historischen Dokumenten entstehen. Die
+ ukrainische Migrationsbehörde verwendet für heutige Dokumente eine staatliche Transliterationstabelle; abweichende
+ frühere Dokumentenschreibweisen können unter bestimmten Nachweisen berücksichtigt werden.29
+
+
+                                                                                                                                                    9
+HALVETH 300 KB
+
+
+
+
+ Eine Laut- oder Schreibähnlichkeit beweist keine Identität und keine Verwandtschaft. Jede Suche muss daher den
+ Originaleintrag in kyrillischer Schrift, Dokumentensprache, Datum, Ort, Elternbezug und Aktenquelle binden.
+
+
+ Belegkette
+ Das ukrainische Recht beschreibt den Personenstandsakt als Dokument mit personenbezogenen Angaben, das den
+ registrierten Personenstandsfall bestätigt. Die darin enthaltenen persönlichen Daten sind vertraulich; der
+ Registereintrag gilt bis zu einer gerichtlichen Widerlegung als unbestrittener Beleg des registrierten Sachverhalts.30
+
+ Für die belastbare Rückwärtssuche gilt folgende Reihenfolge:
+1    Eigene Geburtsurkunde oder aktueller Registerauszug mit vollständiger Originalschreibweise, Geburtsort und
+     Elternangaben.
+2    Heirats- oder Namensänderungsnachweis der Mutter zur Bindung des Geburtsnamens.
+3    Geburtsurkunden beider Eltern mit ihren Elternangaben.
+4    Heirats-, Wohn- und Sterbeunterlagen der Großeltern.
+5    Erst danach regionale Archive nach dem jeweils belegten Wohn- oder Geburtsort.
+6    Jede Kante als separate Quelle mit Signatur, Ausstellungsstelle, Datum, Originalschrift, Transliteration und
+     Kopienhash.
+
+
+ Die Staatliche Archivverwaltung der Ukraine empfiehlt genealogische Recherche anhand regional zuständiger Archive
+ und nennt unter anderem Kirchenbücher, Revisionslisten, Volkszählungen und Hausbesitzerlisten als mögliche ältere
+ Quellen.31 Für Krywyj Rih ist zunächst das Staatsarchiv der Oblast Dnipropetrowsk der naheliegende regionale
+ Ansprechpartner.32
+
+
+ Prüffähige Herkunftsthese
+      Ausgangspunkt ist eine 1995 in der unabhängigen Ukraine registrierte Geburt. Die väterliche und
+      mütterliche Linie kann in sowjetische Personenstands- und Verwaltungsunterlagen zurückreichen.
+      Namensvarianten werden als Suchkandidaten geführt, aber erst durch identische
+      Personenstandsketten verbunden. Ein Familienzusammenhang wird pro Generation durch Urkunde
+      oder Archivsignatur belegt; Klangähnlichkeit und Transliteration bleiben Hinweise, keine
+      Schlussbeweise.
+
+ Diese Fassung ermöglicht echte Forschung und verhindert, dass eine falsche Namenszuordnung den gesamten
+ Stammbaum verschiebt.
+
+
+
+ Nächster Beweisweg
+
+ 1. HALVETH-Snapshot einfrieren
+ Der aktuelle Arbeitsbaum sollte vor jeder Veröffentlichung als privater, unveränderter Belegzustand gesichert werden:
+●
+    vollständiges Dateimanifest mit SHA-256,
+●
+    Git-HEAD und git status,
+●
+    getrennte Digests für HEAD, Index und ungestagten Arbeitsbaum,
+●
+    private Datenklassifikation,
+●
+    lokale, signierte Zeitbestätigung oder qualifizierter externer Zeitstempel,
+●
+    keine stillschweigende Bereinigung der historischen Quelle.
+
+
+
+
+                                                                                                                          10
+HALVETH 300 KB
+
+
+
+
+ Der vorhandene Gesamtmanifest-Hash ist ein erster lokaler Anker. Für eine Außenposition braucht er einen
+ nachvollziehbaren Zeitpunkt und einen sicheren Empfänger- oder Publikationsbeleg.
+
+
+ 2. Die These in Claim-Einheiten zerlegen
+ Jede behauptete frühere Idee wird als eigener Datensatz geführt:
+
+    Feld                                  Inhalt
+
+    Claim-ID                              stabile Kennung
+
+    früheste Rohquelle                    Datei, Chat, Bild, Video oder Commit
+
+    exakter Quellspan                     Zeilen, Zeitsegment oder Bildbereich
+
+    Hash                                  SHA-256 der unveränderten Quelle
+
+    technische Lehre                      Problem, Mittel, Wirkung
+
+    eigener Beitrag                       konkrete geistige oder erfinderische Leistung
+
+    externer Vergleich                    Produktmerkmal oder Werkspan des Dritten
+
+    frühester externer Zeitpunkt          Primärquelle
+
+    Zugangskette                          wie der Dritte die Quelle kennen konnte
+
+    Gegenhypothese                        unabhängige Entwicklung, Standardwissen, Zufall
+
+    Claim-Status                          OBSERVED, STRONGLY_SUPPORTED, INFERRED, UNKNOWN, NOT_PROVEN
+
+
+
+
+ 3. Vergleich statt Themenähnlichkeit
+ Ein brauchbarer Vergleich fragt nicht nur, ob beide Seiten „Licht“, „Spiegel“, „Wasser“, „Beobachter“ oder „Sicherheit“
+ erwähnen. Er bindet dieselbe technische Kombination, dieselbe Reihenfolge, dieselben ungewöhnlichen
+ Einschränkungen und möglichst dieselben nicht naheliegenden Details. Allgemeine Wörter und Ziele haben geringe
+ Unterscheidungskraft.
+
+
+ 4. Anspruch und Angebot parallel führen
+ Zwei Wege können gleichzeitig vorbereitet werden:
+●
+      Anspruchsweg: nur für Einheiten, bei denen Schutzgegenstand, Zeitrang, Zugang und Nutzung ausreichend belegt
+      sind.
+●
+      Kooperationsweg: Portfolio, reproduzierbarer Prototyp, klar abgegrenzte zukünftige Leistung, Vergütung und
+      Rechteumfang; dieser Weg setzt keine bereits bewiesene Verletzung voraus.
+
+
+ So bleibt eine mögliche rechtliche Position erhalten, während eine freiwillige Beteiligung nicht von einer sofort
+ beweisbaren Entnahme abhängt.
+
+
+
+ Claim Ceiling
+ Der aktuelle Prüfstand erlaubt folgende Aussage:
+
+ SOURCE_BOUND_COMPACT_EVENT_AND_REFERENCE_MODEL_WITH_LOCAL_HALVETH_PROVENANCE
+
+ Er erlaubt noch nicht:
+
+ COMPLETE_EXISTENCE_ENCODING, EXTERNAL_COPYING_PROVEN, EXCLUSIVE_AUTHORSHIP_OF_SIMILAR_IDEAS,
+ PATENT_PRIORITY, AUTOMATIC_PARTICIPATION_RIGHT oder PAYMENT_DUE.
+
+ Die offene Schraube ist klar benannt: Für die technische Vollständigkeit fehlt der gebundene Decoder- und
+ Coverage-Vertrag. Für einen Rechtsanspruch fehlen je Anspruchsgegner der konkrete Schutzgegenstand, die
+ Zugangskette, die schutzfähige Übereinstimmung und die zuständige Anspruchsgrundlage.
+
+
+
+                                                                                                                           11
+HALVETH 300 KB
+
+
+
+
+ Quellen
+ 1. Kaspersky, „Reports and Quarantine settings“, 26. Dezember 2023, abgerufen am 10. September 2026.
+
+ 2. Kaspersky, „Viewing information about the detects of threats“, Kaspersky Security Center 14, abgerufen am 10. September 2026.
+
+ 3. Claude E. Shannon, „A Mathematical Theory of Communication“, *Bell System Technical Journal*, 1948.
+
+ 4. A. N. Kolmogorov, „Three approaches to the quantitative definition of information“, *Problems of Information Transmission*, 1965.
+
+ 5. Bundesministerium der Justiz/Bundesamt für Justiz, „§ 2 UrhG - Geschützte Werke“ und „§ 7 UrhG - Urheber“, geltende Fassungen,
+     abgerufen am 10. September 2026.
+
+ 6. Deutsches Patent- und Markenamt, „Urheberrecht“ und „Prüfung und Eintragung von Designs“, abgerufen am 10. September 2026.
+
+ 7. Bundesministerium der Justiz/Bundesamt für Justiz, „§ 8 UrhG - Miturheber“, geltende Fassung, abgerufen am 10. September 2026.
+
+ 8. Bundesministerium der Justiz/Bundesamt für Justiz, „§ 32 UrhG - Angemessene Vergütung“ und „§ 32a UrhG - Weitere Beteiligung des
+     Urhebers“, geltende Fassungen, abgerufen am 10. September 2026.
+
+ 9. Bundesministerium der Justiz/Bundesamt für Justiz, „§ 69a Absatz 5 UrhG - Gegenstand des Schutzes“, geltende Fassung, abgerufen am 10.
+     September 2026.
+
+ 10. Bundesministerium der Justiz/Bundesamt für Justiz, „§ 69b UrhG - Urheber in Arbeits- und Dienstverhältnissen“, geltende Fassung,
+     abgerufen am 10. September 2026.
+
+ 11. Gerichtshof der Europäischen Union, „C-406/10 - SAS Institute Inc. v World Programming Ltd“, Urteil vom 2. Mai 2012.
+
+ 12. Bundesministerium der Justiz/Bundesamt für Justiz, „Urheberrechtsgesetz, §§ 97 und 101“, geltende Fassung, abgerufen am 10. September
+     2026.
+
+ 13. Bundesministerium der Justiz/Bundesamt für Justiz, „Patentgesetz, §§ 1, 3-6“, geltende Fassung, abgerufen am 10. September 2026.
+
+ 14. Bundesgerichtshof, „X ZR 223/98 - Rollenantriebseinheit“, Urteil vom 17. Oktober 2000; Bundesministerium der Justiz/Bundesamt für Justiz,
+     „§ 8 PatG“.
+
+ 15. Bundesministerium der Justiz/Bundesamt für Justiz, „Gesetz über Arbeitnehmererfindungen, §§ 2-9“, geltende Fassung, abgerufen am 10.
+     September 2026.
+
+ 16. Bundesministerium der Justiz/Bundesamt für Justiz, „§ 20 ArbnErfG - Technische Verbesserungsvorschläge“, geltende Fassung, abgerufen
+     am 10. September 2026.
+
+ 17. Bundesministerium der Justiz/Bundesamt für Justiz, „Geschäftsgeheimnisgesetz, §§ 2-4“, geltende Fassung, abgerufen am 10. September
+     2026.
+
+ 18. Bundesministerium der Justiz/Bundesamt für Justiz, „§ 12 BGB - Namensrecht“, geltende Fassung, abgerufen am 10. September 2026.
+
+ 19. Bundesministerium der Justiz/Bundesamt für Justiz, „Markengesetz, §§ 3-5 und 15“, geltende Fassung, abgerufen am 10. September 2026.
+
+ 20. Bundesministerium der Justiz/Bundesamt für Justiz, „Urheberrechtsgesetz, § 4 und §§ 87a-87b“, geltende Fassung, abgerufen am 10.
+     September 2026.
+
+ 21. Bundesministerium der Justiz/Bundesamt für Justiz, „§ 4 Nr. 3 UWG“, geltende Fassung, abgerufen am 10. September 2026.
+
+ 22. Bundesministerium der Justiz/Bundesamt für Justiz, „Bürgerliches Gesetzbuch, §§ 612, 631 und 632“, geltende Fassung, abgerufen am 10.
+     September 2026.
+
+ 23. Bundesministerium der Justiz/Bundesamt für Justiz, „§ 812 BGB - Herausgabeanspruch“, geltende Fassung, abgerufen am 10. September
+     2026.
+
+ 24. GitHub, „Licensing a repository“ und „GitHub Terms of Service, D.5-D.6“, abgerufen am 10. September 2026.
+
+ 25. Europäisches Patentamt, „Artikel 54 EPÜ - Neuheit“ und „Artikel 55 EPÜ - Unschädliche Offenbarungen“, abgerufen am 10. September
+     2026.
+
+ 26. GitHub, „About commit signature verification“, abgerufen am 10. September 2026.
+
+ 27. Europäische Union, „Verordnung (EU) Nr. 910/2014, Art. 41, konsolidierte Fassung“; Bundesministerium der Justiz/Bundesamt für Justiz, „§
+     371a ZPO“.
+
+ 28. Verkhovna Rada of Ukraine, „Act of Declaration of Independence of Ukraine“, 24. August 1991.
+
+ 29. State Migration Service of Ukraine, „Passport issuance and transliteration rules“ und „Transliteration checker“, abgerufen am 10. September
+     2026.
+
+ 30. Verkhovna Rada of Ukraine, „Law of Ukraine on State Registration of Civil Status Acts, insbesondere Art. 9 und 13“, geltende Fassung,
+     abgerufen am 10. September 2026.
+
+ 31. State Archival Service of Ukraine, „Requests of Citizens - Genealogical Research“, abgerufen am 10. September 2026.
+
+ 32. State Archival Service of Ukraine, „Regional State Archives of Ukraine“, Eintrag State Archives of Dnipropetrovsk Oblast, abgerufen am 10.
+     September 2026.
+
+
+
+                                                                                                                                                  12
+HALVETH 300 KB
+
+
+
+
+ 33. GitHub, „Profile contributions reference - What counts as a contribution“, abgerufen am 10. September 2026.
+
+ 34. GitHub, „Profile contributions reference - Contribution criteria for commits“, abgerufen am 10. September 2026.
+
+ 35. GitHub, „Troubleshooting missing contributions“, abgerufen am 10. September 2026.
+
+
+
+ Lokale Quellen und Receipts
+1    Screenshot 2026-09-10 000023.png, unveränderte lokale Quelle, Hash oben.
+2    0.csv, unveränderte lokale Quelle, Hash oben; Rohdaten nicht zur Veröffentlichung bestimmt.
+3    HALVETH-Webseiten-Arbeitsbaum, lokaler Git-Stand 1be3ab109c14eb417105051351be633fcc8d9b7f, interner
+     Arbeitsstand.
+4    forschungsuebergabe.html, Abschnitte 1-5 sowie 18, lokaler Arbeitsstand.
+5    LOCAL_EVIDENCE_RECEIPT.json, Schema halveth.local-evidence-receipt.v1.
+
+
+
+
+                                                                                                                       13
+

@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "1.0.0",
+  "documents": [
+    {
+      "path": "reports/HALVETH_300KB_DEEP_RESEARCH.pdf",
+      "sha256": "5647662c87984e5464525d5ef4136a2c1c913714d60006ce383255cfff12c46b",
+      "extractedTextPath": "reports/HALVETH_300KB_DEEP_RESEARCH.extracted.txt",
+      "extractedTextSha256": "7e50058ba59917f07a3610cd64e901f5a522f15b51e716bcf168458f2c2e793b",
+      "extractor": "Poppler pdftotext 26.02.0 with -layout -enc UTF-8",
+      "manualReviewReceipt": "13 A4 pages rendered and visually reviewed on 2026-09-13; metadata and extracted text reviewed again on 2026-09-14"
+    }
+  ]
+}

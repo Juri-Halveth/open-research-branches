@@ -69,3 +69,28 @@ the notice; `v0.6.0` is its first tagged release. It controls distinguishable
 new contributions and does not rewrite old tags or withdraw earlier
 permissions. Material that overlaps the old release remains reusable from that
 old release under CC BY 4.0 or CC0 1.0.
+
+## HALVETH 2.0 prospective cutover
+
+The historical parent for this change is `5911fd9d86e70623942c4dfa6038ff88d0ac4846`.
+All effective MIT, ISC, CC BY, CC0 and Juri Public-Interest Research Permission
+1.0 grants remain available for the files, versions and overlapping material
+to which they applied.
+
+The following are assigned to [HALVETH Public-Interest Research License
+2.0](LICENSE-HALVETH-PIRL-2.0.md) beginning with the first public commit that
+contains them:
+
+- `HALVETH-RIGHTS.md` and `HALVETH-RIGHTS.json`;
+- `LICENSE-HALVETH-PIRL-2.0.md` as allowed by its own copying clause;
+- `reports/HALVETH_300KB_DEEP_RESEARCH.pdf`;
+- `reports/HALVETH_300KB_DEEP_RESEARCH.sha256`;
+- `reports/HALVETH_300KB_DEEP_RESEARCH_RIGHTS.md`; and
+- distinguishable new original HALVETH contributions first published after
+  the historical parent, unless a file-specific notice expressly says
+  otherwise.
+
+For post-parent original contributions, this prospective rule takes precedence
+over the generic MIT, CC BY and CC0 class rows above. Historical files and
+overlapping material remain available from the earlier commits under those
+earlier terms.

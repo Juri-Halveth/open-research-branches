@@ -1,16 +1,19 @@
 import path from "node:path";
 import { spawnSync } from "node:child_process";
+import { createHash } from "node:crypto";
 import { inflateSync } from "node:zlib";
 
 const MAX_PUBLIC_FILE_BYTES = 8 * 1024 * 1024;
 const MANIFEST_PATH = "catalog/public-files.txt";
 const PUBLIC_IDENTITIES_PATH = "catalog/public-identities.json";
+const PUBLIC_BINARY_DOCUMENTS_PATH = "catalog/public-binary-documents.json";
 const PUBLIC_IDENTITIES_SCHEMA_VERSION = "1.0.0";
+const PUBLIC_BINARY_DOCUMENTS_SCHEMA_VERSION = "1.0.0";
 const PUBLIC_IDENTITIES_SERIALIZATION_VERSION = "PRETTY_JSON_V1";
 const FATAL_UTF8 = new TextDecoder("utf-8", { fatal: true, ignoreBOM: true });
 
 const TEXT_EXTENSIONS = new Set([
-  ".cff", ".css", ".csv", ".html", ".js", ".json", ".md", ".mjs", ".py", ".txt", ".yaml", ".yml"
+  ".cff", ".css", ".csv", ".html", ".js", ".json", ".md", ".mjs", ".py", ".sha256", ".txt", ".yaml", ".yml"
 ]);
 const TEXT_BASENAMES = new Set([".gitattributes", ".gitignore", "LICENSE"]);
 const REJECTED_BINARY_EXTENSIONS = new Set([".docx", ".pdf", ".pptx", ".xlsx"]);
@@ -336,9 +339,57 @@ function readPublicIdentities(snapshot, publicFiles) {
   return parsed.identities;
 }
 
+function readPublicBinaryDocuments(snapshot, publicFiles) {
+  const text = decodePublicText(snapshot.readBlob(PUBLIC_BINARY_DOCUMENTS_PATH), PUBLIC_BINARY_DOCUMENTS_PATH);
+  let parsed;
+  try {
+    parsed = JSON.parse(text);
+  } catch {
+    throw new ReleaseGateError(`${PUBLIC_BINARY_DOCUMENTS_PATH}: invalid JSON`);
+  }
+  if (`${JSON.stringify(parsed, null, 2)}\n` !== text) {
+    throw new ReleaseGateError(`${PUBLIC_BINARY_DOCUMENTS_PATH}: input must use pretty JSON serialization`);
+  }
+  assertExactObjectKeys(parsed, ["schemaVersion", "documents"], PUBLIC_BINARY_DOCUMENTS_PATH);
+  if (parsed.schemaVersion !== PUBLIC_BINARY_DOCUMENTS_SCHEMA_VERSION || !Array.isArray(parsed.documents)) {
+    throw new ReleaseGateError(`${PUBLIC_BINARY_DOCUMENTS_PATH}: unsupported schema or documents value`);
+  }
+  const byPath = new Map();
+  for (const [index, document] of parsed.documents.entries()) {
+    const label = `${PUBLIC_BINARY_DOCUMENTS_PATH} document ${index}`;
+    assertExactObjectKeys(
+      document,
+      ["path", "sha256", "extractedTextPath", "extractedTextSha256", "extractor", "manualReviewReceipt"],
+      label
+    );
+    validateManifestPath(document.path, `${label} path`);
+    validateManifestPath(document.extractedTextPath, `${label} extractedTextPath`);
+    if (!publicFiles.includes(document.path) || !publicFiles.includes(document.extractedTextPath)) {
+      throw new ReleaseGateError(`${label}: document and extracted text must be in the public manifest`);
+    }
+    if (!/^[0-9a-f]{64}$/u.test(document.sha256) || !/^[0-9a-f]{64}$/u.test(document.extractedTextSha256)) {
+      throw new ReleaseGateError(`${label}: SHA-256 values must be lowercase hexadecimal`);
+    }
+    if (
+      typeof document.extractor !== "string" || !document.extractor.length ||
+      typeof document.manualReviewReceipt !== "string" || !document.manualReviewReceipt.length
+    ) {
+      throw new ReleaseGateError(`${label}: extractor and manual review receipt are required`);
+    }
+    if (byPath.has(document.path)) throw new ReleaseGateError(`${label}: duplicate document path`);
+    byPath.set(document.path, document);
+  }
+  return byPath;
+}
+
+function sha256(bytes) {
+  return createHash("sha256").update(bytes).digest("hex");
+}
+
 export function runPrepublishCheck(snapshot, publicFiles) {
   const manifestFiles = publicFiles ?? validatePublicManifest(snapshot).publicFiles;
   const publicIdentities = readPublicIdentities(snapshot, manifestFiles);
+  const publicBinaryDocuments = readPublicBinaryDocuments(snapshot, manifestFiles);
   const findings = [];
   for (const relative of manifestFiles) {
     const bytes = snapshot.readBlob(relative);
@@ -349,11 +400,34 @@ export function runPrepublishCheck(snapshot, publicFiles) {
       findings.push(`${relative}: forbidden secret-bearing extension`);
       continue;
     }
+    let contents;
     if (REJECTED_BINARY_EXTENSIONS.has(extension)) {
-      findings.push(`${relative}: binary document requires a dedicated public metadata and content scanner`);
+      const binaryDocument = publicBinaryDocuments.get(relative);
+      if (!binaryDocument) {
+        findings.push(`${relative}: binary document requires a dedicated public metadata and content scanner`);
+        continue;
+      }
+      const extractedTextBytes = snapshot.readBlob(binaryDocument.extractedTextPath);
+      if (sha256(bytes) !== binaryDocument.sha256) findings.push(`${relative}: binary SHA-256 mismatch`);
+      if (sha256(extractedTextBytes) !== binaryDocument.extractedTextSha256) {
+        findings.push(`${relative}: extracted text SHA-256 mismatch`);
+      }
+      try {
+        contents = decodePublicText(extractedTextBytes, binaryDocument.extractedTextPath);
+      } catch (error) {
+        findings.push(`${relative}: extracted content scan failed: ${error.message}`);
+        continue;
+      }
+      for (const identity of publicIdentities) {
+        if (identity.files.includes(relative) || identity.files.includes(binaryDocument.extractedTextPath)) {
+          contents = contents.split(identity.exactText).join("[AUTHORIZED_PUBLIC_IDENTITY]");
+        }
+      }
+      for (const pattern of TEXT_PATTERNS) {
+        if (pattern.expression.test(contents)) findings.push(`${relative}: extracted content ${pattern.label}`);
+      }
       continue;
     }
-    let contents;
     try {
       if (extension === ".png") {
         contents = extractPngTextMetadata(bytes, relative);

@@ -1,5 +1,11 @@
 # Release artifacts
 
+## HALVETH 300 KB
+
+- [Deep research report](HALVETH_300KB_DEEP_RESEARCH.pdf)
+- [Authorship and rights record](HALVETH_300KB_DEEP_RESEARCH_RIGHTS.md)
+- [SHA-256 receipt](HALVETH_300KB_DEEP_RESEARCH.sha256)
+
 **New:** [Loki, Dormammu und Wanda — Deutsch](HALVETH_MARVEL_PERSPECTIVES.de.md) · [English](HALVETH_MARVEL_PERSPECTIVES.en.md). Narrative sources, ethical alternatives and the requirements for a testable model. Public author credit: **HALVETH!!!**.
 
 This directory contains additional public-source audits. It does not expand
