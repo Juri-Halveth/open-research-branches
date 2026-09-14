@@ -13,6 +13,7 @@ any branch's claim ceiling.
 
 | Artifact | Purpose |
 | --- | --- |
+| [FREE NEWS 025 · HALVETH All-Scales Aperture](FREE_NEWS_025_HALVETH_ALL_SCALES_APERTURE_2026-09-15.md) | Tagesquerschnitt über Menschen, Garden, Pflanzen, Tiere, Atome, Fiktion, Software, Zeitprovenienz und Zusammenarbeit |
 | `MICROSOFT_PKI_REPOSITORY_PATTERN.md` | Deep primary-source review of public trust records, status, audit and write authority |
 | `MAC_OUI_REGISTRY_BOUNDARY.md` | IEEE-bound interpretation of MAC/OUI registry counts without device identification |
 | `FREE_NEWS_001_IOS_MARKER_AND_401_EDGE.md` | One-minute note separating a transient Codex 401 sequence from an initially missing and now append-only source-span-bound iOS marker |

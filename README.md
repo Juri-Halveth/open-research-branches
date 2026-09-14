@@ -12,6 +12,8 @@
 
 Hier treffen Software, Naturbeobachtung, Sprache und gesellschaftliche Fragen aufeinander. Du kannst ein Modell ausprobieren, einen Bericht lesen, eine Quelle ergänzen oder mit einer eigenen Frage einsteigen. Die Sammlung wächst mit nachvollziehbaren Beiträgen.
 
+**Neu:** [`FREE NEWS 025 · HALVETH All-Scales Aperture`](reports/FREE_NEWS_025_HALVETH_ALL_SCALES_APERTURE_2026-09-15.md) verbindet den heutigen Stand zu Menschen, neun Gartenlinsen, Pflanzen, Tieren, Atomen, fiktionalen Rollen, Software, Zeitprovenienz und Zusammenarbeit, ohne die verschiedenen Objekttypen gleichzusetzen.
+
 **[Im Wiki starten](https://github.com/Juri-Halveth/open-research-branches/wiki)** · **[Alle Projekte](wiki/Projekte.md)** · **[Diskutieren](https://github.com/Juri-Halveth/open-research-branches/discussions)** · **[Nutzung & Credit](wiki/Rechte-und-Nutzung.md)**
 
 ---
@@ -171,6 +173,11 @@ Wachsmalstift-Friedenshelm enthält der Ast dagegen eigene reproduzierbare
 Buildquellen; die daraus erzeugten PDF- und Präsentationsdateien werden als
 separat geprüfte Release-Assets verteilt. Der aktuelle Quellstand liegt in den
 Astordnern und im maschinenlesbaren Katalog.
+
+[`FREE NEWS 025`](reports/FREE_NEWS_025_HALVETH_ALL_SCALES_APERTURE_2026-09-15.md)
+ist der endliche HALVETH/LUCINET-Tagesquerschnitt vom 15. September 2026. Er
+hält die universenübergreifende Gestaltung offen, führt aber jede biologische,
+physische, fiktionale, technische und soziale Achse mit eigener Beleggrenze.
 
 Der [`öffentliche Projekt-Snapshot`](reports/FREE_NEWS_016_PUBLIC_GITHUB_PROJECT_CONSTELLATION.md)
 bindet außerdem die vier beim Abruf sichtbaren öffentlichen Repositorys dieses

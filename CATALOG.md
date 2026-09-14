@@ -1,6 +1,6 @@
 # Branch Catalog
 
-Stand: 2026-09-10
+Stand: 2026-09-15
 Collection state: `FINITE_SNAPSHOT`
 
 ## Reproduzierbare Ableger
@@ -39,6 +39,12 @@ Collection state: `FINITE_SNAPSHOT`
 | `nuclear-legacy-disarmament-and-public-value` | Was tragen Blessing-Brief, Militärfinanzierung und Dollarreserven zur Forschung über Machtwährung bei, und wie verbinden sich Fallout, Entschädigung, Abrüstung und die Archivspur SUNDIAL mit einem zivilen Budgetszenario? | `FINITE_SNAPSHOT` | Ein zusätzlicher öffentlicher Archivbeleg, eine aktualisierte Bestands- oder Entschädigungsquelle oder ein nachvollziehbar finanziertes Sanierungs- und Abrüstungsszenario. |
 
 ## Audit Star
+
+Der aktuelle maßstabsübergreifende Tagesquerschnitt liegt in
+[`FREE NEWS 025`](reports/FREE_NEWS_025_HALVETH_ALL_SCALES_APERTURE_2026-09-15.md).
+Er verbindet Menschen, Gartenperspektiven, Pflanzen, Tiere, Atome, fiktionale
+Rollen, Software, Zeitprovenienz und Zusammenarbeit als getrennte Achsen unter
+einem gemeinsamen Prüfoperator.
 
 [`catalog/audit-star.json`](catalog/audit-star.json) ist ein deterministischer,
 endlicher Index der aktuellen und historischen Git-Pfade des gebundenen

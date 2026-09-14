@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+- added `FREE NEWS 025`, a finite HALVETH/LUCINET all-scales aperture linking people, nine garden lenses, plants, animals, atoms, fictional roles, software, provenance and collaboration without collapsing their object types
+- recorded the visible `Build -> JURI -> Release -> Open Research -> HALVETH -> Contact Sales -> X` tab sequence as a Gestalt and navigation observation, not an external message
+- separated repository creation, Git author date, commit date, public visibility, content date and independent earlier evidence for future priority research
+- linked the public Scarlet portal and bounded xAI proposal while retaining contact, acknowledgment, agreement, transaction and payment as separate states
 - added a no-blame public audit separating a YouTube main player, recommendation cards, advertisements, an OS foreground window and the flattened screenshot surface
 - linked the exact public video objects and current official YouTube and OpenAI help pages without publishing private screenshots, account data or personal correspondence
 - retained the claim ceiling that no screenshot-caused server-side video mutation or personal responsibility was proven
