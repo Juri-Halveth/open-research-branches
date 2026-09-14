@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+- added a no-blame public audit separating a YouTube main player, recommendation cards, advertisements, an OS foreground window and the flattened screenshot surface
+- linked the exact public video objects and current official YouTube and OpenAI help pages without publishing private screenshots, account data or personal correspondence
+- retained the claim ceiling that no screenshot-caused server-side video mutation or personal responsibility was proven
+
 ## 0.18.0 — 2026-09-10
 
 - added a 43-source report on nuclear power, military finance, currency reserves, historical fallout, compensation and disarmament

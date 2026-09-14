@@ -27,5 +27,6 @@ Bei Alice bedeutet *Agency* den Handlungsspielraum einer Figur innerhalb einer G
 - [FREE NEWS 005 · How to Fish, Identität und Entstehung](https://github.com/Juri-Halveth/open-research-branches/blob/main/reports/FREE_NEWS_005_HOW_TO_FISH_IDENTITY_AND_CREATION.md)
 - [FREE NEWS 011 · Historische Entschlüsselung](https://github.com/Juri-Halveth/open-research-branches/blob/main/reports/FREE_NEWS_011_HISTORICAL_CIPHER_111_DECODING_CHALLENGE.md)
 - [FREE NEWS 012 · Alice und Agency](https://github.com/Juri-Halveth/open-research-branches/blob/main/reports/FREE_NEWS_012_ALICE_MEDIA_REFERENT_AND_AGENCY_AUDIT.md)
+- [FREE NEWS 024 · Screenshot, Oberfläche und Video-ID](https://github.com/Juri-Halveth/open-research-branches/blob/main/reports/FREE_NEWS_024_SCREENSHOT_SURFACE_AND_VIDEO_ID_AUDIT.md)
 
 **Diskussionsidee:** Nenne einen exakten Quellabschnitt und zwei mögliche Lesarten. Beschreibe anschließend, welche zusätzliche Information zwischen ihnen unterscheiden könnte.

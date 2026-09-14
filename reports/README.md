@@ -42,6 +42,7 @@ any branch's claim ceiling.
 | [FREE NEWS 023 · Andrea Botez, S.O.S. und die ersten 20 Sekunden](FREE_NEWS_023_ANDREA_BOTEZ_SOS_SOURCE_AUDIT.md) | Source-bound audiovisual and share-provenance audit separating the audible 2024 song vocal, two Andrea video objects, the earlier unavailable upload and external-intent claim boundaries |
 | `FREE_NEWS_023_ANDREA_BOTEZ_SOS_SOURCE_AUDIT.receipt.json` | Machine-readable source, timing, audio-comparison and claim-ceiling receipt for FREE NEWS 023 |
 | `FREE_NEWS_023_SHARE_WITNESS_LEDGER.json` | Machine-readable provenance ledger for four ChatGPT shares, two distinct Andrea video IDs, the separate OXEN video and the bounded claim states |
+| [FREE NEWS 024 · Screenshot, Oberfläche und Video-ID](FREE_NEWS_024_SCREENSHOT_SURFACE_AND_VIDEO_ID_AUDIT.md) | No-blame audit separating the main player, recommendations, advertising, an OS foreground window and a flattened screenshot; no screenshot-caused video mutation is inferred |
 
 Local Office and PDF artifacts from an earlier ten-branch working snapshot are
 intentionally absent. They do not describe the current release,
