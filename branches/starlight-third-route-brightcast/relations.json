@@ -1,0 +1,25 @@
+{
+  "schema": "halveth.brightcast.relations.v1",
+  "recordedAt": "2026-09-15T14:45:00Z",
+  "contentPackets": [
+    {"id":"CONTENT.CANON.HOMELANDER","kind":"FICTIONAL_CHARACTER_CANON","semanticAddress":"THE_BOYS/TV/HOMELANDER"},
+    {"id":"CONTENT.CANON.BUTCHER","kind":"FICTIONAL_CHARACTER_CANON","semanticAddress":"THE_BOYS/TV/BILLY_BUTCHER"},
+    {"id":"CONTENT.CANON.STARLIGHT","kind":"FICTIONAL_CHARACTER_CANON","semanticAddress":"THE_BOYS/TV/ANNIE_JANUARY"},
+    {"id":"CONTENT.CANON.BECCA","kind":"FICTIONAL_CHARACTER_CANON","semanticAddress":"THE_BOYS/TV/BECCA_BUTCHER"},
+    {"id":"CONTENT.HALVETH.THIRD_ROUTE","kind":"FAN_COUNTERFACTUAL","semanticAddress":"HALVETH/BRIGHTCAST/001/THIRD_ROUTE"},
+    {"id":"CONTENT.MARVEL.LENSES","kind":"SEPARATE_FICTIONAL_COMPARISON_SET","semanticAddress":"MARVEL/DORMAMMU_WANDA_LOKI/COMPARISON_ONLY"}
+  ],
+  "eventPackets": [
+    {"id":"EVENT.SERIES.FINALE","kind":"PUBLISHED_FICTIONAL_EPISODE","time":"2026-05-20","sourceRefs":["S02_PRIME_SEASON5","S04_LATIMES_FINALE"]},
+    {"id":"EVENT.BRIGHTCAST.AUTHORING","kind":"LOCAL_ORIGINAL_PRODUCTION","time":"2026-09-15","sourceRefs":[]}
+  ],
+  "relations": [
+    {"id":"R01","left":"CONTENT.CANON.HOMELANDER","right":"CONTENT.CANON.BUTCHER","relationType":"NARRATIVE_COLLISION","direction":"UNDIRECTED_COMPARISON","state":"SOURCE_BOUND"},
+    {"id":"R02","left":"CONTENT.CANON.BECCA","right":"CONTENT.CANON.BUTCHER","relationType":"STATED_MOTIVATIONAL_HISTORY","direction":"LEFT_TO_RIGHT","state":"SOURCE_BOUND"},
+    {"id":"R03","left":"CONTENT.CANON.STARLIGHT","right":"CONTENT.HALVETH.THIRD_ROUTE","relationType":"USER_PROPOSED_NARRATIVE_LENS","direction":"LEFT_TO_RIGHT","state":"HYPOTHESIS"},
+    {"id":"R04","left":"EVENT.SERIES.FINALE","right":"CONTENT.HALVETH.THIRD_ROUTE","relationType":"COUNTERFACTUAL_BRANCH_FROM","direction":"LEFT_TO_RIGHT","state":"INTERPRETIVE_FRAME"},
+    {"id":"R05","left":"CONTENT.MARVEL.LENSES","right":"CONTENT.HALVETH.THIRD_ROUTE","relationType":"CROSS_FRANCHISE_COMPARISON_ONLY","direction":"LEFT_TO_RIGHT","state":"INTERPRETIVE_FRAME"},
+    {"id":"R06","left":"EVENT.BRIGHTCAST.AUTHORING","right":"CONTENT.HALVETH.THIRD_ROUTE","relationType":"MATERIALIZES_AS_ORIGINAL_VIDEO_ESSAY","direction":"LEFT_TO_RIGHT","state":"OBSERVED_AFTER_BUILD"}
+  ],
+  "relationBoundary": "No relation asserts shared canon, physical timelines, creator intent, personal messages, identity, consent or representation by any real person."
+}

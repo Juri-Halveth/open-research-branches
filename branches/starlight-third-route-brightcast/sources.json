@@ -1,0 +1,63 @@
+{
+  "schema": "halveth.brightcast.sources.v1",
+  "recordedAt": "2026-09-15T14:45:00Z",
+  "sources": [
+    {
+      "id": "S01_AMAZON_FINAL_SEASON",
+      "title": "How to watch The Boys Season 5, streaming now on Prime Video",
+      "publisher": "Amazon",
+      "url": "https://www.aboutamazon.com/news/entertainment/the-boys-eric-kripke-season-5-prime-video",
+      "supports": ["Homelander's rule", "Annie's resistance", "Butcher's Supe-killing virus", "final-season status"],
+      "evidenceState": "PRIMARY_PUBLISHER_SOURCE"
+    },
+    {
+      "id": "S02_PRIME_SEASON5",
+      "title": "The Boys Season 5",
+      "publisher": "Prime Video",
+      "url": "https://www.primevideo.com/detail/0N9BB22P2FZ8UD2BBLNX07RP22",
+      "supports": ["season-five premise", "episode list", "Annie and the Boys resist Homelander's rule"],
+      "evidenceState": "PRIMARY_DISTRIBUTOR_SOURCE"
+    },
+    {
+      "id": "S03_AMAZON_CAST",
+      "title": "The Boys Season 5 cast and characters guide",
+      "publisher": "Amazon",
+      "url": "https://www.aboutamazon.com/news/entertainment/the-boys-season-4-cast-guide-prime-video",
+      "supports": ["Annie January formerly Starlight", "light-based powers", "departure from Vought"],
+      "evidenceState": "PRIMARY_PUBLISHER_SOURCE"
+    },
+    {
+      "id": "S04_LATIMES_FINALE",
+      "title": "With The Boys, Satan's writers' room made a satire to afflict the comfortable",
+      "publisher": "Los Angeles Times",
+      "url": "https://www.latimes.com/entertainment-arts/awards/story/2026-06-10/the-boys-prime-video-eric-kripke-jack-quaid-erin-moriarty-chace-crawford-laz-alonso-karen-fukuhara",
+      "supports": ["finale outcome", "Homelander and Butcher parallel", "Becca assault as Butcher's engine", "Moriarty's hope-centered line"],
+      "evidenceState": "ATTRIBUTED_INTERVIEW_AND_REPORTING"
+    },
+    {
+      "id": "S05_ROTTEN_TOMATOES_BECCA",
+      "title": "The Boys Stars Break Down the Explosive Season 2 Finale",
+      "publisher": "Rotten Tomatoes",
+      "url": "https://editorial.rottentomatoes.com/article/the-boys-stars-break-down-the-explosive-season-2-finale/",
+      "supports": ["Becca's explicit account of rape in the series"],
+      "evidenceState": "ATTRIBUTED_CAST_INTERVIEW"
+    },
+    {
+      "id": "S06_AP_FINALE",
+      "title": "As The Boys ends, actors reveal their craziest stunts and what's next for Vought",
+      "publisher": "Associated Press",
+      "url": "https://apnews.com/article/41841d15aec14c8c571e293577a37320",
+      "supports": ["series-finale status", "Starlight's resistance role", "Moriarty's intent to preserve Annie's humanity"],
+      "evidenceState": "ATTRIBUTED_INTERVIEW_AND_REPORTING"
+    },
+    {
+      "id": "S07_VARIETY_FINALE",
+      "title": "The Boys Finale: Creator Explains Those Major Deaths",
+      "publisher": "Variety Australia",
+      "url": "https://au.variety.com/2026/tv/news/the-boys-finale-homelander-dead-butcher-gen-v-season-3-36811/",
+      "supports": ["Homelander depowered and killed", "finale production interpretation"],
+      "evidenceState": "ATTRIBUTED_CREATOR_INTERVIEW"
+    }
+  ],
+  "sourceBoundary": "The video uses no clips, stills, logos, music or actor likenesses from the cited works. Sources support factual canon summaries only. All audiovisual assets are original abstract graphics and locally synthesized speech and sound."
+}

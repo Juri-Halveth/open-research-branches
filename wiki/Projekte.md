@@ -2,7 +2,7 @@
 
 [Start](Home.md) · [Themen & Fragen](Thesen-und-Forschungsfragen.md) · [Glossar](Glossar.md)
 
-**26 veröffentlichte Forschungs- und Softwareäste**, alphabetisch nach den lesbaren Namen dieser Übersicht. Die Links führen zu den bestehenden Projekt-READMEs mit Originaltitel, genauer Frage, Dateien und Fortsetzungsmöglichkeiten.
+**29 veröffentlichte Forschungs- und Softwareäste**, alphabetisch nach den lesbaren Namen dieser Übersicht. Die Links führen zu den bestehenden Projekt-READMEs mit Originaltitel, genauer Frage, Dateien und Fortsetzungsmöglichkeiten.
 
 | Projekt | Worum geht es? | Themenraum |
 | --- | --- | --- |
@@ -11,6 +11,7 @@
 | [Atomwaffen, Macht und Geld](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/nuclear-legacy-disarmament-and-public-value/README.md) | Blessing-Brief, Militärfinanzierung, Dollarreserven und Machtwährung erforschen; Fallout, Entschädigung, Abrüstung, SUNDIAL und zivile Budgets anhand öffentlicher Quellen einordnen. | [Gesellschaft & Frieden](Gesellschaft-Teilhabe-und-Frieden.md#atomwaffen-macht-und-geld) |
 | [Beobachten, ohne private Daten offenzulegen](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/deidentified-self-observation-protocol/README.md) | Leeres Schema für Messbedingungen, Unsicherheit und Eigenbeobachtung. | [Natur & Beobachtung](Natur-und-Beobachtung.md) |
 | [Bildbeschreibung und Interpretation](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/visual-interpretation-boundary/README.md) | Bildquelle, Verarbeitung, Messung und Deutung nachvollziehbar auseinanderhalten. | [Natur & Beobachtung](Natur-und-Beobachtung.md) |
+| [Brightcast 001: Starlights dritter Weg](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/starlight-third-route-brightcast/README.md) | Ein originales YouTube-Videoessay hält Serienkanon, Beccas Aussage und einen Gegenentwurf aus Schutz, Entmachtung und Verantwortung getrennt. | [Identität & Medien](Identitaet-Sprache-und-Medien.md) |
 | [Browsererweiterungen im Quellenvergleich](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/browser-extension-claim-reassessment/README.md) | Öffentliche Angaben zu 19 Erweiterungen nach Produktidee, Identität und Versionsbefund einordnen. | [Digitale Plattformen](Digitale-Plattformen.md) |
 | [Dokumentreferenzen prüfen](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/document-issue-reference-verifier/README.md) | Synthetische Referenzen, Dokumentausgaben und Rollen in einem kleinen Node.js-Modell prüfen. | [Code & Werkzeuge](Code-und-Werkzeuge.md) |
 | [Dokumentscanner: Verschlüsselung neu entwerfen](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/document-scanner-crypto-modernization/README.md) | Anforderungen für einen modernen lokalen Neuaufbau; Umsetzung zurückgestellt. | [Code & Werkzeuge](Code-und-Werkzeuge.md) |
@@ -28,6 +29,8 @@
 | [Quanteninternet und ASTER-Namensvergleich](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/quantum-internet-aster-mirror-audit/README.md) | Demonstrierte Netzwerkbauteile und die verschiedenen ASTER-/ASTAR-/ASTRA-Bezüge anhand ihrer Quellen vergleichen. | [Digitale Plattformen](Digitale-Plattformen.md) |
 | [Staking: Ausstieg und Verfügbarkeit](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/staking-unbonding-transparency-review/README.md) | Fünf Netzwerke, DAG-Dokumentationsabweichung und verständliche Vorabinformation vergleichen. | [Digitale Plattformen](Digitale-Plattformen.md) |
 | [Steam: Coins, Wallet und Leak-Berichte](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/steam-coins-wallet-and-leak-audit/README.md) | Sammelgegenstände, Guthaben, Points, Handel und getrennte Berichte zu Achievement-Daten verstehen. | [Digitale Plattformen](Digitale-Plattformen.md) |
+| [USDAI/SABR Kontext-Prisma](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/youtube-usdai-sabr-context-prism/README.md) | YouTube-Playerdiagnose, Streaming-SABR, Finanz-SABR und USD.AI nach Quelle, Domäne, Version und Zeit getrennt vergleichen. | [Digitale Plattformen](Digitale-Plattformen.md) |
+| [Wanen, Walküren, Eins-Abbildung und Spektren](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/wanen-walkyries-one-map-spectrum-audit/README.md) | Mythologische Gruppen, Marvel-Kontinuitäten, die Formelgrafik und Regenbogen- beziehungsweise Exoplanetenspektren quellengebunden trennen. | [Natur & Beobachtung](Natur-und-Beobachtung.md) |
 | [Was los? Informations- und Friedensaudit](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/russia-ukraine-information-and-peace-audit/README.md) | Öffentliche Quellen zum Russland-Ukraine-Krieg mit verschiedenen Erklärungsmodellen und gebundenen Entscheidungssnapshots lesen. | [Gesellschaft & Frieden](Gesellschaft-Teilhabe-und-Frieden.md) |
 | [Wasser und Photonik](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/water-photonic-open-questions/README.md) | Messbare optische Eigenschaften von Änderungen an Probe, Umwelt, Instrument oder Verarbeitung unterscheiden. | [Licht & Energie](Licht-Wasser-und-Energie.md) |
 | [Wissen für die Wiederverwendung inventarisieren](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/bounded-knowledge-reuse-inventory/README.md) | Metadaten prüfen und einen getrennten Veröffentlichungsentscheid vorbereiten. | [Code & Werkzeuge](Code-und-Werkzeuge.md) |
@@ -39,6 +42,6 @@ Die [Berichtsübersicht](https://github.com/Juri-Halveth/open-research-branches/
 
 ## Weitere Ideen bleiben auffindbar
 
-Im [Kandidaten-Ledger](https://github.com/Juri-Halveth/open-research-branches/blob/main/catalog/CANDIDATE_TOPICS.md) stehen weitere angefragte Themenfamilien. Sie besitzen noch keinen freigegebenen öffentlichen Projektast und werden deshalb nicht zu den 26 Projekten gezählt.
+Im [Kandidaten-Ledger](https://github.com/Juri-Halveth/open-research-branches/blob/main/catalog/CANDIDATE_TOPICS.md) stehen weitere angefragte Themenfamilien. Sie besitzen noch keinen freigegebenen öffentlichen Projektast und werden deshalb nicht zu den 28 Projekten gezählt.
 
 **Bestandsgrundlage:** [catalog/branches.json](https://github.com/Juri-Halveth/open-research-branches/blob/main/catalog/branches.json), abgeglichen mit den veröffentlichten Projekt-READMEs am 10. September 2026.

@@ -1,0 +1,21 @@
+{
+  "schema": "halveth.public-sources.v1",
+  "retrievedAt": "2026-09-15",
+  "sources": [
+    {"id":"S01","title":"Old Norse Online, Lesson 10","publisher":"Linguistics Research Center, The University of Texas at Austin","url":"https://lrc.la.utexas.edu/eieol/norol/90","supports":["Aesir and Vanir source distinction","Thor source context"]},
+    {"id":"S02","title":"Old Norse religion","publisher":"Wikipedia contributors","url":"https://en.wikipedia.org/wiki/Old_Norse_religion","supports":["Aesir-Vanir distinction","Thor listed among Aesir"]},
+    {"id":"S03","title":"Walküre","publisher":"Wikipedia contributors","url":"https://de.wikipedia.org/wiki/Walk%C3%BCre","supports":["Valkyrie etymology","Odin association","selection of slain warriors"]},
+    {"id":"S04","title":"Hela","publisher":"Marvel","url":"https://www.marvel.com/characters/Hela?mobile-app=true&theme=dark%2F1000","supports":["MCU Hela as Odin's firstborn and sister to Asgardian princes"]},
+    {"id":"S05","title":"The Origin of Hela, Goddess of Death","publisher":"Marvel","url":"https://www.marvel.com/articles/comics/hela-goddess-of-death-origin-explained","supports":["Comics Hela origin variants and Loki relation"]},
+    {"id":"S06","title":"War of the Realms: The Ten Realms of the Marvel Universe","publisher":"Marvel","url":"https://www.marvel.com/amp/articles/comics/war-of-the-realms-the-ten-realms-of-the-marvel-universe","supports":["Angela as Aldrif and lost sister of Thor and Loki"]},
+    {"id":"S07","title":"Constant Map","publisher":"Wolfram MathWorld","url":"https://mathworld.wolfram.com/ConstantMap.html","supports":["Definition of a map sending every input to one fixed output"]},
+    {"id":"S08","title":"Wave Behaviors","publisher":"NASA Science","url":"https://science.nasa.gov/ems/03_behaviors/","supports":["Reflection","refraction","wavelength-dependent bending and color separation"]},
+    {"id":"S09","title":"What Causes a Rainbow?","publisher":"NOAA NESDIS","url":"https://www.nesdis.noaa.gov/about/k-12-education/optical-phenomena/what-causes-rainbow","supports":["Natural rainbow geometry and internal reflection"]},
+    {"id":"S10","title":"Atmosphere Composition of Exoplanet K2-18 b","publisher":"NASA Science","url":"https://science.nasa.gov/asset/webb/atmosphere-composition-of-exoplanet-k2-18-b-niriss-and-nirspec/","supports":["Original JWST graphic","methane and carbon dioxide","possible DMS feature"]},
+    {"id":"S11","title":"No robust evidence for life on K2-18 b from JWST observations","publisher":"arXiv","url":"https://arxiv.org/abs/2505.13407","supports":["Joint-spectrum reanalysis and DMS/DMDS evidence limit"]},
+    {"id":"S12","title":"Independent reanalysis of K2-18 b MIRI observations","publisher":"arXiv","url":"https://arxiv.org/abs/2508.05961","supports":["Pipeline and binning sensitivity"]},
+    {"id":"S13","title":"New Constraints on DMS and DMDS in K2-18 b","publisher":"arXiv","url":"https://arxiv.org/abs/2504.12267","supports":["Published DMS/DMDS evidence claim used as competing model"]},
+    {"id":"S14","title":"User Roles","publisher":"Immunefi Support","url":"https://immunefisupport.zendesk.com/hc/en-us/articles/20205029448849-User-Roles","supports":["Subscription visibility as a platform permission"]},
+    {"id":"S15","title":"Managed Triaging","publisher":"Immunefi Support","url":"https://immunefisupport.zendesk.com/hc/en-us/articles/20028806117009-Managed-Triaging","supports":["Triager subscription as an ordinary report workflow"]}
+  ]
+}

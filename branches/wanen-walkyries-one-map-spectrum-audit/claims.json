@@ -1,0 +1,17 @@
+{
+  "schema": "halveth.source-bound-claims.v1",
+  "branchId": "wanen-walkyries-one-map-spectrum-audit",
+  "claims": [
+    {"id":"C01","statement":"The three supplied local files were present at the recorded paths and hashed on 2026-09-15.","state":"OBSERVED","sourceRefs":["L01","L02","L03"]},
+    {"id":"C02","statement":"Norse sources distinguish Aesir and Vanir; Thor is ordinarily classed with the Aesir.","state":"SOURCE_BOUND","sourceRefs":["S01","S02"]},
+    {"id":"C03","statement":"Valkyries are associated with Odin and the selection or conveyance of slain warriors.","state":"SOURCE_BOUND","sourceRefs":["S01","S03"]},
+    {"id":"C04","statement":"MCU Hela is Odin's firstborn and sister to the Asgardian princes; Marvel comics contain different Hela origins and Angela/Aldrif as Thor and Loki's lost sister.","state":"SOURCE_BOUND_CONTINUITY_SPLIT","sourceRefs":["S04","S05","S06"]},
+    {"id":"C05","statement":"If every displayed s_i is sent by Phi to 1, the displayed restriction is a constant map and is not injective when at least two inputs differ.","state":"INFERRED_FROM_VISIBLE_FORM","sourceRefs":["L03","S07"]},
+    {"id":"C06","statement":"The original source, domain, codomain, author and intended interpretation of the Phi image are known.","state":"UNKNOWN","sourceRefs":["L03","Q01"]},
+    {"id":"C07","statement":"Visible spectral colors arise from wavelength-dependent light behavior; a natural rainbow involves refraction, internal reflection and dispersion in water droplets.","state":"SOURCE_BOUND","sourceRefs":["S08","S09"]},
+    {"id":"C08","statement":"The supplied K2-18 b screenshot corresponds to NASA's JWST atmosphere-composition graphic; methane and carbon dioxide are supported while DMS/DMDS remains disputed across later analyses.","state":"SOURCE_BOUND_WITH_LIVE_DISPUTE","sourceRefs":["L02","S10","S11","S12","S13"]},
+    {"id":"C09","statement":"A rainbow, spectrum or screenshot is evidence of a physical portal, planetary scan, mass mirror or personal message.","state":"NOT_PROVEN","sourceRefs":["L01","L02","S08","S09"]},
+    {"id":"C10","statement":"Ben Affleck is connected to the observed Immunefi subscription state or supplied materials.","state":"NOT_PROVEN","sourceRefs":["Q02","S14","S15"]}
+  ],
+  "claimCeiling": "SOURCE_BOUND_MYTHOLOGY_CONTINUITY_MATH_AND_SPECTRUM_AUDIT_WITH_MINIMIZED_LOCAL_HASH_RECEIPTS_NOT_FORMULA_PROVENANCE_THOUGHT_TRANSMISSION_PERSONAL_MESSAGE_PORTAL_IDENTITY_RELATIONSHIP_OR_UNIVERSAL_ONTOLOGY_PROOF"
+}

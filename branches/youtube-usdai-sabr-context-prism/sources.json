@@ -1,0 +1,48 @@
+{
+  "schema": "halveth.context-prism.sources.v1",
+  "recordedAt": "2026-09-15T13:55:43Z",
+  "sources": [
+    {
+      "id": "S01_LOCAL_MEDIA_RECEIPT",
+      "kind": "MINIMIZED_LOCAL_HASH_RECEIPT",
+      "access": "LOCAL_ONLY_SOURCE_NOT_PUBLISHED",
+      "sha256": [
+        "1792E7B2AC739872BD9DA4536D67252901D2ED6A509A6BE3B8BA1A21A60F7C45",
+        "282367072909C76AB6F2B1826BEF157448A01DC51D6CE02D1290926A97DC9A01",
+        "8DF9FD77D5B0A8FCAFEC32F55B75DDBA413D024E96EE1F58E4617185FA1DCC3E"
+      ]
+    },
+    {
+      "id": "S02_PLAYER_SOURCE_SNAPSHOT",
+      "kind": "BOUND_WEB_SOURCE_SNAPSHOT_HASH",
+      "access": "LOCAL_SNAPSHOT_MINIMIZED_TO_HASH_AND_OFFSETS",
+      "sha256": "513F17F6470F84948DBC928BAD59AB89D3F2FA86FB9502E30E5E209B7A1D4615",
+      "observedOffsets": {
+        "USDAI_EMISSION": 1630105,
+        "SABR_EMISSION": 1630158,
+        "DAI_TYPE_UNSPECIFIED": 481477,
+        "STITCHED_METADATA_FLAG": 481433
+      }
+    },
+    {
+      "id": "S03_GOOGLE_DAI",
+      "kind": "FIRST_PARTY_DOCUMENTATION",
+      "url": "https://developers.google.com/ad-manager/dynamic-ad-insertion"
+    },
+    {
+      "id": "S04_SABR_STREAMING",
+      "kind": "PUBLIC_PROTOCOL_IMPLEMENTATION_AND_DESCRIPTION",
+      "url": "https://github.com/mthwJsmith/sabr-rs"
+    },
+    {
+      "id": "S05_SABR_FINANCE",
+      "kind": "PEER_REVIEWED_PAPER",
+      "url": "https://pubsonline.informs.org/doi/10.1287/opre.2017.1617"
+    },
+    {
+      "id": "S06_USDAI_PROTOCOL",
+      "kind": "FIRST_PARTY_PROTOCOL_DOCUMENTATION",
+      "url": "https://docs.usd.ai/technical-overview/technical-protocol-overview.md"
+    }
+  ]
+}

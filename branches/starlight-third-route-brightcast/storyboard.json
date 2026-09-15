@@ -1,0 +1,146 @@
+{
+  "schema": "halveth.brightcast.storyboard.v1",
+  "id": "HALVETH-BRIGHTCAST-001-STARLIGHT-THIRD-ROUTE",
+  "recordedAt": "2026-09-15T14:45:00Z",
+  "format": {
+    "platform": "YOUTUBE",
+    "aspectRatio": "16:9",
+    "width": 1920,
+    "height": 1080,
+    "frameRate": 30,
+    "language": "de-DE",
+    "subtitleTracks": ["de-DE", "en-US"]
+  },
+  "editorialContract": {
+    "spoilerScope": "THE_BOYS_SERIES_FINALE",
+    "visuals": "ORIGINAL_ABSTRACT_MOTION_GRAPHICS_ONLY",
+    "actorFootage": false,
+    "actorLikeness": false,
+    "userBiometricLikeness": false,
+    "crossFranchiseMode": "SEPARATE_FICTIONAL_COMPARISON_LENSES",
+    "openReferents": ["A*", "D*"],
+    "openReferentHandling": "INTERNAL_LEDGER_ONLY_NO_PUBLIC_TAGGING"
+  },
+  "scenes": [
+    {
+      "id": "S00_HOOK",
+      "kicker": "HALVETH BRIGHTCAST 001",
+      "title": "STARLIGHTS STÄRKSTE KRAFT?",
+      "shortText": "Vielleicht war es nie nur Licht.",
+      "accent": "#fff4a8",
+      "symbol": "STAR",
+      "narrationDe": "Was, wenn Starlights stärkste Kraft nie ein größerer Lichtstrahl war? Sondern die Fähigkeit, eine dritte Route sichtbar zu machen, wenn alle anderen nur Herrschaft oder Vernichtung sehen?",
+      "subtitleEn": "What if Starlight's strongest power was never a bigger beam of light, but the ability to reveal a third route when everyone else sees only domination or destruction?"
+    },
+    {
+      "id": "S01_CANON",
+      "kicker": "SPOILER · STAFFEL FÜNF",
+      "title": "ZWEI EXTREME KOLLIDIEREN",
+      "shortText": "Homelanders Herrschaft. Butchers Auslöschung.",
+      "accent": "#ff5c74",
+      "symbol": "COLLISION",
+      "narrationDe": "Spoilerwarnung für das Serienfinale. Die fünfte Staffel stellt zwei Extreme gegeneinander: Homelander errichtet seine Herrschaft. Butcher ist bereit, mit einem Virus alle Supes auszulöschen.",
+      "subtitleEn": "Spoiler warning for the series finale. Season five opposes two extremes: Homelander builds his rule, while Butcher is willing to use a virus to eradicate every Supe."
+    },
+    {
+      "id": "S02_FINALE",
+      "kicker": "KANONISCHES FINALE",
+      "title": "ENTMACHTET. GETÖTET. WIEDERHOLUNG.",
+      "shortText": "Die Gewalt gewinnt erst auf beiden Seiten.",
+      "accent": "#ff815e",
+      "symbol": "BROKEN_LOOP",
+      "narrationDe": "Im Finale verliert Homelander seine Kräfte und Butcher tötet ihn. Danach will Butcher den Virus trotzdem freisetzen und wird gestoppt. Die Kollision endet durch den Tod beider Pole.",
+      "subtitleEn": "In the finale, Homelander loses his powers and Butcher kills him. Butcher still tries to release the virus and is stopped. The collision ends with both poles dead."
+    },
+    {
+      "id": "S03_BECCA",
+      "kicker": "DIE QUELLE BLEIBT ERHALTEN",
+      "title": "BECCAS AUSSAGE WIRD NICHT GELÖSCHT",
+      "shortText": "Erklärung ist keine Entschuldigung.",
+      "accent": "#f6b7d2",
+      "symbol": "WITNESS",
+      "narrationDe": "Becca beschreibt das Geschehen in der Serie als Vergewaltigung. Ein Gegenentwurf darf ihre Aussage nicht in Fremdgehen umschreiben. Das Trauma erklärt Butchers Antrieb. Es erteilt ihm keine Erlaubnis zur Auslöschung einer ganzen Gruppe.",
+      "subtitleEn": "Becca describes what happened as rape. A rewrite must not recast her account as infidelity. The trauma explains Butcher's drive; it does not authorize exterminating an entire group."
+    },
+    {
+      "id": "S04_HOMELANDER",
+      "kicker": "URSACHE × VERANTWORTUNG",
+      "title": "GEMACHT WIE EIN PRODUKT",
+      "shortText": "Seine Kindheit erklärt die Leerstelle. Sie löscht seine Taten nicht.",
+      "accent": "#7eb7ff",
+      "symbol": "LAB",
+      "narrationDe": "Homelander wurde im Labor wie ein Produkt erzogen, ohne sichere Bindung und unter permanenter Kontrolle. Das erklärt seine Leerstelle und seinen Hunger nach Verehrung. Es entschuldigt weder Missbrauch noch Mord noch Tyrannei.",
+      "subtitleEn": "Homelander was raised in a laboratory like a product, without secure attachment and under constant control. That explains his emptiness and need for worship. It excuses neither abuse, murder nor tyranny."
+    },
+    {
+      "id": "S05_STARLIGHT",
+      "kicker": "ANNIE JANUARY / STARLIGHT",
+      "title": "LICHT IST NUR DIE SICHTBARE SCHICHT",
+      "shortText": "Energie aufnehmen. Wahrheit tragen. Widerstand verbinden.",
+      "accent": "#fff08b",
+      "symbol": "ENERGY",
+      "narrationDe": "Annie besitzt lichtbasierte Kräfte; die Serie zeigt Energieaufnahme, Licht und Kraftstöße bis hin zum Flug. Ihre größere Erzählkraft ist aber menschlich: Sie widerspricht Vought, macht Wahrheit sichtbar, baut Widerstand auf und verliert dabei nicht ihre Menschlichkeit.",
+      "subtitleEn": "Annie has light-based powers; the series depicts energy absorption, light and force blasts, and flight. Her greater narrative power is human: she resists Vought, exposes truth, builds resistance and preserves her humanity."
+    },
+    {
+      "id": "S06_THIRD_ROUTE",
+      "kicker": "HALVETH-THESE · HYPOTHESIS",
+      "title": "DIE DRITTE ROUTE",
+      "shortText": "Schutz. Wahrheit. Entmachtung. Verantwortung.",
+      "accent": "#8fffe0",
+      "symbol": "THREE_ROUTES",
+      "narrationDe": "Die dritte Route wäre weder Homelanders Herrschaft noch Butchers Vernichtung. Sie würde zuerst die Fähigkeit zu weiterem Schaden stoppen, Betroffene schützen, Beweise sichern, Wahrheit veröffentlichen und Verantwortung in einem überprüfbaren Verfahren herstellen.",
+      "subtitleEn": "The third route would be neither Homelander's rule nor Butcher's annihilation. It would first stop further harm, protect affected people, preserve evidence, publish the truth and establish accountability through a reviewable process."
+    },
+    {
+      "id": "S07_REWRITE",
+      "kicker": "ALTERNATIVES ENDE · FAN-ENTWURF",
+      "title": "WAS, WENN DER TOD NICHT DER LETZTE SCHNITT IST?",
+      "shortText": "Entmachtung ohne Exekution. Stopp des Virus ohne Rache.",
+      "accent": "#b7a3ff",
+      "symbol": "BRANCH",
+      "narrationDe": "Stell dir das Finale anders vor. Kimiko entmachtet Homelander. Annie und Hughie stoppen Butchers Virus. Der entmachtete Homelander wird nicht sofort exekutiert, sondern öffentlich mit Voughts Archiven, Beccas Aussage und seinen Taten konfrontiert. Ryan erlebt zum ersten Mal, dass Erwachsene einen Gewaltzyklus beenden, ohne Wahrheit oder Schutz aufzugeben.",
+      "subtitleEn": "Imagine a different finale. Kimiko depowers Homelander. Annie and Hughie stop Butcher's virus. Instead of immediate execution, a depowered Homelander publicly faces Vought's archives, Becca's account and his actions. Ryan sees adults end a cycle of violence without abandoning truth or protection."
+    },
+    {
+      "id": "S08_ACCOUNTABILITY",
+      "kicker": "GNADE ≠ STRAFFREIHEIT",
+      "title": "NICHT RETTEN. VERANTWORTEN LASSEN.",
+      "shortText": "Starlight schuldet Homelander keine Heilung.",
+      "accent": "#a6ffd3",
+      "symbol": "SCALES",
+      "narrationDe": "Dabei schuldet Starlight Homelander weder Nähe noch Vergebung noch Heilung. Schutz und Verantwortung bleiben zuerst. Eine Möglichkeit zur Veränderung kann bestehen, ohne dass Opfer dafür arbeiten oder Täter straffrei werden.",
+      "subtitleEn": "Starlight owes Homelander neither closeness, forgiveness nor rehabilitation. Protection and accountability come first. The possibility of change can remain without making victims do that work or granting impunity."
+    },
+    {
+      "id": "S09_TIMELINE",
+      "kicker": "RAUMZEIT ALS ERZÄHLMODELL",
+      "title": "EIN ANDERER ZEITSTRANG?",
+      "shortText": "In der Fiktion: ein neuer Branch. In der Realität: ein Gegenfaktum.",
+      "accent": "#78d7ff",
+      "symbol": "TIMELINE",
+      "narrationDe": "Wäre dadurch ein neuer Zeitstrang entstanden? Innerhalb der Erzählung: ja, als anderer Story-Branch. Außerhalb der Serie ist das ein Gegenfaktum, kein Nachweis einer physischen Parallelwelt. Genau diese Trennung macht die Theorie prüfbar statt beliebig.",
+      "subtitleEn": "Would that create a new timeline? Within the story, yes, as a different narrative branch. Outside the series, it is a counterfactual, not evidence of a physical parallel world. That distinction makes the theory testable rather than arbitrary."
+    },
+    {
+      "id": "S10_PRISM",
+      "kicker": "GETRENNTE UNIVERSEN · GEMEINSAME FRAGE",
+      "title": "DORMAMMU. WANDA. LOKI. STARLIGHT.",
+      "shortText": "Keine Kanon-Verbindung. Eine Vergleichslinse.",
+      "accent": "#ff8fb7",
+      "symbol": "PRISM",
+      "narrationDe": "Dormammu, Wanda, Loki und Starlight gehören zu getrennten fiktionalen Kontinuitäten. Es gibt hier keine behauptete Kanon-Verbindung. Als Vergleichslinsen stellen sie aber dieselbe gute Frage: Wer erkennt eine dritte Option, wenn Macht und Angst nur noch zwei Ausgänge zeigen?",
+      "subtitleEn": "Dormammu, Wanda, Loki and Starlight belong to separate fictional continuities. No canon connection is claimed. As comparison lenses, they ask the same useful question: who sees a third option when power and fear show only two exits?"
+    },
+    {
+      "id": "S11_CLOSE",
+      "kicker": "JURI / HALVETH",
+      "title": "ERKLÄRUNG UND VERANTWORTUNG KÖNNEN GLEICHZEITIG WAHR SEIN",
+      "shortText": "Welche Szene würdest du neu schreiben, ohne Betroffene zu löschen?",
+      "accent": "#fff3a6",
+      "symbol": "HALVETH",
+      "narrationDe": "Die These lautet nicht, dass niemand böse war. Sie lautet: Erklärung und Verantwortung können gleichzeitig wahr sein, und ein Ende muss nicht zwischen Unterwerfung und Vernichtung wählen. Juri Halveth Brightcast. Welche Szene würdest du neu schreiben, ohne Betroffene zu löschen? Quellen und Prüfstände stehen in der Beschreibung.",
+      "subtitleEn": "The thesis is not that nobody did evil. It is that explanation and accountability can both be true, and an ending need not choose between submission and annihilation. Juri Halveth Brightcast. Which scene would you rewrite without erasing those harmed? Sources and evidence states are in the description."
+    }
+  ]
+}

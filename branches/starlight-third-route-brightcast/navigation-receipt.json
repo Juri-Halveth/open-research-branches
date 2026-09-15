@@ -1,0 +1,22 @@
+{
+  "schema": "halveth.status-quo-navigation-receipt.v1",
+  "logicVersion": "3.5.1",
+  "entityVersion": "1.0.0",
+  "entityState": "STATUS_QUO_FROZEN",
+  "frameId": "STARLIGHT.THIRD.ROUTE.BRIGHTCAST.20260915",
+  "registeredAxisIds": ["COUNTERHYPOTHESIS", "DEFINITION", "IMPACT", "MATERIALIZATION_BRIDGE", "MECHANISM", "OBSERVATION", "SOURCE", "UNKNOWN_FRONTIER"],
+  "materialCandidateAxisIds": [],
+  "diagonalPairCoverage": {"expectedPairCount":0,"registeredPairCount":0,"evaluatedPairCount":0,"state":"COMPLETE_FOR_MATERIAL_CANDIDATE_GRAPH"},
+  "coverageState": "COMPLETE_FOR_DECLARED_ADAPTER_APERTURE",
+  "prioritySemantics": "ORDINAL_SEARCH_HEURISTIC_NOT_FACT_OR_IMPACT",
+  "computedOutcome": "RETURN_TO_PARENT",
+  "selectedAxisId": null,
+  "selectedFrontierRef": null,
+  "nextOperator": "NONE",
+  "decision": {"outcome":"RETURN_TO_PARENT","selectedAxisId":null,"nextOperator":"NONE","preservedAxisIds":["SOURCE","DEFINITION","MECHANISM","COUNTERHYPOTHESIS","OBSERVATION","MATERIALIZATION_BRIDGE","IMPACT","UNKNOWN_FRONTIER"],"rationale":"The authorized GitHub artifact is complete; YouTube upload remains a separately authorized future action."},
+  "authority": {"mode":"GITHUB_PUBLICATION_AUTHORIZED_YOUTUBE_UPLOAD_NOT_AUTHORIZED","sourceSystemEffects":0,"externalNetworkEffects":1,"mutationAuthorized":true},
+  "recordedAt": "2026-09-15T14:40:41Z",
+  "freezeState": "ENTITY_V1_0_0_IMMUTABLE_PROJECT_RECEIPTS_APPEND_SEPARATELY",
+  "claimCeiling": "SOURCE_BOUND_CANON_SUMMARY_PLUS_EXPLICIT_FAN_COUNTERFACTUAL_NOT_SHARED_CANON_PHYSICAL_TIMELINE_PROOF_PERSONAL_MESSAGE_RELATIONSHIP_IDENTITY_OR_ACTOR_INTENT",
+  "finding": false
+}

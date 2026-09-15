@@ -1,0 +1,60 @@
+{
+  "schema": "halveth.status-quo-navigation-frame.v1",
+  "logicVersion": "3.5.1",
+  "entityVersion": "1.0.0",
+  "entityState": "STATUS_QUO_FROZEN",
+  "frameId": "USDAI.SABR.CONTEXT.PRISM.20260915",
+  "project": {
+    "domainAdapter": "GENERAL_RESEARCH",
+    "objective": "Bind the YouTube player diagnostic and same-spelled finance and crypto referents as separate nodes, then materialize one reusable local context-routing rule.",
+    "objectOrReferent": "The text pair USDAI, SABR and its player, streaming, finance and crypto source contexts.",
+    "scope": "Supplied-media hash receipt, bound player-source snapshot and current public documentation; no wallet action, external contact or creator-intent inference.",
+    "deliverableType": "PUBLIC_AUDIT_BRANCH",
+    "sourceRefs": ["S01_LOCAL_MEDIA_RECEIPT", "S02_PLAYER_SOURCE_SNAPSHOT", "S03_GOOGLE_DAI", "S04_SABR_STREAMING", "S05_SABR_FINANCE", "S06_USDAI_PROTOCOL"],
+    "acceptedBaselineRef": "HALVETH.CONTEXT.PRISM.BASELINE.20260915"
+  },
+  "scanPolicy": {
+    "horizontalMode": "FULL_DECLARED_ADAPTER_APERTURE",
+    "verticalPreviewDepth": 4,
+    "diagonalMode": "COMPLETE_MATERIAL_CANDIDATE_PAIR_GRAPH",
+    "selectiveDrillDepth": 4,
+    "noSelectiveDrillBeforeDiagonal": true,
+    "freezeMode": "VERSIONED_IMMUTABLE_BASELINE"
+  },
+  "axisRegistry": [
+    {"axisId":"SOURCE","label":"Source","definition":"Bind the supplied-media receipt, player snapshot and public documentation without collapsing their provenance.","layer":"GENERAL_RESEARCH","scope":"Six source records.","sourceBasisRefs":["S01_LOCAL_MEDIA_RECEIPT","S02_PLAYER_SOURCE_SNAPSHOT","S03_GOOGLE_DAI","S04_SABR_STREAMING","S05_SABR_FINANCE","S06_USDAI_PROTOCOL"],"statusQuoRef":"STATUSQUO.SOURCE.V1"},
+    {"axisId":"DEFINITION","label":"Definition","definition":"Keep player USDAI, player SABR, finance SABR and crypto USDai as separately defined referents.","layer":"GENERAL_RESEARCH","scope":"Four terms and one unresolved public long-form expansion.","sourceBasisRefs":["S02_PLAYER_SOURCE_SNAPSHOT","S04_SABR_STREAMING","S05_SABR_FINANCE","S06_USDAI_PROTOCOL"],"statusQuoRef":"STATUSQUO.DEFINITION.V1"},
+    {"axisId":"MECHANISM","label":"Mechanism","definition":"Bind the player emission conditions and separate protocol or model mechanisms to their own domains.","layer":"GENERAL_RESEARCH","scope":"Player diagnostics plus separately sourced finance and crypto mechanisms.","sourceBasisRefs":["S02_PLAYER_SOURCE_SNAPSHOT","S03_GOOGLE_DAI","S04_SABR_STREAMING","S05_SABR_FINANCE","S06_USDAI_PROTOCOL"],"statusQuoRef":"STATUSQUO.MECHANISM.V1"},
+    {"axisId":"COUNTERHYPOTHESIS","label":"Counterhypothesis","definition":"Compare a player diagnostic interpretation with finance, crypto, hidden-message and accidental-text-similarity candidates.","layer":"GENERAL_RESEARCH","scope":"Source-bound candidate comparison.","sourceBasisRefs":["S01_LOCAL_MEDIA_RECEIPT","S02_PLAYER_SOURCE_SNAPSHOT","S05_SABR_FINANCE","S06_USDAI_PROTOCOL"],"statusQuoRef":"STATUSQUO.COUNTERHYPOTHESIS.V1"},
+    {"axisId":"OBSERVATION","label":"Observation","definition":"Preserve the visible media text separately from the downloaded player-source observations.","layer":"GENERAL_RESEARCH","scope":"One supplied-media observation and one source-code snapshot.","sourceBasisRefs":["S01_LOCAL_MEDIA_RECEIPT","S02_PLAYER_SOURCE_SNAPSHOT"],"statusQuoRef":"STATUSQUO.OBSERVATION.V1"},
+    {"axisId":"MATERIALIZATION_BRIDGE","label":"Materialization bridge","definition":"Translate the source split into a reusable context-routing entity, public branch and visible portal node.","layer":"GENERAL_RESEARCH","scope":"Local configuration, public-safe records and portal representation.","sourceBasisRefs":["S01_LOCAL_MEDIA_RECEIPT","S02_PLAYER_SOURCE_SNAPSHOT"],"statusQuoRef":"STATUSQUO.MATERIALIZATION.V1"},
+    {"axisId":"IMPACT","label":"Impact","definition":"Measure whether the rule preserves useful branches while preventing silent conversion of text similarity into unrelated claims.","layer":"GENERAL_RESEARCH","scope":"Deterministic local tests and claim-boundary review.","sourceBasisRefs":["S01_LOCAL_MEDIA_RECEIPT","S02_PLAYER_SOURCE_SNAPSHOT"],"statusQuoRef":"STATUSQUO.IMPACT.V1"},
+    {"axisId":"UNKNOWN_FRONTIER","label":"Unknown frontier","definition":"Preserve the exact public expansion of player USDAI and any direct attributable intent statement as open questions.","layer":"GENERAL_RESEARCH","scope":"Two explicit reopen triggers.","sourceBasisRefs":["S01_LOCAL_MEDIA_RECEIPT","S02_PLAYER_SOURCE_SNAPSHOT"],"statusQuoRef":"STATUSQUO.UNKNOWN.FRONTIER.V1"}
+  ],
+  "axisEvaluations": [
+    {"axisId":"SOURCE","state":"STABLE_WITHIN_COVERAGE","evidenceState":"OBSERVED","horizontalReceiptRefs":["RECEIPT.SOURCE.SIX"],"exclusionReason":null,"verticalProbe":{"state":"NOT_REQUIRED","completedDepth":0,"maximumDepth":4,"layerReceiptRefs":[],"criticalUnknownCount":0,"deepDivePurpose":null},"priorityVector":{"objectiveRelevance":4,"criticality":3,"evidenceStrength":4,"authorizedActionability":4,"informationGain":3,"repairValue":4,"effortCost":0,"actionRisk":0},"frontierRef":null},
+    {"axisId":"DEFINITION","state":"UNKNOWN_MATERIAL","evidenceState":"UNKNOWN","horizontalReceiptRefs":["RECEIPT.FOUR.REFERENTS"],"exclusionReason":null,"verticalProbe":{"state":"BOUNDARY","completedDepth":0,"maximumDepth":4,"layerReceiptRefs":[],"criticalUnknownCount":1,"deepDivePurpose":"PRIMARY_LABEL_DEFINITION_SEARCH"},"priorityVector":{"objectiveRelevance":4,"criticality":2,"evidenceStrength":2,"authorizedActionability":3,"informationGain":4,"repairValue":3,"effortCost":2,"actionRisk":0},"frontierRef":"FRONTIER.YOUTUBE.USDAI.LONGFORM"},
+    {"axisId":"MECHANISM","state":"STABLE_WITHIN_COVERAGE","evidenceState":"STRONGLY_SUPPORTED","horizontalReceiptRefs":["RECEIPT.PLAYER.EMISSION.CONDITIONS"],"exclusionReason":null,"verticalProbe":{"state":"NOT_REQUIRED","completedDepth":0,"maximumDepth":4,"layerReceiptRefs":[],"criticalUnknownCount":0,"deepDivePurpose":null},"priorityVector":{"objectiveRelevance":4,"criticality":3,"evidenceStrength":4,"authorizedActionability":4,"informationGain":3,"repairValue":4,"effortCost":0,"actionRisk":0},"frontierRef":null},
+    {"axisId":"COUNTERHYPOTHESIS","state":"STABLE_WITHIN_COVERAGE","evidenceState":"STRONGLY_SUPPORTED","horizontalReceiptRefs":["RECEIPT.COUNTERMODELS.FOUR"],"exclusionReason":null,"verticalProbe":{"state":"NOT_REQUIRED","completedDepth":0,"maximumDepth":4,"layerReceiptRefs":[],"criticalUnknownCount":0,"deepDivePurpose":null},"priorityVector":{"objectiveRelevance":4,"criticality":3,"evidenceStrength":4,"authorizedActionability":4,"informationGain":4,"repairValue":4,"effortCost":0,"actionRisk":0},"frontierRef":null},
+    {"axisId":"OBSERVATION","state":"STABLE_WITHIN_COVERAGE","evidenceState":"OBSERVED","horizontalReceiptRefs":["RECEIPT.OBSERVATIONS.TWO"],"exclusionReason":null,"verticalProbe":{"state":"NOT_REQUIRED","completedDepth":0,"maximumDepth":4,"layerReceiptRefs":[],"criticalUnknownCount":0,"deepDivePurpose":null},"priorityVector":{"objectiveRelevance":4,"criticality":3,"evidenceStrength":4,"authorizedActionability":4,"informationGain":3,"repairValue":3,"effortCost":0,"actionRisk":0},"frontierRef":null},
+    {"axisId":"MATERIALIZATION_BRIDGE","state":"STABLE_WITHIN_COVERAGE","evidenceState":"STRONGLY_SUPPORTED","horizontalReceiptRefs":["RECEIPT.THREE.MATERIALIZATIONS"],"exclusionReason":null,"verticalProbe":{"state":"NOT_REQUIRED","completedDepth":0,"maximumDepth":4,"layerReceiptRefs":[],"criticalUnknownCount":0,"deepDivePurpose":null},"priorityVector":{"objectiveRelevance":4,"criticality":2,"evidenceStrength":4,"authorizedActionability":4,"informationGain":3,"repairValue":4,"effortCost":1,"actionRisk":0},"frontierRef":null},
+    {"axisId":"IMPACT","state":"STABLE_WITHIN_COVERAGE","evidenceState":"STRONGLY_SUPPORTED","horizontalReceiptRefs":["RECEIPT.LOCAL.TEST.CONTRACT"],"exclusionReason":null,"verticalProbe":{"state":"NOT_REQUIRED","completedDepth":0,"maximumDepth":4,"layerReceiptRefs":[],"criticalUnknownCount":0,"deepDivePurpose":null},"priorityVector":{"objectiveRelevance":3,"criticality":2,"evidenceStrength":3,"authorizedActionability":4,"informationGain":3,"repairValue":4,"effortCost":1,"actionRisk":0},"frontierRef":null},
+    {"axisId":"UNKNOWN_FRONTIER","state":"STABLE_WITHIN_COVERAGE","evidenceState":"OBSERVED","horizontalReceiptRefs":["RECEIPT.REOPEN.TRIGGERS.TWO"],"exclusionReason":null,"verticalProbe":{"state":"NOT_REQUIRED","completedDepth":0,"maximumDepth":4,"layerReceiptRefs":[],"criticalUnknownCount":0,"deepDivePurpose":null},"priorityVector":{"objectiveRelevance":3,"criticality":2,"evidenceStrength":3,"authorizedActionability":3,"informationGain":4,"repairValue":3,"effortCost":0,"actionRisk":0},"frontierRef":null}
+  ],
+  "diagonalRegistry": [],
+  "diagonalEvaluations": [],
+  "decision": {
+    "outcome": "SELECT_FRONTIER",
+    "selectedAxisId": "DEFINITION",
+    "nextOperator": "EXTREMUM_NAVIGATION",
+    "preservedAxisIds": ["SOURCE", "DEFINITION", "MECHANISM", "COUNTERHYPOTHESIS", "OBSERVATION", "MATERIALIZATION_BRIDGE", "IMPACT", "UNKNOWN_FRONTIER"],
+    "rationale": "The local context router can be materialized now while the exact public long-form definition of the player USDAI label remains a bounded reopen frontier."
+  },
+  "authority": {
+    "mode": "LOCAL_READ_ONLY_ANALYSIS",
+    "sourceSystemEffects": 0,
+    "externalNetworkEffects": 0,
+    "mutationAuthorized": false
+  },
+  "recordedAt": "2026-09-15T13:55:43Z"
+}

@@ -1,0 +1,50 @@
+{
+  "schema": "halveth.status-quo-navigation-frame.v1",
+  "logicVersion": "3.5.1",
+  "entityVersion": "1.0.0",
+  "entityState": "STATUS_QUO_FROZEN",
+  "frameId": "STARLIGHT.THIRD.ROUTE.BRIGHTCAST.20260915",
+  "project": {
+    "domainAdapter": "GENERAL_RESEARCH",
+    "objective": "Produce a source-bound YouTube video essay that preserves released canon while making one non-lethal accountability counterfactual reviewable.",
+    "objectOrReferent": "The Boys television canon, Starlight and the HALVETH third-route fan counterfactual.",
+    "scope": "Public canon sources, attributed finale interviews and original local audiovisual production; no franchise footage, actor likeness or YouTube upload.",
+    "deliverableType": "PUBLIC_VIDEO_RESEARCH_BRANCH",
+    "sourceRefs": ["S01_AMAZON_FINAL_SEASON", "S02_PRIME_SEASON5", "S03_AMAZON_CAST", "S04_LATIMES_FINALE", "S05_ROTTEN_TOMATOES_BECCA", "S06_AP_FINALE", "S07_VARIETY_FINALE"],
+    "acceptedBaselineRef": "HALVETH.BRIGHTCAST.001.BASELINE.20260915"
+  },
+  "scanPolicy": {
+    "horizontalMode": "FULL_DECLARED_ADAPTER_APERTURE",
+    "verticalPreviewDepth": 4,
+    "diagonalMode": "COMPLETE_MATERIAL_CANDIDATE_PAIR_GRAPH",
+    "selectiveDrillDepth": 4,
+    "noSelectiveDrillBeforeDiagonal": true,
+    "freezeMode": "VERSIONED_IMMUTABLE_BASELINE"
+  },
+  "adapterRequiredAxisIds": ["SOURCE", "DEFINITION", "MECHANISM", "COUNTERHYPOTHESIS", "OBSERVATION", "MATERIALIZATION_BRIDGE", "IMPACT", "UNKNOWN_FRONTIER"],
+  "axisRegistry": [
+    {"axisId":"SOURCE","label":"Source","definition":"Bind each canon statement to publisher or attributed interview sources.","layer":"GENERAL_RESEARCH","scope":"Seven public sources.","sourceBasisRefs":["S01_AMAZON_FINAL_SEASON","S02_PRIME_SEASON5","S03_AMAZON_CAST","S04_LATIMES_FINALE","S05_ROTTEN_TOMATOES_BECCA","S06_AP_FINALE","S07_VARIETY_FINALE"],"statusQuoRef":"STATUSQUO.SOURCE.V1"},
+    {"axisId":"DEFINITION","label":"Definition","definition":"Keep canon, interpretation, counterfactual and unknown referents in separate carrier states.","layer":"GENERAL_RESEARCH","scope":"Seven claims and six typed relations.","sourceBasisRefs":["S01_AMAZON_FINAL_SEASON","S04_LATIMES_FINALE","S05_ROTTEN_TOMATOES_BECCA"],"statusQuoRef":"STATUSQUO.DEFINITION.V1"},
+    {"axisId":"MECHANISM","label":"Mechanism","definition":"Express the third route as protection, evidence preservation, removal of power and accountable process.","layer":"GENERAL_RESEARCH","scope":"Narrative mechanism only.","sourceBasisRefs":[],"statusQuoRef":"STATUSQUO.MECHANISM.V1"},
+    {"axisId":"COUNTERHYPOTHESIS","label":"Counterhypothesis","definition":"Compare domination, extermination and non-lethal accountability without treating explanation as exoneration.","layer":"GENERAL_RESEARCH","scope":"Three narrative routes.","sourceBasisRefs":["S01_AMAZON_FINAL_SEASON","S04_LATIMES_FINALE"],"statusQuoRef":"STATUSQUO.COUNTERHYPOTHESIS.V1"},
+    {"axisId":"OBSERVATION","label":"Observation","definition":"Bind the rendered master, captions, thumbnail, timings and checksums as separate build outputs.","layer":"GENERAL_RESEARCH","scope":"One local deterministic build receipt.","sourceBasisRefs":[],"statusQuoRef":"STATUSQUO.OBSERVATION.V1"},
+    {"axisId":"MATERIALIZATION_BRIDGE","label":"Materialization bridge","definition":"Turn the thesis into original 16:9 motion graphics, local speech, captions, a public source package and a Scarlet portal page.","layer":"GENERAL_RESEARCH","scope":"Local build plus authorized GitHub publication.","sourceBasisRefs":[],"statusQuoRef":"STATUSQUO.MATERIALIZATION.V1"},
+    {"axisId":"IMPACT","label":"Impact","definition":"Assess whether the viewer can distinguish released canon, the counterfactual and the moral boundary around victim testimony.","layer":"GENERAL_RESEARCH","scope":"Editorial and structural tests.","sourceBasisRefs":["S04_LATIMES_FINALE","S05_ROTTEN_TOMATOES_BECCA"],"statusQuoRef":"STATUSQUO.IMPACT.V1"},
+    {"axisId":"UNKNOWN_FRONTIER","label":"Unknown frontier","definition":"Preserve YouTube publication and viewer response as future events rather than current facts.","layer":"GENERAL_RESEARCH","scope":"Upload, platform processing and audience response.","sourceBasisRefs":[],"statusQuoRef":"STATUSQUO.UNKNOWN.FRONTIER.V1"}
+  ],
+  "axisEvaluations": [
+    {"axisId":"SOURCE","state":"STABLE_WITHIN_COVERAGE","evidenceState":"SOURCE_BOUND","horizontalReceiptRefs":["RECEIPT.SOURCES.SEVEN"],"exclusionReason":null,"verticalProbe":{"state":"NOT_REQUIRED","completedDepth":0,"maximumDepth":4,"layerReceiptRefs":[],"criticalUnknownCount":0,"deepDivePurpose":null},"priorityVector":{"objectiveRelevance":4,"criticality":4,"evidenceStrength":4,"authorizedActionability":4,"informationGain":3,"repairValue":4,"effortCost":0,"actionRisk":0},"frontierRef":null},
+    {"axisId":"DEFINITION","state":"STABLE_WITHIN_COVERAGE","evidenceState":"SOURCE_BOUND","horizontalReceiptRefs":["RECEIPT.CLAIMS.SEVEN"],"exclusionReason":null,"verticalProbe":{"state":"NOT_REQUIRED","completedDepth":0,"maximumDepth":4,"layerReceiptRefs":[],"criticalUnknownCount":0,"deepDivePurpose":null},"priorityVector":{"objectiveRelevance":4,"criticality":4,"evidenceStrength":4,"authorizedActionability":4,"informationGain":4,"repairValue":4,"effortCost":0,"actionRisk":0},"frontierRef":null},
+    {"axisId":"MECHANISM","state":"STABLE_WITHIN_COVERAGE","evidenceState":"HYPOTHESIS","horizontalReceiptRefs":["RECEIPT.THIRD.ROUTE"],"exclusionReason":null,"verticalProbe":{"state":"NOT_REQUIRED","completedDepth":0,"maximumDepth":4,"layerReceiptRefs":[],"criticalUnknownCount":0,"deepDivePurpose":null},"priorityVector":{"objectiveRelevance":4,"criticality":3,"evidenceStrength":2,"authorizedActionability":4,"informationGain":4,"repairValue":4,"effortCost":0,"actionRisk":0},"frontierRef":null},
+    {"axisId":"COUNTERHYPOTHESIS","state":"STABLE_WITHIN_COVERAGE","evidenceState":"INTERPRETIVE_FRAME","horizontalReceiptRefs":["RECEIPT.ROUTES.THREE"],"exclusionReason":null,"verticalProbe":{"state":"NOT_REQUIRED","completedDepth":0,"maximumDepth":4,"layerReceiptRefs":[],"criticalUnknownCount":0,"deepDivePurpose":null},"priorityVector":{"objectiveRelevance":4,"criticality":3,"evidenceStrength":3,"authorizedActionability":4,"informationGain":4,"repairValue":4,"effortCost":0,"actionRisk":0},"frontierRef":null},
+    {"axisId":"OBSERVATION","state":"STABLE_WITHIN_COVERAGE","evidenceState":"OBSERVED","horizontalReceiptRefs":["RECEIPT.BUILD.MANIFEST"],"exclusionReason":null,"verticalProbe":{"state":"NOT_REQUIRED","completedDepth":0,"maximumDepth":4,"layerReceiptRefs":[],"criticalUnknownCount":0,"deepDivePurpose":null},"priorityVector":{"objectiveRelevance":4,"criticality":3,"evidenceStrength":4,"authorizedActionability":4,"informationGain":3,"repairValue":4,"effortCost":0,"actionRisk":0},"frontierRef":null},
+    {"axisId":"MATERIALIZATION_BRIDGE","state":"STABLE_WITHIN_COVERAGE","evidenceState":"OBSERVED","horizontalReceiptRefs":["RECEIPT.VIDEO.PAGE.PACKAGE"],"exclusionReason":null,"verticalProbe":{"state":"NOT_REQUIRED","completedDepth":0,"maximumDepth":4,"layerReceiptRefs":[],"criticalUnknownCount":0,"deepDivePurpose":null},"priorityVector":{"objectiveRelevance":4,"criticality":3,"evidenceStrength":4,"authorizedActionability":4,"informationGain":3,"repairValue":4,"effortCost":1,"actionRisk":0},"frontierRef":null},
+    {"axisId":"IMPACT","state":"STABLE_WITHIN_COVERAGE","evidenceState":"STRONGLY_SUPPORTED","horizontalReceiptRefs":["RECEIPT.EDITORIAL.TESTS"],"exclusionReason":null,"verticalProbe":{"state":"NOT_REQUIRED","completedDepth":0,"maximumDepth":4,"layerReceiptRefs":[],"criticalUnknownCount":0,"deepDivePurpose":null},"priorityVector":{"objectiveRelevance":4,"criticality":4,"evidenceStrength":3,"authorizedActionability":4,"informationGain":3,"repairValue":4,"effortCost":1,"actionRisk":0},"frontierRef":null},
+    {"axisId":"UNKNOWN_FRONTIER","state":"STABLE_WITHIN_COVERAGE","evidenceState":"UNKNOWN","horizontalReceiptRefs":["RECEIPT.UPLOAD.SEPARATE"],"exclusionReason":null,"verticalProbe":{"state":"BOUNDARY","completedDepth":0,"maximumDepth":4,"layerReceiptRefs":[],"criticalUnknownCount":1,"deepDivePurpose":"YOUTUBE_PUBLICATION_REQUIRES_SEPARATE_AUTHORIZATION"},"priorityVector":{"objectiveRelevance":2,"criticality":1,"evidenceStrength":1,"authorizedActionability":0,"informationGain":2,"repairValue":1,"effortCost":1,"actionRisk":1},"frontierRef":"FRONTIER.YOUTUBE.UPLOAD"}
+  ],
+  "diagonalRegistry": [],
+  "diagonalEvaluations": [],
+  "decision": {"outcome":"RETURN_TO_PARENT","selectedAxisId":null,"nextOperator":"NONE","preservedAxisIds":["SOURCE","DEFINITION","MECHANISM","COUNTERHYPOTHESIS","OBSERVATION","MATERIALIZATION_BRIDGE","IMPACT","UNKNOWN_FRONTIER"],"rationale":"The authorized GitHub artifact is complete; YouTube upload remains a separately authorized future action."},
+  "authority": {"mode":"GITHUB_PUBLICATION_AUTHORIZED_YOUTUBE_UPLOAD_NOT_AUTHORIZED","sourceSystemEffects":0,"externalNetworkEffects":1,"mutationAuthorized":true},
+  "recordedAt": "2026-09-15T14:40:41Z"
+}

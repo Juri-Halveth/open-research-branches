@@ -2,6 +2,15 @@
 
 ## Unreleased
 
+- separated Wanen, Asen, Valkyries, MCU Hela, comics Hela and Angela/Aldrif into source-bound mythology and continuity claims
+- modeled the visible `Phi(s_i)=1` pattern as a non-invertible constant-map candidate while retaining author, domain, codomain and intended meaning as unknown
+- linked rainbow optics and the disputed K2-18 b DMS/DMDS analyses without turning spectra into portals, personal messages or identity claims
+- added HALVETH Brightcast 001 as a 1920×1080 original fan-video essay with local narration, DE/EN captions, thumbnail and SHA-256 build receipt
+- kept released *The Boys* canon, Becca’s account, the third-route counterfactual and separate Marvel comparison lenses in explicit carrier states
+- prepared YouTube metadata while keeping the platform upload in `NOT_UPLOADED_TO_YOUTUBE` state
+- added a source-bound `USDAI, SABR` context prism separating YouTube player diagnostics, streaming SABR, finance SABR and the USD.AI crypto protocol
+- materialized the same routing rule as an active local LUCINET entity and a bilingual Scarlet research node
+- preserved the exact YouTube `USDAI` long-form expansion as an open frontier and creator intent, wallets, keys, trading signals and payments outside the claim ceiling
 - added `FREE NEWS 025`, a finite HALVETH/LUCINET all-scales aperture linking people, nine garden lenses, plants, animals, atoms, fictional roles, software, provenance and collaboration without collapsing their object types
 - recorded the visible `Build -> JURI -> Release -> Open Research -> HALVETH -> Contact Sales -> X` tab sequence as a Gestalt and navigation observation, not an external message
 - separated repository creation, Git author date, commit date, public visibility, content date and independent earlier evidence for future priority research

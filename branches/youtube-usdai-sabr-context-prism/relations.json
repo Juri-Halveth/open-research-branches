@@ -1,0 +1,44 @@
+{
+  "schema": "halveth.context-prism.relations.v1",
+  "recordedAt": "2026-09-15T13:55:43Z",
+  "contentPackets": [
+    {"id":"CONTENT.YT.USDAI","referent":"YouTube player diagnostic label USDAI","sourceRef":"S02_PLAYER_SOURCE_SNAPSHOT","domain":"STREAMING_PLAYER"},
+    {"id":"CONTENT.YT.SABR","referent":"YouTube player diagnostic label SABR","sourceRef":"S02_PLAYER_SOURCE_SNAPSHOT","domain":"STREAMING_PLAYER"},
+    {"id":"CONTENT.FIN.SABR","referent":"Stochastic alpha-beta-rho finance model","sourceRef":"S05_SABR_FINANCE","domain":"MATHEMATICAL_FINANCE"},
+    {"id":"CONTENT.CRYPTO.USDAI","referent":"USD.AI protocol tokens USDai and sUSDai","sourceRef":"S06_USDAI_PROTOCOL","domain":"CRYPTO_PROTOCOL"}
+  ],
+  "eventPackets": [
+    {"id":"EVENT.MEDIA.OBSERVATION","time":"2026-09-15T13:17:00+02:00","timeState":"USER_MEDIA_TIMESTAMP_VISIBLE_APPROXIMATE","sourceRef":"S01_LOCAL_MEDIA_RECEIPT"},
+    {"id":"EVENT.PLAYER.SNAPSHOT","time":"2026-09-15T13:55:43Z","timeState":"RECORDED_AT","sourceRef":"S02_PLAYER_SOURCE_SNAPSHOT"}
+  ],
+  "relations": [
+    {
+      "id": "REL01_MEDIA_TO_PLAYER_LABELS",
+      "left": "EVENT.MEDIA.OBSERVATION",
+      "right": "CONTENT.YT.USDAI",
+      "relationType": "OBSERVED_TEXT_MATCHES_BOUND_PLAYER_EMISSION",
+      "direction": "SOURCE_TO_REFERENT",
+      "evidenceState": "SOURCE_BOUND"
+    },
+    {
+      "id": "REL02_PLAYER_SABR_TO_FINANCE_SABR",
+      "left": "CONTENT.YT.SABR",
+      "right": "CONTENT.FIN.SABR",
+      "relationType": "SAME_ACRONYM_DIFFERENT_DOMAIN",
+      "direction": "UNDIRECTED_COMPARISON",
+      "evidenceState": "SOURCE_BOUND"
+    },
+    {
+      "id": "REL03_PLAYER_USDAI_TO_CRYPTO_USDAI",
+      "left": "CONTENT.YT.USDAI",
+      "right": "CONTENT.CRYPTO.USDAI",
+      "relationType": "SIMILAR_TEXT_DIFFERENT_SOURCE_CONTEXT",
+      "direction": "UNDIRECTED_COMPARISON",
+      "evidenceState": "SOURCE_BOUND"
+    }
+  ],
+  "observationGaps": [
+    {"id":"GAP01_USDAI_LONG_FORM","state":"UNKNOWN","reopenTrigger":"Primary YouTube documentation defining the exact player label."},
+    {"id":"GAP02_CREATOR_INTENT","state":"NOT_PROVEN","reopenTrigger":"Direct, attributable primary statement binding the video to a specific non-player meaning."}
+  ]
+}

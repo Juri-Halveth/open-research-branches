@@ -1,0 +1,17 @@
+{
+  "schema": "halveth.youtube.metadata.v1",
+  "title": "STARLIGHT war nie schwach: Das Ende, das The Boys nicht gewagt hat | HALVETH Brightcast 001",
+  "descriptionFile": "youtube-description-de.md",
+  "category": "Film & Animation",
+  "language": "de-DE",
+  "captionLanguages": ["de-DE", "en-US"],
+  "thumbnail": "halveth-brightcast-001-starlight-thumbnail.webp",
+  "video": "halveth-brightcast-001-starlight-third-route-de-1080p.mp4",
+  "tags": ["The Boys", "Starlight", "Annie January", "Homelander", "Billy Butcher", "video essay", "alternative ending", "HALVETH", "Juri Halveth"],
+  "audience": "NOT_MADE_FOR_KIDS",
+  "spoilers": "THE_BOYS_SERIES_FINALE",
+  "visibilityRecommendation": "UNLISTED_FIRST_FOR_FINAL_HUMAN_REVIEW",
+  "uploadState": "NOT_UPLOADED_TO_YOUTUBE",
+  "githubPublicationAuthorized": true,
+  "youtubePublicationAuthorized": false
+}

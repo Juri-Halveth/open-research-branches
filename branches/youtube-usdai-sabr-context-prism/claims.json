@@ -1,0 +1,48 @@
+{
+  "schema": "halveth.context-prism.claims.v1",
+  "recordedAt": "2026-09-15T13:55:43Z",
+  "claims": [
+    {
+      "id": "C01_PLAYER_SURFACE",
+      "statement": "The supplied player surface visibly contained the prefix USDAI, SABR in Stats for nerds / Mystery Text.",
+      "evidenceState": "OBSERVED",
+      "sourceRefs": ["S01_LOCAL_MEDIA_RECEIPT"]
+    },
+    {
+      "id": "C02_PLAYER_EMISSION",
+      "statement": "The bound YouTube player source contains separate emission sites for USDAI, and SABR,.",
+      "evidenceState": "OBSERVED",
+      "sourceRefs": ["S02_PLAYER_SOURCE_SNAPSHOT"]
+    },
+    {
+      "id": "C03_USDAI_PLAYER_CONTEXT",
+      "statement": "Within the bound player source, USDAI is emitted in a DAI-state branch when the DAI type is unspecified or absent under the relevant stitched-metadata condition.",
+      "evidenceState": "STRONGLY_SUPPORTED",
+      "sourceRefs": ["S02_PLAYER_SOURCE_SNAPSHOT", "S03_GOOGLE_DAI"]
+    },
+    {
+      "id": "C04_SABR_STREAMING_CONTEXT",
+      "statement": "Within the player context, SABR identifies a server-adaptive streaming path.",
+      "evidenceState": "STRONGLY_SUPPORTED",
+      "sourceRefs": ["S02_PLAYER_SOURCE_SNAPSHOT", "S04_SABR_STREAMING"]
+    },
+    {
+      "id": "C05_SABR_FINANCE_CONTEXT",
+      "statement": "In derivatives research, SABR names a stochastic alpha-beta-rho volatility model.",
+      "evidenceState": "SOURCE_BOUND",
+      "sourceRefs": ["S05_SABR_FINANCE"]
+    },
+    {
+      "id": "C06_USDAI_CRYPTO_CONTEXT",
+      "statement": "USDai and sUSDai are defined by a separate crypto protocol with its own contracts and mechanics.",
+      "evidenceState": "SOURCE_BOUND",
+      "sourceRefs": ["S06_USDAI_PROTOCOL"]
+    },
+    {
+      "id": "C07_CLAIM_BOUNDARY",
+      "statement": "No bound source establishes creator intent, a private message, wallet, key, trading signal or payment from the textual similarity.",
+      "evidenceState": "NOT_PROVEN",
+      "sourceRefs": ["S01_LOCAL_MEDIA_RECEIPT", "S02_PLAYER_SOURCE_SNAPSHOT"]
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "schema": "halveth.brightcast.build-manifest.v1",
+  "buildVersion": "1.0.0",
+  "storyboardId": "HALVETH-BRIGHTCAST-001-STARLIGHT-THIRD-ROUTE",
+  "videoProfile": "YOUTUBE_1080P_H264_AAC_16_9",
+  "visualSource": "ORIGINAL_PILLOW_VECTOR_LIKE_RENDER",
+  "speechSource": "MICROSOFT_STEFAN_DESKTOP_LOCAL_TTS",
+  "musicSource": "ORIGINAL_FFMPEG_SYNTHESIZED_TONE_BED",
+  "thirdPartyAudiovisualAssets": [],
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1"
+      },
+      {
+        "codec_name": "aac",
+        "r_frame_rate": "0/0"
+      }
+    ],
+    "format": {
+      "duration": "233.064000",
+      "size": "37058984",
+      "bit_rate": "1272062"
+    }
+  },
+  "sceneTimings": [
+    {
+      "sceneId": "S00_HOOK",
+      "start": 0.0,
+      "duration": 14.755,
+      "speechDuration": 13.505
+    },
+    {
+      "sceneId": "S01_CANON",
+      "start": 14.755,
+      "duration": 16.014,
+      "speechDuration": 14.764
+    },
+    {
+      "sceneId": "S02_FINALE",
+      "start": 30.769,
+      "duration": 14.23,
+      "speechDuration": 12.98
+    },
+    {
+      "sceneId": "S03_BECCA",
+      "start": 44.999,
+      "duration": 18.229,
+      "speechDuration": 16.979
+    },
+    {
+      "sceneId": "S04_HOMELANDER",
+      "start": 63.228,
+      "duration": 16.404,
+      "speechDuration": 15.154
+    },
+    {
+      "sceneId": "S05_STARLIGHT",
+      "start": 79.632,
+      "duration": 20.473,
+      "speechDuration": 19.223
+    },
+    {
+      "sceneId": "S06_THIRD_ROUTE",
+      "start": 100.105,
+      "duration": 18.968,
+      "speechDuration": 17.718
+    },
+    {
+      "sceneId": "S07_REWRITE",
+      "start": 119.073,
+      "duration": 28.661,
+      "speechDuration": 27.411
+    },
+    {
+      "sceneId": "S08_ACCOUNTABILITY",
+      "start": 147.734,
+      "duration": 17.104,
+      "speechDuration": 15.854
+    },
+    {
+      "sceneId": "S09_TIMELINE",
+      "start": 164.839,
+      "duration": 20.409,
+      "speechDuration": 19.159
+    },
+    {
+      "sceneId": "S10_PRISM",
+      "start": 185.247,
+      "duration": 21.997,
+      "speechDuration": 20.747
+    },
+    {
+      "sceneId": "S11_CLOSE",
+      "start": 207.245,
+      "duration": 25.757,
+      "speechDuration": 24.507
+    }
+  ],
+  "files": [
+    {
+      "name": "halveth-brightcast-001-starlight-de.srt",
+      "bytes": 3493,
+      "sha256": "491c44f55bfa55ca92870b2bf2c44ef455b8bb8902f8e6c5653f034c9e9b6c8a"
+    },
+    {
+      "name": "halveth-brightcast-001-starlight-de.vtt",
+      "bytes": 3464,
+      "sha256": "de7c615082d5355f311b4b2b84f89a6fcc4a619a94b664bdbca0943c8bcc6a81"
+    },
+    {
+      "name": "halveth-brightcast-001-starlight-en.srt",
+      "bytes": 3076,
+      "sha256": "b2aaa2fece44272569f2432d059daccb19b41cda2942b1d31d826b2c4f41ae16"
+    },
+    {
+      "name": "halveth-brightcast-001-starlight-en.vtt",
+      "bytes": 3047,
+      "sha256": "683c74d087d0bd443f0f60b9e80d7b91ff26251011f28b40cb609dbbc1509089"
+    },
+    {
+      "name": "halveth-brightcast-001-starlight-third-route-de-1080p.mp4",
+      "bytes": 37058984,
+      "sha256": "c43063d0a063421ee3751debb9cc83ab50f3c372f5925ffe80b912ead052eb2c"
+    },
+    {
+      "name": "halveth-brightcast-001-starlight-thumbnail.png",
+      "bytes": 152972,
+      "sha256": "1865e6a078282c4d48e38a16f395062695e06a43019fd874917c0e2903267f70"
+    },
+    {
+      "name": "halveth-brightcast-001-starlight-thumbnail.webp",
+      "bytes": 86364,
+      "sha256": "30155371ef24f2ff5da74862d837f1d12c89633f52cc9b44f55dd6c9c4af29b1"
+    },
+    {
+      "name": "qa-01.png",
+      "bytes": 192195,
+      "sha256": "d92bd6acc309cd8bed622931d640794331de8fae26b07b899f6ab1c9a5c73e98"
+    },
+    {
+      "name": "qa-02.png",
+      "bytes": 177307,
+      "sha256": "7ec19f757a11bd3c610cd819a6218ca5befda36a8c96588abd4b63cda5f2f3db"
+    },
+    {
+      "name": "qa-03.png",
+      "bytes": 181755,
+      "sha256": "80a652d4c2fcc85cc5d11ca41bbdf60934c21fc48f9f925dd53ba5a5c4d97888"
+    },
+    {
+      "name": "qa-04.png",
+      "bytes": 241908,
+      "sha256": "d692a383cee518875e93a20eb41ebef970f29610d0cd883fb801447d98017494"
+    },
+    {
+      "name": "qa-contact-sheet.jpg",
+      "bytes": 292239,
+      "sha256": "fa013a931c154e0b96891492cb9267ccc7e6a0cd013416f676159497da989543"
+    },
+    {
+      "name": "scene-timings.json",
+      "bytes": 1439,
+      "sha256": "63fcca6176a891a5ad872c5d93f77c0313a1269f448742c8d223fb5d5b5006f8"
+    }
+  ]
+}

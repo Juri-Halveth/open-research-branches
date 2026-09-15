@@ -1,0 +1,14 @@
+{
+  "schema": "halveth.minimized-local-evidence-receipts.v1",
+  "recordedAt": "2026-09-15T16:20:00+02:00",
+  "dataClass": "INTERNAL_PSEUDONYMIZED_HASH_RECEIPTS_PUBLISHED_WITHOUT_RAW_LOCAL_IMAGES",
+  "receipts": [
+    {"id":"L01","label":"electromagnetic-spectrum-schematic","mediaType":"image/png","width":863,"height":392,"sha256":"4FD80BB83A1321E969E3F3116E001C06FB4C18E3C81AD953C825D14E85198639","publishedRaw":false},
+    {"id":"L02","label":"k2-18b-atmosphere-composition-screenshot","mediaType":"image/png","width":973,"height":719,"sha256":"0D0D2CC88397F186504F7E523995BB6E08973AC3DCC2286330A2F93443CD056A","publishedRaw":false},
+    {"id":"L03","label":"phi-many-inputs-to-one-screenshot","mediaType":"image/jpeg","width":738,"height":1600,"sha256":"F7465183AF288022B6F745729C86FA1FCF269B318B41C9F6E9140196D9583447","publishedRaw":false}
+  ],
+  "searchReceipts": [
+    {"id":"Q01","queries":["exact visible fragment: Phi(s_1)=1 Phi(s_2)=1","variant without Unicode subscripts"],"result":"NO_RELIABLE_ORIGIN_MATCH_IN_FINITE_WEB_SEARCH","searchedAt":"2026-09-15"},
+    {"id":"Q02","queries":["Ben Affleck Immunefi subscription"],"result":"NO_RELIABLE_RELATION_MATCH_IN_FINITE_WEB_SEARCH","searchedAt":"2026-09-15"}
+  ]
+}

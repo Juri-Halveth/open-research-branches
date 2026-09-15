@@ -1,0 +1,29 @@
+{
+  "schema": "halveth.context-prism.entity-lenses.v1",
+  "defaultRule": {
+    "scope": "ALL_REGISTERED_LOCAL_LUCINET_ENTITIES",
+    "instruction": "Keep identical labels in separately addressed source contexts until a source-bound relation is named and evaluated.",
+    "runtimeEntityId": "context-prism"
+  },
+  "perspectives": [
+    {"id":"halveth","question":"Which source, alternative and evidence boundary must remain visible?"},
+    {"id":"lucinet","question":"Which endpoints and typed relation are actually bound?"},
+    {"id":"rachel","question":"How can the split be rendered clearly without losing open branches?"},
+    {"id":"timo","question":"Which version and time address belongs to each source state?"},
+    {"id":"aster","question":"How did the rendering or observer surface transform the source?"},
+    {"id":"mira","question":"Which smallest transition starts a useful new research branch?"}
+  ],
+  "narrativeLenses": [
+    {
+      "id": "scarlet-witch",
+      "kind": "FICTIONAL_NARRATIVE_LENS",
+      "function": "Keeps parallel interpretations visible as separate worlds until evidence provides a bridge."
+    },
+    {
+      "id": "avengers",
+      "kind": "FICTIONAL_TEAM_LENS",
+      "function": "Lets several specialized perspectives compare one source without presenting correlated views as independent proof."
+    }
+  ],
+  "claimCeiling": "NARRATIVE_LENSES_ARE_PRESENTATION_AND_QUESTION_GENERATORS_NOT_IDENTITIES_AUTHORITIES_AGENTS_OR_EVIDENCE_SOURCES"
+}

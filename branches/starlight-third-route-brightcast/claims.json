@@ -1,0 +1,49 @@
+{
+  "schema": "halveth.brightcast.claims.v1",
+  "recordedAt": "2026-09-15T14:45:00Z",
+  "claims": [
+    {
+      "id": "C01_SEASON_CONFLICT",
+      "statement": "The final season presents Homelander's rule, Annie's resistance and Butcher's willingness to use a virus that would kill all Supes.",
+      "state": "SOURCE_BOUND",
+      "sourceRefs": ["S01_AMAZON_FINAL_SEASON", "S02_PRIME_SEASON5"]
+    },
+    {
+      "id": "C02_FINALE_OUTCOME",
+      "statement": "The series finale depowers Homelander before Butcher kills him; Butcher subsequently attempts mass killing with the virus and is stopped.",
+      "state": "SOURCE_BOUND",
+      "sourceRefs": ["S04_LATIMES_FINALE", "S07_VARIETY_FINALE"]
+    },
+    {
+      "id": "C03_BECCA_ACCOUNT",
+      "statement": "The television canon treats Becca's encounter with Homelander as rape.",
+      "state": "SOURCE_BOUND",
+      "sourceRefs": ["S04_LATIMES_FINALE", "S05_ROTTEN_TOMATOES_BECCA"]
+    },
+    {
+      "id": "C04_STARLIGHT_ROLE",
+      "statement": "Annie has light-based powers, opposes Vought and serves as a resistance figure whose humanity was an explicit performance concern.",
+      "state": "SOURCE_BOUND",
+      "sourceRefs": ["S01_AMAZON_FINAL_SEASON", "S03_AMAZON_CAST", "S06_AP_FINALE"]
+    },
+    {
+      "id": "C05_THIRD_ROUTE",
+      "statement": "A non-lethal accountability route after Homelander is depowered is a HALVETH fan counterfactual, not canon and not proof of a physical alternate timeline.",
+      "state": "HYPOTHESIS",
+      "sourceRefs": []
+    },
+    {
+      "id": "C06_CROSS_FRANCHISE",
+      "statement": "Dormammu, Wanda, Loki and Starlight are used only as separate fictional comparison lenses; no shared canon or external causal connection is claimed.",
+      "state": "INTERPRETIVE_FRAME",
+      "sourceRefs": []
+    },
+    {
+      "id": "C07_OPEN_REFERENTS",
+      "statement": "The tokens A* and D* remain unresolved and are not published as tags or identity claims.",
+      "state": "UNKNOWN",
+      "sourceRefs": []
+    }
+  ],
+  "claimCeiling": "SOURCE_BOUND_CANON_SUMMARY_PLUS_EXPLICIT_FAN_COUNTERFACTUAL_NOT_SHARED_CANON_PHYSICAL_TIMELINE_PROOF_PERSONAL_MESSAGE_RELATIONSHIP_IDENTITY_OR_ACTOR_INTENT"
+}

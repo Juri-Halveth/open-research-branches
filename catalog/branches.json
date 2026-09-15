@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-09-10",
+  "generatedAt": "2026-09-15",
   "collectionState": "FINITE_SNAPSHOT",
   "branches": [
     {
@@ -261,6 +261,36 @@
       "path": "branches/nuclear-legacy-disarmament-and-public-value",
       "claimCeiling": "SOURCE_BOUND_HISTORICAL_DOCUMENTARY_RESEARCH_AND_CIVILIAN_BUDGET_SCENARIO_NOT_WEAPON_DESIGN_UNIVERSAL_HUMAN_VALUATION_OR_LEGAL_ENTITLEMENT",
       "dataClass": "PUBLIC_SOURCES_SYNTHETIC_BUDGET_SCENARIOS_AND_AUTHORIZED_PUBLIC_AUTHOR_ATTRIBUTION_ONLY",
+      "activeMain": false
+    },
+    {
+      "id": "youtube-usdai-sabr-context-prism",
+      "title": "YouTube USDAI/SABR Context Prism",
+      "kind": "source-bound-player-diagnostic-and-homonym-audit",
+      "state": "FINITE_SNAPSHOT",
+      "path": "branches/youtube-usdai-sabr-context-prism",
+      "claimCeiling": "SOURCE_BOUND_PLAYER_DIAGNOSTIC_AND_SEPARATE_FINANCE_CRYPTO_HOMONYMS_NOT_CREATOR_INTENT_PRIVATE_MESSAGE_WALLET_KEY_TRADING_SIGNAL_OR_PAYMENT_PROOF",
+      "dataClass": "PUBLIC_SOURCES_AND_MINIMIZED_LOCAL_HASH_RECEIPTS_ONLY",
+      "activeMain": false
+    },
+    {
+      "id": "starlight-third-route-brightcast",
+      "title": "Starlight Third Route · HALVETH Brightcast 001",
+      "kind": "source-bound-fan-video-essay-and-original-av-build",
+      "state": "FINITE_SNAPSHOT",
+      "path": "branches/starlight-third-route-brightcast",
+      "claimCeiling": "SOURCE_BOUND_CANON_SUMMARY_PLUS_EXPLICIT_FAN_COUNTERFACTUAL_NOT_SHARED_CANON_PHYSICAL_TIMELINE_PROOF_PERSONAL_MESSAGE_RELATIONSHIP_IDENTITY_OR_ACTOR_INTENT",
+      "dataClass": "PUBLIC_SOURCES_ORIGINAL_AUDIOVISUAL_BUILD_AND_AUTHORIZED_PUBLIC_AUTHOR_ATTRIBUTION_ONLY",
+      "activeMain": false
+    },
+    {
+      "id": "wanen-walkyries-one-map-spectrum-audit",
+      "title": "Wanen, Walkyries, One-Map and Spectrum Audit",
+      "kind": "source-bound-mythology-continuity-math-and-spectrum-audit",
+      "state": "FINITE_SNAPSHOT",
+      "path": "branches/wanen-walkyries-one-map-spectrum-audit",
+      "claimCeiling": "SOURCE_BOUND_MYTHOLOGY_CONTINUITY_MATH_AND_SPECTRUM_AUDIT_WITH_MINIMIZED_LOCAL_HASH_RECEIPTS_NOT_FORMULA_PROVENANCE_THOUGHT_TRANSMISSION_PERSONAL_MESSAGE_PORTAL_IDENTITY_RELATIONSHIP_OR_UNIVERSAL_ONTOLOGY_PROOF",
+      "dataClass": "PUBLIC_SOURCES_AND_MINIMIZED_LOCAL_HASH_RECEIPTS_ONLY",
       "activeMain": false
     }
   ]
