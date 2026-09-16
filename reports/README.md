@@ -13,6 +13,7 @@ any branch's claim ceiling.
 
 | Artifact | Purpose |
 | --- | --- |
+| [Algorithmische Inhaltsnachbarschaft / Algorithmic Content Adjacency](ALGORITHMIC_CONTENT_ADJACENCY_RESEARCH_NOTE_DE_EN.md) | Bilingual, person-neutral observation schema, falsifiers, claim ceiling and official YouTube reporting routes; no case finding and no links to concerning material |
 | [FREE NEWS 025 · HALVETH All-Scales Aperture](FREE_NEWS_025_HALVETH_ALL_SCALES_APERTURE_2026-09-15.md) | Tagesquerschnitt über Menschen, Garden, Pflanzen, Tiere, Atome, Fiktion, Software, Zeitprovenienz und Zusammenarbeit |
 | `MICROSOFT_PKI_REPOSITORY_PATTERN.md` | Deep primary-source review of public trust records, status, audit and write authority |
 | `MAC_OUI_REGISTRY_BOUNDARY.md` | IEEE-bound interpretation of MAC/OUI registry counts without device identification |
