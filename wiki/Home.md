@@ -16,7 +16,7 @@ Willkommen bei **Open Research Branches**, einer öffentlichen Forschungssammlun
 
 [Öffentliche Namensführung und Zitierweise](https://github.com/Juri-Halveth/open-research-branches/blob/main/PUBLIC-NAME.md)
 
-Dieses Wiki erschließt die **26 veröffentlichten Projektäste** des Katalogstands vom **10. September 2026**. Die Ordnernamen bleiben erhalten, damit vorhandene Verweise, Code und historische Fassungen weiter auffindbar sind. Die Themenordnung ist eine zusätzliche Lesehilfe; die genauen Projektstände liegen im [maschinenlesbaren Katalog](https://github.com/Juri-Halveth/open-research-branches/blob/main/catalog/branches.json).
+Dieses Wiki erschließt die veröffentlichten Projektäste des [maschinenlesbaren Katalogs](https://github.com/Juri-Halveth/open-research-branches/blob/main/catalog/branches.json). Die Ordnernamen bleiben erhalten, damit vorhandene Verweise, Code und historische Fassungen weiter auffindbar sind. Die Themenordnung ist eine zusätzliche Lesehilfe; der Katalog führt den Bestand und die genauen Projektstände.
 
 ## Womit möchtest du anfangen?
 
@@ -61,4 +61,4 @@ Die Sammlung unterscheidet Beobachtung, Hypothese, Modell, Test und Anspruch. Da
 
 Diese Verweise stammen aus dem [öffentlichen Projekt-Snapshot vom 10. September 2026](https://github.com/Juri-Halveth/open-research-branches/blob/main/catalog/public-project-snapshot.json). Jedes Repository führt seine eigenen aktuellen Stände und Nutzungsregeln.
 
-**Quellenstand:** Öffentlicher Git-Bestand und Projektkatalog vom 10. September 2026. Dieses Wiki inventarisiert keine privaten Archive und behauptet keine Vollständigkeit aller früheren Ideen.
+**Bestandsgrundlage:** Der [Projektkatalog dieser Repository-Fassung](https://github.com/Juri-Halveth/open-research-branches/blob/main/catalog/branches.json). Datierte Quellen-Snapshots behalten ihren jeweils angegebenen Stand. Dieses Wiki inventarisiert keine privaten Archive und behauptet keine Vollständigkeit aller früheren Ideen.

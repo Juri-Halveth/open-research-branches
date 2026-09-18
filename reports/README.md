@@ -1,5 +1,7 @@
 # Release artifacts
 
+**Technologie-Roadmap:** [Bestandsprüfung und Ideen](PROJECT_IDEAS_REVIEW_2026-09-19.md) · [Sechs Arbeitspakete](TECHNOLOGY_ROADMAP_2026-09-19.md) · [Atomic Legal Readiness](ATOMIC_LEGAL_READINESS_2026-09-19.md).
+
 **Namenszuordnung / Name binding:** [Solstheim und das Projektsymbol SOL](PROJECT_NAME_BINDING_2026-09-19.md) · ausführbare Projektdefinition, Namensraum-Gegenmodell und getrennte Tokenrechte.
 
 **Aktuell / Latest:** [HALVETH Research · Forschung prüfen. Entscheidungen erklären.](HALVETH_RESEARCH_2026-09-18.md) · [Öffentliche Referenzdaten / Public reference data](HALVETH_RESEARCH_2026-09-18.json)

@@ -22,6 +22,8 @@ Hier treffen Software, Naturbeobachtung, Sprache und gesellschaftliche Fragen au
 
 ## Finde dein Thema
 
+**Technologie weiterbauen:** [Was fehlt noch?](reports/PROJECT_IDEAS_REVIEW_2026-09-19.md) · [Sechs konkrete Arbeitspakete](reports/TECHNOLOGY_ROADMAP_2026-09-19.md) · [Atomic Legal: Kern und Integrationslücke](reports/ATOMIC_LEGAL_READINESS_2026-09-19.md).
+
 **Neue Research-Notiz:** [Solstheim und das Projektsymbol SOL](reports/PROJECT_NAME_BINDING_2026-09-19.md) — eigene Namenszuordnung mit ausführbarem Beispiel und klar bezeichnetem Geltungsbereich.
 
 | | |
@@ -31,7 +33,7 @@ Hier treffen Software, Naturbeobachtung, Sprache und gesellschaftliche Fragen au
 | **🌱 [Natur & Beobachtung](wiki/Natur-und-Beobachtung.md)**<br>Pflanzen, Wahrnehmung, Protokolle und die Frage, was eine Beobachtung trägt. | **🎮 [Digitale Plattformen](wiki/Digitale-Plattformen.md)**<br>Steam, Wallets, Browser-Erweiterungen und transparente Produktfunktionen. |
 | **🔭 [Thesen & Forschungsfragen](wiki/Thesen-und-Forschungsfragen.md)**<br>Offene Gedanken, Gegenmodelle und konkrete nächste Untersuchungen. | **🗂️ [Belege & Zeitlinien](wiki/Belege-und-Zeitlinien.md)**<br>Quellen, veröffentlichte Fassungen, Prioritätsfragen und nachvollziehbare Herkunft. |
 
-**26 Forschungsäste** sind im [Projektverzeichnis](wiki/Projekte.md) einzeln beschrieben. Das [Glossar](wiki/Glossar.md) erklärt die Begriffe; der [Berichtsindex](reports/README.md) führt zu den öffentlichen Audits.
+Die im [Katalog](catalog/branches.json) geführten Forschungsäste sind im [Projektverzeichnis](wiki/Projekte.md) einzeln beschrieben. Das [Glossar](wiki/Glossar.md) erklärt die Begriffe; der [Berichtsindex](reports/README.md) führt zu den öffentlichen Audits.
 
 ## Drei Wege zum Einstieg
 

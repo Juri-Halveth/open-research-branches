@@ -2,7 +2,7 @@
 
 [Start](Home.md) · [Themen & Fragen](Thesen-und-Forschungsfragen.md) · [Glossar](Glossar.md)
 
-**29 veröffentlichte Forschungs- und Softwareäste**, alphabetisch nach den lesbaren Namen dieser Übersicht. Die Links führen zu den bestehenden Projekt-READMEs mit Originaltitel, genauer Frage, Dateien und Fortsetzungsmöglichkeiten.
+Diese Übersicht erschließt die veröffentlichten Forschungs- und Softwareäste aus dem [Projektkatalog](https://github.com/Juri-Halveth/open-research-branches/blob/main/catalog/branches.json). Die Links führen zu den bestehenden Projekt-READMEs mit Originaltitel, genauer Frage, Dateien und Fortsetzungsmöglichkeiten.
 
 | Projekt | Worum geht es? | Themenraum |
 | --- | --- | --- |
@@ -38,10 +38,10 @@
 
 ## Berichte schneller finden
 
-Die [Berichtsübersicht](https://github.com/Juri-Halveth/open-research-branches/blob/main/reports/README.md) erschließt **FREE NEWS 001–022** sowie zusätzliche Quellenprüfungen zu Microsoft PKI und MAC/OUI. Ein Bericht kann mehrere Projektfragen verbinden; er ist kein zusätzlicher Projektast.
+Die [Berichtsübersicht](https://github.com/Juri-Halveth/open-research-branches/blob/main/reports/README.md) erschließt die **FREE NEWS** und weitere öffentliche Quellenprüfungen. Ein Bericht kann mehrere Projektfragen verbinden; er ist kein zusätzlicher Projektast.
 
 ## Weitere Ideen bleiben auffindbar
 
-Im [Kandidaten-Ledger](https://github.com/Juri-Halveth/open-research-branches/blob/main/catalog/CANDIDATE_TOPICS.md) stehen weitere angefragte Themenfamilien. Sie besitzen noch keinen freigegebenen öffentlichen Projektast und werden deshalb nicht zu den 28 Projekten gezählt.
+Im [Kandidaten-Ledger](https://github.com/Juri-Halveth/open-research-branches/blob/main/catalog/CANDIDATE_TOPICS.md) stehen weitere angefragte Themenfamilien. Sie besitzen noch keinen freigegebenen öffentlichen Projektast und gehören deshalb nicht zum Astbestand des Projektkatalogs.
 
-**Bestandsgrundlage:** [catalog/branches.json](https://github.com/Juri-Halveth/open-research-branches/blob/main/catalog/branches.json), abgeglichen mit den veröffentlichten Projekt-READMEs am 10. September 2026.
+**Bestandsgrundlage:** [catalog/branches.json](https://github.com/Juri-Halveth/open-research-branches/blob/main/catalog/branches.json) und die verlinkten Projekt-READMEs dieser Repository-Fassung.

@@ -16,12 +16,21 @@ erläutert diesen Vorbehalt und die fortgeltenden Freigaben einschließlich CC0.
 
 ## Welche Nutzung ist erlaubt?
 
+**Datei und Fassung zuerst prüfen:** Die [prospektive HALVETH-2.0-Regel der Lizenzkarte](https://github.com/Juri-Halveth/open-research-branches/blob/main/LICENSES.md#halveth-20-prospective-cutover)
+ordnet unterscheidbare neue originale HALVETH-Beiträge, die erstmals nach dem
+dort gebundenen historischen Parent veröffentlicht wurden, der PIRL 2.0 zu,
+soweit ein dateispezifischer Hinweis nichts anderes bestimmt. Diese Zuordnung
+hat Vorrang vor den allgemeinen MIT-, CC-BY- und CC0-Klassen. Historische
+MIT-, ISC-, CC-BY-, CC0- und Juri-Public-Interest-1.0-Freigaben bleiben für die
+jeweiligen Dateien, Fassungen und überlappenden Materialien erhalten.
+
 | Du möchtest … | Schau zuerst hier | Was du dabei beachtest |
 | --- | --- | --- |
-| Code aus einem Ast verwenden oder verändern | [Pfadbezogene Lizenzkarte](https://github.com/Juri-Halveth/open-research-branches/blob/main/LICENSES.md), dann [MIT](https://github.com/Juri-Halveth/open-research-branches/blob/main/LICENSE) | Der überwiegende Code ist MIT-lizenziert, auch kommerziell nutzbar. Copyright- und Erlaubnishinweis müssen in Kopien oder wesentlichen Teilen erhalten bleiben. Einzelne Werkzeuge sind ausdrücklich ausgenommen. |
-| Eigene Texte oder Abbildungen dieses Projekts teilen oder bearbeiten | [CC BY 4.0 für Inhalte](https://github.com/Juri-Halveth/open-research-branches/blob/main/LICENSE-CONTENT.md) | Soweit keine Dateiausnahme greift: Namensnennung, Quellen- und Lizenzlink, Änderungen kennzeichnen; kommerzielle Nutzung ist erlaubt. |
+| Code aus einem Ast verwenden oder verändern | [Pfadbezogene Lizenzkarte](https://github.com/Juri-Halveth/open-research-branches/blob/main/LICENSES.md), dann [MIT](https://github.com/Juri-Halveth/open-research-branches/blob/main/LICENSE) | Soweit die Lizenzkarte diese Datei und Fassung MIT zuordnet, ist auch kommerzielle Nutzung erlaubt. Copyright- und Erlaubnishinweis müssen in Kopien oder wesentlichen Teilen erhalten bleiben. |
+| Eigene Texte oder Abbildungen dieses Projekts teilen oder bearbeiten | [CC BY 4.0 für Inhalte](https://github.com/Juri-Halveth/open-research-branches/blob/main/LICENSE-CONTENT.md) | Soweit die Lizenzkarte diese Datei und Fassung CC BY 4.0 zuordnet: Namensnennung, Quellen- und Lizenzlink, Änderungen kennzeichnen; kommerzielle Nutzung ist erlaubt. |
 | Freigegebene Katalogdaten oder Fixtures wiederverwenden | [CC0 für Daten](https://github.com/Juri-Halveth/open-research-branches/blob/main/LICENSE-DATA.md) | Soweit die Pfadkarte CC0 zuordnet, ist auch kommerzielle Weiterverwendung ohne zusätzliche Copyright-Bedingung möglich. Eine Quellenangabe hilft anderen beim Nachvollziehen. |
 | Einen ausdrücklich besonders lizenzierten Forschungsbericht nutzen | [Juri Public-Interest Research Permission 1.0](https://github.com/Juri-Halveth/open-research-branches/blob/main/LICENSE-JURI-PUBLIC-INTEREST.md) | Die bezeichneten Fassungen erlauben nichtkommerzielle Gemeinwohl-Nutzung unter ihren Bedingungen. Andere erlaubnispflichtige Nutzungen benötigen eine vorherige schriftliche Freigabe. |
+| Einen nach der HALVETH-2.0-Regel zugeordneten Beitrag nutzen | [HALVETH Public-Interest Research License 2.0](https://github.com/Juri-Halveth/open-research-branches/blob/main/LICENSE-HALVETH-PIRL-2.0.md) | Die Lizenzkarte bestimmt die Datei- und Versionszuordnung; für diese Beiträge gelten die Bedingungen der PIRL 2.0. |
 
 **Die Lizenzkarte zuerst lesen:** Ein Ordner kann Code unter MIT und einen
 Bericht unter der besonderen Forschungserlaubnis enthalten. Ein freier
