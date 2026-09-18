@@ -8,6 +8,8 @@
 
 **Ein offener Forschungsraum von HALVETH!!! und den HALVETH Open Research contributors.**
 
+**Aktuell:** [HALVETH Research · Forschung prüfen. Entscheidungen erklären.](reports/HALVETH_RESEARCH_2026-09-18.md) — öffentliche Forschungsnotiz und dokumentierter Stand der vorbereiteten Immunefi-Beschwerde.
+
 [Deutsch / English: Loki, Dormammu und Wanda](reports/HALVETH_MARVEL_PERSPECTIVES.de.md) · [Öffentliche Namensführung / Public attribution](PUBLIC-NAME.md)
 
 Hier treffen Software, Naturbeobachtung, Sprache und gesellschaftliche Fragen aufeinander. Du kannst ein Modell ausprobieren, einen Bericht lesen, eine Quelle ergänzen oder mit einer eigenen Frage einsteigen. Die Sammlung wächst mit nachvollziehbaren Beiträgen.

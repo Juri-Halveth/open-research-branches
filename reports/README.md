@@ -1,5 +1,7 @@
 # Release artifacts
 
+**Aktuell / Latest:** [HALVETH Research · Forschung prüfen. Entscheidungen erklären.](HALVETH_RESEARCH_2026-09-18.md) · [Öffentliche Referenzdaten / Public reference data](HALVETH_RESEARCH_2026-09-18.json)
+
 ## HALVETH 300 KB
 
 - [Deep research report](HALVETH_300KB_DEEP_RESEARCH.pdf)
