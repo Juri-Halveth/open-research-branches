@@ -22,6 +22,8 @@ Hier treffen Software, Naturbeobachtung, Sprache und gesellschaftliche Fragen au
 
 ## Finde dein Thema
 
+**Neue Research-Notiz:** [Solstheim und das Projektsymbol SOL](reports/PROJECT_NAME_BINDING_2026-09-19.md) — eigene Namenszuordnung mit ausführbarem Beispiel und klar bezeichnetem Geltungsbereich.
+
 | | |
 | :--- | :--- |
 | **💻 [Code & Werkzeuge](wiki/Code-und-Werkzeuge.md)**<br>Focus Kernel, Ja/Nein-Klärung, Referenzprüfung und wiederverwendbare Methoden. | **💧 [Licht, Wasser & Energie](wiki/Licht-Wasser-und-Energie.md)**<br>Optik, thermische Systeme, Quanteninternet und unterscheidbare Modelle. |
