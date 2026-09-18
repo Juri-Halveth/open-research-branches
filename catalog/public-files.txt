@@ -307,6 +307,7 @@ reports/PROJECT_IDEAS_REVIEW_2026-09-19.md
 reports/PROJECT_NAME_BINDING_2026-09-19.md
 reports/README.md
 reports/TECHNOLOGY_ROADMAP_2026-09-19.md
+reports/WIFI6_STANDARD_AND_CONNECTION_2026-09-19.md
 RIGHTS-RESERVATION.md
 scripts/audit-star.test.mjs
 scripts/build-audit-star.mjs
