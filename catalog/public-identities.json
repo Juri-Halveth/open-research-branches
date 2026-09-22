@@ -173,6 +173,16 @@
         "reports/HALVETH_300KB_DEEP_RESEARCH.extracted.txt",
         "reports/HALVETH_300KB_DEEP_RESEARCH.pdf"
       ]
+    },
+    {
+      "exactText": "security@halveth.de",
+      "authorizationState": "EXPLICIT_USER_AUTHORIZATION_FOR_PUBLIC_SECURITY_CONTACT_IN_HALVETH_RESEARCH_NOTICE",
+      "authorizedAt": "2026-09-18",
+      "files": [
+        "catalog/public-identities.json",
+        "reports/HALVETH_RESEARCH_2026-09-18.json",
+        "reports/HALVETH_RESEARCH_2026-09-18.md"
+      ]
     }
   ]
 }

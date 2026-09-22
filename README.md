@@ -8,6 +8,8 @@
 
 **Ein offener Forschungsraum von HALVETH!!! und den HALVETH Open Research contributors.**
 
+**Aktuell:** [HALVETH Research · Forschung prüfen. Entscheidungen erklären.](reports/HALVETH_RESEARCH_2026-09-18.md) — öffentliche Forschungsnotiz und dokumentierter Stand der vorbereiteten Immunefi-Beschwerde.
+
 [Deutsch / English: Loki, Dormammu und Wanda](reports/HALVETH_MARVEL_PERSPECTIVES.de.md) · [Öffentliche Namensführung / Public attribution](PUBLIC-NAME.md)
 
 Hier treffen Software, Naturbeobachtung, Sprache und gesellschaftliche Fragen aufeinander. Du kannst ein Modell ausprobieren, einen Bericht lesen, eine Quelle ergänzen oder mit einer eigenen Frage einsteigen. Die Sammlung wächst mit nachvollziehbaren Beiträgen.
@@ -20,6 +22,10 @@ Hier treffen Software, Naturbeobachtung, Sprache und gesellschaftliche Fragen au
 
 ## Finde dein Thema
 
+**Technologie weiterbauen:** [Was fehlt noch?](reports/PROJECT_IDEAS_REVIEW_2026-09-19.md) · [Sechs konkrete Arbeitspakete](reports/TECHNOLOGY_ROADMAP_2026-09-19.md) · [Atomic Legal: Kern und Integrationslücke](reports/ATOMIC_LEGAL_READINESS_2026-09-19.md).
+
+**Neue Research-Notiz:** [Solstheim und das Projektsymbol SOL](reports/PROJECT_NAME_BINDING_2026-09-19.md) — eigene Namenszuordnung mit ausführbarem Beispiel und klar bezeichnetem Geltungsbereich.
+
 | | |
 | :--- | :--- |
 | **💻 [Code & Werkzeuge](wiki/Code-und-Werkzeuge.md)**<br>Focus Kernel, Ja/Nein-Klärung, Referenzprüfung und wiederverwendbare Methoden. | **💧 [Licht, Wasser & Energie](wiki/Licht-Wasser-und-Energie.md)**<br>Optik, thermische Systeme, Quanteninternet und unterscheidbare Modelle. |
@@ -27,7 +33,7 @@ Hier treffen Software, Naturbeobachtung, Sprache und gesellschaftliche Fragen au
 | **🌱 [Natur & Beobachtung](wiki/Natur-und-Beobachtung.md)**<br>Pflanzen, Wahrnehmung, Protokolle und die Frage, was eine Beobachtung trägt. | **🎮 [Digitale Plattformen](wiki/Digitale-Plattformen.md)**<br>Steam, Wallets, Browser-Erweiterungen und transparente Produktfunktionen. |
 | **🔭 [Thesen & Forschungsfragen](wiki/Thesen-und-Forschungsfragen.md)**<br>Offene Gedanken, Gegenmodelle und konkrete nächste Untersuchungen. | **🗂️ [Belege & Zeitlinien](wiki/Belege-und-Zeitlinien.md)**<br>Quellen, veröffentlichte Fassungen, Prioritätsfragen und nachvollziehbare Herkunft. |
 
-**26 Forschungsäste** sind im [Projektverzeichnis](wiki/Projekte.md) einzeln beschrieben. Das [Glossar](wiki/Glossar.md) erklärt die Begriffe; der [Berichtsindex](reports/README.md) führt zu den öffentlichen Audits.
+Die im [Katalog](catalog/branches.json) geführten Forschungsäste sind im [Projektverzeichnis](wiki/Projekte.md) einzeln beschrieben. Das [Glossar](wiki/Glossar.md) erklärt die Begriffe; der [Berichtsindex](reports/README.md) führt zu den öffentlichen Audits.
 
 ## Drei Wege zum Einstieg
 

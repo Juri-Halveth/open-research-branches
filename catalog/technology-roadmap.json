@@ -1,0 +1,176 @@
+{
+  "schemaVersion": "1.0.0",
+  "observedAt": "2026-09-18T22:58:20.778Z",
+  "date": "2026-09-19",
+  "reviewBaseCommit": "a9acbd61e532e8c6229d592fdc1cab041e7e4be2",
+  "scope": "Endlicher Abgleich des öffentlichen Research-Quellstands mit ausgewählten lokalen Projektquellen und Metadaten. Quellenprüfung, lokale Tests, öffentliche Demonstration und produktive Integration bleiben getrennt. Dies ist keine vollständige Produkt-, Sicherheits- oder Neuheitsprüfung.",
+  "sources": [
+    {
+      "id": "LOCAL-CORE",
+      "kind": "PRIVATE_REVIEW",
+      "description": "Atomic-Legal-Core und zwei CasePacket-Crates lokal geprüft. 115 gezielte Rust-Tests bestanden. UI-Anbindung, produktiver Export und vollständiger Cross-Crate-End-to-End-Pfad bleiben offen. Der öffentliche Bericht ist eine neu geschriebene Zusammenfassung; private Originalquellen sind nicht Teil dieses Exports.",
+      "links": [
+        {
+          "label": "Atomic Legal: geprüfter Entwicklungsstand",
+          "path": "reports/ATOMIC_LEGAL_READINESS_2026-09-19.md"
+        }
+      ]
+    },
+    {
+      "id": "PUBLIC-METHODS",
+      "kind": "PUBLIC_SOURCE",
+      "description": "Bereits veröffentlichte, getrennte Methoden für begrenztes Inventar, Referenzprüfung und Entscheidungsorientierung.",
+      "links": [
+        {
+          "label": "Inventarverfahren",
+          "path": "branches/bounded-knowledge-reuse-inventory/README.md"
+        },
+        {
+          "label": "Referenzprüfer",
+          "path": "branches/document-issue-reference-verifier/README.md"
+        },
+        {
+          "label": "Focus Kernel",
+          "path": "branches/focus-kernel/README.md"
+        }
+      ]
+    },
+    {
+      "id": "PUBLIC-PROVENANCE",
+      "kind": "PUBLIC_SOURCE",
+      "description": "Öffentliche Provenienz- und Veröffentlichungskonventionen mit gebundenem Umfang.",
+      "links": [
+        {
+          "label": "Provenienz",
+          "path": "PROVENANCE.md"
+        },
+        {
+          "label": "Publikationsregeln",
+          "path": "PUBLICATION_POLICY.md"
+        },
+        {
+          "label": "Research-Referenz",
+          "path": "reports/HALVETH_RESEARCH_2026-09-18.md"
+        }
+      ]
+    },
+    {
+      "id": "LOCAL-PORTFOLIO",
+      "kind": "PRIVATE_REVIEW",
+      "description": "Metadatenprüfung: 119 unmittelbar betrachtete Dokumente-/Ordnereinträge, 39 Registry-Records und 46 Git-Arbeitsverzeichnisse mit 36 verschiedenen Git-Common-Dirs. Fünf Registry-Pfade sind exakt nicht auflösbar; passende Verzeichnisse mit anderer Zeichenkodierung existieren. Zählungen haben unterschiedliche Bezugsgrößen. Inhalte privater Fallakten und Tresore wurden nicht übernommen.",
+      "links": [
+        {
+          "label": "Portfolio: Umfang und nächste Schritte",
+          "path": "reports/PROJECT_IDEAS_REVIEW_2026-09-19.md"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "CASEPACKET-BRIDGE",
+      "title": "Vorhandenen CasePacket-Vertrag mit dem Atomic-Core verbinden",
+      "state": "SOURCE_REVIEWED_GAP",
+      "observed": "Der Vertrag halveth.case_packet.v1 besteht bereits. Ein produktiver Snapshot-Issuer und die kontrollierte Verbindung zum JSON-Renderer fehlen im geprüften Quellstand; das Exportflag ist false.",
+      "nextStep": "Eine eigene Integrationsaufgabe am bestehenden V1-Vertrag umsetzen: Quelle, ausgewählte Projektion und Exportfreigabe explizit binden.",
+      "acceptance": [
+        "Ein synthetischer Fall durchläuft Atomic-Core, Snapshot, CasePacket und JSON-Renderer mit nachprüfbaren Quellversionen.",
+        "Gegenargumente, Unbekanntes und Projektion bleiben im Roundtrip erhalten; ausgeschlossene Daten sind im Export abwesend.",
+        "Fehlende oder nicht passende Exportfreigabe erzeugt kein exportierbares Paket. Strukturvalidierung bleibt von rechtlicher Bewertung getrennt."
+      ],
+      "dependsOn": [],
+      "sourceIds": [
+        "LOCAL-CORE",
+        "PUBLIC-METHODS"
+      ]
+    },
+    {
+      "id": "LENS-RUNTIME",
+      "title": "Die Legal-Lens-Referenzoberfläche an eine echte Demo anbinden",
+      "state": "SYNTHETIC_DEMO",
+      "observed": "Die aktuelle lokale HTML-/JS-Fassung zeigt feste Beispiele, ein schreibgeschütztes Feld und den Hinweis auf fehlende Rust-Anbindung. Der angezeigte Fixpunkt ist ein fester Titel.",
+      "nextStep": "Eine kleine Demo mit synthetischen Eingaben gegen den gebundenen Core bauen; jede Ausgabe an den tatsächlichen Eingabedigest binden.",
+      "acceptance": [
+        "Zwei gezielt verschiedene Eingaben erzeugen die vom Kern erwarteten unterschiedlichen Ergebnisse.",
+        "Fehlender oder fehlgeschlagener Kernlauf bleibt als Fehler sichtbar und fällt nicht auf eine erfolgreiche Fixture zurück.",
+        "Tastatur, Fokus, mobile Ansicht und Bewegungsreduktion werden an der ausgeführten Demo geprüft."
+      ],
+      "dependsOn": [
+        "CASEPACKET-BRIDGE"
+      ],
+      "sourceIds": [
+        "LOCAL-CORE"
+      ]
+    },
+    {
+      "id": "PORTFOLIO-IDENTITY",
+      "title": "Projekt, Repository, Worktree und Veröffentlichung getrennt registrieren",
+      "state": "SOURCE_REVIEWED_GAP",
+      "observed": "Mehrere Arbeitsverzeichnisse teilen sich ein Git-Repository; getrennte lokale Repositories können denselben Remote besitzen. Die lokale Registry deckt diese Ebenen derzeit nicht vollständig ab.",
+      "nextStep": "Ein getrenntes Register mit stabiler Projekt-ID, Repository-ID, Arbeitskopie, Statusquelle und Veröffentlichungspunkt einführen; die fünf Pfadkorrekturen einzeln übernehmen.",
+      "acceptance": [
+        "Zwei Worktrees desselben Common-Dirs zählen als zwei Arbeitskopien eines Repositorys.",
+        "Ein konfigurierter Remote wird erst nach einer erfolgreichen Remote-Beobachtung als Veröffentlichung geführt.",
+        "Jeder unaufgelöste Pfad behält Fehlergrund und erneuten Prüftrigger; private Pfade bleiben im lokalen Register."
+      ],
+      "dependsOn": [],
+      "sourceIds": [
+        "LOCAL-PORTFOLIO",
+        "PUBLIC-METHODS"
+      ]
+    },
+    {
+      "id": "RECEIPT-INTEROP",
+      "title": "Gemeinsame, lesbare Übergabebelege für Rachel, LUCINET und Research",
+      "state": "PROPOSED",
+      "observed": "Provenienzbelege und öffentliche Referenzen sind vorhanden. Ein neuer gemeinsamer Adapter mit nachgewiesenem Import-/Export-Roundtrip wurde in dieser Prüfung nicht ausgeführt.",
+      "nextStep": "Einen ausschließlich referenziellen Auftrag mit Version, Statusquelle, Evidenz, offener Frage und nächster Handlung zwischen zwei lokalen Testkonsumenten austauschen.",
+      "acceptance": [
+        "Ein synthetischer Auftrag behält ID, Status und Quellenreferenz in beiden Konsumenten.",
+        "Wiederholter Import erzeugt keinen doppelten Auftrag; fremde oder veraltete Versionen bleiben sichtbar zurückgestellt.",
+        "Die Referenzansicht erzeugt keine Ledger-, Zahlungs- oder Runtime-Aktion; solche Aktionen besitzen getrennte Schnittstellen."
+      ],
+      "dependsOn": [
+        "PORTFOLIO-IDENTITY"
+      ],
+      "sourceIds": [
+        "PUBLIC-PROVENANCE",
+        "LOCAL-PORTFOLIO"
+      ]
+    },
+    {
+      "id": "RECOVERY-ROUNDTRIP",
+      "title": "Wiederherstellung als überprüften Ablauf dokumentieren",
+      "state": "PROPOSED",
+      "observed": "Backup-/Recovery-Metadaten und Skriptpfade sind vorhanden. In dieser Prüfung wurde keine Wiederherstellung ausgeführt und kein Tresor geöffnet.",
+      "nextStep": "Ein synthetisches Testprojekt in ein neues Verzeichnis sichern und wiederherstellen; Dateiinhalt, Dateiauswahl und Laufprotokoll vergleichen.",
+      "acceptance": [
+        "Quelldateien bleiben unverändert; Ziel ist ein eigens angelegtes Testverzeichnis.",
+        "Absichtliches Fehlen einer Testdatei führt zu einem sichtbaren unvollständigen Ergebnis.",
+        "Der Beleg trennt erfolgreiche Wiederherstellung von alleiniger Hashgleichheit und von ungetesteten externen Abhängigkeiten."
+      ],
+      "dependsOn": [],
+      "sourceIds": [
+        "LOCAL-PORTFOLIO",
+        "PUBLIC-PROVENANCE"
+      ]
+    },
+    {
+      "id": "PUBLIC-DEMO-INDEX",
+      "title": "Pro öffentlichen Prototyp einen reproduzierbaren Einstieg pflegen",
+      "state": "PROPOSED",
+      "observed": "Öffentliche Prototypen haben eigene Tests und READMEs. Harte Gesamtzahlen in mehreren Einstiegsseiten waren veraltet; sie wurden durch Verweise auf den Katalog ersetzt.",
+      "nextStep": "Je ausführbarem Prototyp einen Demo-Befehl, erwartete Ausgabe, Testlauf und verbleibende Lücke im Katalog binden.",
+      "acceptance": [
+        "Jeder Demo-Befehl läuft mit synthetischen Daten in einem frischen Checkout.",
+        "CI prüft Demo-Pfade und generierte Ansichten gegen denselben Katalog.",
+        "Ein grüner Einzeltest wird nur seinem Modul und Quellstand zugerechnet."
+      ],
+      "dependsOn": [],
+      "sourceIds": [
+        "PUBLIC-METHODS",
+        "PUBLIC-PROVENANCE"
+      ]
+    }
+  ]
+}

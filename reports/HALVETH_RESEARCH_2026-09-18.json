@@ -1,0 +1,25 @@
+{
+  "schema": "halveth.public-research-notice.v1",
+  "id": "HALVETH-RESEARCH-2026-09-18",
+  "date": "2026-09-18",
+  "classification": "PUBLIC",
+  "title": "HALVETH Research",
+  "summaryDe": "Forschung prüfen. Entscheidungen erklären. Beobachtung, Übertragbarkeit, Auswirkung, Ereignisgeschichte und Vergütung nachvollziehbar einordnen.",
+  "summaryEn": "Review research. Explain decisions. Distinguish observation, applicability, impact, exploitation history and reward eligibility.",
+  "canonicalUrl": "https://github.com/Juri-Halveth/open-research-branches/blob/main/reports/HALVETH_RESEARCH_2026-09-18.md",
+  "complaintSnapshot": {
+    "asOfDate": "2026-09-18",
+    "preparationStatus": "PREPARED",
+    "deliveryEvidence": "NOT_RECORDED_IN_REVIEWED_SNAPSHOT",
+    "publicScope": "ACCOUNT_ADMINISTRATION_REVIEW_PRINCIPLES"
+  },
+  "sources": [
+    "https://www.first.org/cvss/v4.0/specification-document",
+    "https://immunefi.com/contact/",
+    "https://immunefi.com/rules/"
+  ],
+  "contact": "security@halveth.de",
+  "authorship": "Juri Halveth / HALVETH; AI-assisted drafting",
+  "contentRole": "PUBLIC_NOTICE",
+  "machineConsumerEffect": "REFERENCE_ONLY_NO_AUTOMATIC_ACTION"
+}
