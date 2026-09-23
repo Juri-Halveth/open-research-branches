@@ -1,8 +1,8 @@
 # Algorithmische Inhaltsnachbarschaft / Algorithmic Content Adjacency
 
-Stand / As of: 2026-09-16
+Erstfassung / Initial method draft: 2026-09-16. GitHub-PR-Prüffassung / GitHub PR review: 2026-09-23.
 
-Status: `LOCAL_CANDIDATE / METHOD_ONLY / NO_CASE_FINDING / NOT_POSTED / NOT_SUBMITTED`
+Status: `PUBLIC_GITHUB_DRAFT_PR / METHOD_ONLY / NO_CASE_FINDING`; separate discussion-post, platform-report and external-case submission states remain `UNKNOWN` in this PR review.
 
 Datenklasse / Data class: `PUBLIC_OFFICIAL_SOURCES + EMPTY_OBSERVATION_SCHEMA`
 
@@ -227,7 +227,7 @@ exploitative material. Keep `SENT`, `REVIEWED`, `REMOVED` and
 
 ## Öffentlicher Postentwurf / Public post draft
 
-Status: `DRAFT_ONLY / NOT_POSTED`
+Status: `DRAFT_ONLY`. Ein späterer Diskussionspost oder eine Plattformmeldung wurde in dieser PR-Prüfung nicht verifiziert. / This PR review did not verify any later discussion post or platform report.
 
 **DE:** Ich dokumentiere eine datensparsame Methode zur Prüfung algorithmischer
 Inhaltsnachbarschaft. Ein Screenshot oder Bildschirmvideo kann zeigen, dass
@@ -261,6 +261,7 @@ route and describe the placement separately as product feedback.
 ## Official YouTube sources / Offizielle YouTube-Quellen
 
 Checked / geprüft: `2026-09-16T19:01:46+02:00`
+Rechecked / nachgeprüft: `2026-09-23` — all five linked official help pages resolved; the recommendation-surface, report-review and feedback-screenshot statements above remain supported within those pages' scope.
 
 - [How YouTube recommendations work](https://support.google.com/youtube/answer/16089387?hl=en)
 - [Manage your recommendations and search results](https://support.google.com/youtube/answer/6342839?hl=en)
