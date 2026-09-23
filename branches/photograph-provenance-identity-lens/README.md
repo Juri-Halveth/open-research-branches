@@ -43,7 +43,17 @@ Diese Beobachtungen falsifizieren die jeweiligen **universellen Gleichsetzungsbe
 
 `simulatePhotographSearch({ seed, budget, strategy })` bildet einen **endlichen 2×2×2-Versuch** aus zwei nahen synthetischen Lichtwerten (`0.5000`, `0.5001`), zwei Belichtungen (`1`, `2`) und zwei Metadatenrevisionen (`1`, `2`). Acht Fälle ergeben zwölf kontrollierte Paare. In jedem Paar wird **genau ein** Faktor geändert; Pixel- und Dateihash werden getrennt verglichen. Das ist die Entkopplung der Eingriffe, keine physikalische Entkopplung einer realen Kamera.
 
-![Drei kontrollierte Suchachsen](simulation-map.svg)
+```mermaid
+flowchart LR
+  S0["Szene 0.5000"] -->|nur Szenenwert ändern| S1["Szene 0.5001"]
+  S1 --> SP["Pixel gleich"]
+  E0["Belichtung 1"] -->|nur Belichtung ändern| E1["Belichtung 2"]
+  E1 --> EP["Pixel anders"]
+  M0["Revision 1"] -->|nur Metadaten ändern| M1["Revision 2"]
+  M1 --> MP["Pixel gleich · Datei-Hash anders"]
+```
+
+Die drei grafischen Wege sind kontrollierte Vergleiche desselben synthetischen Modells. Kein Pfeil führt zu einer Personenidentität.
 
 - `PING_PONG` besucht reihum Szene → Belichtung → Metadaten und stellt jeweils das Resultat der vorherigen Gleichsetzung gegenüber.
 - `SEEDED_RANDOM` mischt dieselben zwölf Paare mit einem expliziten 32-Bit-Seed. Gleicher Seed und gleiches Budget ergeben denselben Besuchspfad. Dies ist eine reproduzierbare Suchreihenfolge, keine repräsentative Zufallsstichprobe realer Fotos.
