@@ -1,6 +1,6 @@
 # Release artifacts
 
-**Öffentliche Quellenprüfung / Public source review:** [Angebliche Millionenspende im Namen Schaefflers](SCHAEFFLER_DONATION_IMPERSONATION_SOURCE_REVIEW_2026-09-23.md) · Primärquellen, Widerspruch in der Rollenangabe und offene Fragen zur Identitätsprüfung; Beiträge auf Deutsch oder Englisch willkommen.
+**Offene Fragen / Open questions:** [Die Millionenspende rückwärts befragen](MILLION_EURO_OFFER_TEN_QUESTIONS_2026-09-23.md) · zehn Fragen vom behaupteten Zahlungseingang zurück zur Absenderbehauptung; Beiträge auf Deutsch oder Englisch willkommen.
 
 **WLAN-Faktencheck:** [Wi-Fi 6: Standard, Gerätefähigkeit und aktuelle Verbindung](WIFI6_STANDARD_AND_CONNECTION_2026-09-19.md) · Quellen, Funktionsschema und begrenzte lokale Prüfung.
 

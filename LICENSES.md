@@ -11,7 +11,7 @@ including historical MIT, ISC, CC BY and CC0 terms.
 
 | Paths or file classes | License |
 | --- | --- |
-| `reports/SCHAEFFLER_DONATION_IMPERSONATION_SOURCE_REVIEW_2026-09-23.md` from its first public commit | [HALVETH Public-Interest Research License 2.0](LICENSE-HALVETH-PIRL-2.0.md); linked third-party sources retain their own rights |
+| `reports/MILLION_EURO_OFFER_TEN_QUESTIONS_2026-09-23.md` from its first public commit | [HALVETH Public-Interest Research License 2.0](LICENSE-HALVETH-PIRL-2.0.md); linked third-party sources retain their own rights |
 | `reports/FREE_NEWS_025_HALVETH_ALL_SCALES_APERTURE_2026-09-15.md` from its first public commit | [HALVETH Public-Interest Research License 2.0](LICENSE-HALVETH-PIRL-2.0.md) |
 | `reports/FREE_NEWS_022_NUCLEAR_LEGACY_POWER_AND_PUBLIC_VALUE.md` from first publication `v0.18.0` | [Juri Public-Interest Research Permission 1.0](LICENSE-JURI-PUBLIC-INTEREST.md) |
 | `branches/nuclear-legacy-disarmament-and-public-value/README.md` from first publication `v0.18.0` | [Juri Public-Interest Research Permission 1.0](LICENSE-JURI-PUBLIC-INTEREST.md) |

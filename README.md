@@ -26,7 +26,7 @@ Hier treffen Software, Naturbeobachtung, Sprache und gesellschaftliche Fragen au
 
 **Neue Research-Notiz:** [Solstheim und das Projektsymbol SOL](reports/PROJECT_NAME_BINDING_2026-09-19.md) — eigene Namenszuordnung mit ausführbarem Beispiel und klar bezeichnetem Geltungsbereich.
 
-**Offene Quellenprüfung:** [Angebliches Millionen-Spendenangebot im Namen Schaefflers](reports/SCHAEFFLER_DONATION_IMPERSONATION_SOURCE_REVIEW_2026-09-23.md) — Unternehmensquellen, Identitätsgrenzen und konkrete Fragen für Beiträge auf Deutsch oder Englisch.
+**Offene Fragen:** [Ein Millionen-Spendenangebot rückwärts befragen](reports/MILLION_EURO_OFFER_TEN_QUESTIONS_2026-09-23.md) — zehn Forschungsfragen, Unternehmensquellen und Platz für Beiträge auf Deutsch oder Englisch.
 
 | | |
 | :--- | :--- |
