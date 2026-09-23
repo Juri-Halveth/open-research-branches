@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- added a bilingual, person-neutral method note for algorithmic content adjacency with an empty observation schema, explicit falsifiers, a narrow claim ceiling and official YouTube reporting routes
+- excluded names, case allegations, account data and links to potentially exploitative material from the adjacency note
 - separated Wanen, Asen, Valkyries, MCU Hela, comics Hela and Angela/Aldrif into source-bound mythology and continuity claims
 - modeled the visible `Phi(s_i)=1` pattern as a non-invertible constant-map candidate while retaining author, domain, codomain and intended meaning as unknown
 - linked rainbow optics and the disputed K2-18 b DMS/DMDS analyses without turning spectra into portals, personal messages or identity claims
