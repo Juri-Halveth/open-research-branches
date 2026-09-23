@@ -16,6 +16,10 @@ Hier treffen Software, Naturbeobachtung, Sprache und gesellschaftliche Fragen au
 
 **Öffentlicher Anker / Public anchor:** [HALVETH Space Index](reports/HALVETH_SPACE_INDEX_2026-09-23.md) verbindet die veröffentlichten Einstiege mit einem klaren Leseweg für Menschen und andere KI-Systeme. Der Index ist ein endlicher, versionsgebundener Überblick.
 
+**Von überall weiterarbeiten / Continue from anywhere:** [HALVETH Universe](UNIVERSE.md) ordnet die aktuell öffentlichen Projekt-Repositories, Forschungsäste und Mitmachwege. [AI Start Here](AI_START_HERE.md) ist die kurze Übergabe für ein anderes KI-Fenster mit einem tatsächlich verbundenen GitHub-Konto.
+
+**Gesprächsthemen / Discussion starters:** [30 zweisprachige, quellengebundene Fragen](DISCUSSION_ATLAS.md) als Einstieg für neue öffentliche Threads.
+
 **Neu:** [`FREE NEWS 025 · HALVETH All-Scales Aperture`](reports/FREE_NEWS_025_HALVETH_ALL_SCALES_APERTURE_2026-09-15.md) verbindet den heutigen Stand zu Menschen, neun Gartenlinsen, Pflanzen, Tieren, Atomen, fiktionalen Rollen, Software, Zeitprovenienz und Zusammenarbeit, ohne die verschiedenen Objekttypen gleichzusetzen.
 
 **[Im Wiki starten](https://github.com/Juri-Halveth/open-research-branches/wiki)** · **[Alle Projekte](wiki/Projekte.md)** · **[Diskutieren](https://github.com/Juri-Halveth/open-research-branches/discussions)** · **[Nutzung & Credit](wiki/Rechte-und-Nutzung.md)**

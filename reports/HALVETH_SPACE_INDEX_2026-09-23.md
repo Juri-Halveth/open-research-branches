@@ -4,6 +4,8 @@
 
 **Geltung / Scope:** die hier verlinkten, öffentlich lesbaren Dateien dieser Git-Fassung. Der Index ist ein Einstieg in Fragen und Quellen, keine vollständige Kopie eines lokalen Arbeitsbereichs.
 
+**Projektkarte / Project map:** [HALVETH Universe](../UNIVERSE.md) · [Übergabe für andere KI-Systeme / AI handoff](../AI_START_HERE.md)
+
 ## Einstieg / Start here
 
 | Frage / Question | Öffentlicher Einstieg / Public entry | Nächster prüfbarer Schritt / Next check |

@@ -11,6 +11,7 @@
 .github/pull_request_template.md
 .github/workflows/ci.yml
 .gitignore
+AI_START_HERE.md
 assets/research-room.png
 branches/alice-media-referent-and-agency-audit/candidate-works.json
 branches/alice-media-referent-and-agency-audit/local-anchors.json
@@ -243,11 +244,14 @@ catalog/CANDIDATE_TOPICS.md
 catalog/public-binary-documents.json
 catalog/public-files.txt
 catalog/public-identities.json
+catalog/public-media-receipts.json
 catalog/public-project-snapshot.json
+catalog/public-universe-repos.json
 catalog/technology-roadmap.json
 CHANGELOG.md
 CITATION.cff
 CONTRIBUTING.md
+DISCUSSION_ATLAS.md
 HALVETH-RIGHTS.json
 HALVETH-RIGHTS.md
 LICENSE
@@ -331,6 +335,7 @@ scripts/validate-navigation.mjs
 scripts/validate-navigation.test.mjs
 scripts/validate-public-manifest.mjs
 SECURITY.md
+UNIVERSE.md
 wiki/_Footer.md
 wiki/_Sidebar.md
 wiki/Belege-und-Zeitlinien.md

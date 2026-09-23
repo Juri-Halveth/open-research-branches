@@ -1,0 +1,45 @@
+{
+  "schemaVersion": "1.0.0",
+  "snapshotOn": "2026-09-23",
+  "scope": "THREE_PNG_FILES_TRACKED_IN_THIS_PUBLIC_REPOSITORY_CHECKOUT",
+  "method": "Get-FileHash SHA256; git hash-object; PNG signature/IHDR and chunk-type walk without decoding chunk payloads",
+  "claimCeiling": "FILE_BYTES_DIMENSIONS_AND_CHUNK_TYPES_IN_NAMED_CHECKOUT_ONLY; NO_AUTOMATIC_CREATOR_ATTRIBUTION_GENERATOR_REPRODUCTION_OR_HIDDEN_CODE_CLAIM",
+  "files": [
+    {
+      "path": "assets/research-room.png",
+      "bytes": 68800,
+      "width": 1600,
+      "height": 560,
+      "sha256": "ea8f6a228179b0b54c1fa4a1a5452cef7ea174fd006f82ac9f94e30aaa5c319d",
+      "gitBlob": "801f10c23cacda7e65adae46c819b7d15c3e4f7f",
+      "pngChunkTypes": ["IHDR", "IDAT", "IEND"],
+      "publishedGeneratorCandidate": "scripts/build-research-banner.py",
+      "generatorExecutionInThisReview": "NOT_RUN",
+      "evidenceState": "BYTES_OBSERVED_GENERATOR_SOURCE_PRESENT"
+    },
+    {
+      "path": "branches/nuclear-legacy-disarmament-and-public-value/budget-projection.png",
+      "bytes": 143793,
+      "width": 2240,
+      "height": 1400,
+      "sha256": "bca30c674b0bef31483899b9043c3e93cd0cff34899bb2f5ca7c8cb67534ecb8",
+      "gitBlob": "5cfe48cbb54700bb70fb624b63795c6e6e5cc8eb",
+      "pngChunkTypes": ["IHDR", "IDAT", "IEND"],
+      "publishedGeneratorCandidate": null,
+      "generatorExecutionInThisReview": "NOT_RUN",
+      "evidenceState": "BYTES_OBSERVED_GENERATOR_UNKNOWN"
+    },
+    {
+      "path": "branches/wax-crayon-peace-helmet-audit/assets/wax-crayon-peace-helmet-concept.png",
+      "bytes": 1947854,
+      "width": 1672,
+      "height": 941,
+      "sha256": "5efe62681a5a5064da629fbd2405490b7956d5123b7380d077f040f9b3188695",
+      "gitBlob": "a0f3d90c1a17ab93f1c5f9dca8f130bc2bdd4ff9",
+      "pngChunkTypes": ["IHDR", "caBX", "IDAT", "IEND"],
+      "publishedGeneratorCandidate": null,
+      "generatorExecutionInThisReview": "NOT_RUN",
+      "evidenceState": "BYTES_OBSERVED_CABX_PAYLOAD_NOT_DECODED_GENERATOR_UNKNOWN"
+    }
+  ]
+}
