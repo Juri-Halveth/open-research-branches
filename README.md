@@ -16,7 +16,7 @@ Hier treffen Software, Naturbeobachtung, Sprache und gesellschaftliche Fragen au
 
 **Öffentlicher Anker / Public anchor:** [HALVETH Space Index](reports/HALVETH_SPACE_INDEX_2026-09-23.md) verbindet die veröffentlichten Einstiege mit einem klaren Leseweg für Menschen und andere KI-Systeme. Der Index ist ein endlicher, versionsgebundener Überblick.
 
-**Von überall weiterarbeiten / Continue from anywhere:** [HALVETH Universe](UNIVERSE.md) ordnet die aktuell öffentlichen Projekt-Repositories, Forschungsäste und Mitmachwege. [AI Start Here](AI_START_HERE.md) ist die kurze Übergabe für ein anderes KI-Fenster mit einem tatsächlich verbundenen GitHub-Konto.
+**Von überall weiterarbeiten / Continue from anywhere:** [HALVETH Universe](UNIVERSE.md) ordnet die aktuell öffentlichen Projekt-Repositories, Forschungsäste und Mitmachwege. [AI Start Here](AI_START_HERE.md) ist die kurze Übergabe für ein anderes KI-Fenster mit einem tatsächlich verbundenen GitHub-Konto. Das [Verweisnetz / Reference Network](REFERENCE_NETWORK.md) zeigt den geprüften Hin- und Rückweg mit begrenzter Code-Coverage.
 
 **Gesprächsthemen / Discussion starters:** [30 zweisprachige, quellengebundene Fragen](DISCUSSION_ATLAS.md) als Einstieg für neue öffentliche Threads.
 

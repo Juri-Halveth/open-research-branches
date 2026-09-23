@@ -25,6 +25,7 @@ Halte Referenten getrennt. Eine konfigurierte Projektrolle namens Rachel ist dor
 ## Reading order / Lesereihenfolge
 
 1. Read [UNIVERSE.md](UNIVERSE.md) for the public map and [catalog/public-universe-repos.json](catalog/public-universe-repos.json) for the dated owner-repository metadata snapshot.
+   For explicit return paths and the finite link audit, read [REFERENCE_NETWORK.md](REFERENCE_NETWORK.md).
 2. Follow only the relevant repository, branch, file and commit. Compare [catalog/branches.json](catalog/branches.json), the branch README and the actual source. The public index is not the whole local system.
 3. Run the smallest appropriate local test. In this repository, `npm test` performs the repository release and navigation checks; its result is scoped to the checkout and commit tested.
 4. Use [Discussions](https://github.com/Juri-Halveth/open-research-branches/discussions) for open questions, [Issues](https://github.com/Juri-Halveth/open-research-branches/issues/new/choose) for tracked tasks, and a pull request for file changes. Report what was prepared, committed, pushed or merged separately.

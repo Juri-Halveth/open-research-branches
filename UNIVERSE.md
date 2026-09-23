@@ -6,6 +6,8 @@
 
 **30 Gesprächsanfänge / 30 discussion starters:** [DISCUSSION_ATLAS.md](DISCUSSION_ATLAS.md)
 
+**Verweise und Rückwege / references and return paths:** [REFERENCE_NETWORK.md](REFERENCE_NETWORK.md) · [ausführbarer Syntax-Check / runnable syntax check](scripts/check-reference-network.mjs)
+
 Dieser Wegweiser verbindet **veröffentlichte** Repositories, Forschungsäste, Fragen und Mitmachwege. Er ist eine navigierbare Karte, kein Spiegel privater Laufwerke. Die maschinenlesbare Liste der beim Abruf sichtbaren öffentlichen Repositories steht in [catalog/public-universe-repos.json](catalog/public-universe-repos.json). / This is a map of published repositories, research branches, questions and contribution routes, not a mirror of private drives.
 
 ```mermaid

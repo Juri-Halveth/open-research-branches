@@ -12,7 +12,7 @@
     "synthetic-data"
   ],
   "scripts": {
-    "test": "node scripts/run-release-gates.mjs && node --test scripts/release-gate.test.mjs && node scripts/run-tests.mjs && node --test scripts/provenance-snapshot.test.mjs && node --test scripts/audit-star.test.mjs && node --test scripts/project-name-alias.test.mjs && node --test scripts/technology-roadmap.test.mjs && node scripts/build-technology-roadmap.mjs --check && node --test scripts/validate-catalog.test.mjs && node scripts/validate-catalog.mjs && node --test scripts/validate-navigation.test.mjs && node scripts/validate-navigation.mjs",
+    "test": "node scripts/run-release-gates.mjs && node --test scripts/release-gate.test.mjs && node scripts/run-tests.mjs && node --test scripts/provenance-snapshot.test.mjs && node --test scripts/audit-star.test.mjs && node --test scripts/check-reference-network.test.mjs && node --test scripts/project-name-alias.test.mjs && node --test scripts/technology-roadmap.test.mjs && node scripts/build-technology-roadmap.mjs --check && node --test scripts/validate-catalog.test.mjs && node scripts/validate-catalog.mjs && node --test scripts/validate-navigation.test.mjs && node scripts/validate-navigation.mjs",
     "check:navigation": "node scripts/validate-navigation.mjs",
     "build:roadmap": "node scripts/build-technology-roadmap.mjs",
     "check:roadmap": "node scripts/build-technology-roadmap.mjs --check"

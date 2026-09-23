@@ -266,6 +266,7 @@ PROVENANCE.md
 PUBLIC-NAME.md
 PUBLICATION_POLICY.md
 README.md
+REFERENCE_NETWORK.md
 reports/ATOMIC_LEGAL_READINESS_2026-09-19.md
 reports/FREE_NEWS_001_IOS_MARKER_AND_401_EDGE.md
 reports/FREE_NEWS_002_REACHER_S4E7_DIGITAL_REFOCUS.md
@@ -318,6 +319,8 @@ scripts/audit-star.test.mjs
 scripts/build-audit-star.mjs
 scripts/build-research-banner.py
 scripts/build-technology-roadmap.mjs
+scripts/check-reference-network.mjs
+scripts/check-reference-network.test.mjs
 scripts/create-provenance-snapshot.mjs
 scripts/prepare-wiki-copy.mjs
 scripts/prepublish-check.mjs
