@@ -39,6 +39,10 @@ Das FBI hat gegenüber Reuters erklärt, es kenne Behauptungen zu unerlaubten Ak
 
 Eine fachlich belastbare Rekonstruktion braucht mindestens eine betroffene Systemkomponente, eine Betreiber- oder forensisch nachvollziehbare Aussage zum Erstzugang, eine zeitliche Kette, Hinweise zur Quelle der betroffenen Datensätze und eine Prüfung konkurrierender Erklärungen (vorherige Breaches, Datenbroker, Kombinationen). Bis dahin bleibt „PeopleSoft → GovCloud → FBI-Dump“ eine **behauptete**, nicht festgestellte Kausalkette. Der öffentlich dokumentierte Juni-CVE und die NAIC-Umgebung dürfen die fehlenden FBI-Glieder nicht ersetzen.
 
+## Öffentliche Diskussion am 23. September, 16:23 UTC
+
+Die gesichteten [r/technology](https://www.reddit.com/r/technology/comments/1wnevnd/we_hacked_the_fbi_hackers_say_they_have_data_on/)- und [r/privacy](https://www.reddit.com/r/privacy/comments/1wnl66m/shinyhunters_hackers_say_they_breached_fbi_stole/)-Threads verlinken beziehungsweise besprechen die journalistischen Berichte. Kommentare enthalten teils alternative Vermutungen zum Zugangsweg und Forderungen nach Datenfreigabe. Innerhalb **dieser zwei gelesenen Threads** ist das keine unabhängige technische Provenienz- oder Umfangsbestätigung. Der direkte Abruf der FBI-Jobs-Startseite durch das benutzte Recherchewerkzeug lieferte `403 Forbidden`; der aktuelle Portalzustand wurde dadurch nicht verifiziert.
+
 ## Offene W-Fragen und Wiederaufnahme
 
 1. **Woher stammen die abgeglichenen Einzelangaben?** Wiederaufnahme bei FBI- oder unabhängig forensisch belegter Provenienzanalyse.
