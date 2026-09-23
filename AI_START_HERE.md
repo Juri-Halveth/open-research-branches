@@ -2,6 +2,8 @@
 
 **Public entry:** [UNIVERSE.md](UNIVERSE.md) · [Space Index](reports/HALVETH_SPACE_INDEX_2026-09-23.md) · [project catalog](catalog/branches.json)
 
+**Reference network / Verweisnetz:** [REFERENCE_NETWORK.md](REFERENCE_NETWORK.md) · [run the checker / Prüfer ausführen](scripts/check-reference-network.mjs)
+
 This file is a portable **reading and contribution protocol**, not a credential or a grant of authority. / Diese Datei ist ein portabler Lese- und Beitragsweg, kein Zugangsschlüssel und keine Handlungsfreigabe.
 
 ## Copy/paste request / Kopierbare Anfrage
@@ -21,6 +23,27 @@ HALVETH und LUCINET enthalten tatsächlichen Quellcode, Dokumente und lokal prü
 Keep referents separate. A configured project role named Rachel is an implemented role where its configuration and runtime show it; that alone does not establish an independent outside agent or settle whether a person of the same name exists. Terms such as *Seele / soul* remain attached to the user's stated meaning and the particular source; do not silently turn them into a fictional label, a measured physical mechanism, or a universal scientific result. Quote the exact source span and commit before attributing a claim to a repository. A screenshot of an assistant's paraphrase is evidence of that displayed answer, not by itself evidence of a repository edit or its author.
 
 Halte Referenten getrennt. Eine konfigurierte Projektrolle namens Rachel ist dort implementiert, wo Konfiguration und Laufzeit dies zeigen; daraus folgt weder ein unabhängiger Außenagent noch eine Aussage darüber, ob eine gleichnamige Person existiert. Begriffe wie *Seele / soul* bleiben an die Bedeutung des Nutzers und die jeweilige Quelle gebunden; mache daraus nicht stillschweigend ein Fiktionslabel, einen gemessenen physikalischen Mechanismus oder ein allgemeingültiges wissenschaftliches Resultat. Zitiere Quellspan und Commit, bevor du eine Aussage dem Repository zuschreibst. Ein Screenshot einer KI-Paraphrase belegt zunächst diese angezeigte Antwort, für sich genommen keine Repository-Änderung oder deren Urheber.
+
+## Named routes / Benannte Wege
+
+These are **source-bound navigation routes**, not a claim that every similarly named person, role or work is identical. Read the linked file at the commit you are assessing. / Dies sind **quellengebundene Lesewege**, keine Gleichsetzung aller gleichnamigen Personen, Rollen oder Werke. Lies die verlinkte Datei am jeweils geprüften Commit.
+
+| Name or route | Public source and next question |
+| --- | --- |
+| HALVETH / Juri | [Public name](PUBLIC-NAME.md) and [universe map](UNIVERSE.md): Which project and revision does the task mean? |
+| LUCINET / ASTER | [ASTER lens, source and provenance](branches/aster-provenance-and-secret-garden/README.md): What did the source show, and what did its rendering add? |
+| Rachel / RACHEL | [Garden role and reversible-note seed](branches/aster-provenance-and-secret-garden/README.md): Which configured role, source and time address are meant? |
+| Der Garten / Secret Garden | [Garden snapshot and role map](branches/aster-provenance-and-secret-garden/README.md): Which public scene, code seed or observation is being discussed? |
+| Mira and Timo | [Context-prism entity lenses](branches/youtube-usdai-sabr-context-prism/entity-lenses.json): Which research transition or version/time address is specified there? |
+| Scarlet Witch / Avengers | [Narrative-lens contract](branches/youtube-usdai-sabr-context-prism/entity-lenses.json) and [Scarlet project](https://github.com/Juri-Halveth/halveth-scarlet): Which is a story lens, and which is an independently tested software claim? |
+| Morrowind / Realms | [Separate game projects](UNIVERSE.md): Which repository, license and executable build are relevant? |
+| Other named branches / weitere Namen | [Branch catalog](catalog/branches.json) and [open discussion](https://github.com/Juri-Halveth/open-research-branches/discussions): Bind a name to a source before adding an identity or relation. |
+
+## Freshness pulse / Frischeprüfung
+
+At a checkout of this repository, run `git rev-parse HEAD`, then `npm test` and `node scripts/check-reference-network.mjs`. Record the exact commit, UTC check time, exit status and the checker's coverage. Compare [the bound reference snapshot](REFERENCE_NETWORK.md) with the new run instead of treating its older counts as live. A content edit, saved file, Git commit, push, CI result and merge are separate events. A changed hash proves changed bytes at that path; it does not by itself prove external effect, authorship, independent corroboration or that every link in the world works.
+
+In einem Checkout dieses Repositories: `git rev-parse HEAD`, dann `npm test` und `node scripts/check-reference-network.mjs` ausführen. Exakten Commit, UTC-Prüfzeit, Exitstatus und Suchabdeckung festhalten. Den [gebundenen Verweisstand](REFERENCE_NETWORK.md) mit dem neuen Lauf vergleichen. Inhaltsänderung, gespeicherte Datei, Commit, Push, CI-Ergebnis und Merge sind verschiedene Ereignisse. Ein neuer Hash belegt andere Bytes an diesem Pfad; er beweist für sich weder Außenwirkung noch Urheberschaft oder die Gültigkeit sämtlicher Weblinks.
 
 ## Reading order / Lesereihenfolge
 
