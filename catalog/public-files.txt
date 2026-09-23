@@ -11,6 +11,7 @@
 .github/pull_request_template.md
 .github/workflows/ci.yml
 .gitignore
+AI_START_HERE.md
 assets/research-room.png
 branches/alice-media-referent-and-agency-audit/candidate-works.json
 branches/alice-media-referent-and-agency-audit/local-anchors.json
@@ -243,11 +244,14 @@ catalog/CANDIDATE_TOPICS.md
 catalog/public-binary-documents.json
 catalog/public-files.txt
 catalog/public-identities.json
+catalog/public-media-receipts.json
 catalog/public-project-snapshot.json
+catalog/public-universe-repos.json
 catalog/technology-roadmap.json
 CHANGELOG.md
 CITATION.cff
 CONTRIBUTING.md
+DISCUSSION_ATLAS.md
 HALVETH-RIGHTS.json
 HALVETH-RIGHTS.md
 LICENSE
@@ -262,6 +266,7 @@ PROVENANCE.md
 PUBLIC-NAME.md
 PUBLICATION_POLICY.md
 README.md
+REFERENCE_NETWORK.md
 reports/ATOMIC_LEGAL_READINESS_2026-09-19.md
 reports/FREE_NEWS_001_IOS_MARKER_AND_401_EDGE.md
 reports/FREE_NEWS_002_REACHER_S4E7_DIGITAL_REFOCUS.md
@@ -299,8 +304,10 @@ reports/HALVETH_300KB_DEEP_RESEARCH.pdf
 reports/HALVETH_300KB_DEEP_RESEARCH.sha256
 reports/HALVETH_MARVEL_PERSPECTIVES.de.md
 reports/HALVETH_MARVEL_PERSPECTIVES.en.md
+reports/HALVETH_REEL_VISUAL_PROVENANCE_2026-09-23.md
 reports/HALVETH_RESEARCH_2026-09-18.json
 reports/HALVETH_RESEARCH_2026-09-18.md
+reports/HALVETH_SPACE_INDEX_2026-09-23.md
 reports/MAC_OUI_REGISTRY_BOUNDARY.md
 reports/MICROSOFT_PKI_REPOSITORY_PATTERN.md
 reports/PROJECT_IDEAS_REVIEW_2026-09-19.md
@@ -313,6 +320,8 @@ scripts/audit-star.test.mjs
 scripts/build-audit-star.mjs
 scripts/build-research-banner.py
 scripts/build-technology-roadmap.mjs
+scripts/check-reference-network.mjs
+scripts/check-reference-network.test.mjs
 scripts/create-provenance-snapshot.mjs
 scripts/prepare-wiki-copy.mjs
 scripts/prepublish-check.mjs
@@ -330,6 +339,7 @@ scripts/validate-navigation.mjs
 scripts/validate-navigation.test.mjs
 scripts/validate-public-manifest.mjs
 SECURITY.md
+UNIVERSE.md
 wiki/_Footer.md
 wiki/_Sidebar.md
 wiki/Belege-und-Zeitlinien.md

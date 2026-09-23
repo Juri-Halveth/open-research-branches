@@ -1,5 +1,9 @@
 # Release artifacts
 
+**Zurück zum Forschungsraum / Back to the research space:** [HALVETH Universe](../UNIVERSE.md) · [geprüftes Verweisnetz / checked reference network](../REFERENCE_NETWORK.md).
+
+**Öffentlicher Projektanker / Public project anchor:** [HALVETH Space Index](HALVETH_SPACE_INDEX_2026-09-23.md) · zweisprachiger Einstieg, Quellenweg, Zeitadressen und Claim-Grenzen.
+
 **WLAN-Faktencheck:** [Wi-Fi 6: Standard, Gerätefähigkeit und aktuelle Verbindung](WIFI6_STANDARD_AND_CONNECTION_2026-09-19.md) · Quellen, Funktionsschema und begrenzte lokale Prüfung.
 
 **Technologie-Roadmap:** [Bestandsprüfung und Ideen](PROJECT_IDEAS_REVIEW_2026-09-19.md) · [Sechs Arbeitspakete](TECHNOLOGY_ROADMAP_2026-09-19.md) · [Atomic Legal Readiness](ATOMIC_LEGAL_READINESS_2026-09-19.md).

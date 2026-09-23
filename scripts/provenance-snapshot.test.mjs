@@ -177,3 +177,38 @@ test("representative generic paths retain their repository license classes", () 
     assert.equal(classifyLicense(relativePath).licenseId, expectedLicense, relativePath);
   }
 });
+
+test("the provenance classifier follows explicit PIRL 2.0 path assignments", () => {
+  const paths = [
+    "UNIVERSE.md",
+    "AI_START_HERE.md",
+    "DISCUSSION_ATLAS.md",
+    "catalog/public-universe-repos.json",
+    "catalog/public-media-receipts.json",
+    "reports/HALVETH_SPACE_INDEX_2026-09-23.md",
+    "reports/FREE_NEWS_025_HALVETH_ALL_SCALES_APERTURE_2026-09-15.md",
+    "reports/WIFI6_STANDARD_AND_CONNECTION_2026-09-19.md",
+    "reports/PROJECT_IDEAS_REVIEW_2026-09-19.md",
+    "reports/ATOMIC_LEGAL_READINESS_2026-09-19.md",
+    "HALVETH-RIGHTS.md",
+    "HALVETH-RIGHTS.json",
+    "LICENSE-HALVETH-PIRL-2.0.md",
+    "reports/HALVETH_300KB_DEEP_RESEARCH.pdf",
+    "reports/HALVETH_300KB_DEEP_RESEARCH.sha256",
+    "reports/HALVETH_300KB_DEEP_RESEARCH_RIGHTS.md",
+    "reports/HALVETH_REEL_VISUAL_PROVENANCE_2026-09-23.md",
+    "scripts/build-technology-roadmap.mjs",
+    "scripts/project-name-alias.mjs",
+    "scripts/project-name-alias.test.mjs",
+    "scripts/technology-roadmap.test.mjs"
+  ];
+  for (const relativePath of paths) {
+    assert.deepEqual(classifyLicense(relativePath), {
+      licenseId: "LicenseRef-HALVETH-PIRL-2.0",
+      ruleId: "FILE_SPECIFIC_PIRL_2",
+      basisPath: "LICENSE-HALVETH-PIRL-2.0.md"
+    }, relativePath);
+  }
+  assert.equal(classifyLicense("catalog/branches.json").licenseId, "CC0-1.0");
+  assert.equal(classifyLicense("README.md").licenseId, "CC-BY-4.0");
+});
