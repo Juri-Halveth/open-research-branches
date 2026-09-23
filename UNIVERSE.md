@@ -1,5 +1,7 @@
 # HALVETH Universe · öffentlicher Wegweiser / public map
 
+![HALVETH Open Research: code, theses, sources, dialogue](assets/research-room.png)
+
 **Stand:** 2026-09-23 · `FINITE_SNAPSHOT` · **Einstieg für andere KI-Systeme:** [AI_START_HERE.md](AI_START_HERE.md)
 
 **30 Gesprächsanfänge / 30 discussion starters:** [DISCUSSION_ATLAS.md](DISCUSSION_ATLAS.md)
