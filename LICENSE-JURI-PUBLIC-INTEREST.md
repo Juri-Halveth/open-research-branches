@@ -4,10 +4,7 @@
 
 # Juri Public-Interest Research Permission 1.0
 
-**Rechtehinweis:** Copyright © 2026 Juri Janovski, veröffentlichend als
-[@Juri-Halveth](https://github.com/Juri-Halveth), soweit urheberrechtliche,
-leistungsschutzrechtliche oder vergleichbare Rechte bestehen und von ihm
-kontrolliert werden.
+**Rechtehinweis:** Copyright © 2026 Juri Janovski, veröffentlichend als [@Juri-Halveth](https://github.com/Juri-Halveth)
 
 Diese Nutzungserlaubnis gilt  für die in
 [`LICENSES.md`](LICENSES.md)  bezeichneten Dateien und Fassungen.
