@@ -1,5 +1,7 @@
 # Release artifacts
 
+**Offene Fragen / Open questions:** [Die Millionenspende rückwärts befragen](MILLION_EURO_OFFER_TEN_QUESTIONS_2026-09-23.md) · zehn Fragen vom behaupteten Zahlungseingang zurück zur Absenderbehauptung; Beiträge auf Deutsch oder Englisch willkommen.
+
 **WLAN-Faktencheck:** [Wi-Fi 6: Standard, Gerätefähigkeit und aktuelle Verbindung](WIFI6_STANDARD_AND_CONNECTION_2026-09-19.md) · Quellen, Funktionsschema und begrenzte lokale Prüfung.
 
 **Technologie-Roadmap:** [Bestandsprüfung und Ideen](PROJECT_IDEAS_REVIEW_2026-09-19.md) · [Sechs Arbeitspakete](TECHNOLOGY_ROADMAP_2026-09-19.md) · [Atomic Legal Readiness](ATOMIC_LEGAL_READINESS_2026-09-19.md).
