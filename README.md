@@ -26,6 +26,8 @@ Hier treffen Software, Naturbeobachtung, Sprache und gesellschaftliche Fragen au
 
 **Neue Research-Notiz:** [Solstheim und das Projektsymbol SOL](reports/PROJECT_NAME_BINDING_2026-09-19.md) — eigene Namenszuordnung mit ausführbarem Beispiel und klar bezeichnetem Geltungsbereich.
 
+**Neuer Forschungsast:** [Photograph-Formel · Herkunfts- und Identitätslinse](branches/photograph-provenance-identity-lens/README.md) — Licht, Pixel und Dateihash mit synthetischen Gegenbeispielen prüfen; Aufnahme, Person und Veröffentlichungsrechte getrennt weiterfragen. Beiträge und Gegenhypothesen sind auf Deutsch und Englisch willkommen.
+
 | | |
 | :--- | :--- |
 | **💻 [Code & Werkzeuge](wiki/Code-und-Werkzeuge.md)**<br>Focus Kernel, Ja/Nein-Klärung, Referenzprüfung und wiederverwendbare Methoden. | **💧 [Licht, Wasser & Energie](wiki/Licht-Wasser-und-Energie.md)**<br>Optik, thermische Systeme, Quanteninternet und unterscheidbare Modelle. |
