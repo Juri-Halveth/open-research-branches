@@ -20,7 +20,7 @@ Start at [UNIVERSE.md](UNIVERSE.md), pass through [AI_START_HERE.md](AI_START_HE
 
 ## What the code checked / Was der Code geprüft hat
 
-Run `node scripts/check-reference-network.mjs` in this repository. The script reads `git ls-files` at the checkout's `HEAD` and scans UTF-8 text candidates for lexical Markdown links, HTML `href`/`src` attributes and JavaScript module imports. It resolves relative destinations against tracked paths, distinguishes directory links, records missing local destinations and counts exact reciprocal source/target pairs. It does not open links, inspect private drives, execute scanned files, parse all programming languages, verify headings or assert that a backlink has the same meaning as a forward link. The pre-existing [Audit Star](catalog/AUDIT_STAR.md) is a separate path-and-history index fixed to its own older commit.
+Run `node scripts/check-reference-network.mjs` in this repository. The script reads `git ls-files` at the checkout's `HEAD` and scans UTF-8 text candidates for lexical Markdown links, HTML `href`/`src` attributes and JavaScript module imports. It resolves relative destinations against tracked paths, distinguishes directory links, records missing local destinations and counts exact reciprocal source/target pairs. Because this is a lexical parser, link- or import-shaped text inside a string or comment can appear as a candidate. It does not open links, inspect private drives, execute scanned files, parse all programming languages, verify headings or assert that a backlink has the same meaning as a forward link. The pre-existing [Audit Star](catalog/AUDIT_STAR.md) is a separate path-and-history index fixed to its own older commit.
 
 The pre-change run against the bound commit reported:
 

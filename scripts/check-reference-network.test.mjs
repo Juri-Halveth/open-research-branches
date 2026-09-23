@@ -19,9 +19,9 @@ test("missing, escaped and malformed references do not become valid graph edges"
 });
 
 test("relative module imports resolve against tracked source paths", () => {
-  const refs = extractReferences("src/main.mjs", 'import { run } from "./core.mjs";');
+  const refs = extractReferences("src/main.mjs", 'import { run } from "./check-reference-network.mjs";');
   assert.equal(refs.length, 1);
-  assert.equal(resolveLocalReference(refs[0], new Set(["src/core.mjs"])).status, "RESOLVED");
+  assert.equal(resolveLocalReference(refs[0], new Set(["src/check-reference-network.mjs"])).status, "RESOLVED");
   assert.equal(resolveLocalReference({ source: "src/main.mjs", raw: "node:fs", kind: "MODULE_IMPORT" }, new Set(["src/main.mjs"])).status, "OUTSIDE_LOCAL_GRAPH");
 });
 
