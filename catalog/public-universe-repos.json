@@ -9,7 +9,7 @@
     { "name": "halveth-scarlet", "url": "https://github.com/Juri-Halveth/halveth-scarlet", "defaultBranch": "main", "mapRole": "WORLD" },
     { "name": "halveth-unreal", "url": "https://github.com/Juri-Halveth/halveth-unreal", "defaultBranch": "codex/knowledge-crafting-0.2", "mapRole": "GAME" },
     { "name": "open-research-branches", "url": "https://github.com/Juri-Halveth/open-research-branches", "defaultBranch": "main", "mapRole": "RESEARCH" },
-    { "name": "halveth-project0-keeper", "url": "https://github.com/Juri-Halveth/halveth-project0-keeper", "defaultBranch": "", "mapRole": "TOOL" },
+    { "name": "halveth-project0-keeper", "url": "https://github.com/Juri-Halveth/halveth-project0-keeper", "defaultBranch": "", "mapRole": "TOOL", "contentState": "EMPTY_PUBLIC_REPOSITORY_AT_SNAPSHOT" },
     { "name": "halveth-realms", "url": "https://github.com/Juri-Halveth/halveth-realms", "defaultBranch": "codex/scarlet-garden", "mapRole": "GAME" },
     { "name": "lernstudio", "url": "https://github.com/Juri-Halveth/lernstudio", "defaultBranch": "main", "mapRole": "LEARNING" },
     { "name": "Juri-Halveth.github.io", "url": "https://github.com/Juri-Halveth/Juri-Halveth.github.io", "defaultBranch": "main", "mapRole": "PROFILE" },

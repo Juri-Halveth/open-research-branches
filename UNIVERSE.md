@@ -12,7 +12,7 @@ flowchart TD
   U --> S[Scarlet · interaktive Welt]
   U --> L[Lernen · freie Lektionen]
   U --> G[Realms, Morrowind, Unreal · Spiele]
-  U --> T[Tresor und Keeper · lokale Werkzeuge]
+  U --> T[Tresor · öffentlicher Code; Keeper · leerer Repo-Anker]
   U --> P[Thesen und Vorschläge]
   R --> C[29 katalogisierte Forschungsäste]
   R --> D[Discussions · öffentliche Fragen]
@@ -30,7 +30,7 @@ Die Knoten sind **Navigationsrollen**, keine Behauptung einer gemeinsamen Laufze
 | Welt / world | [HALVETH Scarlet](https://github.com/Juri-Halveth/halveth-scarlet) | Prüfe die dortige README, die aktive Fassung und deren eigene Lizenz. / Check its own README, current revision and license. |
 | Bildung / learning | [Lernstudio](https://github.com/Juri-Halveth/lernstudio) · [Mein Lernportal](https://github.com/Juri-Halveth/mein-lernportal) | Trenne veröffentlichte Lektionen, Code, lokale Daten und Produktbetrieb. / Separate published lessons, code, local data and deployment. |
 | Spiel und Kunst / games and art | [Realms](https://github.com/Juri-Halveth/halveth-realms) · [Morrowind Genesis](https://github.com/Juri-Halveth/halveth-morrowind-genesis) · [Unreal](https://github.com/Juri-Halveth/halveth-unreal) | Diese Projekte besitzen eigene Versionen, Abhängigkeiten und Rechte. / Each has its own versions, dependencies and rights. |
-| Werkzeuge / tools | [Tresor](https://github.com/Juri-Halveth/halveth-tresor) · [Project 0 Keeper](https://github.com/Juri-Halveth/halveth-project0-keeper) | Quellstand und Testscope lesen; niemals echte Schlüssel, Wallets oder Transaktionen aus einer Demo ableiten. / Read source and test scope; a demo proves no live wallet action. |
+| Werkzeuge / tools | [Tresor](https://github.com/Juri-Halveth/halveth-tresor) · [Project 0 Keeper](https://github.com/Juri-Halveth/halveth-project0-keeper) | Tresor-Quellstand und Testscope im eigenen Repo prüfen. Das öffentliche Keeper-Repo war beim Snapshot **leer** (API-Größe 0, kein vorhandener Default-Branch-Ref und keine Code-Dateien); es ist nur ein Namensanker und belegt keinen implementierten Keeper oder Disarmed-Fix. / Check the Tresor source in its own repo. The Keeper repository was **empty at this snapshot** and does not host testable Keeper code. |
 | Thesen und Angebote / theses and proposals | [Geburtsthese](https://github.com/Juri-Halveth/juri-janovski-these-zur-geburt) · [xAI-Vorschlag](https://github.com/Juri-Halveth/halveth-xai-40m-proposal) · [Profil-Site-Quelle](https://github.com/Juri-Halveth/Juri-Halveth.github.io) | Quelle, Behauptung, Vorschlag, Annahme und externe Zusage getrennt prüfen. / Separate source, claim, proposal, acceptance and external confirmation. |
 
 Die Tabelle verlinkt zwölf am 23. September 2026 per GitHub-CLI als öffentlich zurückgegebene Repositories des Kontos. Ein Repo-Link belegt Erreichbarkeit und Metadaten im Abruf, **keine** vollständige Inhalts-, Lizenz- oder Sicherheitsprüfung des Zielprojekts. Insbesondere ist ein sichtbarer Vorschlag keine Annahme durch seinen Adressaten. / The table links twelve public repositories returned by the GitHub CLI. A link is not a full content, license or security audit.
