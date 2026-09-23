@@ -1,5 +1,7 @@
 # Release artifacts
 
+**Aktueller Quellenatlas:** [FBI / ShinyHunters: öffentliche Behauptungen, geprüfte Aussagen und offene Herkunft](FBI_SHINYHUNTERS_PUBLIC_CLAIM_AUDIT_2026-09-23.md) · datensparsame Auswertung der Berichte vom 22./23. September 2026.
+
 **WLAN-Faktencheck:** [Wi-Fi 6: Standard, Gerätefähigkeit und aktuelle Verbindung](WIFI6_STANDARD_AND_CONNECTION_2026-09-19.md) · Quellen, Funktionsschema und begrenzte lokale Prüfung.
 
 **Technologie-Roadmap:** [Bestandsprüfung und Ideen](PROJECT_IDEAS_REVIEW_2026-09-19.md) · [Sechs Arbeitspakete](TECHNOLOGY_ROADMAP_2026-09-19.md) · [Atomic Legal Readiness](ATOMIC_LEGAL_READINESS_2026-09-19.md).
