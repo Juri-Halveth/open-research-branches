@@ -108,6 +108,14 @@ branches/nuclear-legacy-disarmament-and-public-value/model-data.json
 branches/nuclear-legacy-disarmament-and-public-value/README.md
 branches/nuclear-legacy-disarmament-and-public-value/research-map.json
 branches/nuclear-legacy-disarmament-and-public-value/sources.json
+branches/photograph-provenance-identity-lens/README.md
+branches/photograph-provenance-identity-lens/RELATED_PATHS.md
+branches/photograph-provenance-identity-lens/simulation-receipt.json
+branches/photograph-provenance-identity-lens/sources.json
+branches/photograph-provenance-identity-lens/src/photograph-lens.mjs
+branches/photograph-provenance-identity-lens/src/search-simulator.mjs
+branches/photograph-provenance-identity-lens/test/photograph-lens.test.mjs
+branches/photograph-provenance-identity-lens/test/search-simulator.test.mjs
 branches/pixel-region-change-observer/fixtures/synthetic-frames.json
 branches/pixel-region-change-observer/LICENSE
 branches/pixel-region-change-observer/package.json

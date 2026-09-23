@@ -44,6 +44,16 @@
       "activeMain": false
     },
     {
+      "id": "photograph-provenance-identity-lens",
+      "title": "Photograph-Formel · Herkunfts- und Identitätslinse",
+      "kind": "research-method",
+      "state": "PUBLIC_DERIVATIVE",
+      "path": "branches/photograph-provenance-identity-lens",
+      "claimCeiling": "SYNTHETIC_IMAGE_MODEL_AND_SUPPLIED_BYTE_IDENTITY_ONLY",
+      "dataClass": "SYNTHETIC_ONLY",
+      "activeMain": false
+    },
+    {
       "id": "browser-extension-claim-reassessment",
       "title": "Browser Extension Claim Reassessment",
       "kind": "security-reassessment",
