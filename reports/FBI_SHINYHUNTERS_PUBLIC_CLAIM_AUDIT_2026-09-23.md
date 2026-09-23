@@ -64,4 +64,4 @@ Die gesichteten [r/technology](https://www.reddit.com/r/technology/comments/1wne
 | S5 | [Google Cloud / Mandiant, PeopleSoft-Kampagne](https://cloud.google.com/blog/topics/threat-intelligence/shinyhunters-targets-education-sector-oracle-exploit) | Primäranalyse eines früheren Angriffs; nur high-level Kontext übernommen. |
 | S6 | [NAIC, Security Incident Update](https://content.naic.org/about/security-update) | Offizielle Aktualisierungen des separaten NAIC-Vorfalls. |
 
-**Wirkung dieses Arbeitsschritts:** Öffentliche Quellen gelesen und klassifiziert; lokale Akte/Tabelle erstellt. Keine Zielsystemprüfung, keine entwendeten Datensätze beschafft, keine externe Meldung versandt. Ein veröffentlichter Bericht wäre ein Quellenatlas, kein Dump oder Ermittlungsbeweis.
+**Wirkung dieses Arbeitsschritts:** Öffentliche Quellen gelesen und klassifiziert; lokale Akte/Tabelle erstellt. Keine Zielsystemprüfung, keine entwendeten Datensätze beschafft, keine externe Meldung versandt. Dieser Bericht ist ein Quellenatlas, kein Dump oder Ermittlungsbeweis.
