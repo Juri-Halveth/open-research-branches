@@ -1,5 +1,7 @@
 # Release artifacts
 
+**Öffentliche Quellenprüfung / Public source review:** [Angebliche Millionenspende im Namen Schaefflers](SCHAEFFLER_DONATION_IMPERSONATION_SOURCE_REVIEW_2026-09-23.md) · Primärquellen, Widerspruch in der Rollenangabe und offene Fragen zur Identitätsprüfung; Beiträge auf Deutsch oder Englisch willkommen.
+
 **WLAN-Faktencheck:** [Wi-Fi 6: Standard, Gerätefähigkeit und aktuelle Verbindung](WIFI6_STANDARD_AND_CONNECTION_2026-09-19.md) · Quellen, Funktionsschema und begrenzte lokale Prüfung.
 
 **Technologie-Roadmap:** [Bestandsprüfung und Ideen](PROJECT_IDEAS_REVIEW_2026-09-19.md) · [Sechs Arbeitspakete](TECHNOLOGY_ROADMAP_2026-09-19.md) · [Atomic Legal Readiness](ATOMIC_LEGAL_READINESS_2026-09-19.md).
