@@ -1,6 +1,6 @@
 # Photograph-Formel · Herkunfts- und Identitätslinse
 
-**Stand:** 2026-09-23 · **Typ:** offener Forschungsast mit lokalem, synthetischem Test · **Version des Instruments:** 0.1.0
+**Stand:** 2026-09-23 · **Typ:** offener Forschungsast mit lokalem, synthetischem Test · **Version des Suchinstruments:** 0.2.0 (Byte-Paket 0.1.0)
 
 Ein Foto ist eine begrenzte Messung und eine Datei. Daraus folgen verschiedene Fragen: Welche Bytes liegen vor? Welche Pixel wurden wie erzeugt? Welches Ereignis soll die Aufnahme zeigen? Wer hat die Datei geschaffen, wer ist eventuell abgebildet, und für welche Nutzung liegt eine Grundlage vor? Diese Fragen dürfen einander nicht stillschweigend beantworten.
 
@@ -39,6 +39,29 @@ Das lokale Instrument verwendet eine einzelne normalisierte synthetische Lichtka
 
 Diese Beobachtungen falsifizieren die jeweiligen **universellen Gleichsetzungsbehauptungen innerhalb des angegebenen Modells**. Sie beweisen weder, dass ein bestimmtes reales Foto manipuliert wurde, noch dass eine konkrete Person identifiziert oder ein Werk kopiert wurde.
 
+## Pingpong, Zufallssuche und Entkopplung
+
+`simulatePhotographSearch({ seed, budget, strategy })` bildet einen **endlichen 2×2×2-Versuch** aus zwei nahen synthetischen Lichtwerten (`0.5000`, `0.5001`), zwei Belichtungen (`1`, `2`) und zwei Metadatenrevisionen (`1`, `2`). Acht Fälle ergeben zwölf kontrollierte Paare. In jedem Paar wird **genau ein** Faktor geändert; Pixel- und Dateihash werden getrennt verglichen. Das ist die Entkopplung der Eingriffe, keine physikalische Entkopplung einer realen Kamera.
+
+![Drei kontrollierte Suchachsen](simulation-map.svg)
+
+- `PING_PONG` besucht reihum Szene → Belichtung → Metadaten und stellt jeweils das Resultat der vorherigen Gleichsetzung gegenüber.
+- `SEEDED_RANDOM` mischt dieselben zwölf Paare mit einem expliziten 32-Bit-Seed. Gleicher Seed und gleiches Budget ergeben denselben Besuchspfad. Dies ist eine reproduzierbare Suchreihenfolge, keine repräsentative Zufallsstichprobe realer Fotos.
+- Das Budget liegt zwischen 1 und 12. `visited`, `factorCoverage`, `witnessed` und `open` halten Treffer **und ausgelassene Paare** fest. Eine kleine Suche ohne Fund wird nicht zu „kein Gegenbeispiel“ hochgestuft.
+
+Bei vollständiger Abdeckung liefern beide Wege im Modell drei beobachtete Kontraste: geänderter Lichtwert bei gleichen Pixeln; gleiche Szene mit geänderter Belichtung und anderen Pixeln; gleiche Pixel bei geänderten Metadaten und anderem Dateihash. Ein unkontrollierter Vergleich mehrerer gleichzeitig geänderter Faktoren wäre für die jeweilige Ursachenzuordnung ungeeignet. Die Reparatur besteht hier im **Ein-Faktor-Vergleich und der sichtbaren Coverage**, während eine Personenidentität weiterhin nicht aus Pixeln oder Hashes projiziert wird. Der Seed beweist keine Unabhängigkeit, Repräsentativität oder Kameraäquivalenz.
+
+Weitere Nutzerachsen wie Leben, Story, Charaktere, Grafiken, Optimierung, Skalierung, Speicherung und sexualisierende Rahmung sind im [endlichen Verweisblatt](RELATED_PATHS.md) auf vorhandene öffentliche Äste verteilt. Das sind Suchadressen, keine Ergebnisse dieses physikalischen Simulators; insbesondere wird eine Darstellung nicht aus einem Hash sexualisiert oder einer Person zugeschrieben.
+
+Die [gespeicherte Simulationsquittung](simulation-receipt.json) enthält beide vollständigen Läufe für Seed `419`, Budget `12`, ohne Personen- oder Kameradaten. Ein Test vergleicht sie mit dem aktuellen Code. Für `k` binäre Eingriffsfaktoren hätten ein vollständiger solcher Plan `2^k` Fälle und `k·2^(k−1)` Ein-Faktor-Paare; diese Fassung ist absichtlich auf `k=3` und zwölf Paare begrenzt. Sie schreibt beim normalen Simulationsaufruf nichts auf Platte und sendet nichts ins Netz.
+
+Lokal ausführen:
+
+```sh
+node --input-type=module -e "import {simulatePhotographSearch as s} from './branches/photograph-provenance-identity-lens/src/search-simulator.mjs'; console.log(JSON.stringify(s({seed:419,budget:12,strategy:'PING_PONG'}),null,2))"
+node --input-type=module -e "import {simulatePhotographSearch as s} from './branches/photograph-provenance-identity-lens/src/search-simulator.mjs'; console.log(JSON.stringify(s({seed:419,budget:12,strategy:'SEEDED_RANDOM'}),null,2))"
+```
+
 ## Getypter Identitätscode
 
 `buildPhotoEvidencePacket(bytes)` nimmt ausschließlich eine vom Aufrufer übergebene Bytefolge entgegen. Es liest keine Kamera, keine Datei und kein Netzwerk. Das Paket trennt:
@@ -67,6 +90,7 @@ Node.js 20 oder neuer, lokal im Repository:
 
 ```sh
 node --test branches/photograph-provenance-identity-lens/test/photograph-lens.test.mjs
+node --test branches/photograph-provenance-identity-lens/test/search-simulator.test.mjs
 npm test
 ```
 
