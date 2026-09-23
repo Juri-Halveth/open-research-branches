@@ -6,6 +6,20 @@
 
 This file is a portable **reading and contribution protocol**, not a credential or a grant of authority. / Diese Datei ist ein portabler Lese- und Beitragsweg, kein Zugangsschlüssel und keine Handlungsfreigabe.
 
+**Navigation protocol / Navigationsprotokoll: 0.3.0.** This number versions this entry protocol only. It is not the repository package version, a Git tag, a release, a patent number, or a claim that every linked project has been checked. / Diese Nummer versioniert nur diesen Einstieg, nicht das Paket oder einen Release.
+
+## Choose a task path / Einen Aufgabenpfad wählen
+
+| Your question / Deine Frage | Start here / Einstieg | Return with / Ergebnis |
+| --- | --- | --- |
+| Find a project, role, image or source / Projekt, Rolle, Bild oder Quelle finden | [UNIVERSE.md](UNIVERSE.md) → [branch catalog](catalog/branches.json) → exact branch README | Path, commit, source span, and any missing original |
+| Assess a claim or analogy / Aussage oder Analogie prüfen | [research index](reports/HALVETH_SPACE_INDEX_2026-09-23.md) → relevant report → its primary sources and tests | Observation, interpretation, alternative explanation, and the next distinguishing check |
+| Change or run code / Code ändern oder ausführen | Relevant branch README → source → tests → [contribution route](CONTRIBUTING.md) | Reproducible command, environment, diff, test result, and effect actually observed |
+| Use or license material / Material nutzen oder lizenzieren | [path-based license map](LICENSES.md) → applicable text → [rights clarification](RIGHTS-RESERVATION.md) | Exact path/version, applicable grant, third-party boundary, and an open rights question if needed |
+| Report a security issue / Sicherheitsfund melden | [security route](SECURITY.md) and current authorized program scope | Minimal evidence and a private disclosure route; keep secrets and third-party data out of public issues |
+
+At each arrow, verify that the target exists at the **same recorded commit**. A path name, hash, diagram or metaphor is a navigation clue; it does not itself establish identity, causation, a physical effect, ownership, patent status, or external acceptance. If a link fails, record that failure and return to the last verified source. / Prüfe jedes Ziel am **selben notierten Commit**. Ein Pfad, Hash oder Bild ist ein Suchhinweis, kein Wirkungsbeweis. Bei einem defekten Verweis notiere die Lücke und kehre zur letzten geprüften Quelle zurück.
+
 ## Copy/paste request / Kopierbare Anfrage
 
 > Read the public repository `Juri-Halveth/open-research-branches`, starting with `AI_START_HERE.md` and `UNIVERSE.md`. State the exact commit you read. For my specific task, inspect the relevant branch README, source files, tests, sources and license map. Return a small evidence table: found, inferred, unknown, tested and proposed change. Keep local/private material out of public output. If connected with GitHub write access, prepare changes on a branch or pull request and show the exact diff and tests. Do not infer permission from this document; use only the capabilities actually granted by my GitHub connection.
@@ -36,6 +50,7 @@ These are **source-bound navigation routes**, not a claim that every similarly n
 | Der Garten / Secret Garden | [Garden snapshot and role map](branches/aster-provenance-and-secret-garden/README.md): Which public scene, code seed or observation is being discussed? |
 | Mira and Timo | [Context-prism entity lenses](branches/youtube-usdai-sabr-context-prism/entity-lenses.json): Which research transition or version/time address is specified there? |
 | Scarlet Witch / Avengers | [Narrative-lens contract](branches/youtube-usdai-sabr-context-prism/entity-lenses.json) and [Scarlet project](https://github.com/Juri-Halveth/halveth-scarlet): Which is a story lens, and which is an independently tested software claim? |
+| Visual resemblance / Bildähnlichkeit | [Reel and HALVETH visual comparison](reports/HALVETH_REEL_VISUAL_PROVENANCE_2026-09-23.md): Which two exact media versions and dates are established, and what transfer path is still unknown? |
 | Morrowind / Realms | [Separate game projects](UNIVERSE.md): Which repository, license and executable build are relevant? |
 | Other named branches / weitere Namen | [Branch catalog](catalog/branches.json) and [open discussion](https://github.com/Juri-Halveth/open-research-branches/discussions): Bind a name to a source before adding an identity or relation. |
 

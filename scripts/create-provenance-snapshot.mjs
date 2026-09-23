@@ -6,6 +6,30 @@ import path from "node:path";
 import { spawnSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 
+const PIRL_2_PATHS = new Set([
+  "UNIVERSE.md",
+  "AI_START_HERE.md",
+  "DISCUSSION_ATLAS.md",
+  "catalog/public-universe-repos.json",
+  "catalog/public-media-receipts.json",
+  "reports/HALVETH_SPACE_INDEX_2026-09-23.md",
+  "reports/FREE_NEWS_025_HALVETH_ALL_SCALES_APERTURE_2026-09-15.md",
+  "reports/WIFI6_STANDARD_AND_CONNECTION_2026-09-19.md",
+  "reports/PROJECT_IDEAS_REVIEW_2026-09-19.md",
+  "reports/ATOMIC_LEGAL_READINESS_2026-09-19.md",
+  "HALVETH-RIGHTS.md",
+  "HALVETH-RIGHTS.json",
+  "LICENSE-HALVETH-PIRL-2.0.md",
+  "reports/HALVETH_300KB_DEEP_RESEARCH.pdf",
+  "reports/HALVETH_300KB_DEEP_RESEARCH.sha256",
+  "reports/HALVETH_300KB_DEEP_RESEARCH_RIGHTS.md",
+  "reports/HALVETH_REEL_VISUAL_PROVENANCE_2026-09-23.md",
+  "scripts/build-technology-roadmap.mjs",
+  "scripts/project-name-alias.mjs",
+  "scripts/project-name-alias.test.mjs",
+  "scripts/technology-roadmap.test.mjs"
+]);
+
 const CUSTOM_LICENSE_PATHS = new Set([
   "reports/FREE_NEWS_022_NUCLEAR_LEGACY_POWER_AND_PUBLIC_VALUE.md",
   "branches/nuclear-legacy-disarmament-and-public-value/README.md",
@@ -153,6 +177,13 @@ export function parseSnapshotBytes(bytes) {
 
 export function classifyLicense(relativePath) {
   const normalized = relativePath.replaceAll("\\", "/");
+  if (PIRL_2_PATHS.has(normalized)) {
+    return {
+      licenseId: "LicenseRef-HALVETH-PIRL-2.0",
+      ruleId: "FILE_SPECIFIC_PIRL_2",
+      basisPath: "LICENSE-HALVETH-PIRL-2.0.md"
+    };
+  }
   if (CUSTOM_LICENSE_PATHS.has(normalized)) {
     return {
       licenseId: "LicenseRef-Juri-Public-Interest-1.0",

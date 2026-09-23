@@ -16,6 +16,7 @@ including historical MIT, ISC, CC BY and CC0 terms.
 | `catalog/public-universe-repos.json` from its first public commit | [HALVETH Public-Interest Research License 2.0](LICENSE-HALVETH-PIRL-2.0.md) for original selection and arrangement; GitHub repository facts and linked works retain their own status |
 | `catalog/public-media-receipts.json` from its first public commit | [HALVETH Public-Interest Research License 2.0](LICENSE-HALVETH-PIRL-2.0.md) for original selection and arrangement; image files keep their own path-specific terms |
 | `reports/HALVETH_SPACE_INDEX_2026-09-23.md` from its first public commit | [HALVETH Public-Interest Research License 2.0](LICENSE-HALVETH-PIRL-2.0.md); linked third-party material retains its own rights |
+| `reports/HALVETH_REEL_VISUAL_PROVENANCE_2026-09-23.md` from its first public commit | [HALVETH Public-Interest Research License 2.0](LICENSE-HALVETH-PIRL-2.0.md); linked third-party material retains its own rights |
 | `reports/FREE_NEWS_025_HALVETH_ALL_SCALES_APERTURE_2026-09-15.md` from its first public commit | [HALVETH Public-Interest Research License 2.0](LICENSE-HALVETH-PIRL-2.0.md) |
 | `reports/FREE_NEWS_022_NUCLEAR_LEGACY_POWER_AND_PUBLIC_VALUE.md` from first publication `v0.18.0` | [Juri Public-Interest Research Permission 1.0](LICENSE-JURI-PUBLIC-INTEREST.md) |
 | `branches/nuclear-legacy-disarmament-and-public-value/README.md` from first publication `v0.18.0` | [Juri Public-Interest Research Permission 1.0](LICENSE-JURI-PUBLIC-INTEREST.md) |
