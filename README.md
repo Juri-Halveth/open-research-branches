@@ -4,6 +4,15 @@
 
 # HALVETH!!! · Open Research
 
+<!-- HALVETH_WORK_CERTIFICATES_V1_1 -->
+## Juri Janovski / Juri Halveth – Privates HALVETH-Werkzertifikat
+
+[Privates HALVETH-Werkzertifikat: Dokumentierter Forschungsbestand, Softwaremodelle und Testworkflow – HALVETH Open Research](https://juri-halveth.github.io/werkzertifikate/#werk-open-research-branches).
+
+HALVETH VERACHEL STUDIOS · Quellstand, dokumentierte Ergebnisse und SHA-256-Belege stehen im Werkzertifikat. Private, mit Codex erstellte Werkdokumentation; keine ISTQB- oder sonstige Personenzertifizierung.
+<!-- /HALVETH_WORK_CERTIFICATES_V1_1 -->
+
+
 **HALVETH authorship and participation:** Juri Halveth (Juri Janovski) claims the rights in the collection's original theses, selection, structure, prose, models, diagrams and code contributions. Evidence status is separate and never operates as a rights waiver. Protected new HALVETH contributions require a written commercial license and participation agreement; historical permissions remain attached to their earlier files and versions. See [HALVETH-RIGHTS.md](HALVETH-RIGHTS.md), [HALVETH-RIGHTS.json](HALVETH-RIGHTS.json) and [LICENSES.md](LICENSES.md).
 
 **Ein offener Forschungsraum von HALVETH!!! und den HALVETH Open Research contributors.**
