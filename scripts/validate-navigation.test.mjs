@@ -36,16 +36,20 @@ test("missing branch navigation and broken anchors fail without fetching externa
   await Promise.all([
     fs.writeFile(path.join(root, "catalog/branches.json"), JSON.stringify({ branches: [{ path: "branches/one" }, { path: "branches/two" }] })),
     fs.writeFile(path.join(root, "README.md"), '# Start\n[Wiki](wiki/Projekte.md#projekte)\n[External](https://example.invalid/)'),
+    fs.writeFile(path.join(root, "AI_START_HERE.md"), '# AI Start\n[Missing](missing.md)'),
+    fs.writeFile(path.join(root, "UNIVERSE.md"), '# Universe\n[Start](README.md#start)'),
     fs.writeFile(path.join(root, "wiki/Projekte.md"), '# Projekte\n[One](../branches/one/README.md#wrong)'),
     fs.writeFile(path.join(root, "branches/one/README.md"), '# One'),
     fs.writeFile(path.join(root, "branches/two/README.md"), '# Two')
   ]);
   const failed = await validateNavigation({ root });
   assert.equal(failed.status, "FAIL");
-  assert.equal(failed.errors.length, 2);
+  assert.equal(failed.errors.length, 3);
+  assert.ok(failed.errors.some((error) => error.includes("AI_START_HERE.md") && error.includes("target does not exist")));
   assert.ok(failed.errors.some((error) => error.includes("anchor not found")));
   assert.ok(failed.errors.some((error) => error.includes("branches/two")));
   await fs.writeFile(path.join(root, "wiki/Projekte.md"), '# Projekte\n[One](../branches/one/README.md#one)\n[Two](../branches/two/)');
+  await fs.writeFile(path.join(root, "AI_START_HERE.md"), '# AI Start\n[Universe](UNIVERSE.md#universe)');
   const passed = await validateNavigation({ root });
   assert.equal(passed.status, "PASS_WITHIN_DECLARED_COVERAGE");
   assert.equal(passed.coverageSummary.directlyLinkedCatalogBranches, 2);

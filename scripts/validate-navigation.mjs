@@ -143,7 +143,7 @@ export async function validateNavigation({ root = DEFAULT_ROOT } = {}) {
   root = path.resolve(root);
   const errors = [];
   const warnings = [];
-  const pages = ["README.md"];
+  const pages = ["README.md", "AI_START_HERE.md", "UNIVERSE.md"];
   const wiki = await fs.readdir(path.join(root, "wiki"), { withFileTypes: true }).catch(() => null);
   if (!wiki) errors.push("wiki/: directory is missing or unreadable");
   else pages.push(...wiki.filter((entry) => entry.isFile() && entry.name.endsWith(".md")).map((entry) => `wiki/${entry.name}`).sort());
@@ -208,7 +208,7 @@ export async function validateNavigation({ root = DEFAULT_ROOT } = {}) {
   return {
     status: errors.length ? "FAIL" : "PASS_WITHIN_DECLARED_COVERAGE",
     coverageSummary: {
-      sourceScope: "README.md and direct wiki/*.md files; link targets are read only to check existence and anchors",
+      sourceScope: "README.md, AI_START_HERE.md, UNIVERSE.md and direct wiki/*.md files; link targets are read only to check existence and anchors",
       syntax: "inline and reference Markdown links/images, autolinks, quoted HTML href/src; fenced code and comments excluded",
       anchorScope: "ATX/setext heading slugs, repeated-heading suffixes, explicit HTML anchors, source line fragments",
       repositoryUrlScope: `https://github.com/${REPOSITORY}/blob/main/ and /tree/main/`,
