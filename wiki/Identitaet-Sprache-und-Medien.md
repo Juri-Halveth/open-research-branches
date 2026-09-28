@@ -12,6 +12,7 @@ Ein Name kann eine konkrete Softwareentität, eine Figur, ein Werk oder einen Su
 | [Alice: Geschichte und Handlungsspielraum](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/alice-media-referent-and-agency-audit/README.md) | Mehrere mögliche Werke und ihre offiziellen Storyquellen. | Welcher Titel, Clip oder Szenenmarker bindet den gemeinten Hinweis? |
 | [Historische Schriften: die 111-Challenge](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/historical-cipher-decoding-challenge/README.md) | Eine visuelle Analogie wird als offene Entschlüsselungsfrage mit Rosetta-Kontrolle bearbeitet. | Welche vollständigen Eingabedaten und unabhängige Vergleichsauswertung erlauben eine Wiederholung? |
 | [Bildbeschreibung und Interpretation](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/visual-interpretation-boundary/README.md) | Sichtbare Merkmale, Verarbeitung und mögliche Deutungen getrennt dokumentieren. | Welche bekannte Referenz erlaubt einen Blindvergleich? |
+| [Photograph-Formel und Identitätslinse](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/photograph-provenance-identity-lens/README.md) | Messkette des Bildes, Hash und getrennte Herkunfts-/Personenfragen mit synthetischen Tests. | Welche dokumentierte Aufnahme- und Rechtekette trägt einen konkreten Nutzungsfall? |
 
 ## ASTER in seinem konkreten Namensraum
 
