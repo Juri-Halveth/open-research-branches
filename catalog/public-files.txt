@@ -310,9 +310,12 @@ reports/TECHNOLOGY_ROADMAP_2026-09-19.md
 reports/WIFI6_STANDARD_AND_CONNECTION_2026-09-19.md
 RIGHTS-RESERVATION.md
 scripts/audit-star.test.mjs
+scripts/BOUNDED_SNAPSHOT.md
 scripts/build-audit-star.mjs
 scripts/build-research-banner.py
 scripts/build-technology-roadmap.mjs
+scripts/collect-bounded-snapshot.ps1
+scripts/collect-bounded-snapshot.test.ps1
 scripts/create-provenance-snapshot.mjs
 scripts/prepare-wiki-copy.mjs
 scripts/prepublish-check.mjs

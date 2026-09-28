@@ -42,6 +42,8 @@ including historical MIT, ISC, CC BY and CC0 terms.
 | `catalog/AUDIT_STAR.md`, `catalog/audit-star.json`, `scripts/build-audit-star.mjs`, and `scripts/audit-star.test.mjs` from their first public commit | [Juri Public-Interest Research Permission 1.0](LICENSE-JURI-PUBLIC-INTEREST.md) |
 | `reports/FREE_NEWS_020_STEAM_COINS_WALLET_AND_LEAK_AUDIT.md` and `README.md`, `sources.json`, `claims.json`, `comparison.json`, `public-observation.json`, `reconstruction-cycle.json` under `branches/steam-coins-wallet-and-leak-audit/`, plus release asset `JURI_STEAM_COINS_WALLET_LEAK_AUDIT.pdf` beginning with `v0.15.0` | [Juri Public-Interest Research Permission 1.0](LICENSE-JURI-PUBLIC-INTEREST.md) |
 | Source code, tests, HTML and CSS under `branches/` and `scripts/` | [MIT](LICENSE) |
+| Original code in `scripts/collect-bounded-snapshot.ps1` and `scripts/collect-bounded-snapshot.test.ps1`, and the distinguishable PowerShell-scanning changes in `scripts/release-gate-lib.mjs` and `scripts/release-gate.test.mjs`, from their first public commit | [MIT](LICENSE) |
+| Original prose in `scripts/BOUNDED_SNAPSHOT.md` and the bounded-snapshot listing added to `wiki/Code-und-Werkzeuge.md` from their first public commit | [CC BY 4.0](LICENSE-CONTENT.md) |
 | Repository configuration in `.gitattributes`, every `.gitignore` file and `.github/**/*.yml` | [MIT](LICENSE) |
 | Newly written Markdown prose, including branch reports and documentation | [CC BY 4.0](LICENSE-CONTENT.md) |
 | The original navigation illustration `assets/research-room.png` | [CC BY 4.0](LICENSE-CONTENT.md) |
