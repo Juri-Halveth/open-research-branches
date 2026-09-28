@@ -4,7 +4,7 @@
 
 # HALVETH!!! · Open Research
 
-**HALVETH authorship and participation:** Juri Halveth (Juri Janovski) claims the rights in the collection's original theses, selection, structure, prose, models, diagrams and code contributions. Evidence status is separate and never operates as a rights waiver. Protected new HALVETH contributions require a written commercial license and participation agreement; historical permissions remain attached to their earlier files and versions. See [HALVETH-RIGHTS.md](HALVETH-RIGHTS.md), [HALVETH-RIGHTS.json](HALVETH-RIGHTS.json) and [LICENSES.md](LICENSES.md).
+**HALVETH authorship and participation:** Juri Halveth (Juri Janovski) claims the rights in the collection's original theses, selection, structure, prose, models, diagrams and code contributions. Evidence status is separate and never operates as a rights waiver. Protected new HALVETH contributions require a written commercial license and participation agreement unless an applicable file-specific grant permits the use; historical permissions remain attached to their earlier files and versions. See [HALVETH-RIGHTS.md](HALVETH-RIGHTS.md), [HALVETH-RIGHTS.json](HALVETH-RIGHTS.json) and [LICENSES.md](LICENSES.md).
 
 **Ein offener Forschungsraum von HALVETH!!! und den HALVETH Open Research contributors.**
 
