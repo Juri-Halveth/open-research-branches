@@ -128,7 +128,12 @@ $oldGitConfigCount = $env:GIT_CONFIG_COUNT
 $inheritedGitKeys = @(
     'GIT_DIR', 'GIT_WORK_TREE', 'GIT_INDEX_FILE', 'GIT_COMMON_DIR',
     'GIT_OBJECT_DIRECTORY', 'GIT_ALTERNATE_OBJECT_DIRECTORIES',
-    'GIT_CONFIG_PARAMETERS', 'GIT_EXEC_PATH'
+    'GIT_CONFIG_PARAMETERS', 'GIT_EXEC_PATH', 'GIT_EXTERNAL_DIFF',
+    'GIT_DIFF_OPTS', 'GIT_PAGER', 'GIT_TRACE', 'GIT_TRACE2',
+    'GIT_TRACE2_EVENT', 'GIT_TRACE2_PERF', 'GIT_TRACE_SETUP',
+    'GIT_TRACE_PACKET', 'GIT_TRACE_PERFORMANCE', 'GIT_TRACE_SHALLOW',
+    'GIT_TRACE_REFS', 'GIT_TRACE_CURL', 'GIT_SSH', 'GIT_SSH_COMMAND',
+    'GIT_ASKPASS'
 )
 $inheritedGitValues = @{}
 foreach ($name in $inheritedGitKeys) {
@@ -292,11 +297,11 @@ try {
     }
     $receipt.checks += [ordered]@{ name='UTF8_BYTE_ROUNDTRIP'; passed=$true; detail='Exact candidate bytes read back.' }
     Invoke-Git $sandbox @('add','--',$targetPath) | Out-Null
-    $diff = Invoke-Git $sandbox @('diff','--cached','--',$targetPath)
+    $diff = Invoke-Git $sandbox @('diff','--no-ext-diff','--cached','--',$targetPath)
     $diffPath = Join-Path $runPath 'candidate.diff'
     [System.IO.File]::WriteAllText($diffPath, (($diff -join "`n") + "`n"), $encoding)
     $receipt.diffSha256 = (Get-FileHash -LiteralPath $diffPath -Algorithm SHA256).Hash.ToUpperInvariant()
-    $diffCheck = & git -C $sandbox diff --cached --check 2>&1
+    $diffCheck = & git -C $sandbox diff --no-ext-diff --cached --check 2>&1
     if ($LASTEXITCODE -ne 0) {
         $receipt.checks += [ordered]@{ name='GIT_DIFF_CHECK'; passed=$false; detail=($diffCheck -join ' ') }
         throw 'git diff --cached --check failed.'

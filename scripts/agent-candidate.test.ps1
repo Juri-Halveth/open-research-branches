@@ -12,6 +12,8 @@ if (-not $testRoot.StartsWith($tempRoot, [System.StringComparison]::OrdinalIgnor
     throw 'Synthetic test root escaped the operating-system temporary directory.'
 }
 $utf8 = [System.Text.UTF8Encoding]::new($false, $true)
+$oldGitDir = $env:GIT_DIR
+$oldExternalDiff = $env:GIT_EXTERNAL_DIFF
 
 function Write-Json([string]$Path, [object]$Value) {
     [System.IO.File]::WriteAllText($Path, ($Value | ConvertTo-Json -Depth 20), $utf8)
@@ -58,6 +60,9 @@ try {
     [System.IO.File]::WriteAllText($scriptPath, "Write-Output 'original'`n", $utf8)
     $noteHash = (Get-FileHash -LiteralPath $notePath -Algorithm SHA256).Hash.ToUpperInvariant()
     $scriptHash = (Get-FileHash -LiteralPath $scriptPath -Algorithm SHA256).Hash.ToUpperInvariant()
+    # A caller's Git environment must not redirect the sandbox or launch a diff helper.
+    $env:GIT_DIR = Join-Path $testRoot 'inherited-git-dir'
+    $env:GIT_EXTERNAL_DIFF = Join-Path $testRoot 'inherited-diff-helper'
     $policyPath = Join-Path $testRoot 'policy.json'
     Write-Json $policyPath ([ordered]@{
         schemaVersion = 1
@@ -101,6 +106,8 @@ try {
     $tested++
     Write-Output "agent-candidate tests passed: $tested synthetic cases; source unchanged"
 } finally {
+    $env:GIT_DIR = $oldGitDir
+    $env:GIT_EXTERNAL_DIFF = $oldExternalDiff
     $resolved = [System.IO.Path]::GetFullPath($testRoot)
     if ($resolved.StartsWith($tempRoot, [System.StringComparison]::OrdinalIgnoreCase) -and
         $resolved -cne $tempRoot.TrimEnd([System.IO.Path]::DirectorySeparatorChar) -and
