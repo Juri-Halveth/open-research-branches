@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Local agent candidate proposal v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "proposalId",
+    "targetPath",
+    "expectedSha256",
+    "replacementText",
+    "reason"
+  ],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "proposalId": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]{2,63}$"
+    },
+    "targetPath": { "type": "string", "pattern": "^[A-Za-z0-9._/-]+$" },
+    "expectedSha256": {
+      "oneOf": [
+        { "type": "string", "pattern": "^[A-F0-9]{64}$" },
+        { "const": "NEW" }
+      ]
+    },
+    "replacementText": { "type": "string", "minLength": 1 },
+    "reason": { "type": "string", "minLength": 1, "maxLength": 4096 }
+  }
+}

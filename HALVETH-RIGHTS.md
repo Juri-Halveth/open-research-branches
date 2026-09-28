@@ -20,7 +20,7 @@ HALVETH authorship, copyright, attribution, licensing or participation rights
 in the original work.
 
 Commercial use of protected HALVETH material is not authorized unless an
-applicable earlier license already granted that use or Juri Halveth gives a
+applicable earlier or file-specific license already granted that use or Juri Halveth gives a
 separate prior written commercial license and participation agreement. The
 current prospective license is [HALVETH Public-Interest Research License
 2.0](LICENSE-HALVETH-PIRL-2.0.md). Exact path and version rules are in

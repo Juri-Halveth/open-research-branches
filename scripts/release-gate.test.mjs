@@ -96,6 +96,14 @@ test("prepublish rejects committed invalid UTF-8 text", (context) => {
   assert.throws(() => runPrepublishCheck(snapshot, manifest.publicFiles), /invalid UTF-8 text/u);
 });
 
+test("prepublish scans committed PowerShell source as UTF-8 text", (context) => {
+  const clean = createRepository(context, { "script.ps1": "Write-Output 'synthetic only'\n" });
+  assert.equal(runFixtureGate(clean).fileCount, 4);
+
+  const withSecret = createRepository(context, { "script.ps1": 'api_' + 'key = "committed-secret-123"\n' });
+  assert.throws(() => runFixtureGate(withSecret), /script\.ps1: credential assignment/u);
+});
+
 test("Git verification fails closed outside an exact repository root", (context) => {
   const root = fs.mkdtempSync(path.join(os.tmpdir(), "release-gate-no-git-"));
   context.after(() => fs.rmSync(root, { recursive: true, force: true }));

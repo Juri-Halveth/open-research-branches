@@ -12,6 +12,8 @@ Kleine Programme machen eine Idee greifbar. Dieser Raum führt zu lokalen Protot
 | [Ja/Nein-Dialogautomat](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/binary-inquiry-loop/README.md) | Zwei Seiten antworten abwechselnd auf dieselbe Frage; der Zustand bleibt nachvollziehbar. | Eigene Dialogbeispiele und zusätzliche Zustandsfolgen testen. |
 | [Dokumentreferenz-Prüfer](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/document-issue-reference-verifier/README.md) | Referenz, Ausgabeversion und synthetische Rolle getrennt prüfen. | Weitere synthetische Fehlermodelle oder Formatadapter. |
 | [Wissensinventar](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/bounded-knowledge-reuse-inventory/README.md) | Metadaten eines Wissenseintrags für eine spätere Veröffentlichungsprüfung bewerten. | Präzisere Lizenz- und Herkunftsfelder. |
+| [Begrenzter lokaler Snapshot](../scripts/BOUNDED_SNAPSHOT.md) | Dateien in einem ausdrücklich gewählten Ordner lokal hashen und Leselücken sichtbar machen. | Synthetische Grenzfälle und alternative Beobachtungsfenster testen. |
+| [Lokaler Agenten-Kandidat](../scripts/AGENT_CANDIDATE.md) | Einen strukturierten Änderungsvorschlag für genau eine erlaubte Textdatei in einem getrennten lokalen Git-Ordner prüfen. | Den Diff und das Receipt fachlich prüfen; ein Merge oder eine Veröffentlichung ist ein eigener Schritt. |
 | [Pixelvergleich](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/pixel-region-change-observer/README.md) | Dieselbe Region zweier synthetischer RGBA-Bilder offline vergleichen. | Dokumentierte Unsicherheiten und zusätzliche Bildformate. |
 
 ## Einen Entwurf weiterentwickeln
