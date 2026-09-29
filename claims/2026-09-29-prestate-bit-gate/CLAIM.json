@@ -1,0 +1,54 @@
+﻿{
+    "schema":  "HALVETH_PRESTATE_PUBLIC_INTEREST_CLAIM_1",
+    "generated_at":  "2026-09-29T13:31:33.0747558+02:00",
+    "publisher":  {
+                      "name":  "Juri Janovski",
+                      "handle":  "@Juri-Halveth"
+                  },
+    "repository":  "Juri-Halveth/open-research-branches",
+    "parent_commit":  "834352b21a2123137f55fbca22afbfda2be7c7fd",
+    "architecture":  "PRESTATE BIT GATE",
+    "flow":  [
+                 "SHADOW",
+                 "PRESTATE",
+                 "RECEIVE",
+                 "HASH",
+                 "RELATE",
+                 "ACCEPT",
+                 "EXECUTE",
+                 "PRESERVE",
+                 "UPDATE",
+                 "SHADOW"
+             ],
+    "invariants":  [
+                       "NO_EXECUTION_BEFORE_PRESTATE",
+                       "BIT_REQUEST != BIT_EXECUTION",
+                       "UNKNOWN = PRESERVED",
+                       "UNKNOWN != FALSE",
+                       "SIMILARITY != CAUSALITY",
+                       "TRUTH = SEPARATE_DIMENSION",
+                       "OPEN != UNCONTROLLED",
+                       "EXPANSION = ADDITIVE + REVERSIBLE + MEASURABLE",
+                       "NAME != CONTENT",
+                       "HASH_BINDS_BYTES != HASH_CREATES_OWNERSHIP"
+                   ],
+    "hashes":  {
+                   "sketch_sha256":  "F44903EDAAC25F3E65F19AA5932FB545640D3551629ABBE0ED3765737C9554AE",
+                   "sketch_bytes":  31448,
+                   "claim_sha256":  "37AE6086CC939CEB80A7BA7B98CAFCDCCFA376F4346E7ED0CCF15E8CE5FE4E58",
+                   "engine_sha256":  "1C472FE8F12AE9F3A8267FC47328546AD78C687D3BA66E4DFAA7B43E59EB4692",
+                   "enter_shell_sha256":  "6D9AA70CA08C2B3A1FA226FFC9471E188816C2F3B220A0F0A456BC92A377621B",
+                   "cmd_launcher_sha256":  "8772D837D6DDD0348DAB5B82CE8DECE6358CFF9EE53DDA1E300B3E980816EBF9"
+               },
+    "rights":  {
+                   "governed_by":  [
+                                       "LICENSES.md",
+                                       "LICENSE-JURI-PUBLIC-INTEREST.md",
+                                       "HALVETH-RIGHTS.md",
+                                       "RIGHTS-RESERVATION.md",
+                                       "PROVENANCE.md"
+                                   ],
+                   "reservation":  "ALL_RIGHTS_NOT_EXPRESSLY_GRANTED_TO_EXTENT_PERMITTED_BY_LAW"
+               },
+    "claim_ceiling":  "PUBLIC_TECHNICAL_AUTHORSHIP_AND_RESEARCH_INTEREST_DECLARATION_PLUS_BYTE_BOUND_AND_REPOSITORY_BOUND_PROVENANCE"
+}
