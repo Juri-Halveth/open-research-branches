@@ -6,7 +6,7 @@ Review-Basis: `a9acbd61e532e8c6229d592fdc1cab041e7e4be2`
 
 Endlicher Abgleich des öffentlichen Research-Quellstands mit ausgewählten lokalen Projektquellen und Metadaten. Quellenprüfung, lokale Tests, öffentliche Demonstration und produktive Integration bleiben getrennt. Dies ist keine vollständige Produkt-, Sicherheits- oder Neuheitsprüfung.
 
-Der [Projektkatalog](../catalog/branches.json) führt **29 Forschungs- und Softwareäste**. Diese Roadmap enthält **6 Arbeitspakete**.
+Der [Projektkatalog](../catalog/branches.json) führt **30 Forschungs- und Softwareäste**. Diese Roadmap enthält **6 Arbeitspakete**.
 
 ## Was die Zustände bedeuten
 

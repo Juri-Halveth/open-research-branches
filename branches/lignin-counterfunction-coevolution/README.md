@@ -78,3 +78,29 @@ Similarity is not evidence of causality.
 Temporal overlap alone is not evidence of coevolution.
 
 A coevolution claim requires a demonstrable reciprocal or historically linked evolutionary response.
+
+## Origin
+
+This branch is a newly written public derivative assembled from the public sources listed in `SOURCES.md`. No private archive is required to reproduce its stated claim boundary.
+
+## Smallest safe reproduction
+
+1. Read `SOURCES.md`.
+2. Compare the plant structural claims with the fungal enzyme claims.
+3. Mark each proposed temporal relationship as observed, inferred, unknown or not proven.
+4. Reject the coevolution hypothesis if timing and functional change cannot be distinguished from co-option, independent innovation or loss.
+
+## Open tasks
+
+- bind major lignin innovations to explicit dated source claims
+- bind fungal peroxidase innovations to experimentally tested ancestral states
+- compare co-option, convergence, specialization and loss as alternatives
+- identify one discriminating prediction that differs between simple correlation and linked evolutionary response
+
+## Reopen trigger
+
+A new ancestral-enzyme reconstruction, phylogenomic timing analysis, lignin-chemistry dataset or experimental result that changes the timing or functional linkage reopens the model.
+
+## Rights and source boundary
+
+Newly written prose and repository-created data follow the repository license map. Linked scientific sources retain their own rights.
