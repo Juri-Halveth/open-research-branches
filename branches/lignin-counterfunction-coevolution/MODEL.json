@@ -1,0 +1,37 @@
+{
+    "schema":  "STRUCTURE_COUNTERFUNCTION_R1",
+    "subject":  "lignin",
+    "status":  "OPEN_RESEARCH",
+    "structure":  {
+                      "class":  "heterogeneous aromatic plant cell-wall polymer",
+                      "functions":  [
+                                        "mechanical reinforcement",
+                                        "hydrophobic wall properties",
+                                        "vascular structural support"
+                                    ]
+                  },
+    "counterfunction":  {
+                            "type":  "distributed biochemical toolkit",
+                            "examples":  [
+                                             "lignin peroxidase",
+                                             "manganese peroxidase",
+                                             "versatile peroxidase",
+                                             "laccase",
+                                             "accessory oxidases",
+                                             "radical chemistry"
+                                         ]
+                        },
+    "hypothesis":  "Structural innovations can create ecological selection for new counterfunctions in interacting lineages.",
+    "alternatives":  [
+                         "pre-existing enzymes were co-opted",
+                         "multiple independent mechanisms evolved",
+                         "observed timing may reflect correlation rather than reciprocal adaptation",
+                         "some lineages may lose rather than gain lignin-degrading machinery"
+                     ],
+    "invariants":  [
+                       "SIMILARITY != CAUSALITY",
+                       "TEMPORAL_OVERLAP != COEVOLUTION",
+                       "FUNCTIONAL_MATCH != COMMON_ORIGIN",
+                       "UNKNOWN != FALSE"
+                   ]
+}
