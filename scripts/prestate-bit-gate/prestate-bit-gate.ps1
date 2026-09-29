@@ -134,6 +134,20 @@ if(!(Test-Path -LiteralPath $Policy)){
     })
 }
 
+function New-HVNonce {
+
+    $Bytes=New-Object byte[] 32
+    $Rng=[Security.Cryptography.RandomNumberGenerator]::Create()
+
+    try {
+        $Rng.GetBytes($Bytes)
+    }
+    finally {
+        $Rng.Dispose()
+    }
+
+    return [Convert]::ToBase64String($Bytes)
+}
 function StartSession {
 
     $Existing=LoadJson $State
@@ -147,9 +161,7 @@ function StartSession {
         state='ACTIVE'
         session_id=[guid]::NewGuid().ToString()
         opened_at=(Get-Date).ToString('o')
-        nonce=[Convert]::ToBase64String(
-            [Security.Cryptography.RandomNumberGenerator]::GetBytes(32)
-        )
+        nonce=(New-HVNonce)
         policy_sha256=(Get-FileHash $Policy -Algorithm SHA256).Hash
         opening_ledger_head=LedgerHead
     }
@@ -261,8 +273,12 @@ function InvokeBit {
         shell=$Chosen
     } | Out-Null
 
-    $Info=[Diagnostics.ProcessStartInfo]::new()
+    $CommandRoot=Join-Path $Root 'commands'
+    New-Item -ItemType Directory -Force -Path $CommandRoot | Out-Null
 
+    $CommandId=[guid]::NewGuid().ToString('N')
+
+    $Info=[Diagnostics.ProcessStartInfo]::new()
     $Info.UseShellExecute=$false
     $Info.RedirectStandardOutput=$true
     $Info.RedirectStandardError=$true
@@ -270,21 +286,29 @@ function InvokeBit {
 
     if($Chosen -eq 'Cmd'){
 
-        $Info.FileName=$env:ComSpec
+        $CommandFile=Join-Path $CommandRoot ('BIT_'+$CommandId+'.cmd')
 
-        $Info.ArgumentList.Add('/d')
-        $Info.ArgumentList.Add('/s')
-        $Info.ArgumentList.Add('/c')
-        $Info.ArgumentList.Add($Text)
+        [IO.File]::WriteAllText(
+            $CommandFile,
+            $Text,
+            [Text.Encoding]::Default
+        )
+
+        $Info.FileName=$env:ComSpec
+        $Info.Arguments='/d /s /c ""'+$CommandFile+'""'
     }
     else{
 
-        $Info.FileName=(Get-Command powershell.exe).Source
+        $CommandFile=Join-Path $CommandRoot ('BIT_'+$CommandId+'.ps1')
 
-        $Info.ArgumentList.Add('-NoLogo')
-        $Info.ArgumentList.Add('-NoProfile')
-        $Info.ArgumentList.Add('-Command')
-        $Info.ArgumentList.Add($Text)
+        [IO.File]::WriteAllText(
+            $CommandFile,
+            $Text,
+            [Text.UTF8Encoding]::new($true)
+        )
+
+        $Info.FileName=(Get-Command powershell.exe).Source
+        $Info.Arguments='-NoLogo -NoProfile -NonInteractive -File "'+$CommandFile+'"'
     }
 
     $Watch=[Diagnostics.Stopwatch]::StartNew()

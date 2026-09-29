@@ -1,3 +1,12 @@
+# HALVETH_PRESTATE_HISTORY_V2
+$HvHistoryRoot=Join-Path $env:LOCALAPPDATA 'HALVETH\PRESTATE_BIT_GATE'
+$HvHistory=Join-Path $HvHistoryRoot 'ConsoleHost_history.txt'
+New-Item -ItemType Directory -Force -Path $HvHistoryRoot | Out-Null
+try {
+    Import-Module PSReadLine -ErrorAction Stop
+    Set-PSReadLineOption -HistorySavePath $HvHistory -HistorySaveStyle SaveIncrementally
+}
+catch {}
 $Engine = Join-Path $env:LOCALAPPDATA 'HALVETH\PRESTATE_BIT_GATE\prestate-bit-gate.ps1'
 
 & $Engine -Action Start | Out-Null

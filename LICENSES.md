@@ -41,6 +41,7 @@ including historical MIT, ISC, CC BY and CC0 terms.
 | The release asset `JURI_XXXLUTZ_PORTA_UEBERNAHME_BESCHAEFTIGTENBETEILIGUNG_AUDIT.pdf` beginning with release `v0.14.0` | [Juri Public-Interest Research Permission 1.0](LICENSE-JURI-PUBLIC-INTEREST.md) |
 | `catalog/AUDIT_STAR.md`, `catalog/audit-star.json`, `scripts/build-audit-star.mjs`, and `scripts/audit-star.test.mjs` from their first public commit | [Juri Public-Interest Research Permission 1.0](LICENSE-JURI-PUBLIC-INTEREST.md) |
 | `reports/FREE_NEWS_020_STEAM_COINS_WALLET_AND_LEAK_AUDIT.md` and `README.md`, `sources.json`, `claims.json`, `comparison.json`, `public-observation.json`, `reconstruction-cycle.json` under `branches/steam-coins-wallet-and-leak-audit/`, plus release asset `JURI_STEAM_COINS_WALLET_LEAK_AUDIT.pdf` beginning with `v0.15.0` | [Juri Public-Interest Research Permission 1.0](LICENSE-JURI-PUBLIC-INTEREST.md) |
+| `claims/2026-09-29-prestate-bit-gate/*` and `scripts/prestate-bit-gate/*` from their first public commit | [HALVETH Public-Interest Research License 2.0](LICENSE-HALVETH-PIRL-2.0.md) |
 | Source code, tests, HTML and CSS under `branches/` and `scripts/` | [MIT](LICENSE) |
 | Repository configuration in `.gitattributes`, every `.gitignore` file and `.github/**/*.yml` | [MIT](LICENSE) |
 | Newly written Markdown prose, including branch reports and documentation | [CC BY 4.0](LICENSE-CONTENT.md) |

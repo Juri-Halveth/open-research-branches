@@ -247,6 +247,11 @@ catalog/public-project-snapshot.json
 catalog/technology-roadmap.json
 CHANGELOG.md
 CITATION.cff
+claims/2026-09-29-prestate-bit-gate/CERTIFICATE.json
+claims/2026-09-29-prestate-bit-gate/CERTIFICATE.md
+claims/2026-09-29-prestate-bit-gate/CLAIM.json
+claims/2026-09-29-prestate-bit-gate/CLAIM.md
+claims/2026-09-29-prestate-bit-gate/SHA256SUMS.txt
 CONTRIBUTING.md
 HALVETH-RIGHTS.json
 HALVETH-RIGHTS.md
@@ -316,6 +321,9 @@ scripts/build-technology-roadmap.mjs
 scripts/create-provenance-snapshot.mjs
 scripts/prepare-wiki-copy.mjs
 scripts/prepublish-check.mjs
+scripts/prestate-bit-gate/enter-prestate.ps1
+scripts/prestate-bit-gate/hv.cmd
+scripts/prestate-bit-gate/prestate-bit-gate.ps1
 scripts/project-name-alias.mjs
 scripts/project-name-alias.test.mjs
 scripts/provenance-snapshot.test.mjs
