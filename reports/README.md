@@ -65,3 +65,6 @@ publish its reviewed, reproducible build source.
 
 The file-specific use rules for the `v0.6.0` distribution of `FREE NEWS 005`
 are in [`../LICENSE-JURI-PUBLIC-INTEREST.md`](../LICENSE-JURI-PUBLIC-INTEREST.md).
+
+
+**30.09.2026 · [Öffentliche Audits und aufklappbare Belege](HALVETH_PUBLIC_AUDIT_INDEX_2026-09-30.md)** — gebundener Berichtsindex, eigene Modellbilder, Versieglerprüfung und Turnstile-Quellen.
