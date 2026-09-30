@@ -110,8 +110,8 @@
     },
     {
       "path": "reports/HALVETH_EVIDENCE_SEAL_STATIC_REVIEW_2026-09-30.md",
-      "bytes": 2797,
-      "sha256": "c18f1c7bc6803ed60832c12a41f69f7765ee640c9df7d0ed4c293f773cc31746",
+      "bytes": 3909,
+      "sha256": "d255d8c2e97707767e150efdf477f984851bb6af72c6ed5fc8ed18ddca96c35b",
       "dataClass": "PUBLIC_MINIMIZED",
       "origin": "NEWLY_WRITTEN_DERIVATIVE"
     },
@@ -410,5 +410,17 @@
       "sha256": "3012fcfce391c02a5d1534f71e7f221eab981852403cb9d6900d67df22168bae",
       "execution": "NONE"
     }
-  ]
+  ],
+  "additionalPrivateSeal": {
+    "archiveSha256": "3fb0064041bb3a28342a1915fd597ba2be95713323c9ffa33d1acc645a58dedc",
+    "archiveMembers": 11,
+    "originalsVerifiedAgainstManifest": 5,
+    "allOriginalsMatchManifest": true,
+    "crcCheckedForAllOriginalMembers": true,
+    "rawArchivePublished": false,
+    "witnessState": "UNSIGNED_TEMPLATE",
+    "collaborationState": "UNSIGNED_DRAFT",
+    "timestampState": "SELF_DECLARED_NOT_INDEPENDENTLY_ATTESTED",
+    "duplicateScriptByteEqual": true
+  }
 }

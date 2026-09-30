@@ -25,3 +25,17 @@ Kleinster sicherer Folgetest: zwei selbst erzeugte Textdateien mit gleichem Basi
 
 
 Neu verfasste HALVETH-Beiträge: [HALVETH PIRL 2.0](../LICENSE-HALVETH-PIRL-2.0.md). Verlinkte Quellen behalten ihre eigenen Rechte. Mit KI-Unterstützung erstellt und gegen die genannten Quellen geprüft.
+
+
+<details>
+<summary>Zusätzliches Archiv · fünf Originale mit Manifestvergleich</summary>
+
+Das anschließend bereitgestellte Beweisarchiv wurde ohne Skriptausführung und ohne vollständige Extraktion gelesen. Alle fünf Originaldateien stimmen in Bytelänge und SHA-256 mit dem enthaltenen Manifest überein; die ZIP-CRC wurde beim vollständigen Lesen dieser Mitglieder ebenfalls geprüft. Das enthaltene Video hat denselben Digest wie die separat geprüfte Aufnahme.
+
+Archiv-SHA-256: `3fb0064041bb3a28342a1915fd597ba2be95713323c9ffa33d1acc645a58dedc`. Das Archiv selbst bleibt privat, weil es Korrespondenz und personenbezogene Vorlagen enthält.
+
+Der Zeugenbogen ist eine unausgefüllte Vorlage; der Zusammenarbeitsbogen ist ein Entwurf mit offenen Zuordnungs- und Unterschriftsfeldern. Diese Records bleiben eigenständige Belegstufen. Der im Manifest genannte Erstellungszeitpunkt ist eine Selbstdatierung, kein unabhängiger vertrauenswürdiger Zeitstempel.
+
+Die zweite bereitgestellte PS1-Datei ist bytegleich mit der zuvor geprüften Skriptfassung. Sie wurde ebenfalls nicht ausgeführt.
+
+</details>
