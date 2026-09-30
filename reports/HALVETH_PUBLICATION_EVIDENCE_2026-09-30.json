@@ -18,7 +18,20 @@
       "sha256": "2be147eadbccc5d6c6cdac1c51352f9c3212db865b5eadcb21d4f906726f4a65",
       "origin": "CROPPED_OWN_SOFTWARE_VIDEO_FRAME",
       "privacyReview": "VISUALLY_REVIEWED_MODEL_SURFACE_ONLY",
-      "classification": "PUBLIC_MINIMIZED"
+      "classification": "PUBLIC_MINIMIZED",
+      "derivation": {
+        "sourceVideoSha256": "29eb0e8de425a35887fbb9e9528f68fda7e507fa369be1d9988335ae3cff8626",
+        "decodedFrameJpegSha256": "53e555116d90490efb9996dbbbc73672b99b45a45d7e149bb363d60aacc2e57f",
+        "ptsSeconds": 24.533333,
+        "operator": "RECTANGULAR_CROP_ONLY",
+        "cropBoxXYXY": [
+          645,
+          192,
+          1900,
+          1260
+        ],
+        "loss": "Browser context and pixels outside crop omitted; frame extracted as JPEG."
+      }
     },
     {
       "id": "02_WELLEN",
@@ -27,7 +40,20 @@
       "sha256": "66355de848242c0b6c2733e44ef2d9ec936634056db32974b99539644314ace1",
       "origin": "CROPPED_OWN_SOFTWARE_VIDEO_FRAME",
       "privacyReview": "VISUALLY_REVIEWED_MODEL_SURFACE_ONLY",
-      "classification": "PUBLIC_MINIMIZED"
+      "classification": "PUBLIC_MINIMIZED",
+      "derivation": {
+        "sourceVideoSha256": "29eb0e8de425a35887fbb9e9528f68fda7e507fa369be1d9988335ae3cff8626",
+        "decodedFrameJpegSha256": "fdb64cc2e646431372a31ef9540a025546f18e6fdcaeba7e07e6cfa58c11a4b2",
+        "ptsSeconds": 39.033333,
+        "operator": "RECTANGULAR_CROP_ONLY",
+        "cropBoxXYXY": [
+          645,
+          245,
+          1900,
+          1195
+        ],
+        "loss": "Browser context and pixels outside crop omitted; frame extracted as JPEG."
+      }
     },
     {
       "id": "03_3D",
@@ -36,7 +62,20 @@
       "sha256": "00b4d02b768ab2fff9f1923935550b96752821f9201f68b13c092e789f5b1ef5",
       "origin": "CROPPED_OWN_SOFTWARE_VIDEO_FRAME",
       "privacyReview": "VISUALLY_REVIEWED_MODEL_SURFACE_ONLY",
-      "classification": "PUBLIC_MINIMIZED"
+      "classification": "PUBLIC_MINIMIZED",
+      "derivation": {
+        "sourceVideoSha256": "29eb0e8de425a35887fbb9e9528f68fda7e507fa369be1d9988335ae3cff8626",
+        "decodedFrameJpegSha256": "da444e3db958c852444fe7d7761ab8ae81dc63d694265740a0e06357302d0dfb",
+        "ptsSeconds": 62.033333,
+        "operator": "RECTANGULAR_CROP_ONLY",
+        "cropBoxXYXY": [
+          645,
+          200,
+          1900,
+          1145
+        ],
+        "loss": "Browser context and pixels outside crop omitted; frame extracted as JPEG."
+      }
     },
     {
       "id": "04_SCHICHTEN",
@@ -45,7 +84,20 @@
       "sha256": "52c714f16eeb20576141a8f9bf29a8c6c899c6e08668fb767856784fd25222d7",
       "origin": "CROPPED_OWN_SOFTWARE_VIDEO_FRAME",
       "privacyReview": "VISUALLY_REVIEWED_MODEL_SURFACE_ONLY",
-      "classification": "PUBLIC_MINIMIZED"
+      "classification": "PUBLIC_MINIMIZED",
+      "derivation": {
+        "sourceVideoSha256": "29eb0e8de425a35887fbb9e9528f68fda7e507fa369be1d9988335ae3cff8626",
+        "decodedFrameJpegSha256": "1b638b9277b601b7993abf1fef345bfcde3c0c3ac03c2cf7cfaeb12f1e739769",
+        "ptsSeconds": 204.366667,
+        "operator": "RECTANGULAR_CROP_ONLY",
+        "cropBoxXYXY": [
+          10,
+          110,
+          2534,
+          1375
+        ],
+        "loss": "Browser context and pixels outside crop omitted; frame extracted as JPEG."
+      }
     }
   ],
   "newReports": [
@@ -321,5 +373,42 @@
     "https://developers.cloudflare.com/turnstile/troubleshooting/client-side-errors/"
   ],
   "publicationState": "CANDIDATE_BYTES_BOUND_SERVER_RECEIPT_SEPARATE",
-  "vendorSubmission": "NONE_IN_THIS_RUN"
+  "vendorSubmission": "NONE_IN_THIS_RUN",
+  "currentModelSources": [
+    {
+      "url": "https://halveth.de/forschung.html",
+      "fetchedAt": "2026-09-30T16:20:49.809484+00:00",
+      "bytes": 75677,
+      "sha256": "3ab14324c4fa4d4a0a8b16120136ef15d05acf758e82294761625cee8450ee03",
+      "execution": "NONE"
+    },
+    {
+      "url": "https://halveth.de/Realitaet_Erste_Regel_Plus_Minus.html",
+      "fetchedAt": "2026-09-30T16:20:50.043065+00:00",
+      "bytes": 31172,
+      "sha256": "e714cd2bac4a490cc400c9cad65c0bb0bd770883740e3d2e9e336bd3576af089",
+      "execution": "NONE"
+    },
+    {
+      "url": "https://halveth.de/Realitaet_als_Zustand_Live_Wellenmodell.html",
+      "fetchedAt": "2026-09-30T16:20:50.200904+00:00",
+      "bytes": 25756,
+      "sha256": "d0adff235738d31f464e9aec8abe1d3f10b7ce46974427fd787601e05bf290fa",
+      "execution": "NONE"
+    },
+    {
+      "url": "https://halveth.de/Realitaet_als_Zustand_Livemodell.html",
+      "fetchedAt": "2026-09-30T16:20:50.326712+00:00",
+      "bytes": 120258,
+      "sha256": "090dbc8303d80fc15dbc859b97e16e5f97e8445ab0771f0a9d24fdb3b23207ae",
+      "execution": "NONE"
+    },
+    {
+      "url": "https://halveth.de/Realitaet_Schichten_Modell.html",
+      "fetchedAt": "2026-09-30T16:20:50.496146+00:00",
+      "bytes": 91868,
+      "sha256": "3012fcfce391c02a5d1534f71e7f221eab981852403cb9d6900d67df22168bae",
+      "execution": "NONE"
+    }
+  ]
 }
