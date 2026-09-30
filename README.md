@@ -256,3 +256,6 @@ an fremden Quellen, Tatsachen oder allgemeinen Ideen.
 
 **HALVETH!!! · Open Research** · [Öffentliche Projektfragen](https://github.com/Juri-Halveth/open-research-branches/discussions)
 *Lesen. Nachfragen. Weiterdenken. Etwas beitragen.*
+
+
+**30.09.2026 · [Öffentliche Audits und aufklappbare Belege](reports/HALVETH_PUBLIC_AUDIT_INDEX_2026-09-30.md)** — gebundener Berichtsindex, eigene Modellbilder, Versieglerprüfung und Turnstile-Quellen.

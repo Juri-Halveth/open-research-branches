@@ -95,3 +95,19 @@ For post-parent original contributions, this prospective rule takes precedence
 over the generic MIT, CC BY and CC0 class rows above. Historical files and
 overlapping material remain available from the earlier commits under those
 earlier terms.
+
+
+## Public audit evidence · 30 September 2026
+
+The following newly authored derivatives and own-model crops are assigned to [HALVETH PIRL 2.0](LICENSE-HALVETH-PIRL-2.0.md), subject to its source-rights boundary:
+
+- `reports/HALVETH_MODEL_VIDEO_SOURCE_AUDIT_2026-09-30.md`
+- `reports/HALVETH_EVIDENCE_SEAL_STATIC_REVIEW_2026-09-30.md`
+- `reports/HALVETH_TURNSTILE_OBSERVATION_2026-09-30.md`
+- `reports/HALVETH_PUBLIC_GITHUB_SOURCE_SNAPSHOT_2026-09-30.md`
+- `assets/audit-20260930/01_BIT.png`
+- `assets/audit-20260930/02_WELLEN.png`
+- `assets/audit-20260930/03_3D.png`
+- `assets/audit-20260930/04_SCHICHTEN.png`
+- `reports/HALVETH_PUBLIC_AUDIT_INDEX_2026-09-30.md`
+- `reports/HALVETH_PUBLICATION_EVIDENCE_2026-09-30.json`
