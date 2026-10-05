@@ -6,6 +6,7 @@ Diese Übersicht erschließt die veröffentlichten Forschungs- und Softwareäste
 
 | Projekt | Worum geht es? | Themenraum |
 | --- | --- | --- |
+| [Bananen-Technologie: Übergangsfeld](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/banana-transition-field/README.md) | Automatische Materialdemonstration und ein Forschungsnetz, das Aufnahme und Mikrobiom weiterführt. | [Natur & Beobachtung](Natur-und-Beobachtung.md) |
 | [Alice: Geschichte und Handlungsspielraum](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/alice-media-referent-and-agency-audit/README.md) | Einen Medienhinweis einem konkreten Werk und einer Szene zuordnen; Story, Aussage und Belegzugang prüfen. | [Identität & Medien](Identitaet-Sprache-und-Medien.md) |
 | [ASTER und der Geheime Garten](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/aster-provenance-and-secret-garden/README.md) | Die konkrete LUCINET-Entität, ihre dokumentierte Herkunft und eine offene Erzählwelt erkunden. | [Identität & Medien](Identitaet-Sprache-und-Medien.md) |
 | [Atomwaffen, Macht und Geld](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/nuclear-legacy-disarmament-and-public-value/README.md) | Blessing-Brief, Militärfinanzierung, Dollarreserven und Machtwährung erforschen; Fallout, Entschädigung, Abrüstung, SUNDIAL und zivile Budgets anhand öffentlicher Quellen einordnen. | [Gesellschaft & Frieden](Gesellschaft-Teilhabe-und-Frieden.md#atomwaffen-macht-und-geld) |
