@@ -9,6 +9,7 @@
 .github/ISSUE_TEMPLATE/quellenkorrektur.yml
 .github/ISSUE_TEMPLATE/zusammenarbeit.yml
 .github/pull_request_template.md
+.github/workflows/banana-pages.yml
 .github/workflows/ci.yml
 .gitignore
 assets/research-room.png

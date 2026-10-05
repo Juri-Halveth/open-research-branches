@@ -8,6 +8,10 @@ Körperzustand. Beide Wege behalten weitere offene Äste. Acht Einflussgruppen
 enthalten jeweils drei benannte Fragenfelder mit zunächst drei offenen
 Fortsetzungen. Jeder Knoten kann erneut erweitert werden.
 
+[Direkt im Browser öffnen](https://juri-halveth.github.io/open-research-branches/).
+Der Pages-Workflow veröffentlicht ausschließlich die fünf benannten
+Anwendungsdateien nach den Repository-Tests.
+
 ## Öffentlicher Gestaltungsansatz
 
 **Juri Janovski · aufgezeichnet am 05.10.2026, 22:40:04 MESZ.** Die folgende
