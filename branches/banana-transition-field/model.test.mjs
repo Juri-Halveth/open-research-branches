@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import { createHash } from 'node:crypto';
-import { initialState, advance, exchange, initialGraph, expand, validateGraph, STAGE_GROUPS } from './model.mjs';
+import { initialState, advance, exchange, initialGraph, expand, validateGraph, validateAppGraph, APP_GRAPH_CONTRACT, STAGE_GROUPS } from './model.mjs';
 test('zero time is exact identity; inputs remain unchanged', () => {
   const state = Object.freeze(initialState()); assert.deepEqual(advance(state, 0), state);
   advance(state, 2); assert.deepEqual(state, initialState());
@@ -32,6 +32,11 @@ test('exchange conserves arbitrary quantities without negative compartments', ()
     assert.ok(Math.abs(out.reduce((a,b) => a+b, 0) - input.reduce((a,b) => a+b, 0)) < 1e-8);
   }
 });
+test('exchange explicitly refuses sparse or undefined compartments', () => {
+  assert.throws(() => exchange(new Array(3), 1), RangeError);
+  assert.throws(() => exchange([1, , 0], 1), RangeError);
+  assert.throws(() => exchange([1, undefined, 0], 1), RangeError);
+});
 test('both absorption and microbiome retain two subsequent levels', () => {
   const { nodes } = initialGraph();
   for (const path of [['absorption','transport','tissue'], ['microbiome','metabolites','host-state']]) {
@@ -54,6 +59,36 @@ test('graph refuses cycles, invalid sources and unidentified parents', () => {
     const bad = structuredClone(graph); Object.assign(bad.nodes[0], patch); assert.throws(() => validateGraph(bad));
   }
   assert.throws(() => expand(graph, 'absent'));
+  const badId = structuredClone(graph); badId.nodes[0].id = 123;
+  assert.throws(() => validateGraph(badId));
+  const badSource = structuredClone(graph); badSource.nodes[1].source = 'https://';
+  assert.throws(() => validateGraph(badSource));
+});
+test('UI compatibility rejects valid graphs missing required basis nodes', () => {
+  const minimal = {version:'0.2.0',nodes:[{id:'root',title:'Root',parent:null,kind:'DESIGN',question:'Question',source:null}]};
+  assert.equal(validateGraph(minimal), true);
+  assert.throws(() => validateAppGraph(minimal), TypeError);
+  const missing = initialGraph(); missing.nodes = missing.nodes.filter(node => node.id !== 'observer-open-3');
+  assert.equal(validateGraph(missing), true);
+  assert.throws(() => validateAppGraph(missing), TypeError);
+});
+test('UI compatibility binds original relations, kinds and sources without migration', () => {
+  assert.notEqual(APP_GRAPH_CONTRACT, initialGraph().version);
+  for (const patch of [{parent:'material'}, {kind:'OPEN'}, {source:'https://example.com/'}]) {
+    const graph = initialGraph(); Object.assign(graph.nodes.find(node => node.id === 'gastric'), patch);
+    const before = structuredClone(graph); assert.equal(validateGraph(graph), true);
+    assert.throws(() => validateAppGraph(graph), TypeError); assert.deepEqual(graph, before);
+  }
+  const future = {...initialGraph(),version:'0.3.0'};
+  assert.throws(() => validateAppGraph(future), TypeError);
+});
+test('UI compatibility retains extra user branches, their text and export metadata', () => {
+  const graph = expand(initialGraph(), 'absorption');
+  graph.nodes.find(node => node.id === 'absorption-open-1').title = 'Eigene Zeitfrage';
+  graph.nodes.find(node => node.id === 'absorption-open-1').question = 'Welche Messreihe zeigt die Entwicklung?';
+  graph.exportedAt = '2026-10-05T20:40:04Z'; graph.interpretation = 'RESEARCH_GRAPH_WITH_OPEN_QUESTIONS';
+  const before = structuredClone(graph);
+  assert.equal(validateAppGraph(graph), true); assert.deepEqual(graph, before);
 });
 test('each supplied stage grouping has three named inquiries and three open continuations each', () => {
   const graph=initialGraph(); validateGraph(graph);

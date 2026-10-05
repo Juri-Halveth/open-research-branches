@@ -1,5 +1,8 @@
 // Original demonstrator. Parameters are illustrative, dimensionless, uncalibrated.
 export const VERSION = '0.2.0';
+// This UI/storage contract is independent of the model version. It validates;
+// a future migration must be a separately named operation, never a fallback.
+export const APP_GRAPH_CONTRACT = 'halveth-transition-field-ui-1';
 export const STAGE_GROUPS = [
   { parent:'material', title:'Vor der Reifung: Wachstum', items:[['genetics','Genetik & Sorte'],['growth-environment','Pflanze & Umwelt'],['development-time','Entwicklungszeit']] },
   { parent:'ripening', title:'Materialzustand', items:[['composition','Zusammensetzung'],['structure','Struktur'],['signal','Signal & Regulation']] },
@@ -33,7 +36,9 @@ export function advance(state, dt, rate = .18) {
 }
 export function exchange(amounts, dt, coupling = .2) {
   if (!Array.isArray(amounts) || amounts.length !== 3) throw new TypeError('three compartments required');
-  amounts.forEach(x => finite(x, 'amount')); finite(dt, 'dt', 0, 100); finite(coupling, 'coupling', 0, 1);
+  // for...of observes sparse array holes as undefined, so they are rejected.
+  for (const amount of amounts) finite(amount, 'amount');
+  finite(dt, 'dt', 0, 100); finite(coupling, 'coupling', 0, 1);
   const out = [...amounts];
   const fraction = (1 - Math.exp(-2 * coupling * dt)) / 2;
   for (const [a, b] of [[0, 1], [1, 2]]) {
@@ -77,16 +82,32 @@ export function validateGraph(graph) {
   if (!graph || graph.version !== VERSION || !Array.isArray(graph.nodes)) throw new TypeError('unsupported graph');
   const ids = new Set();
   for (const node of graph.nodes) {
-    if (!node || !/^[a-z0-9-]+$/.test(node.id) || ids.has(node.id)) throw new TypeError('invalid or duplicate id');
+    if (!node || typeof node.id !== 'string' || !/^[a-z0-9-]+$/.test(node.id) || ids.has(node.id)) throw new TypeError('invalid or duplicate id');
     if (!['DESIGN', 'SOURCE', 'MODEL', 'RESEARCH', 'OPEN'].includes(node.kind)) throw new TypeError('unknown node kind');
     if (typeof node.title !== 'string' || !node.title.trim() || node.title.length > 200 || typeof node.question !== 'string' || node.question.length > 2000) throw new TypeError('invalid node text');
-    if (node.source !== null && (typeof node.source !== 'string' || !/^https:\/\//.test(node.source))) throw new TypeError('invalid source');
+    if (node.source !== null) {
+      let source;
+      try { source = typeof node.source === 'string' ? new URL(node.source) : null; }
+      catch { throw new TypeError('invalid source'); }
+      if (!source || source.protocol !== 'https:' || !source.hostname) throw new TypeError('invalid source');
+    }
     // Parent-first order guarantees a finite acyclic graph, preserving every existing node.
     if (node.parent !== null && !ids.has(node.parent)) throw new TypeError('unbound parent');
     if (node.parent === null && ids.size !== 0) throw new TypeError('one root required');
     ids.add(node.id);
   }
   if (!ids.size) throw new TypeError('empty graph');
+  return true;
+}
+export function validateAppGraph(graph) {
+  validateGraph(graph);
+  const nodes = new Map(graph.nodes.map(node => [node.id, node]));
+  for (const basis of initialGraph().nodes) {
+    const node = nodes.get(basis.id);
+    if (!node || node.parent !== basis.parent || node.kind !== basis.kind || node.source !== basis.source)
+      throw new TypeError(`${APP_GRAPH_CONTRACT}: missing or changed basis binding ${basis.id}`);
+  }
+  // Additional user branches and editable question text are retained exactly.
   return true;
 }
 export function expand(graph, parent, count = 3) {
