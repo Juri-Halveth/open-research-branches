@@ -89,6 +89,9 @@ branches/historical-cipher-decoding-challenge/reconstruction-cycle.json
 branches/historical-cipher-decoding-challenge/sources.json
 branches/historical-cipher-decoding-challenge/src/decoding-proof.mjs
 branches/historical-cipher-decoding-challenge/test/decoding-proof.test.mjs
+branches/lignin-counterfunction-coevolution/MODEL.json
+branches/lignin-counterfunction-coevolution/README.md
+branches/lignin-counterfunction-coevolution/SOURCES.md
 branches/navier-stokes-credit-value-and-plagiarism-audit/claims.json
 branches/navier-stokes-credit-value-and-plagiarism-audit/LIES_MICH_ZUERST.md
 branches/navier-stokes-credit-value-and-plagiarism-audit/navigation-frame.json

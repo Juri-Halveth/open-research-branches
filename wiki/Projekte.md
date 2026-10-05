@@ -45,3 +45,7 @@ Die [Berichtsübersicht](https://github.com/Juri-Halveth/open-research-branches/
 Im [Kandidaten-Ledger](https://github.com/Juri-Halveth/open-research-branches/blob/main/catalog/CANDIDATE_TOPICS.md) stehen weitere angefragte Themenfamilien. Sie besitzen noch keinen freigegebenen öffentlichen Projektast und gehören deshalb nicht zum Astbestand des Projektkatalogs.
 
 **Bestandsgrundlage:** [catalog/branches.json](https://github.com/Juri-Halveth/open-research-branches/blob/main/catalog/branches.json) und die verlinkten Projekt-READMEs dieser Repository-Fassung.
+
+## Lignin und evolutionäre Gegenfunktionen
+
+[Lignin Counterfunction Coevolution](../branches/lignin-counterfunction-coevolution/README.md) untersucht quellengebunden, wie neue strukturelle Chemie Selektionsräume für mehrere Gegenfunktionen schaffen kann, ohne zeitliche Korrelation automatisch als Coevolution zu behandeln.
