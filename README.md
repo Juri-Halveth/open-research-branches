@@ -1,3 +1,7 @@
+<!-- HUB_LANGUAGES_V1 -->
+[Original / Deutsch](README.md) · [English](README.en.md) · [Русский](README.ru.md)
+<!-- /HUB_LANGUAGES_V1 -->
+
 <p align="center">
   <img src="assets/research-room.png" alt="HALVETH Open Research — Wissen teilen. Fragen verfolgen. Code, Thesen, Quellen und Dialog." width="100%">
 </p>
