@@ -11,6 +11,9 @@
         "branches/aster-provenance-and-secret-garden/README.md",
         "branches/aster-provenance-and-secret-garden/SOURCES.md",
         "branches/aster-provenance-and-secret-garden/test/aster-lens.test.mjs",
+        "branches/banana-transition-field/index.html",
+        "branches/banana-transition-field/README.md",
+        "branches/banana-transition-field/statement.json",
         "branches/fingertip-spark-esd-spacecraft-audit/README.md",
         "branches/historical-cipher-decoding-challenge/challenge.json",
         "branches/historical-cipher-decoding-challenge/README.md",
@@ -58,10 +61,7 @@
         "reports/HALVETH_300KB_DEEP_RESEARCH_RIGHTS.md",
         "reports/HALVETH_300KB_DEEP_RESEARCH.pdf",
         "wiki/Home.md",
-        "wiki/Rechte-und-Nutzung.md",
-        "branches/banana-transition-field/README.md",
-        "branches/banana-transition-field/index.html",
-        "branches/banana-transition-field/statement.json"
+        "wiki/Rechte-und-Nutzung.md"
       ]
     },
     {
