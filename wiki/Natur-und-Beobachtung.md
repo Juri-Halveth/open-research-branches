@@ -12,6 +12,10 @@ Eine Beobachtung ist ein wertvoller Anfang. Damit andere sie nachvollziehen kön
 | [Eigenbeobachtung ohne öffentliche Privatdaten](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/deidentified-self-observation-protocol/README.md) | Messbedingungen, verwendete Begriffe und Unsicherheit. | Leeres Schema; kein persönliches Beobachtungsarchiv. |
 | [Bildbeschreibung und Interpretation](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/visual-interpretation-boundary/README.md) | Bildquelle, Vorbereitung, Messung und Deutung als getrennte Schritte. | Methodenfrage mit veröffentlichter Referenz zu Bildmessungen. |
 
+## Bananen-Technologie: Zustände gemeinsam betrachten
+
+[Das Übergangsfeld](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/banana-transition-field/README.md) verbindet eine automatisch bewegte Materialform mit einem weiterwachsenden Forschungsnetz. Aufnahme und Mikrobiom erhalten beide Fortsetzungen; offene Äste bleiben bearbeitbar. Modellwerte sind frei gewählte Demonstrationswerte.
+
 ## Ein gemeinsames Muster
 
 | Feld | Beispiel für die Dokumentation |

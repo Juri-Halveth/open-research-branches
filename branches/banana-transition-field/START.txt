@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+set -euo pipefail
+cd -- "$(dirname -- "${BASH_SOURCE[0]}")"
+if command -v python >/dev/null 2>&1; then
+  exec python -u serve.py "${@}"
+elif command -v python3 >/dev/null 2>&1; then
+  exec python3 -u serve.py "${@}"
+else
+  printf '%s\n' 'Python 3 wird für den lokalen Webserver benötigt.' >&2
+  exit 1
+fi
