@@ -1,5 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import { createHash } from 'node:crypto';
 import { initialState, advance, exchange, initialGraph, expand, validateGraph, STAGE_GROUPS } from './model.mjs';
 test('zero time is exact identity; inputs remain unchanged', () => {
   const state = Object.freeze(initialState()); assert.deepEqual(advance(state, 0), state);
@@ -58,5 +60,17 @@ test('each supplied stage grouping has three named inquiries and three open cont
   for(const group of STAGE_GROUPS) {
     assert.equal(group.items.length,3);
     for(const [id] of group.items) assert.equal(graph.nodes.filter(n=>n.parent===id&&n.kind==='OPEN').length,3);
+  }
+});
+test('public statement digest binds exactly its UTF-8 text', () => {
+  const record=JSON.parse(fs.readFileSync(new URL('./statement.json',import.meta.url),'utf8'));
+  const bytes=Buffer.from(record.text,'utf8');
+  assert.equal(bytes.length,record.byteLength); assert.equal(createHash('sha256').update(bytes).digest('hex'),record.sha256);
+});
+test('all declared public branch checksums match their exact file bytes', () => {
+  const lines=fs.readFileSync(new URL('./SHA256SUMS.txt',import.meta.url),'utf8').trim().split('\n');
+  for(const line of lines) {
+    const [digest,file]=line.split('  ');
+    assert.equal(createHash('sha256').update(fs.readFileSync(new URL('./'+file,import.meta.url))).digest('hex'),digest,file);
   }
 });

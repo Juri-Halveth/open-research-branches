@@ -10,6 +10,8 @@
 *.css text eol=lf
 *.csv text eol=lf
 branches/steam-coins-wallet-and-leak-audit/build_pdf.py text eol=lf
+branches/banana-transition-field/START.txt text eol=lf
+branches/banana-transition-field/serve.py text eol=lf
 
 *.docx binary
 *.pdf binary

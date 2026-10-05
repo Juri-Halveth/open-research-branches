@@ -37,14 +37,14 @@ branches/aster-provenance-and-secret-garden/src/aster-lens.mjs
 branches/aster-provenance-and-secret-garden/src/letter-identity.mjs
 branches/aster-provenance-and-secret-garden/test/aster-lens.test.mjs
 branches/aster-provenance-and-secret-garden/test/letter-identity.test.mjs
-branches/banana-transition-field/README.md
-branches/banana-transition-field/SHA256SUMS.txt
-branches/banana-transition-field/START.txt
 branches/banana-transition-field/app.mjs
 branches/banana-transition-field/index.html
 branches/banana-transition-field/model.mjs
 branches/banana-transition-field/model.test.mjs
+branches/banana-transition-field/README.md
 branches/banana-transition-field/serve.py
+branches/banana-transition-field/SHA256SUMS.txt
+branches/banana-transition-field/START.txt
 branches/banana-transition-field/statement.json
 branches/banana-transition-field/style.css
 branches/binary-inquiry-loop/binary-inquiry-machine.mjs
