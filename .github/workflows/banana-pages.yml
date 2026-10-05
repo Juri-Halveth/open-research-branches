@@ -27,7 +27,7 @@ jobs:
         shell: bash
         run: |
           mkdir -p _site
-          for file in index.html app.mjs model.mjs style.css statement.json; do
+          for file in index.html app.mjs model.mjs project-universe.mjs style.css statement.json; do
             cp "branches/banana-transition-field/$file" "_site/$file"
           done
       - uses: actions/upload-pages-artifact@v4
