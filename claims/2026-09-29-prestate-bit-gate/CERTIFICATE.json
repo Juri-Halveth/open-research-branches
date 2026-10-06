@@ -1,0 +1,27 @@
+{
+    "schema":  "HALVETH_PRESTATE_PUBLIC_CERTIFICATE_1",
+    "issued_at":  "2026-09-29T13:31:33.0897611+02:00",
+    "subject":  "PRESTATE BIT GATE",
+    "publisher":  "Juri Janovski (@Juri-Halveth)",
+    "parent_commit":  "834352b21a2123137f55fbca22afbfda2be7c7fd",
+    "source_sketch_sha256":  "F44903EDAAC25F3E65F19AA5932FB545640D3551629ABBE0ED3765737C9554AE",
+    "artifacts":  {
+                      "sketch_sha256":  "F44903EDAAC25F3E65F19AA5932FB545640D3551629ABBE0ED3765737C9554AE",
+                      "sketch_bytes":  31448,
+                      "claim_sha256":  "37AE6086CC939CEB80A7BA7B98CAFCDCCFA376F4346E7ED0CCF15E8CE5FE4E58",
+                      "engine_sha256":  "AAF8DDC21DAADB8ACC85916E2547B0A17B55EE9B66D6762BDB1B3B37EFEF0645",
+                      "enter_shell_sha256":  "7F60CBBE6394968FADBD670C24226FB57915C1931E3FC8C83DA00C186129CA3A",
+                      "cmd_launcher_sha256":  "8772D837D6DDD0348DAB5B82CE8DECE6358CFF9EE53DDA1E300B3E980816EBF9",
+                      "claim_json_sha256":  "2694A93FA549E0083FE265C8EA9CBFB5851153284CE8194967258767D949FB98"
+                  },
+    "evidence_layers":  [
+                            "SHA256_BYTE_IDENTITY",
+                            "GIT_TREE",
+                            "GIT_COMMIT",
+                            "COMMIT_SIGNATURE_IF_AVAILABLE",
+                            "OPTIONAL_RFC3161_TIMESTAMP",
+                            "APPEND_ONLY_PROVENANCE"
+                        ],
+    "claim_ceiling":  "PROVENANCE_AND_PUBLICATION_EVIDENCE_NOT_AUTOMATIC_LEGAL_TITLE",
+    "legal_boundary":  "HASH_DOES_NOT_BY_ITSELF_CREATE_COPYRIGHT_PATENT_TRADEMARK_CONTRACT_OR_EXCLUSIVE_OWNERSHIP"
+}
