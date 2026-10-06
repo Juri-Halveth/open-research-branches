@@ -12,6 +12,14 @@
 
 **✅ CLAIMED · документированное заявление о вкладе:** [Происхождение и совместное участие (DE)](wiki/Claim-und-Mitclaim.md) · [π: степени и операторы (DE)](wiki/Pi-und-Operatoren.md). Источники, доказательства и добровольное участие учитываются отдельно.
 
+## HALVETH · ВСЕЛЕННАЯ КОДА
+
+**✅ CLAIMED · исполняемый код и документированный технический проект.**
+
+[Обзор (DE)](wiki/HALVETH-Codeuniversum.md) · [Запустить NORMENWERK](branches/normenwerk-rule-universe/README.md) · [Описание и десять формулировок притязаний (DE)](branches/normenwerk-rule-universe/TECHNISCHER_ENTWURF.md)
+
+24 технических компонента с привязкой к исходному коду и полный текущий каталог ветвей. Демонстратор вычисляет, повторно проверяет и архивирует четыре записи через NORMENWERK и FEGEFEUER.
+
 ## Модели с кодом и материалами
 
 [Banana Transition Field](branches/banana-transition-field/README.md) · [Auge / Eye Optics & Prediction](branches/eye-optics-and-prediction/README.md) · [FEGEFEUER](branches/fegefeuer-provenance-transducer/README.md) · [HALVETH Hub](https://juri-halveth.github.io/modelle/)

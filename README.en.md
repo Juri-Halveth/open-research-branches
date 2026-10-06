@@ -12,6 +12,14 @@ This manually edited guide summarizes the audited source. The original technical
 
 **✅ CLAIMED · documented contribution assertion:** [Attribution and co-claiming (DE)](wiki/Claim-und-Mitclaim.md) · [π: powers and operators (DE)](wiki/Pi-und-Operatoren.md). Sources, evidence and voluntary participation remain separate.
 
+## HALVETH CODE UNIVERSE
+
+**✅ CLAIMED · executable code and a documented technical design.**
+
+[Explore the universe (DE)](wiki/HALVETH-Codeuniversum.md) · [Run NORMENWERK](branches/normenwerk-rule-universe/README.md) · [Description and ten claim formulations (DE)](branches/normenwerk-rule-universe/TECHNISCHER_ENTWURF.md)
+
+24 source-bound technical components and the complete current branch catalogue. The demonstrator evaluates, replays and archives four records through NORMENWERK and FEGEFEUER.
+
 ## Models with code and evidence
 
 [Banana Transition Field](branches/banana-transition-field/README.md) · [Auge / Eye Optics & Prediction](branches/eye-optics-and-prediction/README.md) · [FEGEFEUER](branches/fegefeuer-provenance-transducer/README.md) · [HALVETH Hub](https://juri-halveth.github.io/modelle/)

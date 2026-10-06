@@ -6,6 +6,7 @@ Diese Übersicht erschließt die veröffentlichten Forschungs- und Softwareäste
 
 | Projekt | Worum geht es? | Themenraum |
 | --- | --- | --- |
+| [HALVETH Normenwerk · Codeuniversum](../branches/normenwerk-rule-universe/README.md) | Ausführbare Regelmodelle, vollständiger Replay und provenienzgebundene Aufnahme in FEGEFEUER; 24 technische Bausteine und ein Katalog aller Äste. | [Codeuniversum](HALVETH-Codeuniversum.md) |
 | [Bananen-Technologie: Übergangsfeld](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/banana-transition-field/README.md) | Automatische Materialdemonstration und ein Forschungsnetz, das Aufnahme und Mikrobiom weiterführt. | [Natur & Beobachtung](Natur-und-Beobachtung.md) |
 | [Alice: Geschichte und Handlungsspielraum](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/alice-media-referent-and-agency-audit/README.md) | Einen Medienhinweis einem konkreten Werk und einer Szene zuordnen; Story, Aussage und Belegzugang prüfen. | [Identität & Medien](Identitaet-Sprache-und-Medien.md) |
 | [ASTER und der Geheime Garten](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/aster-provenance-and-secret-garden/README.md) | Die konkrete LUCINET-Entität, ihre dokumentierte Herkunft und eine offene Erzählwelt erkunden. | [Identität & Medien](Identitaet-Sprache-und-Medien.md) |

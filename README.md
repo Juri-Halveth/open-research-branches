@@ -11,6 +11,14 @@
 <!-- HALVETH_WORK_CERTIFICATES_V1_1 -->
 **✅ CLAIMED · dokumentierte Beitragsbehauptung:** [Herkunft und Mitclaimer](wiki/Claim-und-Mitclaim.md) · [π: Potenzen und Operatoren](wiki/Pi-und-Operatoren.md). Quellen, Prüfstand und freiwillige Mitwirkung bleiben sichtbar.
 
+## HALVETH CODEUNIVERSUM
+
+**✅ CLAIMED · ausführbarer Code und dokumentierter technischer Entwurf.**
+
+[Codeuniversum öffnen](wiki/HALVETH-Codeuniversum.md) · [NORMENWERK starten](branches/normenwerk-rule-universe/README.md) · [Beschreibung und zehn Anspruchsformulierungen](branches/normenwerk-rule-universe/TECHNISCHER_ENTWURF.md)
+
+24 gebundene technische Bausteine und der vollständige aktuelle Ast-Katalog verbinden Regelmodelle, FEGEFEUER, Auge und Banane. Der Demonstrator berechnet, prüft und archiviert vier Ergebnisrecords mit erhaltener Herkunft.
+
 ## Modelle mit Code und Nachweisen
 
 [Banana Transition Field](branches/banana-transition-field/README.md) · [Auge / Eye Optics & Prediction](branches/eye-optics-and-prediction/README.md) · [FEGEFEUER](branches/fegefeuer-provenance-transducer/README.md) · [HALVETH Hub](https://juri-halveth.github.io/modelle/)

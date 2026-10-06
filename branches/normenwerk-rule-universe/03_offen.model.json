@@ -1,0 +1,85 @@
+{
+  "schema": "halveth.norm-model.v1",
+  "id": "MODEL_A",
+  "domain": "LOCAL_SIMULATION",
+  "scope": "FIXTURE_A",
+  "referenceTime": "2026-10-06T22:28:00+02:00",
+  "query": {
+    "id": "QUERY_A",
+    "subject": "ACTOR_A",
+    "action": "REVIEW_ARTIFACT",
+    "object": "ARTIFACT_A"
+  },
+  "sources": [
+    {
+      "id": "SOURCE_A",
+      "version": "fixture-1",
+      "text": "Synthetic model rules and assertions; no external authority."
+    }
+  ],
+  "facts": [
+    {
+      "id": "CONSENT_A",
+      "definitionId": "CONSENT_DECLARATION_V1",
+      "value": "UNKNOWN",
+      "source": "SOURCE_A",
+      "binding": {
+        "domain": "LOCAL_SIMULATION",
+        "scope": "FIXTURE_A",
+        "subject": "ACTOR_A",
+        "action": "REVIEW_ARTIFACT",
+        "object": "ARTIFACT_A"
+      },
+      "validFrom": "2026-10-01T00:00:00Z",
+      "validUntil": "2026-11-01T00:00:00Z"
+    },
+    {
+      "id": "RESTRICTION_A",
+      "definitionId": "RESTRICTION_DECLARATION_V1",
+      "value": "FALSE",
+      "source": "SOURCE_A",
+      "binding": {
+        "domain": "LOCAL_SIMULATION",
+        "scope": "FIXTURE_A",
+        "subject": "ACTOR_A",
+        "action": "REVIEW_ARTIFACT",
+        "object": "ARTIFACT_A"
+      },
+      "validFrom": "2026-10-01T00:00:00Z",
+      "validUntil": "2026-11-01T00:00:00Z"
+    }
+  ],
+  "norms": [
+    {
+      "id": "N_SUPPORT",
+      "definitionId": "REVIEW_SUPPORT_V1",
+      "source": "SOURCE_A",
+      "domain": "LOCAL_SIMULATION",
+      "scope": "FIXTURE_A",
+      "action": "REVIEW_ARTIFACT",
+      "effect": "SUPPORT",
+      "when": {
+        "fact": "CONSENT_A"
+      },
+      "consequence": "A local review is supported under these model inputs.",
+      "validFrom": "2026-10-01T00:00:00Z",
+      "validUntil": "2026-11-01T00:00:00Z"
+    },
+    {
+      "id": "N_OPPOSE",
+      "definitionId": "REVIEW_OPPOSITION_V1",
+      "source": "SOURCE_A",
+      "domain": "LOCAL_SIMULATION",
+      "scope": "FIXTURE_A",
+      "action": "REVIEW_ARTIFACT",
+      "effect": "OPPOSE",
+      "when": {
+        "fact": "RESTRICTION_A"
+      },
+      "consequence": "The model records an opposing restriction.",
+      "validFrom": "2026-10-01T00:00:00Z",
+      "validUntil": "2026-11-01T00:00:00Z"
+    }
+  ],
+  "priorities": []
+}
