@@ -117,7 +117,8 @@ export function renderTechnologyRoadmap(roadmap, catalog) {
     `Stand: **${roadmap.date}** · Beobachtungszeit: \`${roadmap.observedAt}\``, "",
     `Review-Basis: \`${roadmap.reviewBaseCommit}\``, "",
     md(roadmap.scope), "",
-    `Der [Projektkatalog](../catalog/branches.json) führt **${catalog.branches.length} Forschungs- und Softwareäste**. Diese Roadmap enthält **${items.size} Arbeitspakete**.`, "",
+    `Der aktuelle [Projektkatalog](../catalog/branches.json) führt **${catalog.branches.length} Forschungs- und Softwareäste**. Diese Roadmap enthält **${items.size} Arbeitspakete**.`, "",
+    "Die Katalogzahl folgt dem aktuellen Verzeichnis. Die historische Beobachtungszeit und Review-Basis der Arbeitspakete bleiben oben separat gebunden.", "",
     "## Was die Zustände bedeuten", "",
     "Die Zustände sind deklarierte Reviewstände. Sie sind keine Laufzeit-Zertifizierung, Rechtsbewertung oder Zusage einer vollständigen Bestandsaufnahme. Dieser endliche Review lässt weitere Quellen und offene Fragen zu.", ""
   ];
