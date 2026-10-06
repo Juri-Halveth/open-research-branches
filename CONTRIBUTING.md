@@ -10,6 +10,10 @@ Dokumentation über wirksame Freigaben und Verzichte hinaus keinen zusätzlichen
 Rechteverzicht enthält. Konkrete weitere Beiträge und Rechtspositionen können
 gesondert geprüft und dokumentiert werden.
 
+## CLAIMED und Mitclaimer
+
+Die [Projektregel für Claim und Mitclaim](wiki/Claim-und-Mitclaim.md) zeigt, wie eigene Beiträge mit Quelle, Version und freiwilliger Zustimmung sichtbar werden. Frühere Beiträge bleiben erhalten; eine Mitclaimer-Rolle ändert keine bestehende Dateilizenz.
+
 ## Gespräch, Aufgabe oder Änderung?
 
 | Dein Vorhaben | Passender Ort |
