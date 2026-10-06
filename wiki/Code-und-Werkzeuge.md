@@ -4,6 +4,8 @@
 
 Kleine Programme machen eine Idee greifbar. Dieser Raum führt zu lokalen Prototypen, synthetischen Beispielen und klar umrissenen Methoden. Der jeweilige Projektordner enthält die verbindlichen Startbefehle und Anforderungen.
 
+**[HALVETH Codeuniversum öffnen](HALVETH-Codeuniversum.md)** · [Normenwerk mit FEGEFEUER ausführen](../branches/normenwerk-rule-universe/README.md)
+
 ## Etwas ausprobieren
 
 | Werkzeug | Was du damit untersuchen kannst | Sinnvolle Fortsetzung |

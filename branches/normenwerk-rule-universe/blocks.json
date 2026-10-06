@@ -1,0 +1,175 @@
+{
+  "schema": "halveth.code-universe-blocks.v1",
+  "count": 24,
+  "meaning": "FINITE_SOFTWARE_COMPONENT_INDEX_NOT_PHYSICAL_DIMENSIONS_OR_INFINITE_EXECUTION",
+  "blocks": [
+    {
+      "id": "N01",
+      "title": "UTF-8 und JSON",
+      "implementation": "normenkern.py",
+      "entry": "parse",
+      "testFile": "test_normenkern.py"
+    },
+    {
+      "id": "N02",
+      "title": "Geschlossenes Schema",
+      "implementation": "normenkern.py",
+      "entry": "validate",
+      "testFile": "test_normenkern.py"
+    },
+    {
+      "id": "N03",
+      "title": "Exakte Kontextbindung",
+      "implementation": "normenkern.py",
+      "entry": "validate",
+      "testFile": "test_normenkern.py"
+    },
+    {
+      "id": "N04",
+      "title": "Gültigkeitsfenster",
+      "implementation": "normenkern.py",
+      "entry": "_within",
+      "testFile": "test_normenkern.py"
+    },
+    {
+      "id": "N05",
+      "title": "Dreiwertige Logik",
+      "implementation": "normenkern.py",
+      "entry": "condition",
+      "testFile": "test_normenkern.py"
+    },
+    {
+      "id": "N06",
+      "title": "Azyklischer Vorrang",
+      "implementation": "normenkern.py",
+      "entry": "_topological",
+      "testFile": "test_normenkern.py"
+    },
+    {
+      "id": "N07",
+      "title": "Direkte Besiegung",
+      "implementation": "normenkern.py",
+      "entry": "evaluate",
+      "testFile": "test_normenkern.py"
+    },
+    {
+      "id": "N08",
+      "title": "Konflikt und offene Entscheidung",
+      "implementation": "normenkern.py",
+      "entry": "evaluate",
+      "testFile": "test_normenkern.py"
+    },
+    {
+      "id": "N09",
+      "title": "Vollständiger Regeltrace",
+      "implementation": "normenkern.py",
+      "entry": "evaluate",
+      "testFile": "test_normenkern.py"
+    },
+    {
+      "id": "N10",
+      "title": "Endpunktadressen",
+      "implementation": "normenkern.py",
+      "entry": "evaluate",
+      "testFile": "test_normenkern.py"
+    },
+    {
+      "id": "N11",
+      "title": "Eingabe- und Operatorbindung",
+      "implementation": "normenkern.py",
+      "entry": "evaluate",
+      "testFile": "test_normenkern.py"
+    },
+    {
+      "id": "N12",
+      "title": "Typgenauer vollständiger Replay",
+      "implementation": "normenkern.py",
+      "entry": "verify",
+      "testFile": "test_normenkern.py"
+    },
+    {
+      "id": "F01",
+      "title": "Unveränderliche Ereignisbytes",
+      "implementation": "../fegefeuer-provenance-transducer/fegefeuer_core.py",
+      "entry": "Event",
+      "testFile": "../fegefeuer-provenance-transducer/test_fegefeuer_core.py"
+    },
+    {
+      "id": "F02",
+      "title": "Kandidatenaufnahme",
+      "implementation": "../fegefeuer-provenance-transducer/fegefeuer_core.py",
+      "entry": "Fegefeuer.arrive",
+      "testFile": "../fegefeuer-provenance-transducer/test_fegefeuer_core.py"
+    },
+    {
+      "id": "F03",
+      "title": "HOLD und Rückkehr",
+      "implementation": "../fegefeuer-provenance-transducer/fegefeuer_core.py",
+      "entry": "Fegefeuer.hold",
+      "testFile": "../fegefeuer-provenance-transducer/test_fegefeuer_core.py"
+    },
+    {
+      "id": "F04",
+      "title": "Verkettete Receipts",
+      "implementation": "../fegefeuer-provenance-transducer/fegefeuer_core.py",
+      "entry": "Fegefeuer.ledger",
+      "testFile": "../fegefeuer-provenance-transducer/test_fegefeuer_core.py"
+    },
+    {
+      "id": "F05",
+      "title": "Expliziter Transformationscommit",
+      "implementation": "../fegefeuer-provenance-transducer/fegefeuer_core.py",
+      "entry": "Fegefeuer.commit",
+      "testFile": "../fegefeuer-provenance-transducer/test_fegefeuer_core.py"
+    },
+    {
+      "id": "F06",
+      "title": "Budgetierte Graphfront",
+      "implementation": "../fegefeuer-provenance-transducer/fegefeuer_core.py",
+      "entry": "explore",
+      "testFile": "../fegefeuer-provenance-transducer/test_fegefeuer_core.py"
+    },
+    {
+      "id": "U01",
+      "title": "Vier ausführbare Modellfälle",
+      "implementation": "universe.py",
+      "entry": "run_demo",
+      "testFile": "test_universe.py"
+    },
+    {
+      "id": "U02",
+      "title": "Replay vor Aufnahme",
+      "implementation": "universe.py",
+      "entry": "run_demo",
+      "testFile": "test_universe.py"
+    },
+    {
+      "id": "U03",
+      "title": "Typisierte Ergebnisereignisse",
+      "implementation": "universe.py",
+      "entry": "run_demo",
+      "testFile": "test_universe.py"
+    },
+    {
+      "id": "U04",
+      "title": "Erhaltene Vorher-/Nachher-Bindung",
+      "implementation": "universe.py",
+      "entry": "run_demo",
+      "testFile": "test_universe.py"
+    },
+    {
+      "id": "U05",
+      "title": "Gesamter Forschungsast-Katalog",
+      "implementation": "universe-catalog.json",
+      "entry": "catalog snapshot",
+      "testFile": "test_universe.py"
+    },
+    {
+      "id": "U06",
+      "title": "Reproduzierbarer lokaler Demonstrator",
+      "implementation": "universe.py",
+      "entry": "main",
+      "testFile": "test_universe.py"
+    }
+  ]
+}

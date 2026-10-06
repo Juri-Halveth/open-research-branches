@@ -1,0 +1,177 @@
+{
+  "body": {
+    "schema": "halveth.norm-receipt.v1",
+    "operatorVersion": "0.1.0",
+    "operatorSourceDigest": "sha256:84dc83b2b6b93e1735b054e50f4c314a8e0e097fa5479a6ee5f773f2cdebea18",
+    "inputDigest": "sha256:912e4afc95dd73f3a2aca5871bff1f57f8719748a08fa0feaa6dd84d012fcf62",
+    "canonicalModelDigest": "sha256:6f80f864b3c52efbbc75da46e13e68c3fd15116d6d918e81be0351d2a38661a3",
+    "modelId": "MODEL_A",
+    "scope": "FIXTURE_A",
+    "referenceTime": "2026-10-06T22:28:00+02:00",
+    "query": {
+      "id": "QUERY_A",
+      "subject": "ACTOR_A",
+      "action": "REVIEW_ARTIFACT",
+      "object": "ARTIFACT_A"
+    },
+    "outcome": "OPEN",
+    "truthContract": "STRONG_KLEENE_THREE_VALUED_V1",
+    "priorityContract": "DIRECT_DEFEAT_BY_UNDEFEATED_ACTIVE_RULE_V1",
+    "conservativeUnknownContract": "ANY_APPLICABLE_UNKNOWN_RULE_KEEPS_RESOLUTION_OPEN",
+    "support": [],
+    "oppose": [],
+    "uncertain": [
+      "N_SUPPORT"
+    ],
+    "trace": [
+      {
+        "norm": "N_OPPOSE",
+        "source": "SOURCE_A",
+        "conditionValue": "FALSE",
+        "effect": "OPPOSE",
+        "status": "INACTIVE"
+      },
+      {
+        "norm": "N_SUPPORT",
+        "source": "SOURCE_A",
+        "conditionValue": "UNKNOWN",
+        "effect": "SUPPORT",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "states": {
+      "CONSENT_A": "UNKNOWN",
+      "RESTRICTION_A": "FALSE"
+    },
+    "nodes": [
+      {
+        "kind": "SOURCE",
+        "id": "SOURCE_A",
+        "digest": "sha256:1b50b920cb8cce586a2164a09a67047d66b9664f160b66630c4ebda4b3d1dbc7",
+        "address": "/source/SOURCE_A"
+      },
+      {
+        "kind": "STATE",
+        "id": "CONSENT_A",
+        "digest": "sha256:61bbf1ff92e9b8a98a878eec96c087088a6a744394088d11674b656b573d401b",
+        "address": "/state/CONSENT_A"
+      },
+      {
+        "kind": "STATE",
+        "id": "RESTRICTION_A",
+        "digest": "sha256:4f0ff837c86be374a292935b295c8442b3be7e0168452ce2b28117f5385ce76f",
+        "address": "/state/RESTRICTION_A"
+      },
+      {
+        "kind": "NORM",
+        "id": "N_SUPPORT",
+        "digest": "sha256:5147e8f17058353f9872e8b2360503058bafa1d92b152b3a5a8e8c720292658f",
+        "address": "/norm/N_SUPPORT"
+      },
+      {
+        "kind": "NORM",
+        "id": "N_OPPOSE",
+        "digest": "sha256:b21425384e4d000d767ad4302a5e8e4123aa3d22e2872afed3ee69eb58e24d1e",
+        "address": "/norm/N_OPPOSE"
+      },
+      {
+        "kind": "QUERY",
+        "id": "QUERY_A",
+        "digest": "sha256:c127125407c3da1e26d8a898679b7bb86fca44ba880c67a3211c103464820cd6",
+        "address": "/query/QUERY_A"
+      }
+    ],
+    "relations": [
+      {
+        "id": "SOURCE_N_SUPPORT",
+        "type": "DECLARES_MODEL_RULE",
+        "left": {
+          "kind": "SOURCE",
+          "id": "SOURCE_A",
+          "digest": "sha256:1b50b920cb8cce586a2164a09a67047d66b9664f160b66630c4ebda4b3d1dbc7",
+          "address": "/source/SOURCE_A"
+        },
+        "right": {
+          "kind": "NORM",
+          "id": "N_SUPPORT",
+          "digest": "sha256:5147e8f17058353f9872e8b2360503058bafa1d92b152b3a5a8e8c720292658f",
+          "address": "/norm/N_SUPPORT"
+        },
+        "source": "SOURCE_A",
+        "scope": "FIXTURE_A",
+        "time": "2026-10-06T22:28:00+02:00",
+        "evidence": "DECLARED_INPUT",
+        "authorityEffect": "MODEL_ONLY"
+      },
+      {
+        "id": "SOURCE_N_OPPOSE",
+        "type": "DECLARES_MODEL_RULE",
+        "left": {
+          "kind": "SOURCE",
+          "id": "SOURCE_A",
+          "digest": "sha256:1b50b920cb8cce586a2164a09a67047d66b9664f160b66630c4ebda4b3d1dbc7",
+          "address": "/source/SOURCE_A"
+        },
+        "right": {
+          "kind": "NORM",
+          "id": "N_OPPOSE",
+          "digest": "sha256:b21425384e4d000d767ad4302a5e8e4123aa3d22e2872afed3ee69eb58e24d1e",
+          "address": "/norm/N_OPPOSE"
+        },
+        "source": "SOURCE_A",
+        "scope": "FIXTURE_A",
+        "time": "2026-10-06T22:28:00+02:00",
+        "evidence": "DECLARED_INPUT",
+        "authorityEffect": "MODEL_ONLY"
+      },
+      {
+        "id": "SOURCE_CONSENT_A",
+        "type": "DECLARES_MODEL_STATE",
+        "left": {
+          "kind": "SOURCE",
+          "id": "SOURCE_A",
+          "digest": "sha256:1b50b920cb8cce586a2164a09a67047d66b9664f160b66630c4ebda4b3d1dbc7",
+          "address": "/source/SOURCE_A"
+        },
+        "right": {
+          "kind": "STATE",
+          "id": "CONSENT_A",
+          "digest": "sha256:61bbf1ff92e9b8a98a878eec96c087088a6a744394088d11674b656b573d401b",
+          "address": "/state/CONSENT_A"
+        },
+        "source": "SOURCE_A",
+        "scope": "FIXTURE_A",
+        "time": "2026-10-06T22:28:00+02:00",
+        "evidence": "DECLARED_INPUT",
+        "authorityEffect": "MODEL_ONLY"
+      },
+      {
+        "id": "SOURCE_RESTRICTION_A",
+        "type": "DECLARES_MODEL_STATE",
+        "left": {
+          "kind": "SOURCE",
+          "id": "SOURCE_A",
+          "digest": "sha256:1b50b920cb8cce586a2164a09a67047d66b9664f160b66630c4ebda4b3d1dbc7",
+          "address": "/source/SOURCE_A"
+        },
+        "right": {
+          "kind": "STATE",
+          "id": "RESTRICTION_A",
+          "digest": "sha256:4f0ff837c86be374a292935b295c8442b3be7e0168452ce2b28117f5385ce76f",
+          "address": "/state/RESTRICTION_A"
+        },
+        "source": "SOURCE_A",
+        "scope": "FIXTURE_A",
+        "time": "2026-10-06T22:28:00+02:00",
+        "evidence": "DECLARED_INPUT",
+        "authorityEffect": "MODEL_ONLY"
+      }
+    ],
+    "consequences": [],
+    "sourceAssurance": "DECLARED_INPUT_NOT_EXTERNALLY_VERIFIED",
+    "authority": "MODEL_ONLY",
+    "externalActions": 0
+  },
+  "canonicalSourceUtf8": "{\"authority\":\"MODEL_ONLY\",\"canonicalModelDigest\":\"sha256:6f80f864b3c52efbbc75da46e13e68c3fd15116d6d918e81be0351d2a38661a3\",\"consequences\":[],\"conservativeUnknownContract\":\"ANY_APPLICABLE_UNKNOWN_RULE_KEEPS_RESOLUTION_OPEN\",\"externalActions\":0,\"inputDigest\":\"sha256:912e4afc95dd73f3a2aca5871bff1f57f8719748a08fa0feaa6dd84d012fcf62\",\"modelId\":\"MODEL_A\",\"nodes\":[{\"address\":\"/source/SOURCE_A\",\"digest\":\"sha256:1b50b920cb8cce586a2164a09a67047d66b9664f160b66630c4ebda4b3d1dbc7\",\"id\":\"SOURCE_A\",\"kind\":\"SOURCE\"},{\"address\":\"/state/CONSENT_A\",\"digest\":\"sha256:61bbf1ff92e9b8a98a878eec96c087088a6a744394088d11674b656b573d401b\",\"id\":\"CONSENT_A\",\"kind\":\"STATE\"},{\"address\":\"/state/RESTRICTION_A\",\"digest\":\"sha256:4f0ff837c86be374a292935b295c8442b3be7e0168452ce2b28117f5385ce76f\",\"id\":\"RESTRICTION_A\",\"kind\":\"STATE\"},{\"address\":\"/norm/N_SUPPORT\",\"digest\":\"sha256:5147e8f17058353f9872e8b2360503058bafa1d92b152b3a5a8e8c720292658f\",\"id\":\"N_SUPPORT\",\"kind\":\"NORM\"},{\"address\":\"/norm/N_OPPOSE\",\"digest\":\"sha256:b21425384e4d000d767ad4302a5e8e4123aa3d22e2872afed3ee69eb58e24d1e\",\"id\":\"N_OPPOSE\",\"kind\":\"NORM\"},{\"address\":\"/query/QUERY_A\",\"digest\":\"sha256:c127125407c3da1e26d8a898679b7bb86fca44ba880c67a3211c103464820cd6\",\"id\":\"QUERY_A\",\"kind\":\"QUERY\"}],\"operatorSourceDigest\":\"sha256:84dc83b2b6b93e1735b054e50f4c314a8e0e097fa5479a6ee5f773f2cdebea18\",\"operatorVersion\":\"0.1.0\",\"oppose\":[],\"outcome\":\"OPEN\",\"priorityContract\":\"DIRECT_DEFEAT_BY_UNDEFEATED_ACTIVE_RULE_V1\",\"query\":{\"action\":\"REVIEW_ARTIFACT\",\"id\":\"QUERY_A\",\"object\":\"ARTIFACT_A\",\"subject\":\"ACTOR_A\"},\"referenceTime\":\"2026-10-06T22:28:00+02:00\",\"relations\":[{\"authorityEffect\":\"MODEL_ONLY\",\"evidence\":\"DECLARED_INPUT\",\"id\":\"SOURCE_N_SUPPORT\",\"left\":{\"address\":\"/source/SOURCE_A\",\"digest\":\"sha256:1b50b920cb8cce586a2164a09a67047d66b9664f160b66630c4ebda4b3d1dbc7\",\"id\":\"SOURCE_A\",\"kind\":\"SOURCE\"},\"right\":{\"address\":\"/norm/N_SUPPORT\",\"digest\":\"sha256:5147e8f17058353f9872e8b2360503058bafa1d92b152b3a5a8e8c720292658f\",\"id\":\"N_SUPPORT\",\"kind\":\"NORM\"},\"scope\":\"FIXTURE_A\",\"source\":\"SOURCE_A\",\"time\":\"2026-10-06T22:28:00+02:00\",\"type\":\"DECLARES_MODEL_RULE\"},{\"authorityEffect\":\"MODEL_ONLY\",\"evidence\":\"DECLARED_INPUT\",\"id\":\"SOURCE_N_OPPOSE\",\"left\":{\"address\":\"/source/SOURCE_A\",\"digest\":\"sha256:1b50b920cb8cce586a2164a09a67047d66b9664f160b66630c4ebda4b3d1dbc7\",\"id\":\"SOURCE_A\",\"kind\":\"SOURCE\"},\"right\":{\"address\":\"/norm/N_OPPOSE\",\"digest\":\"sha256:b21425384e4d000d767ad4302a5e8e4123aa3d22e2872afed3ee69eb58e24d1e\",\"id\":\"N_OPPOSE\",\"kind\":\"NORM\"},\"scope\":\"FIXTURE_A\",\"source\":\"SOURCE_A\",\"time\":\"2026-10-06T22:28:00+02:00\",\"type\":\"DECLARES_MODEL_RULE\"},{\"authorityEffect\":\"MODEL_ONLY\",\"evidence\":\"DECLARED_INPUT\",\"id\":\"SOURCE_CONSENT_A\",\"left\":{\"address\":\"/source/SOURCE_A\",\"digest\":\"sha256:1b50b920cb8cce586a2164a09a67047d66b9664f160b66630c4ebda4b3d1dbc7\",\"id\":\"SOURCE_A\",\"kind\":\"SOURCE\"},\"right\":{\"address\":\"/state/CONSENT_A\",\"digest\":\"sha256:61bbf1ff92e9b8a98a878eec96c087088a6a744394088d11674b656b573d401b\",\"id\":\"CONSENT_A\",\"kind\":\"STATE\"},\"scope\":\"FIXTURE_A\",\"source\":\"SOURCE_A\",\"time\":\"2026-10-06T22:28:00+02:00\",\"type\":\"DECLARES_MODEL_STATE\"},{\"authorityEffect\":\"MODEL_ONLY\",\"evidence\":\"DECLARED_INPUT\",\"id\":\"SOURCE_RESTRICTION_A\",\"left\":{\"address\":\"/source/SOURCE_A\",\"digest\":\"sha256:1b50b920cb8cce586a2164a09a67047d66b9664f160b66630c4ebda4b3d1dbc7\",\"id\":\"SOURCE_A\",\"kind\":\"SOURCE\"},\"right\":{\"address\":\"/state/RESTRICTION_A\",\"digest\":\"sha256:4f0ff837c86be374a292935b295c8442b3be7e0168452ce2b28117f5385ce76f\",\"id\":\"RESTRICTION_A\",\"kind\":\"STATE\"},\"scope\":\"FIXTURE_A\",\"source\":\"SOURCE_A\",\"time\":\"2026-10-06T22:28:00+02:00\",\"type\":\"DECLARES_MODEL_STATE\"}],\"schema\":\"halveth.norm-receipt.v1\",\"scope\":\"FIXTURE_A\",\"sourceAssurance\":\"DECLARED_INPUT_NOT_EXTERNALLY_VERIFIED\",\"states\":{\"CONSENT_A\":\"UNKNOWN\",\"RESTRICTION_A\":\"FALSE\"},\"support\":[],\"trace\":[{\"conditionValue\":\"FALSE\",\"effect\":\"OPPOSE\",\"norm\":\"N_OPPOSE\",\"source\":\"SOURCE_A\",\"status\":\"INACTIVE\"},{\"conditionValue\":\"UNKNOWN\",\"effect\":\"SUPPORT\",\"norm\":\"N_SUPPORT\",\"source\":\"SOURCE_A\",\"status\":\"UNRESOLVED\"}],\"truthContract\":\"STRONG_KLEENE_THREE_VALUED_V1\",\"uncertain\":[\"N_SUPPORT\"]}",
+  "digest": "sha256:058996113386e7a902ba87ee9f175a9c2da384e5984bf65be96c67e3756ced0f"
+}

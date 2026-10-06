@@ -322,6 +322,16 @@
       "claimCeiling": "REDUCED_GEOMETRIC_OPTICS_AND_SYNTHETIC_PREDICTION_ONLY",
       "dataClass": "SYNTHETIC_ONLY",
       "activeMain": false
+    },
+    {
+      "id": "normenwerk-rule-universe",
+      "title": "HALVETH Normenwerk · Codeuniversum",
+      "kind": "executable-rule-model-and-provenance-integration",
+      "state": "PUBLIC_DERIVATIVE",
+      "path": "branches/normenwerk-rule-universe",
+      "claimCeiling": "SYNTHETIC_MODEL_EVALUATION_FULL_RECORD_REPLAY_AND_IN_MEMORY_EVENT_ARCHIVE",
+      "dataClass": "SYNTHETIC_FIXTURES_AND_PUBLIC_TECHNICAL_DOCUMENTATION_ONLY",
+      "activeMain": false
     }
   ]
 }

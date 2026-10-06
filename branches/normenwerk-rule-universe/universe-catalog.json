@@ -1,0 +1,465 @@
+{
+  "schema": "halveth.code-universe-catalog.v1",
+  "snapshotDate": "2026-10-07",
+  "branchCount": 33,
+  "coverage": "ALL_CURRENT_CATALOG_BRANCHES",
+  "branches": [
+    {
+      "id": "focus-kernel",
+      "title": "Focus Kernel",
+      "path": "branches/focus-kernel",
+      "state": "PUBLIC_DERIVATIVE",
+      "sourceFiles": [
+        "branches/focus-kernel/app.js",
+        "branches/focus-kernel/core.js",
+        "branches/focus-kernel/index.html",
+        "branches/focus-kernel/styles.css"
+      ],
+      "testFiles": [
+        "branches/focus-kernel/tests/core.test.mjs"
+      ],
+      "inventoryStatus": "FILES_PRESENT_NOT_ALL_EXECUTION_CLAIMS",
+      "claimCeiling": "LOCAL_HEURISTIC_PROTOTYPE"
+    },
+    {
+      "id": "document-issue-reference-verifier",
+      "title": "Document Issue Reference Verifier",
+      "path": "branches/document-issue-reference-verifier",
+      "state": "PUBLIC_DERIVATIVE",
+      "sourceFiles": [
+        "branches/document-issue-reference-verifier/src/reference-verifier.mjs"
+      ],
+      "testFiles": [
+        "branches/document-issue-reference-verifier/test/reference-verifier.test.mjs"
+      ],
+      "inventoryStatus": "FILES_PRESENT_NOT_ALL_EXECUTION_CLAIMS",
+      "claimCeiling": "SYNTHETIC_REFERENCE_VALIDATION_ONLY"
+    },
+    {
+      "id": "bounded-knowledge-reuse-inventory",
+      "title": "Bounded Knowledge Reuse Inventory",
+      "path": "branches/bounded-knowledge-reuse-inventory",
+      "state": "PUBLIC_DERIVATIVE",
+      "sourceFiles": [
+        "branches/bounded-knowledge-reuse-inventory/src/cli.js",
+        "branches/bounded-knowledge-reuse-inventory/src/inventory.js"
+      ],
+      "testFiles": [
+        "branches/bounded-knowledge-reuse-inventory/test/inventory.test.js"
+      ],
+      "inventoryStatus": "FILES_PRESENT_NOT_ALL_EXECUTION_CLAIMS",
+      "claimCeiling": "BOUNDED_METADATA_INVENTORY_ONLY"
+    },
+    {
+      "id": "pixel-region-change-observer",
+      "title": "Pixel Region Change Observer",
+      "path": "branches/pixel-region-change-observer",
+      "state": "PUBLIC_DERIVATIVE",
+      "sourceFiles": [
+        "branches/pixel-region-change-observer/src/cli.js",
+        "branches/pixel-region-change-observer/src/observer.js"
+      ],
+      "testFiles": [
+        "branches/pixel-region-change-observer/test/observer.test.js"
+      ],
+      "inventoryStatus": "FILES_PRESENT_NOT_ALL_EXECUTION_CLAIMS",
+      "claimCeiling": "OFFLINE_RENDER_DIFFERENCE_ONLY"
+    },
+    {
+      "id": "browser-extension-claim-reassessment",
+      "title": "Browser Extension Claim Reassessment",
+      "path": "branches/browser-extension-claim-reassessment",
+      "state": "FINITE_SNAPSHOT",
+      "sourceFiles": [
+        "branches/browser-extension-claim-reassessment/src/assessment.mjs"
+      ],
+      "testFiles": [
+        "branches/browser-extension-claim-reassessment/test/assessment.test.mjs"
+      ],
+      "inventoryStatus": "FILES_PRESENT_NOT_ALL_EXECUTION_CLAIMS",
+      "claimCeiling": "PUBLIC_SOURCE_REASSESSMENT_NOT_INDEPENDENT_MALWARE_REPRODUCTION"
+    },
+    {
+      "id": "water-photonic-open-questions",
+      "title": "Water and Photonics Open Questions",
+      "path": "branches/water-photonic-open-questions",
+      "state": "FINITE_SNAPSHOT",
+      "sourceFiles": [],
+      "testFiles": [],
+      "inventoryStatus": "FILES_PRESENT_NOT_ALL_EXECUTION_CLAIMS",
+      "claimCeiling": "QUESTION_SET_NOT_PHYSICAL_FINDING"
+    },
+    {
+      "id": "plant-observation-protocol",
+      "title": "Plant Observation Protocol",
+      "path": "branches/plant-observation-protocol",
+      "state": "FINITE_SNAPSHOT",
+      "sourceFiles": [],
+      "testFiles": [],
+      "inventoryStatus": "FILES_PRESENT_NOT_ALL_EXECUTION_CLAIMS",
+      "claimCeiling": "OBSERVATION_PROTOCOL_NOT_BIOLOGICAL_CAUSALITY"
+    },
+    {
+      "id": "deidentified-self-observation-protocol",
+      "title": "De-identified Self-Observation Protocol",
+      "path": "branches/deidentified-self-observation-protocol",
+      "state": "FINITE_SNAPSHOT",
+      "sourceFiles": [],
+      "testFiles": [],
+      "inventoryStatus": "FILES_PRESENT_NOT_ALL_EXECUTION_CLAIMS",
+      "claimCeiling": "JOURNAL_SCHEMA_NOT_MEDICAL_EVIDENCE"
+    },
+    {
+      "id": "visual-interpretation-boundary",
+      "title": "Visual Interpretation Boundary",
+      "path": "branches/visual-interpretation-boundary",
+      "state": "FINITE_SNAPSHOT",
+      "sourceFiles": [],
+      "testFiles": [],
+      "inventoryStatus": "FILES_PRESENT_NOT_ALL_EXECUTION_CLAIMS",
+      "claimCeiling": "DESCRIPTION_NOT_DIAGNOSIS_OR_OBJECT_IDENTITY"
+    },
+    {
+      "id": "document-scanner-crypto-modernization",
+      "title": "Document Scanner Cryptography Modernization",
+      "path": "branches/document-scanner-crypto-modernization",
+      "state": "HOLD_IMPLEMENTATION",
+      "sourceFiles": [],
+      "testFiles": [],
+      "inventoryStatus": "FILES_PRESENT_NOT_ALL_EXECUTION_CLAIMS",
+      "claimCeiling": "DESIGN_PLAN_NOT_SECURE_IMPLEMENTATION"
+    },
+    {
+      "id": "russia-ukraine-information-and-peace-audit",
+      "title": "Was los?. Russia-Ukraine Information, Peace and Decision-Snapshot Audit",
+      "path": "branches/russia-ukraine-information-and-peace-audit",
+      "state": "FINITE_SNAPSHOT",
+      "sourceFiles": [
+        "branches/russia-ukraine-information-and-peace-audit/decision-snapshot-firewall.mjs"
+      ],
+      "testFiles": [
+        "branches/russia-ukraine-information-and-peace-audit/test/claims.test.mjs",
+        "branches/russia-ukraine-information-and-peace-audit/test/decision-snapshot-firewall.test.mjs"
+      ],
+      "inventoryStatus": "FILES_PRESENT_NOT_ALL_EXECUTION_CLAIMS",
+      "claimCeiling": "SOURCE_BOUND_ANALYSIS_NOT_ACCESS_TO_PRIVATE_BRIEFINGS_OR_NEGOTIATIONS"
+    },
+    {
+      "id": "aster-provenance-and-secret-garden",
+      "title": "ASTER Provenance and the Secret Garden Between Space and Time",
+      "path": "branches/aster-provenance-and-secret-garden",
+      "state": "PUBLIC_DERIVATIVE",
+      "sourceFiles": [
+        "branches/aster-provenance-and-secret-garden/src/aster-lens.mjs",
+        "branches/aster-provenance-and-secret-garden/src/letter-identity.mjs"
+      ],
+      "testFiles": [
+        "branches/aster-provenance-and-secret-garden/test/aster-lens.test.mjs",
+        "branches/aster-provenance-and-secret-garden/test/letter-identity.test.mjs"
+      ],
+      "inventoryStatus": "FILES_PRESENT_NOT_ALL_EXECUTION_CLAIMS",
+      "claimCeiling": "SOURCE_BOUND_AUTHORSHIP_OF_LUCINET_ASTER_NOT_GLOBAL_NAME_OWNERSHIP_OR_EXTERNAL_TRANSFER_PROOF"
+    },
+    {
+      "id": "navier-stokes-credit-value-and-plagiarism-audit",
+      "title": "Navier-Stokes Proof, Credit, Plagiarism and Value Audit",
+      "path": "branches/navier-stokes-credit-value-and-plagiarism-audit",
+      "state": "FINITE_SNAPSHOT",
+      "sourceFiles": [
+        "branches/navier-stokes-credit-value-and-plagiarism-audit/src/credit-audit.mjs"
+      ],
+      "testFiles": [
+        "branches/navier-stokes-credit-value-and-plagiarism-audit/test/credit-audit.test.mjs"
+      ],
+      "inventoryStatus": "FILES_PRESENT_NOT_ALL_EXECUTION_CLAIMS",
+      "claimCeiling": "PUBLIC_SOURCE_PROVENANCE_AND_VALUE_AUDIT_NOT_PROOF_VALIDATION_DATA_ACCESS_FINDING_OR_PLAGIARISM_JUDGMENT"
+    },
+    {
+      "id": "binary-inquiry-loop",
+      "title": "Binary Inquiry Loop",
+      "path": "branches/binary-inquiry-loop",
+      "state": "PUBLIC_DERIVATIVE",
+      "sourceFiles": [
+        "branches/binary-inquiry-loop/binary-inquiry-machine.mjs"
+      ],
+      "testFiles": [
+        "branches/binary-inquiry-loop/binary-inquiry-machine.test.mjs"
+      ],
+      "inventoryStatus": "FILES_PRESENT_NOT_ALL_EXECUTION_CLAIMS",
+      "claimCeiling": "DETERMINISTIC_DIALOGUE_PROTOCOL_NOT_TRUTH_CONSENT_OR_LEGAL_EFFECT"
+    },
+    {
+      "id": "solar-and-thermal-provenance-audit",
+      "title": "Juri Energy Model, KIT and Standard Thermal Provenance Audit",
+      "path": "branches/solar-and-thermal-provenance-audit",
+      "state": "FINITE_SNAPSHOT",
+      "sourceFiles": [
+        "branches/solar-and-thermal-provenance-audit/audit-lens.mjs"
+      ],
+      "testFiles": [
+        "branches/solar-and-thermal-provenance-audit/audit-lens.test.mjs"
+      ],
+      "inventoryStatus": "FILES_PRESENT_NOT_ALL_EXECUTION_CLAIMS",
+      "claimCeiling": "DATE_BOUND_GENERIC_OVERLAP_ONLY_NO_ACCESS_DERIVATION_OR_DISTINCTIVE_TECHNICAL_MATCH_OBSERVED"
+    },
+    {
+      "id": "wax-crayon-peace-helmet-audit",
+      "title": "Wax-Crayon Peace Helmet and iOS Marker Audit",
+      "path": "branches/wax-crayon-peace-helmet-audit",
+      "state": "FINITE_SNAPSHOT",
+      "sourceFiles": [
+        "branches/wax-crayon-peace-helmet-audit/build_pdf.py",
+        "branches/wax-crayon-peace-helmet-audit/build_presentations.mjs",
+        "branches/wax-crayon-peace-helmet-audit/marker-protocol.mjs"
+      ],
+      "testFiles": [
+        "branches/wax-crayon-peace-helmet-audit/test/marker-protocol.test.mjs",
+        "branches/wax-crayon-peace-helmet-audit/test/public-records.test.mjs"
+      ],
+      "inventoryStatus": "FILES_PRESENT_NOT_ALL_EXECUTION_CLAIMS",
+      "claimCeiling": "SOURCE_BOUND_PEACE_ART_PROPOSAL_AND_IOS_MARKER_UPDATE_NOT_PHYSICAL_VERIFICATION_GLOBAL_NOVELTY_CAUSALITY_OR_PPE"
+    },
+    {
+      "id": "quantum-internet-aster-mirror-audit",
+      "title": "Quantum Internet, ASTER, ASTAR and ASTRA Mirror Audit",
+      "path": "branches/quantum-internet-aster-mirror-audit",
+      "state": "FINITE_SNAPSHOT",
+      "sourceFiles": [
+        "branches/quantum-internet-aster-mirror-audit/src/mirror-audit.mjs"
+      ],
+      "testFiles": [
+        "branches/quantum-internet-aster-mirror-audit/test/mirror-audit.test.mjs"
+      ],
+      "inventoryStatus": "FILES_PRESENT_NOT_ALL_EXECUTION_CLAIMS",
+      "claimCeiling": "SOURCE_BOUND_QUANTUM_INTERNET_AND_PROVENANCE_AUDIT_WITH_LOCAL_EXECUTABLE_MIRROR_MODEL_NOT_GLOBAL_NETWORK_IDENTITY_ACCESS_DERIVATION_COPYING_CO_DEVELOPMENT_UNIVERSAL_AUTHORSHIP_OWNERSHIP_OR_PAYMENT_PROOF"
+    },
+    {
+      "id": "historical-cipher-decoding-challenge",
+      "title": "Historical Cipher Decoding Challenge",
+      "path": "branches/historical-cipher-decoding-challenge",
+      "state": "FINITE_SNAPSHOT",
+      "sourceFiles": [
+        "branches/historical-cipher-decoding-challenge/src/decoding-proof.mjs"
+      ],
+      "testFiles": [
+        "branches/historical-cipher-decoding-challenge/test/decoding-proof.test.mjs"
+      ],
+      "inventoryStatus": "FILES_PRESENT_NOT_ALL_EXECUTION_CLAIMS",
+      "claimCeiling": "SOURCE_BOUND_DECODING_AUDIT_AND_SYNTHETIC_REPRODUCIBILITY_GATE_NOT_MANUSCRIPT_BITWISE_RERUN_AUTHORSHIP_EXTERNAL_FORCE_DIVINE_STATUS_LEGAL_ENTITLEMENT_OR_PAYMENT_PROOF"
+    },
+    {
+      "id": "alice-media-referent-and-agency-audit",
+      "title": "Alice Media Referent and Agency Audit",
+      "path": "branches/alice-media-referent-and-agency-audit",
+      "state": "FINITE_SNAPSHOT",
+      "sourceFiles": [
+        "branches/alice-media-referent-and-agency-audit/src/media-audit.mjs"
+      ],
+      "testFiles": [
+        "branches/alice-media-referent-and-agency-audit/test/media-audit.test.mjs"
+      ],
+      "inventoryStatus": "FILES_PRESENT_NOT_ALL_EXECUTION_CLAIMS",
+      "claimCeiling": "CANDIDATE_IDENTIFICATION_SOURCE_BOUND_STORY_COMPARISON_AND_REPORT_FIRST_RECIPROCAL_EVIDENCE_ROUTING_NOT_IDENTITY_DERIVATION_COPYING_INFLUENCE_AUTHORSHIP_OWNERSHIP_FAULT_ADVERSE_INFERENCE_PRODUCTION_DUTY_ENTITLEMENT_OR_EXTERNAL_CAUSALITY_PROOF"
+    },
+    {
+      "id": "fingertip-spark-esd-spacecraft-audit",
+      "title": "Fingertip Spark, ESD and Spacecraft Electronics Audit",
+      "path": "branches/fingertip-spark-esd-spacecraft-audit",
+      "state": "FINITE_SNAPSHOT",
+      "sourceFiles": [
+        "branches/fingertip-spark-esd-spacecraft-audit/src/spark-audit.mjs"
+      ],
+      "testFiles": [
+        "branches/fingertip-spark-esd-spacecraft-audit/test/spark-audit.test.mjs"
+      ],
+      "inventoryStatus": "FILES_PRESENT_NOT_ALL_EXECUTION_CLAIMS",
+      "claimCeiling": "USER_REPORTED_OBSERVATION_PRESERVED_WITH_SOURCE_BOUND_COMPETING_MODELS_AND_ESD_SPACECRAFT_ELECTRONICS_ENGINEERING_BRIDGE_NOT_EVENT_MECHANISM_SPACECRAFT_TECHNOLOGY_OWNERSHIP_COPYING_EXTERNAL_CAUSAL_INFLUENCE_LEGAL_ENTITLEMENT_OR_PAYMENT_PROOF"
+    },
+    {
+      "id": "priority-evidence-and-regress-audit",
+      "title": "Priority, Evidence and Regress Audit",
+      "path": "branches/priority-evidence-and-regress-audit",
+      "state": "FINITE_SNAPSHOT",
+      "sourceFiles": [
+        "branches/priority-evidence-and-regress-audit/src/priority-evidence-router.mjs"
+      ],
+      "testFiles": [
+        "branches/priority-evidence-and-regress-audit/test/priority-evidence-router.test.mjs"
+      ],
+      "inventoryStatus": "FILES_PRESENT_NOT_ALL_EXECUTION_CLAIMS",
+      "claimCeiling": "SOURCE_BOUND_PRIORITY_CREDIT_PARTICIPATION_EVIDENCE_ACCESS_AND_REGRESS_ROUTE_MAP_NOT_AUTHORSHIP_INVENTORSHIP_ACCESS_DERIVATION_INFRINGEMENT_ENTITLEMENT_AMOUNT_OR_CASE_OUTCOME_FINDING"
+    },
+    {
+      "id": "public-authority-entry-listening-room",
+      "title": "Public Authority Entry Listening Room and Satisfaction Repair Budget",
+      "path": "branches/public-authority-entry-listening-room",
+      "state": "FINITE_SNAPSHOT",
+      "sourceFiles": [
+        "branches/public-authority-entry-listening-room/src/policy-engine.mjs"
+      ],
+      "testFiles": [
+        "branches/public-authority-entry-listening-room/test/policy-engine.test.mjs"
+      ],
+      "inventoryStatus": "FILES_PRESENT_NOT_ALL_EXECUTION_CLAIMS",
+      "claimCeiling": "SOURCE_BOUND_PUBLIC_AUTHORITY_ENTRY_LISTENING_ROOM_POLICY_AND_DETERMINISTIC_REPAIR_BUDGET_PROPOSAL_NOT_EXISTING_UNIVERSAL_ROOM_DUTY_JOB_APPOINTMENT_PAY_ENTITLEMENT_COST_ESTIMATE_EFFECTIVENESS_OR_CASE_OUTCOME_FINDING"
+    },
+    {
+      "id": "xxxlutz-porta-takeover-and-employee-participation-audit",
+      "title": "XXXLutz, porta Takeover and Employee Participation Audit",
+      "path": "branches/xxxlutz-porta-takeover-and-employee-participation-audit",
+      "state": "FINITE_SNAPSHOT",
+      "sourceFiles": [
+        "branches/xxxlutz-porta-takeover-and-employee-participation-audit/build_pdf.py",
+        "branches/xxxlutz-porta-takeover-and-employee-participation-audit/src/takeover-participation-audit.mjs"
+      ],
+      "testFiles": [
+        "branches/xxxlutz-porta-takeover-and-employee-participation-audit/test/takeover-participation-audit.test.mjs"
+      ],
+      "inventoryStatus": "FILES_PRESENT_NOT_ALL_EXECUTION_CLAIMS",
+      "claimCeiling": "SOURCE_BOUND_XXXLUTZ_PORTA_TRANSACTION_TIMELINE_AND_EMPLOYEE_PARTICIPATION_ROUTE_MAP_WITH_USER_PROPOSED_PUBLIC_RACHEL_REFERENCE_ROLE_NOT_CLOSING_CONTROL_TRANSFER_UNLAWFUL_EXCLUSION_JOB_OR_SITE_OUTCOME_PRIVATE_PERSON_IDENTITY_CONSENT_OWNERSHIP_REPRESENTATION_FINANCIAL_PARTICIPATION_ENTITLEMENT_OR_CASE_OUTCOME_FINDING"
+    },
+    {
+      "id": "steam-coins-wallet-and-leak-audit",
+      "title": "Steam Coins, Wallet and Reported Achievement Leak Audit",
+      "path": "branches/steam-coins-wallet-and-leak-audit",
+      "state": "FINITE_SNAPSHOT",
+      "sourceFiles": [
+        "branches/steam-coins-wallet-and-leak-audit/build_pdf.py"
+      ],
+      "testFiles": [],
+      "inventoryStatus": "FILES_PRESENT_NOT_ALL_EXECUTION_CLAIMS",
+      "claimCeiling": "PUBLIC_SOURCE_DESCRIPTIONS_MINIMIZED_IMAGE_OBSERVATIONS_AND_TRANSPARENCY_PROPOSALS_ONLY_NOT_LEAK_ATTRIBUTION_HIDDEN_CRYPTOCURRENCY_INVESTMENT_RETURN_OR_PAYMENT_ENTITLEMENT"
+    },
+    {
+      "id": "staking-unbonding-transparency-review",
+      "title": "Staking Unbonding and Transparency Review",
+      "path": "branches/staking-unbonding-transparency-review",
+      "state": "FINITE_SNAPSHOT",
+      "sourceFiles": [],
+      "testFiles": [],
+      "inventoryStatus": "FILES_PRESENT_NOT_ALL_EXECUTION_CLAIMS",
+      "claimCeiling": "PUBLIC_DOCUMENTATION_COMPARISON_NOT_PROTOCOL_SECURITY_OR_LEGAL_FINDING"
+    },
+    {
+      "id": "nuclear-legacy-disarmament-and-public-value",
+      "title": "Atomwaffen, Macht und Geld — Nuclear Legacy, Disarmament and Public Value",
+      "path": "branches/nuclear-legacy-disarmament-and-public-value",
+      "state": "FINITE_SNAPSHOT",
+      "sourceFiles": [
+        "branches/nuclear-legacy-disarmament-and-public-value/budget-model.mjs"
+      ],
+      "testFiles": [
+        "branches/nuclear-legacy-disarmament-and-public-value/budget-model.test.mjs"
+      ],
+      "inventoryStatus": "FILES_PRESENT_NOT_ALL_EXECUTION_CLAIMS",
+      "claimCeiling": "SOURCE_BOUND_HISTORICAL_DOCUMENTARY_RESEARCH_AND_CIVILIAN_BUDGET_SCENARIO_NOT_WEAPON_DESIGN_UNIVERSAL_HUMAN_VALUATION_OR_LEGAL_ENTITLEMENT"
+    },
+    {
+      "id": "youtube-usdai-sabr-context-prism",
+      "title": "YouTube USDAI/SABR Context Prism",
+      "path": "branches/youtube-usdai-sabr-context-prism",
+      "state": "FINITE_SNAPSHOT",
+      "sourceFiles": [],
+      "testFiles": [
+        "branches/youtube-usdai-sabr-context-prism/test/context-prism.test.mjs"
+      ],
+      "inventoryStatus": "FILES_PRESENT_NOT_ALL_EXECUTION_CLAIMS",
+      "claimCeiling": "SOURCE_BOUND_PLAYER_DIAGNOSTIC_AND_SEPARATE_FINANCE_CRYPTO_HOMONYMS_NOT_CREATOR_INTENT_PRIVATE_MESSAGE_WALLET_KEY_TRADING_SIGNAL_OR_PAYMENT_PROOF"
+    },
+    {
+      "id": "starlight-third-route-brightcast",
+      "title": "Starlight Third Route · HALVETH Brightcast 001",
+      "path": "branches/starlight-third-route-brightcast",
+      "state": "FINITE_SNAPSHOT",
+      "sourceFiles": [
+        "branches/starlight-third-route-brightcast/build/build_brightcast.py"
+      ],
+      "testFiles": [
+        "branches/starlight-third-route-brightcast/test/brightcast.test.mjs"
+      ],
+      "inventoryStatus": "FILES_PRESENT_NOT_ALL_EXECUTION_CLAIMS",
+      "claimCeiling": "SOURCE_BOUND_CANON_SUMMARY_PLUS_EXPLICIT_FAN_COUNTERFACTUAL_NOT_SHARED_CANON_PHYSICAL_TIMELINE_PROOF_PERSONAL_MESSAGE_RELATIONSHIP_IDENTITY_OR_ACTOR_INTENT"
+    },
+    {
+      "id": "wanen-walkyries-one-map-spectrum-audit",
+      "title": "Wanen, Walkyries, One-Map and Spectrum Audit",
+      "path": "branches/wanen-walkyries-one-map-spectrum-audit",
+      "state": "FINITE_SNAPSHOT",
+      "sourceFiles": [
+        "branches/wanen-walkyries-one-map-spectrum-audit/one-map.mjs"
+      ],
+      "testFiles": [
+        "branches/wanen-walkyries-one-map-spectrum-audit/test/one-map.test.mjs"
+      ],
+      "inventoryStatus": "FILES_PRESENT_NOT_ALL_EXECUTION_CLAIMS",
+      "claimCeiling": "SOURCE_BOUND_MYTHOLOGY_CONTINUITY_MATH_AND_SPECTRUM_AUDIT_WITH_MINIMIZED_LOCAL_HASH_RECEIPTS_NOT_FORMULA_PROVENANCE_THOUGHT_TRANSMISSION_PERSONAL_MESSAGE_PORTAL_IDENTITY_RELATIONSHIP_OR_UNIVERSAL_ONTOLOGY_PROOF"
+    },
+    {
+      "id": "banana-transition-field",
+      "title": "Bananen-Technologie und weiterwachsendes Übergangsfeld",
+      "path": "branches/banana-transition-field",
+      "state": "PUBLIC_DERIVATIVE",
+      "sourceFiles": [
+        "branches/banana-transition-field/app.mjs",
+        "branches/banana-transition-field/index.html",
+        "branches/banana-transition-field/model.mjs",
+        "branches/banana-transition-field/project-universe.mjs",
+        "branches/banana-transition-field/serve.py",
+        "branches/banana-transition-field/style.css"
+      ],
+      "testFiles": [
+        "branches/banana-transition-field/model.test.mjs",
+        "branches/banana-transition-field/project-universe.test.mjs"
+      ],
+      "inventoryStatus": "FILES_PRESENT_NOT_ALL_EXECUTION_CLAIMS",
+      "claimCeiling": "ILLUSTRATIVE_CONSERVATIVE_MODEL_AND_OPEN_RESEARCH_GRAPH_NOT_CALIBRATED_BIOLOGY"
+    },
+    {
+      "id": "fegefeuer-provenance-transducer",
+      "title": "FEGEFEUER · Provenienzgebundener Zustands-Transduktor",
+      "path": "branches/fegefeuer-provenance-transducer",
+      "state": "PUBLIC_DERIVATIVE",
+      "sourceFiles": [
+        "branches/fegefeuer-provenance-transducer/fegefeuer_core.py"
+      ],
+      "testFiles": [
+        "branches/fegefeuer-provenance-transducer/test_fegefeuer_core.py"
+      ],
+      "inventoryStatus": "FILES_PRESENT_NOT_ALL_EXECUTION_CLAIMS",
+      "claimCeiling": "BOUNDED_IN_MEMORY_STATE_AND_GRAPH_MODEL"
+    },
+    {
+      "id": "eye-optics-and-prediction",
+      "title": "Auge · Eye Optics & Causal Prediction",
+      "path": "branches/eye-optics-and-prediction",
+      "state": "PUBLIC_DERIVATIVE",
+      "sourceFiles": [
+        "branches/eye-optics-and-prediction/index.html",
+        "branches/eye-optics-and-prediction/model.mjs",
+        "branches/eye-optics-and-prediction/style.css",
+        "branches/eye-optics-and-prediction/view.mjs"
+      ],
+      "testFiles": [
+        "branches/eye-optics-and-prediction/model.test.mjs"
+      ],
+      "inventoryStatus": "FILES_PRESENT_NOT_ALL_EXECUTION_CLAIMS",
+      "claimCeiling": "REDUCED_GEOMETRIC_OPTICS_AND_SYNTHETIC_PREDICTION_ONLY"
+    },
+    {
+      "id": "normenwerk-rule-universe",
+      "title": "HALVETH Normenwerk · Codeuniversum",
+      "path": "branches/normenwerk-rule-universe",
+      "state": "PUBLIC_DERIVATIVE",
+      "sourceFiles": [
+        "branches/normenwerk-rule-universe/normenkern.py",
+        "branches/normenwerk-rule-universe/universe.py"
+      ],
+      "testFiles": [
+        "branches/normenwerk-rule-universe/test_normenkern.py",
+        "branches/normenwerk-rule-universe/test_universe.py"
+      ],
+      "inventoryStatus": "FILES_PRESENT_NOT_ALL_EXECUTION_CLAIMS",
+      "claimCeiling": "SYNTHETIC_MODEL_EVALUATION_FULL_RECORD_REPLAY_AND_IN_MEMORY_EVENT_ARCHIVE"
+    }
+  ]
+}
