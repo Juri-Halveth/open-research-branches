@@ -12,6 +12,10 @@
 .github/workflows/banana-pages.yml
 .github/workflows/ci.yml
 .gitignore
+assets/audit-20260930/01_BIT.png
+assets/audit-20260930/02_WELLEN.png
+assets/audit-20260930/03_3D.png
+assets/audit-20260930/04_SCHICHTEN.png
 assets/research-room.png
 branches/alice-media-referent-and-agency-audit/candidate-works.json
 branches/alice-media-referent-and-agency-audit/local-anchors.json
@@ -313,10 +317,16 @@ reports/HALVETH_300KB_DEEP_RESEARCH_RIGHTS.md
 reports/HALVETH_300KB_DEEP_RESEARCH.extracted.txt
 reports/HALVETH_300KB_DEEP_RESEARCH.pdf
 reports/HALVETH_300KB_DEEP_RESEARCH.sha256
+reports/HALVETH_EVIDENCE_SEAL_STATIC_REVIEW_2026-09-30.md
 reports/HALVETH_MARVEL_PERSPECTIVES.de.md
 reports/HALVETH_MARVEL_PERSPECTIVES.en.md
+reports/HALVETH_MODEL_VIDEO_SOURCE_AUDIT_2026-09-30.md
+reports/HALVETH_PUBLIC_AUDIT_INDEX_2026-09-30.md
+reports/HALVETH_PUBLIC_GITHUB_SOURCE_SNAPSHOT_2026-09-30.md
+reports/HALVETH_PUBLICATION_EVIDENCE_2026-09-30.json
 reports/HALVETH_RESEARCH_2026-09-18.json
 reports/HALVETH_RESEARCH_2026-09-18.md
+reports/HALVETH_TURNSTILE_OBSERVATION_2026-09-30.md
 reports/MAC_OUI_REGISTRY_BOUNDARY.md
 reports/MICROSOFT_PKI_REPOSITORY_PATTERN.md
 reports/PROJECT_IDEAS_REVIEW_2026-09-19.md

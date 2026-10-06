@@ -1,0 +1,426 @@
+{
+  "schema": "halveth.publication-evidence.v1",
+  "recordedAt": "2026-09-30T18:39:37.146761Z",
+  "sourceSnapshotAt": "2026-09-30T15:23:37Z",
+  "baseCommit": "834352b21a2123137f55fbca22afbfda2be7c7fd",
+  "claimCeiling": "FINITE_PUBLIC_SOURCE_AND_OWN_MODEL_OBSERVATIONS",
+  "originalVideo": {
+    "bytes": 198397715,
+    "sha256": "29eb0e8de425a35887fbb9e9528f68fda7e507fa369be1d9988335ae3cff8626",
+    "timeBasis": "MEDIA_PTS_RELATIVE; wall-clock calibration UNKNOWN",
+    "rawVideoPublished": false
+  },
+  "assets": [
+    {
+      "id": "01_BIT",
+      "path": "assets/audit-20260930/01_BIT.png",
+      "bytes": 716346,
+      "sha256": "2be147eadbccc5d6c6cdac1c51352f9c3212db865b5eadcb21d4f906726f4a65",
+      "origin": "CROPPED_OWN_SOFTWARE_VIDEO_FRAME",
+      "privacyReview": "VISUALLY_REVIEWED_MODEL_SURFACE_ONLY",
+      "classification": "PUBLIC_MINIMIZED",
+      "derivation": {
+        "sourceVideoSha256": "29eb0e8de425a35887fbb9e9528f68fda7e507fa369be1d9988335ae3cff8626",
+        "decodedFrameJpegSha256": "53e555116d90490efb9996dbbbc73672b99b45a45d7e149bb363d60aacc2e57f",
+        "ptsSeconds": 24.533333,
+        "operator": "RECTANGULAR_CROP_ONLY",
+        "cropBoxXYXY": [
+          645,
+          192,
+          1900,
+          1260
+        ],
+        "loss": "Browser context and pixels outside crop omitted; frame extracted as JPEG."
+      }
+    },
+    {
+      "id": "02_WELLEN",
+      "path": "assets/audit-20260930/02_WELLEN.png",
+      "bytes": 353292,
+      "sha256": "66355de848242c0b6c2733e44ef2d9ec936634056db32974b99539644314ace1",
+      "origin": "CROPPED_OWN_SOFTWARE_VIDEO_FRAME",
+      "privacyReview": "VISUALLY_REVIEWED_MODEL_SURFACE_ONLY",
+      "classification": "PUBLIC_MINIMIZED",
+      "derivation": {
+        "sourceVideoSha256": "29eb0e8de425a35887fbb9e9528f68fda7e507fa369be1d9988335ae3cff8626",
+        "decodedFrameJpegSha256": "fdb64cc2e646431372a31ef9540a025546f18e6fdcaeba7e07e6cfa58c11a4b2",
+        "ptsSeconds": 39.033333,
+        "operator": "RECTANGULAR_CROP_ONLY",
+        "cropBoxXYXY": [
+          645,
+          245,
+          1900,
+          1195
+        ],
+        "loss": "Browser context and pixels outside crop omitted; frame extracted as JPEG."
+      }
+    },
+    {
+      "id": "03_3D",
+      "path": "assets/audit-20260930/03_3D.png",
+      "bytes": 981009,
+      "sha256": "00b4d02b768ab2fff9f1923935550b96752821f9201f68b13c092e789f5b1ef5",
+      "origin": "CROPPED_OWN_SOFTWARE_VIDEO_FRAME",
+      "privacyReview": "VISUALLY_REVIEWED_MODEL_SURFACE_ONLY",
+      "classification": "PUBLIC_MINIMIZED",
+      "derivation": {
+        "sourceVideoSha256": "29eb0e8de425a35887fbb9e9528f68fda7e507fa369be1d9988335ae3cff8626",
+        "decodedFrameJpegSha256": "da444e3db958c852444fe7d7761ab8ae81dc63d694265740a0e06357302d0dfb",
+        "ptsSeconds": 62.033333,
+        "operator": "RECTANGULAR_CROP_ONLY",
+        "cropBoxXYXY": [
+          645,
+          200,
+          1900,
+          1145
+        ],
+        "loss": "Browser context and pixels outside crop omitted; frame extracted as JPEG."
+      }
+    },
+    {
+      "id": "04_SCHICHTEN",
+      "path": "assets/audit-20260930/04_SCHICHTEN.png",
+      "bytes": 519595,
+      "sha256": "52c714f16eeb20576141a8f9bf29a8c6c899c6e08668fb767856784fd25222d7",
+      "origin": "CROPPED_OWN_SOFTWARE_VIDEO_FRAME",
+      "privacyReview": "VISUALLY_REVIEWED_MODEL_SURFACE_ONLY",
+      "classification": "PUBLIC_MINIMIZED",
+      "derivation": {
+        "sourceVideoSha256": "29eb0e8de425a35887fbb9e9528f68fda7e507fa369be1d9988335ae3cff8626",
+        "decodedFrameJpegSha256": "1b638b9277b601b7993abf1fef345bfcde3c0c3ac03c2cf7cfaeb12f1e739769",
+        "ptsSeconds": 204.366667,
+        "operator": "RECTANGULAR_CROP_ONLY",
+        "cropBoxXYXY": [
+          10,
+          110,
+          2534,
+          1375
+        ],
+        "loss": "Browser context and pixels outside crop omitted; frame extracted as JPEG."
+      }
+    }
+  ],
+  "newReports": [
+    {
+      "path": "reports/HALVETH_MODEL_VIDEO_SOURCE_AUDIT_2026-09-30.md",
+      "bytes": 4586,
+      "sha256": "a8b500477861736b8f3a9699f6e71c52ca0ba9cb03a37cb1ee329c589e878b29",
+      "dataClass": "PUBLIC_MINIMIZED",
+      "origin": "NEWLY_WRITTEN_DERIVATIVE"
+    },
+    {
+      "path": "reports/HALVETH_EVIDENCE_SEAL_STATIC_REVIEW_2026-09-30.md",
+      "bytes": 3909,
+      "sha256": "d255d8c2e97707767e150efdf477f984851bb6af72c6ed5fc8ed18ddca96c35b",
+      "dataClass": "PUBLIC_MINIMIZED",
+      "origin": "NEWLY_WRITTEN_DERIVATIVE"
+    },
+    {
+      "path": "reports/HALVETH_TURNSTILE_OBSERVATION_2026-09-30.md",
+      "bytes": 2451,
+      "sha256": "a94c537abb8e99d4d94b5d7139c9be5e225b8ff7907db7af8fd85ee1bf0ed383",
+      "dataClass": "PUBLIC_MINIMIZED",
+      "origin": "NEWLY_WRITTEN_DERIVATIVE"
+    },
+    {
+      "path": "reports/HALVETH_PUBLIC_GITHUB_SOURCE_SNAPSHOT_2026-09-30.md",
+      "bytes": 4147,
+      "sha256": "b143079ff92142b6a8d245318c2ad80b1814817a6dc92057cbd64cb41f24c1d7",
+      "dataClass": "PUBLIC_MINIMIZED",
+      "origin": "NEWLY_WRITTEN_DERIVATIVE"
+    },
+    {
+      "path": "reports/HALVETH_PUBLIC_AUDIT_INDEX_2026-09-30.md",
+      "bytes": 11932,
+      "sha256": "3e3472690f8f1795241b2c5188074ba1ffd4390bf2e25115533d4be0c29affb0",
+      "dataClass": "PUBLIC_MINIMIZED",
+      "origin": "NEWLY_WRITTEN_DERIVATIVE"
+    }
+  ],
+  "existingReportCount": 36,
+  "existingReports": [
+    {
+      "path": "reports/ATOMIC_LEGAL_READINESS_2026-09-19.md",
+      "title": "Atomic Legal Lens: vorhandener Kern und offene Verbindung",
+      "sha256": "ba81cb593315620e4dd3c9be85383c24e75d72c99b9d55a49b86385fb713c9e6",
+      "status": "ALREADY_PUBLIC_AT_PINNED_BASE"
+    },
+    {
+      "path": "reports/FREE_NEWS_001_IOS_MARKER_AND_401_EDGE.md",
+      "title": "FREE NEWS 001 — iOS-Markierung und vorübergehende 401-Kante",
+      "sha256": "9bba159fcd28fa6aa46466df04cd571fbd0180be009a42bcfd349b558ff51e43",
+      "status": "ALREADY_PUBLIC_AT_PINNED_BASE"
+    },
+    {
+      "path": "reports/FREE_NEWS_002_REACHER_S4E7_DIGITAL_REFOCUS.md",
+      "title": "FREE NEWS 002 — Reacher S4E7: Nachfokussieren ist nicht Neuerfinden",
+      "sha256": "133fbbf162ffa02b84552522dd56ab2abd566e9d0ac51fc2d3c1e162b0386ee0",
+      "status": "ALREADY_PUBLIC_AT_PINNED_BASE"
+    },
+    {
+      "path": "reports/FREE_NEWS_003_CHILD_CONSENT_AND_IRREVERSIBLE_INTERVENTION.md",
+      "title": "FREE NEWS 003 — Wer entscheidet über einen irreversiblen Eingriff am Kind?",
+      "sha256": "28bfd0c57a40e60016a7d781716583af1325694f909ad79ca6202ddcfde92775",
+      "status": "ALREADY_PUBLIC_AT_PINNED_BASE"
+    },
+    {
+      "path": "reports/FREE_NEWS_004_CONSENT_COCKPIT_234_INACTIVE_VENDORS.md",
+      "title": "FREE NEWS 004 — Das Consent-Raumschiff mit 234 als inaktiv angezeigten Anbieterzeilen",
+      "sha256": "aec98987c5d3007a74f7234b7c9477f24527d18a89e22d463e3f8a41fe5e76f5",
+      "status": "ALREADY_PUBLIC_AT_PINNED_BASE"
+    },
+    {
+      "path": "reports/FREE_NEWS_005_HOW_TO_FISH_IDENTITY_AND_CREATION.md",
+      "title": "FREE NEWS 005 — How to Fish: Leib, Wohl und offene Schöpfungsprovenienz",
+      "sha256": "68f697eb9333470ac88c07a67f621447fb906df340c0efc8de0a7d513a9dbff9",
+      "status": "ALREADY_PUBLIC_AT_PINNED_BASE"
+    },
+    {
+      "path": "reports/FREE_NEWS_006_JURI_ENERGY_MODEL_PROVENANCE_AUDIT.md",
+      "title": "FREE NEWS 006 — Was Juri gemacht hat",
+      "sha256": "d5d9e31530622319d96a4c9b27ea0c3b6e9c35ea5ae7b2d4008393edbc771764",
+      "status": "ALREADY_PUBLIC_AT_PINNED_BASE"
+    },
+    {
+      "path": "reports/FREE_NEWS_007_RAVE_GROUP_RULE_AND_CANNABIS_SCOPE.md",
+      "title": "FREE NEWS 007 — Was bedeutet „keine Drogen“?",
+      "sha256": "7f37337ed718f2bdc5e22ebc50521e3a5cd33450b58b595ab145f1448b05ea17",
+      "status": "ALREADY_PUBLIC_AT_PINNED_BASE"
+    },
+    {
+      "path": "reports/FREE_NEWS_008_WAX_CRAYON_PEACE_HELMET_AND_IOS_MARKER.md",
+      "title": "FREE NEWS 008 — Der Wachsmalstift-Friedenshelm",
+      "sha256": "f82d24429bdec0d1d321e5f87495414ed9d0461e1e0cfa836da8918924041c38",
+      "status": "ALREADY_PUBLIC_AT_PINNED_BASE"
+    },
+    {
+      "path": "reports/FREE_NEWS_009_GITHUB_CONTRIBUTION_GRAPH_AND_PRIORITY.md",
+      "title": "FREE NEWS 009 — Was bedeuten GitHub-Contributions?",
+      "sha256": "cc456097e6a409ddd26c4e87281485cc5127ec9b1513c65f9ead24dfa7b9244a",
+      "status": "ALREADY_PUBLIC_AT_PINNED_BASE"
+    },
+    {
+      "path": "reports/FREE_NEWS_010_MADE_IN_GERMANY_QUANTUM_INTERNET_ASTER_ASTAR_ASTRA.md",
+      "title": "FREE NEWS 010 — MADE IN GERMANY · 2026",
+      "sha256": "b495b7281641c4e2c1cf7949dcef8c4cfa07fdf24763e3bc5dfabf7a2855c778",
+      "status": "ALREADY_PUBLIC_AT_PINNED_BASE"
+    },
+    {
+      "path": "reports/FREE_NEWS_011_HISTORICAL_CIPHER_111_DECODING_CHALLENGE.md",
+      "title": "FREE NEWS 011 — JURI `111` GEHEIMSCHRIFT-CHALLENGE",
+      "sha256": "5b02ecabc97e5435c27395d18bc22dc73b2e0539470021e5ea0eccb20ce908e8",
+      "status": "ALREADY_PUBLIC_AT_PINNED_BASE"
+    },
+    {
+      "path": "reports/FREE_NEWS_012_ALICE_MEDIA_REFERENT_AND_AGENCY_AUDIT.md",
+      "title": "FREE NEWS 012 — ALICE IST NICHT NUR EINE",
+      "sha256": "2ca2b44691a271a2711fcf83128edb77afc0b1fa88c726cd6381cd0d716d3d03",
+      "status": "ALREADY_PUBLIC_AT_PINNED_BASE"
+    },
+    {
+      "path": "reports/FREE_NEWS_013_RECIPROCAL_EVIDENCE_AND_INFORMATION_ASYMMETRY.md",
+      "title": "FREE NEWS 013 — Wer besitzt den Beweis?",
+      "sha256": "94105132fd0e98838ed3fe1e22d319db10a9232b22e717f85a3de2f4b6167fd0",
+      "status": "ALREADY_PUBLIC_AT_PINNED_BASE"
+    },
+    {
+      "path": "reports/FREE_NEWS_014_FINGERTIP_SPARK_ESD_AND_SPACECRAFT_BRIDGE.md",
+      "title": "FREE NEWS 014 — Fünkchen an den Fingerspitzen",
+      "sha256": "6dd43d8c3e1723603bac2d35e358a2ecc88c7fd2d939e187ef04d46479e8154c",
+      "status": "ALREADY_PUBLIC_AT_PINNED_BASE"
+    },
+    {
+      "path": "reports/FREE_NEWS_015_PRIORITY_EVIDENCE_AND_REGRESS_ROUTES.md",
+      "title": "FREE NEWS 015 — Was beweist „Ich war zuerst“?",
+      "sha256": "7afc50fa7217cf1b1f59cc436e09e380b5e7303853a66268a8f4b073f4a4b40e",
+      "status": "ALREADY_PUBLIC_AT_PINNED_BASE"
+    },
+    {
+      "path": "reports/FREE_NEWS_016_PUBLIC_GITHUB_PROJECT_CONSTELLATION.md",
+      "title": "FREE NEWS 016 — Juris öffentliche GitHub-Projektkonstellation",
+      "sha256": "129ae8f7f9f3dd582d906427223e95ee1e407ad74edaae27ac0b38936d594441",
+      "status": "ALREADY_PUBLIC_AT_PINNED_BASE"
+    },
+    {
+      "path": "reports/FREE_NEWS_017_CE_BARCODES_HTTPS_500_AND_SNAPSHOT_MARKERS.md",
+      "title": "FREE NEWS 017 — CE, Strichcodes, HTTPS, HTTP 500 und Snapshot-Marker",
+      "sha256": "77760530d3b623bb85bca10aaf26e16dba505614f5f8e7e44405e43b07dc3c4e",
+      "status": "ALREADY_PUBLIC_AT_PINNED_BASE"
+    },
+    {
+      "path": "reports/FREE_NEWS_018_PUBLIC_AUTHORITY_ENTRY_LISTENING_ROOM.md",
+      "title": "FREE NEWS 018 — Nicht nur Security am Eingang",
+      "sha256": "5ca5b8c793c88f32dfb8bd3502f35a87adc92df61f6de2f9fb850bf2b2f29bb9",
+      "status": "ALREADY_PUBLIC_AT_PINNED_BASE"
+    },
+    {
+      "path": "reports/FREE_NEWS_019_XXXLUTZ_PORTA_TAKEOVER_AND_EMPLOYEE_PARTICIPATION.md",
+      "title": "FREE NEWS 019",
+      "sha256": "57360867cdc94eaf850cf1a3763915e646ac814872ed701c0d207bac87383fdd",
+      "status": "ALREADY_PUBLIC_AT_PINNED_BASE"
+    },
+    {
+      "path": "reports/FREE_NEWS_020_STEAM_COINS_WALLET_AND_LEAK_AUDIT.md",
+      "title": "FREE NEWS 020 — Steam Coins, Wallet und der gemeldete Leak",
+      "sha256": "45eb27bedefd0f3377701c8d0864e1ea7ee532d4e5e1bef8c6db41f2b2705f16",
+      "status": "ALREADY_PUBLIC_AT_PINNED_BASE"
+    },
+    {
+      "path": "reports/FREE_NEWS_021_STAKING_UNBONDING_AND_TRANSPARENCY.md",
+      "title": "FREE NEWS 021 · 21 Tage bis zur Verfügbarkeit: Staking verständlich erklären",
+      "sha256": "ad64795862851b998671226090d0f4a4fdb583213723bb8d8f37ee8d41bb8183",
+      "status": "ALREADY_PUBLIC_AT_PINNED_BASE"
+    },
+    {
+      "path": "reports/FREE_NEWS_022_NUCLEAR_LEGACY_POWER_AND_PUBLIC_VALUE.md",
+      "title": "Atomwaffen Macht und Geld",
+      "sha256": "d10cbaf2c59b052c43aaaf83e36df77e0ecc87aed8318c88354e627a474b8681",
+      "status": "ALREADY_PUBLIC_AT_PINNED_BASE"
+    },
+    {
+      "path": "reports/FREE_NEWS_023_ANDREA_BOTEZ_SOS_SOURCE_AUDIT.md",
+      "title": "HALVETH Quellenprüfung: Andrea Botez, „S.O.S.“ und die ersten 20 Sekunden",
+      "sha256": "564e1d89044e3b5f2963315b24d9d9d9ef555f1efa899599a3cb62a80c860e48",
+      "status": "ALREADY_PUBLIC_AT_PINNED_BASE"
+    },
+    {
+      "path": "reports/FREE_NEWS_024_SCREENSHOT_SURFACE_AND_VIDEO_ID_AUDIT.md",
+      "title": "FREE NEWS 024 · Screenshot, Oberfläche und Video-ID",
+      "sha256": "bc33c194b522c058c1d3e280ea311130c5784ecb62efdd3e22f36a11f66dd61a",
+      "status": "ALREADY_PUBLIC_AT_PINNED_BASE"
+    },
+    {
+      "path": "reports/FREE_NEWS_025_HALVETH_ALL_SCALES_APERTURE_2026-09-15.md",
+      "title": "FREE NEWS 025 · HALVETH All-Scales Aperture",
+      "sha256": "859aad4904acd738b823fefd5926bfc43b5823cf26f34565fd3965650c9fba33",
+      "status": "ALREADY_PUBLIC_AT_PINNED_BASE"
+    },
+    {
+      "path": "reports/HALVETH_300KB_DEEP_RESEARCH_RIGHTS.md",
+      "title": "HALVETH 300 KB - authorship and rights record",
+      "sha256": "a7a25796ee1e65d5a32644d6508d041cf8db6a2adc9061d938dcc124bdd51a5f",
+      "status": "ALREADY_PUBLIC_AT_PINNED_BASE"
+    },
+    {
+      "path": "reports/HALVETH_MARVEL_PERSPECTIVES.de.md",
+      "title": "Loki, Dormammu und Wanda",
+      "sha256": "ab0ae19d84085c7fe15468de47f38d1d338d22b324c58ff7d38ea1f2cde83922",
+      "status": "ALREADY_PUBLIC_AT_PINNED_BASE"
+    },
+    {
+      "path": "reports/HALVETH_MARVEL_PERSPECTIVES.en.md",
+      "title": "Loki Dormammu and Wanda",
+      "sha256": "e74fca892a6c8fc469bd26bdb056690a0468863d318e68722ec0c0f8607cc288",
+      "status": "ALREADY_PUBLIC_AT_PINNED_BASE"
+    },
+    {
+      "path": "reports/HALVETH_RESEARCH_2026-09-18.md",
+      "title": "HALVETH Research",
+      "sha256": "965ee06e6aa601d563fe5fa619cda7d4dd99f0bcf30d623a5098497cc3ef69d2",
+      "status": "ALREADY_PUBLIC_AT_PINNED_BASE"
+    },
+    {
+      "path": "reports/MAC_OUI_REGISTRY_BOUNDARY.md",
+      "title": "MAC/OUI registry boundary: a prefix is not a device",
+      "sha256": "7ca697eed520e6c31446d23c9847385ca1e71163125df2de1db3109368fe3ca3",
+      "status": "ALREADY_PUBLIC_AT_PINNED_BASE"
+    },
+    {
+      "path": "reports/MICROSOFT_PKI_REPOSITORY_PATTERN.md",
+      "title": "Microsoft PKI Repository: public trust records without public write authority",
+      "sha256": "91969317ac5647d50731a059c95b72243cc1e0a20713b82d20414386b8161d91",
+      "status": "ALREADY_PUBLIC_AT_PINNED_BASE"
+    },
+    {
+      "path": "reports/PROJECT_IDEAS_REVIEW_2026-09-19.md",
+      "title": "HALVETH: Was fehlt zwischen Idee, Prototyp und öffentlichem Projekt?",
+      "sha256": "c5ac37ee19c37697d22ef09ccfa6faf3d487c83625eee454c550ecae14303339",
+      "status": "ALREADY_PUBLIC_AT_PINNED_BASE"
+    },
+    {
+      "path": "reports/PROJECT_NAME_BINDING_2026-09-19.md",
+      "title": "Neue Namen definieren: Solstheim und das Projektsymbol SOL",
+      "sha256": "72be95aefda20285bf57bd03eb2e7e2e4638346ba03777066c439e0bc2a2e0f3",
+      "status": "ALREADY_PUBLIC_AT_PINNED_BASE"
+    },
+    {
+      "path": "reports/TECHNOLOGY_ROADMAP_2026-09-19.md",
+      "title": "HALVETH · Technologie-Roadmap",
+      "sha256": "7cdc953a2b2e51be9070b61728f7fc891dbb135f662d8d3336a4274df7ba3e39",
+      "status": "ALREADY_PUBLIC_AT_PINNED_BASE"
+    },
+    {
+      "path": "reports/WIFI6_STANDARD_AND_CONNECTION_2026-09-19.md",
+      "title": "Wi-Fi 6: Standard, Gerätefähigkeit und aktuelle Verbindung",
+      "sha256": "bbfb769abbe3ad5ecc737ccc1baa230ac15bb93470a060ca2f40e4447d277952",
+      "status": "ALREADY_PUBLIC_AT_PINNED_BASE"
+    }
+  ],
+  "privateIntake": {
+    "caseDirectories": 62,
+    "coverage": "TOP_LEVEL_CASE_STATUS_METADATA",
+    "rawArchiveContentFullyReviewed": false,
+    "rawArchivesPublished": false
+  },
+  "evidenceSeal": {
+    "sha256": "a78dfc93c20f02f18db3c52f3ac08c7ec5841f002b3fbf36df01f32e37e8e6a2",
+    "staticReviewOnly": true,
+    "originalScriptPublished": false
+  },
+  "cloudflareSources": [
+    "https://developers.cloudflare.com/turnstile/get-started/client-side-rendering/",
+    "https://developers.cloudflare.com/turnstile/get-started/client-side-rendering/widget-configurations/",
+    "https://developers.cloudflare.com/turnstile/troubleshooting/client-side-errors/"
+  ],
+  "publicationState": "CANDIDATE_BYTES_BOUND_SERVER_RECEIPT_SEPARATE",
+  "vendorSubmission": "NONE_IN_THIS_RUN",
+  "currentModelSources": [
+    {
+      "url": "https://halveth.de/forschung.html",
+      "fetchedAt": "2026-09-30T16:20:49.809484+00:00",
+      "bytes": 75677,
+      "sha256": "3ab14324c4fa4d4a0a8b16120136ef15d05acf758e82294761625cee8450ee03",
+      "execution": "NONE"
+    },
+    {
+      "url": "https://halveth.de/Realitaet_Erste_Regel_Plus_Minus.html",
+      "fetchedAt": "2026-09-30T16:20:50.043065+00:00",
+      "bytes": 31172,
+      "sha256": "e714cd2bac4a490cc400c9cad65c0bb0bd770883740e3d2e9e336bd3576af089",
+      "execution": "NONE"
+    },
+    {
+      "url": "https://halveth.de/Realitaet_als_Zustand_Live_Wellenmodell.html",
+      "fetchedAt": "2026-09-30T16:20:50.200904+00:00",
+      "bytes": 25756,
+      "sha256": "d0adff235738d31f464e9aec8abe1d3f10b7ce46974427fd787601e05bf290fa",
+      "execution": "NONE"
+    },
+    {
+      "url": "https://halveth.de/Realitaet_als_Zustand_Livemodell.html",
+      "fetchedAt": "2026-09-30T16:20:50.326712+00:00",
+      "bytes": 120258,
+      "sha256": "090dbc8303d80fc15dbc859b97e16e5f97e8445ab0771f0a9d24fdb3b23207ae",
+      "execution": "NONE"
+    },
+    {
+      "url": "https://halveth.de/Realitaet_Schichten_Modell.html",
+      "fetchedAt": "2026-09-30T16:20:50.496146+00:00",
+      "bytes": 91868,
+      "sha256": "3012fcfce391c02a5d1534f71e7f221eab981852403cb9d6900d67df22168bae",
+      "execution": "NONE"
+    }
+  ],
+  "additionalPrivateSeal": {
+    "archiveSha256": "3fb0064041bb3a28342a1915fd597ba2be95713323c9ffa33d1acc645a58dedc",
+    "archiveMembers": 11,
+    "originalsVerifiedAgainstManifest": 5,
+    "allOriginalsMatchManifest": true,
+    "crcCheckedForAllOriginalMembers": true,
+    "rawArchivePublished": false,
+    "witnessState": "UNSIGNED_TEMPLATE",
+    "collaborationState": "UNSIGNED_DRAFT",
+    "timestampState": "SELF_DECLARED_NOT_INDEPENDENTLY_ATTESTED",
+    "duplicateScriptByteEqual": true
+  }
+}
