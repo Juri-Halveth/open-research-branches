@@ -46,3 +46,8 @@ Die [Berichtsübersicht](https://github.com/Juri-Halveth/open-research-branches/
 Im [Kandidaten-Ledger](https://github.com/Juri-Halveth/open-research-branches/blob/main/catalog/CANDIDATE_TOPICS.md) stehen weitere angefragte Themenfamilien. Sie besitzen noch keinen freigegebenen öffentlichen Projektast und gehören deshalb nicht zum Astbestand des Projektkatalogs.
 
 **Bestandsgrundlage:** [catalog/branches.json](https://github.com/Juri-Halveth/open-research-branches/blob/main/catalog/branches.json) und die verlinkten Projekt-READMEs dieser Repository-Fassung.
+
+## Modelle vom 06.10.2026
+
+- [Auge · Optik & kausale Vorhersage](../branches/eye-optics-and-prediction/README.md): Ersatzfläche, Hauptschnitte und synthetische Bewegung mit ausführbaren Gegenproben.
+- [FEGEFEUER · Zustands-Transduktor](../branches/fegefeuer-provenance-transducer/README.md): Ereignisarchiv, Kandidaten, gerichtete Aufnahme und gebundene Zustandsänderungen.

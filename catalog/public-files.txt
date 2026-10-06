@@ -77,6 +77,15 @@ branches/document-issue-reference-verifier/README.md
 branches/document-issue-reference-verifier/src/reference-verifier.mjs
 branches/document-issue-reference-verifier/test/reference-verifier.test.mjs
 branches/document-scanner-crypto-modernization/README.md
+branches/eye-optics-and-prediction/index.html
+branches/eye-optics-and-prediction/model.mjs
+branches/eye-optics-and-prediction/model.test.mjs
+branches/eye-optics-and-prediction/README.md
+branches/eye-optics-and-prediction/style.css
+branches/eye-optics-and-prediction/view.mjs
+branches/fegefeuer-provenance-transducer/fegefeuer_core.py
+branches/fegefeuer-provenance-transducer/README.md
+branches/fegefeuer-provenance-transducer/test_fegefeuer_core.py
 branches/fingertip-spark-esd-spacecraft-audit/model-matrix.json
 branches/fingertip-spark-esd-spacecraft-audit/observation-protocol.json
 branches/fingertip-spark-esd-spacecraft-audit/package.json

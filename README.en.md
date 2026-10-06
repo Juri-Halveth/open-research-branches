@@ -10,6 +10,11 @@ Reports distinguish observations, interpretations, hypotheses and pending extern
 
 This manually edited guide summarizes the audited source. The original technical documentation remains the reference for commands, build requirements, exact versions and detailed evidence.
 
+## Models with code and evidence
+
+[Banana Transition Field](branches/banana-transition-field/README.md) · [Auge / Eye Optics & Prediction](branches/eye-optics-and-prediction/README.md) · [FEGEFEUER](branches/fegefeuer-provenance-transducer/README.md) · [HALVETH Hub](https://juri-halveth.github.io/modelle/)
+
+
 ## Start with the sources
 
 - [Original technical documentation](README.md)
