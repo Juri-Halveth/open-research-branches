@@ -12,6 +12,7 @@ including historical MIT, ISC, CC BY and CC0 terms.
 | Paths or file classes | License |
 | --- | --- |
 | `reports/FREE_NEWS_025_HALVETH_ALL_SCALES_APERTURE_2026-09-15.md` from its first public commit | [HALVETH Public-Interest Research License 2.0](LICENSE-HALVETH-PIRL-2.0.md) |
+| `branches/photograph-provenance-identity-lens/**` from its first public commit | [HALVETH Public-Interest Research License 2.0](LICENSE-HALVETH-PIRL-2.0.md); linked primary sources retain their own rights |
 | `reports/FREE_NEWS_022_NUCLEAR_LEGACY_POWER_AND_PUBLIC_VALUE.md` from first publication `v0.18.0` | [Juri Public-Interest Research Permission 1.0](LICENSE-JURI-PUBLIC-INTEREST.md) |
 | `branches/nuclear-legacy-disarmament-and-public-value/README.md` from first publication `v0.18.0` | [Juri Public-Interest Research Permission 1.0](LICENSE-JURI-PUBLIC-INTEREST.md) |
 | `branches/nuclear-legacy-disarmament-and-public-value/sources.json` from first publication `v0.18.0` | [Juri Public-Interest Research Permission 1.0](LICENSE-JURI-PUBLIC-INTEREST.md) |

@@ -13,6 +13,7 @@ Kleine Programme machen eine Idee greifbar. Dieser Raum führt zu lokalen Protot
 | [Dokumentreferenz-Prüfer](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/document-issue-reference-verifier/README.md) | Referenz, Ausgabeversion und synthetische Rolle getrennt prüfen. | Weitere synthetische Fehlermodelle oder Formatadapter. |
 | [Wissensinventar](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/bounded-knowledge-reuse-inventory/README.md) | Metadaten eines Wissenseintrags für eine spätere Veröffentlichungsprüfung bewerten. | Präzisere Lizenz- und Herkunftsfelder. |
 | [Pixelvergleich](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/pixel-region-change-observer/README.md) | Dieselbe Region zweier synthetischer RGBA-Bilder offline vergleichen. | Dokumentierte Unsicherheiten und zusätzliche Bildformate. |
+| [Photograph-Formel](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/photograph-provenance-identity-lens/README.md) | Quantisierung und Datei-Hash an synthetischen Werten reproduzieren. | Kalibrierter Kamera- und Decoderadapter als gesonderter, geprüfter Versuch. |
 
 ## Einen Entwurf weiterentwickeln
 

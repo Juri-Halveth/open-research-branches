@@ -1,0 +1,105 @@
+{
+  "schemaVersion": "1.0.0",
+  "checkedOn": "2026-09-23",
+  "scope": "Public primary sources for a bounded photo formation, provenance, identity and publication model",
+  "sources": [
+    {
+      "id": "emva-1288-general-4",
+      "publisher": "European Machine Vision Association",
+      "version": "Release 4.0 General, 2021-06-16",
+      "url": "https://www.emva.org/wp-content/uploads/EMVA1288General_4.0Release.pdf",
+      "use": "Camera sensitivity, exposure integration, noise and processing model",
+      "limit": "A standard for camera characterization; no proof of a particular camera event"
+    },
+    {
+      "id": "plenoptic-function-1991",
+      "publisher": "Adelson and Bergen, original research paper",
+      "version": "1991",
+      "url": "https://www.cns.nyu.edu/~tony/vns/readings/adelson-bergen-1991.pdf",
+      "use": "Space, direction, wavelength and time dimensions of the light field",
+      "limit": "Conceptual image-formation model, not provenance of an individual photo"
+    },
+    {
+      "id": "nist-ir-8387",
+      "publisher": "National Institute of Standards and Technology",
+      "version": "September 2022",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8387.pdf",
+      "use": "Byte integrity and evidence preservation context",
+      "limit": "A hash is not person identity or a complete chain of custody"
+    },
+    {
+      "id": "c2pa-technical-2-1",
+      "publisher": "Coalition for Content Provenance and Authenticity",
+      "version": "2.1",
+      "url": "https://spec.c2pa.org/specifications/specifications/2.1/specs/C2PA_Specification.html",
+      "use": "Signed claims, assertions and asset binding",
+      "limit": "This instrument does not validate C2PA manifests"
+    },
+    {
+      "id": "c2pa-explainer-2-3",
+      "publisher": "Coalition for Content Provenance and Authenticity",
+      "version": "2.3",
+      "url": "https://spec.c2pa.org/specifications/specifications/2.3/explainer/_attachments/Explainer.pdf",
+      "use": "Limits of provenance completeness and truth inference",
+      "limit": "A valid manifest does not itself establish depicted-world truth or human identity"
+    },
+    {
+      "id": "nist-frvt-demographics",
+      "publisher": "National Institute of Standards and Technology",
+      "version": "online evaluation, checked 2026-09-23",
+      "url": "https://pages.nist.gov/frvt/html/frvt_demographics.html",
+      "use": "Error rates in face recognition systems",
+      "limit": "Results are algorithm-, population- and task-dependent; no face matching is performed here"
+    },
+    {
+      "id": "kunsturhg-22-23",
+      "publisher": "German Federal Ministry of Justice legal text",
+      "version": "checked 2026-09-23",
+      "url": "https://www.gesetze-im-internet.de/kunsturhg/__22.html",
+      "relatedUrl": "https://www.gesetze-im-internet.de/kunsturhg/__23.html",
+      "use": "Portrait distribution/display consent and bounded exceptions",
+      "limit": "Requires case- and GDPR-context assessment"
+    },
+    {
+      "id": "gdpr-2016-679",
+      "publisher": "European Union",
+      "version": "Regulation (EU) 2016/679",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A32016R0679",
+      "use": "Personal data, lawful basis, biometric processing and freedom-of-expression reconciliation",
+      "limit": "Applicability depends on actor, purpose and processing context"
+    },
+    {
+      "id": "lfd-niedersachsen-photos",
+      "publisher": "Lower Saxony Data Protection Authority",
+      "version": "online guidance, checked 2026-09-23",
+      "url": "https://www.lfd.niedersachsen.de/dsgvo/anfertigung_und_veroffentlichung_von_personenfotografien/anfertigung-und-veroffentlichung-von-personenfotografien-nach-dsgvo-179655.html",
+      "use": "Separate making and publishing identifiable photos; GDPR/KunstUrhG interaction",
+      "limit": "Authority guidance, not a decision for an unspecified fact pattern"
+    },
+    {
+      "id": "urhg-2-72",
+      "publisher": "German Federal Ministry of Justice legal text",
+      "version": "checked 2026-09-23",
+      "url": "https://www.gesetze-im-internet.de/urhg/__72.html",
+      "relatedUrl": "https://www.gesetze-im-internet.de/urhg/__2.html",
+      "use": "Separate rights in photographs and photographic works",
+      "limit": "Ownership and licensing for a particular image require their own evidence"
+    },
+    {
+      "id": "stgb-201a",
+      "publisher": "German Federal Ministry of Justice legal text",
+      "version": "checked 2026-09-23",
+      "url": "https://www.gesetze-im-internet.de/stgb/__201a.html",
+      "use": "Specific protected-situation image-taking and dissemination offences",
+      "limit": "Does not make every street photograph criminal"
+    },
+    {
+      "id": "echr-von-hannover-2",
+      "publisher": "European Court of Human Rights",
+      "version": "Judgment 2012",
+      "url": "https://hudoc.echr.coe.int/app/conversion/pdf/?filename=001-109029.pdf&id=001-109029&library=ECHR",
+      "use": "Public-debate contribution, capture circumstances and effects in privacy/expression balancing",
+      "limit": "Case-specific balancing factors, not a blanket rule for every photograph"
+    }
+  ]
+}

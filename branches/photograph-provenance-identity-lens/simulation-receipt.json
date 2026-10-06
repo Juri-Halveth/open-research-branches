@@ -1,0 +1,265 @@
+{
+  "description": "Synthetic bounded search only; no person, camera or rights inference",
+  "pingPong": {
+    "schemaVersion": "0.2.0",
+    "strategy": "PING_PONG",
+    "seed": 419,
+    "budget": 12,
+    "population": {
+      "cases": 8,
+      "controlledPairs": 12
+    },
+    "visited": [
+      {
+        "factor": "scene",
+        "left": "S0E0M0",
+        "right": "S1E0M0",
+        "changedFactorCount": 1,
+        "pixelChanged": false,
+        "fileChanged": false
+      },
+      {
+        "factor": "exposure",
+        "left": "S0E0M0",
+        "right": "S0E1M0",
+        "changedFactorCount": 1,
+        "pixelChanged": true,
+        "fileChanged": true
+      },
+      {
+        "factor": "metadata",
+        "left": "S0E0M0",
+        "right": "S0E0M1",
+        "changedFactorCount": 1,
+        "pixelChanged": false,
+        "fileChanged": true
+      },
+      {
+        "factor": "scene",
+        "left": "S0E0M1",
+        "right": "S1E0M1",
+        "changedFactorCount": 1,
+        "pixelChanged": false,
+        "fileChanged": false
+      },
+      {
+        "factor": "exposure",
+        "left": "S0E0M1",
+        "right": "S0E1M1",
+        "changedFactorCount": 1,
+        "pixelChanged": true,
+        "fileChanged": true
+      },
+      {
+        "factor": "metadata",
+        "left": "S0E1M0",
+        "right": "S0E1M1",
+        "changedFactorCount": 1,
+        "pixelChanged": false,
+        "fileChanged": true
+      },
+      {
+        "factor": "scene",
+        "left": "S0E1M0",
+        "right": "S1E1M0",
+        "changedFactorCount": 1,
+        "pixelChanged": false,
+        "fileChanged": false
+      },
+      {
+        "factor": "exposure",
+        "left": "S1E0M0",
+        "right": "S1E1M0",
+        "changedFactorCount": 1,
+        "pixelChanged": true,
+        "fileChanged": true
+      },
+      {
+        "factor": "metadata",
+        "left": "S1E0M0",
+        "right": "S1E0M1",
+        "changedFactorCount": 1,
+        "pixelChanged": false,
+        "fileChanged": true
+      },
+      {
+        "factor": "scene",
+        "left": "S0E1M1",
+        "right": "S1E1M1",
+        "changedFactorCount": 1,
+        "pixelChanged": false,
+        "fileChanged": false
+      },
+      {
+        "factor": "exposure",
+        "left": "S1E0M1",
+        "right": "S1E1M1",
+        "changedFactorCount": 1,
+        "pixelChanged": true,
+        "fileChanged": true
+      },
+      {
+        "factor": "metadata",
+        "left": "S1E1M0",
+        "right": "S1E1M1",
+        "changedFactorCount": 1,
+        "pixelChanged": false,
+        "fileChanged": true
+      }
+    ],
+    "factorCoverage": {
+      "scene": {
+        "visited": 4,
+        "available": 4
+      },
+      "exposure": {
+        "visited": 4,
+        "available": 4
+      },
+      "metadata": {
+        "visited": 4,
+        "available": 4
+      }
+    },
+    "witnessed": {
+      "samePixelsDifferentScene": true,
+      "differentPixelsSameScene": true,
+      "differentFileSamePixels": true
+    },
+    "open": [],
+    "decouplingRule": "EXACTLY_ONE_FACTOR_CHANGES_PER_COMPARISON",
+    "identityProjection": "NOT_AUTHORIZED_BY_SYNTHETIC_PIXELS_OR_HASHES",
+    "claimCeiling": "FINITE_SYNTHETIC_ONE_CHANNEL_SEARCH_ONLY"
+  },
+  "seededRandom": {
+    "schemaVersion": "0.2.0",
+    "strategy": "SEEDED_RANDOM",
+    "seed": 419,
+    "budget": 12,
+    "population": {
+      "cases": 8,
+      "controlledPairs": 12
+    },
+    "visited": [
+      {
+        "factor": "scene",
+        "left": "S0E0M0",
+        "right": "S1E0M0",
+        "changedFactorCount": 1,
+        "pixelChanged": false,
+        "fileChanged": false
+      },
+      {
+        "factor": "exposure",
+        "left": "S0E0M1",
+        "right": "S0E1M1",
+        "changedFactorCount": 1,
+        "pixelChanged": true,
+        "fileChanged": true
+      },
+      {
+        "factor": "scene",
+        "left": "S0E0M1",
+        "right": "S1E0M1",
+        "changedFactorCount": 1,
+        "pixelChanged": false,
+        "fileChanged": false
+      },
+      {
+        "factor": "metadata",
+        "left": "S0E0M0",
+        "right": "S0E0M1",
+        "changedFactorCount": 1,
+        "pixelChanged": false,
+        "fileChanged": true
+      },
+      {
+        "factor": "exposure",
+        "left": "S1E0M0",
+        "right": "S1E1M0",
+        "changedFactorCount": 1,
+        "pixelChanged": true,
+        "fileChanged": true
+      },
+      {
+        "factor": "metadata",
+        "left": "S1E1M0",
+        "right": "S1E1M1",
+        "changedFactorCount": 1,
+        "pixelChanged": false,
+        "fileChanged": true
+      },
+      {
+        "factor": "metadata",
+        "left": "S1E0M0",
+        "right": "S1E0M1",
+        "changedFactorCount": 1,
+        "pixelChanged": false,
+        "fileChanged": true
+      },
+      {
+        "factor": "scene",
+        "left": "S0E1M1",
+        "right": "S1E1M1",
+        "changedFactorCount": 1,
+        "pixelChanged": false,
+        "fileChanged": false
+      },
+      {
+        "factor": "scene",
+        "left": "S0E1M0",
+        "right": "S1E1M0",
+        "changedFactorCount": 1,
+        "pixelChanged": false,
+        "fileChanged": false
+      },
+      {
+        "factor": "exposure",
+        "left": "S1E0M1",
+        "right": "S1E1M1",
+        "changedFactorCount": 1,
+        "pixelChanged": true,
+        "fileChanged": true
+      },
+      {
+        "factor": "exposure",
+        "left": "S0E0M0",
+        "right": "S0E1M0",
+        "changedFactorCount": 1,
+        "pixelChanged": true,
+        "fileChanged": true
+      },
+      {
+        "factor": "metadata",
+        "left": "S0E1M0",
+        "right": "S0E1M1",
+        "changedFactorCount": 1,
+        "pixelChanged": false,
+        "fileChanged": true
+      }
+    ],
+    "factorCoverage": {
+      "scene": {
+        "visited": 4,
+        "available": 4
+      },
+      "exposure": {
+        "visited": 4,
+        "available": 4
+      },
+      "metadata": {
+        "visited": 4,
+        "available": 4
+      }
+    },
+    "witnessed": {
+      "samePixelsDifferentScene": true,
+      "differentPixelsSameScene": true,
+      "differentFileSamePixels": true
+    },
+    "open": [],
+    "decouplingRule": "EXACTLY_ONE_FACTOR_CHANGES_PER_COMPARISON",
+    "identityProjection": "NOT_AUTHORIZED_BY_SYNTHETIC_PIXELS_OR_HASHES",
+    "claimCeiling": "FINITE_SYNTHETIC_ONE_CHANNEL_SEARCH_ONLY"
+  }
+}
