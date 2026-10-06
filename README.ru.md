@@ -10,6 +10,11 @@
 
 Этот путеводитель составлен и отредактирован вручную по проверенному источнику. Исходная техническая документация остаётся справочным материалом для команд, требований сборки, точных версий и подробных проверок.
 
+## Модели с кодом и материалами
+
+[Banana Transition Field](branches/banana-transition-field/README.md) · [Auge / Eye Optics & Prediction](branches/eye-optics-and-prediction/README.md) · [FEGEFEUER](branches/fegefeuer-provenance-transducer/README.md) · [HALVETH Hub](https://juri-halveth.github.io/modelle/)
+
+
 ## Начните с источников
 
 - [Исходная техническая документация](README.md)

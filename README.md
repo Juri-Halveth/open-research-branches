@@ -9,6 +9,11 @@
 # HALVETH!!! · Open Research
 
 <!-- HALVETH_WORK_CERTIFICATES_V1_1 -->
+## Modelle mit Code und Nachweisen
+
+[Banana Transition Field](branches/banana-transition-field/README.md) · [Auge / Eye Optics & Prediction](branches/eye-optics-and-prediction/README.md) · [FEGEFEUER](branches/fegefeuer-provenance-transducer/README.md) · [HALVETH Hub](https://juri-halveth.github.io/modelle/)
+
+
 ## Juri Janovski / Juri Halveth – Privates HALVETH-Werkzertifikat
 
 [Privates HALVETH-Werkzertifikat: Dokumentierter Forschungsbestand, Softwaremodelle und Testworkflow – HALVETH Open Research](https://juri-halveth.github.io/werkzertifikate/#werk-open-research-branches).

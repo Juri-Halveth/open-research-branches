@@ -19,3 +19,4 @@ jobs:
           node-version: '24'
           package-manager-cache: false
       - run: npm test
+      - run: python3 -m unittest discover -s branches/fegefeuer-provenance-transducer -p 'test_*.py' -v

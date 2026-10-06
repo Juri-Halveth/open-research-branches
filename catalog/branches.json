@@ -302,6 +302,26 @@
       "activeMain": false,
       "claimCeiling": "ILLUSTRATIVE_CONSERVATIVE_MODEL_AND_OPEN_RESEARCH_GRAPH_NOT_CALIBRATED_BIOLOGY",
       "dataClass": "SYNTHETIC_PUBLIC_REFERENCES_AND_AUTHORIZED_DESIGN_STATEMENT"
+    },
+    {
+      "id": "fegefeuer-provenance-transducer",
+      "title": "FEGEFEUER · Provenienzgebundener Zustands-Transduktor",
+      "kind": "software-prototype",
+      "state": "PUBLIC_DERIVATIVE",
+      "path": "branches/fegefeuer-provenance-transducer",
+      "claimCeiling": "BOUNDED_IN_MEMORY_STATE_AND_GRAPH_MODEL",
+      "dataClass": "SYNTHETIC_ONLY",
+      "activeMain": false
+    },
+    {
+      "id": "eye-optics-and-prediction",
+      "title": "Auge · Eye Optics & Causal Prediction",
+      "kind": "software-model",
+      "state": "PUBLIC_DERIVATIVE",
+      "path": "branches/eye-optics-and-prediction",
+      "claimCeiling": "REDUCED_GEOMETRIC_OPTICS_AND_SYNTHETIC_PREDICTION_ONLY",
+      "dataClass": "SYNTHETIC_ONLY",
+      "activeMain": false
     }
   ]
 }
