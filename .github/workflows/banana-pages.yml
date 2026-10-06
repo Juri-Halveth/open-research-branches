@@ -23,7 +23,7 @@ jobs:
           node-version: '24'
           package-manager-cache: false
       - run: npm test
-      - uses: actions/configure-pages@v5
+      - uses: actions/configure-pages@v6
       - name: Copy reviewed public application files
         shell: bash
         run: |
@@ -31,7 +31,7 @@ jobs:
           for file in index.html app.mjs model.mjs project-universe.mjs style.css statement.json; do
             cp "branches/banana-transition-field/$file" "_site/$file"
           done
-      - uses: actions/upload-pages-artifact@v4
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: _site
   deploy:
@@ -44,5 +44,5 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/deploy-pages@v4
+      - uses: actions/deploy-pages@v5
         id: deployment
