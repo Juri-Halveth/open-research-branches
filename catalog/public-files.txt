@@ -358,6 +358,7 @@ SECURITY.md
 wiki/_Footer.md
 wiki/_Sidebar.md
 wiki/Belege-und-Zeitlinien.md
+wiki/Claim-und-Mitclaim.md
 wiki/Code-und-Werkzeuge.md
 wiki/Digitale-Plattformen.md
 wiki/Gesellschaft-Teilhabe-und-Frieden.md
@@ -367,6 +368,7 @@ wiki/Identitaet-Sprache-und-Medien.md
 wiki/Licht-Wasser-und-Energie.md
 wiki/Mitmachen.md
 wiki/Natur-und-Beobachtung.md
+wiki/Pi-und-Operatoren.md
 wiki/Projekte.md
 wiki/Rechte-und-Nutzung.md
 wiki/Thesen-und-Forschungsfragen.md

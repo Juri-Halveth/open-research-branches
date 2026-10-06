@@ -10,6 +10,8 @@
 
 Этот путеводитель составлен и отредактирован вручную по проверенному источнику. Исходная техническая документация остаётся справочным материалом для команд, требований сборки, точных версий и подробных проверок.
 
+**✅ CLAIMED · документированное заявление о вкладе:** [Происхождение и совместное участие (DE)](wiki/Claim-und-Mitclaim.md) · [π: степени и операторы (DE)](wiki/Pi-und-Operatoren.md). Источники, доказательства и добровольное участие учитываются отдельно.
+
 ## Модели с кодом и материалами
 
 [Banana Transition Field](branches/banana-transition-field/README.md) · [Auge / Eye Optics & Prediction](branches/eye-optics-and-prediction/README.md) · [FEGEFEUER](branches/fegefeuer-provenance-transducer/README.md) · [HALVETH Hub](https://juri-halveth.github.io/modelle/)
