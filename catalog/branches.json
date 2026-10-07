@@ -332,6 +332,16 @@
       "claimCeiling": "SYNTHETIC_MODEL_EVALUATION_FULL_RECORD_REPLAY_AND_IN_MEMORY_EVENT_ARCHIVE",
       "dataClass": "SYNTHETIC_FIXTURES_AND_PUBLIC_TECHNICAL_DOCUMENTATION_ONLY",
       "activeMain": false
+    },
+    {
+      "id": "security-impact-learning",
+      "title": "Security Impact Learning · Failed Inference and Source-Bound AI Entry",
+      "kind": "generic-retrospective-and-synthetic-method",
+      "state": "PUBLIC_DERIVATIVE",
+      "path": "branches/security-impact-learning",
+      "claimCeiling": "GENERIC_RETROSPECTIVE_AND_SYNTHETIC_MODEL_ONLY",
+      "dataClass": "GENERIC_DERIVATIVES_AND_SYNTHETIC_FIXTURES_ONLY",
+      "activeMain": false
     }
   ]
 }

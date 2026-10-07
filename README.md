@@ -275,3 +275,7 @@ an fremden Quellen, Tatsachen oder allgemeinen Ideen.
 
 **HALVETH!!! · Open Research** · [Öffentliche Projektfragen](https://github.com/Juri-Halveth/open-research-branches/discussions)
 *Lesen. Nachfragen. Weiterdenken. Etwas beitragen.*
+
+## KI-Einstieg und sichtbares Lernen
+
+[START_HERE_AI.md](START_HERE_AI.md) verbindet den gesamten aktuellen Hub-Dateibestand, den oeffentlichen Repository-Snapshot und eine quellengebundene Leseliste. [Unser Fehler und die Korrektur](branches/security-impact-learning/RETROSPECTIVE.md) bleiben neben [Code](branches/security-impact-learning/impact-model.mjs) und [interaktiver Ansicht](branches/security-impact-learning/index.html) sichtbar.

@@ -26,3 +26,9 @@
 - [Beitrag beginnen](https://github.com/Juri-Halveth/open-research-branches/issues/new/choose)
 - [Offene Beiträge](https://github.com/Juri-Halveth/open-research-branches/issues)
 - [Repository](https://github.com/Juri-Halveth/open-research-branches)
+
+**Lernen und KI-Einstieg**
+
+- [Codeuniversum](HALVETH-Codeuniversum.md)
+- [KI-Startdatei](../START_HERE_AI.md)
+- [Gescheiterter Versuch und Lernpunkte](../branches/security-impact-learning/RETROSPECTIVE.md)

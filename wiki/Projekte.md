@@ -38,6 +38,10 @@ Diese Übersicht erschließt die veröffentlichten Forschungs- und Softwareäste
 | [Wissen für die Wiederverwendung inventarisieren](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/bounded-knowledge-reuse-inventory/README.md) | Metadaten prüfen und einen getrennten Veröffentlichungsentscheid vorbereiten. | [Code & Werkzeuge](Code-und-Werkzeuge.md) |
 | [XXXLutz/porta: Beschäftigte und Beteiligung](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/xxxlutz-porta-takeover-and-employee-participation-audit/README.md) | Transaktionsstand, Informationsrechte, Mitbestimmung und mögliche freiwillige Beteiligungswege untersuchen. | [Gesellschaft & Teilhabe](Gesellschaft-Teilhabe-und-Frieden.md) |
 
+## Lernen aus Sicherheitsprüfungen
+
+- [Security Impact Learning](../branches/security-impact-learning/README.md): 24 erhaltene Fehler, Korrekturen, offene Belegkanten und synthetische Codebeispiele.
+
 ## Berichte schneller finden
 
 Die [Berichtsübersicht](https://github.com/Juri-Halveth/open-research-branches/blob/main/reports/README.md) erschließt die **FREE NEWS** und weitere öffentliche Quellenprüfungen. Ein Bericht kann mehrere Projektfragen verbinden; er ist kein zusätzlicher Projektast.

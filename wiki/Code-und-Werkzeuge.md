@@ -31,3 +31,7 @@ Das [Glossar](Glossar.md) erklärt die verwendeten Statusbegriffe. Für die Nutz
 Ein hilfreicher Beitrag nennt das Werkzeug, die Eingabe, das erwartete Ergebnis und die tatsächlich beobachtete Ausgabe. Ein kleines Gegenbeispiel lässt sich oft besser nachvollziehen als eine sehr große Sammlung.
 
 [Verbesserung vorschlagen](https://github.com/Juri-Halveth/open-research-branches/issues/new/choose) · [Mitwirkungsleitfaden](https://github.com/Juri-Halveth/open-research-branches/blob/main/CONTRIBUTING.md)
+
+## Aus Fehlern weiterarbeiten
+
+[Security Impact Learning](../branches/security-impact-learning/README.md) zeigt eine gescheiterte Impact-Ableitung und ihre Korrektur mit synthetischem Code. Der [KI-Einstieg](../START_HERE_AI.md) bindet Quellen, gelesene Spans und offene Reste.
