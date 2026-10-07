@@ -29,3 +29,6 @@ test('the universe entry preserves metadata coverage instead of claiming sibling
  const roots=decodePacket(runEntry(['roots']));assert.equal(roots.publicRepositoryCount,15);assert.equal(roots.collectionState,'FINITE_SNAPSHOT');
  const start=decodePacket(runEntry(['start']));assert.equal(start.otherRepositoriesFetched,false);assert.equal(start.entry,'START_HERE_AI.md');
 });
+test('any explicitly selected committed file has its own indication without inventing a function or effect',()=>{
+ const p=runEntry(['indicate-file','CODE_DNA.md']),data=decodePacket(p);assert.match(data.sourceProofId,/^FILE_[a-f0-9]{40}$/);assert.equal(data.fileBinding.path,'CODE_DNA.md');assert.equal(data.fileBinding.semanticReview,'NOT_CLAIMED');assert.equal(data.axes.find(a=>a.id==='PRODUCT_EFFECT').state,'UNKNOWN');
+});

@@ -1,6 +1,6 @@
 // INDICATE connects source-data axes. It performs no scan or external action.
 export function indicateSource(proof,{extraAxes=[]}={}){
- if(!proof||!/^([FP][0-9]{2})$/.test(proof.id)||proof.evidenceState!=='OBSERVED_SOURCE_BYTES'||proof.authorityEffect!=='NONE'||!/^[a-f0-9]{64}$/.test(proof.source?.excerptSha256??'')||!Array.isArray(extraAxes)||extraAxes.length>64)throw new Error('Bound source proof and finite extra axes required');
+ if(!proof||!/^(?:[FP][0-9]{2}|FILE_[a-f0-9]{40}(?:[a-f0-9]{24})?)$/.test(proof.id)||proof.evidenceState!=='OBSERVED_SOURCE_BYTES'||proof.authorityEffect!=='NONE'||!/^[a-f0-9]{64}$/.test(proof.source?.excerptSha256??'')||!/^[a-f0-9]{64}$/.test(proof.source?.fileSha256??'')||!Array.isArray(extraAxes)||extraAxes.length>64)throw new Error('Bound source proof and finite extra axes required');
  const axes=[
   {id:'SOURCE_BYTES',definition:'Exact acquired excerpt bytes',state:'OBSERVED_SOURCE_BYTES',sourceReference:proof.source.url},
   {id:'OPERATOR',definition:'Named operator in the selected source excerpt',state:'SOURCE_DECLARED',sourceReference:proof.operator},

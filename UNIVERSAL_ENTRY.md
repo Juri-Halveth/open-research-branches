@@ -11,6 +11,7 @@ bash HALVETH.sh start --format text
 bash HALVETH.sh roots --format text
 bash HALVETH.sh proof F02 --format json
 bash HALVETH.sh indicate F02 --format json
+bash HALVETH.sh indicate-file README.md --cwd /path/to/own/git-checkout --format json
 bash HALVETH.sh read CODE_DNA.md --format html > code-dna.local.html
 ```
 
@@ -39,6 +40,11 @@ const indication = decodePacket(packet);
 solche Ausgaben tragen `RESTRICTED_RAW`. `--ref` bindet eine Commitfassung.
 Die Dateioperation liest einen gebundenen regulären Git-Blob, keine ungetrackte
 Datei und keinen Symlink. Quelldaten werden nicht als Programme gestartet.
+
+`indicate-file` bindet eine explizit gewählte Datei aus dem ausgewählten
+Checkout an Byteanzahl, Objekt-ID und Digest. Damit können auch Projekte ohne
+den gemeinsamen Belegkatalog dieselbe Quellenannotation verwenden. Der
+Byteoperator erfindet keine Funktionsbedeutung oder Testausführung.
 
 ## Für andere und künftige Umgebungen
 

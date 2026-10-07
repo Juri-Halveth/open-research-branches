@@ -42,15 +42,15 @@ export function formatPacket(p,format='json'){
 }
 export function parseArgs(args){
  const command=args[0]??'start',options={ref:'HEAD',cwd:ROOT,format:'json'},positionals=[],seen=new Set();
- if(!['start','roots','index','proof','indicate','read'].includes(command))throw new Error('Commands: start | roots | index | proof ID | indicate ID | read PATH');
+ if(!['start','roots','index','proof','indicate','indicate-file','read'].includes(command))throw new Error('Commands: start | roots | index | proof ID | indicate ID | indicate-file PATH | read PATH');
  for(let i=1;i<args.length;i++){
   const a=args[i];if(a.startsWith('--')){
    const key=a.slice(2);if(!['ref','cwd','format'].includes(key)||seen.has(key)||!args[i+1]||args[i+1].startsWith('--'))throw new Error('Exact single-valued options required');seen.add(key);options[key]=args[++i];
   }else positionals.push(a);
  }
- if(positionals.length!==(['proof','indicate','read'].includes(command)?1:0)||!['json','text','html','base64'].includes(options.format))throw new Error('Command arity or output format invalid');
+ if(positionals.length!==(['proof','indicate','indicate-file','read'].includes(command)?1:0)||!['json','text','html','base64'].includes(options.format))throw new Error('Command arity or output format invalid');
  if(['proof','indicate'].includes(command)&&!/^[FP][0-9]{2}$/.test(positionals[0]))throw new Error('Exact proof ID required');
- if(command==='read')exactPath(positionals[0]);
+ if(['read','indicate-file'].includes(command))exactPath(positionals[0]);
  return {command,options,argument:positionals[0]??null};
 }
 export function runEntry(args=[]){
@@ -61,11 +61,15 @@ export function runEntry(args=[]){
  else if(command==='roots')payload=load('catalog/public-universe-roots.json');
  else if(['proof','indicate'].includes(command)){
   const evidence=load('catalog/competence-evidence.json');validateEvidence(evidence);payload=evidence.proofs.find(p=>p.id===argument);if(!payload)throw new Error('Proof ID absent from bound source');if(command==='indicate')payload=indicateSource(payload);
+ }else if(command==='indicate-file'){
+  const bytes=sourceBytes(cwd,index,argument),record=index.files.find(f=>f.path===argument),digest=sha(bytes);
+  payload=indicateSource({id:'FILE_'+record.objectId,operator:'BOUND_GIT_BLOB_BYTES',evidenceState:'OBSERVED_SOURCE_BYTES',authorityEffect:'NONE',testUrl:null,source:{fileSha256:digest,excerptSha256:digest,url:'git-blob:'+index.source.commit+':'+encodeURIComponent(argument)}});
+  payload.fileBinding={path:argument,commit:index.source.commit,objectId:record.objectId,byteLength:bytes.length,sha256:digest,semanticReview:'NOT_CLAIMED'};
  }else if(command==='read'){
   const bytes=sourceBytes(cwd,index,argument);let text=null;try{if(!bytes.includes(0))text=utf8.decode(bytes);}catch{}
   payload={path:argument,byteLength:bytes.length,sha256:sha(bytes),contentBase64:bytes.toString('base64'),utf8Text:text,contentTreatment:'DATA_ONLY'};
  }else payload={entry:'START_HERE_AI.md',method:'branches/security-impact-learning/MECHANISM_FIRST.md',environment:'branches/security-impact-learning/ENVIRONMENT_FIRST.md',proofRegister:'catalog/competence-evidence.json',universeRoots:'catalog/public-universe-roots.json',commands:['start','roots','index','proof ID','indicate ID','read PATH'],coverage:'ENTRY_ADDRESSES_AND_BOUND_SOURCE_INDEX_ONLY',prerequisites:['Node.js 20 or later','Git','An explicitly selected local Git checkout'],otherRepositoriesFetched:false,capabilityAdapter:'Any consumer that can decode the declared UTF-8/JSON/Base64 byte contract; adapter behavior requires its own test'};
- return makePacket(command.toUpperCase(),source,payload,dataClass);
+ return makePacket(command==='indicate-file'?'INDICATE_FILE':command.toUpperCase(),source,payload,dataClass);
 }
 if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.url)){
  try{const args=process.argv.slice(2),parsed=parseArgs(args);process.stdout.write(formatPacket(runEntry(args),parsed.options.format));}
