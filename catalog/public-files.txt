@@ -312,6 +312,7 @@ catalog/public-files.txt
 catalog/public-identities.json
 catalog/public-project-snapshot.json
 catalog/public-universe-roots.json
+catalog/source-entry.schema.json
 catalog/technology-roadmap.json
 CHANGELOG.md
 CITATION.cff
@@ -322,6 +323,7 @@ examples/test_halveth_packet.py
 HALVETH-RIGHTS.json
 HALVETH-RIGHTS.md
 HALVETH.cmd
+HALVETH.posix.sh
 HALVETH.ps1
 HALVETH.sh
 LICENSE

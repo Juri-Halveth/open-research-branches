@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://juri-halveth.github.io/open-research-branches/source-entry.schema.json",
+  "title": "HALVETH source entry packet v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "version", "type", "source", "dataClass", "mediaType", "encoding", "payloadByteLength", "payloadSha256", "payloadBase64", "programsFromSourceExecuted", "networkRequests", "claimCeiling"],
+  "properties": {
+    "schema": {"const": "halveth.source-entry-packet.v1"},
+    "version": {"const": "1.0.0"},
+    "type": {"type": "string", "pattern": "^[A-Z][A-Z0-9_]{0,63}$"},
+    "source": {
+      "type": "object", "additionalProperties": false,
+      "required": ["commit", "tree", "coverage"],
+      "properties": {
+        "commit": {"type": "string", "pattern": "^(?:[a-f0-9]{40}|[a-f0-9]{64})$"},
+        "tree": {"type": "string", "pattern": "^(?:[a-f0-9]{40}|[a-f0-9]{64})$"},
+        "coverage": {"type": "string", "minLength": 1}
+      }
+    },
+    "dataClass": {"enum": ["PUBLIC", "RESTRICTED_RAW"]},
+    "mediaType": {"const": "application/json"},
+    "encoding": {"const": "UTF-8"},
+    "payloadByteLength": {"type": "integer", "minimum": 0, "maximum": 8388608},
+    "payloadSha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "payloadBase64": {"type": "string", "maxLength": 11184812},
+    "programsFromSourceExecuted": {"const": 0},
+    "networkRequests": {"const": 0},
+    "claimCeiling": {"const": "BOUND_SOURCE_DATA_ONLY"}
+  },
+  "$comment": "Structural schema only. Canonical Base64, decoded byte length, SHA-256, scalar JSON and source provenance need their separate bound checks. Zero counters describe the producer data-entry code path, not all consumer transport or host activity."
+}

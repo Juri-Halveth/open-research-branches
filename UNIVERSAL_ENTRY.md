@@ -1,5 +1,8 @@
 # HALVETH · ein Einstieg, viele Verbraucher
 
+[Maschinenlesbarer Paketvertrag](catalog/source-entry.schema.json) ·
+[POSIX-sh-Einstieg](HALVETH.posix.sh)
+
 [Quellenpaket im Browser ansehen](https://juri-halveth.github.io/open-research-branches/impact-learning/source-entry/)
 
 Der gemeinsame Einstieg bindet Quellen, Funktionen, Modelle und Hinweisachsen
@@ -8,6 +11,7 @@ denselben Datenvertrag. HTML und Text sind Darstellungen dieses Pakets.
 
 ```bash
 bash HALVETH.sh start --format text
+sh HALVETH.posix.sh start --format text
 bash HALVETH.sh roots --format text
 bash HALVETH.sh proof F02 --format json
 bash HALVETH.sh indicate F02 --format json
