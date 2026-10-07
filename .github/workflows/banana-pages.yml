@@ -33,7 +33,7 @@ jobs:
             cp "branches/banana-transition-field/$file" "_site/$file"
           done
           mkdir -p _site/impact-learning
-          for file in index.html README.md RETROSPECTIVE.md ENVIRONMENT_FIRST.md STATE_OBSERVATION.md lessons.json sources.json fixtures.json impact-model.mjs cli-result-model.mjs demo.mjs AUDIT_METHODS.md submission-review.mjs audit-methods.html audit-methods.css audit-methods.mjs; do
+          for file in index.html README.md RETROSPECTIVE.md ENVIRONMENT_FIRST.md STATE_OBSERVATION.md MECHANISM_FIRST.md lessons.json sources.json fixtures.json impact-model.mjs cli-result-model.mjs demo.mjs AUDIT_METHODS.md submission-review.mjs audit-methods.html audit-methods.css audit-methods.mjs; do
             cp "branches/security-impact-learning/$file" "_site/impact-learning/$file"
           done
           python3 - <<'PY'

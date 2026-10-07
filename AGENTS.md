@@ -35,4 +35,9 @@ authority over another system.
 The root contract covers new work. Historical licenses, receipts and frozen
 branches retain their own source-bound meanings.
 
+Lead technical results with the source-bound observation, mechanism,
+counterhypothesis and next discriminating question. Use
+[Mechanism first](branches/security-impact-learning/MECHANISM_FIRST.md) and a
+typed comparison operator instead of an undefined world-state subtraction.
+
 For new portfolio comparisons, use [CODE_DNA.md](CODE_DNA.md). Bind the exact function, source version, test definition and official topic source. Keep qualification, observation and authority separate. Before choosing environment-dependent tooling, read [Environment first](branches/security-impact-learning/ENVIRONMENT_FIRST.md).

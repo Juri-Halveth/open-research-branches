@@ -209,6 +209,7 @@ branches/security-impact-learning/impact-model.mjs
 branches/security-impact-learning/impact-model.test.mjs
 branches/security-impact-learning/index.html
 branches/security-impact-learning/lessons.json
+branches/security-impact-learning/MECHANISM_FIRST.md
 branches/security-impact-learning/README.md
 branches/security-impact-learning/RETROSPECTIVE.md
 branches/security-impact-learning/sources.json
