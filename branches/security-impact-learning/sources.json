@@ -1,0 +1,33 @@
+{
+  "schema": "halveth.learning-source-register.v1",
+  "reviewedAt": "2026-10-07T10:17:41.929661+00:00",
+  "sources": [
+    {
+      "id": "DERIVATIVE_REVIEW",
+      "kind": "NEW_GENERIC_PUBLIC_DERIVATIVE",
+      "description": "Generalized review of researcher-provided local summaries; primary HTTP artifacts and portal receipts absent from the reviewed packages.",
+      "originalsPublished": false
+    },
+    {
+      "id": "FIRST_CVSS4",
+      "kind": "PUBLIC_PRIMARY_SOURCE",
+      "url": "https://www.first.org/cvss/v4.0/specification-document",
+      "publisher": "FIRST",
+      "purpose": "Separate confidentiality, integrity, availability and scope; no invented truth score."
+    },
+    {
+      "id": "H1_STATES",
+      "kind": "PUBLIC_PRIMARY_SOURCE",
+      "url": "https://docs.hackerone.com/en/articles/8475030-report-states",
+      "publisher": "HackerOne",
+      "purpose": "Report status meanings are separate from the technical evidence."
+    },
+    {
+      "id": "H1_DISCLOSURE",
+      "kind": "PUBLIC_PRIMARY_SOURCE",
+      "url": "https://docs.hackerone.com/en/articles/8475358-requesting-disclosure",
+      "publisher": "HackerOne",
+      "purpose": "Private report details and publication approval have their own process."
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+[
+  {
+    "id": "PUBLIC_BOOTSTRAP",
+    "referent": "CONFIG_A",
+    "scope": "FIXTURE_PUBLIC",
+    "fixtureKind": "SYNTHETIC",
+    "sources": [
+      {
+        "id": "fixture_source",
+        "referent": "CONFIG_A",
+        "scope": "FIXTURE_PUBLIC",
+        "content": "Declared teaching fixture; no vendor or network observation.",
+        "cluster": "fixture_cluster"
+      }
+    ],
+    "axes": {
+      "expectedPublic": {
+        "state": "SUPPORTED",
+        "sourceIds": [
+          "fixture_source"
+        ]
+      },
+      "protectedProperty": {
+        "state": "CONTRADICTED",
+        "sourceIds": [
+          "fixture_source"
+        ]
+      },
+      "unauthorizedEffect": {
+        "state": "CONTRADICTED",
+        "sourceIds": [
+          "fixture_source"
+        ]
+      },
+      "productBinding": {
+        "state": "SUPPORTED",
+        "sourceIds": [
+          "fixture_source"
+        ]
+      }
+    },
+    "effectKind": "NONE",
+    "persistent": false
+  },
+  {
+    "id": "OPEN_POLICY",
+    "referent": "CONFIG_A",
+    "scope": "FIXTURE_OPEN",
+    "fixtureKind": "SYNTHETIC",
+    "sources": [
+      {
+        "id": "fixture_source",
+        "referent": "CONFIG_A",
+        "scope": "FIXTURE_OPEN",
+        "content": "Declared teaching fixture; no vendor or network observation.",
+        "cluster": "fixture_cluster"
+      }
+    ],
+    "axes": {
+      "expectedPublic": {
+        "state": "UNKNOWN",
+        "sourceIds": []
+      },
+      "protectedProperty": {
+        "state": "UNKNOWN",
+        "sourceIds": []
+      },
+      "unauthorizedEffect": {
+        "state": "UNKNOWN",
+        "sourceIds": []
+      },
+      "productBinding": {
+        "state": "SUPPORTED",
+        "sourceIds": [
+          "fixture_source"
+        ]
+      }
+    },
+    "effectKind": "NONE",
+    "persistent": false
+  },
+  {
+    "id": "PROTECTED_READ",
+    "referent": "OBJECT_A",
+    "scope": "FIXTURE_READ",
+    "fixtureKind": "SYNTHETIC",
+    "sources": [
+      {
+        "id": "fixture_source",
+        "referent": "OBJECT_A",
+        "scope": "FIXTURE_READ",
+        "content": "Declared teaching fixture; no vendor or network observation.",
+        "cluster": "fixture_cluster"
+      }
+    ],
+    "axes": {
+      "expectedPublic": {
+        "state": "CONTRADICTED",
+        "sourceIds": [
+          "fixture_source"
+        ]
+      },
+      "protectedProperty": {
+        "state": "SUPPORTED",
+        "sourceIds": [
+          "fixture_source"
+        ]
+      },
+      "unauthorizedEffect": {
+        "state": "SUPPORTED",
+        "sourceIds": [
+          "fixture_source"
+        ]
+      },
+      "productBinding": {
+        "state": "SUPPORTED",
+        "sourceIds": [
+          "fixture_source"
+        ]
+      }
+    },
+    "effectKind": "CONFIDENTIALITY_READ",
+    "persistent": false
+  },
+  {
+    "id": "LOCAL_COUNTERMODEL",
+    "referent": "OBJECT_A",
+    "scope": "FIXTURE_LOCAL",
+    "fixtureKind": "SYNTHETIC",
+    "sources": [
+      {
+        "id": "fixture_source",
+        "referent": "OBJECT_A",
+        "scope": "FIXTURE_LOCAL",
+        "content": "Declared teaching fixture; no vendor or network observation.",
+        "cluster": "fixture_cluster"
+      }
+    ],
+    "axes": {
+      "expectedPublic": {
+        "state": "CONTRADICTED",
+        "sourceIds": [
+          "fixture_source"
+        ]
+      },
+      "protectedProperty": {
+        "state": "SUPPORTED",
+        "sourceIds": [
+          "fixture_source"
+        ]
+      },
+      "unauthorizedEffect": {
+        "state": "SUPPORTED",
+        "sourceIds": [
+          "fixture_source"
+        ]
+      },
+      "productBinding": {
+        "state": "UNKNOWN",
+        "sourceIds": []
+      }
+    },
+    "effectKind": "INTEGRITY_CHANGE",
+    "persistent": false
+  }
+]

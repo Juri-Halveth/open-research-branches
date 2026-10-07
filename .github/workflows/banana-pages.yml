@@ -4,6 +4,7 @@ on:
     branches: [main]
     paths:
       - 'branches/banana-transition-field/**'
+      - 'branches/security-impact-learning/**'
       - '.github/workflows/banana-pages.yml'
   workflow_dispatch:
 permissions:
@@ -31,6 +32,19 @@ jobs:
           for file in index.html app.mjs model.mjs project-universe.mjs style.css statement.json; do
             cp "branches/banana-transition-field/$file" "_site/$file"
           done
+          mkdir -p _site/impact-learning
+          for file in index.html README.md RETROSPECTIVE.md lessons.json sources.json fixtures.json impact-model.mjs cli-result-model.mjs demo.mjs; do
+            cp "branches/security-impact-learning/$file" "_site/impact-learning/$file"
+          done
+          python3 - <<'PY'
+          from pathlib import Path
+          target = Path('_site/impact-learning/index.html')
+          text = target.read_text(encoding='utf-8')
+          prefix = 'https://github.com/Juri-Halveth/open-research-branches/blob/main/'
+          text = text.replace('href="../../START_HERE_AI.md"', 'href="' + prefix + 'START_HERE_AI.md"')
+          text = text.replace('href="../../wiki/HALVETH-Codeuniversum.md"', 'href="' + prefix + 'wiki/HALVETH-Codeuniversum.md"')
+          target.write_text(text, encoding='utf-8')
+          PY
       - uses: actions/upload-pages-artifact@v5
         with:
           path: _site

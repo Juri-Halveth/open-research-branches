@@ -186,6 +186,14 @@
         "reports/HALVETH_RESEARCH_2026-09-18.json",
         "reports/HALVETH_RESEARCH_2026-09-18.md"
       ]
+    },
+    {
+      "exactText": "juri-janovski-these-zur-geburt",
+      "authorizationState": "USER_REQUESTED_LINKING_OF_EXISTING_PUBLIC_REPOSITORY_IN_UNIVERSE_BOOTSTRAP",
+      "authorizedAt": "2026-10-07",
+      "files": [
+        "catalog/public-universe-roots.json"
+      ]
     }
   ]
 }

@@ -17,3 +17,6 @@ reports/RESEARCH_REPORT.md
 release-assets/
 .chart-data-*/
 __pycache__/
+
+# Local reading ledgers are never public by default.
+*.local.json

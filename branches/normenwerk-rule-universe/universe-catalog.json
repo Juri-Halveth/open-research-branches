@@ -1,7 +1,7 @@
 {
   "schema": "halveth.code-universe-catalog.v1",
   "snapshotDate": "2026-10-07",
-  "branchCount": 33,
+  "branchCount": 34,
   "coverage": "ALL_CURRENT_CATALOG_BRANCHES",
   "branches": [
     {
@@ -460,6 +460,24 @@
       ],
       "inventoryStatus": "FILES_PRESENT_NOT_ALL_EXECUTION_CLAIMS",
       "claimCeiling": "SYNTHETIC_MODEL_EVALUATION_FULL_RECORD_REPLAY_AND_IN_MEMORY_EVENT_ARCHIVE"
+    },
+    {
+      "id": "security-impact-learning",
+      "title": "Security Impact Learning · Failed Inference and Source-Bound AI Entry",
+      "path": "branches/security-impact-learning",
+      "state": "PUBLIC_DERIVATIVE",
+      "sourceFiles": [
+        "branches/security-impact-learning/cli-result-model.mjs",
+        "branches/security-impact-learning/demo.mjs",
+        "branches/security-impact-learning/impact-model.mjs",
+        "branches/security-impact-learning/index.html"
+      ],
+      "testFiles": [
+        "branches/security-impact-learning/cli-result-model.test.mjs",
+        "branches/security-impact-learning/impact-model.test.mjs"
+      ],
+      "inventoryStatus": "FILES_PRESENT_NOT_ALL_EXECUTION_CLAIMS",
+      "claimCeiling": "GENERIC_RETROSPECTIVE_AND_SYNTHETIC_MODEL_ONLY"
     }
   ]
 }

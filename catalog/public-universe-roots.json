@@ -1,0 +1,177 @@
+{
+  "schema": "halveth.public-universe-roots.v1",
+  "observedAt": "2026-10-07T10:17:41.929661+00:00",
+  "collectionState": "FINITE_SNAPSHOT",
+  "repositoryListLimit": 100,
+  "listSaturated": false,
+  "publicRepositoryCount": 15,
+  "excludedPrivateRepositoryCount": 4,
+  "repositories": [
+    {
+      "repository": "Juri-Halveth/halveth-scarlet",
+      "url": "https://github.com/Juri-Halveth/halveth-scarlet",
+      "defaultBranch": "main",
+      "commit": "324987d0a24769fc1de83cb7326669ce03636941",
+      "tree": "6b27fc3eb85675861f7921f2a3995bd8b5edade8",
+      "archived": false,
+      "fork": false,
+      "coverage": "DEFAULT_HEAD_METADATA_ONLY",
+      "contentReview": "NOT_REVIEWED_IN_THIS_SOURCE_STUDY"
+    },
+    {
+      "repository": "Juri-Halveth/open-research-branches",
+      "url": "https://github.com/Juri-Halveth/open-research-branches",
+      "defaultBranch": "main",
+      "commit": "fe5dc0bb7c025c5ed3c14ce010be42ab7cc82bde",
+      "tree": "fd06cde9e9a9d7e9e40723691cc95e58a707dc6a",
+      "archived": false,
+      "fork": false,
+      "coverage": "DEFAULT_HEAD_METADATA_ONLY",
+      "contentReview": "NOT_REVIEWED_IN_THIS_SOURCE_STUDY"
+    },
+    {
+      "repository": "Juri-Halveth/Juri-Halveth",
+      "url": "https://github.com/Juri-Halveth/Juri-Halveth",
+      "defaultBranch": "main",
+      "commit": "f47657b6d8de602d8ed9ea3be051a703dbdfdc46",
+      "tree": "f1327604350d277a348857eca30ec85925171a30",
+      "archived": false,
+      "fork": false,
+      "coverage": "DEFAULT_HEAD_METADATA_ONLY",
+      "contentReview": "NOT_REVIEWED_IN_THIS_SOURCE_STUDY"
+    },
+    {
+      "repository": "Juri-Halveth/Juri-Halveth.github.io",
+      "url": "https://github.com/Juri-Halveth/Juri-Halveth.github.io",
+      "defaultBranch": "main",
+      "commit": "b06e86698cb3b1667528a6c5f86db1b0b1b35c87",
+      "tree": "6728d67571eb47c793b3e5986c7444b4b52668be",
+      "archived": false,
+      "fork": false,
+      "coverage": "DEFAULT_HEAD_METADATA_ONLY",
+      "contentReview": "NOT_REVIEWED_IN_THIS_SOURCE_STUDY"
+    },
+    {
+      "repository": "Juri-Halveth/lernstudio",
+      "url": "https://github.com/Juri-Halveth/lernstudio",
+      "defaultBranch": "main",
+      "commit": "e6b5b741e030e5182217973961ab3fbcc35ff81c",
+      "tree": "cbb5b41f144ae76aec0ea82830dfc6e78bbcee5a",
+      "archived": false,
+      "fork": false,
+      "coverage": "DEFAULT_HEAD_METADATA_ONLY",
+      "contentReview": "NOT_REVIEWED_IN_THIS_SOURCE_STUDY"
+    },
+    {
+      "repository": "Juri-Halveth/fortuna",
+      "url": "https://github.com/Juri-Halveth/fortuna",
+      "defaultBranch": "main",
+      "commit": "e4fab47c850596e993593a96ea11cb1c0677e642",
+      "tree": "357d4fcaec5252d8bcf1df3c5af24fa3fbcd6b3d",
+      "archived": false,
+      "fork": false,
+      "coverage": "DEFAULT_HEAD_METADATA_ONLY",
+      "contentReview": "NOT_REVIEWED_IN_THIS_SOURCE_STUDY"
+    },
+    {
+      "repository": "Juri-Halveth/mein-lernportal",
+      "url": "https://github.com/Juri-Halveth/mein-lernportal",
+      "defaultBranch": "main",
+      "commit": "91726c7cb12d9c9360be7ba42c5039b582ca12a1",
+      "tree": "932c13fab442795ede06e92e9655486757af7c28",
+      "archived": false,
+      "fork": false,
+      "coverage": "DEFAULT_HEAD_METADATA_ONLY",
+      "contentReview": "NOT_REVIEWED_IN_THIS_SOURCE_STUDY"
+    },
+    {
+      "repository": "Juri-Halveth/juri-janovski-these-zur-geburt",
+      "url": "https://github.com/Juri-Halveth/juri-janovski-these-zur-geburt",
+      "defaultBranch": "main",
+      "commit": "d18d11422b5cadbf12822a309ea7ff00920c6a44",
+      "tree": "7d52d34a1f3274d31fb1c16ed2e24c40b5efbf26",
+      "archived": false,
+      "fork": false,
+      "coverage": "DEFAULT_HEAD_METADATA_ONLY",
+      "contentReview": "NOT_REVIEWED_IN_THIS_SOURCE_STUDY"
+    },
+    {
+      "repository": "Juri-Halveth/halveth-xai-40m-proposal",
+      "url": "https://github.com/Juri-Halveth/halveth-xai-40m-proposal",
+      "defaultBranch": "main",
+      "commit": "be61c1c4c2c2520b5fe058f17d4ff65eff1dff28",
+      "tree": "de77dd121db292a899c3aad894fc748d0019ac3d",
+      "archived": false,
+      "fork": false,
+      "coverage": "DEFAULT_HEAD_METADATA_ONLY",
+      "contentReview": "NOT_REVIEWED_IN_THIS_SOURCE_STUDY"
+    },
+    {
+      "repository": "Juri-Halveth/halveth-unreal",
+      "url": "https://github.com/Juri-Halveth/halveth-unreal",
+      "defaultBranch": "codex/knowledge-crafting-0.2",
+      "commit": "8196c2fb5b67b3e6a0ea492d1b8f9a61d9d764d0",
+      "tree": "9a047403075a12d0555be1195cf211a768ee42bc",
+      "archived": false,
+      "fork": false,
+      "coverage": "DEFAULT_HEAD_METADATA_ONLY",
+      "contentReview": "NOT_REVIEWED_IN_THIS_SOURCE_STUDY"
+    },
+    {
+      "repository": "Juri-Halveth/halveth-tresor",
+      "url": "https://github.com/Juri-Halveth/halveth-tresor",
+      "defaultBranch": "main",
+      "commit": "9233a6f16fca23e87340787b2e57d00573698506",
+      "tree": "befda908275b3395b1b4b9be52f3bc4058afa092",
+      "archived": false,
+      "fork": false,
+      "coverage": "DEFAULT_HEAD_METADATA_ONLY",
+      "contentReview": "NOT_REVIEWED_IN_THIS_SOURCE_STUDY"
+    },
+    {
+      "repository": "Juri-Halveth/halveth-realms",
+      "url": "https://github.com/Juri-Halveth/halveth-realms",
+      "defaultBranch": "codex/scarlet-garden",
+      "commit": "157c5b4cc44e24e3de015f036180107cec17c5fe",
+      "tree": "dbc5e2765c2ee036afb0f338cbc2da54c3b0e275",
+      "archived": false,
+      "fork": false,
+      "coverage": "DEFAULT_HEAD_METADATA_ONLY",
+      "contentReview": "NOT_REVIEWED_IN_THIS_SOURCE_STUDY"
+    },
+    {
+      "repository": "Juri-Halveth/halveth-project0-keeper",
+      "url": "https://github.com/Juri-Halveth/halveth-project0-keeper",
+      "defaultBranch": "main",
+      "commit": "cec663cce48567874fc089a6eb677e4c9635aa89",
+      "tree": "df0ae2d35ab7442a0120f263a58425d88859e136",
+      "archived": false,
+      "fork": false,
+      "coverage": "DEFAULT_HEAD_METADATA_ONLY",
+      "contentReview": "NOT_REVIEWED_IN_THIS_SOURCE_STUDY"
+    },
+    {
+      "repository": "Juri-Halveth/halveth-morrowind-genesis",
+      "url": "https://github.com/Juri-Halveth/halveth-morrowind-genesis",
+      "defaultBranch": "codex/public-release",
+      "commit": "2bcf09650cb0f4e5464301bec17475a3dc8ae2a8",
+      "tree": "6f03418b527a3d1578c8b5efa2f20586dfc05003",
+      "archived": false,
+      "fork": false,
+      "coverage": "DEFAULT_HEAD_METADATA_ONLY",
+      "contentReview": "NOT_REVIEWED_IN_THIS_SOURCE_STUDY"
+    },
+    {
+      "repository": "Juri-Halveth/admon395-public-safe-evidence-kit",
+      "url": "https://github.com/Juri-Halveth/admon395-public-safe-evidence-kit",
+      "defaultBranch": "master",
+      "commit": "cac45c1c6d2836261e59951097a0ceadeca338ca",
+      "tree": "4a930f4150017330ca0f07ef5061da6811251211",
+      "archived": false,
+      "fork": false,
+      "coverage": "DEFAULT_HEAD_METADATA_ONLY",
+      "contentReview": "NOT_REVIEWED_IN_THIS_SOURCE_STUDY"
+    }
+  ],
+  "claimCeiling": "PUBLIC_DEFAULT_HEAD_METADATA_ONLY_NOT_COMPLETE_REPOSITORY_CONTENT_REVIEW"
+}

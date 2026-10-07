@@ -61,7 +61,7 @@ von Rohdifferenz, fachlicher Projektion und Textübergabe an einen Prozess.
 
 ## Vollständiger aktueller Ast-Katalog
 
-Die folgende Tabelle deckt alle 33 registrierten Äste dieses
+Die folgende Tabelle deckt alle 34 registrierten Äste dieses
 Quellstands ab. Dateizahlen sind Inventarwerte. Sie behaupten weder einheitliche
 Reife noch, dass ein Forschungsbericht bereits ein ausführbares Programm ist.
 
@@ -100,7 +100,18 @@ Reife noch, dass ein Forschungsbericht bereits ein ausführbares Programm ist.
 | [FEGEFEUER · Provenienzgebundener Zustands-Transduktor](../branches/fegefeuer-provenance-transducer/README.md) | 1 | 1 | `PUBLIC_DERIVATIVE` |
 | [Auge · Eye Optics & Causal Prediction](../branches/eye-optics-and-prediction/README.md) | 4 | 1 | `PUBLIC_DERIVATIVE` |
 | [HALVETH Normenwerk · Codeuniversum](../branches/normenwerk-rule-universe/README.md) | 2 | 2 | `PUBLIC_DERIVATIVE` |
+| [Security Impact Learning](../branches/security-impact-learning/README.md) | 4 | 2 | `PUBLIC_DERIVATIVE` |
 
 [Maschinenlesbarer Katalog](../branches/normenwerk-rule-universe/universe-catalog.json) ·
 [24 technische Bausteine](../branches/normenwerk-rule-universe/blocks.json) ·
 [Lizenz und Nutzung](../LICENSES.md) · [Mitbauen](Mitmachen.md)
+
+## Der Einstieg fuer kuenftige KI-Durchlaeufe
+
+[START_HERE_AI.md](../START_HERE_AI.md) bindet Commit, alle aktuellen Hub-Blobs,
+definierte Wort-/Codepunktzaehlung, tatsaechliche Lesespans und den ungelesenen
+Rest. Der oeffentliche Root-Snapshot verbindet 15 Repositories. Die
+[Lernkarte](../branches/security-impact-learning/index.html) zeigt 24 erhaltene
+Fehler und Korrekturen neben dem [vollstaendigen Rueckblick](../branches/security-impact-learning/RETROSPECTIVE.md).
+Das [GitHub-API-Werkzeug](../scripts/github-knowledge-gateway.mjs) verwendet die
+vorhandenen Leserechte und gesonderten Schreibrechte fuer Beitragsbranches.

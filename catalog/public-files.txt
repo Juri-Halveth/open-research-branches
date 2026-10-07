@@ -12,6 +12,7 @@
 .github/workflows/banana-pages.yml
 .github/workflows/ci.yml
 .gitignore
+AGENTS.md
 assets/research-room.png
 branches/alice-media-referent-and-agency-audit/candidate-works.json
 branches/alice-media-referent-and-agency-audit/local-anchors.json
@@ -195,6 +196,17 @@ branches/russia-ukraine-information-and-peace-audit/SOURCES.md
 branches/russia-ukraine-information-and-peace-audit/test/claims.test.mjs
 branches/russia-ukraine-information-and-peace-audit/test/decision-snapshot-firewall.test.mjs
 branches/russia-ukraine-information-and-peace-audit/was-los-loop.json
+branches/security-impact-learning/cli-result-model.mjs
+branches/security-impact-learning/cli-result-model.test.mjs
+branches/security-impact-learning/demo.mjs
+branches/security-impact-learning/fixtures.json
+branches/security-impact-learning/impact-model.mjs
+branches/security-impact-learning/impact-model.test.mjs
+branches/security-impact-learning/index.html
+branches/security-impact-learning/lessons.json
+branches/security-impact-learning/README.md
+branches/security-impact-learning/RETROSPECTIVE.md
+branches/security-impact-learning/sources.json
 branches/solar-and-thermal-provenance-audit/audit-lens.mjs
 branches/solar-and-thermal-provenance-audit/audit-lens.test.mjs
 branches/solar-and-thermal-provenance-audit/claims.json
@@ -283,6 +295,7 @@ catalog/public-binary-documents.json
 catalog/public-files.txt
 catalog/public-identities.json
 catalog/public-project-snapshot.json
+catalog/public-universe-roots.json
 catalog/technology-roadmap.json
 CHANGELOG.md
 CITATION.cff
@@ -350,11 +363,15 @@ reports/README.md
 reports/TECHNOLOGY_ROADMAP_2026-09-19.md
 reports/WIFI6_STANDARD_AND_CONNECTION_2026-09-19.md
 RIGHTS-RESERVATION.md
+scripts/ai-bootstrap-index.test.mjs
 scripts/audit-star.test.mjs
+scripts/build-ai-bootstrap-index.mjs
 scripts/build-audit-star.mjs
 scripts/build-research-banner.py
 scripts/build-technology-roadmap.mjs
 scripts/create-provenance-snapshot.mjs
+scripts/github-knowledge-gateway.mjs
+scripts/github-knowledge-gateway.test.mjs
 scripts/prepare-wiki-copy.mjs
 scripts/prepublish-check.mjs
 scripts/project-name-alias.mjs
@@ -371,6 +388,7 @@ scripts/validate-navigation.mjs
 scripts/validate-navigation.test.mjs
 scripts/validate-public-manifest.mjs
 SECURITY.md
+START_HERE_AI.md
 wiki/_Footer.md
 wiki/_Sidebar.md
 wiki/Belege-und-Zeitlinien.md
