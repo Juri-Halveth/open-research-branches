@@ -36,6 +36,8 @@ jobs:
           for file in index.html README.md RETROSPECTIVE.md ENVIRONMENT_FIRST.md STATE_OBSERVATION.md MECHANISM_FIRST.md lessons.json sources.json fixtures.json impact-model.mjs cli-result-model.mjs demo.mjs AUDIT_METHODS.md submission-review.mjs audit-methods.html audit-methods.css audit-methods.mjs; do
             cp "branches/security-impact-learning/$file" "_site/impact-learning/$file"
           done
+          mkdir -p _site/impact-learning/source-entry
+          cp branches/security-impact-learning/source-entry/* _site/impact-learning/source-entry/
           python3 - <<'PY'
           from pathlib import Path
           target = Path('_site/impact-learning/index.html')

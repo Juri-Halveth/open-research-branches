@@ -1,5 +1,7 @@
 # HALVETH · ein Einstieg, viele Verbraucher
 
+[Quellenpaket im Browser ansehen](https://juri-halveth.github.io/open-research-branches/impact-learning/source-entry/)
+
 Der gemeinsame Einstieg bindet Quellen, Funktionen, Modelle und Hinweisachsen
 an einen Git-Commit. Bash, CMD, PowerShell, JavaScript und Python verwenden
 denselben Datenvertrag. HTML und Text sind Darstellungen dieses Pakets.
@@ -57,6 +59,15 @@ Git-Commit/Tree ist eine eigene Quellenbindung. `PUBLIC` und `RESTRICTED_RAW`
 bleiben getrennte Datenklassen. Der Python-Verbraucher zeigt eine unabhängige
 Implementierung des Bytevertrags; er ist keine unabhängige Bestätigung der
 Sachinhalte.
+
+Der Browser-Verbraucher verwendet denselben geschlossenen JSON-Datenvalidator
+wie der Node-Adapter. Er prüft den Payload-Digest mit WebCrypto und stellt
+Werte als Text dar. Ein ausgewähltes lokales Paket wird in diesem Browser
+gelesen; die Ansicht besitzt keinen Uploadweg.
+
+`programsFromSourceExecuted` zählt gestartete Programme aus den gelesenen
+Payloadquellen. Der Einstieg selbst und Git werden als Werkzeuge ausgeführt;
+die geprüften Quelldateien werden dabei als Bytes gelesen.
 
 Ein neuer Adapter bekommt einen eigenen Roundtrip-Test. Der Vertrag erlaubt
 Erweiterung, ohne Kompatibilität mit noch unbekannten Programmen vorzugeben.

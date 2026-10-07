@@ -212,6 +212,12 @@ branches/security-impact-learning/lessons.json
 branches/security-impact-learning/MECHANISM_FIRST.md
 branches/security-impact-learning/README.md
 branches/security-impact-learning/RETROSPECTIVE.md
+branches/security-impact-learning/source-entry/example.json
+branches/security-impact-learning/source-entry/index.html
+branches/security-impact-learning/source-entry/plain-json.mjs
+branches/security-impact-learning/source-entry/source-packet-browser.mjs
+branches/security-impact-learning/source-entry/style.css
+branches/security-impact-learning/source-entry/view.mjs
 branches/security-impact-learning/sources.json
 branches/security-impact-learning/STATE_OBSERVATION.md
 branches/security-impact-learning/submission-review.mjs
@@ -396,6 +402,7 @@ scripts/halveth-entry.test.mjs
 scripts/indicate-source.mjs
 scripts/indicate-source.test.mjs
 scripts/inspect-environment.ps1
+scripts/plain-json.mjs
 scripts/prepare-wiki-copy.mjs
 scripts/prepublish-check.mjs
 scripts/project-name-alias.mjs
@@ -405,6 +412,8 @@ scripts/release-gate-lib.mjs
 scripts/release-gate.test.mjs
 scripts/run-release-gates.mjs
 scripts/run-tests.mjs
+scripts/source-packet-browser.mjs
+scripts/source-packet-browser.test.mjs
 scripts/technology-roadmap.test.mjs
 scripts/test-inspect-environment.ps1
 scripts/validate-catalog.mjs
