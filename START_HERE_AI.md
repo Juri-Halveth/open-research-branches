@@ -122,3 +122,16 @@ branch commit receipt; merge, external testing and execution remain separate.
 Login alone does not grant another account access to a private repository.
 The [private workspace entry](https://github.com/Juri-Halveth/halveth-private-core/blob/main/docs/impact-learning-20261007/START_HERE.md)
 connects readable knowledge with the full preserved originals.
+
+### Public contributors without upstream write permission
+
+Anyone can read the public roots. For a requested source contribution, an
+authenticated caller without upstream push permission can write in their own
+fork and propose the change through a pull request. Use GitHub's native API:
+`GET /user` binds the caller; `POST /repos/{owner}/{repo}/forks` creates their
+fork; create a contribution ref and commit there, then
+`POST /repos/Juri-Halveth/open-research-branches/pulls` proposes the exact
+`caller:branch` against `main`. Wait for the fork to become available and retain
+all operation receipts. The gateway above handles callers with existing
+upstream write permission; this fork route uses the caller's own GitHub API
+client. These routes retain review and the private repository's access rules.
