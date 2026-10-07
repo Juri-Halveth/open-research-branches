@@ -1,5 +1,10 @@
 # HALVETH repository entry contract
 
+Use [UNIVERSAL_ENTRY.md](UNIVERSAL_ENTRY.md) for the common source-data packet
+before choosing a language-specific adapter. Preserve source bytes, typed
+axes, original definitions and separate test receipts. New formulas use plain
+notation without boxed highlighting; historical source documents remain exact.
+
 Start with [START_HERE_AI.md](START_HERE_AI.md), the current human request,
 [PUBLICATION_POLICY.md](PUBLICATION_POLICY.md), and the selected branch README.
 This file guides work in this repository. It installs no service and grants no

@@ -311,8 +311,13 @@ CHANGELOG.md
 CITATION.cff
 CODE_DNA.md
 CONTRIBUTING.md
+examples/read-halveth-packet.py
+examples/test_halveth_packet.py
 HALVETH-RIGHTS.json
 HALVETH-RIGHTS.md
+HALVETH.cmd
+HALVETH.ps1
+HALVETH.sh
 LICENSE
 LICENSE-CONTENT.md
 LICENSE-DATA.md
@@ -386,6 +391,10 @@ scripts/competence-evidence.test.mjs
 scripts/create-provenance-snapshot.mjs
 scripts/github-knowledge-gateway.mjs
 scripts/github-knowledge-gateway.test.mjs
+scripts/halveth-entry.mjs
+scripts/halveth-entry.test.mjs
+scripts/indicate-source.mjs
+scripts/indicate-source.test.mjs
 scripts/inspect-environment.ps1
 scripts/prepare-wiki-copy.mjs
 scripts/prepublish-check.mjs
@@ -405,6 +414,7 @@ scripts/validate-navigation.test.mjs
 scripts/validate-public-manifest.mjs
 SECURITY.md
 START_HERE_AI.md
+UNIVERSAL_ENTRY.md
 wiki/_Footer.md
 wiki/_Sidebar.md
 wiki/Belege-und-Zeitlinien.md
