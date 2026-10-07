@@ -1,0 +1,9 @@
+// Bind notation before interpreting it. This is a source frame, not a parser verdict.
+import {createHash} from 'node:crypto';
+import {plainJson} from './plain-json.mjs';
+export function bindSymbolSpan(raw,{startUTF16,endUTF16,language='UNBOUND',roleHypothesis=null}={}){
+ plainJson(raw);if(typeof raw!=='string'||Buffer.byteLength(raw)>8*1024*1024||!Number.isSafeInteger(startUTF16)||!Number.isSafeInteger(endUTF16)||startUTF16<0||endUTF16<=startUTF16||endUTF16>raw.length||typeof language!=='string'||!language||language.length>256||roleHypothesis!==null&&(typeof roleHypothesis!=='string'||!roleHypothesis||roleHypothesis.length>2000))throw new Error('Exact source text, scalar span and declared context required');
+ const selected=raw.slice(startUTF16,endUTF16);plainJson(selected);plainJson(language);plainJson(roleHypothesis);
+ const bytes=Buffer.from(raw,'utf8'),digest=createHash('sha256').update(bytes).digest('hex');
+ return {schema:'halveth.symbol-source-frame.v1',operator:'SOURCE_SPAN_BINDING_V1',dataClass:'RESTRICTED_RAW',source:{kind:'PROVIDED_STRING_BYTES',encoding:'UTF-8',byteLength:bytes.length,sha256:digest,text:raw,originalFileProvenance:'NOT_CLAIMED'},span:{startUTF16,endUTF16,text:selected,codePoints:Array.from(selected,c=>'U+'+c.codePointAt(0).toString(16).toUpperCase().padStart(4,'0'))},context:{language,state:'DECLARED',contextChecksum:digest},syntax:{state:'UNKNOWN',parser:'NOT_RUN'},role:{hypothesis:roleHypothesis,state:roleHypothesis===null?'UNKNOWN':'HYPOTHESIS'},referent:{state:'UNKNOWN'},relation:{state:'UNKNOWN'},sourceState:{state:'UNKNOWN'},effect:{state:'UNKNOWN'},claim:{state:'LOCAL_DRAFT_ONLY'},derivationOrder:['RAW','SPAN','DECLARED_CONTEXT','ROLE_HYPOTHESIS','REFERENT','RELATION','STATE','EFFECT','CLAIM'],orderingMeaning:'ANALYSIS_ORDER_NOT_CAUSALITY',authorityEffect:'NONE'};
+}
