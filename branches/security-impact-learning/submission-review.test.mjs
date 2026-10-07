@@ -1,0 +1,11 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {reviewDraft} from './submission-review.mjs';
+const draft=()=>({id:'EXAMPLE',observation:'Own synthetic observation record',entry:'Own toy input',effect:'Own synthetic effect record',source:'Bound teaching fixture',assetBound:true,impactBound:true,actorBound:true,productBound:true,consumerBound:true,policyBound:true,proposedSeverity:'UNCLASSIFIED',evidenceSeverity:'UNCLASSIFIED'});
+test('unfilled observation and trigger cannot appear as a completed report',()=>{const d=draft();d.observation='[INSERT THE EXACT MISMATCH]';d.entry='[...]';const r=reviewDraft(d);assert.deepEqual(r.gaps,['UNFILLED_OBSERVATION','UNFILLED_ENTRY']);assert.equal(r.externalSend,false);});
+test('a downstream model cannot close an unbound input or product edge',()=>{const d=draft();d.actorBound=false;d.productBound=false;assert.deepEqual(reviewDraft(d).gaps,['UNBOUND_ACTOR','UNBOUND_PRODUCT']);});
+test('researcher-added consumer capability remains its own missing bridge',()=>{const d=draft();d.consumerBound=false;assert.ok(reviewDraft(d).gaps.includes('UNBOUND_CONSUMER'));});
+test('an in-scope asset does not silently establish an in-scope impact',()=>{const d=draft();d.impactBound=false;assert.deepEqual(reviewDraft(d).gaps,['UNBOUND_IMPACT']);});
+test('severity field drift is explicit and not repaired with a default',()=>{const d=draft();d.proposedSeverity='CRITICAL';assert.ok(reviewDraft(d).gaps.includes('SEVERITY_EXCEEDS_DECLARED_EVIDENCE'));});
+test('exact types and explicit states are required',()=>{for(const patch of [{assetBound:'true'},{proposedSeverity:'critical'},{source:undefined},{extra:1}])assert.throws(()=>reviewDraft({...draft(),...patch}));});
+test('a structure pass proves no truth, severity, consent or sending authority',()=>{const d=draft(),before=JSON.stringify(d),r=reviewDraft(d);assert.equal(r.state,'STRUCTURALLY_REVIEWABLE_DRAFT');assert.equal(r.truthProven,false);assert.equal(r.severityProven,false);assert.equal(r.actionAuthority,'NONE');assert.equal(JSON.stringify(d),before);});
