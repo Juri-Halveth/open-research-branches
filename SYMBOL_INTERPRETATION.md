@@ -54,3 +54,6 @@ Steuerbefehlen für einen laufenden Softwareauftrag.
 
 [Gemeinsamer Einstieg](UNIVERSAL_ENTRY.md) · [INDICATE](scripts/indicate-source.mjs) ·
 [Zustandsdefinition](branches/security-impact-learning/STATE_OBSERVATION.md)
+
+[Parabel, Perspektive und Invarianz](PARABOLA_PERSPECTIVE.md) führt den
+zusätzlichen Bildimpuls mit Geometrie, Bezugssystem und Metapherebene weiter.
