@@ -7,6 +7,9 @@ Start with [the universal source-data entry](UNIVERSAL_ENTRY.md):
 The same versioned packet can be consumed from other shells and languages.
 `indicate F02` binds a source annotation; it starts no target operation.
 
+For notation and property meanings, use [the source-span interpretation
+contract](SYMBOL_INTERPRETATION.md) before deriving roles or effects.
+
 Read this file together with the current human request. A repository is a
 knowledge source; visiting it is not permission to run its programs, test a
 third-party asset or publish a private report.

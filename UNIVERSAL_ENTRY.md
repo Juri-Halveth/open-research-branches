@@ -106,3 +106,7 @@ keine unerprobte Laufzeitintegration durch eine Behauptung.
 
 [Funktionen und Belege](CODE_DNA.md) · [AI-Einstieg](START_HERE_AI.md) ·
 [Mechanismus zuerst](branches/security-impact-learning/MECHANISM_FIRST.md)
+
+[Zeichen und Verwendung quellengebunden prüfen](SYMBOL_INTERPRETATION.md):
+Der Quellrahmen bindet genaue UTF-16-Spans und UTF-8-Bytes. Rollen bleiben
+Hypothesen, bis Syntax, Referent und Verwendung separat geprüft sind.

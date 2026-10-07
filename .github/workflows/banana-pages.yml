@@ -38,6 +38,7 @@ jobs:
           done
           mkdir -p _site/impact-learning/source-entry
           cp branches/security-impact-learning/source-entry/* _site/impact-learning/source-entry/
+          cp catalog/source-entry.schema.json _site/source-entry.schema.json
           python3 - <<'PY'
           from pathlib import Path
           target = Path('_site/impact-learning/index.html')

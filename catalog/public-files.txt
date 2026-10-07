@@ -416,6 +416,8 @@ scripts/run-release-gates.mjs
 scripts/run-tests.mjs
 scripts/source-packet-browser.mjs
 scripts/source-packet-browser.test.mjs
+scripts/symbol-source-frame.mjs
+scripts/symbol-source-frame.test.mjs
 scripts/technology-roadmap.test.mjs
 scripts/test-inspect-environment.ps1
 scripts/validate-catalog.mjs
@@ -425,6 +427,7 @@ scripts/validate-navigation.test.mjs
 scripts/validate-public-manifest.mjs
 SECURITY.md
 START_HERE_AI.md
+SYMBOL_INTERPRETATION.md
 UNIVERSAL_ENTRY.md
 wiki/_Footer.md
 wiki/_Sidebar.md
