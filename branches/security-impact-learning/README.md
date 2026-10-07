@@ -13,6 +13,8 @@ scripts are not part of this branch. Historical outcomes described in private
 summaries have not been independently reverified by this publication.
 
 - [Published learning map](https://juri-halveth.github.io/open-research-branches/impact-learning/)
+- [Seven review questions and draft checker](audit-methods.html)
+- [Method notes and primary sources](AUDIT_METHODS.md)
 - [Interactive map: failed attempt and corrected reasoning](index.html)
 - [Retrospective, errors and open edges](RETROSPECTIVE.md)
 - [Machine-readable lessons](lessons.json)

@@ -323,3 +323,6 @@ match the two values declared across three rounds in the earlier package.
 This closes a local byte-verification gap. It does not independently establish
 the original caller context, current live behavior, policy violation or portal
 decision. The complete originals are in the separately preserved private corpus.
+
+
+[Seven review questions and source-bound continuation](AUDIT_METHODS.md) · [Interactive draft review](audit-methods.html)

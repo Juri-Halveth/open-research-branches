@@ -1,0 +1,7 @@
+import {reviewDraft} from './submission-review.mjs';
+const complete={id:'SYNTHETIC_DRAFT',observation:'An own local example returned the declared value.',entry:'Local fixture input.',effect:'Local fixture output.',source:'Own synthetic fixture v1.',assetBound:true,impactBound:true,actorBound:true,productBound:true,consumerBound:true,policyBound:true,proposedSeverity:'INFORMATIONAL',evidenceSeverity:'INFORMATIONAL'};
+const incomplete={...complete,observation:'[INSERT OBSERVATION]',entry:'[...]',actorBound:false,productBound:false,proposedSeverity:'CRITICAL'};
+const labels={UNFILLED_OBSERVATION:'Konkrete Beobachtung fehlt.',UNFILLED_ENTRY:'Konkreter Eintritt fehlt.',UNBOUND_ACTOR:'Akteur ist nicht gebunden.',UNBOUND_PRODUCT:'Produktbezug ist nicht gebunden.',SEVERITY_EXCEEDS_DECLARED_EVIDENCE:'Gewählte Schwere liegt über dem deklarierten Belegstand.'};
+function show(record){const result=reviewDraft(record);document.querySelector('#state').textContent=result.gaps.length?'Entwurf zurückstellen; Quellenprüfung fortsetzen.':'Strukturell prüfbarer Entwurf.';const list=document.querySelector('#gaps');list.replaceChildren(...result.gaps.map(gap=>{const li=document.createElement('li');li.textContent=labels[gap]||gap;return li;}));}
+document.querySelector('#incomplete').addEventListener('click',()=>show(incomplete));
+document.querySelector('#complete').addEventListener('click',()=>show(complete));

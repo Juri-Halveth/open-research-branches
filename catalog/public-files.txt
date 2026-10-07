@@ -196,6 +196,10 @@ branches/russia-ukraine-information-and-peace-audit/SOURCES.md
 branches/russia-ukraine-information-and-peace-audit/test/claims.test.mjs
 branches/russia-ukraine-information-and-peace-audit/test/decision-snapshot-firewall.test.mjs
 branches/russia-ukraine-information-and-peace-audit/was-los-loop.json
+branches/security-impact-learning/AUDIT_METHODS.md
+branches/security-impact-learning/audit-methods.css
+branches/security-impact-learning/audit-methods.html
+branches/security-impact-learning/audit-methods.mjs
 branches/security-impact-learning/cli-result-model.mjs
 branches/security-impact-learning/cli-result-model.test.mjs
 branches/security-impact-learning/demo.mjs
@@ -207,6 +211,8 @@ branches/security-impact-learning/lessons.json
 branches/security-impact-learning/README.md
 branches/security-impact-learning/RETROSPECTIVE.md
 branches/security-impact-learning/sources.json
+branches/security-impact-learning/submission-review.mjs
+branches/security-impact-learning/submission-review.test.mjs
 branches/solar-and-thermal-provenance-audit/audit-lens.mjs
 branches/solar-and-thermal-provenance-audit/audit-lens.test.mjs
 branches/solar-and-thermal-provenance-audit/claims.json
