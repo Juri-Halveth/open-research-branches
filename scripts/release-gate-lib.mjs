@@ -13,7 +13,7 @@ const PUBLIC_IDENTITIES_SERIALIZATION_VERSION = "PRETTY_JSON_V1";
 const FATAL_UTF8 = new TextDecoder("utf-8", { fatal: true, ignoreBOM: true });
 
 const TEXT_EXTENSIONS = new Set([
-  ".cff", ".css", ".csv", ".html", ".js", ".json", ".md", ".mjs", ".py", ".sha256", ".txt", ".yaml", ".yml"
+  ".cff", ".css", ".csv", ".html", ".js", ".json", ".md", ".mjs", ".ps1", ".py", ".sha256", ".txt", ".yaml", ".yml"
 ]);
 const TEXT_BASENAMES = new Set([".gitattributes", ".gitignore", "LICENSE"]);
 const REJECTED_BINARY_EXTENSIONS = new Set([".docx", ".pdf", ".pptx", ".xlsx"]);

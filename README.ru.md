@@ -2,6 +2,9 @@
 
 # HALVETH!!! · Open Research
 
+**Code-DNA:** [Funktionen, Quellzeilen & Zertifikatsbezug](https://juri-halveth.github.io/koennen/) · [Belegregister](CODE_DNA.md) · [Umgebung zuerst](branches/security-impact-learning/ENVIRONMENT_FIRST.md)
+
+
 **Краткий путеводитель по проекту · EN / RU**
 
 Коллекция исследовательских ветвей, отчётов, программных моделей и воспроизводимых примеров со ссылками на источники. Через тематическую вики и каталог проектов она соединяет программное обеспечение, наблюдения природы, язык, медиа и общественные вопросы.

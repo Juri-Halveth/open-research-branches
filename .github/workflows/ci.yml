@@ -19,6 +19,9 @@ jobs:
           node-version: '24'
           package-manager-cache: false
       - run: npm test
+      - name: Check local command resolver without executing discovered tools
+        shell: pwsh
+        run: ./scripts/test-inspect-environment.ps1
       - run: python3 -m unittest discover -s branches/fegefeuer-provenance-transducer -p 'test_*.py' -v
 
       - run: python3 -m unittest discover -s branches/normenwerk-rule-universe -p 'test_*.py' -v
