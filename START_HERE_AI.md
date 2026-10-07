@@ -28,6 +28,9 @@ private reading ledger. Refresh the inventory after changing the commit.
 
 | Question | Source |
 | --- | --- |
+| Where is the actual function behind a portfolio reference? | [Code-DNA](CODE_DNA.md) and [exact public excerpts](catalog/competence-evidence.json) |
+| Which environment assumptions caused unnecessary failures? | [Environment first](branches/security-impact-learning/ENVIRONMENT_FIRST.md) |
+| What does an observed state mean? | [State observation contract](branches/security-impact-learning/STATE_OBSERVATION.md) |
 | What exists in this hub? | [Current branch catalog](catalog/branches.json) |
 | Where are the visible model rooms? | [HALVETH Codeuniversum](wiki/HALVETH-Codeuniversum.md) |
 | What did we learn from an overclaimed security attempt? | [Learning branch](branches/security-impact-learning/README.md) |

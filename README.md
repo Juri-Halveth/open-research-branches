@@ -8,6 +8,9 @@
 
 # HALVETH!!! · Open Research
 
+**Code-DNA:** [Funktionen, Quellzeilen & Zertifikatsbezug](https://juri-halveth.github.io/koennen/) · [Belegregister](CODE_DNA.md) · [Umgebung zuerst](branches/security-impact-learning/ENVIRONMENT_FIRST.md)
+
+
 <!-- HALVETH_WORK_CERTIFICATES_V1_1 -->
 **✅ CLAIMED · dokumentierte Beitragsbehauptung:** [Herkunft und Mitclaimer](wiki/Claim-und-Mitclaim.md) · [π: Potenzen und Operatoren](wiki/Pi-und-Operatoren.md). Quellen, Prüfstand und freiwillige Mitwirkung bleiben sichtbar.
 
