@@ -35,6 +35,7 @@
         "branches/wax-crayon-peace-helmet-audit/README.md",
         "branches/xxxlutz-porta-takeover-and-employee-participation-audit/build_pdf.py",
         "branches/xxxlutz-porta-takeover-and-employee-participation-audit/README.md",
+        "catalog/competence-evidence.json",
         "catalog/public-identities.json",
         "CHANGELOG.md",
         "CITATION.cff",
@@ -192,7 +193,9 @@
       "authorizationState": "USER_REQUESTED_LINKING_OF_EXISTING_PUBLIC_REPOSITORY_IN_UNIVERSE_BOOTSTRAP",
       "authorizedAt": "2026-10-07",
       "files": [
-        "catalog/public-universe-roots.json"
+        "catalog/competence-evidence.json",
+        "catalog/public-universe-roots.json",
+        "CODE_DNA.md"
       ]
     }
   ]
