@@ -9,3 +9,8 @@ test('changed bytes, floating source revisions and unsupported qualifications ar
   const d=structuredClone(data);mutate(d);assert.throws(()=>validate(d));
  }
 });
+test('relation addresses bind the same function, digest and selected framework topic',()=>{
+ for(const mutate of [d=>d.relations[0].left.id='F01',d=>d.relations[0].left.digest='0'.repeat(64),d=>d.relations[0].right.address='https://example.com/another-framework',d=>d.relations[0].authorityEffect='ADMIN']){
+  const d=structuredClone(data);mutate(d);assert.throws(()=>validate(d));
+ }
+});
