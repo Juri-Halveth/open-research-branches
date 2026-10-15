@@ -2,7 +2,7 @@
 
 **Stand:** 15. Oktober 2026 · **Zustand:** `FINITE_SNAPSHOT` · **Datenklasse:** `PUBLIC_SOURCES_ONLY`
 
-[Interaktive Quellenkarte](index.html) · [9/11: Flugzeuge und Sprengungshypothese](WTC_COLLAPSE_AUDIT_2026-10-15.md) · [Daten](audit.json) · [Navigationsframe](navigation-frame.json) · [Prüfquittung](navigation-receipt.json) · [Methode und Coverage](METHOD.md) · [Quellenkorrektur vorschlagen](https://github.com/Juri-Halveth/open-research-branches/issues/new?template=quellenkorrektur.yml)
+[Interaktive Quellenkarte](index.html) · [Romanova/Widow/Window und Krisen: Querverbindungen](QUERVERBINDUNGEN_ROMANOVA_WIDOW_WINDOWS_KRISEN_2026-10-15.md) · [9/11: Flugzeuge und Sprengungshypothese](WTC_COLLAPSE_AUDIT_2026-10-15.md) · [Daten](audit.json) · [Navigationsframe](navigation-frame.json) · [Prüfquittung](navigation-receipt.json) · [Methode und Coverage](METHOD.md) · [Quellenkorrektur vorschlagen](https://github.com/Juri-Halveth/open-research-branches/issues/new?template=quellenkorrektur.yml)
 
 > Eine erfundene Geheimorganisation ist eine starke Frage an reale Archive. Sie ist keine Akte über eine reale Organisation.
 
