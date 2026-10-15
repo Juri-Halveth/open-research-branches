@@ -69,7 +69,8 @@ test("exported receipt preserves both candidates, pending state, and synthetic f
     sourceIndependence: "NOT_CLAIMED_SAME_AUTHOR_FIXTURE"
   });
   assert.equal(JSON.stringify(observed), JSON.stringify(createSyntheticSceneReceipt("RIGHT", true)));
-  assert.equal(JSON.stringify(observed).includes("janov"), false);
+  assert.equal(Object.hasOwn(observed, "account"), false);
+  assert.equal(Object.hasOwn(observed, "recordedAt"), false);
   assert.throws(() => createSyntheticSceneReceipt("OTHER"), /built-in/);
   assert.throws(() => createSyntheticSceneReceipt("LEFT", "true"), /boolean/);
 });

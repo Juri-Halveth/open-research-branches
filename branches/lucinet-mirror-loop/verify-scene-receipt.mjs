@@ -54,7 +54,11 @@ try {
       !["PENDING_NOT_OBSERVED", "OBSERVED_WITHIN_SYNTHETIC_FIXTURE_ONLY"].includes(state)) {
     throw new Error("Unknown fixture or follow-up state");
   }
-  assert.deepStrictEqual(receipt, expectedReceipt(direction, state !== "PENDING_NOT_OBSERVED"));
+  try {
+    assert.deepStrictEqual(receipt, expectedReceipt(direction, state !== "PENDING_NOT_OBSERVED"));
+  } catch {
+    throw new Error("Receipt fields or arithmetic differ from the fixed v1 fixture");
+  }
   console.log(`PASS: fixed v1 synthetic arithmetic and fields; fixture=${direction}; followup=${state}`);
 } catch (error) {
   console.error(`FAIL: ${error.message}`);
