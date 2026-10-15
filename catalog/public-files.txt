@@ -128,6 +128,8 @@ branches/historical-cipher-decoding-challenge/reconstruction-cycle.json
 branches/historical-cipher-decoding-challenge/sources.json
 branches/historical-cipher-decoding-challenge/src/decoding-proof.mjs
 branches/historical-cipher-decoding-challenge/test/decoding-proof.test.mjs
+branches/lucinet-mirror-loop/examples/synthetic-left-observed.v1.json
+branches/lucinet-mirror-loop/examples/synthetic-right-observed.v1.json
 branches/lucinet-mirror-loop/index.html
 branches/lucinet-mirror-loop/model.mjs
 branches/lucinet-mirror-loop/model.test.mjs
@@ -136,6 +138,7 @@ branches/lucinet-mirror-loop/scene.html
 branches/lucinet-mirror-loop/scene.mjs
 branches/lucinet-mirror-loop/scene.test.mjs
 branches/lucinet-mirror-loop/serve.mjs
+branches/lucinet-mirror-loop/verify-scene-receipt.mjs
 branches/navier-stokes-credit-value-and-plagiarism-audit/claims.json
 branches/navier-stokes-credit-value-and-plagiarism-audit/LIES_MICH_ZUERST.md
 branches/navier-stokes-credit-value-and-plagiarism-audit/navigation-frame.json
