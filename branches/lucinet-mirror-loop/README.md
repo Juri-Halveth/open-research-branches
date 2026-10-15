@@ -1,6 +1,6 @@
 # LUCINET Mirror Loop · synthetischer Demonstrator
 
-[Herkunft des August-Bilds](../../reports/LUCINET_MIRROR_AUGUST_PROVENANCE_2026-10-16.md) · [HTML der lokalen Ansicht](index.html) · [Quellcode](model.mjs)
+[Herkunft des August-Bilds](../../reports/LUCINET_MIRROR_AUGUST_PROVENANCE_2026-10-16.md) · [Punktfolge als HTML](index.html) · [Apfel/Schatten als HTML](scene.html) · [Quellcode](model.mjs)
 
 Das Bild vom 8. August 2026 zeigt einen lokalen Spiegel und eine Projektion.
 Dieser spätere, separat datierte Ast setzt **einen** kleinen Teil davon als
@@ -16,13 +16,15 @@ Node.js 20 oder neuer:
 
 ```sh
 node --test model.test.mjs
+node --test scene.test.mjs
 node serve.mjs
 ```
 
 Der Server bindet nur an `127.0.0.1` und meldet einen freien lokalen Port.
 Die Ansicht führt keine ausgehenden Requests aus. `model.mjs` selbst ist eine
 reine Berechnung ohne Datei-, Netzwerk- oder Gerätezutritt. Der Server
-liefert ausschließlich `index.html` und `model.mjs`.
+liefert ausschließlich die zwei HTML-Ansichten und ihre zwei `.mjs`-Module.
+Die Apfelansicht liegt unter `/scene.html` am selben lokalen Port.
 
 ## Gebundener Ablauf
 
@@ -54,6 +56,24 @@ Die zweite, separat geschriebene synthetische Folge stabilisiert ihren Kurs:
 Bei O3 sagt M1 `(3,5)` und M2 `(3,6)` voraus; beobachtet wird `(3,5)`.
 Unter demselben zuvor festgelegten Oracle gewinnt diesmal M1 mit Fehlerquadrat
 `0` gegen `1`. Der Regler zeigt beide Fälle, ohne die Auswahlregel zu ändern.
+
+## Zweiter Lauf: Text, Mini-IR, Apfel und Schatten
+
+`scene.mjs` akzeptiert ausschließlich den erfundenen Text
+`object:apple; color:red; light:?`. Sein Parser gibt eine fest definierte
+Mini-Struktur aus: roter Apfel und zwei Kandidaten für die unbekannte
+Lichtrichtung. Er behauptet keine freie Sprachverarbeitung. Beide Kandidaten
+projizieren den Apfel an dieselbe Position und einen Schatten um 42 Einheiten
+nach rechts oder links. Das vorab festgelegte Oracle ist das Fehlerquadrat des
+Schattenmittelpunkts gegen eine synthetische Beobachtung. Nach der Auswahl
+wird der Apfel verschoben und ein neuer Schatten als Prognose gerendert.
+
+Die zweite Ansicht kann beide möglichen synthetischen Beobachtungen aufdecken:
+rechts wählt Licht von links, links wählt Licht von rechts. Der nächste
+Bildkandidat bleibt bis zur nächsten Beobachtung ein Modelloutput. Es gibt
+keinen Pixelabgleich mit einem realen Foto und keine Rekonstruktion eines
+physischen Apfels. Der Abschnitt ist näher an der Text–Semantik–Struktur–Bild-
+Idee im August-Entwurf, aber keine vollständige Umsetzung dieser Architektur.
 
 ## Nächste unterscheidende Kanten
 

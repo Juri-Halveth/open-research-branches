@@ -4,7 +4,9 @@ import { fileURLToPath } from "node:url";
 
 const files = new Map([
   ["/", ["index.html", "text/html; charset=utf-8"]],
-  ["/model.mjs", ["model.mjs", "text/javascript; charset=utf-8"]]
+  ["/model.mjs", ["model.mjs", "text/javascript; charset=utf-8"]],
+  ["/scene.html", ["scene.html", "text/html; charset=utf-8"]],
+  ["/scene.mjs", ["scene.mjs", "text/javascript; charset=utf-8"]]
 ]);
 const root = new URL("./", import.meta.url);
 const server = createServer(async (request, response) => {

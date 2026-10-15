@@ -132,6 +132,9 @@ branches/lucinet-mirror-loop/index.html
 branches/lucinet-mirror-loop/model.mjs
 branches/lucinet-mirror-loop/model.test.mjs
 branches/lucinet-mirror-loop/README.md
+branches/lucinet-mirror-loop/scene.html
+branches/lucinet-mirror-loop/scene.mjs
+branches/lucinet-mirror-loop/scene.test.mjs
 branches/lucinet-mirror-loop/serve.mjs
 branches/navier-stokes-credit-value-and-plagiarism-audit/claims.json
 branches/navier-stokes-credit-value-and-plagiarism-audit/LIES_MICH_ZUERST.md

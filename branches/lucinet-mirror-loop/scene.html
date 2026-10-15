@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LUCINET · Apfel, Schatten und Projektion</title>
+  <style>
+    :root { color-scheme: dark; font-family: Inter, ui-sans-serif, system-ui, sans-serif; background: #09131e; color: #e9f3f4; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: radial-gradient(ellipse at 95% 0%, #274050, transparent 45%), #09131e; }
+    main { max-width: 1230px; margin: auto; padding: clamp(20px, 4vw, 52px); }
+    a { color: #76dfc5; }
+    .eyebrow { color: #78e1c3; text-transform: uppercase; letter-spacing: .17em; font-size: 12px; font-weight: 750; }
+    h1 { max-width: 940px; font-size: clamp(38px, 5vw, 65px); line-height: 1.05; letter-spacing: -.05em; margin: 12px 0 16px; }
+    .intro { color: #a9bec8; line-height: 1.7; font-size: 17px; max-width: 850px; }
+    .flow { display: flex; flex-wrap: wrap; gap: 9px; margin: 26px 0; }
+    .flow span { border: 1px solid #37606b; border-radius: 999px; padding: 8px 12px; color: #addad8; font-size: 12px; font-weight: 750; }
+    .top { display: grid; grid-template-columns: 1.15fr .85fr; gap: 17px; }
+    .panel { background: #102332; border: 1px solid #2a4958; border-radius: 18px; padding: 22px; }
+    h2 { font-size: 18px; margin: 0 0 14px; }
+    .kicker { color: #82a9b8; font-size: 12px; text-transform: uppercase; letter-spacing: .1em; font-weight: 750; }
+    code { display: block; background: #071822; padding: 15px; border: 1px solid #2d4c57; border-radius: 10px; color: #9df1d0; overflow-wrap: anywhere; margin: 9px 0 15px; }
+    .ir { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+    .ir div { background: #17303c; border-radius: 8px; padding: 11px; font-size: 13px; }
+    .ir strong { display: block; color: #88aeb8; font-size: 11px; margin-bottom: 4px; }
+    label { display: block; color: #c0d4da; font-size: 13px; font-weight: 700; margin-bottom: 7px; }
+    select, button { font: inherit; border-radius: 9px; padding: 11px 13px; }
+    select { width: 100%; color: #edf6f5; background: #102332; border: 1px solid #53737c; }
+    button { width: 100%; margin-top: 12px; border: 0; background: #72e2b7; color: #071a20; font-weight: 800; cursor: pointer; }
+    button:hover { background: #a4f5d4; }
+    .candidate-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 17px; margin-top: 17px; }
+    .candidate { min-width: 0; }
+    .candidate p { margin: 0; font-size: 13px; color: #a9bec8; }
+    .candidate svg, #new-scene { width: 100%; height: auto; display: block; background: #091b2a; border-radius: 10px; margin: 14px 0; }
+    .score { font-size: 15px; font-weight: 750; color: #f5bf78; min-height: 25px; }
+    .bottom { margin-top: 17px; display: grid; grid-template-columns: 1fr 1fr; gap: 17px; }
+    #decision { color: #7be6c1; font-size: 22px; font-weight: 750; margin-top: 10px; }
+    #new-detail { color: #b3cad0; line-height: 1.65; font-size: 14px; }
+    .boundary { color: #a9bec8; line-height: 1.65; font-size: 14px; margin-top: 22px; }
+    @media (max-width: 760px) { .top, .bottom, .candidate-grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+<main>
+  <div class="eyebrow">HALVETH!!! / LUCINET / begrenzte Bildrekonstruktion</div>
+  <h1>Ein Apfel. Zwei Schatten. Eine überprüfbare Projektion.</h1>
+  <p class="intro">Das August-Bild zeigt Text, Semantik, Struktur und ein Apfelhologramm. Hier wird daraus eine bewusst kleine technische Frage: Welche von zwei Lichtannahmen erklärt die Position eines synthetischen Schattens besser?</p>
+  <div class="flow"><span>Exakter Quelltext</span><span>Gebundene Mini-Grammatik</span><span>Zwei Projektionen</span><span>Beobachtung</span><span>Vergleich</span><span>Neue Projektion</span></div>
+
+  <div class="top">
+    <section class="panel"><div class="kicker">Source · künstlich geschrieben</div><code>object:apple; color:red; light:?</code><h2>Struktur nach exakter Grammatik</h2><div class="ir"><div><strong>Objekt</strong>APPLE</div><div><strong>Farbe</strong>RED</div><div><strong>Unbekannt</strong>LIGHT_DIRECTION</div><div><strong>Kandidaten</strong>LEFT / RIGHT</div></div></section>
+    <section class="panel"><div class="kicker">Beobachtungsvertrag</div><h2>Synthetischer Schatten</h2><label for="direction">Aufgedeckte Position</label><select id="direction"><option value="LEFT">Schatten rechts vom Apfel</option><option value="RIGHT">Schatten links vom Apfel</option></select><button id="reveal">Beobachtung aufdecken und vergleichen</button><p class="boundary">Die zwei Projektionen werden vor dem Klick aus derselben Apfelposition berechnet. Das Auswahlmaß ist vorher fest: quadrierter Abstand der Schattenmittelpunkte.</p></section>
+  </div>
+
+  <div class="candidate-grid">
+    <section class="panel candidate"><div class="kicker">Modell L · Licht von links</div><svg id="left-scene" viewBox="0 0 320 215" role="img" aria-label="Apfel mit Schatten rechts"></svg><div class="score" id="left-score">Fehler²: wartet auf Beobachtung</div><p>Schattenversatz +42 synthetische Einheiten.</p></section>
+    <section class="panel candidate"><div class="kicker">Modell R · Licht von rechts</div><svg id="right-scene" viewBox="0 0 320 215" role="img" aria-label="Apfel mit Schatten links"></svg><div class="score" id="right-score">Fehler²: wartet auf Beobachtung</div><p>Schattenversatz −42 synthetische Einheiten.</p></section>
+  </div>
+
+  <div class="bottom">
+    <section class="panel"><div class="kicker">Evaluation</div><h2>Welches Modell erklärt diesen Punkt?</h2><div id="decision">Noch offen</div><p id="new-detail">Die nächste Position ist bis zum Vergleich nur ein Kandidat.</p></section>
+    <section class="panel"><div class="kicker">Neuer Bildkandidat</div><h2>Apfel an neuer Position</h2><svg id="new-scene" viewBox="0 0 320 215" role="img" aria-label="Nächste synthetische Projektion"></svg></section>
+  </div>
+  <p class="boundary">Dieser Lauf prüft eine feste Mini-Grammatik, eine einzelne synthetische Schattenbeobachtung und eine neue lokale Projektion. Er erkennt keine realen Äpfel, rekonstruiert keine verdeckten Oberflächen und ist kein universeller Reality Compiler. <a href="/">Zur Punktfolge</a> · <a href="https://github.com/Juri-Halveth/open-research-branches/blob/codex/black-widow-world-audit-20261015/reports/LUCINET_MIRROR_AUGUST_PROVENANCE_2026-10-16.md">August-Herkunft</a></p>
+</main>
+<script type="module">
+  import { SCENE_SOURCE, parseSceneSource, renderCandidate, compareSceneCandidates, reprojectScene } from "./scene.mjs";
+  const ir = parseSceneSource(SCENE_SOURCE);
+  const NS = "http://www.w3.org/2000/svg";
+  const appleX = 155;
+  const candidates = [renderCandidate(ir, "LEFT", appleX), renderCandidate(ir, "RIGHT", appleX)];
+  function add(svg, name, attrs) {
+    const node = document.createElementNS(NS, name);
+    Object.entries(attrs).forEach(([key, value]) => node.setAttribute(key, String(value)));
+    svg.append(node);
+    return node;
+  }
+  function draw(svg, scene) {
+    svg.replaceChildren();
+    if (!scene) return;
+    add(svg, "line", { x1: 15, y1: 178, x2: 305, y2: 178, stroke: "#32505d", "stroke-width": 2 });
+    add(svg, "ellipse", { cx: scene.shadow.x, cy: scene.shadow.y, rx: scene.shadow.radiusX, ry: scene.shadow.radiusY, fill: "#47577a", opacity: .7 });
+    add(svg, "circle", { cx: scene.apple.x, cy: scene.apple.y, r: scene.apple.radius, fill: "#e84959", stroke: "#ff8a80", "stroke-width": 3 });
+    add(svg, "ellipse", { cx: scene.apple.x - 10, cy: scene.apple.y - 11, rx: 5, ry: 10, fill: "#ff9a97", opacity: .55 });
+    add(svg, "line", { x1: scene.stem.x, y1: scene.stem.y + scene.stem.length, x2: scene.stem.x + 4, y2: scene.stem.y, stroke: "#b99567", "stroke-width": 5, "stroke-linecap": "round" });
+    add(svg, "ellipse", { cx: scene.stem.x + 18, cy: scene.stem.y + 2, rx: 17, ry: 7, fill: "#5bcb8d", transform: `rotate(-20 ${scene.stem.x + 18} ${scene.stem.y + 2})` });
+  }
+  draw(document.getElementById("left-scene"), candidates[0]);
+  draw(document.getElementById("right-scene"), candidates[1]);
+  document.getElementById("reveal").addEventListener("click", () => {
+    const direction = document.getElementById("direction").value;
+    const observation = { appleX, shadowX: direction === "LEFT" ? appleX + 42 : appleX - 42 };
+    const result = compareSceneCandidates(ir, observation);
+    const next = reprojectScene(ir, result, 180);
+    for (const item of result.candidates) {
+      document.getElementById(item.id === "LEFT" ? "left-score" : "right-score").textContent = `Fehler²: ${item.squaredShadowError}`;
+    }
+    document.getElementById("decision").textContent = result.selectedLightDirection === "LEFT" ? "Licht von links" : "Licht von rechts";
+    document.getElementById("new-detail").textContent = `Schattenmittelpunkt bei x=${observation.shadowX} beobachtet. Nächster Bildkandidat: Apfel x=180, Schatten x=${next.shadow.x}. Die nächste Beobachtung ist noch offen.`;
+    draw(document.getElementById("new-scene"), next);
+  });
+</script>
+</body>
+</html>

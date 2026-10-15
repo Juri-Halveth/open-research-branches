@@ -45,7 +45,7 @@ HALVETH VERACHEL STUDIOS · Quellstand, dokumentierte Ergebnisse und SHA-256-Bel
 
 **LUCINET-Bild vom August 2026:** [Originalbild, C2PA-Datierung und heutiger Technikstand](reports/LUCINET_MIRROR_AUGUST_PROVENANCE_2026-10-16.md). Die signierte Bildfassung und die inzwischen vorhandenen Quellwerkzeuge sind getrennt dokumentiert.
 
-**Neuer ausführbarer LUCINET-Ast:** [Mirror Loop](branches/lucinet-mirror-loop/README.md) zeigt mit synthetischen Punkten zwei getrennte Vorhersagen, denselben Fehlermaßstab und eine neue, später prüfbare Projektion. Die HTML-Ansicht wird lokal nach Anleitung gestartet.
+**Neuer ausführbarer LUCINET-Ast:** [Mirror Loop](branches/lucinet-mirror-loop/README.md) zeigt mit synthetischen Punkten zwei getrennte Vorhersagen und eine neue Projektion; eine zweite Ansicht prüft Apfel, Licht und Schatten aus einer festen Textgrammatik. Beide HTML-Ansichten werden lokal nach Anleitung gestartet.
 
 [Deutsch / English: Loki, Dormammu und Wanda](reports/HALVETH_MARVEL_PERSPECTIVES.de.md) · [Öffentliche Namensführung / Public attribution](PUBLIC-NAME.md)
 

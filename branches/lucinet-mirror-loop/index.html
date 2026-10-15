@@ -31,6 +31,7 @@
     .notes { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; margin-top: 25px; color: #a9bdc7; font-size: 14px; line-height: 1.65; }
     .notes h2 { color: #e9f3f4; font-size: 17px; margin: 0 0 8px; }
     .notes p { margin-top: 0; }
+    .next-link { display: inline-block; margin-top: 21px; color: #8df0ce; font-weight: 750; text-decoration: none; border-bottom: 1px solid #8df0ce; padding-bottom: 4px; }
     .legend { display: flex; flex-wrap: wrap; gap: 10px 22px; padding: 0 24px 19px; font-size: 12px; color: #bbced5; }
     .legend span::before { content: ""; display: inline-block; width: 12px; height: 12px; margin-right: 7px; border-radius: 50%; vertical-align: -1px; background: var(--c); }
     @media (max-width: 700px) { .cards, .notes, .controls { grid-template-columns: 1fr; } .surface-top { align-items: start; flex-direction: column; } }
@@ -68,6 +69,7 @@
     <div><h2>Was der Lauf tatsächlich zeigt</h2><p>Der Vergleich bindet nur die bereitgestellten synthetischen Punkte. Der Fehler ist der quadrierte euklidische Abstand zur gerade aufgedeckten Beobachtung. Die Auswahl ist eine lokale Modellentscheidung, keine Aussage über die Ursache der Route.</p></div>
     <div><h2>Was offen bleibt</h2><p>Der nächste Punkt ist bis zur nächsten Beobachtung eine Prognose. Das August-Bild, der private Screenshot, reale Geräte, verborgene Zustände und physische Raumzeit werden hier nicht gemessen. Die gestrichelte Gerade ist nur eine Referenzlinie, kein Zielzwang.</p></div>
   </div>
+  <a class="next-link" href="/scene.html">Zum zweiten Lauf: Apfel, Licht und Schatten →</a>
 </main>
 <script type="module">
   import { SYNTHETIC_TRACE, SYNTHETIC_STABLE_TRACE, runMirrorStep } from "./model.mjs";
