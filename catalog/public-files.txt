@@ -56,6 +56,14 @@ branches/binary-inquiry-loop/binary-inquiry-machine.mjs
 branches/binary-inquiry-loop/binary-inquiry-machine.test.mjs
 branches/binary-inquiry-loop/package.json
 branches/binary-inquiry-loop/README.md
+branches/black-widow-world-audit/app.js
+branches/black-widow-world-audit/audit.json
+branches/black-widow-world-audit/index.html
+branches/black-widow-world-audit/METHOD.md
+branches/black-widow-world-audit/navigation-frame.json
+branches/black-widow-world-audit/navigation-receipt.json
+branches/black-widow-world-audit/README.md
+branches/black-widow-world-audit/style.css
 branches/bounded-knowledge-reuse-inventory/fixtures/synthetic-inventory.json
 branches/bounded-knowledge-reuse-inventory/LICENSE
 branches/bounded-knowledge-reuse-inventory/package.json

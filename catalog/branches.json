@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-09-15",
+  "generatedAt": "2026-10-15",
   "collectionState": "FINITE_SNAPSHOT",
   "branches": [
     {
@@ -331,6 +331,16 @@
       "path": "branches/normenwerk-rule-universe",
       "claimCeiling": "SYNTHETIC_MODEL_EVALUATION_FULL_RECORD_REPLAY_AND_IN_MEMORY_EVENT_ARCHIVE",
       "dataClass": "SYNTHETIC_FIXTURES_AND_PUBLIC_TECHNICAL_DOCUMENTATION_ONLY",
+      "activeMain": false
+    },
+    {
+      "id": "black-widow-world-audit",
+      "title": "Black Widow World Audit · Was von verschwundenen Akten bleibt",
+      "kind": "public-source-historical-audit-and-interactive-map",
+      "state": "FINITE_SNAPSHOT",
+      "path": "branches/black-widow-world-audit",
+      "claimCeiling": "SOURCE_BOUND_FINITE_SNAPSHOT_NO_CROSS_CASE_CAUSALITY",
+      "dataClass": "PUBLIC_SOURCES_ONLY",
       "activeMain": false
     },
     {

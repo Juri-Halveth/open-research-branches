@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090d13">
+  <meta name="description" content="Ein quellengebundenes Audit über verschwundene Geheimdienstakten, erhaltene Spuren, Fiktion und offene historische Kanten.">
+  <title>BLACK WIDOW / Was von verschwundenen Akten bleibt</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#inhalt">Zum Inhalt springen</a>
+  <header class="topbar">
+    <a class="brand" href="../../README.md" aria-label="HALVETH Open Research"><span class="brand-mark">H</span><span>HALVETH <small>OPEN RESEARCH</small></span></a>
+    <nav aria-label="Seitenabschnitte">
+      <a href="#fund">Fund</a>
+      <a href="#karte">Quellenkarte</a>
+      <a href="#fragen">Fragen</a>
+      <a href="#quellen">Quellen</a>
+    </nav>
+    <span class="edition">SNAPSHOT / 15.10.2026</span>
+  </header>
+  <main id="inhalt">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="pulse"></span> BLACK WIDOW · WORLD AUDIT / 001</p>
+        <h1 id="hero-title">Die Akte ist weg.<br><em>Die Spur nicht.</em></h1>
+        <p class="lede">1989/90 wurde ein Geheimdienstarchiv fast vollständig vernichtet. Jahre später wurden Datenbänder wieder lesbar und Mikrofilm-Karteien kehrten zurück. Eine reale Rekonstruktionsgeschichte — mit einer entscheidenden Grenze: Ein Karteieintrag macht niemanden zum Agenten.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#fund">Den Fund prüfen <span aria-hidden="true">↘</span></a>
+          <a class="button ghost" href="#karte">Das Netz öffnen <span aria-hidden="true">↗</span></a>
+        </div>
+        <p class="micro">Öffentliche Quellen · Keine Filmframes · Keine privaten Akten · Offene Hypothesen bleiben sichtbar</p>
+      </div>
+      <div class="hero-symbol" aria-hidden="true">
+        <div class="orbit o1"></div><div class="orbit o2"></div><div class="orbit o3"></div>
+        <div class="core"><span>?</span></div>
+        <span class="orbit-note n1">VERLUST</span><span class="orbit-note n2">RESTSPUR</span><span class="orbit-note n3">PRÜFUNG</span>
+      </div>
+    </section>
+
+    <section id="fund" class="section feature">
+      <div class="section-head">
+        <div><p class="eyebrow">01 / ARCHIVSPUR</p><h2>„Alles gelöscht“ hält der Quelle nicht stand.</h2></div>
+        <p>Das Bundesarchiv beschreibt mehrere verschiedenartige Überlebenswege. Jeder trägt nur seinen eigenen Ausschnitt.</p>
+      </div>
+      <div class="survival-grid">
+        <article class="survival-card"><span class="card-index">1989—90</span><div class="card-glyph loss">×</div><h3>Vernichtung</h3><p>Die HV A löste sich selbst auf und vernichtete ihr Archiv fast vollständig.</p><a href="https://www.bundesarchiv.de/themen-entdecken/online-entdecken/themenbeitraege/die-rosenholz-dateien/" target="_blank" rel="noopener noreferrer">Bundesarchiv ↗</a></article>
+        <article class="survival-card"><span class="card-index">1998</span><div class="card-glyph">◌</div><h3>SIRA</h3><p>EDV-Bänder mit vielen angeblich gelöschten Datensätzen wurden wieder lesbar.</p><a href="https://www.bundesarchiv.de/themen-entdecken/online-entdecken/themenbeitraege/die-rosenholz-dateien/" target="_blank" rel="noopener noreferrer">Bundesarchiv ↗</a></article>
+        <article class="survival-card"><span class="card-index">1999—2003</span><div class="card-glyph">▤</div><h3>Rosenholz</h3><p>381 CD-ROMs mit Kopien mikroverfilmter Karteien kamen aus den USA zurück.</p><a href="https://www.bundesarchiv.de/themen-entdecken/online-entdecken/themenbeitraege/die-rosenholz-dateien/" target="_blank" rel="noopener noreferrer">Bundesarchiv ↗</a></article>
+        <article class="survival-card caution"><span class="card-index">QUELLENKRITIK</span><div class="card-glyph">≈</div><h3>90 % Dritte</h3><p>Rund neun von zehn erfassten Personen waren laut Archiv Betroffene oder Dritte.</p><a href="https://www.bundesarchiv.de/themen-entdecken/online-entdecken/themenbeitraege/die-rosenholz-dateien/" target="_blank" rel="noopener noreferrer">F16 / F22 prüfen ↗</a></article>
+      </div>
+      <p class="feature-note"><strong>Präzision:</strong> Das Datum 1998 betrifft SIRA-Bänder. Die Rückgabe bis 2003 betrifft Rosenholz-Kopien. Rekonstruierte zerrissene MfS-Blätter sind ein weiterer, allgemeiner Archivpfad; ihre Gesamtzahl wird hier nicht der HV A zugeschrieben.</p>
+    </section>
+
+    <section id="karte" class="section map-section">
+      <div class="section-head">
+        <div><p class="eyebrow">02 / GETYPTE RELATIONEN</p><h2>Ein Netz aus Fragen. Keine erfundene Befehlskette.</h2></div>
+        <p>Wähle einen Punkt. Durchgezogene Linien zeigen eine quellengebundene Beziehung; gestrichelte Linien nur Analogie, Chronologie oder offene Trennung.</p>
+      </div>
+      <div class="map-controls" id="map-controls" aria-label="Kartenfilter"></div>
+      <div class="map-layout">
+        <div class="map-stage">
+          <svg id="graph" viewBox="0 0 1200 500" role="img" aria-label="Interaktive Quellenkarte mit getrennten Film-, Archiv-, Geheimdienst-, Krisen- und 9/11-Strängen"></svg>
+          <div class="map-legend"><span><i class="line solid"></i> quellengebundene Relation</span><span><i class="line dashed"></i> Analogie / zeitliche Nähe / offene Grenze</span></div>
+        </div>
+        <aside id="detail" class="detail" aria-live="polite"><p class="eyebrow">KNOTEN AUSWÄHLEN</p><h3>Was trägt die Quelle?</h3><p>Jeder Punkt zeigt Beleg, Grenze, Gegenmodell und nächste unterscheidende Quelle.</p></aside>
+      </div>
+    </section>
+
+    <section class="section split-section">
+      <div class="split-intro"><p class="eyebrow">03 / FILM × GESCHICHTE</p><h2>Fiktion darf fragen.<br><em>Akten müssen antworten.</em></h2><p>Die Titelsequenz von <cite>Black Widow</cite> kombiniert laut beteiligtem Produzenten neu gedrehte Bilder und erzählungsbezogenes Stockmaterial. Daraus entsteht eine starke historische Anmutung — die Herkunft jedes Frames bleibt eine eigene Aufgabe.</p><a class="text-link" href="https://www.ericdaly.com/projects/black-widow-titles" target="_blank" rel="noopener noreferrer">Produktionsquelle lesen ↗</a></div>
+      <div class="boundary">
+        <div><span>FIKTION</span><strong>Red Room</strong><small>Marvel-Erzählwelt</small></div>
+        <div class="boundary-bridge"><span>FRAGE →</span><small>kein Identitätsbeweis</small></div>
+        <div><span>ARCHIV</span><strong>HV A / SIRA</strong><small>quellengebundene Geschichte</small></div>
+      </div>
+    </section>
+
+    <section id="fragen" class="section questions-section">
+      <div class="section-head"><div><p class="eyebrow">04 / OFFENE KANTEN</p><h2>Die unbequemen Fragen bleiben lesbar.</h2></div><p>Zu jeder Hypothese stehen ein Gegenmodell und ein konkreter Wiederöffnungstrigger. Offen bedeutet nicht wahrscheinlich.</p></div>
+      <div id="hypotheses" class="hypotheses"></div>
+    </section>
+
+    <section id="quellen" class="section sources-section">
+      <div class="section-head"><div><p class="eyebrow">05 / PROVENIENZ</p><h2>Zurück zur Quelle.</h2></div><p>Keine Spiegelung fremder Rohakten. Die Links führen zur publizierenden Stelle; Datum und Quelltyp stehen im Datensatz.</p></div>
+      <div id="sources" class="sources"></div>
+      <div class="closing"><span>FINITE SNAPSHOT</span><p>Dieses Modell endet an der nächsten zugänglichen Originalsignatur oder einem eindeutig zugeordneten Filmframe. Korrekturen erhalten eine neue Version; offene Äste verschwinden nicht.</p><a href="./METHOD.md">Methode & Coverage ↗</a></div>
+    </section>
+  </main>
+  <footer><span>HALVETH / LUCINET · BLACK WIDOW WORLD AUDIT</span><span>Öffentliche Quellen · 2026</span><a href="./README.md">Forschungsbericht ↗</a></footer>
+</body>
+</html>

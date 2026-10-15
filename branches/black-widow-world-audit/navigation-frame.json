@@ -1,0 +1,461 @@
+{
+  "schema": "halveth.status-quo-navigation-frame.v1",
+  "logicVersion": "3.5.1",
+  "entityVersion": "1.0.0",
+  "entityState": "STATUS_QUO_FROZEN",
+  "frameId": "BLACK.WIDOW.WORLD.AUDIT.20261015",
+  "project": {
+    "domainAdapter": "GENERAL_RESEARCH",
+    "objective": "Identify source-bound survival paths for destroyed records and retain historical countermodels without cross-case causal invention.",
+    "objectOrReferent": "Public Black Widow title-sequence and historical archive analogies within the bounded source snapshot.",
+    "scope": "Twelve selected public sources; no private records, individual identification, external contact or archive access.",
+    "deliverableType": "PUBLIC_AUDIT_BRANCH",
+    "sourceRefs": [
+      "FILM01",
+      "BA01",
+      "BA02",
+      "BA03",
+      "FRUS01",
+      "COURT01"
+    ],
+    "acceptedBaselineRef": "OPEN.RESEARCH.3CB2075D"
+  },
+  "scanPolicy": {
+    "horizontalMode": "FULL_DECLARED_ADAPTER_APERTURE",
+    "verticalPreviewDepth": 4,
+    "diagonalMode": "COMPLETE_MATERIAL_CANDIDATE_PAIR_GRAPH",
+    "selectiveDrillDepth": 4,
+    "noSelectiveDrillBeforeDiagonal": true,
+    "freezeMode": "VERSIONED_IMMUTABLE_BASELINE"
+  },
+  "axisRegistry": [
+    {
+      "axisId": "SOURCE",
+      "label": "Quelle",
+      "definition": "Bindet Originalbelege, Herausgeber, Datum und Zugangsgrenze.",
+      "layer": "GENERAL_RESEARCH",
+      "scope": "Public finite snapshot with source-bound claim ceilings.",
+      "sourceBasisRefs": [
+        "BA01",
+        "BA03"
+      ],
+      "statusQuoRef": "STATUSQUO.SOURCE.V1"
+    },
+    {
+      "axisId": "DEFINITION",
+      "label": "Definition",
+      "definition": "Trennt Filmfiktion, Archivbegriffe und Rekonstruktion.",
+      "layer": "GENERAL_RESEARCH",
+      "scope": "Public finite snapshot with source-bound claim ceilings.",
+      "sourceBasisRefs": [
+        "FILM01",
+        "BA01"
+      ],
+      "statusQuoRef": "STATUSQUO.DEFINITION.V1"
+    },
+    {
+      "axisId": "MECHANISM",
+      "label": "Mechanismus",
+      "definition": "Trennt Vernichtung, Datenrest, Mikrofilm und Wiederlesbarkeit.",
+      "layer": "GENERAL_RESEARCH",
+      "scope": "Public finite snapshot with source-bound claim ceilings.",
+      "sourceBasisRefs": [
+        "BA01",
+        "BA02"
+      ],
+      "statusQuoRef": "STATUSQUO.MECHANISM.V1"
+    },
+    {
+      "axisId": "COUNTERHYPOTHESIS",
+      "label": "Gegenhypothese",
+      "definition": "Prüft Rollenfehlschlüsse und Scheinverbindungen.",
+      "layer": "GENERAL_RESEARCH",
+      "scope": "Public finite snapshot with source-bound claim ceilings.",
+      "sourceBasisRefs": [
+        "BA01",
+        "FILM01"
+      ],
+      "statusQuoRef": "STATUSQUO.COUNTERHYPOTHESIS.V1"
+    },
+    {
+      "axisId": "OBSERVATION",
+      "label": "Beobachtung",
+      "definition": "Bindet die gelesenen öffentlichen Quellabschnitte.",
+      "layer": "GENERAL_RESEARCH",
+      "scope": "Public finite snapshot with source-bound claim ceilings.",
+      "sourceBasisRefs": [
+        "BA01",
+        "FRUS01"
+      ],
+      "statusQuoRef": "STATUSQUO.OBSERVATION.V1"
+    },
+    {
+      "axisId": "MATERIALIZATION_BRIDGE",
+      "label": "Materialisierungsbrücke",
+      "definition": "Originalsignatur und Originalfilmasset bleiben offen.",
+      "layer": "GENERAL_RESEARCH",
+      "scope": "Public finite snapshot with source-bound claim ceilings.",
+      "sourceBasisRefs": [
+        "BA01",
+        "FILM01"
+      ],
+      "statusQuoRef": "STATUSQUO.MATERIALIZATION_BRIDGE.V1"
+    },
+    {
+      "axisId": "IMPACT",
+      "label": "Wirkung",
+      "definition": "Tatsächliche gesellschaftliche oder behördliche Wirkung bleibt ungeprüft.",
+      "layer": "GENERAL_RESEARCH",
+      "scope": "Public finite snapshot with source-bound claim ceilings.",
+      "sourceBasisRefs": [
+        "BA01",
+        "COURT01"
+      ],
+      "statusQuoRef": "STATUSQUO.IMPACT.V1"
+    },
+    {
+      "axisId": "UNKNOWN_FRONTIER",
+      "label": "Offene Front",
+      "definition": "Erhält unbekannte Originale und alternative Lesarten.",
+      "layer": "GENERAL_RESEARCH",
+      "scope": "Public finite snapshot with source-bound claim ceilings.",
+      "sourceBasisRefs": [
+        "BA01",
+        "FILM01"
+      ],
+      "statusQuoRef": "STATUSQUO.UNKNOWN_FRONTIER.V1"
+    }
+  ],
+  "axisEvaluations": [
+    {
+      "axisId": "SOURCE",
+      "state": "FLAGGED_MATERIAL",
+      "evidenceState": "STRONGLY_SUPPORTED",
+      "horizontalReceiptRefs": [
+        "RECEIPT.SOURCE.PUBLIC.SNAPSHOT"
+      ],
+      "exclusionReason": null,
+      "verticalProbe": {
+        "state": "COVERED",
+        "completedDepth": 4,
+        "maximumDepth": 4,
+        "layerReceiptRefs": [
+          "SOURCE.L1.ARCHIVE",
+          "SOURCE.L2.SIRA.ROSENHOLZ",
+          "SOURCE.L3.INVENTORY",
+          "SOURCE.L4.SIGNATURE.OPEN"
+        ],
+        "criticalUnknownCount": 1,
+        "deepDivePurpose": "MULTI_APERTURE_FIELD_PROBE"
+      },
+      "priorityVector": {
+        "objectiveRelevance": 4,
+        "criticality": 4,
+        "evidenceStrength": 4,
+        "authorizedActionability": 4,
+        "informationGain": 4,
+        "repairValue": 4,
+        "effortCost": 1,
+        "actionRisk": 0
+      },
+      "frontierRef": "FRONTIER.SOURCE.ORIGINAL"
+    },
+    {
+      "axisId": "DEFINITION",
+      "state": "STABLE_WITHIN_COVERAGE",
+      "evidenceState": "OBSERVED",
+      "horizontalReceiptRefs": [
+        "RECEIPT.DEFINITION.PUBLIC.SNAPSHOT"
+      ],
+      "exclusionReason": null,
+      "verticalProbe": {
+        "state": "NOT_REQUIRED",
+        "completedDepth": 0,
+        "maximumDepth": 4,
+        "layerReceiptRefs": [],
+        "criticalUnknownCount": 0,
+        "deepDivePurpose": null
+      },
+      "priorityVector": {
+        "objectiveRelevance": 2,
+        "criticality": 2,
+        "evidenceStrength": 3,
+        "authorizedActionability": 4,
+        "informationGain": 2,
+        "repairValue": 2,
+        "effortCost": 1,
+        "actionRisk": 0
+      },
+      "frontierRef": null
+    },
+    {
+      "axisId": "MECHANISM",
+      "state": "FLAGGED_MATERIAL",
+      "evidenceState": "STRONGLY_SUPPORTED",
+      "horizontalReceiptRefs": [
+        "RECEIPT.MECHANISM.PUBLIC.SNAPSHOT"
+      ],
+      "exclusionReason": null,
+      "verticalProbe": {
+        "state": "COVERED",
+        "completedDepth": 4,
+        "maximumDepth": 4,
+        "layerReceiptRefs": [
+          "MECHANISM.L1.DESTRUCTION",
+          "MECHANISM.L2.SURVIVAL",
+          "MECHANISM.L3.RECOVERY",
+          "MECHANISM.L4.ROUNDTRIP.OPEN"
+        ],
+        "criticalUnknownCount": 1,
+        "deepDivePurpose": "MULTI_APERTURE_FIELD_PROBE"
+      },
+      "priorityVector": {
+        "objectiveRelevance": 3,
+        "criticality": 3,
+        "evidenceStrength": 3,
+        "authorizedActionability": 4,
+        "informationGain": 3,
+        "repairValue": 3,
+        "effortCost": 1,
+        "actionRisk": 0
+      },
+      "frontierRef": "FRONTIER.MECHANISM.ORIGINAL"
+    },
+    {
+      "axisId": "COUNTERHYPOTHESIS",
+      "state": "FLAGGED_MATERIAL",
+      "evidenceState": "STRONGLY_SUPPORTED",
+      "horizontalReceiptRefs": [
+        "RECEIPT.COUNTERHYPOTHESIS.PUBLIC.SNAPSHOT"
+      ],
+      "exclusionReason": null,
+      "verticalProbe": {
+        "state": "COVERED",
+        "completedDepth": 4,
+        "maximumDepth": 4,
+        "layerReceiptRefs": [
+          "COUNTER.L1.DELETION",
+          "COUNTER.L2.TRACES",
+          "COUNTER.L3.ROLE.ERROR",
+          "COUNTER.L4.CONTEXT.OPEN"
+        ],
+        "criticalUnknownCount": 1,
+        "deepDivePurpose": "MULTI_APERTURE_FIELD_PROBE"
+      },
+      "priorityVector": {
+        "objectiveRelevance": 3,
+        "criticality": 3,
+        "evidenceStrength": 3,
+        "authorizedActionability": 4,
+        "informationGain": 3,
+        "repairValue": 3,
+        "effortCost": 1,
+        "actionRisk": 0
+      },
+      "frontierRef": "FRONTIER.COUNTERHYPOTHESIS.ORIGINAL"
+    },
+    {
+      "axisId": "OBSERVATION",
+      "state": "STABLE_WITHIN_COVERAGE",
+      "evidenceState": "OBSERVED",
+      "horizontalReceiptRefs": [
+        "RECEIPT.OBSERVATION.PUBLIC.SNAPSHOT"
+      ],
+      "exclusionReason": null,
+      "verticalProbe": {
+        "state": "NOT_REQUIRED",
+        "completedDepth": 0,
+        "maximumDepth": 4,
+        "layerReceiptRefs": [],
+        "criticalUnknownCount": 0,
+        "deepDivePurpose": null
+      },
+      "priorityVector": {
+        "objectiveRelevance": 2,
+        "criticality": 2,
+        "evidenceStrength": 3,
+        "authorizedActionability": 4,
+        "informationGain": 2,
+        "repairValue": 2,
+        "effortCost": 1,
+        "actionRisk": 0
+      },
+      "frontierRef": null
+    },
+    {
+      "axisId": "MATERIALIZATION_BRIDGE",
+      "state": "EXCLUDED_WITH_REASON",
+      "evidenceState": "UNKNOWN",
+      "horizontalReceiptRefs": [],
+      "exclusionReason": "Original SIRA records and original film assets require separate authorized access or licence.",
+      "verticalProbe": {
+        "state": "NOT_REQUIRED",
+        "completedDepth": 0,
+        "maximumDepth": 4,
+        "layerReceiptRefs": [],
+        "criticalUnknownCount": 0,
+        "deepDivePurpose": null
+      },
+      "priorityVector": {
+        "objectiveRelevance": 0,
+        "criticality": 0,
+        "evidenceStrength": 0,
+        "authorizedActionability": 0,
+        "informationGain": 0,
+        "repairValue": 0,
+        "effortCost": 0,
+        "actionRisk": 0
+      },
+      "frontierRef": null
+    },
+    {
+      "axisId": "IMPACT",
+      "state": "EXCLUDED_WITH_REASON",
+      "evidenceState": "UNKNOWN",
+      "horizontalReceiptRefs": [],
+      "exclusionReason": "No effect study or external uptake observation is part of this public source snapshot.",
+      "verticalProbe": {
+        "state": "NOT_REQUIRED",
+        "completedDepth": 0,
+        "maximumDepth": 4,
+        "layerReceiptRefs": [],
+        "criticalUnknownCount": 0,
+        "deepDivePurpose": null
+      },
+      "priorityVector": {
+        "objectiveRelevance": 0,
+        "criticality": 0,
+        "evidenceStrength": 0,
+        "authorizedActionability": 0,
+        "informationGain": 0,
+        "repairValue": 0,
+        "effortCost": 0,
+        "actionRisk": 0
+      },
+      "frontierRef": null
+    },
+    {
+      "axisId": "UNKNOWN_FRONTIER",
+      "state": "STABLE_WITHIN_COVERAGE",
+      "evidenceState": "OBSERVED",
+      "horizontalReceiptRefs": [
+        "RECEIPT.UNKNOWN_FRONTIER.PUBLIC.SNAPSHOT"
+      ],
+      "exclusionReason": null,
+      "verticalProbe": {
+        "state": "NOT_REQUIRED",
+        "completedDepth": 0,
+        "maximumDepth": 4,
+        "layerReceiptRefs": [],
+        "criticalUnknownCount": 0,
+        "deepDivePurpose": null
+      },
+      "priorityVector": {
+        "objectiveRelevance": 2,
+        "criticality": 2,
+        "evidenceStrength": 3,
+        "authorizedActionability": 4,
+        "informationGain": 2,
+        "repairValue": 2,
+        "effortCost": 1,
+        "actionRisk": 0
+      },
+      "frontierRef": null
+    }
+  ],
+  "diagonalRegistry": [
+    {
+      "edgeId": "EDGE.SOURCE.MECHANISM",
+      "leftAxisId": "SOURCE",
+      "rightAxisId": "MECHANISM",
+      "comparisonQuestion": "Which original explains each survival path?",
+      "relationType": "COLLECTIVE_SEARCH_RELATION_CANDIDATE",
+      "sourceBasisRefs": [
+        "BA01",
+        "BA02"
+      ]
+    },
+    {
+      "edgeId": "EDGE.SOURCE.COUNTERHYPOTHESIS",
+      "leftAxisId": "SOURCE",
+      "rightAxisId": "COUNTERHYPOTHESIS",
+      "comparisonQuestion": "Which original rules out the role and deletion shortcuts?",
+      "relationType": "COLLECTIVE_SEARCH_RELATION_CANDIDATE",
+      "sourceBasisRefs": [
+        "BA01"
+      ]
+    },
+    {
+      "edgeId": "EDGE.MECHANISM.COUNTERHYPOTHESIS",
+      "leftAxisId": "MECHANISM",
+      "rightAxisId": "COUNTERHYPOTHESIS",
+      "comparisonQuestion": "Can technical copies survive document loss while context remains missing?",
+      "relationType": "COLLECTIVE_SEARCH_RELATION_CANDIDATE",
+      "sourceBasisRefs": [
+        "BA01",
+        "BA02"
+      ]
+    }
+  ],
+  "diagonalEvaluations": [
+    {
+      "edgeId": "EDGE.SOURCE.MECHANISM",
+      "state": "EVALUATED",
+      "evidenceState": "STRONGLY_SUPPORTED",
+      "evidenceRefs": [
+        "RECEIPT.SOURCE.PUBLIC.SNAPSHOT",
+        "RECEIPT.MECHANISM.PUBLIC.SNAPSHOT"
+      ],
+      "leftDelta": 0,
+      "rightDelta": 0,
+      "exclusionReason": null
+    },
+    {
+      "edgeId": "EDGE.SOURCE.COUNTERHYPOTHESIS",
+      "state": "EVALUATED",
+      "evidenceState": "STRONGLY_SUPPORTED",
+      "evidenceRefs": [
+        "RECEIPT.SOURCE.PUBLIC.SNAPSHOT",
+        "RECEIPT.COUNTERHYPOTHESIS.PUBLIC.SNAPSHOT"
+      ],
+      "leftDelta": 0,
+      "rightDelta": 0,
+      "exclusionReason": null
+    },
+    {
+      "edgeId": "EDGE.MECHANISM.COUNTERHYPOTHESIS",
+      "state": "EVALUATED",
+      "evidenceState": "STRONGLY_SUPPORTED",
+      "evidenceRefs": [
+        "RECEIPT.MECHANISM.PUBLIC.SNAPSHOT",
+        "RECEIPT.COUNTERHYPOTHESIS.PUBLIC.SNAPSHOT"
+      ],
+      "leftDelta": 0,
+      "rightDelta": 0,
+      "exclusionReason": null
+    }
+  ],
+  "decision": {
+    "outcome": "SELECT_FRONTIER",
+    "selectedAxisId": "SOURCE",
+    "nextOperator": "EXTREMUM_NAVIGATION",
+    "preservedAxisIds": [
+      "SOURCE",
+      "DEFINITION",
+      "MECHANISM",
+      "COUNTERHYPOTHESIS",
+      "OBSERVATION",
+      "MATERIALIZATION_BRIDGE",
+      "IMPACT",
+      "UNKNOWN_FRONTIER"
+    ],
+    "rationale": "The archive source supplies the narrowest checkable survival path; materialization and impact stay open."
+  },
+  "authority": {
+    "mode": "LOCAL_READ_ONLY_ANALYSIS",
+    "sourceSystemEffects": 0,
+    "externalNetworkEffects": 0,
+    "mutationAuthorized": false
+  },
+  "recordedAt": "2026-10-15T15:17:04.939Z"
+}
