@@ -2,7 +2,7 @@
 
 **Stand:** 15. Oktober 2026 · **Zustand:** `FINITE_SNAPSHOT` · **Datenklasse:** `PUBLIC_SOURCES_ONLY`
 
-[Interaktive Quellenkarte](index.html) · [Daten](audit.json) · [Navigationsframe](navigation-frame.json) · [Prüfquittung](navigation-receipt.json) · [Methode und Coverage](METHOD.md) · [Quellenkorrektur vorschlagen](https://github.com/Juri-Halveth/open-research-branches/issues/new?template=quellenkorrektur.yml)
+[Interaktive Quellenkarte](index.html) · [9/11: Flugzeuge und Sprengungshypothese](WTC_COLLAPSE_AUDIT_2026-10-15.md) · [Daten](audit.json) · [Navigationsframe](navigation-frame.json) · [Prüfquittung](navigation-receipt.json) · [Methode und Coverage](METHOD.md) · [Quellenkorrektur vorschlagen](https://github.com/Juri-Halveth/open-research-branches/issues/new?template=quellenkorrektur.yml)
 
 > Eine erfundene Geheimorganisation ist eine starke Frage an reale Archive. Sie ist keine Akte über eine reale Organisation.
 
@@ -22,7 +22,7 @@ Der wichtigste Schutz gegen eine neue falsche Geschichte steht in derselben Quel
 | Archive | Das [Bundesarchiv](https://www.bundesarchiv.de/themen-entdecken/online-entdecken/themenbeitraege/die-rosenholz-dateien/) nennt HV-A-Vernichtung, SIRA-Wiederlesbarkeit und Rosenholz-Rückgabe. | Belegt Überlieferung und Archivzugang im benannten Scope; keine Aussage über eine beliebige Person. |
 | Geheimdienstmethoden | Ein [1977 datiertes CIA-Papier in FRUS](https://history.state.gov/historicaldocuments/frus1977-80v24/d12) beschreibt bei Operation Condor grenzüberschreitende Kooperation, eine geplante Computerdatenbank und verdeckte Medienweitergabe. [FBI](https://www.fbi.gov/news/stories/operation-ghost-stories-inside-the-russian-spy-case) und [Bundesarchiv](https://www.bundesarchiv.de/themen-entdecken/online-entdecken/staatssicherheit/stasi-im-westen/) dokumentieren andere, eigene Spionagefälle. | Drei Quellenfamilien über verschiedene Dienste, Zeiten und Zwecke; keine gemeinsame Kommandokette belegt. |
 | Krisen | [IAEA](https://pub.iaea.org/MTCD/publications/PDF/Pub913e_web.pdf), [NATO](https://nato.int/en/about-us/official-texts-and-resources/official-texts/2008/04/03/bucharest-summit-declaration), [Gericht Den Haag](https://www.rechtspraak.nl/organisatie-en-contact/organisatie/rechtbanken/rechtbank-den-haag/nieuws/2022/11/mh17) und [JIT](https://www.prosecutionservice.nl/latest/news/2023/02/08/jit-mh17-strong-indications-that-russian-president-decided-on-supplying-buk) dokumentieren jeweils eng definierte Sachverhalte. | Zeitliche Folge und politische Relevanz ersetzen keine durchgehende Kausalkette von 1986 bis 2022. |
-| 9/11 | [NIST](https://www.nist.gov/world-trade-center-investigation/study-faqs/wtc-7-investigation) nennt den Kollaps von WTC 7 um 17:20:52 Uhr und sein Modell eines feuerinduzierten progressiven Versagens. | Eigener Untersuchungsstrang. Keine Quellenbrücke zu Black Widow oder HV A in diesem Snapshot. |
+| 9/11 | Der [separate Prüfnachtrag](WTC_COLLAPSE_AUDIT_2026-10-15.md) trennt Flugzeugeinschläge, Türme, WTC 7, freie Fallphase und Sprengungshypothese mit Quellen und offenen Modellkanten. | Eigener Untersuchungsstrang. Keine Quellenbrücke zu Black Widow oder HV A in diesem Snapshot. |
 
 ## Neue, enge Prüffragen
 
