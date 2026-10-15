@@ -99,3 +99,47 @@ export function compareFollowup(projection, observation) {
     sourceIndependence: "NOT_CLAIMED_SAME_AUTHOR_FIXTURE"
   });
 }
+
+// Rebuild the receipt from the two built-in fixtures. It accepts no free-form scene data.
+export function createSyntheticSceneReceipt(direction, revealFollowup = false) {
+  if (!Object.hasOwn(SYNTHETIC_FOLLOWUPS, direction) || typeof revealFollowup !== "boolean") {
+    throw new TypeError("Expected a built-in LEFT/RIGHT fixture and a boolean reveal state");
+  }
+  const ir = parseSceneSource(SCENE_SOURCE);
+  const initialObservation = {
+    appleX: 155,
+    shadowX: direction === "LEFT" ? 197 : 113
+  };
+  const comparison = compareSceneCandidates(ir, initialObservation);
+  const projection = reprojectScene(ir, comparison, 180);
+  const followup = revealFollowup
+    ? compareFollowup(projection, SYNTHETIC_FOLLOWUPS[direction])
+    : null;
+  return {
+    schema: "lucinet.synthetic-scene-receipt.v1",
+    sceneVersion: SCENE_VERSION,
+    source: SCENE_SOURCE,
+    fixture: { id: direction, origin: "BUILT_IN_SAME_AUTHOR_SYNTHETIC" },
+    oracle: {
+      id: comparison.oracle,
+      rule: "(predictedShadowX - observedShadowX) ** 2; minimum wins; ASCII id breaks ties"
+    },
+    initialObservation,
+    candidates: comparison.candidates.map((item) => ({
+      id: item.id,
+      predictedShadowX: item.projection.shadow.x,
+      squaredShadowError: item.squaredShadowError
+    })),
+    selectedLightDirection: comparison.selectedLightDirection,
+    nextProjection: { appleX: projection.apple.x, predictedShadowX: projection.shadow.x },
+    followup: followup
+      ? {
+          state: followup.evidenceState,
+          observation: SYNTHETIC_FOLLOWUPS[direction],
+          squaredShadowError: followup.squaredShadowError,
+          sourceIndependence: followup.sourceIndependence
+        }
+      : { state: "PENDING_NOT_OBSERVED" },
+    claimCeiling: "EXACT_SYNTHETIC_SCENE_GRAMMAR_AND_SAME_AUTHOR_FIXTURES_ONLY"
+  };
+}

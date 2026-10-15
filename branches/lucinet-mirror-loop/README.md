@@ -26,6 +26,32 @@ reine Berechnung ohne Datei-, Netzwerk- oder Gerätezutritt. Der Server
 liefert ausschließlich die zwei HTML-Ansichten und ihre zwei `.mjs`-Module.
 Die Apfelansicht liegt unter `/scene.html` am selben lokalen Port.
 
+Nach dem Aufdecken einer Schattenbeobachtung kann die Apfelansicht einen lokalen
+JSON-Beleg herunterladen. Er nennt die feste Quelle, beide vorherigen
+Projektionen, dasselbe Auswahlmaß, den gewählten Kandidaten und die neue
+Projektion. Vor dem zweiten Klick ist die Folgebeobachtung ausdrücklich
+`PENDING_NOT_OBSERVED`; danach enthält der Beleg auch deren Fehlerwert. Beide
+Beobachtungen stammen aus festen synthetischen Fixtures desselben Autors. Der
+Beleg enthält keine frei eingegebenen Daten und keinen Zeitstempel; er ist ein
+nachrechenbares Protokoll dieses Demonstrators, kein unabhängiger Wirkungsbeweis.
+Der kleine Offline-Prüfer rechnet die festgelegte v1-Arithmetik aus dem
+heruntergeladenen JSON nochmals durch:
+
+```powershell
+node branches/lucinet-mirror-loop/verify-scene-receipt.mjs C:\Pfad\zum\lucinet-synthetic-scene-receipt-v1-left-observed.json
+```
+
+Ein `PASS` bestätigt nur die Felder und Arithmetik dieser eingebauten
+synthetischen Fixtures, weder Urheberschaft noch Datum oder Außenwirkung.
+Zwei fest eingecheckte Beispiele zeigen beide Auswahlrichtungen:
+[links](examples/synthetic-left-observed.v1.json) und
+[rechts](examples/synthetic-right-observed.v1.json). Beide bestehen denselben
+Offline-Prüfer und sind ausdrücklich keine Messungen einer Außenwelt.
+
+Die [Lizenzkarte](../../LICENSES.md) enthält den prospektiven HALVETH-2.0-Cutover
+für neue Originalbeiträge. Die generische MIT-Zeile für ältere `branches/`-Dateien
+ist für diesen neu veröffentlichten Demonstrator allein keine Lizenzzusage.
+
 ## Gebundener Ablauf
 
 | Objekt | Hier konkret | Evidenzzustand |
