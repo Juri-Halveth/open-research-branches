@@ -15,6 +15,7 @@ Kleine Programme machen eine Idee greifbar. Dieser Raum führt zu lokalen Protot
 | [Dokumentreferenz-Prüfer](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/document-issue-reference-verifier/README.md) | Referenz, Ausgabeversion und synthetische Rolle getrennt prüfen. | Weitere synthetische Fehlermodelle oder Formatadapter. |
 | [Wissensinventar](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/bounded-knowledge-reuse-inventory/README.md) | Metadaten eines Wissenseintrags für eine spätere Veröffentlichungsprüfung bewerten. | Präzisere Lizenz- und Herkunftsfelder. |
 | [Pixelvergleich](https://github.com/Juri-Halveth/open-research-branches/blob/main/branches/pixel-region-change-observer/README.md) | Dieselbe Region zweier synthetischer RGBA-Bilder offline vergleichen. | Dokumentierte Unsicherheiten und zusätzliche Bildformate. |
+| [LUCINET Mirror Loop](../branches/lucinet-mirror-loop/README.md) | Zwei Modelle auf synthetischen Beobachtungen vergleichen und den nächsten Punkt als Prognose projizieren. | Eine separat provenienzierte Beobachtungsquelle anbinden. |
 
 ## Einen Entwurf weiterentwickeln
 

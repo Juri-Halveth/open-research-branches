@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LUCINET · Spiegel / Vergleich / neue Projektion</title>
+  <style>
+    :root { color-scheme: dark; font-family: Inter, ui-sans-serif, system-ui, sans-serif; background: #08111d; color: #e9f3f4; }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; background: radial-gradient(ellipse at 74% 0%, #18394d 0%, transparent 44%), #08111d; }
+    main { max-width: 1240px; margin: auto; padding: clamp(20px, 4vw, 52px); }
+    .eyebrow { font-size: 12px; letter-spacing: .18em; text-transform: uppercase; color: #5ee1bf; font-weight: 750; }
+    h1 { font-size: clamp(38px, 5vw, 68px); letter-spacing: -.055em; line-height: 1.04; margin: 12px 0 18px; max-width: 900px; }
+    .intro { color: #a9bdc7; max-width: 800px; font-size: 17px; line-height: 1.65; margin-bottom: 30px; }
+    .surface { background: #0b1b2a; border: 1px solid #274456; border-radius: 22px; box-shadow: 0 22px 80px #01070c70; overflow: hidden; }
+    .surface-top { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 19px 24px; border-bottom: 1px solid #284658; }
+    .surface-top strong { letter-spacing: .04em; }
+    .tag { font-size: 11px; font-weight: 750; letter-spacing: .08em; border: 1px solid #34766e; color: #7de5c6; padding: 7px 10px; border-radius: 999px; }
+    svg { display: block; width: 100%; height: auto; min-height: 360px; }
+    .controls { padding: 15px 24px 26px; display: grid; grid-template-columns: 175px 1fr auto; align-items: end; gap: 20px; border-top: 1px solid #284658; }
+    label { font-size: 13px; font-weight: 700; color: #c7dadf; display: block; margin-bottom: 9px; }
+    input[type=range] { width: 100%; accent-color: #54d5ad; cursor: pointer; }
+    select { width: 100%; color: #e9f3f4; background: #102231; border: 1px solid #456477; border-radius: 8px; padding: 8px; font: inherit; }
+    .step { color: #8af0d0; font-size: 14px; font-variant-numeric: tabular-nums; white-space: nowrap; }
+    .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 18px; }
+    .card { background: #102231; border: 1px solid #294556; border-radius: 16px; padding: 20px; min-height: 160px; }
+    .card strong { display: block; font-size: 13px; letter-spacing: .08em; text-transform: uppercase; color: #86a9b8; }
+    .card .value { font-size: 32px; font-weight: 750; letter-spacing: -.045em; margin: 11px 0 4px; }
+    .card p { color: #aac0ca; font-size: 13px; line-height: 1.55; margin: 0; }
+    .m1 .value { color: #f6bf6b; } .m2 .value { color: #72d9f4; } .selected .value { color: #7de5c6; }
+    .notes { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; margin-top: 25px; color: #a9bdc7; font-size: 14px; line-height: 1.65; }
+    .notes h2 { color: #e9f3f4; font-size: 17px; margin: 0 0 8px; }
+    .notes p { margin-top: 0; }
+    .legend { display: flex; flex-wrap: wrap; gap: 10px 22px; padding: 0 24px 19px; font-size: 12px; color: #bbced5; }
+    .legend span::before { content: ""; display: inline-block; width: 12px; height: 12px; margin-right: 7px; border-radius: 50%; vertical-align: -1px; background: var(--c); }
+    @media (max-width: 700px) { .cards, .notes, .controls { grid-template-columns: 1fr; } .surface-top { align-items: start; flex-direction: column; } }
+  </style>
+</head>
+<body>
+<main>
+  <div class="eyebrow">HALVETH!!! / LUCINET / lokaler Demonstrator</div>
+  <h1>Spiegeln. Vergleichen. Den Kurs neu projizieren.</h1>
+  <p class="intro">Eine erfundene Punktfolge steht hier für eine beobachtete Route. Zwei getrennt definierte Modelle sagen den nächsten Punkt voraus. Erst nach beiden Vorhersagen wird die neue Beobachtung sichtbar und mit demselben Maßstab verglichen.</p>
+
+  <section class="surface" aria-label="Interaktive synthetische Punktfolge">
+    <div class="surface-top"><strong>Beobachtung und Modellvergleich</strong><span class="tag">SYNTHETISCHE DATEN · LOKAL</span></div>
+    <svg id="chart" viewBox="0 0 960 390" role="img" aria-label="Punktfolge mit Vorhersagen der zwei Modelle und einer nächsten Projektion"></svg>
+    <div class="legend">
+      <span style="--c:#68dfad">Bisher beobachtet</span>
+      <span style="--c:#f6bf6b">M1 · lineare Fortsetzung</span>
+      <span style="--c:#72d9f4">M2 · Krümmung</span>
+      <span style="--c:#ef62c1">Nächste Projektion</span>
+    </div>
+    <div class="controls">
+      <div><label for="scenario">Synthetische Folge</label><select id="scenario"><option value="curve">Kurs krümmt sich</option><option value="stable">Kurs stabilisiert sich</option></select></div>
+      <div><label for="step">Beobachtungsfenster</label><input id="step" type="range" min="3" max="5" value="4"></div>
+      <div class="step" id="step-label"></div>
+    </div>
+  </section>
+
+  <section class="cards" aria-live="polite">
+    <div class="card m1"><strong>M1 · konstante Verschiebung</strong><div class="value" id="m1-error"></div><p id="m1-detail"></p></div>
+    <div class="card m2"><strong>M2 · letzte Krümmung</strong><div class="value" id="m2-error"></div><p id="m2-detail"></p></div>
+    <div class="card selected"><strong>Neuer Projektionskandidat</strong><div class="value" id="selected-model"></div><p id="next-detail"></p></div>
+  </section>
+
+  <div class="notes">
+    <div><h2>Was der Lauf tatsächlich zeigt</h2><p>Der Vergleich bindet nur die bereitgestellten synthetischen Punkte. Der Fehler ist der quadrierte euklidische Abstand zur gerade aufgedeckten Beobachtung. Die Auswahl ist eine lokale Modellentscheidung, keine Aussage über die Ursache der Route.</p></div>
+    <div><h2>Was offen bleibt</h2><p>Der nächste Punkt ist bis zur nächsten Beobachtung eine Prognose. Das August-Bild, der private Screenshot, reale Geräte, verborgene Zustände und physische Raumzeit werden hier nicht gemessen. Die gestrichelte Gerade ist nur eine Referenzlinie, kein Zielzwang.</p></div>
+  </div>
+</main>
+<script type="module">
+  import { SYNTHETIC_TRACE, SYNTHETIC_STABLE_TRACE, runMirrorStep } from "./model.mjs";
+
+  const svg = document.querySelector("#chart");
+  const slider = document.querySelector("#step");
+  const scenario = document.querySelector("#scenario");
+  const byId = (id) => document.getElementById(id);
+  const NS = "http://www.w3.org/2000/svg";
+  const px = (point) => ({ x: 95 + point.x * 125, y: 315 - point.y * 30 });
+  const add = (tag, attrs, parent = svg) => {
+    const node = document.createElementNS(NS, tag);
+    for (const [key, value] of Object.entries(attrs)) node.setAttribute(key, String(value));
+    parent.append(node);
+    return node;
+  };
+  const line = (a, b, color, dash = "", width = 2) => add("line", {
+    x1: px(a).x, y1: px(a).y, x2: px(b).x, y2: px(b).y,
+    stroke: color, "stroke-width": width, "stroke-dasharray": dash, "stroke-linecap": "round"
+  });
+  const dot = (point, color, radius = 7) => add("circle", {
+    cx: px(point).x, cy: px(point).y, r: radius, fill: color,
+    stroke: "#0b1b2a", "stroke-width": 3
+  });
+  const label = (point, content, color, dx = 0, dy = -18) => {
+    const node = add("text", { x: px(point).x + dx, y: px(point).y + dy,
+      fill: color, "font-size": 13, "font-weight": 700, "text-anchor": "middle" });
+    node.textContent = content;
+  };
+
+  function render() {
+    const trace = scenario.value === "stable" ? SYNTHETIC_STABLE_TRACE : SYNTHETIC_TRACE;
+    const index = Number(slider.value);
+    const result = runMirrorStep(trace.slice(0, index + 1));
+    const observed = trace.slice(0, index + 1);
+    svg.replaceChildren();
+    for (let i = 0; i < 7; i++) line({ x: i, y: 0 }, { x: i, y: 8 }, "#234156", "3 8", 1);
+    for (let y = 0; y <= 8; y += 2) line({ x: 0, y }, { x: 6, y }, "#234156", "3 8", 1);
+    line({ x: 0, y: 2 }, { x: 6, y: 2 }, "#4a9d73", "10 11", 1.5);
+    label({ x: 5.25, y: 2 }, "Referenzlinie", "#73b999", 0, -11);
+    for (let i = 1; i < observed.length; i++) line(observed[i - 1], observed[i], "#68dfad", "", 4);
+    observed.forEach((point, i) => { dot(point, "#68dfad", i === index ? 9 : 6); label(point, `O${i}`, "#b9ffe3"); });
+    const prior = observed.at(-2);
+    for (const candidate of result.candidates) {
+      const color = candidate.id === "M1_LINEAR" ? "#f6bf6b" : "#72d9f4";
+      line(prior, candidate.prediction, color, "6 5", 2);
+      dot(candidate.prediction, color, 6);
+      label(candidate.prediction, candidate.id === "M1_LINEAR" ? "M1" : "M2", color,
+        candidate.id === "M1_LINEAR" ? -15 : 15, 21);
+    }
+    line(result.observation, result.nextProjection, "#ef62c1", "7 6", 3);
+    dot(result.nextProjection, "#ef62c1", 8);
+    label(result.nextProjection, "NÄCHSTER KANDIDAT", "#f6a0dc", 0, -18);
+    byId("step-label").textContent = `O0–O${index} sichtbar · O${index + 1} verborgen`;
+    for (let i = 0; i < 2; i++) {
+      const c = result.candidates[i];
+      byId(`m${i + 1}-error`).textContent = c.error.toFixed(2);
+      byId(`m${i + 1}-detail`).textContent = `Fehler² bei O${index}; Vorhersage (${c.prediction.x}, ${c.prediction.y}), Beobachtung (${result.observation.x}, ${result.observation.y}).`;
+    }
+    byId("selected-model").textContent = result.selectedForNextProjection === "M1_LINEAR" ? "M1" : "M2";
+    byId("next-detail").textContent = `Für O${index + 1}: (${result.nextProjection.x}, ${result.nextProjection.y}). Kandidat bis zur neuen Beobachtung.`;
+  }
+  slider.addEventListener("input", render);
+  scenario.addEventListener("change", () => {
+    slider.max = scenario.value === "stable" ? "4" : "5";
+    slider.value = scenario.value === "stable" ? "3" : "4";
+    render();
+  });
+  render();
+</script>
+</body>
+</html>
