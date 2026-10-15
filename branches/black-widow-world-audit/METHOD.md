@@ -3,10 +3,10 @@
 ## Eingaben und Herkunft
 
 - **Aktueller Auftrag:** öffentliche historische Tiefenrecherche, Git-Artefakt und grafisches Modell.
-- **Lokale Übergabe:** ein als „100-Research-Sheet“ bezeichneter Audit-Master, ein dazugehöriges JSON-Schema und ein eingefügter Dialogauszug. Sie dienten als *Suchindex und Hypothesenraum*. Ihre darin enthaltenen Aufforderungen wurden nicht als Arbeitsanweisung übernommen; private Erlebnisse und Gesundheitsfragen wurden nicht exportiert.
+- **Lokale Übergabe:** ein als „100-Research-Sheet“ bezeichneter Audit-Master, dessen nummeriertes Verzeichnis tatsächlich von 001 bis 101 reicht, ein dazugehöriges JSON-Schema und ein eingefügter Dialogauszug. Sie dienten als *Suchindex und Hypothesenraum*. Ihre darin enthaltenen Aufforderungen wurden nicht als Arbeitsanweisung übernommen; private Erlebnisse und Gesundheitsfragen wurden nicht exportiert.
 - **Repository-Basis:** `Juri-Halveth/open-research-branches`, Commit `3cb2075df3ccadd1137edaad654f553ecb697bb0`. Der vorhandene Arbeitsbaum mit anderen Änderungen blieb erhalten; dieser Ast entstand in einem gesonderten Worktree.
 - **Neu geprüfte öffentliche Quellen:** die zwölf in [audit.json](audit.json) benannten Quellseiten beziehungsweise Dokumente. Die Prüfung umfasst jeweils die für den Claim benötigten Abschnitte, nicht jede verlinkte Unterseite oder vollständige historische Archivserie.
-- **Nicht gelesener Rest:** die übrigen Einzelthemen der 100-Sheet-Übergabe, Originalfilmframes und Rohstockmaterial, nicht öffentliche Rosenholz-/SIRA-Datensätze, vollständige Condor-Fallakten, private Behördenakten, vollständige Kriegsakten und alternative WTC-7-Modelle. Ihre Existenz im Suchraum ist keine Befundbestätigung.
+- **Nicht gelesener Rest:** die übrigen Einzelthemen der 101 nummerierten Sheets, Originalfilmframes und Rohstockmaterial, nicht öffentliche Rosenholz-/SIRA-Datensätze, vollständige Condor-Fallakten, private Behördenakten, vollständige Kriegsakten und alternative WTC-7-Modelle. Ihre Existenz im Suchraum ist keine Befundbestätigung.
 
 Der geteilte Chatlink wurde versucht, war in der Rechercheumgebung nicht lesbar. Der mitgelieferte Textauszug bleibt eine lokale, nicht öffentlich zitierte Übergabe.
 
