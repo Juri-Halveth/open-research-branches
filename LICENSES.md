@@ -11,6 +11,7 @@ including historical MIT, ISC, CC BY and CC0 terms.
 
 | Paths or file classes | License |
 | --- | --- |
+| `assets/lucinet-mirror-2026-08-08.png` and `reports/LUCINET_MIRROR_AUGUST_PROVENANCE_2026-10-16.md` from their first public commit | [HALVETH Public-Interest Research License 2.0](LICENSE-HALVETH-PIRL-2.0.md), solely to the extent the publisher holds licensable rights; the image is disclosed as AI-generated and the license does not create rights in unprotected elements, facts or general ideas. |
 | `reports/FREE_NEWS_025_HALVETH_ALL_SCALES_APERTURE_2026-09-15.md` from its first public commit | [HALVETH Public-Interest Research License 2.0](LICENSE-HALVETH-PIRL-2.0.md) |
 | `reports/FREE_NEWS_022_NUCLEAR_LEGACY_POWER_AND_PUBLIC_VALUE.md` from first publication `v0.18.0` | [Juri Public-Interest Research Permission 1.0](LICENSE-JURI-PUBLIC-INTEREST.md) |
 | `branches/nuclear-legacy-disarmament-and-public-value/README.md` from first publication `v0.18.0` | [Juri Public-Interest Research Permission 1.0](LICENSE-JURI-PUBLIC-INTEREST.md) |
