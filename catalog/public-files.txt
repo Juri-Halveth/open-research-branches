@@ -64,7 +64,11 @@ branches/black-widow-world-audit/navigation-frame.json
 branches/black-widow-world-audit/navigation-receipt.json
 branches/black-widow-world-audit/QUERVERBINDUNGEN_ROMANOVA_WIDOW_WINDOWS_KRISEN_2026-10-15.md
 branches/black-widow-world-audit/README.md
+branches/black-widow-world-audit/source-trail.json
+branches/black-widow-world-audit/source-trail.mjs
+branches/black-widow-world-audit/source-trail.test.mjs
 branches/black-widow-world-audit/style.css
+branches/black-widow-world-audit/TECHNOLOGY_REENTRY_2026-10-15.md
 branches/black-widow-world-audit/WTC_COLLAPSE_AUDIT_2026-10-15.md
 branches/bounded-knowledge-reuse-inventory/fixtures/synthetic-inventory.json
 branches/bounded-knowledge-reuse-inventory/LICENSE

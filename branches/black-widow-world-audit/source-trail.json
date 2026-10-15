@@ -1,0 +1,141 @@
+{
+  "schema": "halveth.black-widow.source-trail.v1",
+  "snapshotDate": "2026-10-15",
+  "baselineCommit": "4b96bc02857439806312387aa0f29e8e472cc13f",
+  "dataClass": "PUBLIC_SOURCES_ONLY",
+  "sources": [
+    {
+      "id": "BA_INVENIO_GUIDE",
+      "title": "invenio: Recherche im Bundesarchiv",
+      "publisher": "Bundesarchiv",
+      "url": "https://www.bundesarchiv.de/im-archiv-recherchieren/archivgut-recherchieren/recherchesysteme/invenio/",
+      "documentId": "PUBLIC_GUIDE",
+      "publishedDate": "UNKNOWN",
+      "observedDate": "2026-10-15",
+      "surface": "PUBLIC_ARCHIVE_GUIDE",
+      "readScope": "PAGE_TEXT_REVIEWED",
+      "lineageId": "BUNDESARCHIV_INVENIO",
+      "contentDigest": null,
+      "scopeNote": "The public catalog may describe material that remains access-restricted; a catalog hit is not a digitized file."
+    },
+    {
+      "id": "NARA_CATALOG_GUIDE",
+      "title": "Using the National Archives Catalog",
+      "publisher": "US National Archives and Records Administration",
+      "url": "https://www.archives.gov/research/catalog/help/using",
+      "documentId": "PUBLIC_GUIDE",
+      "publishedDate": "UNKNOWN",
+      "observedDate": "2026-10-15",
+      "surface": "PUBLIC_ARCHIVE_GUIDE",
+      "readScope": "PAGE_TEXT_REVIEWED",
+      "lineageId": "NARA_CATALOG",
+      "contentDigest": null,
+      "scopeNote": "Catalog descriptions and digital objects are different levels of access; restricted records may have public descriptions."
+    },
+    {
+      "id": "TOR_ONION_GUIDE",
+      "title": "How do Onion Services work?",
+      "publisher": "Tor Project",
+      "url": "https://community.torproject.org/onion-services/overview/index.html",
+      "documentId": "PUBLIC_TECHNICAL_GUIDE",
+      "publishedDate": "UNKNOWN",
+      "observedDate": "2026-10-15",
+      "surface": "PUBLIC_TECHNICAL_GUIDE",
+      "readScope": "PAGE_EXCERPT_REVIEWED",
+      "lineageId": "TOR_PROJECT_GUIDANCE",
+      "contentDigest": null,
+      "scopeNote": "Explains address and service authentication; it does not identify a historical source or authorize access to one."
+    },
+    {
+      "id": "UN_US_2023_661",
+      "title": "US letter and declassified drone comparison, S/2023/661",
+      "publisher": "United States, submitted to UN Security Council",
+      "url": "https://digitallibrary.un.org/record/4021522/files/S_2023_661-EN.pdf",
+      "documentId": "S/2023/661",
+      "publishedDate": "2023-09-12",
+      "observedDate": "2026-10-15",
+      "surface": "PUBLIC_PRIMARY_SUBMISSION",
+      "readScope": "SEARCH_EXCERPT_REVIEWED",
+      "lineageId": "US_DIA_SUBMISSION",
+      "contentDigest": null,
+      "scopeNote": "US comparison of drone debris from northern Iraq and Ukraine; UN hosting does not make this an independent UN finding."
+    },
+    {
+      "id": "UN_IR_2023_683",
+      "title": "Iranian response to S/2023/661, S/2023/683",
+      "publisher": "Islamic Republic of Iran, submitted to UN Security Council",
+      "url": "https://digitallibrary.un.org/record/4021527/files/S_2023_683-EN.pdf",
+      "documentId": "S/2023/683",
+      "publishedDate": "2023-09-18",
+      "observedDate": "2026-10-15",
+      "surface": "PUBLIC_PRIMARY_SUBMISSION",
+      "readScope": "SEARCH_EXCERPT_REVIEWED",
+      "lineageId": "IRAN_UN_RESPONSE",
+      "contentDigest": null,
+      "scopeNote": "Iran disputes the US drone evidence; the response is a party statement, not an independent forensic test."
+    },
+    {
+      "id": "UN_SG_2023_975",
+      "title": "Secretary-General report on resolution 2231, S/2023/975",
+      "publisher": "United Nations Secretary-General",
+      "url": "https://digitallibrary.un.org/record/4030378/files/S_2023_975-EN.pdf",
+      "documentId": "S/2023/975",
+      "publishedDate": "2023-12-15",
+      "observedDate": "2026-10-15",
+      "surface": "PUBLIC_REPORT",
+      "readScope": "SEARCH_EXCERPT_REVIEWED",
+      "lineageId": "UN_SECRETARIAT_REPORT",
+      "contentDigest": null,
+      "scopeNote": "The report records the US submission and Iranian/Russian disputes; its reporting of those submissions is not a second independent debris examination."
+    }
+  ],
+  "relations": [
+    {
+      "id": "REL_IR_REPLY_US",
+      "from": "UN_IR_2023_683",
+      "to": "UN_US_2023_661",
+      "type": "RESPONDS_TO",
+      "basis": "The Iranian letter names S/2023/661 as the letter it answers."
+    },
+    {
+      "id": "REL_SG_REPORTS_US",
+      "from": "UN_SG_2023_975",
+      "to": "UN_US_2023_661",
+      "type": "REPORTS_SUBMISSION",
+      "basis": "The Secretary-General report recounts the US submission as a party claim."
+    },
+    {
+      "id": "REL_SG_REPORTS_IR",
+      "from": "UN_SG_2023_975",
+      "to": "UN_IR_2023_683",
+      "type": "REPORTS_SUBMISSION",
+      "basis": "The Secretary-General report recounts the Iranian response as a party claim."
+    }
+  ],
+  "questions": [
+    {
+      "id": "Q_ARCHIVE_SIGNATURE",
+      "title": "Which exact surviving HV-A/SIRA unit answers one named research question?",
+      "state": "DISCOVERY_ONLY",
+      "sourceIds": ["BA_INVENIO_GUIDE"],
+      "nextEvidence": "An exact catalog signature, its archival level, access terms and the original record if lawfully available.",
+      "reopenTrigger": "A publicly retrievable item identifier or an archive response with a specific signature."
+    },
+    {
+      "id": "Q_DRONE_COMPARISON",
+      "title": "Can the Iraq/Ukraine component comparison be checked outside the submitting parties?",
+      "state": "CONTESTED_SUBMISSIONS",
+      "sourceIds": ["UN_US_2023_661", "UN_IR_2023_683", "UN_SG_2023_975"],
+      "nextEvidence": "A separately provenienced forensic examination of the same identifiable components and documented chain of custody.",
+      "reopenTrigger": "An accessible independent component report with images, identifiers and acquisition history."
+    },
+    {
+      "id": "Q_ONION_RELEVANCE",
+      "title": "Does a specific public onion service contain a relevant primary record?",
+      "state": "NO_TARGET_BOUND",
+      "sourceIds": ["TOR_ONION_GUIDE", "NARA_CATALOG_GUIDE"],
+      "nextEvidence": "An exact service address published by its operator, lawful access scope, named record and reproducible capture metadata.",
+      "reopenTrigger": "A concrete public service and document identifier tied to one existing research question."
+    }
+  ]
+}
