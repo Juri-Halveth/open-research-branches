@@ -28,6 +28,7 @@
     select { width: 100%; color: #edf6f5; background: #102332; border: 1px solid #53737c; }
     button { width: 100%; margin-top: 12px; border: 0; background: #72e2b7; color: #071a20; font-weight: 800; cursor: pointer; }
     button:hover { background: #a4f5d4; }
+    button:disabled { background: #375764; color: #a2b8be; cursor: not-allowed; }
     .candidate-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 17px; margin-top: 17px; }
     .candidate { min-width: 0; }
     .candidate p { margin: 0; font-size: 13px; color: #a9bec8; }
@@ -58,17 +59,19 @@
   </div>
 
   <div class="bottom">
-    <section class="panel"><div class="kicker">Evaluation</div><h2>Welches Modell erklärt diesen Punkt?</h2><div id="decision">Noch offen</div><p id="new-detail">Die nächste Position ist bis zum Vergleich nur ein Kandidat.</p></section>
+    <section class="panel"><div class="kicker">Evaluation</div><h2>Welches Modell erklärt diesen Punkt?</h2><div id="decision">Noch offen</div><p id="new-detail">Die nächste Position ist bis zum Vergleich nur ein Kandidat.</p><button id="followup" disabled>Nächste synthetische Beobachtung aufdecken</button><p id="followup-detail" class="boundary">Die Folgebeobachtung wartet auf die neue Projektion.</p></section>
     <section class="panel"><div class="kicker">Neuer Bildkandidat</div><h2>Apfel an neuer Position</h2><svg id="new-scene" viewBox="0 0 320 215" role="img" aria-label="Nächste synthetische Projektion"></svg></section>
   </div>
   <p class="boundary">Dieser Lauf prüft eine feste Mini-Grammatik, eine einzelne synthetische Schattenbeobachtung und eine neue lokale Projektion. Er erkennt keine realen Äpfel, rekonstruiert keine verdeckten Oberflächen und ist kein universeller Reality Compiler. <a href="/">Zur Punktfolge</a> · <a href="https://github.com/Juri-Halveth/open-research-branches/blob/codex/black-widow-world-audit-20261015/reports/LUCINET_MIRROR_AUGUST_PROVENANCE_2026-10-16.md">August-Herkunft</a></p>
 </main>
 <script type="module">
-  import { SCENE_SOURCE, parseSceneSource, renderCandidate, compareSceneCandidates, reprojectScene } from "./scene.mjs";
+  import { SCENE_SOURCE, SYNTHETIC_FOLLOWUPS, parseSceneSource, renderCandidate, compareSceneCandidates, reprojectScene, compareFollowup } from "./scene.mjs";
   const ir = parseSceneSource(SCENE_SOURCE);
   const NS = "http://www.w3.org/2000/svg";
   const appleX = 155;
   const candidates = [renderCandidate(ir, "LEFT", appleX), renderCandidate(ir, "RIGHT", appleX)];
+  let currentProjection = null;
+  let currentDirection = null;
   function add(svg, name, attrs) {
     const node = document.createElementNS(NS, name);
     Object.entries(attrs).forEach(([key, value]) => node.setAttribute(key, String(value)));
@@ -87,17 +90,38 @@
   }
   draw(document.getElementById("left-scene"), candidates[0]);
   draw(document.getElementById("right-scene"), candidates[1]);
+  document.getElementById("direction").addEventListener("change", () => {
+    currentProjection = null;
+    currentDirection = null;
+    document.getElementById("left-score").textContent = "Fehler²: wartet auf Beobachtung";
+    document.getElementById("right-score").textContent = "Fehler²: wartet auf Beobachtung";
+    document.getElementById("decision").textContent = "Noch offen";
+    document.getElementById("new-detail").textContent = "Die nächste Position ist bis zum Vergleich nur ein Kandidat.";
+    document.getElementById("followup").disabled = true;
+    document.getElementById("followup-detail").textContent = "Die Folgebeobachtung wartet auf die neue Projektion.";
+    draw(document.getElementById("new-scene"), null);
+  });
   document.getElementById("reveal").addEventListener("click", () => {
     const direction = document.getElementById("direction").value;
     const observation = { appleX, shadowX: direction === "LEFT" ? appleX + 42 : appleX - 42 };
     const result = compareSceneCandidates(ir, observation);
     const next = reprojectScene(ir, result, 180);
+    currentProjection = next;
+    currentDirection = result.selectedLightDirection;
     for (const item of result.candidates) {
       document.getElementById(item.id === "LEFT" ? "left-score" : "right-score").textContent = `Fehler²: ${item.squaredShadowError}`;
     }
     document.getElementById("decision").textContent = result.selectedLightDirection === "LEFT" ? "Licht von links" : "Licht von rechts";
     document.getElementById("new-detail").textContent = `Schattenmittelpunkt bei x=${observation.shadowX} beobachtet. Nächster Bildkandidat: Apfel x=180, Schatten x=${next.shadow.x}. Die nächste Beobachtung ist noch offen.`;
+    document.getElementById("followup").disabled = false;
+    document.getElementById("followup-detail").textContent = "Die Folgebeobachtung wartet auf den zweiten Klick.";
     draw(document.getElementById("new-scene"), next);
+  });
+  document.getElementById("followup").addEventListener("click", () => {
+    if (!currentProjection || !currentDirection) return;
+    const receipt = compareFollowup(currentProjection, SYNTHETIC_FOLLOWUPS[currentDirection]);
+    document.getElementById("followup-detail").textContent = `Folgebeobachtung: Apfel x=180, Schatten x=${receipt.observedShadowX}. Fehler² zur vorher festgelegten Projektion: ${receipt.squaredShadowError}. Beide Fixtures stammen aus demselben lokalen Demonstrator.`;
+    document.getElementById("followup").disabled = true;
   });
 </script>
 </body>

@@ -75,6 +75,11 @@ keinen Pixelabgleich mit einem realen Foto und keine Rekonstruktion eines
 physischen Apfels. Der Abschnitt ist näher an der Text–Semantik–Struktur–Bild-
 Idee im August-Entwurf, aber keine vollständige Umsetzung dieser Architektur.
 
+Ein zweiter Knopf deckt je nach gewähltem Modell den vorgegebenen nächsten
+synthetischen Schatten auf und berechnet seinen Fehler gegen die zuvor
+angezeigte Projektion. Beide Fixtures stammen aus derselben lokalen
+Autorschaft; ein Treffer ist keine unabhängige Bestätigung an einer Außenquelle.
+
 ## Nächste unterscheidende Kanten
 
 1. Eine zweite synthetische Folge mit anderer Bewegungsregel aus unabhängiger

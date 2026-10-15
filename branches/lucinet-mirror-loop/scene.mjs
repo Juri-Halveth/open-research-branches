@@ -2,6 +2,10 @@ export const SCENE_VERSION = "1.0.0";
 export const SCENE_SOURCE = "object:apple; color:red; light:?";
 
 const OFFSETS = Object.freeze({ LEFT: 42, RIGHT: -42 });
+export const SYNTHETIC_FOLLOWUPS = Object.freeze({
+  LEFT: Object.freeze({ appleX: 180, shadowX: 222 }),
+  RIGHT: Object.freeze({ appleX: 180, shadowX: 138 })
+});
 
 // An exact mini-language, not natural-language understanding.
 export function parseSceneSource(source) {
@@ -79,4 +83,19 @@ export function reprojectScene(ir, comparison, nextAppleX) {
     throw new TypeError("Comparison does not match the bound scene model");
   }
   return renderCandidate(ir, comparison.selectedLightDirection, nextAppleX);
+}
+
+export function compareFollowup(projection, observation) {
+  if (projection?.state !== "PROJECTION_NOT_OBSERVATION" ||
+      !validObservation(observation) || projection.apple.x !== observation.appleX) {
+    throw new TypeError("Follow-up observation does not match the projected scene scope");
+  }
+  return Object.freeze({
+    oracle: "shadow-centroid-squared-error-v1",
+    predictedShadowX: projection.shadow.x,
+    observedShadowX: observation.shadowX,
+    squaredShadowError: (projection.shadow.x - observation.shadowX) ** 2,
+    evidenceState: "OBSERVED_WITHIN_SYNTHETIC_FIXTURE_ONLY",
+    sourceIndependence: "NOT_CLAIMED_SAME_AUTHOR_FIXTURE"
+  });
 }

@@ -2,6 +2,8 @@ import assert from "node:assert/strict";
 import { test } from "node:test";
 import {
   SCENE_SOURCE,
+  SYNTHETIC_FOLLOWUPS,
+  compareFollowup,
   compareSceneCandidates,
   parseSceneSource,
   renderCandidate,
@@ -25,7 +27,7 @@ test("both shadow hypotheses receive the same apple position and oracle", () => 
   const next = reprojectScene(ir, result, 180);
   assert.equal(next.shadow.x, 222);
   assert.equal(next.state, "PROJECTION_NOT_OBSERVATION");
-  assert.equal((next.shadow.x - 222) ** 2, 0); // independent second synthetic observation
+  assert.equal(compareFollowup(next, SYNTHETIC_FOLLOWUPS.LEFT).squaredShadowError, 0);
 });
 
 test("counterexample selects right light under the unchanged oracle", () => {
@@ -33,6 +35,8 @@ test("counterexample selects right light under the unchanged oracle", () => {
   const result = compareSceneCandidates(ir, { appleX: 110, shadowX: 68 });
   assert.equal(result.selectedLightDirection, "RIGHT");
   assert.deepEqual(result.candidates.map((item) => item.squaredShadowError), [7056, 0]);
+  const next = reprojectScene(ir, result, 180);
+  assert.equal(compareFollowup(next, SYNTHETIC_FOLLOWUPS.RIGHT).squaredShadowError, 0);
 });
 
 test("invalid observations and incompatible projections fail closed", () => {
@@ -41,4 +45,5 @@ test("invalid observations and incompatible projections fail closed", () => {
   assert.throws(() => compareSceneCandidates(ir, { appleX: 110, shadowX: 152, source: "private" }), /finite/);
   assert.throws(() => renderCandidate(ir, "UP", 110), /outside/);
   assert.throws(() => reprojectScene(ir, { sceneVersion: "0.0.0", oracle: "shadow-centroid-squared-error-v1", selectedLightDirection: "LEFT" }, 180), /does not match/);
+  assert.throws(() => compareFollowup(renderCandidate(ir, "LEFT", 180), { appleX: 181, shadowX: 222 }), /does not match/);
 });
