@@ -11,6 +11,7 @@ including historical MIT, ISC, CC BY and CC0 terms.
 
 | Paths or file classes | License |
 | --- | --- |
+| `reports/LUCINET_NOAA_ROLLING_BENCHMARK_2026-10-16.md` and `assets/lucinet-noaa-panel-12-windows-2026-10-16.png` from their first public commit `d07e279756c13389ef9014b017f1e9b60415a8e4` | [HALVETH Public-Interest Research License 2.0](LICENSE-HALVETH-PIRL-2.0.md), only for original prose, selection, layout and graphics to the extent the publisher holds licensable rights. NOAA measurements, facts, station identifiers, API content and NOAA marks are not relicensed by this row. The chart's later layout correction at `da657fee329f6bd6920c150f6073302a48c3afe6` follows the same file-specific scope. |
 | `assets/lucinet-mirror-2026-08-08.png` and `reports/LUCINET_MIRROR_AUGUST_PROVENANCE_2026-10-16.md` from their first public commit | [HALVETH Public-Interest Research License 2.0](LICENSE-HALVETH-PIRL-2.0.md), solely to the extent the publisher holds licensable rights; the image is disclosed as AI-generated and the license does not create rights in unprotected elements, facts or general ideas. |
 | `reports/FREE_NEWS_025_HALVETH_ALL_SCALES_APERTURE_2026-09-15.md` from its first public commit | [HALVETH Public-Interest Research License 2.0](LICENSE-HALVETH-PIRL-2.0.md) |
 | `reports/FREE_NEWS_022_NUCLEAR_LEGACY_POWER_AND_PUBLIC_VALUE.md` from first publication `v0.18.0` | [Juri Public-Interest Research Permission 1.0](LICENSE-JURI-PUBLIC-INTEREST.md) |
