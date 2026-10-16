@@ -1,0 +1,44 @@
+{
+  "schema": "lucinet.synthetic-scene-receipt.v1",
+  "sceneVersion": "1.0.0",
+  "source": "object:apple; color:red; light:?",
+  "fixture": {
+    "id": "RIGHT",
+    "origin": "BUILT_IN_SAME_AUTHOR_SYNTHETIC"
+  },
+  "oracle": {
+    "id": "shadow-centroid-squared-error-v1",
+    "rule": "(predictedShadowX - observedShadowX) ** 2; minimum wins; ASCII id breaks ties"
+  },
+  "initialObservation": {
+    "appleX": 155,
+    "shadowX": 113
+  },
+  "candidates": [
+    {
+      "id": "LEFT",
+      "predictedShadowX": 197,
+      "squaredShadowError": 7056
+    },
+    {
+      "id": "RIGHT",
+      "predictedShadowX": 113,
+      "squaredShadowError": 0
+    }
+  ],
+  "selectedLightDirection": "RIGHT",
+  "nextProjection": {
+    "appleX": 180,
+    "predictedShadowX": 138
+  },
+  "followup": {
+    "state": "OBSERVED_WITHIN_SYNTHETIC_FIXTURE_ONLY",
+    "observation": {
+      "appleX": 180,
+      "shadowX": 138
+    },
+    "squaredShadowError": 0,
+    "sourceIndependence": "NOT_CLAIMED_SAME_AUTHOR_FIXTURE"
+  },
+  "claimCeiling": "EXACT_SYNTHETIC_SCENE_GRAMMAR_AND_SAME_AUTHOR_FIXTURES_ONLY"
+}

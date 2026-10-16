@@ -1,0 +1,329 @@
+{
+  "schema": "halveth.black-widow-world-audit.v1",
+  "snapshotDate": "2026-10-15",
+  "sourceCommit": "3cb2075df3ccadd1137edaad654f553ecb697bb0",
+  "dataClass": "PUBLIC_SOURCES_ONLY",
+  "claimCeiling": "SOURCE_BOUND_FINITE_SNAPSHOT_NO_CROSS_CASE_CAUSALITY",
+  "sources": [
+    {
+      "id": "FILM01",
+      "title": "Black Widow Title Sequence",
+      "publisher": "Eric Daly, beteiligter Produzent",
+      "date": "2020",
+      "url": "https://www.ericdaly.com/projects/black-widow-titles",
+      "kind": "CREATOR_ACCOUNT",
+      "lineage": "FILM_PRODUCTION",
+      "scope": "Produktion und erzählerische Auswahl der Titelsequenz"
+    },
+    {
+      "id": "BA01",
+      "title": "Die Rosenholz-Dateien",
+      "publisher": "Bundesarchiv, Stasi-Unterlagen-Archiv",
+      "date": "undatiert; abgerufen 2026-10-15",
+      "url": "https://www.bundesarchiv.de/themen-entdecken/online-entdecken/themenbeitraege/die-rosenholz-dateien/",
+      "kind": "ARCHIVE_EXPLANATION",
+      "lineage": "BUNDESARCHIV_HVA",
+      "scope": "HV-A-Überlieferung, SIRA, Rosenholz, Quellenkritik und Zugang"
+    },
+    {
+      "id": "BA02",
+      "title": "Rekonstruktion zerrissener Stasi-Unterlagen",
+      "publisher": "Bundesarchiv",
+      "date": "undatiert; abgerufen 2026-10-15",
+      "url": "https://www.bundesarchiv.de/stasi-unterlagen-archiv/rekonstruktion/",
+      "kind": "ARCHIVE_EXPLANATION",
+      "lineage": "BUNDESARCHIV_HVA",
+      "scope": "allgemeine Rekonstruktion zerrissener MfS-Unterlagen"
+    },
+    {
+      "id": "BA03",
+      "title": "Hauptverwaltung A: Bestandsübersicht",
+      "publisher": "Bundesarchiv",
+      "date": "2021-12; abgerufen 2026-10-15",
+      "url": "https://www.bundesarchiv.de/stasi-unterlagen-archiv/bestandsuebersichten/bestaende-und-teilbestaende-des-stasi-unterlagen-archivs/11227-hauptverwaltung-a-1/",
+      "kind": "ARCHIVE_INVENTORY",
+      "lineage": "BUNDESARCHIV_HVA",
+      "scope": "49 laufende Meter Restbestand, Inhalt und Entstehung"
+    },
+    {
+      "id": "BA04",
+      "title": "Stasi im Westen",
+      "publisher": "Bundesarchiv",
+      "date": "undatiert; abgerufen 2026-10-15",
+      "url": "https://www.bundesarchiv.de/themen-entdecken/online-entdecken/staatssicherheit/stasi-im-westen/",
+      "kind": "ARCHIVE_SYNTHESIS",
+      "lineage": "BUNDESARCHIV_HVA",
+      "scope": "Spionage in der alten Bundesrepublik und Überlieferungsgrenzen"
+    },
+    {
+      "id": "FRUS01",
+      "title": "Counterterrorism in the Southern Cone, 9 May 1977",
+      "publisher": "U.S. Department of State, FRUS; CIA-Papier",
+      "date": "1977-05-09",
+      "url": "https://history.state.gov/historicaldocuments/frus1977-80v24/d12",
+      "kind": "DECLASSIFIED_RECORD",
+      "lineage": "CIA_1977_FRUS",
+      "scope": "zeitgenössische Beschreibung von Operation Condor, Datenbankplan und Medienstrategie"
+    },
+    {
+      "id": "FBI01",
+      "title": "Operation Ghost Stories: Inside the Russian Spy Case",
+      "publisher": "FBI",
+      "date": "2011-10-31",
+      "url": "https://www.fbi.gov/news/stories/operation-ghost-stories-inside-the-russian-spy-case",
+      "kind": "LAW_ENFORCEMENT_ACCOUNT",
+      "lineage": "FBI_GHOST_STORIES",
+      "scope": "2010 verhaftete SVR-Illegals und beschriebene Tarnidentitäten"
+    },
+    {
+      "id": "IAEA01",
+      "title": "INSAG-7: The Chernobyl Accident",
+      "publisher": "IAEA",
+      "date": "1992",
+      "url": "https://pub.iaea.org/MTCD/publications/PDF/Pub913e_web.pdf",
+      "kind": "TECHNICAL_REASSESSMENT",
+      "lineage": "IAEA_INSAG7",
+      "scope": "Reaktor- und Sicherheitssystemmängel; Unfallkausalität"
+    },
+    {
+      "id": "NATO01",
+      "title": "Bucharest Summit Declaration",
+      "publisher": "NATO",
+      "date": "2008-04-03",
+      "url": "https://nato.int/en/about-us/official-texts-and-resources/official-texts/2008/04/03/bucharest-summit-declaration",
+      "kind": "OFFICIAL_DECLARATION",
+      "lineage": "NATO_2008",
+      "scope": "Formulierung zur künftigen Mitgliedschaft der Ukraine und Georgiens"
+    },
+    {
+      "id": "COURT01",
+      "title": "MH17: Urteil und Beweisübersicht",
+      "publisher": "Rechtbank Den Haag",
+      "date": "2022-11-17",
+      "url": "https://www.rechtspraak.nl/organisatie-en-contact/organisatie/rechtbanken/rechtbank-den-haag/nieuws/2022/11/mh17",
+      "kind": "COURT_SUMMARY",
+      "lineage": "MH17_COURT",
+      "scope": "Buk-Abschussort, 298 Opfer, drei Verurteilungen und ein Freispruch"
+    },
+    {
+      "id": "JIT01",
+      "title": "JIT MH17: strong indications",
+      "publisher": "Netherlands Public Prosecution Service",
+      "date": "2023-02-08",
+      "url": "https://www.prosecutionservice.nl/latest/news/2023/02/08/jit-mh17-strong-indications-that-russian-president-decided-on-supplying-buk",
+      "kind": "INVESTIGATION_UPDATE",
+      "lineage": "MH17_JIT",
+      "scope": "starke Indizien zur Lieferentscheidung und ausdrücklich nicht erreichte Schwelle für neue Strafverfolgung"
+    },
+    {
+      "id": "NIST01",
+      "title": "FAQs: WTC 7 Investigation",
+      "publisher": "NIST",
+      "date": "2011-09-19; aktualisiert 2021-09-10",
+      "url": "https://www.nist.gov/world-trade-center-investigation/study-faqs/wtc-7-investigation",
+      "kind": "TECHNICAL_INVESTIGATION",
+      "lineage": "NIST_WTC7",
+      "scope": "Zeitpunkt und technisches NIST-Modell des WTC-7-Kollapses"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "year": 2021,
+      "lane": "FILM",
+      "status": "DOCUMENTED_AS_CREATOR_ACCOUNT",
+      "title": "Die Montage wurde gebaut",
+      "statement": "Der Produzent beschreibt für die Black-Widow-Titelsequenz neu aufgenommenes Material und gezielt nach Erzählfunktion ausgewähltes Stockmaterial.",
+      "sourceIds": ["FILM01"],
+      "ceiling": "Belegt seine Produktionsdarstellung, nicht die historische Wahrheit der Filmhandlung.",
+      "countermodel": "Ein einzelner Frame kann zusätzlich eine historische Originalaufnahme enthalten; dessen Herkunft bleibt separat zu prüfen.",
+      "nextEvidence": "Frame, Originalasset, Produktionsdatei und Rechtekette paarweise binden."
+    },
+    {
+      "id": "C02",
+      "year": 1990,
+      "lane": "ARCHIVE",
+      "status": "DOCUMENTED_AS_ARCHIVE_ACCOUNT",
+      "title": "HV-A-Archiv fast vollständig vernichtet",
+      "statement": "Das Bundesarchiv beschreibt die weitgehende Vernichtung der HV-A-Unterlagen während der Selbstauflösung 1989/90.",
+      "sourceIds": ["BA01", "BA03"],
+      "ceiling": "Nicht jede Kopie, jeder Index und jeder verteilte Vorgang verschwand.",
+      "countermodel": "Restbestände in anderen Einheiten oder Bezirken können denselben Vorgang teilweise spiegeln.",
+      "nextEvidence": "Für einen konkreten Vorgang Bestands- und Signaturkette prüfen."
+    },
+    {
+      "id": "C03",
+      "year": 1998,
+      "lane": "ARCHIVE",
+      "status": "DOCUMENTED_AS_ARCHIVE_ACCOUNT",
+      "title": "SIRA-Bänder wieder lesbar",
+      "statement": "Laut Bundesarchiv wurden 1998 HV-A-EDV-Bänder mit zahlreichen angeblich gelöschten Datensätzen wieder lesbar gemacht.",
+      "sourceIds": ["BA01"],
+      "ceiling": "Die Quelle beschreibt Wiederlesbarkeit, nicht Vollständigkeit oder freie Veröffentlichung der Rohdaten.",
+      "countermodel": "Ein lesbarer Datensatz kann fragmentarisch, fehlerhaft oder ohne ursprünglichen Kontext sein.",
+      "nextEvidence": "SIRA-Datensatz nur über zulässige Archivsignatur und Kontextakten auswerten."
+    },
+    {
+      "id": "C04",
+      "year": 2003,
+      "lane": "ARCHIVE",
+      "status": "DOCUMENTED_AS_ARCHIVE_ACCOUNT",
+      "title": "Rosenholz kehrt als Kopie zurück",
+      "statement": "Von 1999 bis März 2003 erhielt das Archiv laut eigener Darstellung 381 CD-ROMs mit Kopien mikroverfilmter HV-A-Karteien aus den USA.",
+      "sourceIds": ["BA01"],
+      "ceiling": "Karteien sind Findmittel, keine vollständigen Personenakten.",
+      "countermodel": "Ein Kartenvermerk kann mehrere Personen unter derselben Registriernummer betreffen.",
+      "nextEvidence": "F16, F22, Statistikbogen und weitere Akten nur im berechtigten Zugang abgleichen."
+    },
+    {
+      "id": "C05",
+      "year": 2003,
+      "lane": "ARCHIVE",
+      "status": "DOCUMENTED_AS_ARCHIVE_ACCOUNT",
+      "title": "Ein Name ist keine Agentenrolle",
+      "statement": "Das Bundesarchiv ordnet ungefähr 90 Prozent der in den HV-A-Karteien erfassten Personen als Betroffene oder Dritte ein.",
+      "sourceIds": ["BA01"],
+      "ceiling": "Keine personenbezogene Rolle aus einem einzelnen Treffer ableiten.",
+      "countermodel": "Eine Minderheit war tatsächlich als IM geführt; auch das verlangt Einzelfallquellen.",
+      "nextEvidence": "Für Rollenfragen die archivische Mehrquellenprüfung und Persönlichkeitsrechte beachten."
+    },
+    {
+      "id": "C06",
+      "year": 1977,
+      "lane": "INTELLIGENCE",
+      "status": "DOCUMENTED_AS_CONTEMPORARY_REPORT",
+      "title": "Condor: Datenbank und Medienkanal",
+      "statement": "Ein datiertes CIA-Papier beschreibt für Operation Condor grenzüberschreitende Sicherheitskooperation, den Aufbau einer Computerdatenbank und eine Medienstrategie mit verdeckter Quellherkunft.",
+      "sourceIds": ["FRUS01"],
+      "ceiling": "Ein zeitgenössischer Bericht über Pläne und Praktiken beweist nicht jeden einzelnen späteren Vollzug.",
+      "countermodel": "Teilpläne können verworfen oder anders umgesetzt worden sein.",
+      "nextEvidence": "Für einen konkreten Fall einen zweiten Archivbestand mit Ereignis, Datum und Beteiligung suchen."
+    },
+    {
+      "id": "C07",
+      "year": 1990,
+      "lane": "INTELLIGENCE",
+      "status": "DOCUMENTED_AS_ARCHIVE_ACCOUNT",
+      "title": "Stasi-Spionage im Westen",
+      "statement": "Das Bundesarchiv beschreibt Rekrutierung, Ausbildung und Einschleusung sowie begrenzte Überlieferung zur DDR-Auslandsspionage.",
+      "sourceIds": ["BA04"],
+      "ceiling": "Nicht identisch mit Condor, SVR oder Marvel-Fiktion.",
+      "countermodel": "Ähnliche Methoden können ohne organisatorische Verbindung entstehen.",
+      "nextEvidence": "Eine institutionelle Verbindung nur über Primärakten mit Datum und Auftrag prüfen."
+    },
+    {
+      "id": "C08",
+      "year": 2010,
+      "lane": "INTELLIGENCE",
+      "status": "DOCUMENTED_AS_LAW_ENFORCEMENT_ACCOUNT",
+      "title": "SVR-Illegals mit Langzeittarnung",
+      "statement": "Das FBI beschreibt 2010 verhaftete russische Illegals, die teils unter gestohlenen Identitäten normale Lebensläufe aufbauten.",
+      "sourceIds": ["FBI01"],
+      "ceiling": "Belegt diesen Fall und die FBI-Darstellung; keine identische Red-Room-Struktur.",
+      "countermodel": "Langzeittarnung und Zwangsrekrutierung Minderjähriger sind unterschiedliche Behauptungen.",
+      "nextEvidence": "Für jede behauptete Personal- oder Programmkante eine separate Primärquelle suchen."
+    },
+    {
+      "id": "C09",
+      "year": 1986,
+      "lane": "CRISIS",
+      "status": "DOCUMENTED_TECHNICAL_REASSESSMENT",
+      "title": "Tschernobyl: Design und Sicherheitsregime",
+      "statement": "INSAG-7 führt gravierende RBMK-Designmängel und Probleme des Sicherheitsregimes als wesentliche Unfallfaktoren.",
+      "sourceIds": ["IAEA01"],
+      "ceiling": "Ein Unfallmechanismus ist keine Alleinerklärung für den Zerfall der UdSSR oder den Krieg von 2022.",
+      "countermodel": "Der spätere Staatszerfall hatte weitere politische und wirtschaftliche Ursachen.",
+      "nextEvidence": "Für eine Collapse-Kante zeitgenössische Entscheidungsakten und rivalisierende Ursachen vergleichen."
+    },
+    {
+      "id": "C10",
+      "year": 2008,
+      "lane": "CRISIS",
+      "status": "DOCUMENTED_OFFICIAL_TEXT",
+      "title": "Bukarest: NATO-Aussage zur Zukunft",
+      "statement": "Die NATO-Erklärung von 2008 sagt, dass Ukraine und Georgien Mitglieder werden sollen; der Membership Action Plan bleibt als nächster Schritt benannt.",
+      "sourceIds": ["NATO01"],
+      "ceiling": "Kein unmittelbares Beitrittsdatum, kein Beleg einer einzigen Kriegsursache.",
+      "countermodel": "Akteure können dieselbe Erklärung verschieden bewerten; Motive benötigen eigene Quellen.",
+      "nextEvidence": "Erklärung mit zeitgenössischen Stellungnahmen mehrerer Seiten und Entscheidungen nach 2008 vergleichen."
+    },
+    {
+      "id": "C11",
+      "year": 2014,
+      "lane": "CRISIS",
+      "status": "DOCUMENTED_COURT_FINDING",
+      "title": "MH17: gerichtlicher Befund",
+      "statement": "Das Gericht Den Haag stellte 2022 einen Buk-Abschuss nahe Pervomaiskyi fest, verurteilte drei Angeklagte zu lebenslanger Haft und sprach einen frei.",
+      "sourceIds": ["COURT01"],
+      "ceiling": "Das Urteil betrifft den gerichtlichen Tat- und Personenstand, nicht jede höhere politische Verantwortung.",
+      "countermodel": "Weitere Beteiligte und Entscheidungswege brauchen eigene Beweise.",
+      "nextEvidence": "Genaues Urteil und spätere Ermittlungsupdates claimweise vergleichen."
+    },
+    {
+      "id": "C12",
+      "year": 2023,
+      "lane": "CRISIS",
+      "status": "STRONGLY_INDICATED_BY_JIT_NOT_CONCLUSIVE",
+      "title": "MH17: offene Entscheidungskante",
+      "statement": "Das JIT nennt starke Indizien für eine Entscheidung auf Präsidentenebene zur Lieferung schwerer Luftabwehr, aber keine hinreichend konkreten Beweise für neue Strafverfolgung.",
+      "sourceIds": ["JIT01"],
+      "ceiling": "Die Schwelle eines vollständigen und schlüssigen Nachweises wurde laut JIT nicht erreicht.",
+      "countermodel": "Die genaue Anfrage und die konkret genehmigte Waffengattung bleiben laut JIT nicht vollständig belegt.",
+      "nextEvidence": "Neues authentifiziertes Entscheidungsdokument oder weiterer direkt bezeugter Übermittlungsweg."
+    },
+    {
+      "id": "C13",
+      "year": 2001,
+      "lane": "SEPARATE",
+      "status": "DOCUMENTED_AS_NIST_FINDING",
+      "title": "WTC 7: spätere Uhrzeit, eigener Fall",
+      "statement": "NIST datiert den Einsturz von WTC 7 auf 17:20:52 Uhr und führt als technisches Modell einen feuerinduzierten progressiven Kollaps an.",
+      "sourceIds": ["NIST01"],
+      "ceiling": "Weder eine Verbindung zu Black Widow noch zu den anderen Archivfällen ist in diesem Snapshot belegt.",
+      "countermodel": "Technische Einwände müssen an denselben Eingabedaten und Vorhersagen geprüft werden.",
+      "nextEvidence": "Einzelne technische Gegenbehauptung mit vollständigem Modell, Primärdaten und Fehlergrenze vergleichen."
+    }
+  ],
+  "relations": [
+    {"from": "C01", "to": "C02", "type": "QUESTION_GENERATOR", "status": "ANALOGY_ONLY", "label": "Film fragt nach Archiven"},
+    {"from": "C02", "to": "C03", "type": "ARCHIVE_SURVIVAL", "status": "SOURCE_BOUND", "label": "SIRA-Restspur"},
+    {"from": "C02", "to": "C04", "type": "ARCHIVE_SURVIVAL", "status": "SOURCE_BOUND", "label": "Mikrofilm-Restspur"},
+    {"from": "C04", "to": "C05", "type": "INTERPRETATION_LIMIT", "status": "SOURCE_BOUND", "label": "Karte ≠ Rolle"},
+    {"from": "C06", "to": "C07", "type": "METHOD_ANALOGY", "status": "ANALOGY_ONLY", "label": "ähnliche Methoden"},
+    {"from": "C07", "to": "C08", "type": "METHOD_ANALOGY", "status": "ANALOGY_ONLY", "label": "andere Dienste"},
+    {"from": "C09", "to": "C10", "type": "CHRONOLOGY", "status": "NO_CAUSAL_CLAIM", "label": "verschiedene Jahrzehnte"},
+    {"from": "C10", "to": "C11", "type": "CHRONOLOGY", "status": "NO_CAUSAL_CLAIM", "label": "späterer Konflikt"},
+    {"from": "C11", "to": "C12", "type": "SAME_EVENT_DIFFERENT_CLAIM", "status": "SOURCE_BOUND", "label": "Urteil / JIT"},
+    {"from": "C13", "to": "C01", "type": "SEPARATE_BRANCH", "status": "NO_BRIDGE", "label": "keine Quellenbrücke"}
+  ],
+  "openHypotheses": [
+    {
+      "id": "H01",
+      "title": "Historischer Red Room identisch mit Marvel",
+      "state": "NOT_PROVEN",
+      "countermodels": ["fiktionale Verdichtung mehrerer realer Praktiken", "vollständig eigenständige Erzählkonstruktion"],
+      "discriminator": "zeitgenössische, authentifizierte Primärakte einer so definierten Institution"
+    },
+    {
+      "id": "H02",
+      "title": "Gezielte Vernichtung beseitigte alle HV-A-Spuren",
+      "state": "CONTRADICTED_WITHIN_ARCHIVE_SCOPE",
+      "countermodels": ["Mikrofilm, SIRA, Bezirks- und Fremdbestände überlebten"],
+      "discriminator": "für einen Einzelfall vollständige Bestands- und Verlustbilanz"
+    },
+    {
+      "id": "H03",
+      "title": "Tschernobyl erklärt den Zerfall der UdSSR allein",
+      "state": "NOT_PROVEN",
+      "countermodels": ["mehrere wirtschaftliche, politische und nationale Ursachen"],
+      "discriminator": "vergleichende zeitgenössische Entscheidungs- und Wirtschaftsquellen"
+    },
+    {
+      "id": "H04",
+      "title": "Alle dargestellten Fälle gehören zu einer Operation",
+      "state": "NOT_PROVEN",
+      "countermodels": ["getrennte Institutionen mit ähnlichen Praktiken", "Montageeffekt und nachträgliche Musterbildung"],
+      "discriminator": "identische Befehls-, Personal- oder Finanzkette mit unabhängigen Primärbelegen"
+    }
+  ]
+}

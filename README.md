@@ -41,6 +41,12 @@ HALVETH VERACHEL STUDIOS · Quellstand, dokumentierte Ergebnisse und SHA-256-Bel
 
 **Aktuell:** [HALVETH Research · Forschung prüfen. Entscheidungen erklären.](reports/HALVETH_RESEARCH_2026-09-18.md) — öffentliche Forschungsnotiz und dokumentierter Stand der vorbereiteten Immunefi-Beschwerde.
 
+**Neuer Quellenast:** [Black Widow World Audit · Was von verschwundenen Akten bleibt](branches/black-widow-world-audit/README.md) · [Interaktive Karte](branches/black-widow-world-audit/index.html). HV-A-Vernichtung, SIRA- und Rosenholz-Restspuren, reale Geheimdienstmethoden und klar getrennte Fiktionsfragen.
+
+**LUCINET-Bild vom August 2026:** [Originalbild, C2PA-Datierung und heutiger Technikstand](reports/LUCINET_MIRROR_AUGUST_PROVENANCE_2026-10-16.md). Die signierte Bildfassung und die inzwischen vorhandenen Quellwerkzeuge sind getrennt dokumentiert.
+
+**Neuer ausführbarer LUCINET-Ast:** [Mirror Loop](branches/lucinet-mirror-loop/README.md) zeigt mit synthetischen Punkten zwei getrennte Vorhersagen und eine neue Projektion; eine zweite Ansicht prüft Apfel, Licht und Schatten aus einer festen Textgrammatik. Beide HTML-Ansichten werden lokal nach Anleitung gestartet.
+
 [Deutsch / English: Loki, Dormammu und Wanda](reports/HALVETH_MARVEL_PERSPECTIVES.de.md) · [Öffentliche Namensführung / Public attribution](PUBLIC-NAME.md)
 
 Hier treffen Software, Naturbeobachtung, Sprache und gesellschaftliche Fragen aufeinander. Du kannst ein Modell ausprobieren, einen Bericht lesen, eine Quelle ergänzen oder mit einer eigenen Frage einsteigen. Die Sammlung wächst mit nachvollziehbaren Beiträgen.

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-09-15",
+  "generatedAt": "2026-10-15",
   "collectionState": "FINITE_SNAPSHOT",
   "branches": [
     {
@@ -40,6 +40,16 @@
       "state": "PUBLIC_DERIVATIVE",
       "path": "branches/pixel-region-change-observer",
       "claimCeiling": "OFFLINE_RENDER_DIFFERENCE_ONLY",
+      "dataClass": "SYNTHETIC_ONLY",
+      "activeMain": false
+    },
+    {
+      "id": "lucinet-mirror-loop",
+      "title": "LUCINET Mirror Loop",
+      "kind": "software-prototype",
+      "state": "PUBLIC_DERIVATIVE",
+      "path": "branches/lucinet-mirror-loop",
+      "claimCeiling": "LOCAL_PREDICTION_COMPARISON_ON_SUPPLIED_SYNTHETIC_POINTS",
       "dataClass": "SYNTHETIC_ONLY",
       "activeMain": false
     },
@@ -331,6 +341,16 @@
       "path": "branches/normenwerk-rule-universe",
       "claimCeiling": "SYNTHETIC_MODEL_EVALUATION_FULL_RECORD_REPLAY_AND_IN_MEMORY_EVENT_ARCHIVE",
       "dataClass": "SYNTHETIC_FIXTURES_AND_PUBLIC_TECHNICAL_DOCUMENTATION_ONLY",
+      "activeMain": false
+    },
+    {
+      "id": "black-widow-world-audit",
+      "title": "Black Widow World Audit · Was von verschwundenen Akten bleibt",
+      "kind": "public-source-historical-audit-and-interactive-map",
+      "state": "FINITE_SNAPSHOT",
+      "path": "branches/black-widow-world-audit",
+      "claimCeiling": "SOURCE_BOUND_FINITE_SNAPSHOT_NO_CROSS_CASE_CAUSALITY",
+      "dataClass": "PUBLIC_SOURCES_ONLY",
       "activeMain": false
     },
     {
