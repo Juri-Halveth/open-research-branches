@@ -435,6 +435,7 @@ scripts/build-technology-roadmap.mjs
 scripts/competence-evidence.mjs
 scripts/competence-evidence.test.mjs
 scripts/create-provenance-snapshot.mjs
+scripts/evaluate-noaa-as-of-tide.mjs
 scripts/github-knowledge-gateway.mjs
 scripts/github-knowledge-gateway.test.mjs
 scripts/halveth-entry.mjs
