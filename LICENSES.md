@@ -11,6 +11,7 @@ including historical MIT, ISC, CC BY and CC0 terms.
 
 | Paths or file classes | License |
 | --- | --- |
+| `scripts/evaluate-noaa-as-of-tide.mjs` from its first public commit | [HALVETH Public-Interest Research License 2.0](LICENSE-HALVETH-PIRL-2.0.md), for original code to the extent the publisher holds licensable rights. This file-specific row makes the post-parent rule explicit; NOAA response data and factual tide values are not relicensed by it. |
 | `data/noaa-as-of-2026-10-18/*.json` from their first public commit | Unmodified public [NOAA CO-OPS API](https://api.tidesandcurrents.noaa.gov/api/prod/) responses, attributed to NOAA; this repository asserts no HALVETH license grant over NOAA data, facts, formats or marks. |
 | `reports/LUCINET_NOAA_AS_OF_TIDE_CAPTURE_2026-10-16.md` from its first public commit | [HALVETH Public-Interest Research License 2.0](LICENSE-HALVETH-PIRL-2.0.md), only for original prose and selection to the extent the publisher holds licensable rights. NOAA data, facts, station identifiers, API content and marks are not relicensed by this row. |
 | `reports/LUCINET_NOAA_AS_OF_TIDE_PROTOCOL_2026-10-16.md` from its first public commit | [HALVETH Public-Interest Research License 2.0](LICENSE-HALVETH-PIRL-2.0.md), only for original prose and selection to the extent the publisher holds licensable rights. NOAA products, facts, station identifiers, API content and marks are not relicensed by this row. |
