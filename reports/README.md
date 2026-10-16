@@ -1,6 +1,6 @@
 # Release artifacts
 
-**LUCINET:** [August-Bild und Provenienzgrenze](LUCINET_MIRROR_AUGUST_PROVENANCE_2026-10-16.md) · [NOAA-Messdaten-Benchmark mit zwölf Fenstern](LUCINET_NOAA_ROLLING_BENCHMARK_2026-10-16.md). Der zweite Bericht zeigt beide einfachen Modelle, zwei Fehlwahlen und den rollierenden Ein-Stunden-Test getrennt vom synthetischen Demonstrator.
+**LUCINET:** [August-Bild und Provenienzgrenze](LUCINET_MIRROR_AUGUST_PROVENANCE_2026-10-16.md) · [NOAA-Messdaten-Benchmark 2025](LUCINET_NOAA_ROLLING_BENCHMARK_2026-10-16.md) · [2024er Gegenprobe mit zwei ausgeschlossenen Fenstern](LUCINET_NOAA_2024_REPLICATION_2026-10-16.md). Beide NOAA-Berichte zeigen rollierende Ein-Stunden-Tests getrennt vom synthetischen Demonstrator; der spätere Bericht bewertet die zuvor fixierte R1-Gegenbaseline auf anderen historischen Fenstern.
 
 **WLAN-Faktencheck:** [Wi-Fi 6: Standard, Gerätefähigkeit und aktuelle Verbindung](WIFI6_STANDARD_AND_CONNECTION_2026-09-19.md) · Quellen, Funktionsschema und begrenzte lokale Prüfung.
 

@@ -14,6 +14,7 @@
 .gitignore
 AGENTS.md
 assets/lucinet-mirror-2026-08-08.png
+assets/lucinet-noaa-2024-replication-2026-10-16.png
 assets/lucinet-noaa-four-baselines-2026-10-16.png
 assets/lucinet-noaa-panel-12-windows-2026-10-16.png
 assets/research-room.png
@@ -409,6 +410,7 @@ reports/HALVETH_MARVEL_PERSPECTIVES.en.md
 reports/HALVETH_RESEARCH_2026-09-18.json
 reports/HALVETH_RESEARCH_2026-09-18.md
 reports/LUCINET_MIRROR_AUGUST_PROVENANCE_2026-10-16.md
+reports/LUCINET_NOAA_2024_REPLICATION_2026-10-16.md
 reports/LUCINET_NOAA_ROLLING_BENCHMARK_2026-10-16.md
 reports/MAC_OUI_REGISTRY_BOUNDARY.md
 reports/MICROSOFT_PKI_REPOSITORY_PATTERN.md

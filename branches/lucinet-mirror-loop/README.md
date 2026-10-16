@@ -118,7 +118,10 @@ neuen Messwerten zwischen den Prognosen und kein freilaufender 24-Stunden-Foreca
 Ein nachgelagerter Fachvergleich im selben Bericht zeigt auch eine einfache
 Tide-/Messrest-Baseline, die in diesen Fenstern deutlich besser als beide
 ursprünglichen Formeln ist. Sie wurde nach Sichtung erster Ergebnisse entworfen
-und ist ausdrücklich keine Blindprobe.
+und ist ausdrücklich keine Blindprobe. Eine [separat geplante 2024er
+Gegenprobe](../../reports/LUCINET_NOAA_2024_REPLICATION_2026-10-16.md) prüft
+die vier danach fixierten Formeln auf anderen historischen Zeitfenstern;
+zwei der zwölf Fenster bleiben wegen NOAA-Fehlantworten ausgeschlossen.
 
 ## Nächste unterscheidende Kanten
 
