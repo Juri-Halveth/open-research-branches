@@ -106,6 +106,16 @@ synthetischen Schatten auf und berechnet seinen Fehler gegen die zuvor
 angezeigte Projektion. Beide Fixtures stammen aus derselben lokalen
 Autorschaft; ein Treffer ist keine unabhängige Bestätigung an einer Außenquelle.
 
+## Getrennter Messdaten-Benchmark
+
+Der [NOAA-Pegelvergleich](../../reports/LUCINET_NOAA_ROLLING_BENCHMARK_2026-10-16.md)
+wendet dieselben beiden festen Rechenformeln außerhalb dieser HTML-Ansicht auf
+zwölf vorab bestimmte historische Messfenster an. Er zeigt pro Fenster beide
+Fehler und zwei Fehlwahlen der einfachen Auswahlregel. Die Daten kommen aus
+einem separaten, nur lesenden Abruf; die HTML-Ansicht selbst sendet weiterhin
+keine Netzwerkanfragen. Der Benchmark ist ein rollierender Ein-Stunden-Test mit
+neuen Messwerten zwischen den Prognosen und kein freilaufender 24-Stunden-Forecast.
+
 ## Nächste unterscheidende Kanten
 
 1. Eine zweite synthetische Folge mit anderer Bewegungsregel aus unabhängiger
