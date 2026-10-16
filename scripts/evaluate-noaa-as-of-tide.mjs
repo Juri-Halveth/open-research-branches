@@ -23,7 +23,8 @@ function stamp(index) {
 
 function finiteNumber(raw) {
   if (typeof raw !== "string" && typeof raw !== "number") return null;
-  if (String(raw).trim() === "") return null;
+  if (typeof raw === "string" &&
+      !/^[+-]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][+-]?\d+)?$/u.test(raw.trim())) return null;
   const value = Number(raw);
   return Number.isFinite(value) ? value : null;
 }
@@ -59,6 +60,9 @@ function readOutcomes(directory, station) {
   const obj = JSON.parse(bytes.toString("utf8"));
   if (!Array.isArray(obj.data)) {
     return { status: "NO_HOURLY_DATA", digest, points: new Map(), rejected: [] };
+  }
+  if (String(obj.metadata?.id) !== station) {
+    throw new Error(`Outcome station metadata mismatch for ${station}`);
   }
   const points = new Map();
   const rejected = [];
@@ -125,7 +129,8 @@ if (process.argv.length === 3 && process.argv[2] === "--self-test") {
   const test = score(Array(48).fill(0), { points, rejected: [] });
   if (test.scoredPairs !== 46 || test.excludedTargetHours !== 2 ||
       Math.abs(test.maeMeters - 0.1) > 1e-12 ||
-      Math.abs(test.rmseMeters - 0.1) > 1e-12) {
+      Math.abs(test.rmseMeters - 0.1) > 1e-12 ||
+      finiteNumber("0x10") !== null || finiteNumber(" 0.1 ") !== 0.1) {
     throw new Error("Synthetic arithmetic smoke test failed");
   }
   process.stdout.write("PASS synthetic Track-A arithmetic and missing/flag exclusions\n");
