@@ -1,6 +1,6 @@
 # Release artifacts
 
-**LUCINET:** [August-Bild und Provenienzgrenze](LUCINET_MIRROR_AUGUST_PROVENANCE_2026-10-16.md) · [NOAA-Messdaten-Benchmark 2025](LUCINET_NOAA_ROLLING_BENCHMARK_2026-10-16.md) · [2024er Gegenprobe mit zwei ausgeschlossenen Fenstern](LUCINET_NOAA_2024_REPLICATION_2026-10-16.md) · [Prüfprotokoll für einen vorab gesicherten 2026er Tide-Datenstand](LUCINET_NOAA_AS_OF_TIDE_PROTOCOL_2026-10-16.md). Die historischen Berichte zeigen rollierende Ein-Stunden-Tests getrennt vom synthetischen Demonstrator; das neue Protokoll fixiert eine künftige Vergleichskante ohne vorweggenommenes Ergebnis.
+**LUCINET:** [August-Bild und Provenienzgrenze](LUCINET_MIRROR_AUGUST_PROVENANCE_2026-10-16.md) · [NOAA-Messdaten-Benchmark 2025](LUCINET_NOAA_ROLLING_BENCHMARK_2026-10-16.md) · [2024er Gegenprobe mit zwei ausgeschlossenen Fenstern](LUCINET_NOAA_2024_REPLICATION_2026-10-16.md) · [Prüfprotokoll für den 2026er Tide-Datenstand](LUCINET_NOAA_AS_OF_TIDE_PROTOCOL_2026-10-16.md) · [Tide-Antworten vor den Zielstunden](LUCINET_NOAA_AS_OF_TIDE_CAPTURE_2026-10-16.md). Die historischen Berichte zeigen rollierende Ein-Stunden-Tests getrennt vom synthetischen Demonstrator; für 2026 sind nur die Eingänge vorab gebunden, noch keine späteren Pegel oder Ergebnisse.
 
 **WLAN-Faktencheck:** [Wi-Fi 6: Standard, Gerätefähigkeit und aktuelle Verbindung](WIFI6_STANDARD_AND_CONNECTION_2026-09-19.md) · Quellen, Funktionsschema und begrenzte lokale Prüfung.
 
