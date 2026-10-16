@@ -115,6 +115,10 @@ Fehler und zwei Fehlwahlen der einfachen Auswahlregel. Die Daten kommen aus
 einem separaten, nur lesenden Abruf; die HTML-Ansicht selbst sendet weiterhin
 keine Netzwerkanfragen. Der Benchmark ist ein rollierender Ein-Stunden-Test mit
 neuen Messwerten zwischen den Prognosen und kein freilaufender 24-Stunden-Forecast.
+Ein nachgelagerter Fachvergleich im selben Bericht zeigt auch eine einfache
+Tide-/Messrest-Baseline, die in diesen Fenstern deutlich besser als beide
+ursprünglichen Formeln ist. Sie wurde nach Sichtung erster Ergebnisse entworfen
+und ist ausdrücklich keine Blindprobe.
 
 ## Nächste unterscheidende Kanten
 

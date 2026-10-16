@@ -14,6 +14,7 @@
 .gitignore
 AGENTS.md
 assets/lucinet-mirror-2026-08-08.png
+assets/lucinet-noaa-four-baselines-2026-10-16.png
 assets/lucinet-noaa-panel-12-windows-2026-10-16.png
 assets/research-room.png
 branches/alice-media-referent-and-agency-audit/candidate-works.json
