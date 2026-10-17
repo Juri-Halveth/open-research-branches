@@ -1,7 +1,7 @@
 {
   "schema": "halveth.code-universe-catalog.v1",
   "snapshotDate": "2026-10-07",
-  "branchCount": 34,
+  "branchCount": 35,
   "coverage": "ALL_CURRENT_CATALOG_BRANCHES",
   "branches": [
     {
@@ -478,6 +478,21 @@
       ],
       "inventoryStatus": "FILES_PRESENT_NOT_ALL_EXECUTION_CLAIMS",
       "claimCeiling": "GENERIC_RETROSPECTIVE_AND_SYNTHETIC_MODEL_ONLY"
+    },
+    {
+      "id": "guardian-safety-concept",
+      "title": "LUCINET GUARDIAN: information and responsibility",
+      "path": "branches/guardian-safety-concept",
+      "state": "FINITE_SNAPSHOT",
+      "sourceFiles": [
+        "branches/guardian-safety-concept/index.html",
+        "branches/guardian-safety-concept/style.css",
+        "branches/guardian-safety-concept/slides.json"
+      ],
+      "testFiles": [],
+      "inventoryStatus": "CONCEPT_PRESENTATION_AND_STATIC_READING_PAGE_ONLY",
+      "claimCeiling": "NON_OPERATIONAL_CONCEPT_AND_SYNTHETIC_PILOT_SUMMARY"
     }
-  ]
+  ],
+  "lastUpdatedDate": "2026-10-17"
 }

@@ -342,6 +342,16 @@
       "claimCeiling": "GENERIC_RETROSPECTIVE_AND_SYNTHETIC_MODEL_ONLY",
       "dataClass": "GENERIC_DERIVATIVES_AND_SYNTHETIC_FIXTURES_ONLY",
       "activeMain": false
+    },
+    {
+      "id": "guardian-safety-concept",
+      "title": "LUCINET GUARDIAN: information and responsibility",
+      "kind": "concept-review",
+      "state": "FINITE_SNAPSHOT",
+      "path": "branches/guardian-safety-concept",
+      "claimCeiling": "NON_OPERATIONAL_CONCEPT_AND_SYNTHETIC_PILOT_SUMMARY",
+      "dataClass": "PUBLIC_DERIVATIVE_AND_SYNTHETIC_EXAMPLES",
+      "activeMain": false
     }
   ]
 }

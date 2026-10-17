@@ -95,3 +95,11 @@ For post-parent original contributions, this prospective rule takes precedence
 over the generic MIT, CC BY and CC0 class rows above. Historical files and
 overlapping material remain available from the earlier commits under those
 earlier terms.
+
+## GUARDIAN concept presentation
+
+The new original text, slide arrangement, editable presentation, PDF and rendered
+slide images under `branches/guardian-safety-concept/` follow
+[HALVETH Public-Interest Research License 2.0](LICENSE-HALVETH-PIRL-2.0.md).
+Linked institutional sources keep their own rights. This public research
+permission restricts commercial use and is not an unrestricted open-source grant.

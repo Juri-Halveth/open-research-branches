@@ -5,6 +5,7 @@ on:
     paths:
       - 'branches/banana-transition-field/**'
       - 'branches/security-impact-learning/**'
+      - 'branches/guardian-safety-concept/**'
       - '.github/workflows/banana-pages.yml'
   workflow_dispatch:
 permissions:
@@ -32,6 +33,11 @@ jobs:
           for file in index.html app.mjs model.mjs project-universe.mjs style.css statement.json; do
             cp "branches/banana-transition-field/$file" "_site/$file"
           done
+          mkdir -p _site/guardian/slides
+          for file in index.html style.css slides.json README.md pilot-results.json LUCINET_GUARDIAN_KONZEPT_24_FOLIEN_v3.pdf LUCINET_GUARDIAN_KONZEPT_24_FOLIEN_v3.pptx; do
+            cp "branches/guardian-safety-concept/$file" "_site/guardian/$file"
+          done
+          cp branches/guardian-safety-concept/slides/*.png _site/guardian/slides/
           mkdir -p _site/impact-learning
           for file in index.html README.md RETROSPECTIVE.md ENVIRONMENT_FIRST.md STATE_OBSERVATION.md MECHANISM_FIRST.md lessons.json sources.json fixtures.json impact-model.mjs cli-result-model.mjs demo.mjs AUDIT_METHODS.md submission-review.mjs audit-methods.html audit-methods.css audit-methods.mjs; do
             cp "branches/security-impact-learning/$file" "_site/impact-learning/$file"
