@@ -56,3 +56,8 @@ Im [Kandidaten-Ledger](https://github.com/Juri-Halveth/open-research-branches/bl
 
 - [Auge · Optik & kausale Vorhersage](../branches/eye-optics-and-prediction/README.md): Ersatzfläche, Hauptschnitte und synthetische Bewegung mit ausführbaren Gegenproben.
 - [FEGEFEUER · Zustands-Transduktor](../branches/fegefeuer-provenance-transducer/README.md): Ereignisarchiv, Kandidaten, gerichtete Aufnahme und gebundene Zustandsänderungen.
+
+## GUARDIAN: Informationsstände und Verantwortung
+
+[GUARDIAN-Konzeptpräsentation mit 24 Folien](../branches/guardian-safety-concept/README.md):
+visuelle Fragen zur unabhängigen Prüfung, ohne operative Drohnen- oder Waffensteuerung.
