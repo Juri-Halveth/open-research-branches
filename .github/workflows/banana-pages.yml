@@ -34,7 +34,7 @@ jobs:
             cp "branches/banana-transition-field/$file" "_site/$file"
           done
           mkdir -p _site/guardian/slides
-          for file in index.html style.css slides.json README.md pilot-results.json LUCINET_GUARDIAN_KONZEPT_24_FOLIEN_v3.pdf LUCINET_GUARDIAN_KONZEPT_24_FOLIEN_v3.pptx; do
+          for file in index.html style.css concept-visual.png slides.json README.md pilot-results.json LUCINET_GUARDIAN_KONZEPT_24_FOLIEN_v3.pdf LUCINET_GUARDIAN_KONZEPT_24_FOLIEN_v3.pptx; do
             cp "branches/guardian-safety-concept/$file" "_site/guardian/$file"
           done
           cp branches/guardian-safety-concept/slides/*.png _site/guardian/slides/

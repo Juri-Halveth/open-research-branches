@@ -10,6 +10,16 @@ Konzeptinitiative: Juri / HALVETH. Darstellung mit KI-Unterstützung, Fassung vo
 - [Folientexte und Quellenhinweise](slides.json)
 - [Begrenzte frühere Pilotresultate](pilot-results.json)
 
+## Das zentrale Erklärbild
+
+![Zehn Einheiten und ihre unterschiedlichen Informationsstände](concept-visual.png)
+
+01 hat eine Beobachtung. 02 bis 06 geben dieselbe Quelle weiter. 07 meldet
+etwas Abweichendes. Bei anderen ist die Information alt, verdeckt oder
+ungeklärt. Die Illustration benennt diese Größen, ohne Richtigkeit oder
+Unabhängigkeit der Quellen zu behaupten. Sie ist mit KI generiert und enthält
+keine Messdaten. Die bestehenden 24 Folien bleiben unverändert.
+
 ## Die Forschungsfrage
 
 Wie bleiben eigene Beobachtungen, empfangene Meldungen und Schlussfolgerungen
