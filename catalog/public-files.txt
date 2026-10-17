@@ -106,6 +106,7 @@ branches/focus-kernel/README.md
 branches/focus-kernel/SECURITY.md
 branches/focus-kernel/styles.css
 branches/focus-kernel/tests/core.test.mjs
+branches/guardian-safety-concept/concept-visual.png
 branches/guardian-safety-concept/document.extracted.txt
 branches/guardian-safety-concept/index.html
 branches/guardian-safety-concept/LUCINET_GUARDIAN_KONZEPT_24_FOLIEN_v3.pdf
