@@ -8,6 +8,22 @@
       "extractedTextSha256": "7e50058ba59917f07a3610cd64e901f5a522f15b51e716bcf168458f2c2e793b",
       "extractor": "Poppler pdftotext 26.02.0 with -layout -enc UTF-8",
       "manualReviewReceipt": "13 A4 pages rendered and visually reviewed on 2026-09-13; metadata and extracted text reviewed again on 2026-09-14"
+    },
+    {
+      "path": "branches/guardian-safety-concept/LUCINET_GUARDIAN_KONZEPT_24_FOLIEN_v3.pptx",
+      "sha256": "5e00002b4c5ae4fad86f898992bd55be85b5cd817d24cef1b82eeb77eab69ee7",
+      "extractedTextPath": "branches/guardian-safety-concept/presentation.extracted.txt",
+      "extractedTextSha256": "7b8bc5f7cf5753a65e48a6ab163a6f625a2ff4897d862203fc3b30aa51266ff8",
+      "extractor": "Python stdlib zipfile and ElementTree: a:t text from all 24 slide XML parts and all 24 note XML parts",
+      "manualReviewReceipt": "24 slide PNGs individually visually reviewed, revised slides re-reviewed on 2026-10-17; final PPTX package/import/font/layout checks passed; PDF raster layout spot-checked against authored slide PNGs; metadata and text reviewed. Concept only, no native PowerPoint execution."
+    },
+    {
+      "path": "branches/guardian-safety-concept/LUCINET_GUARDIAN_KONZEPT_24_FOLIEN_v3.pdf",
+      "sha256": "a875dc3a8882a659f65d6ee4602f48d2a1aaa5adbd3e26a993df4b1e136daa07",
+      "extractedTextPath": "branches/guardian-safety-concept/document.extracted.txt",
+      "extractedTextSha256": "0aeaf1b33a8f3f44ff791fed5d8d22a0231357d000e6a00ee0ed5d9c028a5f5e",
+      "extractor": "Poppler pdftotext with -layout -enc UTF-8; searchable layer from exact visible PPTX text",
+      "manualReviewReceipt": "24 slide PNGs individually visually reviewed, revised slides re-reviewed on 2026-10-17; final PPTX package/import/font/layout checks passed; PDF raster layout spot-checked against authored slide PNGs; metadata and text reviewed. Concept only, no native PowerPoint execution."
     }
   ]
 }

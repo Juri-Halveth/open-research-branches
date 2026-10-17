@@ -1,0 +1,21 @@
+{
+  "schemaVersion": "1.0.0",
+  "state": "HISTORICAL_LOCAL_RECEIPT_SUMMARY",
+  "sourceCommit": "fa7c3913b2dc1bf9d30ae665388e6372779d5034",
+  "measurementRecordedAt": "2026-10-16T21:08:52.736Z",
+  "testReceipt": {
+    "tests": 66,
+    "passed": 66,
+    "sha256": "8e1ad0aa983ba8404364911f00626fe028a444586b8c17e0b2992e28415ae116",
+    "rerunForThisPresentation": false
+  },
+  "syntheticTrace": {
+    "durationSeconds": 30,
+    "sampleHz": 60,
+    "directFocusSwitches": 92,
+    "integratedFocusSwitches": 0,
+    "withoutInhibitionFocusSwitches": 0,
+    "counting": "Transitions between non-null selections only"
+  },
+  "claimCeiling": "One deterministic synthetic trace. No isolated inhibition benefit, actual drone capability, independent cognition or real-world safety demonstrated."
+}

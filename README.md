@@ -282,3 +282,9 @@ an fremden Quellen, Tatsachen oder allgemeinen Ideen.
 ## KI-Einstieg und sichtbares Lernen
 
 [START_HERE_AI.md](START_HERE_AI.md) verbindet den gesamten aktuellen Hub-Dateibestand, den oeffentlichen Repository-Snapshot und eine quellengebundene Leseliste. [Unser Fehler und die Korrektur](branches/security-impact-learning/RETROSPECTIVE.md) bleiben neben [Code](branches/security-impact-learning/impact-model.mjs) und [interaktiver Ansicht](branches/security-impact-learning/index.html) sichtbar.
+
+## GUARDIAN: information and responsibility
+
+[24 visual concept slides, PDF and editable PowerPoint](branches/guardian-safety-concept/README.md)
+explain separate information states and critical review. This is a non-operational
+concept and a bounded historical pilot summary, without drone or weapon control.
